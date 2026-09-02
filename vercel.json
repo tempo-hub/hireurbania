@@ -1,6 +1,4 @@
 {
-  "buildCommand": "npm run build",
-  "outputDirectory": ".next",
   "env": {
     "MONGODB_URI": "@mongodb_uri"
   }
