@@ -681,10 +681,12 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/utensils.mjs [app-client] (ecmascript) <export default as Utensils>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hotel$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Hotel$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/hotel.mjs [app-client] (ecmascript) <export default as Hotel>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CityGuide$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/CityGuide.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.jsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/routesData.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
+;
 ;
 ;
 ;
@@ -728,7 +730,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                         children: question
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 86,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -741,25 +743,25 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                             color: "#0052CC"
                         }, void 0, false, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 89,
+                            lineNumber: 90,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                             size: 20,
                             color: "#7a8a9e"
                         }, void 0, false, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 91,
+                            lineNumber: 92,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 87,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 67,
+                lineNumber: 68,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -780,18 +782,18 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                     children: answer
                 }, void 0, false, {
                     fileName: "[project]/components/RouteTemplate.jsx",
-                    lineNumber: 102,
+                    lineNumber: 103,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 95,
+                lineNumber: 96,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/RouteTemplate.jsx",
-        lineNumber: 57,
+        lineNumber: 58,
         columnNumber: 5
     }, this);
 }
@@ -806,7 +808,7 @@ function RouteSeo({ route }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 130,
+                lineNumber: 131,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -814,7 +816,7 @@ function RouteSeo({ route }) {
                 content: description
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 131,
+                lineNumber: 132,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -822,7 +824,7 @@ function RouteSeo({ route }) {
                 content: title
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 132,
+                lineNumber: 133,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -830,7 +832,7 @@ function RouteSeo({ route }) {
                 content: description
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 133,
+                lineNumber: 134,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -838,7 +840,7 @@ function RouteSeo({ route }) {
                 content: "website"
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 134,
+                lineNumber: 135,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -846,7 +848,7 @@ function RouteSeo({ route }) {
                 content: "en_IN"
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 135,
+                lineNumber: 136,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -854,7 +856,7 @@ function RouteSeo({ route }) {
                 href: `https://hireurbaniatempotraveller.com/routes/${route.routeSlug}`
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 136,
+                lineNumber: 137,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -883,13 +885,13 @@ function RouteSeo({ route }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 142,
+                lineNumber: 143,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/RouteTemplate.jsx",
-        lineNumber: 129,
+        lineNumber: 130,
         columnNumber: 5
     }, this);
 }
@@ -976,7 +978,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                 route: route
             }, void 0, false, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 269,
+                lineNumber: 270,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -1006,7 +1008,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 285,
+                                lineNumber: 286,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1039,14 +1041,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 321,
+                                                lineNumber: 322,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "/"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 330,
+                                                lineNumber: 331,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1058,14 +1060,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 children: "Cities"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 331,
+                                                lineNumber: 332,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 children: "/"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 340,
+                                                lineNumber: 341,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1080,13 +1082,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 341,
+                                                lineNumber: 342,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 310,
+                                        lineNumber: 311,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1120,14 +1122,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 373,
+                                                                lineNumber: 374,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " Premium Route"
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 357,
+                                                        lineNumber: 358,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -1152,13 +1154,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 386,
+                                                                lineNumber: 387,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 376,
+                                                        lineNumber: 377,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1176,7 +1178,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 391,
+                                                        lineNumber: 392,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1202,7 +1204,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 425,
+                                                                        lineNumber: 426,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " ",
@@ -1211,7 +1213,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 417,
+                                                                lineNumber: 418,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1226,7 +1228,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 435,
+                                                                        lineNumber: 436,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " ",
@@ -1234,7 +1236,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 427,
+                                                                lineNumber: 428,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1249,20 +1251,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 445,
+                                                                        lineNumber: 446,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Up to 20 Seats"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 437,
+                                                                lineNumber: 438,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 406,
+                                                        lineNumber: 407,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1297,14 +1299,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 472,
+                                                                        lineNumber: 473,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Book on WhatsApp"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 451,
+                                                                lineNumber: 452,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1330,26 +1332,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 493,
+                                                                        lineNumber: 494,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Call Us"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 474,
+                                                                lineNumber: 475,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 450,
+                                                        lineNumber: 451,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 356,
+                                                lineNumber: 357,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1370,7 +1372,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Quick Trip Info"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 508,
+                                                        lineNumber: 509,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1382,7 +1384,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Everything you need to know at a glance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 517,
+                                                        lineNumber: 518,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1404,7 +1406,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 541,
+                                                                        lineNumber: 542,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1417,20 +1419,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "From"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 543,
+                                                                                lineNumber: 544,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                                 children: route.origin
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 546,
+                                                                                lineNumber: 547,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 542,
+                                                                        lineNumber: 543,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
@@ -1441,7 +1443,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 548,
+                                                                        lineNumber: 549,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1454,26 +1456,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "To"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 554,
+                                                                                lineNumber: 555,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                                 children: route.destination
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 557,
+                                                                                lineNumber: 558,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 553,
+                                                                        lineNumber: 554,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 534,
+                                                                lineNumber: 535,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1488,7 +1490,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 568,
+                                                                        lineNumber: 569,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1501,7 +1503,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Distance"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 570,
+                                                                                lineNumber: 571,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
@@ -1511,19 +1513,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 573,
+                                                                                lineNumber: 574,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 569,
+                                                                        lineNumber: 570,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 561,
+                                                                lineNumber: 562,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1538,7 +1540,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 584,
+                                                                        lineNumber: 585,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1551,26 +1553,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Duration"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 586,
+                                                                                lineNumber: 587,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                                 children: route.durationHrs
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 589,
+                                                                                lineNumber: 590,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 585,
+                                                                        lineNumber: 586,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 577,
+                                                                lineNumber: 578,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1585,7 +1587,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 600,
+                                                                        lineNumber: 601,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1598,26 +1600,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Vehicle Type"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 602,
+                                                                                lineNumber: 603,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                                                 children: "Force Urbania Tempo Traveller"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 605,
+                                                                                lineNumber: 606,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 601,
+                                                                        lineNumber: 602,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 593,
+                                                                lineNumber: 594,
                                                                 columnNumber: 19
                                                             }, this),
                                                             route.popularAttractions && route.popularAttractions.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1637,7 +1639,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: "Popular Attractions"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 619,
+                                                                        lineNumber: 620,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1657,48 +1659,48 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: attraction
                                                                             }, idx, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 638,
+                                                                                lineNumber: 639,
                                                                                 columnNumber: 31
                                                                             }, this))
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 628,
+                                                                        lineNumber: 629,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 611,
+                                                                lineNumber: 612,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 527,
+                                                        lineNumber: 528,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 499,
+                                                lineNumber: 500,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 346,
+                                        lineNumber: 347,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 299,
+                                lineNumber: 300,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 273,
+                        lineNumber: 274,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1743,14 +1745,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 698,
+                                                        lineNumber: 699,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Route Information"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 684,
+                                                lineNumber: 685,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1769,7 +1771,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 702,
+                                                lineNumber: 703,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1783,13 +1785,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 children: "Get complete travel information including distance, travel time, road condition, and the recommended Force Urbania for your journey."
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 713,
+                                                lineNumber: 714,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 677,
+                                        lineNumber: 678,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1838,12 +1840,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 25
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 772,
+                                                            lineNumber: 773,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 759,
+                                                        lineNumber: 760,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1857,7 +1859,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Distance"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 775,
+                                                        lineNumber: 776,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1873,13 +1875,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 786,
+                                                        lineNumber: 787,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 737,
+                                                lineNumber: 738,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1920,12 +1922,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 25
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 833,
+                                                            lineNumber: 834,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 820,
+                                                        lineNumber: 821,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1939,7 +1941,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Travel Time"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 836,
+                                                        lineNumber: 837,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1952,13 +1954,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: route.durationHrs
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 847,
+                                                        lineNumber: 848,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 798,
+                                                lineNumber: 799,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1999,12 +2001,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 25
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 894,
+                                                            lineNumber: 895,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 881,
+                                                        lineNumber: 882,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2018,7 +2020,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Road Condition"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 897,
+                                                        lineNumber: 898,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2031,13 +2033,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: route.roadCondition || "Excellent"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 908,
+                                                        lineNumber: 909,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 859,
+                                                lineNumber: 860,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2078,12 +2080,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 25
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 955,
+                                                            lineNumber: 956,
                                                             columnNumber: 19
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 942,
+                                                        lineNumber: 943,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2097,7 +2099,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: "Recommended Vehicle"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 958,
+                                                        lineNumber: 959,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2111,19 +2113,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: route.recommendedVehicle || "12 Seater Force Urbania"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 969,
+                                                        lineNumber: 970,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 920,
+                                                lineNumber: 921,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 728,
+                                        lineNumber: 729,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2152,7 +2154,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 }
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1000,
+                                                lineNumber: 1001,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2163,7 +2165,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: route.origin
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1003,
+                                                        lineNumber: 1004,
                                                         columnNumber: 17
                                                     }, this),
                                                     " → ",
@@ -2172,7 +2174,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: route.destination
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1005,
+                                                        lineNumber: 1006,
                                                         columnNumber: 17
                                                     }, this),
                                                     " · ",
@@ -2183,19 +2185,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1002,
+                                                lineNumber: 1003,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 983,
+                                        lineNumber: 984,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 668,
+                                lineNumber: 669,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2205,7 +2207,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 661,
+                        lineNumber: 662,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2246,14 +2248,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1071,
+                                                    lineNumber: 1072,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Route Details"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1058,
+                                            lineNumber: 1059,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2271,7 +2273,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1073,
+                                            lineNumber: 1074,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2283,13 +2285,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Final fare depends on dates, tolls, taxes, and trip duration."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1083,
+                                            lineNumber: 1084,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1051,
+                                    lineNumber: 1052,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2321,7 +2323,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Vehicle"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1117,
+                                                            lineNumber: 1118,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2332,7 +2334,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Rate"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1120,
+                                                            lineNumber: 1121,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2343,7 +2345,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Estimated Round Trip"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1123,
+                                                            lineNumber: 1124,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2355,18 +2357,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Action"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1126,
+                                                            lineNumber: 1127,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1109,
+                                                    lineNumber: 1110,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1108,
+                                                lineNumber: 1109,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2391,7 +2393,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             children: model.name
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 1153,
+                                                                            lineNumber: 1154,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -2406,18 +2408,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 1156,
+                                                                            lineNumber: 1157,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 1152,
+                                                                    lineNumber: 1153,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1151,
+                                                                lineNumber: 1152,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2436,13 +2438,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: "/km"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1165,
+                                                                        lineNumber: 1166,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1163,
+                                                                lineNumber: 1164,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2454,7 +2456,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 children: formatCurrency(Math.round(roundTripDistance * model.ratePerKm + model.driverAllowance * 3))
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1175,
+                                                                lineNumber: 1176,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2487,41 +2489,41 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             size: 14
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 1215,
+                                                                            lineNumber: 1216,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         " Get Quote"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 1192,
+                                                                    lineNumber: 1193,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1189,
+                                                                lineNumber: 1190,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, model.id, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1139,
+                                                        lineNumber: 1140,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1137,
+                                                lineNumber: 1138,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 1101,
+                                        lineNumber: 1102,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1094,
+                                    lineNumber: 1095,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2534,18 +2536,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                     children: "* Estimates include driver allowance for 3 days. Final fare may vary based on actual route, tolls, and taxes."
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1224,
+                                    lineNumber: 1225,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1043,
+                            lineNumber: 1044,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1039,
+                        lineNumber: 1040,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2563,14 +2565,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 15
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1244,
+                                                    lineNumber: 1245,
                                                     columnNumber: 17
                                                 }, this),
                                                 "Why Choose HireUrbania"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1243,
+                                            lineNumber: 1244,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2578,7 +2580,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Why Book Force Urbania With Us?"
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1248,
+                                            lineNumber: 1249,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2586,13 +2588,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Premium Urbania rentals with professional service, transparent pricing, and comfortable travel across India."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1252,
+                                            lineNumber: 1253,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1242,
+                                    lineNumber: 1243,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2607,32 +2609,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1263,
+                                                        lineNumber: 1264,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1262,
+                                                    lineNumber: 1263,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Transparent Pricing"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1266,
+                                                    lineNumber: 1267,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Clear fares with no hidden charges."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1268,
+                                                    lineNumber: 1269,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1261,
+                                            lineNumber: 1262,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2644,32 +2646,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1274,
+                                                        lineNumber: 1275,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1273,
+                                                    lineNumber: 1274,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Verified Drivers"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1277,
+                                                    lineNumber: 1278,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Experienced and professional chauffeurs."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1279,
+                                                    lineNumber: 1280,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1272,
+                                            lineNumber: 1273,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2681,32 +2683,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1285,
+                                                        lineNumber: 1286,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1284,
+                                                    lineNumber: 1285,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "24×7 Customer Support"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1288,
+                                                    lineNumber: 1289,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Assistance before and throughout your journey."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1290,
+                                                    lineNumber: 1291,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1283,
+                                            lineNumber: 1284,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2718,32 +2720,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1296,
+                                                        lineNumber: 1297,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1295,
+                                                    lineNumber: 1296,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Premium Force Urbania"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1299,
+                                                    lineNumber: 1300,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Clean, comfortable, and well-maintained vehicles."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1301,
+                                                    lineNumber: 1302,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1294,
+                                            lineNumber: 1295,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2755,32 +2757,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1307,
+                                                        lineNumber: 1308,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1306,
+                                                    lineNumber: 1307,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "GPS Enabled Vehicles"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1310,
+                                                    lineNumber: 1311,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Track your journey with GPS-enabled vehicles."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1312,
+                                                    lineNumber: 1313,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1305,
+                                            lineNumber: 1306,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2792,32 +2794,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1318,
+                                                        lineNumber: 1319,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1317,
+                                                    lineNumber: 1318,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Sanitized Vehicles"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1321,
+                                                    lineNumber: 1322,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Clean and hygienic vehicles for every trip."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1323,
+                                                    lineNumber: 1324,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1316,
+                                            lineNumber: 1317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2829,32 +2831,32 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1329,
+                                                        lineNumber: 1330,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1328,
+                                                    lineNumber: 1329,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Quick & Easy Booking"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1332,
+                                                    lineNumber: 1333,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Book your Urbania online or through WhatsApp."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1334,
+                                                    lineNumber: 1335,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1327,
+                                            lineNumber: 1328,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2866,49 +2868,49 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1340,
+                                                        lineNumber: 1341,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1339,
+                                                    lineNumber: 1340,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: "Trip Assistance"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1343,
+                                                    lineNumber: 1344,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: "Get route, travel, and trip-planning assistance."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1345,
+                                                    lineNumber: 1346,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1338,
+                                            lineNumber: 1339,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1259,
+                                    lineNumber: 1260,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1240,
+                            lineNumber: 1241,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1239,
+                        lineNumber: 1240,
                         columnNumber: 9
                     }, this),
                     cityGuide && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2929,17 +2931,17 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 route: route
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 1365,
+                                lineNumber: 1366,
                                 columnNumber: 15
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1357,
+                            lineNumber: 1358,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1353,
+                        lineNumber: 1354,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2980,14 +2982,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1403,
+                                                    lineNumber: 1404,
                                                     columnNumber: 17
                                                 }, this),
                                                 " How Booking Works"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1390,
+                                            lineNumber: 1391,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3011,7 +3013,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1414,
+                                                    lineNumber: 1415,
                                                     columnNumber: 17
                                                 }, this),
                                                 " ",
@@ -3019,7 +3021,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1405,
+                                            lineNumber: 1406,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3038,13 +3040,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1419,
+                                            lineNumber: 1420,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1383,
+                                    lineNumber: 1384,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3061,7 +3063,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1442,
+                                                lineNumber: 1443,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Contact Us",
@@ -3073,7 +3075,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1448,
+                                                lineNumber: 1449,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Get Quote",
@@ -3085,7 +3087,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1454,
+                                                lineNumber: 1455,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Confirm Booking",
@@ -3097,7 +3099,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1460,
+                                                lineNumber: 1461,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Enjoy Travel",
@@ -3159,7 +3161,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.step
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1496,
+                                                    lineNumber: 1497,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3178,7 +3180,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1527,
+                                                    lineNumber: 1528,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3199,7 +3201,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1545,
+                                                    lineNumber: 1546,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3219,7 +3221,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1565,
+                                                    lineNumber: 1566,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3243,7 +3245,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     }
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1584,
+                                                    lineNumber: 1585,
                                                     columnNumber: 19
                                                 }, this),
                                                 index < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3260,18 +3262,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     className: "step-connector"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1609,
+                                                    lineNumber: 1610,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1465,
+                                            lineNumber: 1466,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1431,
+                                    lineNumber: 1432,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3311,7 +3313,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1657,
+                                                    lineNumber: 1658,
                                                     columnNumber: 17
                                                 }, this),
                                                 " ",
@@ -3319,7 +3321,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1649,
+                                            lineNumber: 1650,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3355,31 +3357,31 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 20
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1694,
+                                                    lineNumber: 1695,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Book Now"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1662,
+                                            lineNumber: 1663,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1628,
+                                    lineNumber: 1629,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1375,
+                            lineNumber: 1376,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1371,
+                        lineNumber: 1372,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3424,14 +3426,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1735,
+                                                        lineNumber: 1736,
                                                         columnNumber: 17
                                                     }, this),
                                                     "Route Guide"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1721,
+                                                lineNumber: 1722,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3457,13 +3459,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1747,
+                                                        lineNumber: 1748,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1738,
+                                                lineNumber: 1739,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3484,13 +3486,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1751,
+                                                lineNumber: 1752,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 1714,
+                                        lineNumber: 1715,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3520,7 +3522,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1788,
+                                                            lineNumber: 1789,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Route",
@@ -3532,7 +3534,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1793,
+                                                            lineNumber: 1794,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Distance",
@@ -3544,7 +3546,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1798,
+                                                            lineNumber: 1799,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Travel Time",
@@ -3556,7 +3558,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1803,
+                                                            lineNumber: 1804,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Road Type",
@@ -3590,7 +3592,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 children: item.icon
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1828,
+                                                                lineNumber: 1829,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3605,7 +3607,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: item.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1830,
+                                                                        lineNumber: 1831,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3618,24 +3620,24 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: item.value
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1833,
+                                                                        lineNumber: 1834,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1829,
+                                                                lineNumber: 1830,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, index, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1808,
+                                                        lineNumber: 1809,
                                                         columnNumber: 19
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1776,
+                                                lineNumber: 1777,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3669,14 +3671,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1871,
+                                                                        lineNumber: 1872,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     "Route Information"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1860,
+                                                                lineNumber: 1861,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3706,7 +3708,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Highway Name"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1892,
+                                                                                lineNumber: 1893,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3718,13 +3720,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getHighwayName"])(route.origin, route.destination)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1893,
+                                                                                lineNumber: 1894,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1882,
+                                                                        lineNumber: 1883,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3746,7 +3748,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Road Condition"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1907,
+                                                                                lineNumber: 1908,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3758,13 +3760,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getRoadCondition"])(route.distanceKm)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1908,
+                                                                                lineNumber: 1909,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1897,
+                                                                        lineNumber: 1898,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3786,7 +3788,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Night Travel"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1927,
+                                                                                lineNumber: 1928,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3798,13 +3800,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: route.distanceKm < 300 ? "✓ Safe" : "⚠️ Not Recommended"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1928,
+                                                                                lineNumber: 1929,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1917,
+                                                                        lineNumber: 1918,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3826,7 +3828,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Best Season"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1949,
+                                                                                lineNumber: 1950,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3838,25 +3840,25 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBestSeason"])(route.destination)
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1950,
+                                                                                lineNumber: 1951,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1939,
+                                                                        lineNumber: 1940,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1875,
+                                                                lineNumber: 1876,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1859,
+                                                        lineNumber: 1860,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3879,14 +3881,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#F59E0B"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1970,
+                                                                        lineNumber: 1971,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     "Quick Tips"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1959,
+                                                                lineNumber: 1960,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3920,7 +3922,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1994,
+                                                                                lineNumber: 1995,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3932,13 +3934,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1999,
+                                                                                lineNumber: 2000,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1981,
+                                                                        lineNumber: 1982,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3964,7 +3966,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2016,
+                                                                                lineNumber: 2017,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -3972,13 +3974,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Fuel up before entering remote stretches"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2021,
+                                                                                lineNumber: 2022,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2003,
+                                                                        lineNumber: 2004,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4004,7 +4006,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 }
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2036,
+                                                                                lineNumber: 2037,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4012,31 +4014,31 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: "Carry camera for scenic views on the route"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2041,
+                                                                                lineNumber: 2042,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2023,
+                                                                        lineNumber: 2024,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1974,
+                                                                lineNumber: 1975,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1958,
+                                                        lineNumber: 1959,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1848,
+                                                lineNumber: 1849,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4079,14 +4081,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2080,
+                                                                        lineNumber: 2081,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     "Recommended Stopovers"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2069,
+                                                                lineNumber: 2070,
                                                                 columnNumber: 19
                                                             }, this),
                                                             expandedSections.stopovers ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
@@ -4094,20 +4096,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2084,
+                                                                lineNumber: 2085,
                                                                 columnNumber: 21
                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                                 size: 20,
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2086,
+                                                                lineNumber: 2087,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2055,
+                                                        lineNumber: 2056,
                                                         columnNumber: 17
                                                     }, this),
                                                     expandedSections.stopovers && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4156,34 +4158,34 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2134,
+                                                                                lineNumber: 2135,
                                                                                 columnNumber: 58
                                                                             }, this),
                                                                             stopover.icon === "food" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2135,
+                                                                                lineNumber: 2136,
                                                                                 columnNumber: 56
                                                                             }, this),
                                                                             stopover.icon === "hotel" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hotel$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Hotel$3e$__["Hotel"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2136,
+                                                                                lineNumber: 2137,
                                                                                 columnNumber: 57
                                                                             }, this),
                                                                             stopover.icon === "rest" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2137,
+                                                                                lineNumber: 2138,
                                                                                 columnNumber: 56
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2121,
+                                                                        lineNumber: 2122,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4199,7 +4201,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: stopover.name
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2140,
+                                                                                lineNumber: 2141,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4211,30 +4213,30 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 children: stopover.purpose
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2149,
+                                                                                lineNumber: 2150,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2139,
+                                                                        lineNumber: 2140,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2101,
+                                                                lineNumber: 2102,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2091,
+                                                        lineNumber: 2092,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2048,
+                                                lineNumber: 2049,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4272,14 +4274,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2188,
+                                                                        lineNumber: 2189,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     "Pro Travel Tips"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2177,
+                                                                lineNumber: 2178,
                                                                 columnNumber: 19
                                                             }, this),
                                                             expandedSections.tips ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
@@ -4287,20 +4289,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2192,
+                                                                lineNumber: 2193,
                                                                 columnNumber: 21
                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                                 size: 20,
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2194,
+                                                                lineNumber: 2195,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2163,
+                                                        lineNumber: 2164,
                                                         columnNumber: 17
                                                     }, this),
                                                     expandedSections.tips && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4334,7 +4336,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: "✓"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2222,
+                                                                        lineNumber: 2223,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4342,36 +4344,36 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: tip
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2225,
+                                                                        lineNumber: 2226,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2208,
+                                                                lineNumber: 2209,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2199,
+                                                        lineNumber: 2200,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2162,
+                                                lineNumber: 2163,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 1766,
+                                        lineNumber: 1767,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 1705,
+                                lineNumber: 1706,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4381,7 +4383,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1701,
+                        lineNumber: 1702,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4424,14 +4426,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2302,
+                                                    lineNumber: 2303,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Travel Solutions"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2289,
+                                            lineNumber: 2290,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4457,13 +4459,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2313,
+                                                    lineNumber: 2314,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2304,
+                                            lineNumber: 2305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4483,13 +4485,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2317,
+                                            lineNumber: 2318,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2282,
+                                    lineNumber: 2283,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4624,7 +4626,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2449,
+                                                    lineNumber: 2450,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4645,7 +4647,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2475,
+                                                    lineNumber: 2476,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4659,7 +4661,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2495,
+                                                    lineNumber: 2496,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4683,7 +4685,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     color: "#0052CC"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2520,
+                                                                    lineNumber: 2521,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4691,18 +4693,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: feature
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2521,
+                                                                    lineNumber: 2522,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2509,
+                                                            lineNumber: 2510,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2507,
+                                                    lineNumber: 2508,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4726,7 +4728,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Recommended"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2538,
+                                                            lineNumber: 2539,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4739,13 +4741,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: solution.recommendedSeater
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2541,
+                                                            lineNumber: 2542,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2527,
+                                                    lineNumber: 2528,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4783,25 +4785,25 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2586,
+                                                            lineNumber: 2587,
                                                             columnNumber: 21
                                                         }, this),
                                                         " Book Now"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2553,
+                                                    lineNumber: 2554,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2422,
+                                            lineNumber: 2423,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2331,
+                                    lineNumber: 2332,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4832,7 +4834,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Need a Custom Travel Solution?"
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2612,
+                                            lineNumber: 2613,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4854,7 +4856,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2622,
+                                            lineNumber: 2623,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4899,14 +4901,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2675,
+                                                            lineNumber: 2676,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Get Custom Quote"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2644,
+                                                    lineNumber: 2645,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4940,26 +4942,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2703,
+                                                            lineNumber: 2704,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Call Now"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2677,
+                                                    lineNumber: 2678,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2636,
+                                            lineNumber: 2637,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2593,
+                                    lineNumber: 2594,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4969,12 +4971,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 2273,
+                            lineNumber: 2274,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 2269,
+                        lineNumber: 2270,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5017,14 +5019,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2773,
+                                                    lineNumber: 2774,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Transparent Pricing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2760,
+                                            lineNumber: 2761,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5050,13 +5052,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2784,
+                                                    lineNumber: 2785,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2775,
+                                            lineNumber: 2776,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5075,13 +5077,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2788,
+                                            lineNumber: 2789,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2753,
+                                    lineNumber: 2754,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5099,7 +5101,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2813,
+                                                lineNumber: 2814,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Pay only for the distance you travel",
@@ -5117,7 +5119,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2825,
+                                                lineNumber: 2826,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Professional chauffeur charges",
@@ -5135,7 +5137,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2837,
+                                                lineNumber: 2838,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Actual charges as per route",
@@ -5153,7 +5155,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2849,
+                                                lineNumber: 2850,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Complete trip cost",
@@ -5209,7 +5211,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     className: "jsx-76150aa2d72024ce" + " " + "pricing-bar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2889,
+                                                    lineNumber: 2890,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5239,7 +5241,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2909,
+                                                    lineNumber: 2910,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5253,7 +5255,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2939,
+                                                    lineNumber: 2940,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5266,7 +5268,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2951,
+                                                    lineNumber: 2952,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5292,7 +5294,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     color: item.color
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2981,
+                                                                    lineNumber: 2982,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -5300,29 +5302,29 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: detail
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2982,
+                                                                    lineNumber: 2983,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2970,
+                                                            lineNumber: 2971,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2962,
+                                                    lineNumber: 2963,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2860,
+                                            lineNumber: 2861,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2802,
+                                    lineNumber: 2803,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5362,7 +5364,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3011,
+                                            lineNumber: 3012,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5398,7 +5400,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: "Component"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3039,
+                                                                    lineNumber: 3040,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -5412,7 +5414,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: "Description"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3049,
+                                                                    lineNumber: 3050,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -5426,18 +5428,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: "Amount"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3059,
+                                                                    lineNumber: 3060,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3033,
+                                                            lineNumber: 3034,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 3032,
+                                                        lineNumber: 3033,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -5507,7 +5509,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: item.component
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3132,
+                                                                        lineNumber: 3133,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -5519,7 +5521,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: item.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3141,
+                                                                        lineNumber: 3142,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -5533,29 +5535,29 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         children: item.amount
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3149,
+                                                                        lineNumber: 3150,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 3110,
+                                                                lineNumber: 3111,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 3071,
+                                                        lineNumber: 3072,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 3025,
+                                                lineNumber: 3026,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3024,
+                                            lineNumber: 3025,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5569,13 +5571,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "* Final fare may vary based on actual route, tolls, and additional halts. Contact us for a precise quote."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3165,
+                                            lineNumber: 3166,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2991,
+                                    lineNumber: 2992,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5621,14 +5623,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3217,
+                                                            lineNumber: 3218,
                                                             columnNumber: 19
                                                         }, this),
                                                         " What's Included"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3206,
+                                                    lineNumber: 3207,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5666,25 +5668,25 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: "✓"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3240,
+                                                                    lineNumber: 3241,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 item
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3229,
+                                                            lineNumber: 3230,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3219,
+                                                    lineNumber: 3220,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3188,
+                                            lineNumber: 3189,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5721,14 +5723,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3279,
+                                                            lineNumber: 3280,
                                                             columnNumber: 19
                                                         }, this),
                                                         " What's Not Included"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3268,
+                                                    lineNumber: 3269,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -5766,31 +5768,31 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: "✗"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3302,
+                                                                    lineNumber: 3303,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 item
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3291,
+                                                            lineNumber: 3292,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3281,
+                                                    lineNumber: 3282,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3250,
+                                            lineNumber: 3251,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3179,
+                                    lineNumber: 3180,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5827,12 +5829,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 3342,
+                                                lineNumber: 3343,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3330,
+                                            lineNumber: 3331,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5845,7 +5847,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Our Price Promise"
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3344,
+                                            lineNumber: 3345,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5867,7 +5869,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3353,
+                                            lineNumber: 3354,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -5903,20 +5905,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3397,
+                                                    lineNumber: 3398,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Get Best Price Quote"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3366,
+                                            lineNumber: 3367,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3313,
+                                    lineNumber: 3314,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -5926,12 +5928,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 2744,
+                            lineNumber: 2745,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 2740,
+                        lineNumber: 2741,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5972,14 +5974,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3479,
+                                                    lineNumber: 3480,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Transparent Pricing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3466,
+                                            lineNumber: 3467,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5995,7 +5997,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3481,
+                                            lineNumber: 3482,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6007,13 +6009,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Choose the vehicle that fits your group and luggage."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3491,
+                                            lineNumber: 3492,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3459,
+                                    lineNumber: 3460,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6062,7 +6064,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3538,
+                                                            lineNumber: 3539,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6083,7 +6085,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.capacity
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3551,
+                                                            lineNumber: 3552,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6109,20 +6111,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     fill: "#FFB800"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3588,
+                                                                    lineNumber: 3589,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " 4.9"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3570,
+                                                            lineNumber: 3571,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3526,
+                                                    lineNumber: 3527,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6141,7 +6143,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3594,
+                                                            lineNumber: 3595,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6156,7 +6158,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.tagline
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3605,
+                                                            lineNumber: 3606,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6184,7 +6186,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3631,
+                                                                            lineNumber: 3632,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.seater,
@@ -6192,7 +6194,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3630,
+                                                                    lineNumber: 3631,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6209,20 +6211,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3638,
+                                                                            lineNumber: 3639,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.luggageCapacity
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3637,
+                                                                    lineNumber: 3638,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3619,
+                                                            lineNumber: 3620,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6243,7 +6245,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             children: "Starting from"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3656,
+                                                                            lineNumber: 3657,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6264,19 +6266,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                     children: "/km"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                    lineNumber: 3668,
+                                                                                    lineNumber: 3669,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3659,
+                                                                            lineNumber: 3660,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3655,
+                                                                    lineNumber: 3656,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6293,13 +6295,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3679,
+                                                                    lineNumber: 3680,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3647,
+                                                            lineNumber: 3648,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6330,42 +6332,42 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     size: 16
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3719,
+                                                                    lineNumber: 3720,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " Book This Vehicle"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3693,
+                                                            lineNumber: 3694,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3593,
+                                                    lineNumber: 3594,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, model.id, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3511,
+                                            lineNumber: 3512,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3502,
+                                    lineNumber: 3503,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3451,
+                            lineNumber: 3452,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3447,
+                        lineNumber: 3448,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6406,14 +6408,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3761,
+                                                    lineNumber: 3762,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Customer Reviews"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3748,
+                                            lineNumber: 3749,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6437,13 +6439,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3772,
+                                                    lineNumber: 3773,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3763,
+                                            lineNumber: 3764,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6461,13 +6463,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3776,
+                                            lineNumber: 3777,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3741,
+                                    lineNumber: 3742,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6546,12 +6548,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: i < review.rating ? "#FFB800" : "#d1d5db"
                                                         }, i, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3863,
+                                                            lineNumber: 3864,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3854,
+                                                    lineNumber: 3855,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6569,7 +6571,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3873,
+                                                    lineNumber: 3874,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6597,7 +6599,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: review.avatar
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3895,
+                                                            lineNumber: 3896,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6611,7 +6613,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: review.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3912,
+                                                                    lineNumber: 3913,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6626,41 +6628,41 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3921,
+                                                                    lineNumber: 3922,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3911,
+                                                            lineNumber: 3912,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3886,
+                                                    lineNumber: 3887,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3829,
+                                            lineNumber: 3830,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3788,
+                                    lineNumber: 3789,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3733,
+                            lineNumber: 3734,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3729,
+                        lineNumber: 3730,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6684,12 +6686,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         children: "More Popular Routes"
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 3951,
+                                        lineNumber: 3952,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3950,
+                                    lineNumber: 3951,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6706,7 +6708,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3957,
+                                                    lineNumber: 3958,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6716,7 +6718,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3961,
+                                                            lineNumber: 3962,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -6727,7 +6729,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3962,
+                                                            lineNumber: 3963,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -6735,7 +6737,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3960,
+                                                    lineNumber: 3961,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6744,29 +6746,29 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: "View Route"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3964,
+                                                    lineNumber: 3965,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, item.routeSlug, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3956,
+                                            lineNumber: 3957,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3954,
+                                    lineNumber: 3955,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3942,
+                            lineNumber: 3943,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3938,
+                        lineNumber: 3939,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6809,14 +6811,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4010,
+                                                    lineNumber: 4011,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Journey Preview"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3997,
+                                            lineNumber: 3998,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6842,13 +6844,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4021,
+                                                    lineNumber: 4022,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4012,
+                                            lineNumber: 4013,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6868,13 +6870,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4025,
+                                            lineNumber: 4026,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3990,
+                                    lineNumber: 3991,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6909,14 +6911,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4063,
+                                                            lineNumber: 4064,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Premium Travel Experience"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4048,
+                                                    lineNumber: 4049,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -6935,7 +6937,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4066,
+                                                    lineNumber: 4067,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6959,7 +6961,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4077,
+                                                    lineNumber: 4078,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6977,7 +6979,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4110,
+                                                                lineNumber: 4111,
                                                                 columnNumber: 29
                                                             }, this),
                                                             text: "Door-to-door pickup & drop"
@@ -6988,7 +6990,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4114,
+                                                                lineNumber: 4115,
                                                                 columnNumber: 29
                                                             }, this),
                                                             text: "Safe & verified drivers"
@@ -6999,7 +7001,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4118,
+                                                                lineNumber: 4119,
                                                                 columnNumber: 29
                                                             }, this),
                                                             text: "Highly rated by travelers"
@@ -7010,7 +7012,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4122,
+                                                                lineNumber: 4123,
                                                                 columnNumber: 29
                                                             }, this),
                                                             text: "On-time service guarantee"
@@ -7046,18 +7048,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: feature.text
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 4147,
+                                                                    lineNumber: 4148,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4126,
+                                                            lineNumber: 4127,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4100,
+                                                    lineNumber: 4101,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7094,20 +7096,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4194,
+                                                            lineNumber: 4195,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Book Your Ride →"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4161,
+                                                    lineNumber: 4162,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4046,
+                                            lineNumber: 4047,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7162,12 +7164,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             className: "jsx-548d48f0ecff5dd6"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4239,
+                                                            lineNumber: 4240,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4230,
+                                                        lineNumber: 4231,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7211,7 +7213,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 children: "🗺️"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4290,
+                                                                lineNumber: 4291,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -7225,7 +7227,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 children: "View Route Map"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4298,
+                                                                lineNumber: 4299,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7245,7 +7247,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4308,
+                                                                lineNumber: 4309,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7264,37 +7266,37 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 4330,
+                                                                        lineNumber: 4331,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     "Open Google Maps"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4319,
+                                                                lineNumber: 4320,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4252,
+                                                        lineNumber: 4253,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4218,
+                                                lineNumber: 4219,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4199,
+                                            lineNumber: 4200,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4037,
+                                    lineNumber: 4038,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7312,7 +7314,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#0052CC"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4349,
+                                                lineNumber: 4350,
                                                 columnNumber: 25
                                             }, this),
                                             label: "Total Distance",
@@ -7324,7 +7326,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#0052CC"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4354,
+                                                lineNumber: 4355,
                                                 columnNumber: 25
                                             }, this),
                                             label: "Travel Time",
@@ -7336,7 +7338,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#0052CC"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4359,
+                                                lineNumber: 4360,
                                                 columnNumber: 25
                                             }, this),
                                             label: "Max Capacity",
@@ -7348,7 +7350,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#0052CC"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4364,
+                                                lineNumber: 4365,
                                                 columnNumber: 25
                                             }, this),
                                             label: "Vehicle Type",
@@ -7390,7 +7392,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: stat.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4391,
+                                                    lineNumber: 4392,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7405,7 +7407,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: stat.label
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4405,
+                                                    lineNumber: 4406,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7419,18 +7421,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: stat.value
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4416,
+                                                    lineNumber: 4417,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4369,
+                                            lineNumber: 4370,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4339,
+                                    lineNumber: 4340,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -7440,12 +7442,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3981,
+                            lineNumber: 3982,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3977,
+                        lineNumber: 3978,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7486,14 +7488,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4521,
+                                                    lineNumber: 4522,
                                                     columnNumber: 17
                                                 }, this),
                                                 " FAQ"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4508,
+                                            lineNumber: 4509,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7512,7 +7514,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4523,
+                                            lineNumber: 4524,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7530,13 +7532,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4534,
+                                            lineNumber: 4535,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4501,
+                                    lineNumber: 4502,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7554,12 +7556,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             onToggle: ()=>toggleFAQ(index)
                                         }, index, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4556,
+                                            lineNumber: 4557,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4546,
+                                    lineNumber: 4547,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -7580,18 +7582,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4567,
+                                    lineNumber: 4568,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 4493,
+                            lineNumber: 4494,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4489,
+                        lineNumber: 4490,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7616,7 +7618,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4599,
+                                lineNumber: 4600,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7631,7 +7633,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4611,
+                                lineNumber: 4612,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7668,14 +7670,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 fill: "#FFB800"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4654,
+                                                lineNumber: 4655,
                                                 columnNumber: 15
                                             }, this),
                                             " ⭐⭐⭐ Limited Availability"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4636,
+                                        lineNumber: 4637,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7701,7 +7703,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4669,
+                                                lineNumber: 4670,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -7709,7 +7711,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4658,
+                                        lineNumber: 4659,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7724,7 +7726,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         children: "Secure your luxury Force Urbania Tempo Traveller now. Get instant confirmation, transparent pricing, and a dedicated chauffeur for your journey."
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4676,
+                                        lineNumber: 4677,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7747,7 +7749,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4709,
+                                                    lineNumber: 4710,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Instant Confirmation"
@@ -7757,7 +7759,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4712,
+                                                    lineNumber: 4713,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Verified Chauffeur"
@@ -7767,7 +7769,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4713,
+                                                    lineNumber: 4714,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Best Price Guarantee"
@@ -7777,7 +7779,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4714,
+                                                    lineNumber: 4715,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "24/7 Support"
@@ -7801,19 +7803,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: benefit.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4729,
+                                                        lineNumber: 4730,
                                                         columnNumber: 19
                                                     }, this),
                                                     benefit.text
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4716,
+                                                lineNumber: 4717,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4692,
+                                        lineNumber: 4693,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7851,14 +7853,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 22
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4770,
+                                                        lineNumber: 4771,
                                                         columnNumber: 17
                                                     }, this),
                                                     " Book Now on WhatsApp"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4745,
+                                                lineNumber: 4746,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7885,20 +7887,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 20
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4794,
+                                                        lineNumber: 4795,
                                                         columnNumber: 17
                                                     }, this),
                                                     " Call Now"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4774,
+                                                lineNumber: 4775,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4736,
+                                        lineNumber: 4737,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7948,48 +7950,48 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: item.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4828,
+                                                        lineNumber: 4829,
                                                         columnNumber: 19
                                                     }, this),
                                                     item.text
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4817,
+                                                lineNumber: 4818,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4799,
+                                        lineNumber: 4800,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4624,
+                                lineNumber: 4625,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4588,
+                        lineNumber: 4589,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Footer, {}, void 0, false, {
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4844,
+                        lineNumber: 4845,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/RouteTemplate.jsx",
-                lineNumber: 271,
+                lineNumber: 272,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/RouteTemplate.jsx",
-        lineNumber: 268,
+        lineNumber: 269,
         columnNumber: 5
     }, this);
 }

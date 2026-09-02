@@ -1,6 +1,5 @@
 import { SITEMAP_ROUTES, CITY_HUBS, FLEET_MODELS } from "@/lib/routesData";
 import CityTemplate from "@/components/CityTemplate";
-import Footer from "@/components/Footer";
 import Link from "next/link";
 import {
   MapPin,
@@ -1167,8 +1166,6 @@ export default async function SitemapPage({ params }) {
             </div>
           </div>
         </section>
-
-        <Footer />
       </main>
     );
   }
