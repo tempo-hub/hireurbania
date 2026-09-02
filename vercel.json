@@ -3,6 +3,5 @@
   "outputDirectory": ".next",
   "env": {
     "MONGODB_URI": "@mongodb_uri"
-  },
-  "nodeVersion": "20.x"
+  }
 }
