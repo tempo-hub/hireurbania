@@ -2,29 +2,24 @@
 const nextConfig = {
   trailingSlash: false,
   reactStrictMode: true,
-  swcMinify: true,
   typescript: {
     ignoreBuildErrors: false,
   },
-  eslint: {
-    ignoreDuringBuilds: false,
-  },
   images: {
-    unoptimized: false,
-    domains: ['firebasestorage.googleapis.com', 'localhost'],
-  },
-  headers: async () => {
-    return [
+    remotePatterns: [
       {
-        source: '/:path*',
-        headers: [
-          {
-            key: 'X-DNS-Prefetch-Control',
-            value: 'on'
-          },
-        ],
+        protocol: 'https',
+        hostname: 'firebasestorage.googleapis.com',
       },
-    ]
+      {
+        protocol: 'http',
+        hostname: 'localhost',
+      },
+      {
+        protocol: 'http',
+        hostname: '192.168.1.29',
+      },
+    ],
   },
 };
 

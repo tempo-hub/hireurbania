@@ -10,61 +10,50 @@ export function hasMongoConfig() {
 /**
  * Resolve a mongodb+srv:// URI into a standard mongodb:// URI
  * using Google DNS (8.8.8.8) to bypass ISP DNS that can't handle SRV records.
- * Falls back to the original URI if DNS resolution fails (e.g., during Vercel build).
  */
 async function resolveSrvToStandardUri(srvUri: string): Promise<string> {
   if (!srvUri.startsWith("mongodb+srv://")) return srvUri;
 
+  const resolver = new dns.Resolver();
+  resolver.setServers(["8.8.8.8", "8.8.4.4"]);
+
+  const url = new URL(srvUri);
+  const hostname = url.hostname;
+
+  // Resolve SRV records
+  const srvRecords = await new Promise<dns.SrvRecord[]>((resolve, reject) => {
+    resolver.resolveSrv(`_mongodb._tcp.${hostname}`, (err, records) => {
+      if (err) reject(err);
+      else resolve(records);
+    });
+  });
+
+  // Resolve TXT records (contains authSource, replicaSet, etc.)
+  let txtOptions = "";
   try {
-    const resolver = new dns.Resolver();
-    resolver.setServers(["8.8.8.8", "8.8.4.4"]);
-
-    const url = new URL(srvUri);
-    const hostname = url.hostname;
-
-    // Resolve SRV records
-    const srvRecords = await new Promise<dns.SrvRecord[]>((resolve, reject) => {
-      resolver.resolveSrv(`_mongodb._tcp.${hostname}`, (err, records) => {
+    const txtRecords = await new Promise<string[][]>((resolve, reject) => {
+      resolver.resolveTxt(hostname, (err, records) => {
         if (err) reject(err);
         else resolve(records);
       });
     });
-
-    // Resolve TXT records (contains authSource, replicaSet, etc.)
-    let txtOptions = "";
-    try {
-      const txtRecords = await new Promise<string[][]>((resolve, reject) => {
-        resolver.resolveTxt(hostname, (err, records) => {
-          if (err) reject(err);
-          else resolve(records);
-        });
-      });
-      txtOptions = txtRecords.map((r) => r.join("")).join("&");
-    } catch {
-      // TXT records are optional
-    }
-
-    const hosts = srvRecords.map((r) => `${r.name}:${r.port}`).join(",");
-    const auth = url.username
-      ? `${encodeURIComponent(decodeURIComponent(url.username))}:${encodeURIComponent(decodeURIComponent(url.password))}@`
-      : "";
-    const dbName = url.pathname || "/";
-    const existingParams = url.search ? url.search.slice(1) : "";
-
-    const allParams = [txtOptions, existingParams, "tls=true"]
-      .filter(Boolean)
-      .join("&");
-
-    return `mongodb://${auth}${hosts}${dbName}?${allParams}`;
-  } catch (error) {
-    // If DNS resolution fails (e.g., during build or in restricted environments),
-    // return the original mongodb+srv:// URI. MongoDB driver supports it natively.
-    console.warn(
-      "DNS resolution failed, using mongodb+srv URI directly:",
-      (error instanceof Error ? error.message : String(error)).slice(0, 100),
-    );
-    return srvUri;
+    txtOptions = txtRecords.map((r) => r.join("")).join("&");
+  } catch {
+    // TXT records are optional
   }
+
+  const hosts = srvRecords.map((r) => `${r.name}:${r.port}`).join(",");
+  const auth = url.username
+    ? `${encodeURIComponent(decodeURIComponent(url.username))}:${encodeURIComponent(decodeURIComponent(url.password))}@`
+    : "";
+  const dbName = url.pathname || "/";
+  const existingParams = url.search ? url.search.slice(1) : "";
+
+  const allParams = [txtOptions, existingParams, "tls=true"]
+    .filter(Boolean)
+    .join("&");
+
+  return `mongodb://${auth}${hosts}${dbName}?${allParams}`;
 }
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
