@@ -14,8 +14,6 @@ export default function TrustPage({ title, eyebrow, intro, children }) {
 
   return (
     <main>
-      <Navbar onOpenModal={() => setModalOpen(true)} />
-
       <section className="trust-hero">
         <div className="container trust-hero-inner">
           <Link href="/" className="trust-back-link">
@@ -30,8 +28,6 @@ export default function TrustPage({ title, eyebrow, intro, children }) {
       <section className="trust-content section-padding">
         <div className="container trust-content-inner">{children}</div>
       </section>
-
-      <Footer onOpenModal={() => setModalOpen(true)} />
 
       <BookingModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </main>

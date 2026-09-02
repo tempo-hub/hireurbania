@@ -139,6 +139,9 @@ export default function Footer({ onOpenModal }) {
               <li>
                 <Link href="/refund-cancellation">Refund & Cancellation</Link>
               </li>
+              <li>
+                <Link href="/blogs">Blogs</Link>
+              </li>
             </ul>
           </div>
 

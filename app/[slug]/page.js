@@ -1,8 +1,7 @@
 import { SITEMAP_ROUTES, CITY_HUBS, FLEET_MODELS } from "@/lib/routesData";
 import CityTemplate from "@/components/CityTemplate";
-import Link from "next/link";
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Link from "next/link";
 import {
   MapPin,
   Road,
@@ -313,8 +312,6 @@ export default async function SitemapPage({ params }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
 
-        <Navbar />
-
         {/* Hero Banner Section */}
         <section
           className="section-padding"
@@ -340,12 +337,12 @@ export default async function SitemapPage({ params }) {
                 Home
               </Link>
               <ChevronRight size={14} />
-              <a
+              <Link
                 href="/#routes"
                 style={{ color: "#FFF", textDecoration: "none" }}
               >
                 Outstation Routes
-              </a>
+              </Link>
               <ChevronRight size={14} />
               <span style={{ color: "#FFB800", fontWeight: "600" }}>
                 {route.origin} to {route.destination}

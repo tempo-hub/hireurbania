@@ -30,12 +30,13 @@ export default function Navbar({ onOpenModal }) {
         <nav>
           <ul className="nav-links">
             <li><Link href="/" className="nav-link active">Home</Link></li>
-            <li><a href="/#fleet" className="nav-link">Fleet Variants</a></li>
-            <li><a href="/#calculator" className="nav-link">Fare Calculator</a></li>
-            <li><a href="/#routes" className="nav-link">Popular Routes</a></li>
-            <li><a href="/#packages" className="nav-link">Tour Packages</a></li>
-            <li><a href="/#reviews" className="nav-link">Reviews</a></li>
-            <li><a href="/#faqs" className="nav-link">FAQs</a></li>
+            <li><Link href="/#fleet" className="nav-link">Fleet Variants</Link></li>
+            <li><Link href="/#calculator" className="nav-link">Fare Calculator</Link></li>
+            <li><Link href="/#routes" className="nav-link">Popular Routes</Link></li>
+            <li><Link href="/#packages" className="nav-link">Tour Packages</Link></li>
+            <li><Link href="/#reviews" className="nav-link">Reviews</Link></li>
+            <li><Link href="/#faqs" className="nav-link">FAQs</Link></li>
+            <li><Link href="/blogs" className="nav-link">Blogs</Link></li>
           </ul>
         </nav>
 
@@ -68,12 +69,12 @@ export default function Navbar({ onOpenModal }) {
           boxShadow: 'var(--shadow-md)'
         }} className="mobile-menu-drawer">
           <Link href="/" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '600' }}>Home</Link>
-          <a href="/#fleet" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Fleet Variants</a>
-          <a href="/#calculator" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Fare Calculator</a>
-          <a href="/#routes" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Popular Outstation Routes</a>
-          <a href="/#packages" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Tour Packages</a>
-          <a href="/#reviews" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Customer Reviews</a>
-          <a href="/#faqs" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>FAQs</a>
+          <Link href="/#fleet" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Fleet Variants</Link>
+          <Link href="/#calculator" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Fare Calculator</Link>
+          <Link href="/#routes" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Popular Outstation Routes</Link>
+          <Link href="/#packages" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Tour Packages</Link>
+          <Link href="/#reviews" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>Customer Reviews</Link>
+          <Link href="/#faqs" onClick={() => setMobileOpen(false)} style={{ color: 'var(--text-dark)', textDecoration: 'none', fontWeight: '500' }}>FAQs</Link>
         </div>
       )}
     </header>

@@ -1,0 +1,15116 @@
+(globalThis["TURBOPACK"] || (globalThis["TURBOPACK"] = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/components/CityTemplate.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>CityTemplate
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/image.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Navbar.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.jsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/award.mjs [app-client] (ecmascript) <export default as Award>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/calendar.mjs [app-client] (ecmascript) <export default as Calendar>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/circle-check.mjs [app-client] (ecmascript) <export default as CheckCircle2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/clock.mjs [app-client] (ecmascript) <export default as Clock>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-client] (ecmascript) <export default as MapPin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-square.mjs [app-client] (ecmascript) <export default as MessageSquare>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.mjs [app-client] (ecmascript) <export default as Phone>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$road$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Road$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/road.mjs [app-client] (ecmascript) <export default as Road>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/users.mjs [app-client] (ecmascript) <export default as Users>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/star.mjs [app-client] (ecmascript) <export default as Star>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/shield.mjs [app-client] (ecmascript) <export default as Shield>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-right.mjs [app-client] (ecmascript) <export default as ChevronRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$luggage$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Luggage$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/luggage.mjs [app-client] (ecmascript) <export default as Luggage>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-down.mjs [app-client] (ecmascript) <export default as ChevronDown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/chevron-up.mjs [app-client] (ecmascript) <export default as ChevronUp>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.mjs [app-client] (ecmascript) <export default as ArrowRight>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/routesData.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+;
+var _s = __turbopack_context__.k.signature();
+"use client";
+;
+;
+;
+;
+;
+;
+;
+// ========== FAQ COMPONENT ==========
+function FAQItem({ question, answer, isOpen, onToggle }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+        style: {
+            background: "#fff",
+            borderRadius: "16px",
+            border: isOpen ? "1px solid #0052CC" : "1px solid #ecf0f7",
+            transition: "all 0.3s ease",
+            overflow: "hidden",
+            boxShadow: isOpen ? "0 8px 24px rgba(0, 82, 204, 0.08)" : "none"
+        },
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                onClick: onToggle,
+                style: {
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
+                    width: "100%",
+                    padding: "1.2rem 1.5rem",
+                    background: "transparent",
+                    border: "none",
+                    cursor: "pointer",
+                    textAlign: "left",
+                    fontSize: "1rem",
+                    fontWeight: 600,
+                    color: isOpen ? "#0052CC" : "#0b1a2e",
+                    transition: "color 0.3s ease",
+                    fontFamily: "inherit"
+                },
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        children: question
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 61,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        style: {
+                            flexShrink: 0,
+                            marginLeft: "1rem"
+                        },
+                        children: isOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
+                            size: 20,
+                            color: "#0052CC"
+                        }, void 0, false, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 64,
+                            columnNumber: 13
+                        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                            size: 20,
+                            color: "#7a8a9e"
+                        }, void 0, false, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 66,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 62,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 42,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    maxHeight: isOpen ? "500px" : "0",
+                    overflow: "hidden",
+                    transition: "max-height 0.4s cubic-bezier(0.4, 0, 0.2, 1)"
+                },
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    style: {
+                        padding: "0 1.5rem 1.5rem 1.5rem",
+                        color: "#4a5a6e",
+                        fontSize: "0.95rem",
+                        lineHeight: "1.7",
+                        borderTop: isOpen ? "1px solid #ecf0f7" : "none",
+                        paddingTop: isOpen ? "1.2rem" : "0"
+                    },
+                    children: answer
+                }, void 0, false, {
+                    fileName: "[project]/components/CityTemplate.jsx",
+                    lineNumber: 77,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 70,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/CityTemplate.jsx",
+        lineNumber: 32,
+        columnNumber: 5
+    }, this);
+}
+_c = FAQItem;
+// ========== SEO COMPONENT (can be moved to a separate file) ==========
+function CitySeo({ city }) {
+    const title = city.metaTitle || `Urbania Tempo Traveller Hire in ${city.name} | Premium Group Travel`;
+    const description = city.metaDescription || `Book luxury Urbania Tempo Traveller in ${city.name}. ${city.desc} Doorstep pickup, ${city.tag} fleet with experienced chauffeurs.`;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
+                children: title
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 105,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                name: "description",
+                content: description
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 106,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                property: "og:title",
+                content: title
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 107,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                property: "og:description",
+                content: description
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 108,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                property: "og:type",
+                content: "website"
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 109,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
+                property: "og:locale",
+                content: "en_IN"
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 110,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
+                rel: "canonical",
+                href: `https://hireurbaniatempotraveller.com/city/${city.id}`
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 111,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
+                type: "application/ld+json",
+                dangerouslySetInnerHTML: {
+                    __html: JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "LocalBusiness",
+                        name: `Urbania Tempo Traveller ${city.name}`,
+                        description: description,
+                        address: {
+                            "@type": "PostalAddress",
+                            addressLocality: city.name,
+                            addressRegion: city.state || "",
+                            addressCountry: city.country || "India"
+                        },
+                        areaServed: city.name,
+                        serviceType: "Tempo Traveller Rental",
+                        telephone: "+918448445504"
+                    })
+                }
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 117,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/CityTemplate.jsx",
+        lineNumber: 104,
+        columnNumber: 5
+    }, this);
+}
+_c1 = CitySeo;
+function CityTemplate({ city, routes, fleet }) {
+    _s();
+    const whatsappNumber = "918448445504";
+    const relatedRoutes = Array.isArray(routes) ? routes : [];
+    const whatsappText = encodeURIComponent(`Booking Query for Urbania Tempo Traveller Hire in ${city.name}`);
+    // FAQ state
+    const [openFAQIndex, setOpenFAQIndex] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const toggleFAQ = (index)=>{
+        setOpenFAQIndex(openFAQIndex === index ? null : index);
+    };
+    // Helper to format currency
+    const formatCurrency = (amount)=>{
+        return new Intl.NumberFormat("en-IN", {
+            style: "currency",
+            currency: "INR",
+            maximumFractionDigits: 0
+        }).format(amount);
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(CitySeo, {
+                city: city
+            }, void 0, false, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 168,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
+                className: "city-template",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Navbar$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 171,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "hero-section",
+                        style: {
+                            paddingTop: "8.5rem",
+                            paddingBottom: "4rem",
+                            background: "linear-gradient(145deg, #003ea6 0%, #0770E3 100%)",
+                            color: "#FFF",
+                            position: "relative",
+                            overflow: "hidden"
+                        },
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    position: "absolute",
+                                    top: "-40%",
+                                    right: "-10%",
+                                    width: "60%",
+                                    height: "80%",
+                                    background: "radial-gradient(circle, rgba(255,184,0,0.08) 0%, transparent 70%)",
+                                    borderRadius: "50%",
+                                    pointerEvents: "none"
+                                }
+                            }, void 0, false, {
+                                fileName: "[project]/components/CityTemplate.jsx",
+                                lineNumber: 186,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "container",
+                                style: {
+                                    maxWidth: "1280px",
+                                    margin: "0 auto",
+                                    padding: "0 1.5rem",
+                                    position: "relative",
+                                    zIndex: 2
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                                        "aria-label": "Breadcrumb",
+                                        style: {
+                                            display: "flex",
+                                            alignItems: "center",
+                                            gap: "0.4rem",
+                                            fontSize: "0.85rem",
+                                            marginBottom: "1.5rem",
+                                            color: "rgba(255,255,255,0.8)"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/",
+                                                style: {
+                                                    color: "rgba(255,255,255,0.8)",
+                                                    textDecoration: "none",
+                                                    transition: "0.2s"
+                                                },
+                                                children: "Home"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 222,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                                size: 14
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 232,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/cities",
+                                                style: {
+                                                    color: "rgba(255,255,255,0.8)",
+                                                    textDecoration: "none",
+                                                    transition: "0.2s"
+                                                },
+                                                children: "Cities"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 233,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
+                                                size: 14
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 243,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                style: {
+                                                    color: "#FFB800",
+                                                    fontWeight: 600
+                                                },
+                                                children: city.name
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 244,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 211,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "city-hero-grid",
+                                        style: {
+                                            display: "grid",
+                                            gridTemplateColumns: "1.2fr 0.9fr",
+                                            gap: "3rem",
+                                            alignItems: "start"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: "inline-flex",
+                                                            alignItems: "center",
+                                                            gap: "0.5rem",
+                                                            background: "rgba(255,255,255,0.15)",
+                                                            backdropFilter: "blur(8px)",
+                                                            padding: "0.3rem 1.2rem",
+                                                            borderRadius: "40px",
+                                                            fontSize: "0.8rem",
+                                                            fontWeight: 600,
+                                                            letterSpacing: "0.5px",
+                                                            color: "#fff"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                                                size: 14
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 275,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            " ",
+                                                            city.tag || "Premium Service"
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 260,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                                        style: {
+                                                            fontSize: "3rem",
+                                                            fontWeight: 800,
+                                                            margin: "1rem 0 0.85rem",
+                                                            lineHeight: 1.15,
+                                                            color: "#FFF",
+                                                            letterSpacing: "-0.02em"
+                                                        },
+                                                        children: [
+                                                            "Urbania Tempo Traveller ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 288,
+                                                                columnNumber: 43
+                                                            }, this),
+                                                            "Hire in ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    color: "#FFB800"
+                                                                },
+                                                                children: city.name
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 289,
+                                                                columnNumber: 27
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 278,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        style: {
+                                                            color: "rgba(255,255,255,0.92)",
+                                                            fontSize: "1.1rem",
+                                                            lineHeight: 1.7,
+                                                            maxWidth: "600px"
+                                                        },
+                                                        children: [
+                                                            city.desc,
+                                                            " Doorstep pickup, luxury seating, and experienced chauffeurs for local and outstation travel across India."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 292,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: "flex",
+                                                            gap: "1.5rem",
+                                                            flexWrap: "wrap",
+                                                            marginTop: "1.5rem",
+                                                            paddingTop: "1.5rem",
+                                                            borderTop: "1px solid rgba(255,255,255,0.1)"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    display: "flex",
+                                                                    alignItems: "center",
+                                                                    gap: "0.4rem",
+                                                                    fontSize: "0.85rem"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                                        size: 16,
+                                                                        fill: "#FFB800",
+                                                                        color: "#FFB800"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 323,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " 4.9/5 Rating"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 315,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    display: "flex",
+                                                                    alignItems: "center",
+                                                                    gap: "0.4rem",
+                                                                    fontSize: "0.85rem"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                                        size: 16
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 334,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " 500+ Happy Groups"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 326,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                style: {
+                                                                    display: "flex",
+                                                                    alignItems: "center",
+                                                                    gap: "0.4rem",
+                                                                    fontSize: "0.85rem"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                                                                        size: 16
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 344,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " Insurance Covered"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 336,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 305,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: "flex",
+                                                            gap: "1rem",
+                                                            flexWrap: "wrap",
+                                                            marginTop: "1.8rem"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: `https://wa.me/${whatsappNumber}?text=${whatsappText}`,
+                                                                target: "_blank",
+                                                                rel: "noopener noreferrer",
+                                                                className: "btn btn-whatsapp",
+                                                                style: {
+                                                                    display: "inline-flex",
+                                                                    alignItems: "center",
+                                                                    gap: "0.6rem",
+                                                                    padding: "0.8rem 2rem",
+                                                                    borderRadius: "50px",
+                                                                    background: "#25D366",
+                                                                    color: "#fff",
+                                                                    fontWeight: 700,
+                                                                    textDecoration: "none",
+                                                                    transition: "0.2s",
+                                                                    border: "none",
+                                                                    fontSize: "1rem",
+                                                                    cursor: "pointer"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                        size: 20
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 377,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " Get Instant Quote"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 356,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                href: `tel:+${whatsappNumber}`,
+                                                                className: "btn btn-outline",
+                                                                style: {
+                                                                    display: "inline-flex",
+                                                                    alignItems: "center",
+                                                                    gap: "0.6rem",
+                                                                    padding: "0.8rem 2rem",
+                                                                    borderRadius: "50px",
+                                                                    background: "transparent",
+                                                                    color: "#FFF",
+                                                                    fontWeight: 600,
+                                                                    textDecoration: "none",
+                                                                    transition: "0.2s",
+                                                                    border: "1.5px solid rgba(255,255,255,0.3)",
+                                                                    fontSize: "1rem",
+                                                                    cursor: "pointer"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                                        size: 20
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 398,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " Call Us"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 379,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 348,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 259,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    background: "#FFFFFF",
+                                                    borderRadius: "28px",
+                                                    padding: "2rem 2rem 2.2rem",
+                                                    boxShadow: "0 24px 48px -12px rgba(0, 30, 80, 0.35)",
+                                                    color: "#1a2634"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: "flex",
+                                                            alignItems: "center",
+                                                            gap: "0.6rem",
+                                                            marginBottom: "0.2rem"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                                size: 20,
+                                                                style: {
+                                                                    color: "#0052CC"
+                                                                }
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 421,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                                style: {
+                                                                    fontSize: "1.25rem",
+                                                                    fontWeight: 700,
+                                                                    color: "#0b1a2e"
+                                                                },
+                                                                children: "Plan Your City Trip"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 422,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 413,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        style: {
+                                                            color: "#5b6b7e",
+                                                            fontSize: "0.9rem",
+                                                            marginBottom: "1.5rem"
+                                                        },
+                                                        children: "Tell us your group size and travel requirement."
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 433,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
+                                                        action: `https://wa.me/${whatsappNumber}`,
+                                                        target: "_blank",
+                                                        method: "GET",
+                                                        onSubmit: (e)=>{
+                                                            const select = e.currentTarget.querySelector("select");
+                                                            const hidden = e.currentTarget.querySelector('input[type="hidden"]');
+                                                            if (hidden && select) {
+                                                                hidden.value = `Quote for Urbania in ${city.name} - ${select.value}`;
+                                                            }
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                type: "hidden",
+                                                                name: "text",
+                                                                value: `Quote for Urbania in ${city.name}`
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 457,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    marginBottom: "1rem"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                                        style: {
+                                                                            display: "flex",
+                                                                            alignItems: "center",
+                                                                            gap: "0.4rem",
+                                                                            fontWeight: 600,
+                                                                            fontSize: "0.85rem",
+                                                                            color: "#1f2b3a",
+                                                                            marginBottom: "0.3rem"
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                                                size: 14
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 475,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            " Pickup City"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 464,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
+                                                                        type: "text",
+                                                                        value: city.name,
+                                                                        readOnly: true,
+                                                                        style: {
+                                                                            width: "100%",
+                                                                            padding: "0.7rem 1rem",
+                                                                            border: "1px solid #dfe6ef",
+                                                                            borderRadius: "14px",
+                                                                            fontSize: "0.95rem",
+                                                                            background: "#f0f4fe",
+                                                                            color: "#1f2b3a",
+                                                                            fontWeight: 500,
+                                                                            outline: "none"
+                                                                        }
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 477,
+                                                                        columnNumber: 21
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 463,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    marginBottom: "1.2rem"
+                                                                },
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
+                                                                        style: {
+                                                                            display: "flex",
+                                                                            alignItems: "center",
+                                                                            gap: "0.4rem",
+                                                                            fontWeight: 600,
+                                                                            fontSize: "0.85rem",
+                                                                            color: "#1f2b3a",
+                                                                            marginBottom: "0.3rem"
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                                                size: 14
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 507,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            " Seater Variant"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 496,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
+                                                                        name: "seaterVariant",
+                                                                        defaultValue: "9 Seater VIP Recliner",
+                                                                        style: {
+                                                                            width: "100%",
+                                                                            padding: "0.7rem 1rem",
+                                                                            border: "1px solid #dfe6ef",
+                                                                            borderRadius: "14px",
+                                                                            fontSize: "0.95rem",
+                                                                            background: "#fafcff",
+                                                                            outline: "none",
+                                                                            cursor: "pointer"
+                                                                        },
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                                value: "9 Seater VIP Recliner",
+                                                                                children: "9 Seater VIP Recliner"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 524,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                                value: "12 Seater Executive Urbania",
+                                                                                children: "12 Seater Executive Urbania"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 528,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
+                                                                                value: "16 Seater Premium Urbania",
+                                                                                children: "16 Seater Premium Urbania"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 532,
+                                                                                columnNumber: 23
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 510,
+                                                                        columnNumber: 21
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 495,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                                type: "submit",
+                                                                style: {
+                                                                    width: "100%",
+                                                                    padding: "0.85rem",
+                                                                    borderRadius: "50px",
+                                                                    background: "#0052CC",
+                                                                    color: "#fff",
+                                                                    border: "none",
+                                                                    fontWeight: 700,
+                                                                    fontSize: "1rem",
+                                                                    display: "flex",
+                                                                    alignItems: "center",
+                                                                    justifyContent: "center",
+                                                                    gap: "0.6rem",
+                                                                    cursor: "pointer",
+                                                                    transition: "0.2s"
+                                                                },
+                                                                onMouseEnter: (e)=>e.currentTarget.style.background = "#003d99",
+                                                                onMouseLeave: (e)=>e.currentTarget.style.background = "#0052CC",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                        size: 18
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 563,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    " Request Fare"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 538,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 443,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        style: {
+                                                            fontSize: "0.75rem",
+                                                            color: "#7a8a9e",
+                                                            textAlign: "center",
+                                                            marginTop: "1rem"
+                                                        },
+                                                        children: "⚡ Response within 2 minutes"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 567,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 404,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 249,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/CityTemplate.jsx",
+                                lineNumber: 200,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 174,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#f9fafc"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 615,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Why Hire Urbania"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 602,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: [
+                                                "Comfortable Group Travel in ",
+                                                city.name
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 617,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 595,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                                        gap: "2rem"
+                                    },
+                                    children: [
+                                        {
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 638,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "All Group Sizes",
+                                            desc: "9, 12, 16, 17 and 20 seater options for every group."
+                                        },
+                                        {
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 643,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Doorstep Pickup",
+                                            desc: "Pickup from hotels, homes, stations and airports."
+                                        },
+                                        {
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 648,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Trusted Chauffeurs",
+                                            desc: "Experienced drivers for city and highway travel."
+                                        },
+                                        {
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                                                size: 32
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 653,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Safety Assured",
+                                            desc: "GPS tracking, sanitized vehicles, and 24/7 support."
+                                        }
+                                    ].map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                background: "#fff",
+                                                padding: "2rem 1.5rem",
+                                                borderRadius: "24px",
+                                                textAlign: "center",
+                                                boxShadow: "0 8px 20px rgba(0,0,0,0.02)",
+                                                border: "1px solid #ecf0f7",
+                                                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                                                cursor: "pointer",
+                                                transform: "scale(1)",
+                                                position: "relative"
+                                            },
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1.05)";
+                                                e.currentTarget.style.borderColor = "#0052CC";
+                                                e.currentTarget.style.boxShadow = "0 20px 40px rgba(0, 82, 204, 0.12)";
+                                                e.currentTarget.style.background = "#ffffff";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.borderColor = "#ecf0f7";
+                                                e.currentTarget.style.boxShadow = "0 8px 20px rgba(0,0,0,0.02)";
+                                                e.currentTarget.style.background = "#fff";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        color: "#0052CC",
+                                                        marginBottom: "0.6rem",
+                                                        transition: "transform 0.3s ease"
+                                                    },
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.transform = "scale(1.1)";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.transform = "scale(1)";
+                                                    },
+                                                    children: feature.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 687,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontSize: "1.2rem",
+                                                        marginBottom: "0.3rem",
+                                                        transition: "color 0.3s ease"
+                                                    },
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.color = "#0052CC";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.color = "#0b1a2e";
+                                                    },
+                                                    children: feature.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 702,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        color: "#4a5a6e",
+                                                        fontSize: "0.95rem",
+                                                        transition: "color 0.3s ease"
+                                                    },
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.color = "#1a2634";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.color = "#4a5a6e";
+                                                    },
+                                                    children: feature.desc
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 717,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 658,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 629,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 587,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 583,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#ffffff"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                style: {
+                                    display: "grid",
+                                    gridTemplateColumns: "1fr 1fr",
+                                    gap: "4rem",
+                                    alignItems: "center"
+                                },
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    display: "inline-flex",
+                                                    alignItems: "center",
+                                                    gap: "0.5rem",
+                                                    background: "#eef3ff",
+                                                    color: "#0052CC",
+                                                    padding: "0.25rem 1.2rem",
+                                                    borderRadius: "40px",
+                                                    fontSize: "0.8rem",
+                                                    fontWeight: 600,
+                                                    marginBottom: "1rem"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                                        size: 14
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 775,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    " About Urbania"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 761,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                style: {
+                                                    fontSize: "2.3rem",
+                                                    fontWeight: 700,
+                                                    marginBottom: "1rem",
+                                                    color: "#0b1a2e",
+                                                    lineHeight: 1.2
+                                                },
+                                                children: [
+                                                    "Premium Tempo Traveller Service in",
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        style: {
+                                                            color: "#0052CC"
+                                                        },
+                                                        children: city.name
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 788,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 778,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                style: {
+                                                    fontSize: "1.05rem",
+                                                    color: "#4a5a6e",
+                                                    lineHeight: "1.8",
+                                                    marginBottom: "1.5rem"
+                                                },
+                                                children: [
+                                                    "Urbania Tempo Traveller is the premier choice for group travel in ",
+                                                    city.name,
+                                                    ". Our fleet of modern Force Urbania vehicles combines luxury, comfort, and reliability to ensure your journey is unforgettable. Whether you're planning a family trip, corporate outing, or pilgrimage tour, we have the perfect vehicle for your needs."
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 791,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    display: "grid",
+                                                    gridTemplateColumns: "1fr 1fr",
+                                                    gap: "1.5rem",
+                                                    marginBottom: "2rem"
+                                                },
+                                                children: [
+                                                    {
+                                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                            size: 20,
+                                                            color: "#0052CC"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 817,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        title: "Group Travel Specialists",
+                                                        desc: `Expertise in handling groups of all sizes in ${city.name}`
+                                                    },
+                                                    {
+                                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
+                                                            size: 20,
+                                                            color: "#0052CC"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 822,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        title: "Safety Certified",
+                                                        desc: "All vehicles are GPS-tracked and regularly sanitized"
+                                                    },
+                                                    {
+                                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                            size: 20,
+                                                            color: "#0052CC"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 827,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        title: "Punctual Service",
+                                                        desc: `On-time pickup and drop-off across ${city.name}`
+                                                    },
+                                                    {
+                                                        icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                            size: 20,
+                                                            color: "#0052CC"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 832,
+                                                            columnNumber: 29
+                                                        }, this),
+                                                        title: "Local Expertise",
+                                                        desc: `Experienced drivers familiar with ${city.name} routes`
+                                                    }
+                                                ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        style: {
+                                                            display: "flex",
+                                                            gap: "0.8rem",
+                                                            alignItems: "flex-start"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                style: {
+                                                                    marginTop: "0.2rem",
+                                                                    flexShrink: 0
+                                                                },
+                                                                children: item.icon
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 845,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                        style: {
+                                                                            fontSize: "0.95rem",
+                                                                            fontWeight: 600,
+                                                                            color: "#0b1a2e",
+                                                                            marginBottom: "0.2rem"
+                                                                        },
+                                                                        children: item.title
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 849,
+                                                                        columnNumber: 25
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                        style: {
+                                                                            fontSize: "0.85rem",
+                                                                            color: "#7a8a9e",
+                                                                            lineHeight: "1.4"
+                                                                        },
+                                                                        children: item.desc
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 859,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 848,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, index, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 837,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 807,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                style: {
+                                                    display: "flex",
+                                                    gap: "1rem",
+                                                    flexWrap: "wrap"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: `https://wa.me/${whatsappNumber}?text=${whatsappText}`,
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
+                                                        style: {
+                                                            display: "inline-flex",
+                                                            alignItems: "center",
+                                                            gap: "0.6rem",
+                                                            padding: "0.8rem 2rem",
+                                                            borderRadius: "50px",
+                                                            background: "#25D366",
+                                                            color: "#fff",
+                                                            fontWeight: 600,
+                                                            textDecoration: "none",
+                                                            transition: "0.2s",
+                                                            border: "none",
+                                                            fontSize: "0.95rem",
+                                                            cursor: "pointer"
+                                                        },
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                size: 18
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 894,
+                                                                columnNumber: 21
+                                                            }, this),
+                                                            " Book Now in ",
+                                                            city.name
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 874,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                        href: "/",
+                                                        style: {
+                                                            display: "inline-flex",
+                                                            alignItems: "center",
+                                                            gap: "0.6rem",
+                                                            padding: "0.8rem 2rem",
+                                                            borderRadius: "50px",
+                                                            background: "transparent",
+                                                            color: "#0052CC",
+                                                            fontWeight: 600,
+                                                            textDecoration: "none",
+                                                            transition: "0.2s",
+                                                            border: "2px solid #0052CC",
+                                                            fontSize: "0.95rem",
+                                                            cursor: "pointer"
+                                                        },
+                                                        children: [
+                                                            "Learn More ",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
+                                                                size: 18
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 914,
+                                                                columnNumber: 32
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 896,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 873,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 760,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                background: "#f9fafc",
+                                                borderRadius: "24px",
+                                                padding: "2rem",
+                                                border: "1px solid #ecf0f7"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "grid",
+                                                        gridTemplateColumns: "1fr 1fr",
+                                                        gap: "1.5rem",
+                                                        marginBottom: "2rem"
+                                                    },
+                                                    children: [
+                                                        {
+                                                            number: "50+",
+                                                            label: "Happy Groups"
+                                                        },
+                                                        {
+                                                            number: "4.9/5",
+                                                            label: "Average Rating"
+                                                        },
+                                                        {
+                                                            number: "98%",
+                                                            label: "On-Time Service"
+                                                        },
+                                                        {
+                                                            number: "24/7",
+                                                            label: "Customer Support"
+                                                        }
+                                                    ].map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                textAlign: "center",
+                                                                padding: "1rem",
+                                                                background: "#ffffff",
+                                                                borderRadius: "16px",
+                                                                border: "1px solid #ecf0f7"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontSize: "1.8rem",
+                                                                        fontWeight: 700,
+                                                                        color: "#0052CC",
+                                                                        marginBottom: "0.2rem"
+                                                                    },
+                                                                    children: stat.number
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 953,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontSize: "0.85rem",
+                                                                        color: "#4a5a6e",
+                                                                        fontWeight: 500
+                                                                    },
+                                                                    children: stat.label
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 963,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, index, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 943,
+                                                            columnNumber: 23
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 929,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        background: "#eef3ff",
+                                                        borderRadius: "16px",
+                                                        padding: "1.5rem",
+                                                        textAlign: "center"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                fontSize: "2.5rem",
+                                                                marginBottom: "0.5rem"
+                                                            },
+                                                            children: "🚐"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 984,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                            style: {
+                                                                fontSize: "1rem",
+                                                                fontWeight: 700,
+                                                                color: "#0b1a2e",
+                                                                marginBottom: "0.3rem"
+                                                            },
+                                                            children: [
+                                                                "Why Choose Urbania in ",
+                                                                city.name,
+                                                                "?"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 992,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            style: {
+                                                                fontSize: "0.9rem",
+                                                                color: "#4a5a6e",
+                                                                lineHeight: "1.6"
+                                                            },
+                                                            children: [
+                                                                "Experience the perfect blend of luxury, comfort, and affordability with our premium tempo traveller service in",
+                                                                " ",
+                                                                city.name,
+                                                                "."
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1002,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 976,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 921,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 920,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/CityTemplate.jsx",
+                                lineNumber: 751,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 743,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 739,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding fleet-section",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#f9fafc"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1053,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Our Fleet"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1040,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: [
+                                                "Urbania Fleet in ",
+                                                city.name
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1055,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: "Choose the vehicle that fits your group and luggage."
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1065,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1033,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "fleet-grid",
+                                    style: {
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                                        gap: "2rem"
+                                    },
+                                    children: fleet.map((model)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "fleet-card",
+                                            style: {
+                                                background: "#fff",
+                                                borderRadius: "24px",
+                                                overflow: "hidden",
+                                                boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
+                                                transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
+                                                border: "1px solid #f0f4fe",
+                                                cursor: "pointer",
+                                                position: "relative"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "fleet-img-wrapper",
+                                                    style: {
+                                                        position: "relative",
+                                                        height: "220px",
+                                                        background: "#eef3ff",
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        justifyContent: "center",
+                                                        overflow: "hidden"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                            src: model.image,
+                                                            alt: model.name,
+                                                            width: 400,
+                                                            height: 220,
+                                                            className: "fleet-img",
+                                                            style: {
+                                                                width: "100%",
+                                                                height: "100%",
+                                                                objectFit: "cover",
+                                                                transition: "transform 0.5s ease"
+                                                            }
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1112,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "fleet-badge",
+                                                            style: {
+                                                                position: "absolute",
+                                                                top: "12px",
+                                                                right: "12px",
+                                                                background: "#0052CC",
+                                                                color: "#fff",
+                                                                padding: "0.25rem 1rem",
+                                                                borderRadius: "40px",
+                                                                fontWeight: 600,
+                                                                fontSize: "0.8rem",
+                                                                zIndex: 2,
+                                                                transition: "transform 0.3s ease"
+                                                            },
+                                                            children: model.capacity
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1125,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                position: "absolute",
+                                                                bottom: "12px",
+                                                                left: "12px",
+                                                                background: "rgba(0,0,0,0.7)",
+                                                                backdropFilter: "blur(8px)",
+                                                                color: "#FFB800",
+                                                                padding: "0.2rem 0.8rem",
+                                                                borderRadius: "20px",
+                                                                fontSize: "0.75rem",
+                                                                fontWeight: 600,
+                                                                display: "flex",
+                                                                alignItems: "center",
+                                                                gap: "0.3rem",
+                                                                zIndex: 2
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                                    size: 14,
+                                                                    fill: "#FFB800"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1162,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " 4.9"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1144,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1100,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        padding: "1.5rem 1.2rem 1.8rem"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                            className: "fleet-title",
+                                                            style: {
+                                                                fontSize: "1.25rem",
+                                                                fontWeight: 700,
+                                                                marginBottom: "0.2rem",
+                                                                transition: "color 0.3s ease"
+                                                            },
+                                                            children: model.name
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1168,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                            className: "fleet-tagline",
+                                                            style: {
+                                                                color: "#4a5a6e",
+                                                                fontSize: "0.85rem",
+                                                                marginBottom: "0.75rem",
+                                                                minHeight: "40px",
+                                                                transition: "color 0.3s ease"
+                                                            },
+                                                            children: model.tagline
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1179,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                display: "flex",
+                                                                gap: "1rem",
+                                                                flexWrap: "wrap",
+                                                                marginBottom: "0.75rem",
+                                                                padding: "0.5rem 0",
+                                                                borderTop: "1px solid #f0f4fe",
+                                                                borderBottom: "1px solid #f0f4fe"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    style: {
+                                                                        fontSize: "0.8rem",
+                                                                        color: "#4a5a6e"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                                            size: 14,
+                                                                            style: {
+                                                                                display: "inline",
+                                                                                marginRight: "0.2rem"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1205,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        model.seater,
+                                                                        " Seats"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1204,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    style: {
+                                                                        fontSize: "0.8rem",
+                                                                        color: "#4a5a6e"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$luggage$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Luggage$3e$__["Luggage"], {
+                                                                            size: 14,
+                                                                            style: {
+                                                                                display: "inline",
+                                                                                marginRight: "0.2rem"
+                                                                            }
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1212,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        model.luggageCapacity
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1211,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1193,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                display: "flex",
+                                                                alignItems: "center",
+                                                                justifyContent: "space-between",
+                                                                marginBottom: "0.5rem"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            style: {
+                                                                                fontSize: "0.75rem",
+                                                                                color: "#7a8a9e"
+                                                                            },
+                                                                            children: "Starting from"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1230,
+                                                                            columnNumber: 25
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                            style: {
+                                                                                fontSize: "1.3rem",
+                                                                                fontWeight: 700,
+                                                                                color: "#0b1a2e",
+                                                                                margin: 0
+                                                                            },
+                                                                            children: [
+                                                                                formatCurrency(model.ratePerKm),
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                    style: {
+                                                                                        fontSize: "0.9rem",
+                                                                                        fontWeight: 400,
+                                                                                        color: "#7a8a9e"
+                                                                                    },
+                                                                                    children: "/km"
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                                    lineNumber: 1242,
+                                                                                    columnNumber: 27
+                                                                                }, this)
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1233,
+                                                                            columnNumber: 25
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1229,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    style: {
+                                                                        fontSize: "0.7rem",
+                                                                        color: "#7a8a9e",
+                                                                        background: "#f0f4fe",
+                                                                        padding: "0.2rem 0.8rem",
+                                                                        borderRadius: "20px"
+                                                                    },
+                                                                    children: [
+                                                                        model.minKmPerDay,
+                                                                        "+ km/day"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1253,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1221,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                            href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Book ${model.name} in ${city.name}`)}`,
+                                                            target: "_blank",
+                                                            rel: "noopener noreferrer",
+                                                            className: "book-button",
+                                                            style: {
+                                                                display: "inline-flex",
+                                                                alignItems: "center",
+                                                                justifyContent: "center",
+                                                                gap: "0.5rem",
+                                                                width: "100%",
+                                                                padding: "0.7rem 1.5rem",
+                                                                borderRadius: "40px",
+                                                                background: "#0052CC",
+                                                                color: "#fff",
+                                                                fontWeight: 600,
+                                                                fontSize: "0.9rem",
+                                                                textDecoration: "none",
+                                                                transition: "all 0.3s ease",
+                                                                border: "none",
+                                                                marginTop: "0.5rem",
+                                                                cursor: "pointer"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                    size: 16
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1293,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                " Book This Vehicle"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1267,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1167,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, model.id, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1085,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1076,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 1025,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 1021,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#ffffff"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$award$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Award$3e$__["Award"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1336,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Transparent Pricing"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1323,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: [
+                                                "Urbania Tempo Traveller Fare & Pricing in",
+                                                " ",
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    style: {
+                                                        color: "#0052CC"
+                                                    },
+                                                    children: city.name
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1348,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1339,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: [
+                                                "Check estimated Urbania Tempo Traveller rates for popular routes from ",
+                                                city.name,
+                                                ". Final fare may vary depending on travel dates, route, tolls, parking, taxes, and trip duration."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1351,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1316,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        overflowX: "auto",
+                                        borderRadius: "16px",
+                                        border: "1px solid #ecf0f7",
+                                        boxShadow: "0 8px 24px rgba(0,20,50,0.04)"
+                                    },
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                        style: {
+                                            width: "100%",
+                                            borderCollapse: "collapse",
+                                            minWidth: "700px"
+                                        },
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                    style: {
+                                                        background: "linear-gradient(135deg, #0052CC 0%, #0770E3 100%)",
+                                                        color: "#FFF",
+                                                        textAlign: "left"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            style: {
+                                                                padding: "1rem 1.2rem",
+                                                                fontWeight: 600
+                                                            },
+                                                            children: "Vehicle"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1389,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            style: {
+                                                                padding: "1rem 1.2rem",
+                                                                fontWeight: 600
+                                                            },
+                                                            children: "Rate"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1398,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            style: {
+                                                                padding: "1rem 1.2rem",
+                                                                fontWeight: 600
+                                                            },
+                                                            children: "Minimum KM / Day"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1407,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            style: {
+                                                                padding: "1rem 1.2rem",
+                                                                fontWeight: 600
+                                                            },
+                                                            children: "Driver Allowance"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1416,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                            style: {
+                                                                padding: "1rem 1.2rem",
+                                                                fontWeight: 600,
+                                                                textAlign: "center"
+                                                            },
+                                                            children: "Action"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1425,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1381,
+                                                    columnNumber: 19
+                                                }, this)
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 1380,
+                                                columnNumber: 17
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                                children: fleet.map((model, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                        style: {
+                                                            borderBottom: index < fleet.length - 1 ? "1px solid #ecf0f7" : "none",
+                                                            transition: "all 0.2s ease",
+                                                            cursor: "pointer"
+                                                        },
+                                                        className: "route-table-row",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                style: {
+                                                                    padding: "1rem 1.2rem"
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                            style: {
+                                                                                display: "block",
+                                                                                color: "#0b1a2e",
+                                                                                fontSize: "0.95rem"
+                                                                            },
+                                                                            children: model.name
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1458,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
+                                                                            style: {
+                                                                                color: "#7a8a9e",
+                                                                                fontSize: "0.75rem"
+                                                                            },
+                                                                            children: [
+                                                                                model.capacity,
+                                                                                " · ",
+                                                                                model.luggageCapacity
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1468,
+                                                                            columnNumber: 27
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1457,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1452,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                style: {
+                                                                    padding: "1rem 1.2rem",
+                                                                    fontWeight: 600,
+                                                                    color: "#0b1a2e"
+                                                                },
+                                                                children: [
+                                                                    formatCurrency(model.ratePerKm),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            fontWeight: 400,
+                                                                            color: "#7a8a9e",
+                                                                            fontSize: "0.85rem"
+                                                                        },
+                                                                        children: "/km"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1489,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1480,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                style: {
+                                                                    padding: "1rem 1.2rem",
+                                                                    color: "#4a5a6e",
+                                                                    fontWeight: 500
+                                                                },
+                                                                children: [
+                                                                    model.minKmPerDay,
+                                                                    " km"
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1501,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                style: {
+                                                                    padding: "1rem 1.2rem",
+                                                                    color: "#4a5a6e",
+                                                                    fontWeight: 500
+                                                                },
+                                                                children: [
+                                                                    formatCurrency(model.driverAllowance),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        style: {
+                                                                            color: "#7a8a9e",
+                                                                            fontSize: "0.8rem",
+                                                                            marginLeft: "0.2rem"
+                                                                        },
+                                                                        children: "/day"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1520,
+                                                                        columnNumber: 25
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1512,
+                                                                columnNumber: 23
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                style: {
+                                                                    padding: "1rem 1.2rem",
+                                                                    textAlign: "center"
+                                                                },
+                                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                    href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`I want to book ${model.name} in ${city.name}. Please share the latest fare and availability.`)}`,
+                                                                    target: "_blank",
+                                                                    rel: "noopener noreferrer",
+                                                                    className: "table-book-btn",
+                                                                    style: {
+                                                                        display: "inline-flex",
+                                                                        alignItems: "center",
+                                                                        gap: "0.4rem",
+                                                                        padding: "0.4rem 1.2rem",
+                                                                        borderRadius: "40px",
+                                                                        background: "#0052CC",
+                                                                        color: "#fff",
+                                                                        fontWeight: 600,
+                                                                        fontSize: "0.8rem",
+                                                                        textDecoration: "none",
+                                                                        transition: "all 0.2s ease",
+                                                                        border: "none",
+                                                                        cursor: "pointer"
+                                                                    },
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                            size: 14
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1561,
+                                                                            columnNumber: 27
+                                                                        }, this),
+                                                                        " Get Quote"
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1538,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1532,
+                                                                columnNumber: 23
+                                                            }, this)
+                                                        ]
+                                                    }, model.id, true, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 1439,
+                                                        columnNumber: 21
+                                                    }, this))
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 1437,
+                                                columnNumber: 17
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 1373,
+                                        columnNumber: 15
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1365,
+                                    columnNumber: 13
+                                }, this),
+                                relatedRoutes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        marginTop: "3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                textAlign: "center",
+                                                marginBottom: "1.5rem"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontSize: "1.5rem",
+                                                        fontWeight: 700,
+                                                        color: "#0b1a2e",
+                                                        marginBottom: "0.5rem"
+                                                    },
+                                                    children: [
+                                                        "Popular Urbania Routes from ",
+                                                        city.name
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1579,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontSize: "0.9rem",
+                                                        color: "#7a8a9e"
+                                                    },
+                                                    children: "Explore popular destinations and get an estimated fare for your group journey."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1590,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1573,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                overflowX: "auto",
+                                                borderRadius: "16px",
+                                                border: "1px solid #ecf0f7"
+                                            },
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
+                                                style: {
+                                                    width: "100%",
+                                                    borderCollapse: "collapse",
+                                                    minWidth: "800px"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
+                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                            style: {
+                                                                background: "#f0f4fe",
+                                                                color: "#0b1a2e",
+                                                                textAlign: "left"
+                                                            },
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                    style: {
+                                                                        padding: "1rem 1.2rem",
+                                                                        fontWeight: 600
+                                                                    },
+                                                                    children: "Route"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1623,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                    style: {
+                                                                        padding: "1rem 1.2rem",
+                                                                        fontWeight: 600
+                                                                    },
+                                                                    children: "Distance"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1632,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                    style: {
+                                                                        padding: "1rem 1.2rem",
+                                                                        fontWeight: 600
+                                                                    },
+                                                                    children: "Travel Time"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1641,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                    style: {
+                                                                        padding: "1rem 1.2rem",
+                                                                        fontWeight: 600
+                                                                    },
+                                                                    children: "Starting Fare"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1650,
+                                                                    columnNumber: 25
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
+                                                                    style: {
+                                                                        padding: "1rem 1.2rem",
+                                                                        fontWeight: 600,
+                                                                        textAlign: "center"
+                                                                    },
+                                                                    children: "Action"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 1659,
+                                                                    columnNumber: 25
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1616,
+                                                            columnNumber: 23
+                                                        }, this)
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 1615,
+                                                        columnNumber: 21
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
+                                                        children: relatedRoutes.slice(0, 8).map((route, index)=>{
+                                                            const distance = Number(route.distanceKm) || 0;
+                                                            /*
+                         * Use the cheapest fleet vehicle as the
+                         * starting fare calculation.
+                         */ const cheapestVehicle = fleet.length > 0 ? fleet.reduce((cheapest, current)=>current.ratePerKm < cheapest.ratePerKm ? current : cheapest) : null;
+                                                            const estimatedFare = cheapestVehicle ? Math.round(distance * 2 * cheapestVehicle.ratePerKm + cheapestVehicle.driverAllowance * 2) : 0;
+                                                            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
+                                                                style: {
+                                                                    borderBottom: index < Math.min(relatedRoutes.length, 8) - 1 ? "1px solid #ecf0f7" : "none",
+                                                                    transition: "all 0.2s ease"
+                                                                },
+                                                                className: "route-table-row",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                        style: {
+                                                                            padding: "1rem 1.2rem"
+                                                                        },
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                                            href: `/routes/${route.routeSlug}`,
+                                                                            style: {
+                                                                                color: "#0052CC",
+                                                                                fontWeight: 600,
+                                                                                textDecoration: "none"
+                                                                            },
+                                                                            children: [
+                                                                                route.origin,
+                                                                                " to ",
+                                                                                route.destination
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1713,
+                                                                            columnNumber: 31
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1708,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                        style: {
+                                                                            padding: "1rem 1.2rem",
+                                                                            color: "#4a5a6e",
+                                                                            fontWeight: 500
+                                                                        },
+                                                                        children: [
+                                                                            route.distanceKm,
+                                                                            " KM"
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1726,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                        style: {
+                                                                            padding: "1rem 1.2rem",
+                                                                            color: "#4a5a6e"
+                                                                        },
+                                                                        children: route.durationHrs
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1737,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                        style: {
+                                                                            padding: "1rem 1.2rem",
+                                                                            fontWeight: 700,
+                                                                            color: "#0b1a2e"
+                                                                        },
+                                                                        children: [
+                                                                            formatCurrency(estimatedFare),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                style: {
+                                                                                    display: "block",
+                                                                                    fontSize: "0.7rem",
+                                                                                    fontWeight: 400,
+                                                                                    color: "#7a8a9e",
+                                                                                    marginTop: "0.15rem"
+                                                                                },
+                                                                                children: "approx. round trip"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                                lineNumber: 1755,
+                                                                                columnNumber: 31
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1747,
+                                                                        columnNumber: 29
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
+                                                                        style: {
+                                                                            padding: "1rem 1.2rem",
+                                                                            textAlign: "center"
+                                                                        },
+                                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                                            href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`I want to book an Urbania Tempo Traveller from ${route.origin} to ${route.destination}. Please share the latest fare and availability.`)}`,
+                                                                            target: "_blank",
+                                                                            rel: "noopener noreferrer",
+                                                                            className: "table-book-btn",
+                                                                            style: {
+                                                                                display: "inline-flex",
+                                                                                alignItems: "center",
+                                                                                gap: "0.4rem",
+                                                                                padding: "0.4rem 1.2rem",
+                                                                                borderRadius: "40px",
+                                                                                background: "#0052CC",
+                                                                                color: "#fff",
+                                                                                fontWeight: 600,
+                                                                                fontSize: "0.8rem",
+                                                                                textDecoration: "none",
+                                                                                transition: "all 0.2s ease",
+                                                                                border: "none",
+                                                                                cursor: "pointer"
+                                                                            },
+                                                                            children: [
+                                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                                    size: 14
+                                                                                }, void 0, false, {
+                                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                                    lineNumber: 1798,
+                                                                                    columnNumber: 33
+                                                                                }, this),
+                                                                                " Get Quote"
+                                                                            ]
+                                                                        }, void 0, true, {
+                                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                                            lineNumber: 1775,
+                                                                            columnNumber: 31
+                                                                        }, this)
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                                        lineNumber: 1769,
+                                                                        columnNumber: 29
+                                                                    }, this)
+                                                                ]
+                                                            }, route.routeSlug || index, true, {
+                                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                                lineNumber: 1696,
+                                                                columnNumber: 27
+                                                            }, this);
+                                                        })
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/CityTemplate.jsx",
+                                                        lineNumber: 1671,
+                                                        columnNumber: 21
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 1608,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1601,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1572,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    style: {
+                                        fontSize: "0.8rem",
+                                        color: "#7a8a9e",
+                                        textAlign: "center",
+                                        marginTop: "1rem"
+                                    },
+                                    children: [
+                                        "* Fare estimates are indicative only. Actual pricing may vary based on vehicle availability, travel dates, route conditions, tolls, parking, taxes, driver allowance, and trip duration. Contact us for the latest Urbania fare in ",
+                                        city.name,
+                                        "."
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1811,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 1307,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 1303,
+                        columnNumber: 9
+                    }, this),
+                    relatedRoutes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "section-header",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        className: "section-title",
+                                        children: "More Routes"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CityTemplate.jsx",
+                                        lineNumber: 1839,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1838,
+                                    columnNumber: 15
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "routes-grid",
+                                    children: relatedRoutes.map((item)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "route-card",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    className: "route-dest",
+                                                    children: [
+                                                        item.origin,
+                                                        " to ",
+                                                        item.destination
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1845,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    className: "route-meta",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$road$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Road$3e$__["Road"], {
+                                                            size: 14
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1849,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        " ",
+                                                        item.distanceKm,
+                                                        " KM ·",
+                                                        " ",
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                            size: 14
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 1850,
+                                                            columnNumber: 23
+                                                        }, this),
+                                                        " ",
+                                                        item.durationHrs
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1848,
+                                                    columnNumber: 21
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                    href: `/routes/${item.routeSlug}`,
+                                                    className: "btn btn-primary btn-sm",
+                                                    children: "View Route"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1852,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, item.routeSlug, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1844,
+                                            columnNumber: 19
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1842,
+                                    columnNumber: 15
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 1830,
+                            columnNumber: 13
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 1829,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#ffffff"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1898,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Perfect for Every Journey"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1885,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: [
+                                                "Your Ideal Travel Companion in ",
+                                                city.name
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1900,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: [
+                                                "Whether it's a family vacation, corporate event, or pilgrimage tour, Urbania Tempo Traveller is perfect for every journey in",
+                                                " ",
+                                                city.name,
+                                                "."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1910,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1878,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                                        gap: "2rem"
+                                    },
+                                    children: [
+                                        {
+                                            icon: "👨‍👩‍👧‍👦",
+                                            title: "Family Trips",
+                                            desc: `Spacious and comfortable travel for the whole family in ${city.name}.`
+                                        },
+                                        {
+                                            icon: "💼",
+                                            title: "Corporate Events",
+                                            desc: `Professional and reliable transport for business meetings and events.`
+                                        },
+                                        {
+                                            icon: "🛕",
+                                            title: "Pilgrimage Tours",
+                                            desc: `Comfortable journeys to temples and religious sites in and around ${city.name}.`
+                                        },
+                                        {
+                                            icon: "🎉",
+                                            title: "Wedding Parties",
+                                            desc: `Luxury travel for wedding guests and family members in ${city.name}.`
+                                        },
+                                        {
+                                            icon: "🏖️",
+                                            title: "Sightseeing Tours",
+                                            desc: `Explore the best attractions of ${city.name} with our premium fleet.`
+                                        },
+                                        {
+                                            icon: "✈️",
+                                            title: "Airport Transfers",
+                                            desc: `Reliable and punctual pickup and drop-off to ${city.name} airport.`
+                                        }
+                                    ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                background: "#f9fafc",
+                                                padding: "1.5rem",
+                                                borderRadius: "20px",
+                                                textAlign: "center",
+                                                border: "1px solid #ecf0f7",
+                                                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                                                cursor: "pointer"
+                                            },
+                                            className: "journey-card",
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1.05)";
+                                                e.currentTarget.style.borderColor = "#0052CC";
+                                                e.currentTarget.style.background = "#ffffff";
+                                                e.currentTarget.style.boxShadow = "0 12px 28px rgba(0, 82, 204, 0.08)";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.borderColor = "#ecf0f7";
+                                                e.currentTarget.style.background = "#f9fafc";
+                                                e.currentTarget.style.boxShadow = "none";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        fontSize: "2.5rem",
+                                                        marginBottom: "0.5rem"
+                                                    },
+                                                    children: item.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1988,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontSize: "1.1rem",
+                                                        fontWeight: 700,
+                                                        marginBottom: "0.5rem",
+                                                        color: "#0b1a2e"
+                                                    },
+                                                    children: item.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 1991,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontSize: "0.9rem",
+                                                        color: "#4a5a6e",
+                                                        lineHeight: "1.6"
+                                                    },
+                                                    children: item.desc
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2001,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 1962,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 1923,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 1870,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 1866,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#f9fafc"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2049,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " How Booking Works"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2036,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: [
+                                                "Book Your Urbania in ",
+                                                city.name,
+                                                " in 4 Simple Steps"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2051,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: [
+                                                "Quick and hassle-free booking process for your Urbania Tempo Traveller in ",
+                                                city.name,
+                                                "."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2061,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2029,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                                        gap: "2rem",
+                                        position: "relative"
+                                    },
+                                    children: [
+                                        {
+                                            step: "1",
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                size: 28
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 2084,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Contact Us",
+                                            desc: `Reach out via WhatsApp or phone with your travel details in ${city.name}.`
+                                        },
+                                        {
+                                            step: "2",
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                size: 28
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 2090,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Get Quote",
+                                            desc: `Receive a transparent quote based on your itinerary and group size.`
+                                        },
+                                        {
+                                            step: "3",
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
+                                                size: 28
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 2096,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Confirm Booking",
+                                            desc: `Pay a token advance to confirm your Urbania booking in ${city.name}.`
+                                        },
+                                        {
+                                            step: "4",
+                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                size: 28
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityTemplate.jsx",
+                                                lineNumber: 2102,
+                                                columnNumber: 25
+                                            }, this),
+                                            title: "Enjoy Travel",
+                                            desc: `Our chauffeur arrives on time for your comfortable journey in ${city.name}.`
+                                        }
+                                    ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                position: "relative",
+                                                background: "#fff",
+                                                padding: "2rem 1.5rem",
+                                                borderRadius: "24px",
+                                                textAlign: "center",
+                                                border: "1px solid #ecf0f7",
+                                                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
+                                                boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
+                                                cursor: "pointer",
+                                                transform: "scale(1)"
+                                            },
+                                            className: "step-card",
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1.05)";
+                                                e.currentTarget.style.borderColor = "#0052CC";
+                                                e.currentTarget.style.boxShadow = "0 16px 40px rgba(0, 82, 204, 0.12)";
+                                                e.currentTarget.style.background = "#ffffff";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.borderColor = "#ecf0f7";
+                                                e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.02)";
+                                                e.currentTarget.style.background = "#fff";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        justifyContent: "center",
+                                                        width: "50px",
+                                                        height: "50px",
+                                                        margin: "0 auto 1rem",
+                                                        background: "#eef3ff",
+                                                        color: "#0052CC",
+                                                        borderRadius: "50%",
+                                                        fontSize: "1.5rem",
+                                                        fontWeight: 700,
+                                                        transition: "all 0.3s ease"
+                                                    },
+                                                    className: "step-number",
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.background = "#0052CC";
+                                                        e.currentTarget.style.color = "#ffffff";
+                                                        e.currentTarget.style.transform = "scale(1.1)";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.background = "#eef3ff";
+                                                        e.currentTarget.style.color = "#0052CC";
+                                                        e.currentTarget.style.transform = "scale(1)";
+                                                    },
+                                                    children: item.step
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2138,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        color: "#0052CC",
+                                                        marginBottom: "0.5rem",
+                                                        transition: "transform 0.3s ease"
+                                                    },
+                                                    className: "step-icon",
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.transform = "scale(1.15)";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.transform = "scale(1)";
+                                                    },
+                                                    children: item.icon
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2169,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                    style: {
+                                                        fontSize: "1.1rem",
+                                                        fontWeight: 700,
+                                                        marginBottom: "0.5rem",
+                                                        color: "#0b1a2e",
+                                                        transition: "color 0.3s ease"
+                                                    },
+                                                    className: "step-title",
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.color = "#0052CC";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.color = "#0b1a2e";
+                                                    },
+                                                    children: item.title
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2187,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        fontSize: "0.9rem",
+                                                        color: "#4a5a6e",
+                                                        lineHeight: "1.6",
+                                                        transition: "color 0.3s ease"
+                                                    },
+                                                    className: "step-desc",
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.color = "#1a2634";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.color = "#4a5a6e";
+                                                    },
+                                                    children: item.desc
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2207,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        position: "absolute",
+                                                        bottom: 0,
+                                                        left: 0,
+                                                        right: 0,
+                                                        height: "3px",
+                                                        background: "linear-gradient(90deg, #0052CC 0%, #0770E3 100%)",
+                                                        transform: "scaleX(0)",
+                                                        transformOrigin: "left",
+                                                        transition: "transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)"
+                                                    },
+                                                    className: "step-bottom-line",
+                                                    onMouseEnter: (e)=>{
+                                                        e.currentTarget.style.transform = "scaleX(1)";
+                                                    },
+                                                    onMouseLeave: (e)=>{
+                                                        e.currentTarget.style.transform = "scaleX(0)";
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2226,
+                                                    columnNumber: 19
+                                                }, this),
+                                                index < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        position: "absolute",
+                                                        top: "30%",
+                                                        right: "-1rem",
+                                                        width: "2rem",
+                                                        height: "2px",
+                                                        background: "#0052CC",
+                                                        opacity: 0.3,
+                                                        display: "none"
+                                                    },
+                                                    className: "step-connector"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2251,
+                                                    columnNumber: 21
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2107,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2073,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        marginTop: "3rem",
+                                        padding: "2rem",
+                                        background: "#ffffff",
+                                        borderRadius: "20px",
+                                        border: "1px solid #ecf0f7",
+                                        transition: "all 0.3s ease"
+                                    },
+                                    className: "booking-cta",
+                                    onMouseEnter: (e)=>{
+                                        e.currentTarget.style.borderColor = "#0052CC";
+                                        e.currentTarget.style.boxShadow = "0 8px 24px rgba(0, 82, 204, 0.06)";
+                                    },
+                                    onMouseLeave: (e)=>{
+                                        e.currentTarget.style.borderColor = "#ecf0f7";
+                                        e.currentTarget.style.boxShadow = "none";
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1rem",
+                                                color: "#4a5a6e",
+                                                marginBottom: "1rem"
+                                            },
+                                            children: [
+                                                "Ready to book your Urbania in ",
+                                                city.name,
+                                                "?"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2291,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: `https://wa.me/${whatsappNumber}?text=${whatsappText}`,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.6rem",
+                                                padding: "0.8rem 2.5rem",
+                                                borderRadius: "50px",
+                                                background: "#25D366",
+                                                color: "#fff",
+                                                fontWeight: 700,
+                                                textDecoration: "none",
+                                                transition: "all 0.3s ease",
+                                                border: "none",
+                                                fontSize: "1rem",
+                                                cursor: "pointer"
+                                            },
+                                            className: "booking-cta-btn",
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1.05)";
+                                                e.currentTarget.style.boxShadow = "0 8px 24px rgba(37, 211, 102, 0.35)";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.boxShadow = "none";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                    size: 20
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2330,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Book Now"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2300,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2270,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 2021,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 2017,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#ffffff"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2369,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " Customer Reviews"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2356,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: "What Our Customers Say"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2371,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: [
+                                                "Real reviews from happy travelers who booked Urbania Tempo Traveller in ",
+                                                city.name,
+                                                "."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2381,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2349,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "grid",
+                                        gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+                                        gap: "2rem"
+                                    },
+                                    children: [
+                                        {
+                                            name: "Rahul Sharma",
+                                            location: city.name,
+                                            rating: 5,
+                                            text: `Excellent service! The Urbania was spotless and the driver was very professional. Highly recommend for group travel in ${city.name}.`,
+                                            date: "2 weeks ago",
+                                            avatar: "R"
+                                        },
+                                        {
+                                            name: "Priya Patel",
+                                            location: city.name,
+                                            rating: 5,
+                                            text: `Booked for a family trip from Delhi to ${city.name}. The vehicle was comfortable and the pricing was transparent. Will book again!`,
+                                            date: "1 month ago",
+                                            avatar: "P"
+                                        },
+                                        {
+                                            name: "Amit Kumar",
+                                            location: city.name,
+                                            rating: 4,
+                                            text: `Great experience with Urbania. The 12-seater was perfect for our corporate team outing in ${city.name}. Punctual and well-maintained.`,
+                                            date: "3 weeks ago",
+                                            avatar: "A"
+                                        },
+                                        {
+                                            name: "Sneha Reddy",
+                                            location: city.name,
+                                            rating: 5,
+                                            text: `We had an amazing trip to ${city.name} with Urbania. The vehicle was luxurious and the driver was very knowledgeable about local spots.`,
+                                            date: "2 months ago",
+                                            avatar: "S"
+                                        }
+                                    ].map((review, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                background: "#f9fafc",
+                                                padding: "1.5rem",
+                                                borderRadius: "20px",
+                                                border: "1px solid #ecf0f7",
+                                                transition: "all 0.3s ease"
+                                            },
+                                            className: "review-card",
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.transform = "translateY(-4px)";
+                                                e.currentTarget.style.borderColor = "#0052CC";
+                                                e.currentTarget.style.boxShadow = "0 12px 28px rgba(0, 82, 204, 0.08)";
+                                                e.currentTarget.style.background = "#ffffff";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.transform = "translateY(0)";
+                                                e.currentTarget.style.borderColor = "#ecf0f7";
+                                                e.currentTarget.style.boxShadow = "none";
+                                                e.currentTarget.style.background = "#f9fafc";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        gap: "0.2rem",
+                                                        marginBottom: "0.5rem"
+                                                    },
+                                                    children: [
+                                                        ...Array(5)
+                                                    ].map((_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                            size: 16,
+                                                            fill: i < review.rating ? "#FFB800" : "none",
+                                                            color: i < review.rating ? "#FFB800" : "#d1d5db"
+                                                        }, i, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 2468,
+                                                            columnNumber: 23
+                                                        }, this))
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2459,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                    style: {
+                                                        color: "#1a2634",
+                                                        fontSize: "0.95rem",
+                                                        lineHeight: "1.6",
+                                                        marginBottom: "1rem",
+                                                        fontStyle: "italic"
+                                                    },
+                                                    children: [
+                                                        '"',
+                                                        review.text,
+                                                        '"'
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2478,
+                                                    columnNumber: 19
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    style: {
+                                                        display: "flex",
+                                                        alignItems: "center",
+                                                        gap: "0.8rem",
+                                                        borderTop: "1px solid #ecf0f7",
+                                                        paddingTop: "1rem"
+                                                    },
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            style: {
+                                                                width: "40px",
+                                                                height: "40px",
+                                                                borderRadius: "50%",
+                                                                background: "#0052CC",
+                                                                color: "#fff",
+                                                                display: "flex",
+                                                                alignItems: "center",
+                                                                justifyContent: "center",
+                                                                fontWeight: 700,
+                                                                fontSize: "1rem"
+                                                            },
+                                                            children: review.avatar
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 2500,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontWeight: 600,
+                                                                        color: "#0b1a2e",
+                                                                        fontSize: "0.95rem"
+                                                                    },
+                                                                    children: review.name
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 2517,
+                                                                    columnNumber: 23
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    style: {
+                                                                        fontSize: "0.75rem",
+                                                                        color: "#7a8a9e"
+                                                                    },
+                                                                    children: [
+                                                                        review.date,
+                                                                        " · ",
+                                                                        review.location
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                                    lineNumber: 2526,
+                                                                    columnNumber: 23
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/CityTemplate.jsx",
+                                                            lineNumber: 2516,
+                                                            columnNumber: 21
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2491,
+                                                    columnNumber: 19
+                                                }, this)
+                                            ]
+                                        }, index, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2434,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2393,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 2341,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 2337,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "section-padding",
+                        style: {
+                            padding: "4rem 0",
+                            background: "#ffffff"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "1280px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        textAlign: "center",
+                                        maxWidth: "780px",
+                                        margin: "0 auto 3rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                gap: "0.5rem",
+                                                background: "#eef3ff",
+                                                color: "#0052CC",
+                                                padding: "0.25rem 1.2rem",
+                                                borderRadius: "40px",
+                                                fontSize: "0.8rem",
+                                                fontWeight: 600
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/CityTemplate.jsx",
+                                                    lineNumber: 2575,
+                                                    columnNumber: 17
+                                                }, this),
+                                                " FAQ"
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2562,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                            style: {
+                                                fontSize: "2.3rem",
+                                                fontWeight: 700,
+                                                margin: "0.5rem 0 0.75rem",
+                                                color: "#0b1a2e"
+                                            },
+                                            children: "Frequently Asked Questions"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2577,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            style: {
+                                                fontSize: "1.05rem",
+                                                color: "#4a5a6e",
+                                                lineHeight: "1.6"
+                                            },
+                                            children: [
+                                                "Common questions about Urbania Tempo Traveller hire in",
+                                                " ",
+                                                city.name,
+                                                "."
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2587,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2555,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        gap: "0.75rem",
+                                        maxWidth: "820px",
+                                        margin: "0 auto"
+                                    },
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FAQS"].map((faq, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FAQItem, {
+                                            question: faq.q,
+                                            answer: faq.a,
+                                            isOpen: openFAQIndex === index,
+                                            onToggle: ()=>toggleFAQ(index)
+                                        }, index, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2609,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2599,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 2547,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 2543,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        style: {
+                            padding: "4rem 0",
+                            background: "linear-gradient(145deg, #003ea6 0%, #0770E3 100%)",
+                            color: "#fff",
+                            textAlign: "center"
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "container",
+                            style: {
+                                maxWidth: "900px",
+                                margin: "0 auto",
+                                padding: "0 1.5rem"
+                            },
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    style: {
+                                        fontSize: "2.5rem",
+                                        fontWeight: 700,
+                                        marginBottom: "0.5rem",
+                                        color: "#fff"
+                                    },
+                                    children: [
+                                        "Ready to Explore ",
+                                        city.name,
+                                        "?"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2634,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    style: {
+                                        fontSize: "1.1rem",
+                                        opacity: 0.9,
+                                        marginBottom: "2rem",
+                                        maxWidth: "600px",
+                                        margin: "0 auto 2rem"
+                                    },
+                                    children: "Book your Urbania Tempo Traveller today and experience luxury group travel."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2644,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                    href: `https://wa.me/${whatsappNumber}?text=${whatsappText}`,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    style: {
+                                        display: "inline-flex",
+                                        alignItems: "center",
+                                        gap: "0.6rem",
+                                        padding: "1rem 3rem",
+                                        borderRadius: "50px",
+                                        background: "#25D366",
+                                        color: "#fff",
+                                        fontWeight: 700,
+                                        fontSize: "1.1rem",
+                                        textDecoration: "none",
+                                        transition: "0.2s",
+                                        border: "none",
+                                        cursor: "pointer"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                            size: 22
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/CityTemplate.jsx",
+                                            lineNumber: 2676,
+                                            columnNumber: 15
+                                        }, this),
+                                        " Get Instant Quote"
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/CityTemplate.jsx",
+                                    lineNumber: 2656,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/CityTemplate.jsx",
+                            lineNumber: 2630,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 2622,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                        fileName: "[project]/components/CityTemplate.jsx",
+                        lineNumber: 2681,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/CityTemplate.jsx",
+                lineNumber: 170,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/CityTemplate.jsx",
+        lineNumber: 166,
+        columnNumber: 5
+    }, this);
+}
+_s(CityTemplate, "n2CvHR4lmZ4Z5GzLceS/voUjtc0=");
+_c2 = CityTemplate;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "FAQItem");
+__turbopack_context__.k.register(_c1, "CitySeo");
+__turbopack_context__.k.register(_c2, "CityTemplate");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/components/Footer.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Footer
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.mjs [app-client] (ecmascript) <export default as Phone>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-square.mjs [app-client] (ecmascript) <export default as MessageSquare>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/map-pin.mjs [app-client] (ecmascript) <export default as MapPin>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/mail.mjs [app-client] (ecmascript) <export default as Mail>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/routesData.js [app-client] (ecmascript)");
+"use client";
+;
+;
+;
+;
+function Footer({ onOpenModal }) {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
+        className: "site-footer",
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "container",
+            children: [
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "footer-grid",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "brand-logo",
+                                    style: {
+                                        marginBottom: "1.25rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "logo-badge",
+                                            style: {
+                                                background: "var(--blue-600)"
+                                            },
+                                            children: "HU"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 15,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "brand-text",
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "brand-title",
+                                                    style: {
+                                                        color: "#FFF"
+                                                    },
+                                                    children: "HIRE URBANIA"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 22,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "brand-sub",
+                                                    style: {
+                                                        color: "var(--blue-400)"
+                                                    },
+                                                    children: "LUXURY TEMPO TRAVELLER"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 25,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 21,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 14,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                    style: {
+                                        color: "var(--text-on-dark-muted)",
+                                        fontSize: "0.85rem",
+                                        lineHeight: "1.7",
+                                        marginBottom: "1.5rem"
+                                    },
+                                    children: "Hire Urbania Luxury Tempo Traveller for comfortable and hassle-free group travel. Enjoy premium Urbania vehicles, experienced chauffeurs, transparent pricing, and doorstep pickup for family trips, weddings, pilgrimages, corporate tours, and outstation journeys across India."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "flex",
+                                        alignItems: "center",
+                                        gap: "0.75rem",
+                                        flexWrap: "wrap",
+                                        width: "100%"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: ()=>onOpenModal?.(),
+                                            className: "btn btn-primary btn-sm",
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                justifyContent: "center",
+                                                gap: "0.45rem",
+                                                minHeight: "40px",
+                                                padding: "0.65rem 1.2rem",
+                                                borderRadius: "8px",
+                                                whiteSpace: "nowrap",
+                                                lineHeight: 1,
+                                                cursor: "pointer"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 74,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Quick Inquiry"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 75,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 58,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: "tel:+918448445504",
+                                            className: "call-helpline-btn",
+                                            style: {
+                                                display: "inline-flex",
+                                                alignItems: "center",
+                                                justifyContent: "center",
+                                                gap: "0.45rem",
+                                                minHeight: "40px",
+                                                padding: "0.65rem 1.2rem",
+                                                borderRadius: "8px",
+                                                color: "#ffffff",
+                                                background: "transparent",
+                                                border: "1px solid rgba(255, 255, 255, 0.35)",
+                                                whiteSpace: "nowrap",
+                                                lineHeight: 1,
+                                                textDecoration: "none",
+                                                cursor: "pointer",
+                                                fontSize: "0.85rem",
+                                                fontWeight: 600,
+                                                transition: "background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.2s ease",
+                                                boxSizing: "border-box"
+                                            },
+                                            onMouseEnter: (e)=>{
+                                                e.currentTarget.style.background = "#ffffff";
+                                                e.currentTarget.style.color = "#0052CC";
+                                                e.currentTarget.style.borderColor = "#ffffff";
+                                                e.currentTarget.style.transform = "translateY(-1px)";
+                                            },
+                                            onMouseLeave: (e)=>{
+                                                e.currentTarget.style.background = "transparent";
+                                                e.currentTarget.style.color = "#ffffff";
+                                                e.currentTarget.style.borderColor = "rgba(255, 255, 255, 0.35)";
+                                                e.currentTarget.style.transform = "translateY(0)";
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                    size: 14
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 116,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Call Helpline"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 117,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 78,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 49,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 13,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "footer-col",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    children: "Trust Hire"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 124,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "footer-links",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/terms-and-conditions",
+                                                children: "Terms & Conditions"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 128,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 127,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/privacy-policy",
+                                                children: "Privacy Policy"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 131,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 130,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/contact-us",
+                                                children: "Contact Us"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 134,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 133,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/about-us",
+                                                children: "About Us"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 137,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 136,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/refund-cancellation",
+                                                children: "Refund & Cancellation"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 140,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 139,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: "/blogs",
+                                                children: "Blogs"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 143,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 142,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 126,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 123,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "footer-col",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    children: "Popular City Hubs"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 150,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                                    className: "footer-links",
+                                    children: __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CITY_HUBS"].slice(0, 8).map((city)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                                href: `/${city.slug}`,
+                                                children: [
+                                                    "Force Urbania in ",
+                                                    city.name
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 154,
+                                                columnNumber: 19
+                                            }, this)
+                                        }, city.slug, false, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 153,
+                                            columnNumber: 17
+                                        }, this))
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 151,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 149,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                            className: "footer-col",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                    children: "24/7 Booking Helpline"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 164,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    style: {
+                                        display: "flex",
+                                        flexDirection: "column",
+                                        gap: "0.85rem",
+                                        color: "var(--text-on-dark-muted)",
+                                        fontSize: "0.88rem"
+                                    },
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "flex",
+                                                gap: "0.6rem",
+                                                alignItems: "center"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                    size: 16,
+                                                    style: {
+                                                        color: "var(--blue-400)"
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 178,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "+91 84484 45504"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 179,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 175,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "flex",
+                                                gap: "0.6rem",
+                                                alignItems: "center"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$mail$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Mail$3e$__["Mail"], {
+                                                    size: 16,
+                                                    style: {
+                                                        color: "var(--blue-400)"
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 185,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "booking@hireurbaniatempotraveller.com"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 186,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 182,
+                                            columnNumber: 15
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            style: {
+                                                display: "flex",
+                                                gap: "0.6rem",
+                                                alignItems: "flex-start"
+                                            },
+                                            children: [
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                    size: 16,
+                                                    style: {
+                                                        color: "var(--blue-400)",
+                                                        marginTop: "0.2rem",
+                                                        flexShrink: 0
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 196,
+                                                    columnNumber: 17
+                                                }, this),
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Headquartered in Noida, Uttar Pradesh • Serving clients across India"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/Footer.jsx",
+                                                    lineNumber: 204,
+                                                    columnNumber: 17
+                                                }, this)
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/components/Footer.jsx",
+                                            lineNumber: 189,
+                                            columnNumber: 15
+                                        }, this)
+                                    ]
+                                }, void 0, true, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 166,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 163,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Footer.jsx",
+                    lineNumber: 11,
+                    columnNumber: 9
+                }, this),
+                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                    className: "footer-bottom",
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: [
+                                "© ",
+                                new Date().getFullYear(),
+                                " Hire Urbania Tempo Traveller Services. All Rights Reserved. Designed for Maximum Comfort & Travel Safety across India."
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 215,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            children: [
+                                "Designed by ",
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                    children: "Geogo Infotech Pvt. Ltd."
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Footer.jsx",
+                                    lineNumber: 222,
+                                    columnNumber: 25
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Footer.jsx",
+                            lineNumber: 221,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/components/Footer.jsx",
+                    lineNumber: 214,
+                    columnNumber: 9
+                }, this)
+            ]
+        }, void 0, true, {
+            fileName: "[project]/components/Footer.jsx",
+            lineNumber: 10,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/components/Footer.jsx",
+        lineNumber: 9,
+        columnNumber: 5
+    }, this);
+}
+_c = Footer;
+var _c;
+__turbopack_context__.k.register(_c, "Footer");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/components/Navbar.jsx [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "default",
+    ()=>Navbar
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/client/app-dir/link.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/phone.mjs [app-client] (ecmascript) <export default as Phone>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/message-square.mjs [app-client] (ecmascript) <export default as MessageSquare>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/menu.mjs [app-client] (ecmascript) <export default as Menu>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.mjs [app-client] (ecmascript) <export default as X>");
+;
+var _s = __turbopack_context__.k.signature();
+'use client';
+;
+;
+;
+function Navbar({ onOpenModal }) {
+    _s();
+    const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "Navbar.useEffect": ()=>{
+            const handleScroll = {
+                "Navbar.useEffect.handleScroll": ()=>{
+                    setScrolled(window.scrollY > 40);
+                }
+            }["Navbar.useEffect.handleScroll"];
+            window.addEventListener('scroll', handleScroll);
+            return ({
+                "Navbar.useEffect": ()=>window.removeEventListener('scroll', handleScroll)
+            })["Navbar.useEffect"];
+        }
+    }["Navbar.useEffect"], []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
+        className: `navbar ${scrolled ? 'scrolled' : ''}`,
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "container nav-container",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/",
+                        className: "brand-logo",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "logo-badge",
+                                children: "HU"
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 23,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "brand-text",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "brand-title",
+                                        children: "HIRE URBANIA"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 25,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "brand-sub",
+                                        children: "LUXURY TEMPO TRAVELLER"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 26,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 24,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 22,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
+                            className: "nav-links",
+                            children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/",
+                                        className: "nav-link active",
+                                        children: "Home"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 32,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 32,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#fleet",
+                                        className: "nav-link",
+                                        children: "Fleet Variants"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 33,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 33,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#calculator",
+                                        className: "nav-link",
+                                        children: "Fare Calculator"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 34,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 34,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#routes",
+                                        className: "nav-link",
+                                        children: "Popular Routes"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 35,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 35,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#packages",
+                                        className: "nav-link",
+                                        children: "Tour Packages"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 36,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 36,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#reviews",
+                                        className: "nav-link",
+                                        children: "Reviews"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 37,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 37,
+                                    columnNumber: 13
+                                }, this),
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                        href: "/#faqs",
+                                        className: "nav-link",
+                                        children: "FAQs"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 38,
+                                        columnNumber: 17
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 38,
+                                    columnNumber: 13
+                                }, this)
+                            ]
+                        }, void 0, true, {
+                            fileName: "[project]/components/Navbar.jsx",
+                            lineNumber: 31,
+                            columnNumber: 11
+                        }, this)
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 30,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "nav-cta-group",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "tel:+918448445504",
+                                className: "phone-quicklink",
+                                title: "Call 24/7 Helpline",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                        size: 17
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 44,
+                                        columnNumber: 13
+                                    }, this),
+                                    " ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        children: "+91 84484 45504"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 44,
+                                        columnNumber: 33
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 43,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>onOpenModal?.(),
+                                className: "btn btn-whatsapp btn-sm",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                        size: 16
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/Navbar.jsx",
+                                        lineNumber: 47,
+                                        columnNumber: 13
+                                    }, this),
+                                    " Instant Quote"
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 46,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                onClick: ()=>setMobileOpen(!mobileOpen),
+                                className: "mobile-toggle",
+                                "aria-label": "Toggle Navigation Menu",
+                                children: mobileOpen ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
+                                    size: 24
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 54,
+                                    columnNumber: 27
+                                }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$menu$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Menu$3e$__["Menu"], {
+                                    size: 24
+                                }, void 0, false, {
+                                    fileName: "[project]/components/Navbar.jsx",
+                                    lineNumber: 54,
+                                    columnNumber: 45
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/Navbar.jsx",
+                                lineNumber: 49,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 42,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Navbar.jsx",
+                lineNumber: 21,
+                columnNumber: 7
+            }, this),
+            mobileOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                style: {
+                    background: '#FFFFFF',
+                    borderBottom: '1px solid var(--border-light)',
+                    padding: '1.25rem 1.5rem',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '1rem',
+                    boxShadow: 'var(--shadow-md)'
+                },
+                className: "mobile-menu-drawer",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '600'
+                        },
+                        children: "Home"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 70,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#fleet",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "Fleet Variants"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 71,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#calculator",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "Fare Calculator"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 72,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#routes",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "Popular Outstation Routes"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 73,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#packages",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "Tour Packages"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 74,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#reviews",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "Customer Reviews"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 75,
+                        columnNumber: 11
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                        href: "/#faqs",
+                        onClick: ()=>setMobileOpen(false),
+                        style: {
+                            color: 'var(--text-dark)',
+                            textDecoration: 'none',
+                            fontWeight: '500'
+                        },
+                        children: "FAQs"
+                    }, void 0, false, {
+                        fileName: "[project]/components/Navbar.jsx",
+                        lineNumber: 76,
+                        columnNumber: 11
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/components/Navbar.jsx",
+                lineNumber: 61,
+                columnNumber: 9
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/components/Navbar.jsx",
+        lineNumber: 20,
+        columnNumber: 5
+    }, this);
+}
+_s(Navbar, "moUcU2J4YHazgmQMN2Ea+ACEGYM=");
+_c = Navbar;
+var _c;
+__turbopack_context__.k.register(_c, "Navbar");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/lib/cityGuides.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// data/cityGuides.js
+// This maps city names to their guide content
+__turbopack_context__.s([
+    "CITY_GUIDE_MAP",
+    ()=>CITY_GUIDE_MAP,
+    "FALLBACK_GUIDE",
+    ()=>FALLBACK_GUIDE,
+    "getCityGuide",
+    ()=>getCityGuide,
+    "getUniqueDestinations",
+    ()=>getUniqueDestinations
+]);
+const CITY_GUIDE_MAP = {
+    // ========== UTTAR PRADESH ==========
+    Varanasi: {
+        overview: "Varanasi, the spiritual capital of India, is one of the world's oldest continuously inhabited cities.",
+        detailedDescription: "Varanasi, also known as Kashi or Banaras, is a city that embodies the essence of Hindu spirituality. With its labyrinthine lanes, over 80 ghats, and thousands of temples, it attracts millions of pilgrims and tourists annually.",
+        topAttractions: [
+            "Kashi Vishwanath Temple - One of the 12 Jyotirlingas",
+            "Dashashwamedh Ghat - Main ghat with spectacular Ganga Aarti",
+            "Manikarnika Ghat - The most sacred cremation ghat",
+            "Sarnath - Buddha's first sermon site",
+            "Banaras Hindu University - One of Asia's largest universities"
+        ],
+        localFood: [
+            "Kachori Sabzi",
+            "Malaiyyo",
+            "Banarasi Paan",
+            "Thandai",
+            "Tamatar Chaat"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Start your day early to experience the morning aarti at the ghats",
+            "Dress modestly when visiting temples",
+            "Take a boat ride on the Ganges at sunrise for spectacular views",
+            "Book accommodation in advance during festival seasons",
+            "Visit Sarnath for a peaceful half-day excursion"
+        ]
+    },
+    Ayodhya: {
+        overview: "Ayodhya, the birthplace of Lord Rama, is one of India's most sacred cities.",
+        detailedDescription: "Ayodhya is an ancient city with deep roots in Hindu mythology. The newly constructed Ram Mandir at Lord Rama's birthplace attracts pilgrims from across the world.",
+        topAttractions: [
+            "Ram Mandir - Newly constructed grand temple at Lord Rama's birthplace",
+            "Hanuman Garhi - Important Hanuman temple with city views",
+            "Kanak Bhawan - Temple dedicated to Lord Rama and Sita",
+            "Treta Ke Thakur - Ancient temple with unique architecture",
+            "Sarayu River Ghats - Scenic riverfront with evening aarti"
+        ],
+        localFood: [
+            "Bharwa Kachori",
+            "Malaiyyo",
+            "Thandai",
+            "Ayodhya Peda",
+            "Dal Chaat"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Book accommodation well in advance during festival seasons",
+            "Carry modest clothing for temple visits",
+            "Start temple visits early morning to avoid crowds",
+            "Consider hiring a local guide for historical context"
+        ]
+    },
+    Prayagraj: {
+        overview: "Prayagraj, known as the 'Sangam City', is one of India's holiest cities.",
+        detailedDescription: "Prayagraj holds immense religious significance as the site of the Triveni Sangam - the sacred confluence of the Ganges, Yamuna, and mythical Saraswati rivers. It hosts the Kumbh Mela, the world's largest religious gathering.",
+        topAttractions: [
+            "Triveni Sangam - Sacred confluence of three rivers",
+            "Allahabad Fort - Mughal-era fort built by Akbar",
+            "Anand Bhavan - Nehru family ancestral home",
+            "Kumbh Mela Ground - Site of the world's largest religious festival"
+        ],
+        localFood: [
+            "Allahabadi Guava",
+            "Kachori",
+            "Litti Chokha",
+            "Paan"
+        ],
+        bestTimeToVisit: "October to March (Kumbh Mela years are special)",
+        travelTips: [
+            "Visit the Sangam early morning for boat rides",
+            "Check Kumbh Mela dates if traveling during festival years",
+            "Carry water and sun protection during summer visits",
+            "Combine with Varanasi and Ayodhya for a complete circuit"
+        ]
+    },
+    Lucknow: {
+        overview: "Lucknow, the 'City of Nawabs', is the capital of Uttar Pradesh known for its refined culture and exquisite cuisine.",
+        detailedDescription: "Lucknow offers a unique blend of Mughal and British colonial architecture. The city is famous for its 'Tehzeeb' (etiquette), 'Nawabi' cuisine, and the iconic Chikankari embroidery.",
+        topAttractions: [
+            "Bara Imambara - Grand monument with Bhool Bhulaiya labyrinth",
+            "Chota Imambara - Beautiful palace with chandeliers",
+            "Rumi Darwaza - Magnificent gateway",
+            "Residency - Historic ruins from the 1857 uprising",
+            "Hazratganj - Famous shopping and dining district"
+        ],
+        localFood: [
+            "Tunday Kabab",
+            "Biryani",
+            "Kakori Kabab",
+            "Shahi Tukda",
+            "Kulfi"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit the Imambaras early morning to avoid crowds",
+            "Don't miss the evening light show at Bara Imambara",
+            "Explore Hazratganj for shopping and street food"
+        ]
+    },
+    Kanpur: {
+        overview: "Kanpur, the 'Manchester of the East', is a major industrial city in Uttar Pradesh.",
+        detailedDescription: "Kanpur grew as a major industrial center during the British era, with extensive textile and leather industries. The city played a significant role in India's independence movement.",
+        topAttractions: [
+            "JK Temple - Beautiful modern temple with intricate carvings",
+            "Nana Rao Park - Historic park with colonial-era buildings",
+            "Green Park - International cricket stadium",
+            "Ganga Barrage - Scenic view of the Ganges River",
+            "Kanpur Memorial Church - Gothic-style monument"
+        ],
+        localFood: [
+            "Thaggu Ke Laddu",
+            "Chaat",
+            "Kulfi",
+            "Biryani"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit JK Temple for its beautiful architecture",
+            "Explore the leather markets for shopping",
+            "Take an evening walk at Ganga Barrage"
+        ]
+    },
+    Agra: {
+        overview: "Agra, home to the magnificent Taj Mahal, is one of India's most visited tourist cities.",
+        detailedDescription: "Agra's rich Mughal heritage is reflected in its stunning monuments, most notably the Taj Mahal, a UNESCO World Heritage Site and one of the New Seven Wonders of the World.",
+        topAttractions: [
+            "Taj Mahal - Iconic white marble mausoleum",
+            "Agra Fort - Massive red sandstone fort",
+            "Fatehpur Sikri - Abandoned Mughal capital city",
+            "Itimad-ud-Daulah - 'Baby Taj' with intricate marble work",
+            "Mehtab Bagh - Garden with perfect Taj Mahal views at sunset"
+        ],
+        localFood: [
+            "Petha",
+            "Mughlai Cuisine",
+            "Dalmoth",
+            "Jalebi",
+            "Lassi"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit Taj Mahal at sunrise for the best experience",
+            "Book tickets online to avoid queues",
+            "Carry water and wear comfortable shoes",
+            "Visit Fatehpur Sikri for a half-day excursion"
+        ]
+    },
+    Mathura: {
+        overview: "Mathura, the birthplace of Lord Krishna, is one of India's holiest cities.",
+        detailedDescription: "Mathura is a city steeped in mythology and devotion. Every corner is associated with Lord Krishna's childhood. The city comes alive during Janmashtami, attracting millions of devotees.",
+        topAttractions: [
+            "Krishna Janmabhoomi Temple - Temple at Lord Krishna's birthplace",
+            "Dwarkadhish Temple - Beautiful temple with intricate architecture",
+            "Vishram Ghat - Sacred ghat on Yamuna River",
+            "Govardhan Hill - Sacred hill associated with Krishna",
+            "Gokul - Village where Krishna was raised"
+        ],
+        localFood: [
+            "Mathura Peda",
+            "Kachori Sabzi",
+            "Lassi",
+            "Jalebi"
+        ],
+        bestTimeToVisit: "October to March (Janmashtami is peak)",
+        travelTips: [
+            "Visit temples early morning to avoid crowds",
+            "Dress modestly as it's a pilgrimage city",
+            "Combine Mathura with Vrindavan for a complete Braj experience"
+        ]
+    },
+    Vrindavan: {
+        overview: "Vrindavan, the land of Lord Krishna's divine pastimes, is one of the most sacred cities in India.",
+        detailedDescription: "Vrindavan's atmosphere is infused with divine energy. The city is dotted with hundreds of temples, each telling a story from Krishna's life.",
+        topAttractions: [
+            "Banke Bihari Temple - The most revered Krishna temple in Vrindavan",
+            "Prem Mandir - Modern white marble temple with beautiful light shows",
+            "ISKCON Temple - International society for Krishna consciousness",
+            "Radha Raman Temple - Ancient temple with the original deity",
+            "Keshi Ghat - Sacred ghat on the Yamuna River"
+        ],
+        localFood: [
+            "Kachori Sabzi",
+            "Pedas",
+            "Lassi",
+            "Chaat"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit temples early morning for peaceful darshan",
+            "Wear modest clothing as it's a pilgrimage city",
+            "Explore the temples on foot for a spiritual experience"
+        ]
+    },
+    // ========== UTTARAKHAND ==========
+    Haridwar: {
+        overview: "Haridwar, the 'Gateway to Gods', is one of India's seven holiest cities.",
+        detailedDescription: "Haridwar's sacred ghats and temples have drawn pilgrims for centuries. The evening Ganga Aarti at Har Ki Pauri is a spectacular ceremony that attracts thousands of devotees. It serves as the gateway to the Char Dham Yatra.",
+        topAttractions: [
+            "Har Ki Pauri - The most sacred ghat with evening Ganga Aarti",
+            "Mansa Devi Temple - Hilltop temple with cable car access",
+            "Chandi Devi Temple - Sacred temple on a hilltop",
+            "Daksha Mahadev Temple - Ancient Shiva temple",
+            "Rajaji National Park - Wildlife sanctuary near the city"
+        ],
+        localFood: [
+            "Aloo Poori",
+            "Kachori",
+            "Jalebi",
+            "Ganga Jal Lassi"
+        ],
+        bestTimeToVisit: "October to March (Kumbh Mela years are special)",
+        travelTips: [
+            "Experience the Ganga Aarti at Har Ki Pauri at sunset",
+            "Book accommodation in advance during Kumbh Mela years",
+            "Take a dip in the Ganges for spiritual cleansing",
+            "Combine with Rishikesh and Dehradun for a complete Uttarakhand trip"
+        ]
+    },
+    Rishikesh: {
+        overview: "Rishikesh, the 'Yoga Capital of the World', is a beautiful spiritual town nestled in the Himalayan foothills.",
+        detailedDescription: "Rishikesh offers a unique combination of spirituality and adventure. The city's numerous yoga centers and ashrams attract spiritual seekers from around the world, while the Ganges River offers excellent opportunities for river rafting.",
+        topAttractions: [
+            "Laxman Jhula - Iconic suspension bridge over the Ganges",
+            "Ram Jhula - Another iconic suspension bridge",
+            "Beatles Ashram - Where the Beatles stayed for meditation",
+            "Triveni Ghat - Sacred ghat for evening aarti",
+            "Parmarth Niketan - Largest ashram with peaceful gardens"
+        ],
+        localFood: [
+            "Sattvik Food",
+            "Organic Cafes",
+            "Israeli Cuisine",
+            "North Indian"
+        ],
+        bestTimeToVisit: "September to March (Avoid monsoon for rafting)",
+        travelTips: [
+            "Try river rafting for an adventure experience",
+            "Attend a yoga class at one of the many ashrams",
+            "Don't miss the evening aarti at Triveni Ghat",
+            "Visit the Beatles Ashram for a trip down memory lane"
+        ]
+    },
+    Dehradun: {
+        overview: "Dehradun, the capital of Uttarakhand, is a picturesque city nestled between the Shivalik Hills and the Himalayas.",
+        detailedDescription: "Dehradun offers a perfect blend of natural beauty and urban amenities. The city's colonial-era architecture, beautiful gardens, and proximity to hill stations make it a popular destination.",
+        topAttractions: [
+            "Robber's Cave - Natural cave formation with waterfall",
+            "Sahastradhara - Cascading waterfalls with natural spa",
+            "Forest Research Institute - Colonial-era building with museum",
+            "Mindrolling Monastery - Beautiful Tibetan Buddhist monastery",
+            "Malsi Deer Park - Zoo and deer park in a natural setting"
+        ],
+        localFood: [
+            "Kumaoni Cuisine",
+            "Garhwali Thali",
+            "Tibetan Momo",
+            "Street Chaat"
+        ],
+        bestTimeToVisit: "March to June and September to November",
+        travelTips: [
+            "Visit Robber's Cave in the morning for the best experience",
+            "Explore Sahastradhara for its natural beauty",
+            "Take a stroll through the historic Clock Tower area",
+            "Use Dehradun as a base to explore Mussoorie"
+        ]
+    },
+    Mussoorie: {
+        overview: "Mussoorie, the 'Queen of Hills', is one of India's most popular hill stations.",
+        detailedDescription: "Mussoorie's colonial-era charm, beautiful landscapes, and pleasant climate have made it a favorite hill station for generations. The Mall Road, Kempty Falls, and Gun Hill are iconic attractions.",
+        topAttractions: [
+            "Kempty Falls - Famous waterfall with natural pools",
+            "Mall Road - The heart of Mussoorie with shops and cafes",
+            "Gun Hill - Highest point with panoramic views",
+            "Lal Tibba - Scenic viewpoint at the highest point",
+            "Jharipani Falls - Beautiful cascading waterfall"
+        ],
+        localFood: [
+            "Momos",
+            "Maggi",
+            "Pastries",
+            "Garhwali Food"
+        ],
+        bestTimeToVisit: "March to June and December to February",
+        travelTips: [
+            "Walk the Mall Road in the evening for the best experience",
+            "Visit Kempty Falls early morning to avoid crowds",
+            "Take the cable car to Gun Hill for panoramic views",
+            "Bring warm clothing even in summer evenings"
+        ]
+    },
+    Nainital: {
+        overview: "Nainital, the 'Lake District of India', is a charming hill station centered around the beautiful Naini Lake.",
+        detailedDescription: "Nainital's picturesque lake, surrounded by seven hills, creates a breathtaking setting. The city's colonial architecture, boating experiences, and nearby trekking trails offer diverse activities.",
+        topAttractions: [
+            "Naini Lake - Scenic lake at the heart of the city",
+            "Naina Devi Temple - Sacred temple at the lake's edge",
+            "Snow View Point - Panoramic views of the Himalayas",
+            "Mall Road - Vibrant shopping and dining street",
+            "Raj Bhawan - Governor's House with beautiful gardens"
+        ],
+        localFood: [
+            "Maggi",
+            "Momos",
+            "Pahadi Food",
+            "Sweets"
+        ],
+        bestTimeToVisit: "March to June and September to November",
+        travelTips: [
+            "Take a boat ride on Naini Lake",
+            "Walk the Mall Road for shopping",
+            "Visit Snow View Point early for sunrise views",
+            "Combine with nearby Bhimtal, Sattal, and Naukuchiatal"
+        ]
+    },
+    // ========== RAJASTHAN ==========
+    Jaipur: {
+        overview: "Jaipur, the Pink City, is the vibrant capital of Rajasthan.",
+        detailedDescription: "Jaipur's pink-hued buildings, magnificent forts, and grand palaces create a romantic setting. The city is a treasure trove of history, culture, and craftsmanship.",
+        topAttractions: [
+            "Amber Fort - Majestic fort with elephant rides",
+            "Hawa Mahal - Iconic Palace of Winds",
+            "City Palace - Royal residence with museums",
+            "Jantar Mantar - Astronomical observatory",
+            "Nahargarh Fort - Fort with city views"
+        ],
+        localFood: [
+            "Dal Baati Churma",
+            "Gatte ki Sabzi",
+            "Laal Maas",
+            "Pyaz Kachori",
+            "Kulfi"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit Amber Fort early morning for the best experience",
+            "Explore the bazaars for traditional Rajasthani handicrafts",
+            "Don't miss the evening light show at Amber Fort"
+        ]
+    },
+    Udaipur: {
+        overview: "Udaipur, the City of Lakes, is one of India's most romantic cities.",
+        detailedDescription: "Udaipur's stunning lakes, palaces, and gardens create a magical atmosphere. The City Palace complex, Lake Pichola, and Jag Mandir are iconic landmarks.",
+        topAttractions: [
+            "City Palace - Largest palace complex in Rajasthan",
+            "Lake Pichola - Scenic lake with palace views",
+            "Jag Mandir - Palace on an island in Lake Pichola",
+            "Jagdish Temple - Beautiful Hindu temple",
+            "Fateh Sagar Lake - Another beautiful lake"
+        ],
+        localFood: [
+            "Dal Baati",
+            "Gatte ki Sabzi",
+            "Keri Kadhi",
+            "Malai Kulfi"
+        ],
+        bestTimeToVisit: "September to March",
+        travelTips: [
+            "Take a boat ride on Lake Pichola for the best palace views",
+            "Visit City Palace in the morning to avoid crowds",
+            "Watch the sunset from the Monsoon Palace"
+        ]
+    },
+    Jodhpur: {
+        overview: "Jodhpur, the Blue City, is dominated by the magnificent Mehrangarh Fort.",
+        detailedDescription: "Jodhpur's blue-washed houses, seen best from the imposing Mehrangarh Fort, create a striking visual. The city's bustling markets, delicious street food, and grand palaces make it a cultural hub.",
+        topAttractions: [
+            "Mehrangarh Fort - One of India's largest and most impressive forts",
+            "Umaid Bhawan Palace - The last great palace built in India",
+            "Jaswant Thada - White marble cenotaph",
+            "Clock Tower Market - Vibrant local market",
+            "Sardar Market - Famous for handicrafts and textiles"
+        ],
+        localFood: [
+            "Makhaniya Lassi",
+            "Kadi Kachori",
+            "Laal Maas",
+            "Mirchi Vada"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit Mehrangarh Fort early morning for the best light",
+            "Explore the blue city lanes with a local guide",
+            "Shop for textiles and handicrafts at Sardar Market"
+        ]
+    },
+    Jaisalmer: {
+        overview: "Jaisalmer, the Golden City, rises from the Thar Desert like a golden mirage.",
+        detailedDescription: "Jaisalmer's golden sandstone architecture blends perfectly with the surrounding desert landscape. The city's living fort, stunning havelis, and vast sand dunes create an otherworldly experience.",
+        topAttractions: [
+            "Jaisalmer Fort - Living fort with shops and houses inside",
+            "Patwon Ki Haveli - Most ornate haveli with intricate carvings",
+            "Sam Sand Dunes - Vast sand dunes with sunset views",
+            "Salim Singh Ki Haveli - Unique architecture",
+            "Gadisar Lake - Scenic lake and temple complex"
+        ],
+        localFood: [
+            "Dal Baati",
+            "Ker Sangri",
+            "Desert Special",
+            "Mawa Kachori"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Take a camel safari into the desert",
+            "Spend a night in a desert camp for a unique experience",
+            "Explore the narrow lanes of the fort",
+            "Watch the sunset over the sand dunes"
+        ]
+    },
+    Ajmer: {
+        overview: "Ajmer, home to the revered Ajmer Sharif Dargah, is a city of religious harmony.",
+        detailedDescription: "Ajmer's blend of Hindu and Islamic heritage is reflected in its architecture and culture. The Ajmer Sharif Dargah, one of India's most important Sufi shrines, attracts devotees of all faiths.",
+        topAttractions: [
+            "Ajmer Sharif Dargah - Sacred Sufi shrine",
+            "Ana Sagar Lake - Scenic artificial lake with pavilions",
+            "Adhai Din Ka Jhonpra - Historic mosque with unique architecture",
+            "Taragarh Fort - Fort with panoramic city views"
+        ],
+        localFood: [
+            "Kulhad Chai",
+            "Kachori",
+            "Mawa Kachori",
+            "Dal Baati"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit the Dargah early morning for a peaceful experience",
+            "Explore Ana Sagar Lake in the evening",
+            "Combine with a visit to Pushkar"
+        ]
+    },
+    // ========== MADHYA PRADESH ==========
+    Ujjain: {
+        overview: "Ujjain, one of India's oldest cities, is the home of the Mahakaleshwar Jyotirlinga.",
+        detailedDescription: "Ujjain's spiritual significance is unmatched, being home to the Mahakaleshwar Temple, one of the twelve Jyotirlingas. The city's location on the Shipra River and its association with the Kumbh Mela make it a unique pilgrimage destination.",
+        topAttractions: [
+            "Mahakaleshwar Temple - One of the 12 Jyotirlingas with Bhasma Aarti",
+            "Kumbh Mela Ground - Host of the Simhastha Kumbh Mela",
+            "Kaliadeh Palace - Ancient palace on the Shipra River",
+            "Sandipani Ashram - Ancient ashram where Lord Krishna studied"
+        ],
+        localFood: [
+            "Poha",
+            "Bhutte Ka Kees",
+            "Dal Baati",
+            "Jalebi"
+        ],
+        bestTimeToVisit: "October to March (Mahashivratri is peak)",
+        travelTips: [
+            "Witness the Bhasma Aarti at Mahakaleshwar Temple (early morning)",
+            "Book accommodation in advance during Kumbh Mela years",
+            "Dress modestly as it's a pilgrimage city",
+            "Combine with Omkareshwar for a Jyotirlinga tour"
+        ]
+    },
+    Indore: {
+        overview: "Indore, the commercial capital of Madhya Pradesh, is a vibrant city known for its food and heritage.",
+        detailedDescription: "Indore's transformation into India's cleanest city is remarkable. The city's rich food culture, especially its street food, is legendary. The Rajwada Palace and bustling Sarafa Bazaar offer glimpses into the city's royal past.",
+        topAttractions: [
+            "Rajwada Palace - Historic palace with Maratha and Mughal architecture",
+            "Lal Bagh Palace - Beautiful palace with European-inspired design",
+            "Sarafa Bazaar - Night street food market",
+            "Khajrana Ganesh Temple - Famous Ganesh temple",
+            "Patalpani Waterfall - Scenic waterfall near the city"
+        ],
+        localFood: [
+            "Sarafa Bazaar",
+            "Bhutte Ka Kees",
+            "Khopra Patties",
+            "Gajak"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Explore Sarafa Bazaar at night for the best food experience",
+            "Visit Rajwada Palace for a glimpse of Holkar history",
+            "Don't miss the sunrise at Patalpani Waterfall"
+        ]
+    },
+    // ========== KARNATAKA ==========
+    Bangalore: {
+        overview: "Bangalore, the 'Silicon Valley of India', is a vibrant metropolis that perfectly blends traditional charm with modern technology.",
+        detailedDescription: "Bangalore's beautiful green spaces, historic buildings, and modern infrastructure coexist harmoniously. The city's cosmopolitan culture, world-class restaurants, and exciting nightlife make it a favorite destination for travelers.",
+        topAttractions: [
+            "Bangalore Palace - Tudor-style royal palace",
+            "Lalbagh Botanical Garden - Famous for its flower shows",
+            "Cubbon Park - Historic park with colonial-era buildings",
+            "Vidhana Soudha - Iconic government building",
+            "Commercial Street - Vibrant shopping district"
+        ],
+        localFood: [
+            "Masala Dosa",
+            "Bisi Bele Bath",
+            "Idli, Vada",
+            "Filter Coffee"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit Lalbagh Garden for its beautiful flower shows",
+            "Explore Commercial Street for shopping",
+            "Try the famous filter coffee at a local café"
+        ]
+    },
+    // ========== PUNJAB ==========
+    Amritsar: {
+        overview: "Amritsar, the 'Golden City', is home to the magnificent Golden Temple, the holiest shrine of Sikhism.",
+        detailedDescription: "Amritsar is a city of deep spiritual significance. The Golden Temple's serene sarovar and the continuous recitation of the Guru Granth Sahib create a peaceful atmosphere. The Wagah Border ceremony is a unique patriotic experience.",
+        topAttractions: [
+            "Golden Temple - The holiest Sikh shrine with golden dome",
+            "Jallianwala Bagh - Historic garden and memorial",
+            "Wagah Border - Beating Retreat ceremony",
+            "Durgiana Temple - Hindu temple resembling the Golden Temple",
+            "Gobindgarh Fort - Historic fort with light show"
+        ],
+        localFood: [
+            "Amritsari Kulcha",
+            "Lassi",
+            "Makki di Roti",
+            "Sarson da Saag"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit the Golden Temple early morning for a peaceful experience",
+            "Don't miss the Wagah Border ceremony in the evening",
+            "Try the langar (community meal) at the Golden Temple",
+            "Explore the bustling markets for Punjabi handicrafts"
+        ]
+    },
+    Chandigarh: {
+        overview: "Chandigarh, the 'City Beautiful', is India's first planned city and the capital of both Punjab and Haryana.",
+        detailedDescription: "Chandigarh's architecture, designed by Le Corbusier, is a masterpiece of urban planning. The city's beautiful gardens, serene lakes, and well-maintained infrastructure make it a pleasant destination.",
+        topAttractions: [
+            "Rock Garden - Unique garden made from industrial waste",
+            "Sukhna Lake - Serene lake with boating",
+            "Rose Garden - Asia's largest rose garden",
+            "Capitol Complex - UNESCO World Heritage Site",
+            "Elante Mall - Largest mall in North India"
+        ],
+        localFood: [
+            "Chole Bhature",
+            "Butter Chicken",
+            "Street Chaat",
+            "Lassi"
+        ],
+        bestTimeToVisit: "October to March",
+        travelTips: [
+            "Visit the Rock Garden for its unique sculptures",
+            "Take a walk around Sukhna Lake in the evening",
+            "Explore the Sector 17 market for shopping"
+        ]
+    }
+};
+const FALLBACK_GUIDE = {
+    overview: "Discover the rich heritage and culture of this amazing city.",
+    detailedDescription: "This city offers a unique blend of history, culture, and modern amenities. Whether you're visiting for pilgrimage, tourism, or business, you'll find plenty to explore and experience.",
+    topAttractions: [
+        "Historic temples and monuments",
+        "Local markets and bazaars",
+        "Cultural heritage sites",
+        "Scenic viewpoints and gardens",
+        "Delicious local cuisine"
+    ],
+    localFood: [
+        "Local specialties",
+        "Street food",
+        "Traditional dishes"
+    ],
+    bestTimeToVisit: "October to March",
+    travelTips: [
+        "Plan your visit during pleasant weather months",
+        "Explore local attractions with a guide",
+        "Try the local cuisine",
+        "Book accommodation in advance"
+    ]
+};
+function getCityGuide(cityName) {
+    // Try exact match
+    if (CITY_GUIDE_MAP[cityName]) {
+        return CITY_GUIDE_MAP[cityName];
+    }
+    // Try case-insensitive match
+    const lowerCityName = cityName.toLowerCase();
+    for (const key of Object.keys(CITY_GUIDE_MAP)){
+        if (key.toLowerCase() === lowerCityName) {
+            return CITY_GUIDE_MAP[key];
+        }
+    }
+    // Try partial match
+    for (const key of Object.keys(CITY_GUIDE_MAP)){
+        if (lowerCityName.includes(key.toLowerCase()) || key.toLowerCase().includes(lowerCityName)) {
+            return CITY_GUIDE_MAP[key];
+        }
+    }
+    // Return fallback guide
+    return FALLBACK_GUIDE;
+}
+function getUniqueDestinations(routes) {
+    const cities = new Set();
+    routes.forEach((route)=>{
+        if (route.destination) {
+            cities.add(route.destination);
+        }
+    });
+    return Array.from(cities);
+}
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+"[project]/lib/routesData.js [app-client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "CITY_HUBS",
+    ()=>CITY_HUBS,
+    "FAQS",
+    ()=>FAQS,
+    "FLEET_MODELS",
+    ()=>FLEET_MODELS,
+    "REVIEWS",
+    ()=>REVIEWS,
+    "ROUTES_WITH_GUIDES",
+    ()=>ROUTES_WITH_GUIDES,
+    "SITEMAP_ROUTES",
+    ()=>SITEMAP_ROUTES,
+    "TOUR_PACKAGES",
+    ()=>TOUR_PACKAGES,
+    "getBestSeason",
+    ()=>getBestSeason,
+    "getHighwayName",
+    ()=>getHighwayName,
+    "getNearbyDestinations",
+    ()=>getNearbyDestinations,
+    "getRoadCondition",
+    ()=>getRoadCondition,
+    "getRoadType",
+    ()=>getRoadType,
+    "getRoutesByCity",
+    ()=>getRoutesByCity,
+    "getStopovers",
+    ()=>getStopovers,
+    "getTravelTips",
+    ()=>getTravelTips
+]);
+// Comprehensive Data Store for Hire Urbania Next.js Application with Exact Sitemap Slugs
+var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$cityGuides$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/cityGuides.js [app-client] (ecmascript)");
+;
+const FLEET_MODELS = [
+    {
+        id: "urbania-9",
+        name: "Force Urbania 9 Seater",
+        tagline: "Short Wheelbase (3350mm) - Ultra Luxury VIP Captain Seats",
+        capacity: "9 Passengers + Driver",
+        seater: 9,
+        ratePerKm: 26,
+        minKmPerDay: 250,
+        driverAllowance: 600,
+        luggageCapacity: "6-8 Large Suitcases",
+        image: "/images/images/Force-Urbania-9-Seater.png",
+        specs: {
+            wheelbase: "3350 mm Short Wheelbase",
+            engine: "FM2.6CR ED Diesel Engine (115 HP)",
+            seatingConfig: "1x1 Executive Leather Recliners",
+            ac: "Individual Roof-Mounted AC Vents",
+            suspension: "Parabolic Leaf Spring with Air-Dampers",
+            fuelTank: "70 Litres"
+        },
+        features: [
+            "Italian Leather Reclining Captain Seats",
+            "Individual USB-C Charging Ports",
+            "24-inch Smart LED TV & Dolby Audio",
+            "Panaromic Sealed Side Windows with Curtains",
+            "Ambient Multi-Color LED Ceiling Lights",
+            "Spacious Rear Luggage Boot",
+            "GPS Speed Governor & Live Tracking"
+        ]
+    },
+    {
+        id: "urbania-12",
+        name: "Force Urbania 12 Seater",
+        tagline: "Medium Wheelbase (3610mm) - Executive Group Travel",
+        capacity: "12 Passengers + Driver",
+        seater: 12,
+        ratePerKm: 29,
+        minKmPerDay: 250,
+        driverAllowance: 600,
+        luggageCapacity: "8-10 Large Suitcases",
+        image: "/images/images/Force-Urbania-12-Seater.png",
+        specs: {
+            wheelbase: "3610 mm Medium Wheelbase",
+            engine: "FM2.6CR ED Diesel Engine (115 HP)",
+            seatingConfig: "2x1 Luxury Reclining Pushback Seats",
+            ac: "Dual Compressor Powerful AC System",
+            suspension: "Anti-roll Bar Front & Rear",
+            fuelTank: "70 Litres"
+        },
+        features: [
+            "Plush Leatherette Cushion Seats",
+            "Individual AC Vents with Speed Control",
+            "Full HD TV + Bluetooth Surround Sound",
+            "Ergonomic Footrests & Armrests",
+            "Soft Carpeted Flooring",
+            "Hydraulic Automatic Sliding Door",
+            "First Aid Kit & Fire Extinguisher"
+        ]
+    },
+    {
+        id: "urbania-16",
+        name: "Force Urbania 16 Seater",
+        tagline: "Long Wheelbase (4400mm) - Premium Corporate & Family Fleet",
+        capacity: "16 Passengers + Driver",
+        seater: 16,
+        ratePerKm: 33,
+        minKmPerDay: 250,
+        driverAllowance: 700,
+        luggageCapacity: "10-12 Large Suitcases",
+        image: "/images/images/Force-Urbania-16-Seater.png",
+        specs: {
+            wheelbase: "4400 mm Long Wheelbase",
+            engine: "FM2.6CR ED Turbo Diesel (115 HP / 350 Nm)",
+            seatingConfig: "2x1 Luxury Pushback Layout",
+            ac: "Heavy-Duty Roof AC Unit",
+            suspension: "Air-Suspension Ride Comfort",
+            fuelTank: "70 Litres"
+        },
+        features: [
+            "Ultra-wide 2x1 Reclining Leather Seats",
+            "High Roof Standing Height (6 ft 3 in)",
+            "Smart Infotainment System with WiFi Hotspot",
+            "Generous Overhead Storage Racks",
+            "Night Reading Lights per Passenger",
+            "Tinted UV-Cut Safety Glass",
+            "Clean Air Cabin Filter & Sanitizer"
+        ]
+    }
+];
+const CITY_HUBS = [
+    {
+        slug: "urbania-tempo-traveller-in-ayodhya",
+        name: "Ayodhya",
+        state: "Uttar Pradesh",
+        tag: "Ram Nagari",
+        desc: "Ram Mandir holy city hub for Ramayana circuit tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-delhi",
+        name: "Delhi",
+        state: "Delhi/NCR",
+        tag: "National Capital Hub",
+        desc: "Primary NCR pickup hub for Agra, Uttarakhand, Himachal, Rajasthan & pan-India group tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-noida",
+        name: "Noida",
+        state: "Uttar Pradesh",
+        tag: "NCR Hub",
+        desc: "Expressway pickup hub servicing Agra, Mathura, and Uttarakhand."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-ujjain",
+        name: "Ujjain",
+        state: "Madhya Pradesh",
+        tag: "Mahakal Corridor",
+        desc: "Mahakaleshwar Jyotirlinga holy city hub."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-jaipur",
+        name: "Jaipur",
+        state: "Rajasthan",
+        tag: "Heritage Hub",
+        desc: "Pink City hub for Rajasthan fort tours, Pushkar & Udaipur trips."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-indore",
+        name: "Indore",
+        state: "Madhya Pradesh",
+        tag: "MP Hub",
+        desc: "Madhya Pradesh central hub for Ujjain Mahakal, Omkareshwar & Pachmarhi."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-mathura",
+        name: "Mathura",
+        state: "Uttar Pradesh",
+        tag: "Braj Hub",
+        desc: "Lord Krishna's birthplace hub for Braj Dham religious Yatra."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-rishikesh",
+        name: "Rishikesh",
+        state: "Uttarakhand",
+        tag: "Yoga & Adventure",
+        desc: "Himalayan gateway for Char Dham, Kedarnath & rafting expeditions."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-chandigarh",
+        name: "Chandigarh",
+        state: "Punjab/Haryana",
+        tag: "North Gateway",
+        desc: "Northern capital gateway for Shimla, Manali & Leh Ladakh tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-mumbai",
+        name: "Mumbai",
+        state: "Maharashtra",
+        tag: "West Gateway",
+        desc: "Financial capital hub for Shirdi, Nashik & Goa luxury tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-ahmedabad",
+        name: "Ahmedabad",
+        state: "Gujarat",
+        tag: "Gujarat Hub",
+        desc: "Gujarat central hub for Statue of Unity & Somnath trips."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-bangalore",
+        name: "Bangalore",
+        state: "Karnataka",
+        tag: "South Hub",
+        desc: "Southern tech hub for Mysore, Ooty & Coorg luxury tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-nagpur",
+        name: "Nagpur",
+        state: "Maharashtra",
+        tag: "Central India Hub",
+        desc: "Central India travel hub for Pench, Tadoba, Pachmarhi, Jabalpur & nearby destinations."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-faridabad",
+        name: "Faridabad",
+        state: "Haryana",
+        tag: "NCR Hub",
+        desc: "Industrial NCR hub for Agra Expressway & outstation journeys."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-agra",
+        name: "Agra",
+        state: "Uttar Pradesh",
+        tag: "Taj Gateway",
+        desc: "Taj Mahal city hub for Golden Triangle circuit luxury travel."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-dehradun",
+        name: "Dehradun",
+        state: "Uttarakhand",
+        tag: "Hill Capital",
+        desc: "Uttarakhand capital hub for Mussoorie, Chakrata & Dhanaulti."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-haridwar",
+        name: "Haridwar",
+        state: "Uttarakhand",
+        tag: "Spiritual Hub",
+        desc: "Ganga Ghat holy city hub for pilgrimage and mountain tour groups."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-kanpur",
+        name: "Kanpur",
+        state: "Uttar Pradesh",
+        tag: "UP Hub",
+        desc: "Central UP hub for Lucknow, Prayagraj & Ayodhya tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-udaipur",
+        name: "Udaipur",
+        state: "Rajasthan",
+        tag: "Lakes Gateway",
+        desc: "City of Lakes hub for Rajasthan heritage circuit."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-prayagraj",
+        name: "Prayagraj",
+        state: "Uttar Pradesh",
+        tag: "Triveni Sangam",
+        desc: "Holy confluence hub for Kashi, Ayodhya & Chitrakoot Yatra."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-shimla",
+        name: "Shimla",
+        state: "Himachal Pradesh",
+        tag: "Hill Station",
+        desc: "Capital hill station hub for Kufri, Spiti & Kinnaur."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-amritsar",
+        name: "Amritsar",
+        state: "Punjab",
+        tag: "Golden City",
+        desc: "Holy Golden Temple hub for Wagah Border & Himachal tours."
+    },
+    {
+        slug: "urbania-tempo-traveller-in-ghaziabad",
+        name: "Ghaziabad",
+        state: "Uttar Pradesh",
+        tag: "NCR Hub",
+        desc: "East NCR hub for Char Dham Yatra and Himachal mountain routes."
+    }
+];
+const SITEMAP_ROUTES = [
+    // Bangalore Origin Routes
+    {
+        origin: "Bangalore",
+        destination: "Hassan",
+        distanceKm: 185,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-hassan-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Belur",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-belur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Halebidu",
+        distanceKm: 215,
+        durationHrs: "5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-halebidu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shravanabelagola",
+        distanceKm: 145,
+        durationHrs: "3.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-shravanabelagola-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tumakuru",
+        distanceKm: 70,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-tumakuru-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tiptur",
+        distanceKm: 145,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-tiptur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Arsikere",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-arsikere-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kadur",
+        distanceKm: 195,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kadur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Birur",
+        distanceKm: 205,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-birur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tarikere",
+        distanceKm: 225,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-tarikere-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Koppa",
+        distanceKm: 280,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-koppa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sringeri",
+        distanceKm: 320,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-sringeri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Horanadu",
+        distanceKm: 330,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-horanadu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalasa",
+        distanceKm: 315,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kalasa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dharmasthala",
+        distanceKm: 300,
+        durationHrs: "6.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-dharmasthala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Moodabidri",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-moodabidri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Subrahmanya",
+        distanceKm: 335,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-subrahmanya-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kukke Subrahmanya",
+        distanceKm: 335,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kukke-subrahmanya-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Uppinangady",
+        distanceKm: 300,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-uppinangady-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Puttur",
+        distanceKm: 305,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-puttur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sullia",
+        distanceKm: 300,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-sullia-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Virajpet",
+        distanceKm: 255,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-virajpet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gonikoppal",
+        distanceKm: 245,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-gonikoppal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kushalnagar",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kushalnagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Somwarpet",
+        distanceKm: 250,
+        durationHrs: "5.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-somwarpet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shanivarsante",
+        distanceKm: 225,
+        durationHrs: "5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-shanivarsante-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagarahole National Park",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-nagarahole-national-park-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "B.R. Hills (Biligiriranga Hills)",
+        distanceKm: 175,
+        durationHrs: "4.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-br-hills-biligiriranga-hills-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Male Mahadeshwara Hills",
+        distanceKm: 155,
+        durationHrs: "4 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-male-mahadeshwara-hills-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kanakapura",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kanakapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ramanagara",
+        distanceKm: 50,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ramanagara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Savandurga",
+        distanceKm: 60,
+        durationHrs: "2 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-savandurga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Devarayanadurga",
+        distanceKm: 95,
+        durationHrs: "2.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-devarayanadurga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Siddaganga",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-siddaganga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kyathanahalli",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kyathanahalli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nelamangala",
+        distanceKm: 30,
+        durationHrs: "1 hr",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-nelamangala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Doddaballapura",
+        distanceKm: 45,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-doddaballapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Devanahalli",
+        distanceKm: 40,
+        durationHrs: "1.5 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "bangalore-to-devanahalli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hoskote",
+        distanceKm: 30,
+        durationHrs: "1 hr",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-hoskote-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Malur",
+        distanceKm: 50,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-malur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kolar",
+        distanceKm: 70,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kolar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bangarpet",
+        distanceKm: 85,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-bangarpet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mulbagal",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-mulbagal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Srinivasapura",
+        distanceKm: 100,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-srinivasapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chintamani",
+        distanceKm: 90,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-chintamani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sidlaghatta",
+        distanceKm: 70,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-sidlaghatta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chickballapur",
+        distanceKm: 60,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-chickballapur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gauribidanur",
+        distanceKm: 95,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-gauribidanur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hindupur (AP border)",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-hindupur-ap-border-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pavagada",
+        distanceKm: 160,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pavagada-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Madhugiri",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-madhugiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Koratagere",
+        distanceKm: 110,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-koratagere-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kunigal",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kunigal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagamangala",
+        distanceKm: 120,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-nagamangala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pandavapura",
+        distanceKm: 130,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pandavapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Krishnarajapet",
+        distanceKm: 140,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-krishnarajapet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bannur",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-bannur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "T. Narasipura",
+        distanceKm: 160,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-t-narasipura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gundlupet",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-gundlupet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chamarajanagar",
+        distanceKm: 185,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-chamarajanagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kollegal",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kollegal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yelandur",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-yelandur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Santhemarahalli",
+        distanceKm: 175,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-santhemarahalli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Biligundlu",
+        distanceKm: 125,
+        durationHrs: "3.5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-biligundlu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hunsur",
+        distanceKm: 205,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-hunsur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Piriyapatna",
+        distanceKm: 210,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-piriyapatna-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "K.R. Nagar",
+        distanceKm: 175,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kr-nagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Holenarasipura",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-holenarasipura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Arkalgud",
+        distanceKm: 185,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-arkalgud-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Alur",
+        distanceKm: 195,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-alur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sakharayapattana",
+        distanceKm: 240,
+        durationHrs: "5.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-sakharayapattana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Balehonnur",
+        distanceKm: 270,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-balehonnur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalyanapura",
+        distanceKm: 370,
+        durationHrs: "7.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kalyanapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thirthahalli",
+        distanceKm: 300,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-thirthahalli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hosanagara",
+        distanceKm: 310,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-hosanagara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sagar (Shivamogga)",
+        distanceKm: 310,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-sagar-shivamogga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jog Falls",
+        distanceKm: 380,
+        durationHrs: "8 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-jog-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Honnavara",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-honnavara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kumta",
+        distanceKm: 445,
+        durationHrs: "9 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kumta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ankola",
+        distanceKm: 470,
+        durationHrs: "9.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-ankola-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhatkal",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-bhatkal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Byndoor",
+        distanceKm: 520,
+        durationHrs: "10.5 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-byndoor-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kundapura",
+        distanceKm: 460,
+        durationHrs: "9.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kundapura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shankaranarayana",
+        distanceKm: 450,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "bangalore-to-shankaranarayana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kollur",
+        distanceKm: 440,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kollur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagara",
+        distanceKm: 325,
+        durationHrs: "7 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "bangalore-to-nagara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Udupi",
+        distanceKm: 405,
+        durationHrs: "8.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-udupi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Manipal",
+        distanceKm: 410,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-manipal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kaup",
+        distanceKm: 420,
+        durationHrs: "8.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kaup-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Padubidri",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-padubidri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Surathkal",
+        distanceKm: 375,
+        durationHrs: "8 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-surathkal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mulki",
+        distanceKm: 390,
+        durationHrs: "8 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-mulki-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kinnigoli",
+        distanceKm: 400,
+        durationHrs: "8.5 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-kinnigoli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nitte",
+        distanceKm: 385,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-nitte-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Karkala",
+        distanceKm: 365,
+        durationHrs: "7.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-karkala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hebri",
+        distanceKm: 350,
+        durationHrs: "7.5 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-hebri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Agumbe",
+        distanceKm: 335,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-agumbe-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kundadri",
+        distanceKm: 340,
+        durationHrs: "7.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kundadri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Barkana Falls",
+        distanceKm: 350,
+        durationHrs: "8 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-barkana-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hidlumane Falls",
+        distanceKm: 330,
+        durationHrs: "7.5 hrs",
+        category: "Waterfall",
+        popular: false,
+        routeSlug: "bangalore-to-hidlumane-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Unchalli Falls",
+        distanceKm: 390,
+        durationHrs: "8.5 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-unchalli-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Magod Falls",
+        distanceKm: 450,
+        durationHrs: "9.5 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-magod-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sathodi Falls",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-sathodi-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gokak Falls",
+        distanceKm: 530,
+        durationHrs: "10.5 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-gokak-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Godachinamalki Falls",
+        distanceKm: 560,
+        durationHrs: "11 hrs",
+        category: "Waterfall",
+        popular: false,
+        routeSlug: "bangalore-to-godachinamalki-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shivanasamudra Falls",
+        distanceKm: 135,
+        durationHrs: "3 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-shivanasamudra-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mekedatu",
+        distanceKm: 100,
+        durationHrs: "2.5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-mekedatu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sangama",
+        distanceKm: 95,
+        durationHrs: "2.5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-sangama-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kanva Reservoir",
+        distanceKm: 65,
+        durationHrs: "2 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-kanva-reservoir-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Manchanabele Dam",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-manchanabele-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Harangi Dam",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-harangi-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Linganamakki Dam",
+        distanceKm: 335,
+        durationHrs: "7 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-linganamakki-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Supa Dam",
+        distanceKm: 500,
+        durationHrs: "10.5 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-supa-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kadra Dam",
+        distanceKm: 550,
+        durationHrs: "11 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-kadra-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kodasalli Dam",
+        distanceKm: 520,
+        durationHrs: "10.5 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-kodasalli-dam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Krishnagiri",
+        distanceKm: 95,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-krishnagiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dharmapuri",
+        distanceKm: 145,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-dharmapuri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Harur",
+        distanceKm: 190,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-harur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pochampalli",
+        distanceKm: 145,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pochampalli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hosur",
+        distanceKm: 40,
+        durationHrs: "1 hr",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-hosur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Denkanikottai",
+        distanceKm: 90,
+        durationHrs: "2.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-denkanikottai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Soolagiri",
+        distanceKm: 65,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-soolagiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thally",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-thally-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rayakottai",
+        distanceKm: 95,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-rayakottai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Palacode",
+        distanceKm: 135,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-palacode-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pennagaram",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-pennagaram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mettur",
+        distanceKm: 180,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-mettur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhavani",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-bhavani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Erode",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-erode-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tiruchengode",
+        distanceKm: 285,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-tiruchengode-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Namakkal",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-namakkal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rasipuram",
+        distanceKm: 280,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-rasipuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Attur",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-attur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vellore",
+        distanceKm: 215,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-vellore-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranipet",
+        distanceKm: 225,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-ranipet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Arcot",
+        distanceKm: 220,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-arcot-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tiruvannamalai",
+        distanceKm: 200,
+        durationHrs: "4.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-tiruvannamalai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Villupuram",
+        distanceKm: 310,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-villupuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Cuddalore",
+        distanceKm: 335,
+        durationHrs: "7 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-cuddalore-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chidambaram",
+        distanceKm: 365,
+        durationHrs: "7.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-chidambaram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mayiladuthurai",
+        distanceKm: 410,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-mayiladuthurai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kumbakonam",
+        distanceKm: 400,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kumbakonam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thanjavur",
+        distanceKm: 420,
+        durationHrs: "8.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-thanjavur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tiruvarur",
+        distanceKm: 450,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "bangalore-to-tiruvarur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagapattinam",
+        distanceKm: 470,
+        durationHrs: "9.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-nagapattinam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Velankanni",
+        distanceKm: 475,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-velankanni-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Karaikal",
+        distanceKm: 490,
+        durationHrs: "10 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-karaikal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pudukkottai",
+        distanceKm: 430,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pudukkottai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sivaganga",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-sivaganga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Devakottai",
+        distanceKm: 515,
+        durationHrs: "10.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-devakottai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Karaikudi",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-karaikudi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chettinad",
+        distanceKm: 505,
+        durationHrs: "10 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-chettinad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Virudhunagar",
+        distanceKm: 550,
+        durationHrs: "11 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-virudhunagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sivakasi",
+        distanceKm: 565,
+        durationHrs: "11.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-sivakasi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rajapalayam",
+        distanceKm: 585,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rajapalayam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tenkasi",
+        distanceKm: 650,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-tenkasi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tirunelveli",
+        distanceKm: 600,
+        durationHrs: "12.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-tirunelveli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagercoil",
+        distanceKm: 680,
+        durationHrs: "14 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-nagercoil-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kanyakumari (Cape Comorin)",
+        distanceKm: 700,
+        durationHrs: "14.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kanyakumari-cape-comorin-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Udhagamandalam (Ooty)",
+        distanceKm: 275,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-udhagamandalam-ooty-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kotagiri",
+        distanceKm: 285,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kotagiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Coonoor",
+        distanceKm: 290,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-coonoor-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Wellington",
+        distanceKm: 295,
+        durationHrs: "7.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-wellington-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Aruvankadu",
+        distanceKm: 295,
+        durationHrs: "7.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-aruvankadu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ketti",
+        distanceKm: 300,
+        durationHrs: "7.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-ketti-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lovedale",
+        distanceKm: 295,
+        durationHrs: "7.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-lovedale-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yercaud",
+        distanceKm: 215,
+        durationHrs: "5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-yercaud-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kolli Hills",
+        distanceKm: 280,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kolli-hills-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pichavaram Mangroves",
+        distanceKm: 390,
+        durationHrs: "8 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-pichavaram-mangroves-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pulicat Lake",
+        distanceKm: 330,
+        durationHrs: "7 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-pulicat-lake-force-urbania"
+    },
+    // Kerala – More Cities & Towns
+    {
+        origin: "Bangalore",
+        destination: "Kozhikode (Calicut)",
+        distanceKm: 355,
+        durationHrs: "8 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kozhikode-calicut-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Wayanad",
+        distanceKm: 280,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-wayanad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sulthan Bathery",
+        distanceKm: 250,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-sulthan-bathery-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mananthavady",
+        distanceKm: 275,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mananthavady-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalpetta",
+        distanceKm: 270,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kalpetta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Meppadi",
+        distanceKm: 285,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-meppadi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vythiri",
+        distanceKm: 290,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-vythiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lakkidi",
+        distanceKm: 295,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-lakkidi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kannur",
+        distanceKm: 310,
+        durationHrs: "7 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kannur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Payyanur",
+        distanceKm: 340,
+        durationHrs: "7.5 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-payyanur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thalassery",
+        distanceKm: 335,
+        durationHrs: "7.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-thalassery-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mahe",
+        distanceKm: 345,
+        durationHrs: "7.5 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-mahe-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kozhikode",
+        distanceKm: 355,
+        durationHrs: "8 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kozhikode-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Malappuram",
+        distanceKm: 390,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-malappuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Palakkad",
+        distanceKm: 380,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-palakkad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thrissur",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-thrissur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Guruvayur",
+        distanceKm: 470,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-guruvayur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Alappuzha (Alleppey)",
+        distanceKm: 590,
+        durationHrs: "12 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-alappuzha-alleppey-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kumarakom",
+        distanceKm: 600,
+        durationHrs: "12 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-kumarakom-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kottayam",
+        distanceKm: 575,
+        durationHrs: "11.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kottayam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pathanamthitta",
+        distanceKm: 600,
+        durationHrs: "12.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pathanamthitta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sabarimala",
+        distanceKm: 600,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-sabarimala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pamba",
+        distanceKm: 620,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-pamba-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nilakkal",
+        distanceKm: 615,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "bangalore-to-nilakkal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranni",
+        distanceKm: 610,
+        durationHrs: "12.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-ranni-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Trivandrum (Thiruvananthapuram)",
+        distanceKm: 700,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-trivandrum-thiruvananthapuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kovalam",
+        distanceKm: 700,
+        durationHrs: "14 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kovalam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Varkala",
+        distanceKm: 670,
+        durationHrs: "13.5 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-varkala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kollam",
+        distanceKm: 640,
+        durationHrs: "13 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-kollam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Thekkady",
+        distanceKm: 530,
+        durationHrs: "11 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-thekkady-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Periyar Wildlife Sanctuary",
+        distanceKm: 530,
+        durationHrs: "11 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-periyar-wildlife-sanctuary-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Idukki",
+        distanceKm: 520,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-idukki-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Wagamon",
+        distanceKm: 560,
+        durationHrs: "11.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-wagamon-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Peerumedu",
+        distanceKm: 545,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-peerumedu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Devikulam",
+        distanceKm: 490,
+        durationHrs: "10.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-devikulam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Marayur",
+        distanceKm: 450,
+        durationHrs: "10 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-marayur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chinnar",
+        distanceKm: 465,
+        durationHrs: "10.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-chinnar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nelliampathi",
+        distanceKm: 410,
+        durationHrs: "9 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-nelliampathi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Athirappilly Falls",
+        distanceKm: 470,
+        durationHrs: "10 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-athirappilly-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vazhachal Falls",
+        distanceKm: 480,
+        durationHrs: "10 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-vazhachal-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Valparai (Tamil-Kerala border)",
+        distanceKm: 430,
+        durationHrs: "9.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-valparai-tamil-kerala-border-force-urbania"
+    },
+    // Andhra Pradesh & Telangana – More Places
+    {
+        origin: "Bangalore",
+        destination: "Puttaparthi",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-puttaparthi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dharmavaram",
+        distanceKm: 195,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-dharmavaram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kadiri",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kadiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Anantapur",
+        distanceKm: 215,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-anantapur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gooty",
+        distanceKm: 250,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-gooty-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tadipatri",
+        distanceKm: 280,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-tadipatri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yemmiganur",
+        distanceKm: 380,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-yemmiganur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kurnool",
+        distanceKm: 360,
+        durationHrs: "7.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kurnool-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nandyal",
+        distanceKm: 440,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-nandyal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Allagadda",
+        distanceKm: 420,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-allagadda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yaganti",
+        distanceKm: 470,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-yaganti-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ahobilam",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-ahobilam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mannur",
+        distanceKm: 410,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-mannur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ongole",
+        distanceKm: 610,
+        durationHrs: "12 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-ongole-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nellore",
+        distanceKm: 550,
+        durationHrs: "11 hrs",
+        category: "Coastal",
+        popular: true,
+        routeSlug: "bangalore-to-nellore-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gudur",
+        distanceKm: 570,
+        durationHrs: "11.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-gudur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tada",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-tada-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sullurpeta",
+        distanceKm: 390,
+        durationHrs: "8 hrs",
+        category: "Coastal",
+        popular: false,
+        routeSlug: "bangalore-to-sullurpeta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tirupati",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-tirupati-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chandragiri",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-chandragiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Srikalahasti",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-srikalahasti-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kanchipuram",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kanchipuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chittoor",
+        distanceKm: 180,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-chittoor-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Madanapalle",
+        distanceKm: 230,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-madanapalle-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Punganur",
+        distanceKm: 190,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-punganur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vayalpad",
+        distanceKm: 245,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-vayalpad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Horsley Hills",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-horsley-hills-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagari",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-nagari-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pakala",
+        distanceKm: 230,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pakala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pileru",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pileru-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalikiri",
+        distanceKm: 275,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kalikiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rayachoti",
+        distanceKm: 310,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rayachoti-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Cuddapah (Kadapa)",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-cuddapah-kadapa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kamalapuram",
+        distanceKm: 370,
+        durationHrs: "7.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kamalapuram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pulivendula",
+        distanceKm: 340,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-pulivendula-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jammalamadugu",
+        distanceKm: 390,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-jammalamadugu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Muddanur",
+        distanceKm: 400,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-muddanur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Proddatur",
+        distanceKm: 410,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-proddatur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mydukur",
+        distanceKm: 395,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-mydukur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Badvel",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-badvel-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rajampet",
+        distanceKm: 440,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rajampet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kodur",
+        distanceKm: 455,
+        durationHrs: "9.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kodur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Venkatagiri",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-venkatagiri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Naidupeta",
+        distanceKm: 520,
+        durationHrs: "10.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-naidupeta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sri City",
+        distanceKm: 370,
+        durationHrs: "7.5 hrs",
+        category: "Industrial",
+        popular: true,
+        routeSlug: "bangalore-to-sri-city-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Hyderabad",
+        distanceKm: 570,
+        durationHrs: "10.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-hyderabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Secunderabad",
+        distanceKm: 575,
+        durationHrs: "11 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-secunderabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Warangal",
+        distanceKm: 660,
+        durationHrs: "12.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-warangal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Karimnagar",
+        distanceKm: 720,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-karimnagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nizamabad",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-nizamabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Adilabad",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-adilabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nalgonda",
+        distanceKm: 620,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-nalgonda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Suryapet",
+        distanceKm: 680,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-suryapet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Khammam",
+        distanceKm: 720,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-khammam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhadrachalam",
+        distanceKm: 820,
+        durationHrs: "16 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-bhadrachalam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kothagudem",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kothagudem-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagarjuna Sagar",
+        distanceKm: 620,
+        durationHrs: "12 hrs",
+        category: "Nature",
+        popular: true,
+        routeSlug: "bangalore-to-nagarjuna-sagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Srisailam",
+        distanceKm: 530,
+        durationHrs: "11 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-srisailam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mahanandi",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-mahanandi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lepakshi",
+        distanceKm: 120,
+        durationHrs: "3 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-lepakshi-force-urbania"
+    },
+    // Maharashtra, Goa & Others
+    {
+        origin: "Bangalore",
+        destination: "Kolhapur",
+        distanceKm: 610,
+        durationHrs: "11 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kolhapur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Satara",
+        distanceKm: 710,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-satara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mahabaleshwar",
+        distanceKm: 760,
+        durationHrs: "14 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mahabaleshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Panchgani",
+        distanceKm: 780,
+        durationHrs: "14.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-panchgani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pune",
+        distanceKm: 840,
+        durationHrs: "15.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-pune-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mumbai",
+        distanceKm: 980,
+        durationHrs: "18 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-mumbai-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nashik",
+        distanceKm: 1050,
+        durationHrs: "19.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-nashik-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shirdi",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-shirdi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Aurangabad",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-aurangabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ellora Caves",
+        distanceKm: 1070,
+        durationHrs: "19.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-ellora-caves-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ajanta Caves",
+        distanceKm: 1180,
+        durationHrs: "21.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-ajanta-caves-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagpur",
+        distanceKm: 1090,
+        durationHrs: "20 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-nagpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Amravati",
+        distanceKm: 1100,
+        durationHrs: "20.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-amravati-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chandrapur",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-chandrapur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tadoba Andhari Tiger Reserve",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-tadoba-andhari-tiger-reserve-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Goa",
+        distanceKm: 560,
+        durationHrs: "10.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-goa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Anjuna",
+        distanceKm: 590,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-anjuna-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Baga",
+        distanceKm: 585,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-baga-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Calangute",
+        distanceKm: 580,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-calangute-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Candolim",
+        distanceKm: 570,
+        durationHrs: "10.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-candolim-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Panaji",
+        distanceKm: 560,
+        durationHrs: "10.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-panaji-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Margao",
+        distanceKm: 590,
+        durationHrs: "11 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-margao-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Colva",
+        distanceKm: 600,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-colva-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Palolem",
+        distanceKm: 640,
+        durationHrs: "12 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-palolem-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Agonda",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-agonda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Arambol",
+        distanceKm: 610,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-arambol-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Morjim",
+        distanceKm: 600,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-morjim-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mandrem",
+        distanceKm: 605,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-mandrem-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ashwem",
+        distanceKm: 610,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-ashwem-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Varca",
+        distanceKm: 600,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-varca-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Cavelossim",
+        distanceKm: 610,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-cavelossim-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mobor",
+        distanceKm: 615,
+        durationHrs: "11.5 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-mobor-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Majorda",
+        distanceKm: 595,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-majorda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Utorda",
+        distanceKm: 600,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-utorda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Betalbatim",
+        distanceKm: 595,
+        durationHrs: "11 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-betalbatim-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Cola",
+        distanceKm: 640,
+        durationHrs: "12 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-cola-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kakolem",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Beach",
+        popular: false,
+        routeSlug: "bangalore-to-kakolem-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Cabo de Rama",
+        distanceKm: 635,
+        durationHrs: "12 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "bangalore-to-cabo-de-rama-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Canacona",
+        distanceKm: 640,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-canacona-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ponda",
+        distanceKm: 540,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ponda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Old Goa",
+        distanceKm: 570,
+        durationHrs: "10.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-old-goa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Fontainhas",
+        distanceKm: 560,
+        durationHrs: "10.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "bangalore-to-fontainhas-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Divar Island",
+        distanceKm: 580,
+        durationHrs: "11 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-divar-island-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chorao Island",
+        distanceKm: 575,
+        durationHrs: "11 hrs",
+        category: "Nature",
+        popular: false,
+        routeSlug: "bangalore-to-chorao-island-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dudhsagar Falls",
+        distanceKm: 600,
+        durationHrs: "11.5 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "bangalore-to-dudhsagar-falls-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rishikesh",
+        distanceKm: 2050,
+        durationHrs: "36 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-rishikesh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Haridwar",
+        distanceKm: 2100,
+        durationHrs: "37 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dehradun",
+        distanceKm: 2_300,
+        durationHrs: "43 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mussoorie",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mussoorie-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nainital",
+        distanceKm: 2_250,
+        durationHrs: "43 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-nainital-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranikhet",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-ranikhet-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Almora",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-almora-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kausani",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kausani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Binsar",
+        distanceKm: 2_330,
+        durationHrs: "45 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-binsar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jageshwar",
+        distanceKm: 2_380,
+        durationHrs: "46 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-jageshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chaukori",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-chaukori-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pithoragarh",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-pithoragarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Munsiyari",
+        distanceKm: 2_550,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-munsiyari-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gangotri",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-gangotri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yamunotri",
+        distanceKm: 2_550,
+        durationHrs: "50 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-yamunotri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kedarnath",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kedarnath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Badrinath",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-badrinath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Joshimath",
+        distanceKm: 2_450,
+        durationHrs: "48 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-joshimath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Auli",
+        distanceKm: 2_480,
+        durationHrs: "49 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-auli-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chopta",
+        distanceKm: 2_450,
+        durationHrs: "48 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-chopta-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tungnath",
+        distanceKm: 2_460,
+        durationHrs: "48 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-tungnath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Madhyamaheshwar",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-madhyamaheshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalpeshwar",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-kalpeshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rudranath",
+        distanceKm: 2_520,
+        durationHrs: "50 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-rudranath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gaurikund",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-gaurikund-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Guptakashi",
+        distanceKm: 2_470,
+        durationHrs: "48 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-guptakashi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ukhimath",
+        distanceKm: 2_450,
+        durationHrs: "48 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-ukhimath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sitaram",
+        distanceKm: 2_480,
+        durationHrs: "48 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "bangalore-to-sitaram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhatwari",
+        distanceKm: 2_550,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-bhatwari-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Harsil",
+        distanceKm: 2_620,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-harsil-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dharali",
+        distanceKm: 2_600,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-dharali-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bagori",
+        distanceKm: 2_610,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-bagori-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gangnani",
+        distanceKm: 2_570,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-gangnani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhaironghati",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-bhaironghati-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gaumukh",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-gaumukh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tapovan",
+        distanceKm: 2_670,
+        durationHrs: "52 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "bangalore-to-tapovan-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nelong Valley",
+        distanceKm: 2_680,
+        durationHrs: "53 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-nelong-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Satopanth Lake",
+        distanceKm: 2_540,
+        durationHrs: "50 hrs",
+        category: "Trekking",
+        popular: false,
+        routeSlug: "bangalore-to-satopanth-lake-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vasuki Tal",
+        distanceKm: 2_520,
+        durationHrs: "49 hrs",
+        category: "Trekking",
+        popular: false,
+        routeSlug: "bangalore-to-vasuki-tal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Roopkund",
+        distanceKm: 2_400,
+        durationHrs: "47 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "bangalore-to-roopkund-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bedni Bugyal",
+        distanceKm: 2_400,
+        durationHrs: "47 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "bangalore-to-bedni-bugyal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ali Bugyal",
+        distanceKm: 2_400,
+        durationHrs: "47 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "bangalore-to-ali-bugyal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gwaldam",
+        distanceKm: 2_380,
+        durationHrs: "46 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-gwaldam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Baijnath",
+        distanceKm: 2_390,
+        durationHrs: "46 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-baijnath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dwarahat",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-dwarahat-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Someshwar",
+        distanceKm: 2_330,
+        durationHrs: "45 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-someshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lohaghat",
+        distanceKm: 2_480,
+        durationHrs: "48 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-lohaghat-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Champawat",
+        distanceKm: 2_500,
+        durationHrs: "48 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-champawat-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tanakpur",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-tanakpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Khatima",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-khatima-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Banbasa",
+        distanceKm: 2_440,
+        durationHrs: "47 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-banbasa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Haldwani",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-haldwani-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kathgodam",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kathgodam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kichha",
+        distanceKm: 2_340,
+        durationHrs: "45 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-kichha-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rudrapur",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rudrapur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kashipur",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kashipur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Moradabad",
+        distanceKm: 2_200,
+        durationHrs: "42 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-moradabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Delhi",
+        distanceKm: 2_150,
+        durationHrs: "41 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-delhi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Noida",
+        distanceKm: 2_150,
+        durationHrs: "41 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-noida-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gurugram",
+        distanceKm: 2_180,
+        durationHrs: "42 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-gurugram-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Faridabad",
+        distanceKm: 2_170,
+        durationHrs: "42 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-faridabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ghaziabad",
+        distanceKm: 2_170,
+        durationHrs: "42 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ghaziabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Meerut",
+        distanceKm: 2_200,
+        durationHrs: "42 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-meerut-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Muzaffarnagar",
+        distanceKm: 2_250,
+        durationHrs: "43 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-muzaffarnagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Saharanpur",
+        distanceKm: 2_320,
+        durationHrs: "44 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-saharanpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ambala",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ambala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chandigarh",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-chandigarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Panchkula",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-panchkula-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mohali",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-mohali-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Amritsar",
+        distanceKm: 2_550,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-amritsar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jalandhar",
+        distanceKm: 2_500,
+        durationHrs: "48 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jalandhar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ludhiana",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ludhiana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Patiala",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-patiala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shimla",
+        distanceKm: 2_500,
+        durationHrs: "49 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-shimla-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kufri",
+        distanceKm: 2_550,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kufri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Manali",
+        distanceKm: 2_700,
+        durationHrs: "52 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-manali-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kullu",
+        distanceKm: 2_680,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kullu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Naggar",
+        distanceKm: 2_700,
+        durationHrs: "52 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-naggar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Palampur",
+        distanceKm: 2_600,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-palampur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dharamshala",
+        distanceKm: 2_620,
+        durationHrs: "50 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-dharamshala-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "McLeod Ganj",
+        distanceKm: 2_630,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mcleod-ganj-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bir Billing",
+        distanceKm: 2_650,
+        durationHrs: "51 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-bir-billing-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rajgundha",
+        distanceKm: 2_650,
+        durationHrs: "51 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "bangalore-to-rajgundha-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Barot",
+        distanceKm: 2_650,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-barot-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Malana",
+        distanceKm: 2_700,
+        durationHrs: "52 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-malana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tirthan Valley",
+        distanceKm: 2_650,
+        durationHrs: "51 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-tirthan-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Great Himalayan National Park",
+        distanceKm: 2_650,
+        durationHrs: "51 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-great-himalayan-national-park-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Spiti Valley",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kaza",
+        distanceKm: 2_900,
+        durationHrs: "57 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-kaza-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tabo",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-tabo-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dhankar",
+        distanceKm: 2_900,
+        durationHrs: "57 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-dhankar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pin Valley",
+        distanceKm: 2_900,
+        durationHrs: "57 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-pin-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kunzum Pass",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-kunzum-pass-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rohtang Pass",
+        distanceKm: 2_750,
+        durationHrs: "53 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-rohtang-pass-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Leh",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-leh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ladakh",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-ladakh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nubra Valley",
+        distanceKm: 2_750,
+        durationHrs: "54 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-nubra-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pangong Tso",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-pangong-tso-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tso Moriri",
+        distanceKm: 2_900,
+        durationHrs: "57 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-tso-moriri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Zanskar Valley",
+        distanceKm: 3_000,
+        durationHrs: "59 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-zanskar-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kargil",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-kargil-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Drass",
+        distanceKm: 2_900,
+        durationHrs: "57 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-drass-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Srinagar",
+        distanceKm: 2_750,
+        durationHrs: "54 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-srinagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gulmarg",
+        distanceKm: 2_800,
+        durationHrs: "55 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-gulmarg-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pahalgam",
+        distanceKm: 2_800,
+        durationHrs: "55 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-pahalgam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sonamarg",
+        distanceKm: 2_800,
+        durationHrs: "55 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-sonamarg-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yusmarg",
+        distanceKm: 2_780,
+        durationHrs: "54 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-yusmarg-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dachigam",
+        distanceKm: 2_780,
+        durationHrs: "54 hrs",
+        category: "Wildlife",
+        popular: false,
+        routeSlug: "bangalore-to-dachigam-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kokernag",
+        distanceKm: 2_820,
+        durationHrs: "55 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-kokernag-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Verinag",
+        distanceKm: 2_820,
+        durationHrs: "55 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-verinag-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Anantnag",
+        distanceKm: 2_800,
+        durationHrs: "55 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-anantnag-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Aru Valley",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-aru-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Betaab Valley",
+        distanceKm: 2_830,
+        durationHrs: "55 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-betaab-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chandanwari",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-chandanwari-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Amarnath",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-amarnath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vaishno Devi (Katra)",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-vaishno-devi-katra-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Katra",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-katra-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jammu",
+        distanceKm: 2_650,
+        durationHrs: "52 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jammu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Patnitop",
+        distanceKm: 2_700,
+        durationHrs: "53 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-patnitop-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sanasar",
+        distanceKm: 2_720,
+        durationHrs: "53 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-sanasar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Baisaran",
+        distanceKm: 2_850,
+        durationHrs: "56 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-baisaran-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kehribal",
+        distanceKm: 2_820,
+        durationHrs: "55 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-kehribal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tangmarg",
+        distanceKm: 2_820,
+        durationHrs: "55 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-tangmarg-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gurez Valley",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-gurez-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Karnah",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "bangalore-to-karnah-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Keran",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "bangalore-to-keran-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Machil",
+        distanceKm: 3_000,
+        durationHrs: "59 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "bangalore-to-machil-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bangus Valley",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-bangus-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lolab Valley",
+        distanceKm: 2_950,
+        durationHrs: "58 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-lolab-valley-force-urbania"
+    },
+    // Odisha & West Bengal – Adding
+    {
+        origin: "Bangalore",
+        destination: "Bhubaneswar",
+        distanceKm: 1_550,
+        durationHrs: "29 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-bhubaneswar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Puri",
+        distanceKm: 1_600,
+        durationHrs: "30 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-puri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Konark",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-konark-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chilika Lake",
+        distanceKm: 1_550,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-chilika-lake-force-urbania"
+    },
+    // Odisha, Jharkhand & West Bengal
+    {
+        origin: "Bangalore",
+        destination: "Cuttack",
+        distanceKm: 1_600,
+        durationHrs: "30 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-cuttack-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rourkela",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rourkela-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jamshedpur",
+        distanceKm: 1_850,
+        durationHrs: "35 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jamshedpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranchi",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ranchi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dhanbad",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-dhanbad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kolkata",
+        distanceKm: 1_870,
+        durationHrs: "35 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kolkata-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Howrah",
+        distanceKm: 1_870,
+        durationHrs: "35 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-howrah-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Siliguri",
+        distanceKm: 2_150,
+        durationHrs: "41 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-siliguri-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Darjeeling",
+        distanceKm: 2_200,
+        durationHrs: "42 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-darjeeling-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kalimpong",
+        distanceKm: 2_180,
+        durationHrs: "42 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-kalimpong-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kurseong",
+        distanceKm: 2_180,
+        durationHrs: "42 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "bangalore-to-kurseong-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mirik",
+        distanceKm: 2_200,
+        durationHrs: "42 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mirik-force-urbania"
+    },
+    // Sikkim
+    {
+        origin: "Bangalore",
+        destination: "Gangtok",
+        distanceKm: 2_250,
+        durationHrs: "43 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-gangtok-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pelling",
+        distanceKm: 2_300,
+        durationHrs: "44 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-pelling-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lachen",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-lachen-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Lachung",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-lachung-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Yumthang Valley",
+        distanceKm: 2_450,
+        durationHrs: "47 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-yumthang-valley-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nathu La Pass",
+        distanceKm: 2_350,
+        durationHrs: "45 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-nathu-la-pass-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Tsomgo Lake",
+        distanceKm: 2_330,
+        durationHrs: "45 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-tsomgo-lake-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Zuluk",
+        distanceKm: 2_400,
+        durationHrs: "46 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "bangalore-to-zuluk-force-urbania"
+    },
+    // Rajasthan
+    {
+        origin: "Bangalore",
+        destination: "Jaipur",
+        distanceKm: 2_000,
+        durationHrs: "38 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jaipur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Udaipur",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jodhpur",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-jodhpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jaisalmer",
+        distanceKm: 2_200,
+        durationHrs: "42 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-jaisalmer-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bikaner",
+        distanceKm: 2_150,
+        durationHrs: "41 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-bikaner-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ajmer",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-ajmer-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pushkar",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-pushkar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mount Abu",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-mount-abu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Chittorgarh",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-chittorgarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bundi",
+        distanceKm: 1_850,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-bundi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kota",
+        distanceKm: 1_850,
+        durationHrs: "35 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-kota-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bharatpur",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-bharatpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Alwar",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-alwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Shekhawati",
+        distanceKm: 2_100,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-shekhawati-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranthambore",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-ranthambore-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Sariska",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-sariska-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kumbhalgarh",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-kumbhalgarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ranakpur",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-ranakpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Charbhuja",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "bangalore-to-charbhuja-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nathdwara",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-nathdwara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Eklingji",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-eklingji-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nagda",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Historical",
+        popular: false,
+        routeSlug: "bangalore-to-nagda-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Haldighati",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-haldighati-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Banswara",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-banswara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dungarpur",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-dungarpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pratapgarh",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-pratapgarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Neemrana",
+        distanceKm: 2_100,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-neemrana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mandawa",
+        distanceKm: 2_100,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-mandawa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Fatehpur",
+        distanceKm: 2_100,
+        durationHrs: "40 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-fatehpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Agra",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-agra-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mathura",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-mathura-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vrindavan",
+        distanceKm: 2_050,
+        durationHrs: "39 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-vrindavan-force-urbania"
+    },
+    // Madhya Pradesh
+    {
+        origin: "Bangalore",
+        destination: "Gwalior",
+        distanceKm: 1_950,
+        durationHrs: "37 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Orchha",
+        distanceKm: 1_850,
+        durationHrs: "35 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-orchha-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Khajuraho",
+        distanceKm: 1_900,
+        durationHrs: "36 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-khajuraho-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Indore",
+        distanceKm: 1_350,
+        durationHrs: "26 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-indore-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhopal",
+        distanceKm: 1_450,
+        durationHrs: "28 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ujjain",
+        distanceKm: 1_400,
+        durationHrs: "27 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-ujjain-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Omkareshwar",
+        distanceKm: 1_400,
+        durationHrs: "27 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-omkareshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Maheshwar",
+        distanceKm: 1_350,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-maheshwar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mandu",
+        distanceKm: 1_350,
+        durationHrs: "26 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-mandu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jabalpur",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bandhavgarh",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-bandhavgarh-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kanha",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-kanha-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pench",
+        distanceKm: 1_300,
+        durationHrs: "25 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-pench-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Pachmarhi",
+        distanceKm: 1_550,
+        durationHrs: "29 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "bangalore-to-pachmarhi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Amarkantak",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-amarkantak-force-urbania"
+    },
+    // Gujarat
+    {
+        origin: "Bangalore",
+        destination: "Gandhinagar",
+        distanceKm: 1_600,
+        durationHrs: "30 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-gandhinagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ahmedabad",
+        distanceKm: 1_550,
+        durationHrs: "29 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-ahmedabad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vadodara",
+        distanceKm: 1_450,
+        durationHrs: "28 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-vadodara-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Surat",
+        distanceKm: 1_200,
+        durationHrs: "23 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-surat-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dwarka",
+        distanceKm: 1_850,
+        durationHrs: "35 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-dwarka-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Somnath",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-somnath-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Veraval",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-veraval-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Porbandar",
+        distanceKm: 1_800,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-porbandar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Jamnagar",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-jamnagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Rajkot",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-rajkot-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhavnagar",
+        distanceKm: 1_550,
+        durationHrs: "30 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-bhavnagar-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Gir National Park",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "bangalore-to-gir-national-park-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Palitana",
+        distanceKm: 1_600,
+        durationHrs: "31 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-palitana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Kutch",
+        distanceKm: 1_900,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-kutch-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bhuj",
+        distanceKm: 1_900,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-bhuj-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mandvi",
+        distanceKm: 1_900,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-mandvi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dholavira",
+        distanceKm: 2_000,
+        durationHrs: "38 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-dholavira-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Ambaji",
+        distanceKm: 1_750,
+        durationHrs: "33 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "bangalore-to-ambaji-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Modhera",
+        distanceKm: 1_700,
+        durationHrs: "32 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-modhera-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Patan",
+        distanceKm: 1_700,
+        durationHrs: "32 hrs",
+        category: "Historical",
+        popular: true,
+        routeSlug: "bangalore-to-patan-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Mehsana",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-mehsana-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Nadiad",
+        distanceKm: 1_500,
+        durationHrs: "29 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "bangalore-to-nadiad-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Anand",
+        distanceKm: 1_500,
+        durationHrs: "29 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-anand-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Bharuch",
+        distanceKm: 1_350,
+        durationHrs: "26 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-bharuch-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Vapi",
+        distanceKm: 1_200,
+        durationHrs: "23 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "bangalore-to-vapi-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Daman",
+        distanceKm: 1_200,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-daman-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Diu",
+        distanceKm: 1_650,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-diu-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Silvassa",
+        distanceKm: 1_200,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "bangalore-to-silvassa-force-urbania"
+    },
+    {
+        origin: "Bangalore",
+        destination: "Dadra Nagar Haveli",
+        distanceKm: 1_200,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "bangalore-to-dadra-nagar-haveli-force-urbania"
+    },
+    // Ayodhya Origin Routes
+    {
+        origin: "Ayodhya",
+        destination: "Varanasi",
+        distanceKm: 200,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-varanasi-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Lucknow",
+        distanceKm: 135,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-lucknow-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Prayagraj",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-prayagraj-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Kanpur",
+        distanceKm: 280,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-kanpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Agra",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ayodhya-to-agra-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Delhi",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-delhi-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Mirzapur",
+        distanceKm: 230,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-mirzapur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Sonbhadra",
+        distanceKm: 300,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-sonbhadra-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Azamgarh",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-azamgarh-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Ballia",
+        distanceKm: 230,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-ballia-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Deoria",
+        distanceKm: 210,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-deoria-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Ghazipur",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-ghazipur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Jaunpur",
+        distanceKm: 160,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-jaunpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Sultanpur",
+        distanceKm: 100,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-sultanpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Barabanki",
+        distanceKm: 125,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-barabanki-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Basti",
+        distanceKm: 65,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-basti-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Siddharthnagar",
+        distanceKm: 150,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-siddharthnagar-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Shravasti",
+        distanceKm: 130,
+        durationHrs: "3 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ayodhya-to-shravasti-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Lakhimpur",
+        distanceKm: 260,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-lakhimpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Bareilly",
+        distanceKm: 390,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-bareilly-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Meerut",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-meerut-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Saharanpur",
+        distanceKm: 750,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-saharanpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Haridwar",
+        distanceKm: 720,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ayodhya-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Roorkee",
+        distanceKm: 700,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-roorkee-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Dehradun",
+        distanceKm: 760,
+        durationHrs: "14 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ayodhya-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Nepal Border",
+        distanceKm: 150,
+        durationHrs: "4 hrs",
+        category: "International",
+        popular: false,
+        routeSlug: "ayodhya-to-nepal-border-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Raebareli",
+        distanceKm: 180,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-raebareli-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Aligarh",
+        distanceKm: 520,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-aligarh-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Faridabad",
+        distanceKm: 630,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-faridabad-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Ghaziabad",
+        distanceKm: 630,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-ghaziabad-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Noida",
+        distanceKm: 640,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-noida-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Gurgaon",
+        distanceKm: 680,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-gurgaon-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Jhansi",
+        distanceKm: 450,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-jhansi-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Gwalior",
+        distanceKm: 490,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Bhopal",
+        distanceKm: 650,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Indore",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-indore-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Jabalpur",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Patna",
+        distanceKm: 420,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ayodhya-to-patna-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Gaya",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ayodhya-to-gaya-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Dhanbad",
+        distanceKm: 650,
+        durationHrs: "13 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-dhanbad-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Ranchi",
+        distanceKm: 700,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-ranchi-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Kolkata",
+        distanceKm: 850,
+        durationHrs: "17 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ayodhya-to-kolkata-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Varanasi Airport",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "ayodhya-to-varanasi-airport-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Prayagraj Airport",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "ayodhya-to-prayagraj-airport-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Gorakhpur Airport",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "ayodhya-to-gorakhpur-airport-force-urbania"
+    },
+    {
+        origin: "Ayodhya",
+        destination: "Delhi Airport",
+        distanceKm: 670,
+        durationHrs: "13 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "ayodhya-to-delhi-airport-force-urbania"
+    },
+    // Nagpur 50 top routes
+    {
+        origin: "Nagpur",
+        destination: "Pench",
+        distanceKm: 120,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "nagpur-to-pench-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Tadoba",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "nagpur-to-tadoba-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Kanha",
+        distanceKm: 260,
+        durationHrs: "6 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "nagpur-to-kanha-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Pachmarhi",
+        distanceKm: 260,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "nagpur-to-pachmarhi-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Jabalpur",
+        distanceKm: 275,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Amarkantak",
+        distanceKm: 470,
+        durationHrs: "10 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "nagpur-to-amarkantak-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Chhindwara",
+        distanceKm: 130,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-chhindwara-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Seoni",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-seoni-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Bhandara",
+        distanceKm: 60,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-bhandara-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Wardha",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-wardha-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Amravati",
+        distanceKm: 160,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-amravati-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Akola",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-akola-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Chandrapur",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-chandrapur-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Gondia",
+        distanceKm: 145,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-gondia-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Balaghat",
+        distanceKm: 140,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-balaghat-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Betul",
+        distanceKm: 180,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-betul-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Katni",
+        distanceKm: 400,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-katni-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Satna",
+        distanceKm: 540,
+        durationHrs: "11 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-satna-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Rewa",
+        distanceKm: 520,
+        durationHrs: "10.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-rewa-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Bhopal",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Indore",
+        distanceKm: 420,
+        durationHrs: "8.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-indore-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Ujjain",
+        distanceKm: 470,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "nagpur-to-ujjain-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Sanchi",
+        distanceKm: 330,
+        durationHrs: "6.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "nagpur-to-sanchi-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Vidisha",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "nagpur-to-vidisha-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Gwalior",
+        distanceKm: 640,
+        durationHrs: "12 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Khajuraho",
+        distanceKm: 570,
+        durationHrs: "11 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "nagpur-to-khajuraho-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Chitrakoot",
+        distanceKm: 620,
+        durationHrs: "12 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "nagpur-to-chitrakoot-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Chhatrapati Sambhajinagar",
+        distanceKm: 490,
+        durationHrs: "9.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-chhatrapati-sambhajinagar-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Nashik",
+        distanceKm: 660,
+        durationHrs: "12.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-nashik-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Shirdi",
+        distanceKm: 670,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "nagpur-to-shirdi-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Pune",
+        distanceKm: 720,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-pune-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Mumbai",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-mumbai-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Lonavala",
+        distanceKm: 770,
+        durationHrs: "15 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "nagpur-to-lonavala-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Mahabaleshwar",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "nagpur-to-mahabaleshwar-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Panchgani",
+        distanceKm: 835,
+        durationHrs: "16 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "nagpur-to-panchgani-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Kolhapur",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-kolhapur-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Goa",
+        distanceKm: 1_000,
+        durationHrs: "19 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "nagpur-to-goa-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Hyderabad",
+        distanceKm: 500,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-hyderabad-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Adilabad",
+        distanceKm: 200,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-adilabad-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Warangal",
+        distanceKm: 440,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-warangal-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Karimnagar",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-karimnagar-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Nizamabad",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-nizamabad-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Secunderabad",
+        distanceKm: 490,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-secunderabad-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Raipur",
+        distanceKm: 290,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-raipur-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Bilaspur",
+        distanceKm: 410,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-bilaspur-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Bhilai",
+        distanceKm: 320,
+        durationHrs: "6.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-bhilai-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Durg",
+        distanceKm: 310,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "nagpur-to-durg-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Delhi",
+        distanceKm: 1_050,
+        durationHrs: "20 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "nagpur-to-delhi-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Delhi Airport",
+        distanceKm: 1_080,
+        durationHrs: "20.5 hrs",
+        category: "Airport",
+        popular: true,
+        routeSlug: "nagpur-to-delhi-airport-force-urbania"
+    },
+    {
+        origin: "Nagpur",
+        destination: "Amritsar",
+        distanceKm: 1_450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "nagpur-to-amritsar-force-urbania"
+    },
+    // Delhi Origin Routes
+    {
+        origin: "Delhi",
+        destination: "Haridwar",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rishikesh",
+        distanceKm: 250,
+        durationHrs: "5.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-rishikesh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dehradun",
+        distanceKm: 250,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mussoorie",
+        distanceKm: 290,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-mussoorie-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dhanaulti",
+        distanceKm: 315,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-dhanaulti-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kanatal",
+        distanceKm: 325,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-kanatal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Auli",
+        distanceKm: 500,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-auli-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chopta",
+        distanceKm: 420,
+        durationHrs: "10 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-chopta-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nainital",
+        distanceKm: 320,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-nainital-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhimtal",
+        distanceKm: 310,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-bhimtal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sattal",
+        distanceKm: 315,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-sattal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Naukuchiatal",
+        distanceKm: 320,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-naukuchiatal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mukteshwar",
+        distanceKm: 350,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-mukteshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ranikhet",
+        distanceKm: 360,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-ranikhet-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kausani",
+        distanceKm: 410,
+        durationHrs: "9 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-kausani-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Binsar",
+        distanceKm: 400,
+        durationHrs: "9 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-binsar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Almora",
+        distanceKm: 365,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-almora-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chaukori",
+        distanceKm: 500,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-chaukori-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Munsiyari",
+        distanceKm: 600,
+        durationHrs: "14 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-munsiyari-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jim Corbett National Park (Dhikala/Bijrani)",
+        distanceKm: 250,
+        durationHrs: "6 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-jim-corbett-national-park-dhikala-bijrani-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rajaji National Park",
+        distanceKm: 240,
+        durationHrs: "5.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-rajaji-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Valley of Flowers (Base Ghangaria)",
+        distanceKm: 520,
+        durationHrs: "13 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-valley-of-flowers-base-ghangaria-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hemkund Sahib",
+        distanceKm: 525,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-hemkund-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Badrinath",
+        distanceKm: 525,
+        durationHrs: "12 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-badrinath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kedarnath",
+        distanceKm: 450,
+        durationHrs: "11 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-kedarnath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Yamunotri",
+        distanceKm: 430,
+        durationHrs: "11 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-yamunotri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gangotri",
+        distanceKm: 475,
+        durationHrs: "11 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-gangotri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Char Dham Circuit (Yamunotri-Gangotri-Kedarnath-Badrinath)",
+        distanceKm: 1600,
+        durationHrs: "40+ hrs",
+        category: "Char Dham",
+        popular: true,
+        routeSlug: "delhi-to-char-dham-circuit-yamunotri-gangotri-kedarnath-badrinath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Do Dham Circuit (Kedarnath-Badrinath)",
+        distanceKm: 950,
+        durationHrs: "24+ hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-do-dham-circuit-kedarnath-badrinath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Panch Kedar Circuit",
+        distanceKm: 1100,
+        durationHrs: "28+ hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-panch-kedar-circuit-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Panch Prayag Circuit (Devprayag, Rudraprayag, Karnaprayag, Nandaprayag, Vishnuprayag)",
+        distanceKm: 650,
+        durationHrs: "16+ hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-panch-prayag-circuit-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chakrata",
+        distanceKm: 320,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-chakrata-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Landour",
+        distanceKm: 290,
+        durationHrs: "6.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-landour-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Harsil",
+        distanceKm: 470,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-harsil-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Khirsu",
+        distanceKm: 360,
+        durationHrs: "9 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-khirsu-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pauri",
+        distanceKm: 350,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-pauri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Lansdowne",
+        distanceKm: 260,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-lansdowne-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pithoragarh",
+        distanceKm: 490,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-pithoragarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Abbott Mount",
+        distanceKm: 440,
+        durationHrs: "10 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-abbott-mount-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bageshwar",
+        distanceKm: 440,
+        durationHrs: "10 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-bageshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Baijnath Temple (Uttarakhand)",
+        distanceKm: 420,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-baijnath-temple-uttarakhand-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jageshwar Dham",
+        distanceKm: 420,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-jageshwar-dham-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kainchi Dham (Neem Karoli Baba Ashram)",
+        distanceKm: 320,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-kainchi-dham-neem-karoli-baba-ashram-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Patal Bhuvaneshwar",
+        distanceKm: 490,
+        durationHrs: "11 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "delhi-to-patal-bhuvaneshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kartik Swami Temple",
+        distanceKm: 400,
+        durationHrs: "10 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "delhi-to-kartik-swami-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tehri Lake",
+        distanceKm: 330,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-tehri-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "New Tehri",
+        distanceKm: 330,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-new-tehri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Surkanda Devi Temple",
+        distanceKm: 310,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-surkanda-devi-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kunjapuri Temple",
+        distanceKm: 270,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-kunjapuri-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Shimla",
+        distanceKm: 345,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-shimla-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Manali",
+        distanceKm: 540,
+        durationHrs: "12 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-manali-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kullu",
+        distanceKm: 500,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-kullu-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kasol",
+        distanceKm: 520,
+        durationHrs: "12 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-kasol-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Manikaran Sahib",
+        distanceKm: 535,
+        durationHrs: "12.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-manikaran-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dharamshala",
+        distanceKm: 475,
+        durationHrs: "10.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-dharamshala-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "McLeodganj",
+        distanceKm: 480,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-mcleodganj-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dalhousie",
+        distanceKm: 560,
+        durationHrs: "12.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-dalhousie-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Khajjiar",
+        distanceKm: 570,
+        durationHrs: "13 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-khajjiar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chamba",
+        distanceKm: 590,
+        durationHrs: "13 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-chamba-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bir Billing",
+        distanceKm: 515,
+        durationHrs: "11.5 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-bir-billing-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Palampur",
+        distanceKm: 490,
+        durationHrs: "11 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-palampur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jibhi",
+        distanceKm: 490,
+        durationHrs: "11.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-jibhi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tirthan Valley",
+        distanceKm: 490,
+        durationHrs: "11.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-tirthan-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Shoja",
+        distanceKm: 500,
+        durationHrs: "12 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-shoja-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Spiti Valley Circuit (Shimla-Kinnaur-Spiti-Manali)",
+        distanceKm: 800,
+        durationHrs: "20+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-spiti-valley-circuit-shimla-kinnaur-spiti-manali-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Narkanda",
+        distanceKm: 410,
+        durationHrs: "9 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-narkanda-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sangla Valley",
+        distanceKm: 570,
+        durationHrs: "14 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-sangla-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chitkul",
+        distanceKm: 610,
+        durationHrs: "15 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-chitkul-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kalpa",
+        distanceKm: 570,
+        durationHrs: "14 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-kalpa-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kaza",
+        distanceKm: 730,
+        durationHrs: "18 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-kaza-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chandratal Lake",
+        distanceKm: 750,
+        durationHrs: "18 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-chandratal-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kheerganga",
+        distanceKm: 520,
+        durationHrs: "12 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-kheerganga-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Malana",
+        distanceKm: 520,
+        durationHrs: "12 hrs",
+        category: "Trekking",
+        popular: false,
+        routeSlug: "delhi-to-malana-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tosh",
+        distanceKm: 545,
+        durationHrs: "12.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-tosh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pulga",
+        distanceKm: 540,
+        durationHrs: "12.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-pulga-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Parvati Valley Circuit",
+        distanceKm: 550,
+        durationHrs: "13+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-parvati-valley-circuit-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mandi",
+        distanceKm: 430,
+        durationHrs: "10 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-mandi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rewalsar Lake",
+        distanceKm: 450,
+        durationHrs: "10.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-rewalsar-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Prashar Lake",
+        distanceKm: 470,
+        durationHrs: "11 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-prashar-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Barot Valley",
+        distanceKm: 500,
+        durationHrs: "11.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-barot-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kasauli",
+        distanceKm: 290,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-kasauli-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chail",
+        distanceKm: 330,
+        durationHrs: "8 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-chail-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Solan",
+        distanceKm: 300,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-solan-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nahan",
+        distanceKm: 250,
+        durationHrs: "6 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-nahan-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Renuka Lake",
+        distanceKm: 310,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-renuka-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Paonta Sahib",
+        distanceKm: 250,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-paonta-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kinnaur Circuit (Sarahan-Sangla-Kalpa)",
+        distanceKm: 750,
+        durationHrs: "18+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-kinnaur-circuit-sarahan-sangla-kalpa-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Triund Trek Base",
+        distanceKm: 480,
+        durationHrs: "11 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-triund-trek-base-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kareri Lake Base",
+        distanceKm: 500,
+        durationHrs: "12 hrs",
+        category: "Trekking",
+        popular: false,
+        routeSlug: "delhi-to-kareri-lake-base-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Indrahar Pass Base",
+        distanceKm: 490,
+        durationHrs: "11.5 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-indrahar-pass-base-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hampta Pass Base (from Manali side)",
+        distanceKm: 540,
+        durationHrs: "12 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-hampta-pass-base-from-manali-side-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhrigu Lake Base",
+        distanceKm: 540,
+        durationHrs: "12 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-bhrigu-lake-base-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jaipur",
+        distanceKm: 280,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-jaipur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Udaipur",
+        distanceKm: 660,
+        durationHrs: "12 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jodhpur",
+        distanceKm: 590,
+        durationHrs: "11 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-jodhpur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jaisalmer",
+        distanceKm: 790,
+        durationHrs: "14 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-jaisalmer-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bikaner",
+        distanceKm: 450,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-bikaner-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pushkar",
+        distanceKm: 410,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-pushkar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ajmer (Ajmer Sharif Dargah)",
+        distanceKm: 400,
+        durationHrs: "7.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-ajmer-ajmer-sharif-dargah-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mount Abu",
+        distanceKm: 740,
+        durationHrs: "13 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-mount-abu-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ranthambore National Park",
+        distanceKm: 380,
+        durationHrs: "7.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-ranthambore-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sariska Tiger Reserve",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-sariska-tiger-reserve-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bharatpur (Keoladeo National Park)",
+        distanceKm: 220,
+        durationHrs: "5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-bharatpur-keoladeo-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Alwar",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-alwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Neemrana",
+        distanceKm: 120,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-neemrana-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mandawa (Shekhawati Region)",
+        distanceKm: 255,
+        durationHrs: "5.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-mandawa-shekhawati-region-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nawalgarh",
+        distanceKm: 270,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-nawalgarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Fatehpur",
+        distanceKm: 280,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-fatehpur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jhunjhunu",
+        distanceKm: 245,
+        durationHrs: "5.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-jhunjhunu-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chittorgarh",
+        distanceKm: 570,
+        durationHrs: "11 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-chittorgarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kumbhalgarh",
+        distanceKm: 600,
+        durationHrs: "12 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-kumbhalgarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ranakpur",
+        distanceKm: 650,
+        durationHrs: "12.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-ranakpur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bundi",
+        distanceKm: 500,
+        durationHrs: "9.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-bundi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kota",
+        distanceKm: 510,
+        durationHrs: "9.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-kota-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sawai Madhopur",
+        distanceKm: 390,
+        durationHrs: "7.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-sawai-madhopur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dausa (Abhaneri Stepwell)",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-dausa-abhaneri-stepwell-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhangarh Fort",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-bhangarh-fort-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Siliserh Lake",
+        distanceKm: 200,
+        durationHrs: "4.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-siliserh-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Deeg Palace",
+        distanceKm: 200,
+        durationHrs: "4.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-deeg-palace-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tal Chhapar Sanctuary",
+        distanceKm: 330,
+        durationHrs: "7 hrs",
+        category: "Wildlife",
+        popular: false,
+        routeSlug: "delhi-to-tal-chhapar-sanctuary-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Desert National Park",
+        distanceKm: 800,
+        durationHrs: "14.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-desert-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Osian",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-osian-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Khimsar",
+        distanceKm: 580,
+        durationHrs: "11 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-khimsar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Barmer",
+        distanceKm: 750,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-barmer-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jhalawar",
+        distanceKm: 590,
+        durationHrs: "11 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-jhalawar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dungarpur",
+        distanceKm: 650,
+        durationHrs: "12.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-dungarpur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Banswara",
+        distanceKm: 650,
+        durationHrs: "12.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-banswara-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sam Sand Dunes (near Jaisalmer)",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Desert Safari",
+        popular: true,
+        routeSlug: "delhi-to-sam-sand-dunes-near-jaisalmer-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Longewala/Tanot Mata (Jaisalmer Extension)",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Desert & Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-longewala-tanot-mata-jaisalmer-extension-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Golden Triangle Circuit (Delhi-Agra-Jaipur)",
+        distanceKm: 700,
+        durationHrs: "14+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-golden-triangle-circuit-delhi-agra-jaipur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Royal Rajasthan Circuit (Jaipur-Jodhpur-Udaipur)",
+        distanceKm: 1100,
+        durationHrs: "22+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-royal-rajasthan-circuit-jaipur-jodhpur-udaipur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Desert Triangle (Jodhpur-Jaisalmer-Bikaner)",
+        distanceKm: 1150,
+        durationHrs: "23+ hrs",
+        category: "Tourist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-desert-triangle-jodhpur-jaisalmer-bikaner-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mewar Circuit (Udaipur-Chittorgarh-Kumbhalgarh)",
+        distanceKm: 850,
+        durationHrs: "17+ hrs",
+        category: "Heritage Circuit",
+        popular: true,
+        routeSlug: "delhi-to-mewar-circuit-udaipur-chittorgarh-kumbhalgarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dhundhar Circuit (Jaipur-Shekhawati-Alwar)",
+        distanceKm: 600,
+        durationHrs: "12+ hrs",
+        category: "Heritage Circuit",
+        popular: true,
+        routeSlug: "delhi-to-dhundhar-circuit-jaipur-shekhawati-alwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Braj Bhoomi Circuit (Mathura-Vrindavan-Bharatpur-Deeg)",
+        distanceKm: 450,
+        durationHrs: "9+ hrs",
+        category: "Pilgrimage Circuit",
+        popular: true,
+        routeSlug: "delhi-to-braj-bhoomi-circuit-mathura-vrindavan-bharatpur-deeg-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Agra (Taj Mahal)",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-agra-taj-mahal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mathura (Krishna Janmabhoomi)",
+        distanceKm: 180,
+        durationHrs: "4 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-mathura-krishna-janmabhoomi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Vrindavan",
+        distanceKm: 185,
+        durationHrs: "4 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-vrindavan-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Varanasi (Kashi Vishwanath)",
+        distanceKm: 820,
+        durationHrs: "14 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-varanasi-kashi-vishwanath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Prayagraj (Triveni Sangam)",
+        distanceKm: 700,
+        durationHrs: "12 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-prayagraj-triveni-sangam-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ayodhya (Ram Janmabhoomi)",
+        distanceKm: 670,
+        durationHrs: "12.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-ayodhya-ram-janmabhoomi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Lucknow",
+        distanceKm: 550,
+        durationHrs: "10 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-lucknow-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kushinagar",
+        distanceKm: 840,
+        durationHrs: "15 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-kushinagar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sarnath",
+        distanceKm: 820,
+        durationHrs: "14 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-sarnath-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dudhwa National Park",
+        distanceKm: 430,
+        durationHrs: "9 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-dudhwa-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chitrakoot",
+        distanceKm: 670,
+        durationHrs: "12 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-chitrakoot-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Naimisharanya",
+        distanceKm: 500,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-naimisharanya-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bateshwar",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "delhi-to-bateshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Barsana",
+        distanceKm: 160,
+        durationHrs: "3.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-barsana-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gokul",
+        distanceKm: 185,
+        durationHrs: "4 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-gokul-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Govardhan",
+        distanceKm: 170,
+        durationHrs: "3.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-govardhan-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Fatehpur Sikri",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-fatehpur-sikri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Meerut",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-meerut-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hastinapur",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-hastinapur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bithoor",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-bithoor-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jhansi",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-jhansi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Orchha (MP border, often paired with UP)",
+        distanceKm: 490,
+        durationHrs: "9.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-orchha-mp-border-often-paired-with-up-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mirzapur (Vindhyachal Dham)",
+        distanceKm: 800,
+        durationHrs: "14 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-mirzapur-vindhyachal-dham-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pilibhit Tiger Reserve",
+        distanceKm: 370,
+        durationHrs: "8 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-pilibhit-tiger-reserve-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kaushambi",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-kaushambi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Shravasti",
+        distanceKm: 680,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-shravasti-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sankisa",
+        distanceKm: 330,
+        durationHrs: "7 hrs",
+        category: "Buddhist",
+        popular: false,
+        routeSlug: "delhi-to-sankisa-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kampil",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-kampil-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ahichhatra",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-ahichhatra-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Buddhist Circuit (Sarnath-Kushinagar-Shravasti-Sankisa)",
+        distanceKm: 1900,
+        durationHrs: "35+ hrs",
+        category: "Buddhist Circuit",
+        popular: true,
+        routeSlug: "delhi-to-buddhist-circuit-sarnath-kushinagar-shravasti-sankisa-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ramayana Circuit (Ayodhya-Chitrakoot-Naimisharanya)",
+        distanceKm: 1500,
+        durationHrs: "28+ hrs",
+        category: "Pilgrimage Circuit",
+        popular: true,
+        routeSlug: "delhi-to-ramayana-circuit-ayodhya-chitrakoot-naimisharanya-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Braj 84 Kos Parikrama Route",
+        distanceKm: 280,
+        durationHrs: "7+ hrs",
+        category: "Pilgrimage Circuit",
+        popular: true,
+        routeSlug: "delhi-to-braj-84-kos-parikrama-route-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Amritsar (Golden Temple, Wagah Border)",
+        distanceKm: 450,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-amritsar-golden-temple-wagah-border-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chandigarh",
+        distanceKm: 245,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-chandigarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ludhiana",
+        distanceKm: 310,
+        durationHrs: "6 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-ludhiana-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jalandhar",
+        distanceKm: 375,
+        durationHrs: "7 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-jalandhar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Patiala",
+        distanceKm: 235,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-patiala-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kapurthala",
+        distanceKm: 400,
+        durationHrs: "7.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-kapurthala-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Anandpur Sahib",
+        distanceKm: 310,
+        durationHrs: "6 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-anandpur-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Fatehgarh Sahib",
+        distanceKm: 270,
+        durationHrs: "5.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-fatehgarh-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Goindwal Sahib",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "delhi-to-goindwal-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tarn Taran",
+        distanceKm: 450,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-tarn-taran-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sirhind",
+        distanceKm: 260,
+        durationHrs: "5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-sirhind-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhatinda (Qila Mubarak)",
+        distanceKm: 340,
+        durationHrs: "6.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-bhatinda-qila-mubarak-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pathankot (gateway to Himachal/J&K)",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-pathankot-gateway-to-himachal-jk-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nangal Dam",
+        distanceKm: 340,
+        durationHrs: "6.5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-nangal-dam-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ropar (Indus Valley Site)",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-ropar-indus-valley-site-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Virasat-e-Khalsa (Anandpur Sahib)",
+        distanceKm: 310,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-virasat-e-khalsa-anandpur-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chhatbir Zoo",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-chhatbir-zoo-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Muktsar",
+        distanceKm: 400,
+        durationHrs: "7.5 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "delhi-to-muktsar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Faridkot",
+        distanceKm: 420,
+        durationHrs: "8 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-faridkot-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Talwandi Sabo (Takht Sri Damdama Sahib)",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-talwandi-sabo-takht-sri-damdama-sahib-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dera Baba Nanak (Kartarpur Corridor Viewpoint)",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-dera-baba-nanak-kartarpur-corridor-viewpoint-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jammu (Vaishno Devi base Katra)",
+        distanceKm: 575,
+        durationHrs: "10.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-jammu-vaishno-devi-base-katra-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Katra",
+        distanceKm: 630,
+        durationHrs: "11.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-katra-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Patnitop",
+        distanceKm: 670,
+        durationHrs: "12.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-patnitop-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Srinagar",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-srinagar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gulmarg",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-gulmarg-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pahalgam",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-pahalgam-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sonamarg",
+        distanceKm: 820,
+        durationHrs: "15.5 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-sonamarg-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Yusmarg",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-yusmarg-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Doodhpathri",
+        distanceKm: 840,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-doodhpathri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhaderwah",
+        distanceKm: 730,
+        durationHrs: "14 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-bhaderwah-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kishtwar",
+        distanceKm: 750,
+        durationHrs: "14.5 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-kishtwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Aharbal Falls",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Waterfall",
+        popular: true,
+        routeSlug: "delhi-to-aharbal-falls-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Leh (via Manali)",
+        distanceKm: 1020,
+        durationHrs: "24+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-leh-via-manali-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Leh (via Srinagar-Kargil)",
+        distanceKm: 1050,
+        durationHrs: "24+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-leh-via-srinagar-kargil-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kargil",
+        distanceKm: 1000,
+        durationHrs: "22 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-kargil-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Lamayuru",
+        distanceKm: 1080,
+        durationHrs: "24 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-lamayuru-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nubra Valley (Diskit-Hunder)",
+        distanceKm: 1250,
+        durationHrs: "28+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-nubra-valley-diskit-hunder-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pangong Tso",
+        distanceKm: 1250,
+        durationHrs: "28+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-pangong-tso-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tso Moriri",
+        distanceKm: 1350,
+        durationHrs: "30+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-tso-moriri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tso Kar",
+        distanceKm: 1300,
+        durationHrs: "29+ hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-tso-kar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Zanskar Valley",
+        distanceKm: 1200,
+        durationHrs: "28+ hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-zanskar-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Drass",
+        distanceKm: 900,
+        durationHrs: "18 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-drass-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Uleytokpo",
+        distanceKm: 1050,
+        durationHrs: "23 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-uleytokpo-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Alchi",
+        distanceKm: 1050,
+        durationHrs: "23 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-alchi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Basgo",
+        distanceKm: 1070,
+        durationHrs: "23.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-basgo-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hemis Monastery",
+        distanceKm: 1080,
+        durationHrs: "24 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-hemis-monastery-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Thiksey Monastery",
+        distanceKm: 1070,
+        durationHrs: "24 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-thiksey-monastery-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Stok Kangri Base",
+        distanceKm: 1080,
+        durationHrs: "24 hrs",
+        category: "Trekking",
+        popular: true,
+        routeSlug: "delhi-to-stok-kangri-base-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Suru Valley",
+        distanceKm: 950,
+        durationHrs: "20 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-suru-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Warwan Valley",
+        distanceKm: 950,
+        durationHrs: "20 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-warwan-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tulail Valley",
+        distanceKm: 950,
+        durationHrs: "19 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-tulail-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gurez Valley",
+        distanceKm: 900,
+        durationHrs: "18 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-gurez-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Lolab Valley",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-lolab-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bangus Valley",
+        distanceKm: 920,
+        durationHrs: "18 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-bangus-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gwalior",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Orchha",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-orchha-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Khajuraho",
+        distanceKm: 620,
+        durationHrs: "12 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-khajuraho-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhopal",
+        distanceKm: 780,
+        durationHrs: "14 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sanchi",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-sanchi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ujjain (Mahakaleshwar)",
+        distanceKm: 780,
+        durationHrs: "14 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-ujjain-mahakaleshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Omkareshwar",
+        distanceKm: 900,
+        durationHrs: "16 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-omkareshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Maheshwar",
+        distanceKm: 900,
+        durationHrs: "16 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-maheshwar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Indore",
+        distanceKm: 820,
+        durationHrs: "15 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-indore-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pachmarhi",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-pachmarhi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kanha National Park",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-kanha-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bandhavgarh National Park",
+        distanceKm: 1000,
+        durationHrs: "19 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-bandhavgarh-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pench National Park",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-pench-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Satpura National Park",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-satpura-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Panna National Park",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-panna-national-park-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chanderi",
+        distanceKm: 750,
+        durationHrs: "14 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-chanderi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Datia",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-datia-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Shivpuri",
+        distanceKm: 410,
+        durationHrs: "8 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-shivpuri-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jabalpur (Bhedaghat Marble Rocks)",
+        distanceKm: 820,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-jabalpur-bhedaghat-marble-rocks-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Amarkantak",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-amarkantak-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Chitrakoot (MP side)",
+        distanceKm: 680,
+        durationHrs: "13 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-chitrakoot-mp-side-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mandu",
+        distanceKm: 900,
+        durationHrs: "16 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-mandu-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Burhanpur",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-burhanpur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhimbetka Rock Shelters",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-bhimbetka-rock-shelters-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tamia",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "Hill Station",
+        popular: false,
+        routeSlug: "delhi-to-tamia-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Patalkot",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-patalkot-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hanuwantiya Island",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "delhi-to-hanuwantiya-island-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sailani Island",
+        distanceKm: 930,
+        durationHrs: "17.5 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "delhi-to-sailani-island-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gandhisagar Lake",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-gandhisagar-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Tawa Reservoir",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-tawa-reservoir-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ahmedabad",
+        distanceKm: 950,
+        durationHrs: "17 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-ahmedabad-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Somnath Temple",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-somnath-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dwarkadhish Temple",
+        distanceKm: 1300,
+        durationHrs: "24 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-dwarkadhish-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Nageshwar Jyotirlinga",
+        distanceKm: 1320,
+        durationHrs: "24 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-nageshwar-jyotirlinga-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Beyt Dwarka",
+        distanceKm: 1325,
+        durationHrs: "24+ hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-beyt-dwarka-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Porbandar",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-porbandar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Gir National Park (Sasan Gir)",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-gir-national-park-sasan-gir-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rann of Kutch (White Desert - Dhordo)",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-rann-of-kutch-white-desert-dhordo-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhuj",
+        distanceKm: 1100,
+        durationHrs: "20 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-bhuj-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Mandvi Beach",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "delhi-to-mandvi-beach-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dholavira (Indus Valley Site)",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-dholavira-indus-valley-site-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Surat",
+        distanceKm: 1150,
+        durationHrs: "20 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-surat-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Vadodara (Baroda)",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-vadodara-baroda-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Champaner-Pavagadh",
+        distanceKm: 1100,
+        durationHrs: "20 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-champaner-pavagadh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Statue of Unity (Kevadia)",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-statue-of-unity-kevadia-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Saputara",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "delhi-to-saputara-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ambaji",
+        distanceKm: 900,
+        durationHrs: "16 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-ambaji-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Modhera Sun Temple",
+        distanceKm: 950,
+        durationHrs: "17 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-modhera-sun-temple-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Patan (Rani ki Vav)",
+        distanceKm: 970,
+        durationHrs: "17.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-patan-rani-ki-vav-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Palitana",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-palitana-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Diu (Union Territory, often paired)",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "delhi-to-diu-union-territory-often-paired-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Silvassa/Dadra and Nagar Haveli (paired)",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-silvassa-dadra-and-nagar-haveli-paired-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Daman (paired)",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Beach",
+        popular: true,
+        routeSlug: "delhi-to-daman-paired-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Lothal (Indus Valley Site)",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-lothal-indus-valley-site-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Velavadar Blackbuck National Park (Jamnagar)",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-velavadar-blackbuck-national-park-jamnagar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Junagadh",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-junagadh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhavnagar",
+        distanceKm: 1100,
+        durationHrs: "20 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-bhavnagar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rajkot",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-rajkot-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Taranga Hills",
+        distanceKm: 950,
+        durationHrs: "17 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-taranga-hills-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Zainabad (Little Rann of Kutch, Wild Ass Sanctuary)",
+        distanceKm: 1050,
+        durationHrs: "19 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-zainabad-little-rann-of-kutch-wild-ass-sanctuary-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sultanpur Bird Sanctuary (Gurgaon)",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-sultanpur-bird-sanctuary-gurgaon-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Damdama Lake (Gurgaon)",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-damdama-lake-gurgaon-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sohna",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-sohna-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Manesar",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-manesar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pataudi Palace",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-pataudi-palace-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Faridabad (Surajkund)",
+        distanceKm: 25,
+        durationHrs: "1 hr",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-faridabad-surajkund-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Badkhal Lake",
+        distanceKm: 30,
+        durationHrs: "1 hr",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "delhi-to-badkhal-lake-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Asola Bhatti Wildlife Sanctuary",
+        distanceKm: 25,
+        durationHrs: "1 hr",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-asola-bhatti-wildlife-sanctuary-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Noida (Worlds of Wonder, Okhla Bird Sanctuary)",
+        distanceKm: 25,
+        durationHrs: "1 hr",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-noida-worlds-of-wonder-okhla-bird-sanctuary-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Greater Noida (Night Safari, F1 Circuit)",
+        distanceKm: 45,
+        durationHrs: "1.5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "delhi-to-greater-noida-night-safari-f1-circuit-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Ghaziabad",
+        distanceKm: 30,
+        durationHrs: "1 hr",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-ghaziabad-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Dudhwa (Dadri) Wetlands",
+        distanceKm: 40,
+        durationHrs: "1.5 hrs",
+        category: "Wildlife",
+        popular: false,
+        routeSlug: "delhi-to-dudhwa-dadri-wetlands-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kuchesar (Mud Fort)",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-kuchesar-mud-fort-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bulandshahr",
+        distanceKm: 90,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-bulandshahr-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Aligarh",
+        distanceKm: 130,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-aligarh-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sambhal",
+        distanceKm: 165,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-sambhal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Moradabad",
+        distanceKm: 170,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-moradabad-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rampur",
+        distanceKm: 185,
+        durationHrs: "4.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-rampur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bareilly",
+        distanceKm: 260,
+        durationHrs: "5.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-bareilly-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Pilibhit (Tiger Reserve)",
+        distanceKm: 300,
+        durationHrs: "6.5 hrs",
+        category: "Wildlife",
+        popular: true,
+        routeSlug: "delhi-to-pilibhit-tiger-reserve-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Muzaffarnagar (Shukdev Ashram)",
+        distanceKm: 130,
+        durationHrs: "3 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-muzaffarnagar-shukdev-ashram-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Saharanpur (Shakumbhari Devi)",
+        distanceKm: 200,
+        durationHrs: "4.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-saharanpur-shakumbhari-devi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Karnal",
+        distanceKm: 125,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-karnal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kurukshetra",
+        distanceKm: 170,
+        durationHrs: "3.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-kurukshetra-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Panipat",
+        distanceKm: 95,
+        durationHrs: "2 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-panipat-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sonipat",
+        distanceKm: 50,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-sonipat-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rohtak",
+        distanceKm: 70,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-rohtak-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhiwani",
+        distanceKm: 125,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-bhiwani-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hisar",
+        distanceKm: 185,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-hisar-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Sirsa",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-sirsa-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hansi",
+        distanceKm: 165,
+        durationHrs: "3.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-hansi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kaithal",
+        distanceKm: 190,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-kaithal-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Rewari (Heritage Steam Loco Shed)",
+        distanceKm: 90,
+        durationHrs: "2 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-rewari-heritage-steam-loco-shed-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Narnaul (Dharuhera-Chopta Valley)",
+        distanceKm: 160,
+        durationHrs: "3.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "delhi-to-narnaul-dharuhera-chopta-valley-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Bhiwadi",
+        distanceKm: 70,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-bhiwadi-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Neemrana (Midway Point)",
+        distanceKm: 120,
+        durationHrs: "3 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-neemrana-midway-point-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Kesroli",
+        distanceKm: 190,
+        durationHrs: "4.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "delhi-to-kesroli-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Jind",
+        distanceKm: 125,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "delhi-to-jind-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Baghpat (Pura Mahadev)",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-baghpat-pura-mahadev-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Meerut Cantt (Augharnath Mandir)",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-meerut-cantt-augharnath-mandir-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Hapur",
+        distanceKm: 55,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "delhi-to-hapur-force-urbania"
+    },
+    {
+        origin: "Delhi",
+        destination: "Garhmukteshwar (Ganga Ghat)",
+        distanceKm: 100,
+        durationHrs: "2.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "delhi-to-garhmukteshwar-ganga-ghat-force-urbania"
+    },
+    // Indore Origin Routes
+    {
+        origin: "Indore",
+        destination: "Ahmedabad",
+        distanceKm: 390,
+        durationHrs: "7 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "indore-to-ahmedabad-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Bhopal",
+        distanceKm: 195,
+        durationHrs: "3.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "indore-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Choral Dam",
+        distanceKm: 45,
+        durationHrs: "1 hr",
+        category: "Weekend",
+        popular: false,
+        routeSlug: "indore-to-choral-dam-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Dewas",
+        distanceKm: 35,
+        durationHrs: "45 mins",
+        category: "Weekend",
+        popular: false,
+        routeSlug: "indore-to-dewas-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Hanuwantiya",
+        distanceKm: 140,
+        durationHrs: "3 hrs",
+        category: "Adventure",
+        popular: false,
+        routeSlug: "indore-to-hanuwantiya-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Jaipur",
+        distanceKm: 600,
+        durationHrs: "10 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "indore-to-jaipur-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Kanha National Park",
+        distanceKm: 520,
+        durationHrs: "10 hrs",
+        category: "Wildlife",
+        popular: false,
+        routeSlug: "indore-to-kanha-national-park-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Kota",
+        distanceKm: 320,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "indore-to-kota-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Maheshwar",
+        distanceKm: 95,
+        durationHrs: "2 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "indore-to-maheshwar-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Mandu",
+        distanceKm: 95,
+        durationHrs: "2.5 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "indore-to-mandu-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Nashik",
+        distanceKm: 460,
+        durationHrs: "9 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "indore-to-nashik-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Omkareshwar",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "indore-to-omkareshwar-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Pachmarhi",
+        distanceKm: 340,
+        durationHrs: "7 hrs",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "indore-to-pachmarhi-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Shirdi",
+        distanceKm: 410,
+        durationHrs: "8 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "indore-to-shirdi-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Statue of Unity",
+        distanceKm: 310,
+        durationHrs: "6 hrs",
+        category: "Heritage",
+        popular: true,
+        routeSlug: "indore-to-statue-of-unity-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Udaipur",
+        distanceKm: 395,
+        durationHrs: "7.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "indore-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Indore",
+        destination: "Ujjain",
+        distanceKm: 55,
+        durationHrs: "1 hr",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "indore-to-ujjain-force-urbania"
+    },
+    // Ghaziabad Origin Routes
+    {
+        origin: "Ghaziabad",
+        destination: "Spiti Valley",
+        distanceKm: 710,
+        durationHrs: "19 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "ghaziabad-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Tungnath",
+        distanceKm: 390,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-tungnath-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Udaipur",
+        distanceKm: 670,
+        durationHrs: "11 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "ghaziabad-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Uttarkashi",
+        distanceKm: 370,
+        durationHrs: "8.5 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "ghaziabad-to-uttarkashi-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Varanasi",
+        distanceKm: 800,
+        durationHrs: "11.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-varanasi-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Vrindavan",
+        distanceKm: 160,
+        durationHrs: "2.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-vrindavan-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Yamunotri",
+        distanceKm: 410,
+        durationHrs: "10.5 hrs",
+        category: "Pilgrimage",
+        popular: false,
+        routeSlug: "ghaziabad-to-yamunotri-force-urbania"
+    },
+    // Gurugram Origin Routes
+    {
+        origin: "Gurugram",
+        destination: "Spiti Valley",
+        distanceKm: 750,
+        durationHrs: "20 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "gurugram-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Gurugram",
+        destination: "Tungnath",
+        distanceKm: 430,
+        durationHrs: "10.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "gurugram-to-tungnath-force-urbania"
+    },
+    {
+        origin: "Gurugram",
+        destination: "Udaipur",
+        distanceKm: 640,
+        durationHrs: "10.5 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "gurugram-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Gurugram",
+        destination: "Vrindavan",
+        distanceKm: 175,
+        durationHrs: "3 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "gurugram-to-vrindavan-force-urbania"
+    },
+    // Noida Origin Routes
+    {
+        origin: "Noida",
+        destination: "Spiti Valley",
+        distanceKm: 720,
+        durationHrs: "19.5 hrs",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "noida-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Noida",
+        destination: "Tungnath",
+        distanceKm: 400,
+        durationHrs: "9.5 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "noida-to-tungnath-force-urbania"
+    },
+    {
+        origin: "Noida",
+        destination: "Udaipur",
+        distanceKm: 665,
+        durationHrs: "11 hrs",
+        category: "Heritage",
+        popular: false,
+        routeSlug: "noida-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Noida",
+        destination: "Vrindavan",
+        distanceKm: 145,
+        durationHrs: "2 hrs",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "noida-to-vrindavan-force-urbania"
+    }
+];
+const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({
+        ...route,
+        cityGuide: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$cityGuides$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getCityGuide"])(route.destination)
+    }));
+_c1 = ROUTES_WITH_GUIDES;
+function getRoutesByCity(cityName, routes = SITEMAP_ROUTES) {
+    return routes.filter((route)=>route.origin === cityName || route.destination === cityName);
+}
+function getNearbyDestinations(cityName, routes = SITEMAP_ROUTES) {
+    const destinations = new Set();
+    routes.forEach((route)=>{
+        if (route.origin === cityName) {
+            destinations.add(route.destination);
+        }
+        if (route.destination === cityName) {
+            destinations.add(route.origin);
+        }
+    });
+    return Array.from(destinations).slice(0, 6);
+}
+const TOUR_PACKAGES = [
+    {
+        id: "pkg-char-dham",
+        title: "Char Dham Yatra Uttarakhand",
+        duration: "10 Days / 9 Nights",
+        citiesCovered: "Yamunotri, Gangotri, Kedarnath, Badrinath, Haridwar & Rishikesh",
+        recommendedSeater: "12 / 16 / 17 Seater Urbania",
+        priceStarting: "₹ 58,000 Total Package",
+        badge: "Most Popular Pilgrimage",
+        highlights: [
+            "VIP Haridwar Ganga Aarti assistance",
+            "Helicopter booking assistance for Kedarnath",
+            "Experienced mountain driver certified for Char Dham route",
+            "Comfortable luggage roof rack for 10-day tour"
+        ]
+    },
+    {
+        id: "pkg-himachal-golden",
+        title: "Himachal Majesty & Snow Circuit",
+        duration: "7 Days / 6 Nights",
+        citiesCovered: "Shimla, Kufri, Kullu, Manali, Solang Valley & Atal Tunnel",
+        recommendedSeater: "9 / 12 Seater Executive Urbania",
+        priceStarting: "₹ 42,000 Total Package",
+        badge: "Top Family Vacation",
+        highlights: [
+            "Drive through breathtaking Atal Tunnel to Sissu",
+            "Individual AC with heater for mountain freezing weather",
+            "Spacious legroom for long mountain rides",
+            "Zero motion-sickness smooth air suspension"
+        ]
+    },
+    {
+        id: "pkg-rajasthan-royal",
+        title: "Royal Rajasthan Heritage Tour",
+        duration: "6 Days / 5 Nights",
+        citiesCovered: "Jaipur, Ajmer, Pushkar, Jodhpur & Udaipur",
+        recommendedSeater: "16 / 17 / 20 Seater Maharaja Urbania",
+        priceStarting: "₹ 38,000 Total Package",
+        badge: "Heritage Special",
+        highlights: [
+            "Smooth travel on Jaipur-Ajmer & Delhi-Mumbai Expressway",
+            "24-inch Smart LED TV & Audio for long desert highway drives",
+            "Dual powerful AC units for Rajasthan heat",
+            "Generous trunk space for royal shopping haul"
+        ]
+    },
+    {
+        id: "pkg-mp-spiritual",
+        title: "Madhya Pradesh Mahakal & Jyotirlinga Circuit",
+        duration: "4 Days / 3 Nights",
+        citiesCovered: "Indore, Ujjain Mahakal, Omkareshwar, Maheshwar & Mandu",
+        recommendedSeater: "9 / 12 / 16 Seater Urbania",
+        priceStarting: "₹ 24,000 Total Package",
+        badge: "Holy Corridor Special",
+        highlights: [
+            "Instant Ujjain Bhasma Aarti arrival timing coordination",
+            "Narmada Ghat visit in Maheshwar & Omkareshwar",
+            "Short distance hop comfort with zero fatigue",
+            "Professional local MP route driver"
+        ]
+    }
+];
+const REVIEWS = [
+    {
+        name: "Rajesh Malhotra",
+        city: "New Delhi",
+        trip: "Delhi to Kedarnath & Badrinath (16 Seater Urbania)",
+        rating: 5,
+        date: "May 2025",
+        comment: "We booked the 16-seater Force Urbania for our family Char Dham Yatra. The ride comfort was lightyears ahead of normal tempo travellers! Air suspension made mountain roads smooth, and individual AC vents kept everyone comfortable. Driver Mr. Ramesh was polite and well versed with mountain routes."
+    },
+    {
+        name: "Dr. Ananya Sharma",
+        city: "Indore",
+        trip: "Indore to Ujjain & Pachmarhi (12 Seater Urbania)",
+        rating: 5,
+        date: "June 2025",
+        comment: "Excellent experience! We took our extended family to Mahakaleshwar Ujjain and then to Pachmarhi. The Urbania was spotlessly clean, leather captain seats were so plush, and the sound system made our journey memorable."
+    },
+    {
+        name: "Vikas Aggarwal",
+        city: "Gurugram",
+        trip: "Gurugram to Manali & Leh (9 Seater VIP Urbania)",
+        rating: 5,
+        date: "July 2025",
+        comment: "Hire Urbania made our dream Leh Ladakh road trip a reality. The 9-seater Maharaja Urbania had insane legroom and recliner seats. The engine power on steep passes like Rohtang & Baralacha was effortless!"
+    },
+    {
+        name: "Pooja Singhania",
+        city: "Noida",
+        trip: "Noida to Kainchi Dham & Nainital (17 Seater Urbania)",
+        rating: 5,
+        date: "November 2025",
+        comment: "Very transparent pricing with no hidden charges. Driver allowance and toll calculations were upfront. The van was delivered to our doorstep in Noida right on time!"
+    }
+];
+const FAQS = [
+    {
+        q: "Why is Force Urbania superior to conventional Tempo Travellers?",
+        a: "Force Urbania is built on a modern monocoque chassis with independent front suspension and parabolic rear leaf/air springs. It offers car-like ride comfort, significantly lower noise/vibration (NVH), triple-zone AC, individual USB ports, plush leather pushback seats, 6-foot-3-inch standing headroom, and advanced safety features like ABS, EBD, and crash safety compliance."
+    },
+    {
+        q: "How are the rental fares calculated?",
+        a: "Fares are calculated based on: (1) Vehicle capacity variant (9, 12, 16, 17, or 20 seater), (2) Per kilometer rate, subject to a minimum billing of 250 KM per day for outstation trips, (3) Daily driver night allowance (₹600 - ₹800/day). Toll taxes, state border entry taxes, and parking fees are charged actuals or can be included in a customized all-inclusive package."
+    },
+    {
+        q: "What seater options are available in Force Urbania?",
+        a: "We offer 5 premium variants: 9-Seater VIP (3350mm Short Wheelbase), 12-Seater Executive (3610mm Medium Wheelbase), 16-Seater & 17-Seater Super Luxury (4400mm Long Wheelbase), and 20-Seater Maharaja Lounge."
+    },
+    {
+        q: "Can I book Force Urbania for Char Dham Yatra and high altitude hill stations?",
+        a: "Yes! Force Urbania is powered by a high-torque 115 HP FM2.6CR ED Turbo Diesel engine, specially tuned for steep inclines like Kedarnath Gaurikund, Badrinath, Rohtang Pass, Spiti Valley, and Leh Ladakh. All our drivers are hill-certified with years of Himalayan route experience."
+    },
+    {
+        q: "How do I book and confirm my booking?",
+        a: "You can use our instant online booking calculator or click 'Book on WhatsApp'. Once you share your trip itinerary, travel date, and seating requirement, our booking team sends an official quote. A token advance of 20% confirms your booking with vehicle registration details sent 24 hours prior to travel."
+    }
+];
+function getRoadType(category) {
+    const roadTypes = {
+        Pilgrimage: "Mountain/Highway",
+        "Hill Station": "Mountain/Winding Roads",
+        City: "Urban/Expressway",
+        Tourist: "Highway/Expressway",
+        Wildlife: "Forest/Highway",
+        Adventure: "Mountain/Off-road",
+        Default: "Highway/Expressway"
+    };
+    return roadTypes[category] || roadTypes.Default;
+}
+function getRoadCondition(distance) {
+    if (distance > 500) return "Mix of highways and city roads. Well maintained.";
+    if (distance > 250) return "Mostly highways. Excellent road condition.";
+    return "Excellent roads with smooth highways.";
+}
+function getHighwayName(origin, destination) {
+    const highways = {
+        Delhi: {
+            Haridwar: "NH 334",
+            Rishikesh: "NH 334",
+            Dehradun: "NH 707",
+            Mussoorie: "NH 707",
+            Jaipur: "NH 48",
+            Agra: "NH 44",
+            Mathura: "NH 44",
+            Vrindavan: "NH 44",
+            Chandigarh: "NH 44"
+        },
+        Varanasi: {
+            Ayodhya: "NH 27",
+            Lucknow: "NH 27",
+            Prayagraj: "NH 19",
+            Kanpur: "NH 19",
+            Agra: "NH 19"
+        },
+        Ayodhya: {
+            Varanasi: "NH 27",
+            Lucknow: "NH 27",
+            Prayagraj: "NH 330",
+            Delhi: "NH 27"
+        },
+        Haridwar: {
+            Delhi: "NH 334",
+            Rishikesh: "NH 334"
+        }
+    };
+    return highways[origin]?.[destination] || "State/Express Highway";
+}
+function getBestSeason(destination) {
+    const seasons = {
+        Haridwar: "October to March",
+        Rishikesh: "September to March",
+        Dehradun: "March to June & September to November",
+        Mussoorie: "March to June & December to February",
+        Shimla: "October to June",
+        Manali: "October to June",
+        Nainital: "March to June & September to November",
+        Jaipur: "October to March",
+        Udaipur: "September to March",
+        Jaisalmer: "October to March",
+        Varanasi: "October to March",
+        Ayodhya: "October to March",
+        Prayagraj: "October to March",
+        Amritsar: "October to March",
+        Chandigarh: "October to March"
+    };
+    return seasons[destination] || "October to March";
+}
+function getStopovers(distance) {
+    const stopovers = [
+        {
+            name: "Midway Tea Stop",
+            purpose: "Refreshment break",
+            icon: "coffee"
+        },
+        {
+            name: "Lunch Break",
+            purpose: "Food & rest",
+            icon: "food"
+        }
+    ];
+    if (distance > 300) {
+        stopovers.push({
+            name: "Overnight Stay",
+            purpose: "Hotel/rest",
+            icon: "hotel"
+        });
+    }
+    if (distance > 500) {
+        stopovers.push({
+            name: "Extended Rest Stop",
+            purpose: "Relax & recharge",
+            icon: "rest"
+        });
+    }
+    return stopovers.slice(0, 4);
+}
+function getTravelTips(route) {
+    const tips = [
+        `Start early from ${route.origin} to avoid traffic and reach ${route.destination} by daylight`,
+        `Carry water, snacks, and basic medicines for the journey`
+    ];
+    if (route.distanceKm > 400) {
+        tips.push("Take proper rest breaks to avoid driver fatigue");
+        tips.push("Refuel at major towns as fuel stations may be scarce");
+    }
+    if (route.category === "Pilgrimage") {
+        tips.push("Dress modestly and carry temple visit essentials");
+        tips.push("Book darshan tickets in advance during peak seasons");
+    }
+    if (route.category === "Hill Station") {
+        tips.push("Carry warm clothing even during summer months");
+        tips.push("Check road conditions and weather before starting");
+    }
+    return tips;
+}
+var _c, _c1;
+__turbopack_context__.k.register(_c, "ROUTES_WITH_GUIDES$SITEMAP_ROUTES.map");
+__turbopack_context__.k.register(_c1, "ROUTES_WITH_GUIDES");
+if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
+    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
+}
+}),
+]);
+
+//# sourceMappingURL=_1jscjc8._.js.map

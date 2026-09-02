@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import {
   Clock,
   MessageSquare,
@@ -44,6 +42,7 @@ import {
   Hotel,
 } from "lucide-react";
 import CityGuide from "./CityGuide";
+import Footer from "./Footer";
 import {
   getRoadType,
   getHighwayName,
@@ -271,8 +270,6 @@ export default function RouteTemplate({
       <RouteSeo route={route} />
 
       <main className="route-template">
-        <Navbar />
-
         {/* ===== HERO SECTION ===== */}
         <section
           className="route-hero"
@@ -348,6 +345,7 @@ export default function RouteTemplate({
             </nav>
 
             <div
+              className="route-hero-grid"
               style={{
                 display: "grid",
                 gridTemplateColumns: "1.2fr 0.9fr",

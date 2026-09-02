@@ -1,7 +1,5 @@
 import Link from "next/link";
 import { ArrowRight, MapPin } from "lucide-react";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import { CITY_HUBS } from "@/lib/routesData";
 
 export const metadata = {
@@ -13,8 +11,6 @@ export const metadata = {
 export default function CitiesPage() {
   return (
     <main>
-      <Navbar />
-
       <section
         style={{
           padding: "9rem 1.5rem 4rem",
@@ -139,7 +135,6 @@ export default function CitiesPage() {
         </div>
       </section>
 
-      <Footer />
     </main>
   );
 }

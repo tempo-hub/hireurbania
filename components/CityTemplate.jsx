@@ -2,8 +2,6 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import {
   Award,
   Calendar,
@@ -25,6 +23,7 @@ import {
 } from "lucide-react";
 import { FAQS } from "@/lib/routesData";
 import { useState } from "react";
+import Footer from "./Footer";
 
 // ========== FAQ COMPONENT ==========
 function FAQItem({ question, answer, isOpen, onToggle }) {
@@ -168,8 +167,6 @@ export default function CityTemplate({ city, routes, fleet }) {
       <CitySeo city={city} />
 
       <main className="city-template">
-        <Navbar />
-
         {/* ===== HERO SECTION ===== */}
         <section
           className="hero-section"
@@ -247,6 +244,7 @@ export default function CityTemplate({ city, routes, fleet }) {
             </nav>
 
             <div
+              className="city-hero-grid"
               style={{
                 display: "grid",
                 gridTemplateColumns: "1.2fr 0.9fr",
@@ -1097,7 +1095,7 @@ export default function CityTemplate({ city, routes, fleet }) {
                 >
                   {/* Card Image */}
                   <div
-                    className="fleet-image-wrapper"
+                    className="fleet-img-wrapper"
                     style={{
                       position: "relative",
                       height: "220px",
@@ -1113,7 +1111,7 @@ export default function CityTemplate({ city, routes, fleet }) {
                       alt={model.name}
                       width={400}
                       height={220}
-                      className="fleet-image"
+                      className="fleet-img"
                       style={{
                         width: "100%",
                         height: "100%",
