@@ -4,6 +4,5 @@
   "env": {
     "MONGODB_URI": "@mongodb_uri"
   },
-  "envPrefix": "NEXT_PUBLIC_",
   "nodeVersion": "20.x"
 }
