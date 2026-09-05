@@ -426,7 +426,7 @@ export default function CityTemplate({ city, routes, fleet }) {
                     Plan Your City Trip
                   </h3>
                 </div>
-                
+
                 <p
                   style={{
                     color: "#5b6b7e",
@@ -577,155 +577,54 @@ export default function CityTemplate({ city, routes, fleet }) {
         </section>
 
         {/* ===== WHY HIRE SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#f9fafc" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <CheckCircle2 size={14} /> Why Hire Urbania
+        <section className="why-hire-section">
+          <div className="container why-hire-container">
+            {/* Section Header */}
+            <div className="why-hire-header">
+              <div className="why-hire-badge">
+                <CheckCircle2 size={14} />
+                <span>Why Hire Urbania</span>
               </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                Comfortable Group Travel in {city.name}
-              </h2>
+
+              <h2>Comfortable Group Travel in {city.name}</h2>
+
+              <p>
+                Travel comfortably with your group in a premium Force Urbania,
+                backed by experienced chauffeurs, doorstep pickup and reliable
+                support.
+              </p>
             </div>
 
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
-                gap: "2rem",
-              }}
-            >
+            {/* Features */}
+            <div className="why-hire-grid">
               {[
                 {
-                  icon: <Users size={32} />,
+                  icon: <Users size={30} />,
                   title: "All Group Sizes",
                   desc: "9, 12, 16, 17 and 20 seater options for every group.",
                 },
                 {
-                  icon: <MapPin size={32} />,
+                  icon: <MapPin size={30} />,
                   title: "Doorstep Pickup",
                   desc: "Pickup from hotels, homes, stations and airports.",
                 },
                 {
-                  icon: <Award size={32} />,
+                  icon: <Award size={30} />,
                   title: "Trusted Chauffeurs",
                   desc: "Experienced drivers for city and highway travel.",
                 },
                 {
-                  icon: <Shield size={32} />,
+                  icon: <Shield size={30} />,
                   title: "Safety Assured",
                   desc: "GPS tracking, sanitized vehicles, and 24/7 support.",
                 },
               ].map((feature, index) => (
-                <div
-                  key={index}
-                  style={{
-                    background: "#fff",
-                    padding: "2rem 1.5rem",
-                    borderRadius: "24px",
-                    textAlign: "center",
-                    boxShadow: "0 8px 20px rgba(0,0,0,0.02)",
-                    border: "1px solid #ecf0f7",
-                    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                    cursor: "pointer",
-                    transform: "scale(1)",
-                    position: "relative",
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.05)";
-                    e.currentTarget.style.borderColor = "#0052CC";
-                    e.currentTarget.style.boxShadow =
-                      "0 20px 40px rgba(0, 82, 204, 0.12)";
-                    e.currentTarget.style.background = "#ffffff";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
-                    e.currentTarget.style.borderColor = "#ecf0f7";
-                    e.currentTarget.style.boxShadow =
-                      "0 8px 20px rgba(0,0,0,0.02)";
-                    e.currentTarget.style.background = "#fff";
-                  }}
-                >
-                  <div
-                    style={{
-                      color: "#0052CC",
-                      marginBottom: "0.6rem",
-                      transition: "transform 0.3s ease",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scale(1.1)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scale(1)";
-                    }}
-                  >
-                    {feature.icon}
-                  </div>
-                  <h3
-                    style={{
-                      fontSize: "1.2rem",
-                      marginBottom: "0.3rem",
-                      transition: "color 0.3s ease",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#0052CC";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#0b1a2e";
-                    }}
-                  >
-                    {feature.title}
-                  </h3>
-                  <p
-                    style={{
-                      color: "#4a5a6e",
-                      fontSize: "0.95rem",
-                      transition: "color 0.3s ease",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#1a2634";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#4a5a6e";
-                    }}
-                  >
-                    {feature.desc}
-                  </p>
+                <div className="why-hire-card" key={index}>
+                  <div className="why-hire-icon">{feature.icon}</div>
+
+                  <h3>{feature.title}</h3>
+
+                  <p>{feature.desc}</p>
                 </div>
               ))}
             </div>
@@ -733,66 +632,21 @@ export default function CityTemplate({ city, routes, fleet }) {
         </section>
 
         {/* ===== ABOUT URBANIA IN CITY SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#ffffff" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "4rem",
-                alignItems: "center",
-              }}
-            >
+        <section className="about-urbania-section">
+          <div className="about-urbania-container">
+            <div className="about-urbania-grid">
               {/* Left Column - Content */}
-              <div>
-                <div
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "0.5rem",
-                    background: "#eef3ff",
-                    color: "#0052CC",
-                    padding: "0.25rem 1.2rem",
-                    borderRadius: "40px",
-                    fontSize: "0.8rem",
-                    fontWeight: 600,
-                    marginBottom: "1rem",
-                  }}
-                >
-                  <Award size={14} /> About Urbania
+              <div className="about-urbania-content">
+                <div className="about-urbania-badge">
+                  <Award size={14} />
+                  About Urbania
                 </div>
 
-                <h2
-                  style={{
-                    fontSize: "2.3rem",
-                    fontWeight: 700,
-                    marginBottom: "1rem",
-                    color: "#0b1a2e",
-                    lineHeight: 1.2,
-                  }}
-                >
-                  Premium Tempo Traveller Service in{" "}
-                  <span style={{ color: "#0052CC" }}>{city.name}</span>
+                <h2 className="about-urbania-title">
+                  Premium Tempo Traveller Service in <span>{city.name}</span>
                 </h2>
 
-                <p
-                  style={{
-                    fontSize: "1.05rem",
-                    color: "#4a5a6e",
-                    lineHeight: "1.8",
-                    marginBottom: "1.5rem",
-                  }}
-                >
+                <p className="about-urbania-description">
                   Urbania Tempo Traveller is the premier choice for group travel
                   in {city.name}. Our fleet of modern Force Urbania vehicles
                   combines luxury, comfort, and reliability to ensure your
@@ -801,14 +655,8 @@ export default function CityTemplate({ city, routes, fleet }) {
                   perfect vehicle for your needs.
                 </p>
 
-                <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "1fr 1fr",
-                    gap: "1.5rem",
-                    marginBottom: "2rem",
-                  }}
-                >
+                {/* Features */}
+                <div className="about-urbania-features">
                   {[
                     {
                       icon: <Users size={20} color="#0052CC" />,
@@ -831,178 +679,68 @@ export default function CityTemplate({ city, routes, fleet }) {
                       desc: `Experienced drivers familiar with ${city.name} routes`,
                     },
                   ].map((item, index) => (
-                    <div
-                      key={index}
-                      style={{
-                        display: "flex",
-                        gap: "0.8rem",
-                        alignItems: "flex-start",
-                      }}
-                    >
-                      <div style={{ marginTop: "0.2rem", flexShrink: 0 }}>
+                    <div className="about-urbania-feature" key={index}>
+                      <div className="about-urbania-feature-icon">
                         {item.icon}
                       </div>
-                      <div>
-                        <h4
-                          style={{
-                            fontSize: "0.95rem",
-                            fontWeight: 600,
-                            color: "#0b1a2e",
-                            marginBottom: "0.2rem",
-                          }}
-                        >
-                          {item.title}
-                        </h4>
-                        <p
-                          style={{
-                            fontSize: "0.85rem",
-                            color: "#7a8a9e",
-                            lineHeight: "1.4",
-                          }}
-                        >
-                          {item.desc}
-                        </p>
+
+                      <div className="about-urbania-feature-content">
+                        <h4>{item.title}</h4>
+                        <p>{item.desc}</p>
                       </div>
                     </div>
                   ))}
                 </div>
 
-                <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
+                {/* Buttons */}
+                <div className="about-urbania-actions">
                   <a
                     href={`https://wa.me/${whatsappNumber}?text=${whatsappText}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "0.6rem",
-                      padding: "0.8rem 2rem",
-                      borderRadius: "50px",
-                      background: "#25D366",
-                      color: "#fff",
-                      fontWeight: 600,
-                      textDecoration: "none",
-                      transition: "0.2s",
-                      border: "none",
-                      fontSize: "0.95rem",
-                      cursor: "pointer",
-                    }}
+                    className="about-urbania-primary-btn"
                   >
-                    <MessageSquare size={18} /> Book Now in {city.name}
+                    <MessageSquare size={18} />
+                    <span>Book Now in {city.name}</span>
                   </a>
-                  <Link
-                    href="/"
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      gap: "0.6rem",
-                      padding: "0.8rem 2rem",
-                      borderRadius: "50px",
-                      background: "transparent",
-                      color: "#0052CC",
-                      fontWeight: 600,
-                      textDecoration: "none",
-                      transition: "0.2s",
-                      border: "2px solid #0052CC",
-                      fontSize: "0.95rem",
-                      cursor: "pointer",
-                    }}
-                  >
-                    Learn More <ArrowRight size={18} />
+
+                  <Link href="/" className="about-urbania-secondary-btn">
+                    <span>Learn More</span>
+                    <ArrowRight size={18} />
                   </Link>
                 </div>
               </div>
 
-              {/* Right Column - Image/Stats */}
-              <div>
-                <div
-                  style={{
-                    background: "#f9fafc",
-                    borderRadius: "24px",
-                    padding: "2rem",
-                    border: "1px solid #ecf0f7",
-                  }}
-                >
-                  <div
-                    style={{
-                      display: "grid",
-                      gridTemplateColumns: "1fr 1fr",
-                      gap: "1.5rem",
-                      marginBottom: "2rem",
-                    }}
-                  >
+              {/* Right Column - Stats */}
+              <div className="about-urbania-stats-wrapper">
+                <div className="about-urbania-stats-card">
+                  {/* Stats Grid */}
+                  <div className="about-urbania-stats-grid">
                     {[
                       { number: "50+", label: "Happy Groups" },
                       { number: "4.9/5", label: "Average Rating" },
                       { number: "98%", label: "On-Time Service" },
                       { number: "24/7", label: "Customer Support" },
                     ].map((stat, index) => (
-                      <div
-                        key={index}
-                        style={{
-                          textAlign: "center",
-                          padding: "1rem",
-                          background: "#ffffff",
-                          borderRadius: "16px",
-                          border: "1px solid #ecf0f7",
-                        }}
-                      >
-                        <div
-                          style={{
-                            fontSize: "1.8rem",
-                            fontWeight: 700,
-                            color: "#0052CC",
-                            marginBottom: "0.2rem",
-                          }}
-                        >
+                      <div key={index} className="about-urbania-stat">
+                        <div className="about-urbania-stat-number">
                           {stat.number}
                         </div>
-                        <div
-                          style={{
-                            fontSize: "0.85rem",
-                            color: "#4a5a6e",
-                            fontWeight: 500,
-                          }}
-                        >
+
+                        <div className="about-urbania-stat-label">
                           {stat.label}
                         </div>
                       </div>
                     ))}
                   </div>
 
-                  <div
-                    style={{
-                      background: "#eef3ff",
-                      borderRadius: "16px",
-                      padding: "1.5rem",
-                      textAlign: "center",
-                    }}
-                  >
-                    <div
-                      style={{
-                        fontSize: "2.5rem",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      🚐
-                    </div>
-                    <h4
-                      style={{
-                        fontSize: "1rem",
-                        fontWeight: 700,
-                        color: "#0b1a2e",
-                        marginBottom: "0.3rem",
-                      }}
-                    >
-                      Why Choose Urbania in {city.name}?
-                    </h4>
-                    <p
-                      style={{
-                        fontSize: "0.9rem",
-                        color: "#4a5a6e",
-                        lineHeight: "1.6",
-                      }}
-                    >
+                  {/* Highlight */}
+                  <div className="about-urbania-highlight">
+                    <div className="about-urbania-highlight-icon">🚐</div>
+
+                    <h4>Why Choose Urbania in {city.name}?</h4>
+
+                    <p>
                       Experience the perfect blend of luxury, comfort, and
                       affordability with our premium tempo traveller service in{" "}
                       {city.name}.
@@ -1012,6 +750,550 @@ export default function CityTemplate({ city, routes, fleet }) {
               </div>
             </div>
           </div>
+
+          <style jsx>{`
+            /* ================================
+       MAIN SECTION
+    ================================= */
+            .about-urbania-section {
+              width: 100%;
+              padding: 4rem 0;
+              background: #ffffff;
+              overflow: hidden;
+            }
+
+            .about-urbania-container {
+              width: 100%;
+              max-width: 1280px;
+              margin: 0 auto;
+              padding: 0 1.5rem;
+              box-sizing: border-box;
+            }
+
+            .about-urbania-grid {
+              display: grid;
+              grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+              gap: 4rem;
+              align-items: center;
+            }
+
+            /* ================================
+       LEFT CONTENT
+    ================================= */
+            .about-urbania-content {
+              min-width: 0;
+            }
+
+            .about-urbania-badge {
+              display: inline-flex;
+              align-items: center;
+              gap: 0.5rem;
+              background: #eef3ff;
+              color: #0052cc;
+              padding: 0.25rem 1.2rem;
+              border-radius: 40px;
+              font-size: 0.8rem;
+              font-weight: 600;
+              margin-bottom: 1rem;
+              white-space: nowrap;
+            }
+
+            .about-urbania-title {
+              font-size: 2.3rem;
+              font-weight: 700;
+              margin: 0 0 1rem;
+              color: #0b1a2e;
+              line-height: 1.2;
+              overflow-wrap: break-word;
+            }
+
+            .about-urbania-title span {
+              color: #0052cc;
+            }
+
+            .about-urbania-description {
+              font-size: 1.05rem;
+              color: #4a5a6e;
+              line-height: 1.8;
+              margin: 0 0 1.5rem;
+            }
+
+            /* ================================
+       FEATURES
+    ================================= */
+            .about-urbania-features {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 1.5rem;
+              margin-bottom: 2rem;
+            }
+
+            .about-urbania-feature {
+              display: flex;
+              gap: 0.8rem;
+              align-items: flex-start;
+              min-width: 0;
+            }
+
+            .about-urbania-feature-icon {
+              flex-shrink: 0;
+              margin-top: 0.2rem;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .about-urbania-feature-content {
+              min-width: 0;
+            }
+
+            .about-urbania-feature-content h4 {
+              font-size: 0.95rem;
+              font-weight: 600;
+              color: #0b1a2e;
+              margin: 0 0 0.2rem;
+              line-height: 1.35;
+            }
+
+            .about-urbania-feature-content p {
+              font-size: 0.85rem;
+              color: #7a8a9e;
+              line-height: 1.4;
+              margin: 0;
+            }
+
+            /* ================================
+       BUTTONS
+    ================================= */
+            .about-urbania-actions {
+              display: flex;
+              align-items: center;
+              gap: 1rem;
+              flex-wrap: wrap;
+            }
+
+            .about-urbania-primary-btn,
+            .about-urbania-secondary-btn {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.6rem;
+              min-height: 46px;
+              padding: 0.8rem 2rem;
+              border-radius: 50px;
+              font-size: 0.95rem;
+              font-weight: 600;
+              text-decoration: none;
+              cursor: pointer;
+              box-sizing: border-box;
+              transition:
+                transform 0.2s ease,
+                box-shadow 0.2s ease,
+                background 0.2s ease;
+            }
+
+            .about-urbania-primary-btn {
+              background: #25d366;
+              color: #ffffff;
+              border: none;
+            }
+
+            .about-urbania-secondary-btn {
+              background: transparent;
+              color: #0052cc;
+              border: 2px solid #0052cc;
+            }
+
+            .about-urbania-primary-btn:hover,
+            .about-urbania-secondary-btn:hover {
+              transform: translateY(-2px);
+            }
+
+            .about-urbania-primary-btn:hover {
+              box-shadow: 0 8px 20px rgba(37, 211, 102, 0.2);
+            }
+
+            .about-urbania-secondary-btn:hover {
+              background: #eef3ff;
+            }
+
+            /* ================================
+       RIGHT STATS CARD
+    ================================= */
+            .about-urbania-stats-wrapper {
+              min-width: 0;
+              width: 100%;
+            }
+
+            .about-urbania-stats-card {
+              width: 100%;
+              background: #f9fafc;
+              border-radius: 24px;
+              padding: 2rem;
+              border: 1px solid #ecf0f7;
+              box-sizing: border-box;
+            }
+
+            .about-urbania-stats-grid {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 1.5rem;
+              margin-bottom: 2rem;
+            }
+
+            .about-urbania-stat {
+              text-align: center;
+              padding: 1rem;
+              background: #ffffff;
+              border-radius: 16px;
+              border: 1px solid #ecf0f7;
+              min-width: 0;
+              box-sizing: border-box;
+            }
+
+            .about-urbania-stat-number {
+              font-size: 1.8rem;
+              font-weight: 700;
+              color: #0052cc;
+              margin-bottom: 0.2rem;
+              line-height: 1.2;
+            }
+
+            .about-urbania-stat-label {
+              font-size: 0.85rem;
+              color: #4a5a6e;
+              font-weight: 500;
+              line-height: 1.4;
+            }
+
+            /* ================================
+       HIGHLIGHT
+    ================================= */
+            .about-urbania-highlight {
+              background: #eef3ff;
+              border-radius: 16px;
+              padding: 1.5rem;
+              text-align: center;
+              box-sizing: border-box;
+            }
+
+            .about-urbania-highlight-icon {
+              font-size: 2.5rem;
+              line-height: 1;
+              margin-bottom: 0.5rem;
+            }
+
+            .about-urbania-highlight h4 {
+              font-size: 1rem;
+              font-weight: 700;
+              color: #0b1a2e;
+              margin: 0 0 0.3rem;
+              line-height: 1.4;
+            }
+
+            .about-urbania-highlight p {
+              font-size: 0.9rem;
+              color: #4a5a6e;
+              line-height: 1.6;
+              margin: 0;
+            }
+
+            /* ================================
+       1200px
+    ================================= */
+            @media (max-width: 1200px) {
+              .about-urbania-grid {
+                gap: 3rem;
+              }
+
+              .about-urbania-title {
+                font-size: 2.1rem;
+              }
+
+              .about-urbania-features {
+                gap: 1.2rem;
+              }
+
+              .about-urbania-stats-card {
+                padding: 1.5rem;
+              }
+            }
+
+            /* ================================
+       1024px - TABLET
+    ================================= */
+            @media (max-width: 1024px) {
+              .about-urbania-section {
+                padding: 3.5rem 0;
+              }
+
+              .about-urbania-container {
+                padding: 0 1.25rem;
+              }
+
+              .about-urbania-grid {
+                gap: 2.5rem;
+              }
+
+              .about-urbania-title {
+                font-size: 2rem;
+              }
+
+              .about-urbania-description {
+                font-size: 1rem;
+                line-height: 1.7;
+              }
+
+              .about-urbania-features {
+                gap: 1rem;
+              }
+
+              .about-urbania-stats-grid {
+                gap: 1rem;
+              }
+            }
+
+            /* ================================
+       768px - SMALL TABLET
+    ================================= */
+            @media (max-width: 768px) {
+              .about-urbania-section {
+                padding: 3rem 0;
+              }
+
+              .about-urbania-container {
+                padding: 0 1rem;
+              }
+
+              .about-urbania-grid {
+                grid-template-columns: 1fr;
+                gap: 2.5rem;
+              }
+
+              .about-urbania-title {
+                font-size: 2rem;
+              }
+
+              .about-urbania-description {
+                font-size: 1rem;
+              }
+
+              .about-urbania-features {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 1.25rem;
+              }
+
+              .about-urbania-stats-card {
+                padding: 1.5rem;
+              }
+
+              .about-urbania-stat {
+                padding: 1rem 0.75rem;
+              }
+            }
+
+            /* ================================
+       600px - MOBILE
+    ================================= */
+            @media (max-width: 600px) {
+              .about-urbania-section {
+                padding: 2.5rem 0;
+              }
+
+              .about-urbania-container {
+                padding: 0 0.9rem;
+              }
+
+              .about-urbania-grid {
+                gap: 2rem;
+              }
+
+              .about-urbania-badge {
+                font-size: 0.75rem;
+                padding: 0.25rem 1rem;
+              }
+
+              .about-urbania-title {
+                font-size: 1.75rem;
+                line-height: 1.25;
+              }
+
+              .about-urbania-description {
+                font-size: 0.95rem;
+                line-height: 1.7;
+              }
+
+              .about-urbania-features {
+                grid-template-columns: 1fr;
+                gap: 1.15rem;
+              }
+
+              .about-urbania-feature {
+                gap: 0.7rem;
+              }
+
+              .about-urbania-feature-content h4 {
+                font-size: 0.92rem;
+              }
+
+              .about-urbania-feature-content p {
+                font-size: 0.82rem;
+              }
+
+              .about-urbania-actions {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 0.75rem;
+              }
+
+              .about-urbania-primary-btn,
+              .about-urbania-secondary-btn {
+                width: 100%;
+                padding: 0.8rem 1.25rem;
+              }
+
+              .about-urbania-stats-card {
+                padding: 1rem;
+                border-radius: 20px;
+              }
+
+              .about-urbania-stats-grid {
+                gap: 0.75rem;
+                margin-bottom: 1rem;
+              }
+
+              .about-urbania-stat {
+                padding: 0.9rem 0.5rem;
+                border-radius: 13px;
+              }
+
+              .about-urbania-stat-number {
+                font-size: 1.45rem;
+              }
+
+              .about-urbania-stat-label {
+                font-size: 0.78rem;
+              }
+
+              .about-urbania-highlight {
+                padding: 1.15rem;
+                border-radius: 14px;
+              }
+
+              .about-urbania-highlight-icon {
+                font-size: 2.2rem;
+              }
+
+              .about-urbania-highlight p {
+                font-size: 0.84rem;
+              }
+            }
+
+            /* ================================
+       400px - SMALL MOBILE
+    ================================= */
+            @media (max-width: 400px) {
+              .about-urbania-section {
+                padding: 2rem 0;
+              }
+
+              .about-urbania-container {
+                padding: 0 0.75rem;
+              }
+
+              .about-urbania-title {
+                font-size: 1.55rem;
+              }
+
+              .about-urbania-description {
+                font-size: 0.9rem;
+              }
+
+              .about-urbania-stats-card {
+                padding: 0.75rem;
+              }
+
+              .about-urbania-stats-grid {
+                gap: 0.6rem;
+              }
+
+              .about-urbania-stat {
+                padding: 0.75rem 0.35rem;
+              }
+
+              .about-urbania-stat-number {
+                font-size: 1.3rem;
+              }
+
+              .about-urbania-stat-label {
+                font-size: 0.72rem;
+              }
+
+              .about-urbania-highlight {
+                padding: 1rem;
+              }
+
+              .about-urbania-highlight h4 {
+                font-size: 0.92rem;
+              }
+
+              .about-urbania-highlight p {
+                font-size: 0.8rem;
+              }
+            }
+
+            /* ================================
+       360px - EXTRA SMALL
+    ================================= */
+            @media (max-width: 360px) {
+              .about-urbania-container {
+                padding: 0 0.65rem;
+              }
+
+              .about-urbania-title {
+                font-size: 1.45rem;
+              }
+
+              .about-urbania-features {
+                gap: 1rem;
+              }
+
+              .about-urbania-stat-number {
+                font-size: 1.2rem;
+              }
+
+              .about-urbania-stat-label {
+                font-size: 0.68rem;
+              }
+
+              .about-urbania-primary-btn,
+              .about-urbania-secondary-btn {
+                font-size: 0.88rem;
+                padding: 0.75rem 1rem;
+              }
+            }
+
+            /* ================================
+       TOUCH DEVICES
+    ================================= */
+            @media (hover: none) {
+              .about-urbania-primary-btn:hover,
+              .about-urbania-secondary-btn:hover {
+                transform: none;
+                box-shadow: none;
+              }
+            }
+
+            /* ================================
+       REDUCED MOTION
+    ================================= */
+            @media (prefers-reduced-motion: reduce) {
+              .about-urbania-primary-btn,
+              .about-urbania-secondary-btn {
+                transition: none;
+              }
+            }
+          `}</style>
         </section>
 
         {/* ===== FLEET SECTION ===== */}
@@ -2011,70 +2293,29 @@ export default function CityTemplate({ city, routes, fleet }) {
         </section>
 
         {/* ===== HOW BOOKING WORKS SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#f9fafc" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Calendar size={14} /> How Booking Works
+        <section className="how-booking-section">
+          <div className="container how-booking-container">
+            {/* =====================================================
+        SECTION HEADER
+    ===================================================== */}
+            <div className="how-booking-header">
+              <div className="how-booking-badge">
+                <Calendar size={14} />
+                <span>How Booking Works</span>
               </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                Book Your Urbania in {city.name} in 4 Simple Steps
-              </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
+
+              <h2>Book Your Urbania in {city.name} in 4 Simple Steps</h2>
+
+              <p>
                 Quick and hassle-free booking process for your Urbania Tempo
                 Traveller in {city.name}.
               </p>
             </div>
 
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                gap: "2rem",
-                position: "relative",
-              }}
-            >
+            {/* =====================================================
+        STEPS
+    ===================================================== */}
+            <div className="booking-steps">
               {[
                 {
                   step: "1",
@@ -2101,231 +2342,49 @@ export default function CityTemplate({ city, routes, fleet }) {
                   desc: `Our chauffeur arrives on time for your comfortable journey in ${city.name}.`,
                 },
               ].map((item, index) => (
-                <div
-                  key={index}
-                  style={{
-                    position: "relative",
-                    background: "#fff",
-                    padding: "2rem 1.5rem",
-                    borderRadius: "24px",
-                    textAlign: "center",
-                    border: "1px solid #ecf0f7",
-                    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
-                    cursor: "pointer",
-                    transform: "scale(1)",
-                  }}
-                  className="step-card"
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.05)";
-                    e.currentTarget.style.borderColor = "#0052CC";
-                    e.currentTarget.style.boxShadow =
-                      "0 16px 40px rgba(0, 82, 204, 0.12)";
-                    e.currentTarget.style.background = "#ffffff";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
-                    e.currentTarget.style.borderColor = "#ecf0f7";
-                    e.currentTarget.style.boxShadow =
-                      "0 4px 12px rgba(0,0,0,0.02)";
-                    e.currentTarget.style.background = "#fff";
-                  }}
-                >
+                <div className="step-card" key={index}>
                   {/* Step Number */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: "50px",
-                      height: "50px",
-                      margin: "0 auto 1rem",
-                      background: "#eef3ff",
-                      color: "#0052CC",
-                      borderRadius: "50%",
-                      fontSize: "1.5rem",
-                      fontWeight: 700,
-                      transition: "all 0.3s ease",
-                    }}
-                    className="step-number"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.background = "#0052CC";
-                      e.currentTarget.style.color = "#ffffff";
-                      e.currentTarget.style.transform = "scale(1.1)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.background = "#eef3ff";
-                      e.currentTarget.style.color = "#0052CC";
-                      e.currentTarget.style.transform = "scale(1)";
-                    }}
-                  >
-                    {item.step}
-                  </div>
+                  <div className="step-number">{item.step}</div>
 
                   {/* Icon */}
-                  <div
-                    style={{
-                      color: "#0052CC",
-                      marginBottom: "0.5rem",
-                      transition: "transform 0.3s ease",
-                    }}
-                    className="step-icon"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scale(1.15)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scale(1)";
-                    }}
-                  >
-                    {item.icon}
-                  </div>
+                  <div className="step-icon">{item.icon}</div>
 
                   {/* Title */}
-                  <h3
-                    style={{
-                      fontSize: "1.1rem",
-                      fontWeight: 700,
-                      marginBottom: "0.5rem",
-                      color: "#0b1a2e",
-                      transition: "color 0.3s ease",
-                    }}
-                    className="step-title"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#0052CC";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#0b1a2e";
-                    }}
-                  >
-                    {item.title}
-                  </h3>
+                  <h3 className="step-title">{item.title}</h3>
 
                   {/* Description */}
-                  <p
-                    style={{
-                      fontSize: "0.9rem",
-                      color: "#4a5a6e",
-                      lineHeight: "1.6",
-                      transition: "color 0.3s ease",
-                    }}
-                    className="step-desc"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#1a2634";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#4a5a6e";
-                    }}
-                  >
-                    {item.desc}
-                  </p>
+                  <p className="step-desc">{item.desc}</p>
 
-                  {/* Decorative bottom line on hover */}
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: 0,
-                      left: 0,
-                      right: 0,
-                      height: "3px",
-                      background:
-                        "linear-gradient(90deg, #0052CC 0%, #0770E3 100%)",
-                      transform: "scaleX(0)",
-                      transformOrigin: "left",
-                      transition:
-                        "transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
-                    }}
-                    className="step-bottom-line"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scaleX(1)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scaleX(0)";
-                    }}
-                  />
+                  {/* Bottom Hover Line */}
+                  <div className="step-bottom-line" />
 
-                  {/* Connector Line (except last) - Only visible on desktop */}
+                  {/* Desktop Connector */}
                   {index < 3 && (
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "30%",
-                        right: "-1rem",
-                        width: "2rem",
-                        height: "2px",
-                        background: "#0052CC",
-                        opacity: 0.3,
-                        display: "none",
-                      }}
-                      className="step-connector"
-                    />
+                    <div className="step-connector" aria-hidden="true" />
                   )}
                 </div>
               ))}
             </div>
 
-            {/* Quick Booking CTA */}
-            <div
-              style={{
-                textAlign: "center",
-                marginTop: "3rem",
-                padding: "2rem",
-                background: "#ffffff",
-                borderRadius: "20px",
-                border: "1px solid #ecf0f7",
-                transition: "all 0.3s ease",
-              }}
-              className="booking-cta"
-              onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = "#0052CC";
-                e.currentTarget.style.boxShadow =
-                  "0 8px 24px rgba(0, 82, 204, 0.06)";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = "#ecf0f7";
-                e.currentTarget.style.boxShadow = "none";
-              }}
-            >
-              <p
-                style={{
-                  fontSize: "1rem",
-                  color: "#4a5a6e",
-                  marginBottom: "1rem",
-                }}
-              >
-                Ready to book your Urbania in {city.name}?
-              </p>
-              <a
-                href={`https://wa.me/${whatsappNumber}?text=${whatsappText}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.6rem",
-                  padding: "0.8rem 2.5rem",
-                  borderRadius: "50px",
-                  background: "#25D366",
-                  color: "#fff",
-                  fontWeight: 700,
-                  textDecoration: "none",
-                  transition: "all 0.3s ease",
-                  border: "none",
-                  fontSize: "1rem",
-                  cursor: "pointer",
-                }}
-                className="booking-cta-btn"
-                onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.05)";
-                  e.currentTarget.style.boxShadow =
-                    "0 8px 24px rgba(37, 211, 102, 0.35)";
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
-                  e.currentTarget.style.boxShadow = "none";
-                }}
-              >
-                <MessageSquare size={20} /> Book Now
-              </a>
+            {/* =====================================================
+        QUICK BOOKING CTA
+    ===================================================== */}
+            <div className="booking-cta">
+              <div className="booking-cta-content">
+                <p>Ready to book your Urbania in {city.name}?</p>
+
+                <a
+                  href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                    whatsappText,
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="booking-cta-btn"
+                >
+                  <MessageSquare size={20} />
+                  <span>Book Now</span>
+                </a>
+              </div>
             </div>
           </div>
         </section>
@@ -2674,8 +2733,6 @@ export default function CityTemplate({ city, routes, fleet }) {
             </a>
           </div>
         </section>
-
-        <Footer />
       </main>
     </>
   );

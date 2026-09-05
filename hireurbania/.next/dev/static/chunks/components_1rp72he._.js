@@ -18,7 +18,6 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/sparkles.mjs [app-client] (ecmascript) <export default as Sparkles>");
 ;
 var _s = __turbopack_context__.k.signature();
-// components/CityGuide.jsx
 "use client";
 ;
 ;
@@ -38,591 +37,434 @@ function CityGuide({ cityData, route }) {
     };
     if (!cityData) return null;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "jsx-8c9cc2151cd472e3" + " " + "city-guide-wrapper",
+        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-wrapper",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    textAlign: "center",
-                    maxWidth: "780px",
-                    margin: "0 auto 2.5rem"
-                },
-                className: "jsx-8c9cc2151cd472e3",
+                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-header",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "0.5rem",
-                            background: "#eef3ff",
-                            color: "#0052CC",
-                            padding: "0.3rem 1.2rem",
-                            borderRadius: "40px",
-                            fontSize: "0.8rem",
-                            fontWeight: 600,
-                            letterSpacing: "0.2px"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-badge",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__["Landmark"], {
                                 size: 14
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 57,
+                                lineNumber: 39,
                                 columnNumber: 11
                             }, this),
-                            "City Guide"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "jsx-7d2afd3da26d3471",
+                                children: "City Guide"
+                            }, void 0, false, {
+                                fileName: "[project]/components/CityGuide.jsx",
+                                lineNumber: 40,
+                                columnNumber: 11
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/CityGuide.jsx",
+                        lineNumber: 38,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-title",
+                        children: [
+                            "Discover",
+                            " ",
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                className: "jsx-7d2afd3da26d3471",
+                                children: route?.destination
+                            }, void 0, false, {
+                                fileName: "[project]/components/CityGuide.jsx",
+                                lineNumber: 45,
+                                columnNumber: 11
+                            }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
                         lineNumber: 43,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                        style: {
-                            fontSize: "clamp(1.8rem, 3vw, 2.3rem)",
-                            fontWeight: 700,
-                            margin: "0.7rem 0 0.75rem",
-                            color: "#0b1a2e"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
-                        children: [
-                            "Discover ",
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                style: {
-                                    color: "#0052CC"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
-                                children: route?.destination
-                            }, void 0, false, {
-                                fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 68,
-                                columnNumber: 20
-                            }, this)
-                        ]
-                    }, void 0, true, {
-                        fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 60,
-                        columnNumber: 9
-                    }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        style: {
-                            fontSize: "1rem",
-                            color: "#4a5a6e",
-                            lineHeight: "1.7",
-                            margin: 0
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-description",
                         children: cityData.overview
                     }, void 0, false, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 70,
+                        lineNumber: 48,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CityGuide.jsx",
-                lineNumber: 36,
+                lineNumber: 37,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                style: {
-                    background: "#ffffff",
-                    borderRadius: "24px",
-                    padding: "2rem",
-                    border: "1px solid #ecf0f7",
-                    boxShadow: "0 8px 24px rgba(0,20,50,0.04)"
-                },
-                className: "jsx-8c9cc2151cd472e3",
+                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-card",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            marginBottom: "2rem",
-                            padding: "1.5rem",
-                            background: "#f0f4fe",
-                            borderRadius: "16px"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-overview",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                style: {
-                                    fontSize: "1.1rem",
-                                    fontWeight: 700,
-                                    color: "#0b1a2e",
-                                    marginBottom: "0.5rem",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "0.5rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-subtitle",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$sparkles$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Sparkles$3e$__["Sparkles"], {
                                         size: 18,
                                         color: "#0052CC"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 112,
+                                        lineNumber: 64,
                                         columnNumber: 13
                                     }, this),
-                                    "About ",
-                                    route?.destination
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-7d2afd3da26d3471",
+                                        children: [
+                                            "About ",
+                                            route?.destination
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/CityGuide.jsx",
+                                        lineNumber: 65,
+                                        columnNumber: 13
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 101,
+                                lineNumber: 63,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                style: {
-                                    color: "#4a5a6e",
-                                    fontSize: "0.95rem",
-                                    lineHeight: "1.7",
-                                    margin: 0
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-overview-text",
                                 children: cityData.detailedDescription
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 115,
+                                lineNumber: 68,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 93,
+                        lineNumber: 62,
                         columnNumber: 9
                     }, this),
                     cityData.topAttractions && cityData.topAttractions.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            marginBottom: "1.5rem",
-                            borderBottom: "1px solid #ecf0f7",
-                            paddingBottom: "1.5rem"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-section-block",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                type: "button",
                                 onClick: ()=>toggleSection("attractions"),
-                                style: {
-                                    display: "flex",
-                                    justifyContent: "space-between",
-                                    alignItems: "center",
-                                    width: "100%",
-                                    background: "transparent",
-                                    border: "none",
-                                    cursor: "pointer",
-                                    padding: "0.25rem 0",
-                                    fontFamily: "inherit"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                "aria-expanded": expandedSections.attractions,
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        style: {
-                                            fontSize: "1.1rem",
-                                            fontWeight: 700,
-                                            color: "#0b1a2e",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "0.5rem",
-                                            margin: 0
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion-title",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$landmark$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Landmark$3e$__["Landmark"], {
                                                 size: 18,
                                                 color: "#0052CC"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 161,
-                                                columnNumber: 17
+                                                lineNumber: 87,
+                                                columnNumber: 19
                                             }, this),
-                                            "Top Attractions"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-7d2afd3da26d3471",
+                                                children: "Top Attractions"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityGuide.jsx",
+                                                lineNumber: 88,
+                                                columnNumber: 19
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 150,
-                                        columnNumber: 15
+                                        lineNumber: 86,
+                                        columnNumber: 17
                                     }, this),
                                     expandedSections.attractions ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 165,
-                                        columnNumber: 17
+                                        lineNumber: 92,
+                                        columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 167,
-                                        columnNumber: 17
+                                        lineNumber: 94,
+                                        columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 136,
-                                columnNumber: 13
+                                lineNumber: 80,
+                                columnNumber: 15
                             }, this),
                             expandedSections.attractions && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    marginTop: "1rem",
-                                    display: "grid",
-                                    gridTemplateColumns: "1fr 1fr",
-                                    gap: "0.75rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-attractions-grid",
                                 children: cityData.topAttractions.slice(0, 8).map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "flex-start",
-                                            gap: "0.5rem",
-                                            padding: "0.5rem",
-                                            background: "#f9fafc",
-                                            borderRadius: "10px",
-                                            fontSize: "0.9rem",
-                                            color: "#1a2634",
-                                            lineHeight: "1.4"
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-attraction-item",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    color: "#0052CC",
-                                                    flexShrink: 0
-                                                },
-                                                className: "jsx-8c9cc2151cd472e3",
+                                                className: "jsx-7d2afd3da26d3471" + " " + "city-attraction-bullet",
                                                 children: "•"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 195,
-                                                columnNumber: 21
+                                                lineNumber: 107,
+                                                columnNumber: 25
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-8c9cc2151cd472e3",
+                                                className: "jsx-7d2afd3da26d3471",
                                                 children: item
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 196,
-                                                columnNumber: 21
+                                                lineNumber: 111,
+                                                columnNumber: 25
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 181,
-                                        columnNumber: 19
+                                        lineNumber: 103,
+                                        columnNumber: 23
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 172,
-                                columnNumber: 15
+                                lineNumber: 99,
+                                columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 129,
-                        columnNumber: 11
+                        lineNumber: 79,
+                        columnNumber: 13
                     }, this),
                     cityData.localFood && cityData.localFood.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            marginBottom: "1.5rem",
-                            borderBottom: "1px solid #ecf0f7",
-                            paddingBottom: "1.5rem"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-section-block",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                type: "button",
                                 onClick: ()=>toggleSection("food"),
-                                style: {
-                                    display: "flex",
-                                    justifyContent: "space-between",
-                                    alignItems: "center",
-                                    width: "100%",
-                                    background: "transparent",
-                                    border: "none",
-                                    cursor: "pointer",
-                                    padding: "0.25rem 0",
-                                    fontFamily: "inherit"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                "aria-expanded": expandedSections.food,
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        style: {
-                                            fontSize: "1.1rem",
-                                            fontWeight: 700,
-                                            color: "#0b1a2e",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "0.5rem",
-                                            margin: 0
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion-title",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
                                                 size: 18,
                                                 color: "#FF6B35"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 238,
-                                                columnNumber: 17
+                                                lineNumber: 133,
+                                                columnNumber: 19
                                             }, this),
-                                            "Local Food"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-7d2afd3da26d3471",
+                                                children: "Local Food"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityGuide.jsx",
+                                                lineNumber: 134,
+                                                columnNumber: 19
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 227,
-                                        columnNumber: 15
+                                        lineNumber: 132,
+                                        columnNumber: 17
                                     }, this),
                                     expandedSections.food ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 242,
-                                        columnNumber: 17
+                                        lineNumber: 138,
+                                        columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 244,
-                                        columnNumber: 17
+                                        lineNumber: 140,
+                                        columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 213,
-                                columnNumber: 13
+                                lineNumber: 126,
+                                columnNumber: 15
                             }, this),
                             expandedSections.food && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    marginTop: "1rem",
-                                    display: "flex",
-                                    flexWrap: "wrap",
-                                    gap: "0.6rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-food-list",
                                 children: cityData.localFood.map((food, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        style: {
-                                            background: "#fff3e8",
-                                            color: "#b33d00",
-                                            padding: "0.4rem 1rem",
-                                            borderRadius: "20px",
-                                            fontSize: "0.85rem",
-                                            fontWeight: 500
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-food-tag",
                                         children: food
                                     }, index, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 258,
-                                        columnNumber: 19
+                                        lineNumber: 147,
+                                        columnNumber: 21
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 249,
-                                columnNumber: 15
+                                lineNumber: 145,
+                                columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 206,
-                        columnNumber: 11
+                        lineNumber: 125,
+                        columnNumber: 13
                     }, this),
                     cityData.bestTimeToVisit && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        style: {
-                            marginBottom: "1.5rem",
-                            borderBottom: "1px solid #ecf0f7",
-                            paddingBottom: "1.5rem"
-                        },
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-section-block",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                style: {
-                                    fontSize: "1.1rem",
-                                    fontWeight: 700,
-                                    color: "#0b1a2e",
-                                    display: "flex",
-                                    alignItems: "center",
-                                    gap: "0.5rem",
-                                    marginBottom: "0.5rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-subtitle city-best-time-title",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
                                         size: 18,
                                         color: "#0891b2"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 297,
+                                        lineNumber: 166,
                                         columnNumber: 15
                                     }, this),
-                                    "Best Time to Visit"
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-7d2afd3da26d3471",
+                                        children: "Best Time to Visit"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/CityGuide.jsx",
+                                        lineNumber: 167,
+                                        columnNumber: 15
+                                    }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 286,
+                                lineNumber: 165,
                                 columnNumber: 13
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                style: {
-                                    color: "#4a5a6e",
-                                    fontSize: "0.95rem",
-                                    margin: 0,
-                                    paddingLeft: "2rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-best-time-text",
                                 children: cityData.bestTimeToVisit
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 300,
+                                lineNumber: 170,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 279,
+                        lineNumber: 164,
                         columnNumber: 11
                     }, this),
                     cityData.travelTips && cityData.travelTips.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-8c9cc2151cd472e3",
+                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-tips-section",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                type: "button",
                                 onClick: ()=>toggleSection("tips"),
-                                style: {
-                                    display: "flex",
-                                    justifyContent: "space-between",
-                                    alignItems: "center",
-                                    width: "100%",
-                                    background: "transparent",
-                                    border: "none",
-                                    cursor: "pointer",
-                                    padding: "0.25rem 0",
-                                    fontFamily: "inherit"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                "aria-expanded": expandedSections.tips,
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion",
                                 children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                        style: {
-                                            fontSize: "1.1rem",
-                                            fontWeight: 700,
-                                            color: "#0b1a2e",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            gap: "0.5rem",
-                                            margin: 0
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-guide-accordion-title",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lightbulb$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Lightbulb$3e$__["Lightbulb"], {
                                                 size: 18,
                                                 color: "#F59E0B"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 341,
-                                                columnNumber: 17
+                                                lineNumber: 190,
+                                                columnNumber: 19
                                             }, this),
-                                            "Travel Tips"
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "jsx-7d2afd3da26d3471",
+                                                children: "Travel Tips"
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/CityGuide.jsx",
+                                                lineNumber: 191,
+                                                columnNumber: 19
+                                            }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 330,
-                                        columnNumber: 15
+                                        lineNumber: 189,
+                                        columnNumber: 17
                                     }, this),
                                     expandedSections.tips ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 345,
-                                        columnNumber: 17
+                                        lineNumber: 195,
+                                        columnNumber: 19
                                     }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                         size: 20,
                                         color: "#7a8a9e"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 347,
-                                        columnNumber: 17
+                                        lineNumber: 197,
+                                        columnNumber: 19
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 316,
-                                columnNumber: 13
+                                lineNumber: 183,
+                                columnNumber: 15
                             }, this),
                             expandedSections.tips && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                style: {
-                                    marginTop: "1rem",
-                                    listStyle: "none",
-                                    padding: 0,
-                                    display: "flex",
-                                    flexDirection: "column",
-                                    gap: "0.5rem"
-                                },
-                                className: "jsx-8c9cc2151cd472e3",
+                                className: "jsx-7d2afd3da26d3471" + " " + "city-travel-tips",
                                 children: cityData.travelTips.map((tip, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                        style: {
-                                            display: "flex",
-                                            alignItems: "flex-start",
-                                            gap: "0.5rem",
-                                            padding: "0.5rem 0.75rem",
-                                            background: "#f0fdf4",
-                                            borderRadius: "10px",
-                                            fontSize: "0.9rem",
-                                            color: "#1a2634",
-                                            lineHeight: "1.5"
-                                        },
-                                        className: "jsx-8c9cc2151cd472e3",
+                                        className: "jsx-7d2afd3da26d3471" + " " + "city-travel-tip",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                style: {
-                                                    color: "#10b981",
-                                                    flexShrink: 0
-                                                },
-                                                className: "jsx-8c9cc2151cd472e3",
+                                                className: "jsx-7d2afd3da26d3471" + " " + "city-tip-check",
                                                 children: "✓"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 377,
-                                                columnNumber: 21
+                                                lineNumber: 208,
+                                                columnNumber: 23
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                className: "jsx-8c9cc2151cd472e3",
+                                                className: "jsx-7d2afd3da26d3471",
                                                 children: tip
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityGuide.jsx",
-                                                lineNumber: 378,
-                                                columnNumber: 21
+                                                lineNumber: 212,
+                                                columnNumber: 23
                                             }, this)
                                         ]
                                     }, index, true, {
                                         fileName: "[project]/components/CityGuide.jsx",
-                                        lineNumber: 363,
-                                        columnNumber: 19
+                                        lineNumber: 204,
+                                        columnNumber: 21
                                     }, this))
                             }, void 0, false, {
                                 fileName: "[project]/components/CityGuide.jsx",
-                                lineNumber: 352,
-                                columnNumber: 15
+                                lineNumber: 202,
+                                columnNumber: 17
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityGuide.jsx",
-                        lineNumber: 315,
-                        columnNumber: 11
+                        lineNumber: 182,
+                        columnNumber: 13
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CityGuide.jsx",
-                lineNumber: 83,
+                lineNumber: 57,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                id: "8c9cc2151cd472e3",
-                children: '@media (width<=768px){.city-guide-wrapper.jsx-8c9cc2151cd472e3{padding:0}.city-guide-wrapper.jsx-8c9cc2151cd472e3 [style*="grid-template-columns: 1fr 1fr"].jsx-8c9cc2151cd472e3{grid-template-columns:1fr!important}.city-guide-wrapper.jsx-8c9cc2151cd472e3 [style*="padding: 2rem"].jsx-8c9cc2151cd472e3{padding:1.25rem!important}}@media (width<=480px){.city-guide-wrapper.jsx-8c9cc2151cd472e3 h2.jsx-8c9cc2151cd472e3{font-size:1.5rem!important}}'
+                id: "7d2afd3da26d3471",
+                children: ".city-guide-wrapper.jsx-7d2afd3da26d3471{box-sizing:border-box;width:100%;max-width:100%}.city-guide-header.jsx-7d2afd3da26d3471{text-align:center;width:100%;max-width:780px;margin:0 auto 2.5rem}.city-guide-badge.jsx-7d2afd3da26d3471{color:#0052cc;letter-spacing:.2px;background:#eef3ff;border-radius:40px;justify-content:center;align-items:center;gap:.5rem;padding:.3rem 1.2rem;font-size:.8rem;font-weight:600;line-height:1.4;display:inline-flex}.city-guide-title.jsx-7d2afd3da26d3471{color:#0b1a2e;overflow-wrap:anywhere;margin:.7rem 0 .75rem;font-size:max(1.8rem,min(3vw,2.3rem));font-weight:700;line-height:1.25}.city-guide-title.jsx-7d2afd3da26d3471 span.jsx-7d2afd3da26d3471{color:#0052cc}.city-guide-description.jsx-7d2afd3da26d3471{color:#4a5a6e;overflow-wrap:anywhere;margin:0;font-size:1rem;line-height:1.7}.city-guide-card.jsx-7d2afd3da26d3471{box-sizing:border-box;background:#fff;border:1px solid #ecf0f7;border-radius:24px;width:100%;max-width:100%;padding:2rem;box-shadow:0 8px 24px #0014320a}.city-guide-overview.jsx-7d2afd3da26d3471{box-sizing:border-box;background:#f0f4fe;border-radius:16px;width:100%;margin-bottom:2rem;padding:1.5rem}.city-guide-subtitle.jsx-7d2afd3da26d3471{color:#0b1a2e;align-items:center;gap:.5rem;margin:0 0 .5rem;font-size:1.1rem;font-weight:700;line-height:1.4;display:flex}.city-guide-subtitle.jsx-7d2afd3da26d3471 span.jsx-7d2afd3da26d3471{overflow-wrap:anywhere;min-width:0}.city-guide-overview-text.jsx-7d2afd3da26d3471{color:#4a5a6e;overflow-wrap:anywhere;margin:0;font-size:.95rem;line-height:1.7}.city-guide-section-block.jsx-7d2afd3da26d3471{box-sizing:border-box;border-bottom:1px solid #ecf0f7;width:100%;margin-bottom:1.5rem;padding-bottom:1.5rem}.city-guide-tips-section.jsx-7d2afd3da26d3471{width:100%}.city-guide-accordion.jsx-7d2afd3da26d3471{color:#0b1a2e;cursor:pointer;text-align:left;background:0 0;border:none;justify-content:space-between;align-items:center;gap:1rem;width:100%;margin:0;padding:.3rem 0;font-family:inherit;display:flex}.city-guide-accordion-title.jsx-7d2afd3da26d3471{color:#0b1a2e;align-items:center;gap:.5rem;min-width:0;font-size:1.1rem;font-weight:700;line-height:1.4;display:flex}.city-guide-accordion-title.jsx-7d2afd3da26d3471 span.jsx-7d2afd3da26d3471{overflow-wrap:anywhere;min-width:0}.city-attractions-grid.jsx-7d2afd3da26d3471{grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin-top:1rem;display:grid}.city-attraction-item.jsx-7d2afd3da26d3471{color:#1a2634;box-sizing:border-box;overflow-wrap:anywhere;background:#f9fafc;border-radius:10px;align-items:flex-start;gap:.5rem;min-width:0;padding:.65rem .75rem;font-size:.9rem;line-height:1.45;display:flex}.city-attraction-bullet.jsx-7d2afd3da26d3471{color:#0052cc;flex:none;font-weight:700}.city-food-list.jsx-7d2afd3da26d3471{flex-wrap:wrap;align-items:center;gap:.6rem;margin-top:1rem;display:flex}.city-food-tag.jsx-7d2afd3da26d3471{color:#b33d00;overflow-wrap:anywhere;box-sizing:border-box;background:#fff3e8;border-radius:20px;max-width:100%;padding:.4rem 1rem;font-size:.85rem;font-weight:500;line-height:1.4}.city-best-time-title.jsx-7d2afd3da26d3471{margin-bottom:.5rem}.city-best-time-text.jsx-7d2afd3da26d3471{color:#4a5a6e;overflow-wrap:anywhere;margin:0;padding-left:2rem;font-size:.95rem;line-height:1.7}.city-travel-tips.jsx-7d2afd3da26d3471{flex-direction:column;gap:.5rem;margin:1rem 0 0;padding:0;list-style:none;display:flex}.city-travel-tip.jsx-7d2afd3da26d3471{color:#1a2634;box-sizing:border-box;overflow-wrap:anywhere;background:#f0fdf4;border-radius:10px;align-items:flex-start;gap:.5rem;padding:.65rem .75rem;font-size:.9rem;line-height:1.5;display:flex}.city-tip-check.jsx-7d2afd3da26d3471{color:#10b981;flex:none;font-weight:700}@media (width<=1199px){.city-guide-card.jsx-7d2afd3da26d3471{padding:1.75rem}.city-attractions-grid.jsx-7d2afd3da26d3471{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (width<=768px){.city-guide-header.jsx-7d2afd3da26d3471{margin-bottom:2rem}.city-guide-title.jsx-7d2afd3da26d3471{font-size:max(1.6rem,min(5vw,2rem));line-height:1.3}.city-guide-description.jsx-7d2afd3da26d3471{font-size:.92rem;line-height:1.65}.city-guide-card.jsx-7d2afd3da26d3471{border-radius:18px;padding:1.25rem}.city-guide-overview.jsx-7d2afd3da26d3471{border-radius:14px;margin-bottom:1.5rem;padding:1.25rem}.city-guide-subtitle.jsx-7d2afd3da26d3471,.city-guide-accordion-title.jsx-7d2afd3da26d3471{font-size:1rem}.city-guide-overview-text.jsx-7d2afd3da26d3471{font-size:.9rem}.city-attractions-grid.jsx-7d2afd3da26d3471{grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem}.city-attraction-item.jsx-7d2afd3da26d3471{padding:.6rem .7rem;font-size:.85rem}.city-food-list.jsx-7d2afd3da26d3471{gap:.5rem}.city-food-tag.jsx-7d2afd3da26d3471{padding:.4rem .85rem;font-size:.8rem}.city-best-time-text.jsx-7d2afd3da26d3471{padding-left:1.75rem;font-size:.9rem}.city-travel-tip.jsx-7d2afd3da26d3471{font-size:.85rem}}@media (width<=480px){.city-guide-header.jsx-7d2afd3da26d3471{margin-bottom:1.5rem}.city-guide-badge.jsx-7d2afd3da26d3471{padding:.3rem .9rem;font-size:.75rem}.city-guide-title.jsx-7d2afd3da26d3471{margin-top:.65rem;font-size:1.5rem;line-height:1.3}.city-guide-description.jsx-7d2afd3da26d3471{font-size:.85rem;line-height:1.6}.city-guide-card.jsx-7d2afd3da26d3471{border-radius:16px;padding:1rem}.city-guide-overview.jsx-7d2afd3da26d3471{border-radius:12px;margin-bottom:1.25rem;padding:1rem}.city-guide-subtitle.jsx-7d2afd3da26d3471,.city-guide-accordion-title.jsx-7d2afd3da26d3471{font-size:.92rem}.city-guide-overview-text.jsx-7d2afd3da26d3471{font-size:.82rem;line-height:1.65}.city-guide-section-block.jsx-7d2afd3da26d3471{margin-bottom:1.25rem;padding-bottom:1.25rem}.city-guide-accordion.jsx-7d2afd3da26d3471{min-height:40px}.city-attractions-grid.jsx-7d2afd3da26d3471{grid-template-columns:1fr;gap:.6rem;margin-top:.85rem}.city-attraction-item.jsx-7d2afd3da26d3471{padding:.65rem .7rem;font-size:.8rem}.city-food-list.jsx-7d2afd3da26d3471{gap:.45rem;margin-top:.85rem}.city-food-tag.jsx-7d2afd3da26d3471{max-width:100%;padding:.4rem .75rem;font-size:.76rem}.city-best-time-text.jsx-7d2afd3da26d3471{margin-top:.65rem;padding-left:0;font-size:.82rem;line-height:1.65}.city-travel-tips.jsx-7d2afd3da26d3471{gap:.45rem;margin-top:.85rem}.city-travel-tip.jsx-7d2afd3da26d3471{padding:.65rem .7rem;font-size:.8rem;line-height:1.5}}@media (width<=359px){.city-guide-badge.jsx-7d2afd3da26d3471{padding:.28rem .75rem;font-size:.7rem}.city-guide-title.jsx-7d2afd3da26d3471{font-size:1.35rem}.city-guide-description.jsx-7d2afd3da26d3471{font-size:.78rem}.city-guide-card.jsx-7d2afd3da26d3471{border-radius:14px;padding:.8rem}.city-guide-overview.jsx-7d2afd3da26d3471{padding:.85rem}.city-guide-subtitle.jsx-7d2afd3da26d3471,.city-guide-accordion-title.jsx-7d2afd3da26d3471{font-size:.88rem}.city-guide-overview-text.jsx-7d2afd3da26d3471{font-size:.77rem}.city-attraction-item.jsx-7d2afd3da26d3471{padding:.6rem;font-size:.76rem}.city-food-tag.jsx-7d2afd3da26d3471{padding:.35rem .65rem;font-size:.72rem}.city-best-time-text.jsx-7d2afd3da26d3471{font-size:.76rem}.city-travel-tip.jsx-7d2afd3da26d3471{padding:.6rem;font-size:.74rem}}@media (hover:none){.city-guide-accordion.jsx-7d2afd3da26d3471{-webkit-tap-highlight-color:transparent}}@media (prefers-reduced-motion:reduce){.city-guide-wrapper.jsx-7d2afd3da26d3471 .jsx-7d2afd3da26d3471{scroll-behavior:auto;transition:none!important}}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CityGuide.jsx",
-        lineNumber: 34,
+        lineNumber: 32,
         columnNumber: 5
     }, this);
 }
@@ -2914,544 +2756,73 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                         columnNumber: 9
                     }, this),
                     cityGuide && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "section-padding",
-                        style: {
-                            padding: "4rem 0",
-                            background: "#ffffff"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container",
-                            style: {
-                                maxWidth: "1280px",
-                                margin: "0 auto",
-                                padding: "0 1.5rem"
-                            },
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CityGuide$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                cityData: cityGuide,
-                                route: route
+                        className: "jsx-88295fed7c73eda7" + " " + "city-guide-section",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-88295fed7c73eda7" + " " + "city-guide-container",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$CityGuide$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                    cityData: cityGuide,
+                                    route: route
+                                }, void 0, false, {
+                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                    lineNumber: 1356,
+                                    columnNumber: 15
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 1366,
-                                columnNumber: 15
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1358,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
+                                lineNumber: 1355,
+                                columnNumber: 13
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                id: "88295fed7c73eda7",
+                                children: ".city-guide-section.jsx-88295fed7c73eda7{background:#fff;width:100%;padding:4rem 0;overflow:hidden}.city-guide-container.jsx-88295fed7c73eda7{box-sizing:border-box;width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}@media (width<=1024px){.city-guide-section.jsx-88295fed7c73eda7{padding:3.5rem 0}.city-guide-container.jsx-88295fed7c73eda7{padding:0 1.25rem}}@media (width<=768px){.city-guide-section.jsx-88295fed7c73eda7{padding:3rem 0}.city-guide-container.jsx-88295fed7c73eda7{padding:0 1rem}}@media (width<=480px){.city-guide-section.jsx-88295fed7c73eda7{padding:2.5rem 0}.city-guide-container.jsx-88295fed7c73eda7{padding:0 .75rem}}@media (width<=359px){.city-guide-section.jsx-88295fed7c73eda7{padding:2rem 0}.city-guide-container.jsx-88295fed7c73eda7{padding:0 .6rem}}"
+                            }, void 0, false, void 0, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
                         lineNumber: 1354,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "section-padding",
-                        style: {
-                            padding: "4rem 0",
-                            background: "#f9fafc"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "container",
-                            style: {
-                                maxWidth: "1280px",
-                                margin: "0 auto",
-                                padding: "0 1.5rem"
-                            },
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: "center",
-                                        maxWidth: "780px",
-                                        margin: "0 auto 3rem"
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "0.5rem",
-                                                background: "#eef3ff",
-                                                color: "#0052CC",
-                                                padding: "0.25rem 1.2rem",
-                                                borderRadius: "40px",
-                                                fontSize: "0.8rem",
-                                                fontWeight: 600
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                    size: 14
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1404,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " How Booking Works"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1391,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            style: {
-                                                fontSize: "2.3rem",
-                                                fontWeight: 700,
-                                                margin: "0.5rem 0 0.75rem",
-                                                color: "#0b1a2e"
-                                            },
-                                            children: [
-                                                "Book Your",
-                                                " ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        color: "#0052CC"
-                                                    },
-                                                    children: [
-                                                        route.origin,
-                                                        " to ",
-                                                        route.destination
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1415,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " ",
-                                                "Urbania in 4 Simple Steps"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1406,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontSize: "1.05rem",
-                                                color: "#4a5a6e",
-                                                lineHeight: "1.6"
-                                            },
-                                            children: [
-                                                "Quick and hassle-free booking process for your ",
-                                                route.origin,
-                                                " to",
-                                                " ",
-                                                route.destination,
-                                                " Urbania Tempo Traveller journey."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1420,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1384,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: "grid",
-                                        gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                                        gap: "2rem",
-                                        position: "relative"
-                                    },
-                                    children: [
-                                        {
-                                            step: "1",
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
-                                                size: 28
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1443,
-                                                columnNumber: 25
-                                            }, this),
-                                            title: "Contact Us",
-                                            desc: `Reach out via WhatsApp or phone with your ${route.origin} to ${route.destination} travel details.`
-                                        },
-                                        {
-                                            step: "2",
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
-                                                size: 28
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1449,
-                                                columnNumber: 25
-                                            }, this),
-                                            title: "Get Quote",
-                                            desc: `Receive a transparent quote based on your ${route.origin} to ${route.destination} itinerary and group size.`
-                                        },
-                                        {
-                                            step: "3",
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
-                                                size: 28
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1455,
-                                                columnNumber: 25
-                                            }, this),
-                                            title: "Confirm Booking",
-                                            desc: `Pay a token advance to confirm your Urbania booking for the ${route.origin} to ${route.destination} route.`
-                                        },
-                                        {
-                                            step: "4",
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
-                                                size: 28
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1461,
-                                                columnNumber: 25
-                                            }, this),
-                                            title: "Enjoy Travel",
-                                            desc: `Our chauffeur arrives on time for your comfortable ${route.origin} to ${route.destination} journey.`
-                                        }
-                                    ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                position: "relative",
-                                                background: "#fff",
-                                                padding: "2rem 1.5rem",
-                                                borderRadius: "24px",
-                                                textAlign: "center",
-                                                border: "1px solid #ecf0f7",
-                                                transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                                                boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
-                                                cursor: "pointer",
-                                                transform: "scale(1)"
-                                            },
-                                            className: "step-card",
-                                            onMouseEnter: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1.05)";
-                                                e.currentTarget.style.borderColor = "#0052CC";
-                                                e.currentTarget.style.boxShadow = "0 16px 40px rgba(0, 82, 204, 0.12)";
-                                                e.currentTarget.style.background = "#ffffff";
-                                            },
-                                            onMouseLeave: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1)";
-                                                e.currentTarget.style.borderColor = "#ecf0f7";
-                                                e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.02)";
-                                                e.currentTarget.style.background = "#fff";
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        justifyContent: "center",
-                                                        width: "50px",
-                                                        height: "50px",
-                                                        margin: "0 auto 1rem",
-                                                        background: "#eef3ff",
-                                                        color: "#0052CC",
-                                                        borderRadius: "50%",
-                                                        fontSize: "1.5rem",
-                                                        fontWeight: 700,
-                                                        transition: "all 0.3s ease"
-                                                    },
-                                                    className: "step-number",
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.background = "#0052CC";
-                                                        e.currentTarget.style.color = "#ffffff";
-                                                        e.currentTarget.style.transform = "scale(1.1)";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.background = "#eef3ff";
-                                                        e.currentTarget.style.color = "#0052CC";
-                                                        e.currentTarget.style.transform = "scale(1)";
-                                                    },
-                                                    children: item.step
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1497,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        color: "#0052CC",
-                                                        marginBottom: "0.5rem",
-                                                        transition: "transform 0.3s ease"
-                                                    },
-                                                    className: "step-icon",
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.transform = "scale(1.15)";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.transform = "scale(1)";
-                                                    },
-                                                    children: item.icon
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1528,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    style: {
-                                                        fontSize: "1.1rem",
-                                                        fontWeight: 700,
-                                                        marginBottom: "0.5rem",
-                                                        color: "#0b1a2e",
-                                                        transition: "color 0.3s ease"
-                                                    },
-                                                    className: "step-title",
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.color = "#0052CC";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.color = "#0b1a2e";
-                                                    },
-                                                    children: item.title
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1546,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    style: {
-                                                        fontSize: "0.9rem",
-                                                        color: "#4a5a6e",
-                                                        lineHeight: "1.6",
-                                                        transition: "color 0.3s ease"
-                                                    },
-                                                    className: "step-desc",
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.color = "#1a2634";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.color = "#4a5a6e";
-                                                    },
-                                                    children: item.desc
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1566,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        position: "absolute",
-                                                        bottom: 0,
-                                                        left: 0,
-                                                        right: 0,
-                                                        height: "3px",
-                                                        background: "linear-gradient(90deg, #0052CC 0%, #0770E3 100%)",
-                                                        transform: "scaleX(0)",
-                                                        transformOrigin: "left",
-                                                        transition: "transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)"
-                                                    },
-                                                    className: "step-bottom-line",
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.transform = "scaleX(1)";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.transform = "scaleX(0)";
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1585,
-                                                    columnNumber: 19
-                                                }, this),
-                                                index < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        position: "absolute",
-                                                        top: "30%",
-                                                        right: "-1rem",
-                                                        width: "2rem",
-                                                        height: "2px",
-                                                        background: "#0052CC",
-                                                        opacity: 0.3,
-                                                        display: "none"
-                                                    },
-                                                    className: "step-connector"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1610,
-                                                    columnNumber: 21
-                                                }, this)
-                                            ]
-                                        }, index, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1466,
-                                            columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1432,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: "center",
-                                        marginTop: "3rem",
-                                        padding: "2rem",
-                                        background: "#ffffff",
-                                        borderRadius: "20px",
-                                        border: "1px solid #ecf0f7",
-                                        transition: "all 0.3s ease"
-                                    },
-                                    className: "booking-cta",
-                                    onMouseEnter: (e)=>{
-                                        e.currentTarget.style.borderColor = "#0052CC";
-                                        e.currentTarget.style.boxShadow = "0 8px 24px rgba(0, 82, 204, 0.06)";
-                                    },
-                                    onMouseLeave: (e)=>{
-                                        e.currentTarget.style.borderColor = "#ecf0f7";
-                                        e.currentTarget.style.boxShadow = "none";
-                                    },
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontSize: "1rem",
-                                                color: "#4a5a6e",
-                                                marginBottom: "1rem"
-                                            },
-                                            children: [
-                                                "Ready to book your Urbania for the",
-                                                " ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                    children: [
-                                                        route.origin,
-                                                        " to ",
-                                                        route.destination
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1658,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " ",
-                                                "route?"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1650,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Book Force Urbania from ${route.origin} to ${route.destination} - Trip Date: [Your Date] - Group Size: [Number]`)}`,
-                                            target: "_blank",
-                                            rel: "noopener noreferrer",
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "0.6rem",
-                                                padding: "0.8rem 2.5rem",
-                                                borderRadius: "50px",
-                                                background: "#25D366",
-                                                color: "#fff",
-                                                fontWeight: 700,
-                                                textDecoration: "none",
-                                                transition: "all 0.3s ease",
-                                                border: "none",
-                                                fontSize: "1rem",
-                                                cursor: "pointer"
-                                            },
-                                            className: "booking-cta-btn",
-                                            onMouseEnter: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1.05)";
-                                                e.currentTarget.style.boxShadow = "0 8px 24px rgba(37, 211, 102, 0.35)";
-                                            },
-                                            onMouseLeave: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1)";
-                                                e.currentTarget.style.boxShadow = "none";
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
-                                                    size: 20
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 1695,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " Book Now"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 1663,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 1629,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 1376,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1372,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        style: {
-                            padding: "4rem 0",
-                            background: "#ffffff"
-                        },
-                        className: "jsx-751477fed6e52f0d" + " " + "section-padding",
+                        className: "jsx-5bbb38c02dafb863" + " " + "how-booking-section",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                style: {
-                                    maxWidth: "1280px",
-                                    margin: "0 auto",
-                                    padding: "0 1.5rem"
-                                },
-                                className: "jsx-751477fed6e52f0d" + " " + "container",
+                                className: "jsx-5bbb38c02dafb863" + " " + "how-booking-container",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            textAlign: "center",
-                                            maxWidth: "780px",
-                                            margin: "0 auto 2.5rem"
-                                        },
-                                        className: "jsx-751477fed6e52f0d",
+                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-section-header",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: "inline-flex",
-                                                    alignItems: "center",
-                                                    gap: "0.5rem",
-                                                    background: "#eef3ff",
-                                                    color: "#0052CC",
-                                                    padding: "0.3rem 1.2rem",
-                                                    borderRadius: "40px",
-                                                    fontSize: "0.8rem",
-                                                    fontWeight: 600,
-                                                    letterSpacing: "0.2px"
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-section-badge",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$route$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Route$3e$__["Route"], {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
                                                         size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1736,
+                                                        lineNumber: 1424,
                                                         columnNumber: 17
                                                     }, this),
-                                                    "Route Guide"
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-5bbb38c02dafb863",
+                                                        children: "How Booking Works"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1425,
+                                                        columnNumber: 17
+                                                    }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1722,
+                                                lineNumber: 1423,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                                style: {
-                                                    fontSize: "clamp(1.8rem, 3vw, 2.3rem)",
-                                                    fontWeight: 700,
-                                                    margin: "0.7rem 0 0.75rem",
-                                                    color: "#0b1a2e"
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-section-title",
                                                 children: [
-                                                    "Complete Travel Guide for",
+                                                    "Book Your",
                                                     " ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        style: {
-                                                            color: "#0052CC"
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-5bbb38c02dafb863",
                                                         children: [
                                                             route.origin,
                                                             " to ",
@@ -3459,23 +2830,310 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1748,
+                                                        lineNumber: 1430,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    " ",
+                                                    "Urbania in 4 Simple Steps"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 1428,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-section-description",
+                                                children: [
+                                                    "Quick and hassle-free booking process for your ",
+                                                    route.origin,
+                                                    " to",
+                                                    " ",
+                                                    route.destination,
+                                                    " Urbania Tempo Traveller journey."
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 1436,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 1422,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-steps-grid",
+                                        children: [
+                                            {
+                                                step: "1",
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 1447,
+                                                    columnNumber: 25
+                                                }, this),
+                                                title: "Contact Us",
+                                                desc: `Reach out via WhatsApp or phone with your ${route.origin} to ${route.destination} travel details.`
+                                            },
+                                            {
+                                                step: "2",
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$calendar$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Calendar$3e$__["Calendar"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 1453,
+                                                    columnNumber: 25
+                                                }, this),
+                                                title: "Get Quote",
+                                                desc: `Receive a transparent quote based on your ${route.origin} to ${route.destination} itinerary and group size.`
+                                            },
+                                            {
+                                                step: "3",
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 1459,
+                                                    columnNumber: 25
+                                                }, this),
+                                                title: "Confirm Booking",
+                                                desc: `Pay a token advance to confirm your Urbania booking for the ${route.origin} to ${route.destination} route.`
+                                            },
+                                            {
+                                                step: "4",
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                    size: 28
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 1465,
+                                                    columnNumber: 25
+                                                }, this),
+                                                title: "Enjoy Travel",
+                                                desc: `Our chauffeur arrives on time for your comfortable ${route.origin} to ${route.destination} journey.`
+                                            }
+                                        ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                onMouseEnter: (e)=>{
+                                                    e.currentTarget.style.transform = "translateY(-5px)";
+                                                    e.currentTarget.style.borderColor = "#0052CC";
+                                                    e.currentTarget.style.boxShadow = "0 16px 40px rgba(0, 82, 204, 0.12)";
+                                                },
+                                                onMouseLeave: (e)=>{
+                                                    e.currentTarget.style.transform = "translateY(0)";
+                                                    e.currentTarget.style.borderColor = "#ecf0f7";
+                                                    e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.02)";
+                                                },
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-step-card",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-number",
+                                                        children: item.step
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1487,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-icon",
+                                                        children: item.icon
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1490,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-title",
+                                                        children: item.title
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1493,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-description",
+                                                        children: item.desc
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1496,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-accent"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1499,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    index < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-step-connector"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1502,
+                                                        columnNumber: 33
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 1470,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 1443,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        onMouseEnter: (e)=>{
+                                            e.currentTarget.style.borderColor = "#0052CC";
+                                            e.currentTarget.style.boxShadow = "0 8px 24px rgba(0, 82, 204, 0.06)";
+                                        },
+                                        onMouseLeave: (e)=>{
+                                            e.currentTarget.style.borderColor = "#ecf0f7";
+                                            e.currentTarget.style.boxShadow = "none";
+                                        },
+                                        className: "jsx-5bbb38c02dafb863" + " " + "booking-quick-cta",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-cta-text",
+                                                children: [
+                                                    "Ready to book your Urbania for the",
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                        className: "jsx-5bbb38c02dafb863",
+                                                        children: [
+                                                            route.origin,
+                                                            " to ",
+                                                            route.destination
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1522,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    " ",
+                                                    "route?"
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 1520,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Book Force Urbania from ${route.origin} to ${route.destination} - Trip Date: [Your Date] - Group Size: [Number]`)}`,
+                                                target: "_blank",
+                                                rel: "noopener noreferrer",
+                                                onMouseEnter: (e)=>{
+                                                    e.currentTarget.style.transform = "translateY(-2px)";
+                                                    e.currentTarget.style.boxShadow = "0 8px 24px rgba(37, 211, 102, 0.35)";
+                                                },
+                                                onMouseLeave: (e)=>{
+                                                    e.currentTarget.style.transform = "translateY(0)";
+                                                    e.currentTarget.style.boxShadow = "none";
+                                                },
+                                                className: "jsx-5bbb38c02dafb863" + " " + "booking-cta-btn",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                        size: 20
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1545,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-5bbb38c02dafb863",
+                                                        children: "Book Now"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 1546,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1739,
+                                                lineNumber: 1528,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 1508,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/RouteTemplate.jsx",
+                                lineNumber: 1420,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                id: "5bbb38c02dafb863",
+                                children: '.how-booking-section.jsx-5bbb38c02dafb863{box-sizing:border-box;background:#f9fafc;width:100%;padding:4rem 0;overflow:hidden}.how-booking-container.jsx-5bbb38c02dafb863{box-sizing:border-box;width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}.booking-section-header.jsx-5bbb38c02dafb863{text-align:center;width:100%;max-width:780px;margin:0 auto 3rem}.booking-section-badge.jsx-5bbb38c02dafb863{color:#0052cc;box-sizing:border-box;background:#eef3ff;border-radius:40px;justify-content:center;align-items:center;gap:.5rem;padding:.25rem 1.2rem;font-size:.8rem;font-weight:600;display:inline-flex}.booking-section-title.jsx-5bbb38c02dafb863{color:#0b1a2e;overflow-wrap:anywhere;margin:.5rem 0 .75rem;font-size:2.3rem;font-weight:700;line-height:1.25}.booking-section-title.jsx-5bbb38c02dafb863 span.jsx-5bbb38c02dafb863{color:#0052cc}.booking-section-description.jsx-5bbb38c02dafb863{color:#4a5a6e;overflow-wrap:anywhere;margin:0;font-size:1.05rem;line-height:1.6}.booking-steps-grid.jsx-5bbb38c02dafb863{box-sizing:border-box;grid-template-columns:repeat(4,minmax(0,1fr));gap:2rem;width:100%;display:grid;position:relative}.booking-step-card.jsx-5bbb38c02dafb863{text-align:center;cursor:pointer;box-sizing:border-box;background:#fff;border:1px solid #ecf0f7;border-radius:24px;width:100%;min-width:0;padding:2rem 1.5rem;transition:transform .3s cubic-bezier(.4,0,.2,1),border-color .3s,box-shadow .3s;position:relative;overflow:hidden;box-shadow:0 4px 12px #00000005}.booking-step-number.jsx-5bbb38c02dafb863{color:#0052cc;box-sizing:border-box;background:#eef3ff;border-radius:50%;justify-content:center;align-items:center;width:50px;height:50px;margin:0 auto 1rem;font-size:1.5rem;font-weight:700;transition:background .3s,color .3s,transform .3s;display:flex}.booking-step-card.jsx-5bbb38c02dafb863:hover .booking-step-number.jsx-5bbb38c02dafb863{color:#fff;background:#0052cc;transform:scale(1.08)}.booking-step-icon.jsx-5bbb38c02dafb863{color:#0052cc;justify-content:center;align-items:center;margin-bottom:.5rem;transition:transform .3s;display:flex}.booking-step-card.jsx-5bbb38c02dafb863:hover .booking-step-icon.jsx-5bbb38c02dafb863{transform:scale(1.1)}.booking-step-title.jsx-5bbb38c02dafb863{color:#0b1a2e;margin:0 0 .5rem;font-size:1.1rem;font-weight:700;line-height:1.4;transition:color .3s}.booking-step-card.jsx-5bbb38c02dafb863:hover .booking-step-title.jsx-5bbb38c02dafb863{color:#0052cc}.booking-step-description.jsx-5bbb38c02dafb863{color:#4a5a6e;overflow-wrap:anywhere;margin:0;font-size:.9rem;line-height:1.6;transition:color .3s}.booking-step-card.jsx-5bbb38c02dafb863:hover .booking-step-description.jsx-5bbb38c02dafb863{color:#1a2634}.booking-step-accent.jsx-5bbb38c02dafb863{transform-origin:0;background:linear-gradient(90deg,#0052cc 0%,#0770e3 100%);height:3px;transition:transform .35s cubic-bezier(.4,0,.2,1);position:absolute;bottom:0;left:0;right:0;transform:scaleX(0)}.booking-step-card.jsx-5bbb38c02dafb863:hover .booking-step-accent.jsx-5bbb38c02dafb863{transform:scaleX(1)}.booking-step-connector.jsx-5bbb38c02dafb863{opacity:.3;pointer-events:none;background:#0052cc;width:2rem;height:2px;position:absolute;top:50%;right:-2rem;transform:translateY(-50%)}.booking-quick-cta.jsx-5bbb38c02dafb863{text-align:center;box-sizing:border-box;background:#fff;border:1px solid #ecf0f7;border-radius:20px;width:100%;margin-top:3rem;padding:2rem;transition:border-color .3s,box-shadow .3s}.booking-cta-text.jsx-5bbb38c02dafb863{color:#4a5a6e;overflow-wrap:anywhere;margin:0 0 1rem;font-size:1rem;line-height:1.5}.booking-cta-text.jsx-5bbb38c02dafb863 strong.jsx-5bbb38c02dafb863{color:#0b1a2e;font-weight:700}.booking-cta-btn.jsx-5bbb38c02dafb863{color:#fff;cursor:pointer;box-sizing:border-box;background:#25d366;border-radius:50px;justify-content:center;align-items:center;gap:.6rem;min-height:46px;padding:.8rem 2.5rem;font-size:1rem;font-weight:700;text-decoration:none;transition:transform .3s,box-shadow .3s;display:inline-flex}.booking-cta-btn.jsx-5bbb38c02dafb863 svg{flex-shrink:0}@media (width<=1200px){.how-booking-container.jsx-5bbb38c02dafb863{padding:0 1.25rem}.booking-steps-grid.jsx-5bbb38c02dafb863{gap:1.5rem}.booking-step-card.jsx-5bbb38c02dafb863{padding:1.75rem 1.25rem}.booking-step-connector.jsx-5bbb38c02dafb863{width:1.5rem;right:-1.5rem}}@media (width<=1024px){.how-booking-section.jsx-5bbb38c02dafb863{padding:3.5rem 0}.booking-section-header.jsx-5bbb38c02dafb863{margin-bottom:2.5rem}.booking-section-title.jsx-5bbb38c02dafb863{font-size:2rem}.booking-steps-grid.jsx-5bbb38c02dafb863{grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem}.booking-step-card.jsx-5bbb38c02dafb863{padding:1.75rem 1.25rem}.booking-step-connector.jsx-5bbb38c02dafb863{display:none}.booking-quick-cta.jsx-5bbb38c02dafb863{margin-top:2.5rem}}@media (width<=768px){.how-booking-section.jsx-5bbb38c02dafb863{padding:3rem 0}.how-booking-container.jsx-5bbb38c02dafb863{padding:0 1rem}.booking-section-header.jsx-5bbb38c02dafb863{margin-bottom:2rem}.booking-section-badge.jsx-5bbb38c02dafb863{padding:.25rem 1rem;font-size:.75rem}.booking-section-title.jsx-5bbb38c02dafb863{font-size:1.8rem;line-height:1.3}.booking-section-description.jsx-5bbb38c02dafb863{font-size:.95rem}.booking-steps-grid.jsx-5bbb38c02dafb863{grid-template-columns:1fr;gap:1rem}.booking-step-card.jsx-5bbb38c02dafb863{text-align:left;border-radius:18px;grid-template-columns:52px 1fr;grid-template-areas:"number icon""number title""number desc";column-gap:1rem;padding:1.25rem;display:grid}.booking-step-number.jsx-5bbb38c02dafb863{grid-area:number;align-self:center;width:48px;height:48px;margin:0;font-size:1.3rem}.booking-step-icon.jsx-5bbb38c02dafb863{grid-area:icon;justify-content:flex-start;margin-bottom:.15rem}.booking-step-title.jsx-5bbb38c02dafb863{grid-area:title;margin-bottom:.2rem;font-size:1rem}.booking-step-description.jsx-5bbb38c02dafb863{grid-area:desc;font-size:.84rem;line-height:1.5}.booking-step-accent.jsx-5bbb38c02dafb863{height:2px}.booking-quick-cta.jsx-5bbb38c02dafb863{border-radius:17px;margin-top:2rem;padding:1.5rem}.booking-cta-text.jsx-5bbb38c02dafb863{font-size:.92rem}}@media (width<=600px){.booking-step-card.jsx-5bbb38c02dafb863{grid-template-columns:46px 1fr;column-gap:.85rem;padding:1.1rem}.booking-step-number.jsx-5bbb38c02dafb863{width:44px;height:44px;font-size:1.2rem}.booking-step-icon.jsx-5bbb38c02dafb863 svg{width:22px;height:22px}.booking-step-title.jsx-5bbb38c02dafb863{font-size:.95rem}.booking-step-description.jsx-5bbb38c02dafb863{font-size:.8rem}}@media (width<=480px){.how-booking-section.jsx-5bbb38c02dafb863{padding:2.5rem 0}.how-booking-container.jsx-5bbb38c02dafb863{padding:0 .75rem}.booking-section-header.jsx-5bbb38c02dafb863{margin-bottom:1.5rem}.booking-section-badge.jsx-5bbb38c02dafb863{gap:.4rem;padding:.25rem .85rem;font-size:.7rem}.booking-section-badge.jsx-5bbb38c02dafb863 svg{width:13px;height:13px}.booking-section-title.jsx-5bbb38c02dafb863{font-size:1.5rem;line-height:1.3}.booking-section-description.jsx-5bbb38c02dafb863{font-size:.84rem;line-height:1.55}.booking-steps-grid.jsx-5bbb38c02dafb863{gap:.8rem}.booking-step-card.jsx-5bbb38c02dafb863{border-radius:15px;grid-template-columns:40px 1fr;column-gap:.75rem;padding:1rem}.booking-step-number.jsx-5bbb38c02dafb863{width:38px;height:38px;font-size:1rem}.booking-step-icon.jsx-5bbb38c02dafb863{margin-bottom:.1rem}.booking-step-icon.jsx-5bbb38c02dafb863 svg{width:20px;height:20px}.booking-step-title.jsx-5bbb38c02dafb863{margin-bottom:.15rem;font-size:.9rem}.booking-step-description.jsx-5bbb38c02dafb863{font-size:.76rem;line-height:1.45}.booking-quick-cta.jsx-5bbb38c02dafb863{border-radius:14px;margin-top:1.5rem;padding:1.1rem .9rem}.booking-cta-text.jsx-5bbb38c02dafb863{font-size:.8rem;line-height:1.5}.booking-cta-btn.jsx-5bbb38c02dafb863{border-radius:12px;width:100%;min-height:44px;padding:.7rem 1rem;font-size:.85rem}.booking-cta-btn.jsx-5bbb38c02dafb863 svg{width:18px;height:18px}}@media (width<=359px){.how-booking-section.jsx-5bbb38c02dafb863{padding:2rem 0}.how-booking-container.jsx-5bbb38c02dafb863{padding:0 .6rem}.booking-section-title.jsx-5bbb38c02dafb863{font-size:1.35rem}.booking-section-description.jsx-5bbb38c02dafb863{font-size:.77rem}.booking-section-badge.jsx-5bbb38c02dafb863{padding:.22rem .7rem;font-size:.65rem}.booking-step-card.jsx-5bbb38c02dafb863{border-radius:13px;grid-template-columns:36px 1fr;column-gap:.65rem;padding:.85rem}.booking-step-number.jsx-5bbb38c02dafb863{width:34px;height:34px;font-size:.9rem}.booking-step-icon.jsx-5bbb38c02dafb863 svg{width:18px;height:18px}.booking-step-title.jsx-5bbb38c02dafb863{font-size:.84rem}.booking-step-description.jsx-5bbb38c02dafb863{font-size:.7rem;line-height:1.4}.booking-quick-cta.jsx-5bbb38c02dafb863{border-radius:12px;padding:.9rem .7rem}.booking-cta-text.jsx-5bbb38c02dafb863{font-size:.72rem}.booking-cta-btn.jsx-5bbb38c02dafb863{min-height:42px;padding:.65rem .75rem;font-size:.78rem}}@media (hover:none){.booking-step-card.jsx-5bbb38c02dafb863,.booking-step-number.jsx-5bbb38c02dafb863,.booking-step-icon.jsx-5bbb38c02dafb863,.booking-step-accent.jsx-5bbb38c02dafb863,.booking-quick-cta.jsx-5bbb38c02dafb863,.booking-cta-btn.jsx-5bbb38c02dafb863{transition:none}}@media (prefers-reduced-motion:reduce){.booking-step-card.jsx-5bbb38c02dafb863,.booking-step-number.jsx-5bbb38c02dafb863,.booking-step-icon.jsx-5bbb38c02dafb863,.booking-step-accent.jsx-5bbb38c02dafb863,.booking-quick-cta.jsx-5bbb38c02dafb863,.booking-cta-btn.jsx-5bbb38c02dafb863{transition:none}}'
+                            }, void 0, false, void 0, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/components/RouteTemplate.jsx",
+                        lineNumber: 1419,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                        className: "jsx-c349b943f3940e88" + " " + "route-guide-section",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-c349b943f3940e88" + " " + "route-guide-container",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-c349b943f3940e88" + " " + "route-guide-header",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-badge",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$route$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Route$3e$__["Route"], {
+                                                        size: 14
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 2311,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-c349b943f3940e88",
+                                                        children: "Route Guide"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 2312,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 2310,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-title",
+                                                children: [
+                                                    "Complete Travel Guide for",
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-c349b943f3940e88",
+                                                        children: [
+                                                            route.origin,
+                                                            " to ",
+                                                            route.destination
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 2317,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 2315,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                style: {
-                                                    fontSize: "1rem",
-                                                    color: "#4a5a6e",
-                                                    lineHeight: "1.7",
-                                                    margin: 0
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-description",
                                                 children: [
                                                     "Everything you need to know about your ",
                                                     route.origin,
@@ -3486,35 +3144,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1752,
+                                                lineNumber: 2322,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 1715,
+                                        lineNumber: 2309,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                        style: {
-                                            background: "#ffffff",
-                                            borderRadius: "24px",
-                                            padding: "2rem",
-                                            border: "1px solid #ecf0f7",
-                                            boxShadow: "0 8px 24px rgba(0,20,50,0.04)"
-                                        },
-                                        className: "jsx-751477fed6e52f0d",
+                                        className: "jsx-c349b943f3940e88" + " " + "route-guide-card",
                                         children: [
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: "grid",
-                                                    gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-                                                    gap: "1.5rem",
-                                                    marginBottom: "2rem",
-                                                    paddingBottom: "2rem",
-                                                    borderBottom: "1px solid #ecf0f7"
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-c349b943f3940e88" + " " + "route-overview-grid",
                                                 children: [
                                                     {
                                                         icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
@@ -3522,7 +3165,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1789,
+                                                            lineNumber: 2335,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Route",
@@ -3534,7 +3177,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1794,
+                                                            lineNumber: 2340,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Distance",
@@ -3546,7 +3189,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1799,
+                                                            lineNumber: 2345,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Travel Time",
@@ -3558,375 +3201,255 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: "#0052CC"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 1804,
+                                                            lineNumber: 2350,
                                                             columnNumber: 27
                                                         }, this),
                                                         label: "Road Type",
                                                         value: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getRoadType"])(route.category)
                                                     }
                                                 ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            display: "flex",
-                                                            alignItems: "center",
-                                                            gap: "0.75rem",
-                                                            padding: "0.75rem",
-                                                            background: "#f9fafc",
-                                                            borderRadius: "12px",
-                                                            transition: "all 0.3s ease"
-                                                        },
-                                                        onMouseEnter: (e)=>{
-                                                            e.currentTarget.style.background = "#f0f4fe";
-                                                            e.currentTarget.style.transform = "translateY(-2px)";
-                                                        },
-                                                        onMouseLeave: (e)=>{
-                                                            e.currentTarget.style.background = "#f9fafc";
-                                                            e.currentTarget.style.transform = "translateY(0)";
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-c349b943f3940e88" + " " + "route-overview-item",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    flexShrink: 0
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-overview-icon",
                                                                 children: item.icon
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1829,
+                                                                lineNumber: 2356,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-overview-content",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            fontSize: "0.7rem",
-                                                                            color: "#7a8a9e"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-overview-label",
                                                                         children: item.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1831,
+                                                                        lineNumber: 2359,
                                                                         columnNumber: 23
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            fontSize: "0.9rem",
-                                                                            fontWeight: 600,
-                                                                            color: "#0b1a2e"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-overview-value",
                                                                         children: item.value
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1834,
+                                                                        lineNumber: 2361,
                                                                         columnNumber: 23
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1830,
+                                                                lineNumber: 2358,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, index, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1809,
+                                                        lineNumber: 2355,
                                                         columnNumber: 19
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1777,
+                                                lineNumber: 2332,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    display: "grid",
-                                                    gridTemplateColumns: "1fr 1fr",
-                                                    gap: "1.5rem",
-                                                    marginBottom: "2rem",
-                                                    paddingBottom: "2rem",
-                                                    borderBottom: "1px solid #ecf0f7"
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-c349b943f3940e88" + " " + "route-details-grid",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-c349b943f3940e88" + " " + "route-detail-column",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                style: {
-                                                                    fontSize: "1rem",
-                                                                    fontWeight: 700,
-                                                                    color: "#0b1a2e",
-                                                                    marginBottom: "1rem",
-                                                                    display: "flex",
-                                                                    alignItems: "center",
-                                                                    gap: "0.5rem"
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-detail-title",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__["Info"], {
                                                                         size: 18,
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1872,
+                                                                        lineNumber: 2372,
                                                                         columnNumber: 21
                                                                     }, this),
-                                                                    "Route Information"
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1861,
-                                                                columnNumber: 19
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    display: "flex",
-                                                                    flexDirection: "column",
-                                                                    gap: "0.75rem"
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            justifyContent: "space-between",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#f9fafc",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.9rem"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    color: "#4a5a6e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: "Highway Name"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1893,
-                                                                                columnNumber: 23
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    fontWeight: 600,
-                                                                                    color: "#0b1a2e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getHighwayName"])(route.origin, route.destination)
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1894,
-                                                                                columnNumber: 23
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-c349b943f3940e88",
+                                                                        children: "Route Information"
+                                                                    }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1883,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            justifyContent: "space-between",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#f9fafc",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.9rem"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    color: "#4a5a6e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: "Road Condition"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1908,
-                                                                                columnNumber: 23
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    fontWeight: 600,
-                                                                                    color: route.distanceKm > 400 ? "#b33d00" : "#16803c"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getRoadCondition"])(route.distanceKm)
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1909,
-                                                                                columnNumber: 23
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1898,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            justifyContent: "space-between",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#f9fafc",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.9rem"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    color: "#4a5a6e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: "Night Travel"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1928,
-                                                                                columnNumber: 23
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    fontWeight: 600,
-                                                                                    color: route.distanceKm < 300 ? "#16803c" : "#b33d00"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: route.distanceKm < 300 ? "✓ Safe" : "⚠️ Not Recommended"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1929,
-                                                                                columnNumber: 23
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1918,
-                                                                        columnNumber: 21
-                                                                    }, this),
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            justifyContent: "space-between",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#f9fafc",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.9rem"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
-                                                                        children: [
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    color: "#4a5a6e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: "Best Season"
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1950,
-                                                                                columnNumber: 23
-                                                                            }, this),
-                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                style: {
-                                                                                    fontWeight: 600,
-                                                                                    color: "#0b1a2e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
-                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBestSeason"])(route.destination)
-                                                                            }, void 0, false, {
-                                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1951,
-                                                                                columnNumber: 23
-                                                                            }, this)
-                                                                        ]
-                                                                    }, void 0, true, {
-                                                                        fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1940,
+                                                                        lineNumber: 2373,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1876,
+                                                                lineNumber: 2371,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-list",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-info-row",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-label",
+                                                                                children: "Highway Name"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2378,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-value",
+                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getHighwayName"])(route.origin, route.destination)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2380,
+                                                                                columnNumber: 23
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2377,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-info-row",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-label",
+                                                                                children: "Road Condition"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2386,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                style: {
+                                                                                    color: route.distanceKm > 400 ? "#b33d00" : "#16803c"
+                                                                                },
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-value",
+                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getRoadCondition"])(route.distanceKm)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2388,
+                                                                                columnNumber: 23
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2385,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-info-row",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-label",
+                                                                                children: "Night Travel"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2399,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                style: {
+                                                                                    color: route.distanceKm < 300 ? "#16803c" : "#b33d00"
+                                                                                },
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-value",
+                                                                                children: route.distanceKm < 300 ? "✓ Safe" : "⚠️ Not Recommended"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2401,
+                                                                                columnNumber: 23
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2398,
+                                                                        columnNumber: 21
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                        className: "jsx-c349b943f3940e88" + " " + "route-info-row",
+                                                                        children: [
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-label",
+                                                                                children: "Best Season"
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2414,
+                                                                                columnNumber: 23
+                                                                            }, this),
+                                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                                className: "jsx-c349b943f3940e88" + " " + "route-info-value",
+                                                                                children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getBestSeason"])(route.destination)
+                                                                            }, void 0, false, {
+                                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                                lineNumber: 2416,
+                                                                                columnNumber: 23
+                                                                            }, this)
+                                                                        ]
+                                                                    }, void 0, true, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2413,
+                                                                        columnNumber: 21
+                                                                    }, this)
+                                                                ]
+                                                            }, void 0, true, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 2376,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1860,
+                                                        lineNumber: 2370,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-c349b943f3940e88" + " " + "route-detail-column",
                                                         children: [
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                style: {
-                                                                    fontSize: "1rem",
-                                                                    fontWeight: 700,
-                                                                    color: "#0b1a2e",
-                                                                    marginBottom: "1rem",
-                                                                    display: "flex",
-                                                                    alignItems: "center",
-                                                                    gap: "0.5rem"
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-detail-title",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$lightbulb$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Lightbulb$3e$__["Lightbulb"], {
                                                                         size: 18,
                                                                         color: "#F59E0B"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1971,
+                                                                        lineNumber: 2426,
                                                                         columnNumber: 21
                                                                     }, this),
-                                                                    "Quick Tips"
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-c349b943f3940e88",
+                                                                        children: "Quick Tips"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2427,
+                                                                        columnNumber: 21
+                                                                    }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1960,
+                                                                lineNumber: 2425,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    display: "flex",
-                                                                    flexDirection: "column",
-                                                                    gap: "0.75rem"
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "quick-tips-list",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            alignItems: "flex-start",
-                                                                            gap: "0.5rem",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#f0fdf4",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.85rem",
-                                                                            color: "#1a2634",
-                                                                            lineHeight: "1.5"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "quick-tip quick-tip-green",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
                                                                                 size: 16,
-                                                                                color: "#10b981",
-                                                                                style: {
-                                                                                    flexShrink: 0,
-                                                                                    marginTop: "2px"
-                                                                                }
+                                                                                color: "#10b981"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 1995,
+                                                                                lineNumber: 2432,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "jsx-751477fed6e52f0d",
+                                                                                className: "jsx-c349b943f3940e88",
                                                                                 children: [
                                                                                     "Start early from ",
                                                                                     route.origin,
@@ -3934,161 +3457,115 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                 ]
                                                                             }, void 0, true, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2000,
+                                                                                lineNumber: 2434,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 1982,
+                                                                        lineNumber: 2431,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            alignItems: "flex-start",
-                                                                            gap: "0.5rem",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#fef3c7",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.85rem",
-                                                                            color: "#1a2634",
-                                                                            lineHeight: "1.5"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "quick-tip quick-tip-yellow",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$fuel$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Fuel$3e$__["Fuel"], {
                                                                                 size: 16,
-                                                                                color: "#d97706",
-                                                                                style: {
-                                                                                    flexShrink: 0,
-                                                                                    marginTop: "2px"
-                                                                                }
+                                                                                color: "#d97706"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2017,
+                                                                                lineNumber: 2440,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "jsx-751477fed6e52f0d",
+                                                                                className: "jsx-c349b943f3940e88",
                                                                                 children: "Fuel up before entering remote stretches"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2022,
+                                                                                lineNumber: 2442,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2004,
+                                                                        lineNumber: 2439,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            display: "flex",
-                                                                            alignItems: "flex-start",
-                                                                            gap: "0.5rem",
-                                                                            padding: "0.5rem 0.75rem",
-                                                                            background: "#e0f2fe",
-                                                                            borderRadius: "8px",
-                                                                            fontSize: "0.85rem",
-                                                                            color: "#1a2634",
-                                                                            lineHeight: "1.5"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "quick-tip quick-tip-blue",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$camera$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Camera$3e$__["Camera"], {
                                                                                 size: 16,
-                                                                                color: "#0284c7",
-                                                                                style: {
-                                                                                    flexShrink: 0,
-                                                                                    marginTop: "2px"
-                                                                                }
+                                                                                color: "#0284c7"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2037,
+                                                                                lineNumber: 2446,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                                className: "jsx-751477fed6e52f0d",
+                                                                                className: "jsx-c349b943f3940e88",
                                                                                 children: "Carry camera for scenic views on the route"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2042,
+                                                                                lineNumber: 2448,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2024,
+                                                                        lineNumber: 2445,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 1975,
+                                                                lineNumber: 2430,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 1959,
+                                                        lineNumber: 2424,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 1849,
+                                                lineNumber: 2368,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    marginBottom: "1.5rem",
-                                                    borderBottom: "1px solid #ecf0f7",
-                                                    paddingBottom: "1.5rem"
-                                                },
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-accordion-section",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
                                                         onClick: ()=>toggleSection("stopovers"),
-                                                        style: {
-                                                            display: "flex",
-                                                            justifyContent: "space-between",
-                                                            alignItems: "center",
-                                                            width: "100%",
-                                                            background: "transparent",
-                                                            border: "none",
-                                                            cursor: "pointer",
-                                                            padding: "0.25rem 0",
-                                                            fontFamily: "inherit"
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        "aria-expanded": expandedSections.stopovers,
+                                                        className: "jsx-c349b943f3940e88" + " " + "route-guide-accordion-button",
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                style: {
-                                                                    fontSize: "1rem",
-                                                                    fontWeight: 700,
-                                                                    color: "#0b1a2e",
-                                                                    display: "flex",
-                                                                    alignItems: "center",
-                                                                    gap: "0.5rem",
-                                                                    margin: 0
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-accordion-title",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pinned$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPinned$3e$__["MapPinned"], {
                                                                         size: 18,
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2081,
+                                                                        lineNumber: 2463,
                                                                         columnNumber: 21
                                                                     }, this),
-                                                                    "Recommended Stopovers"
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-c349b943f3940e88",
+                                                                        children: "Recommended Stopovers"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2464,
+                                                                        columnNumber: 21
+                                                                    }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2070,
+                                                                lineNumber: 2462,
                                                                 columnNumber: 19
                                                             }, this),
                                                             expandedSections.stopovers ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
@@ -4096,192 +3573,138 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2085,
+                                                                lineNumber: 2468,
                                                                 columnNumber: 21
                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                                 size: 20,
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2087,
+                                                                lineNumber: 2470,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2056,
+                                                        lineNumber: 2456,
                                                         columnNumber: 17
                                                     }, this),
                                                     expandedSections.stopovers && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            marginTop: "1rem",
-                                                            display: "grid",
-                                                            gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                                                            gap: "1rem"
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-c349b943f3940e88" + " " + "stopovers-grid",
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getStopovers"])(route.distanceKm).map((stopover, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    display: "flex",
-                                                                    alignItems: "flex-start",
-                                                                    gap: "0.75rem",
-                                                                    padding: "1rem",
-                                                                    background: "#f9fafc",
-                                                                    borderRadius: "12px",
-                                                                    transition: "all 0.3s ease"
-                                                                },
-                                                                onMouseEnter: (e)=>{
-                                                                    e.currentTarget.style.background = "#f0f4fe";
-                                                                    e.currentTarget.style.transform = "translateY(-2px)";
-                                                                },
-                                                                onMouseLeave: (e)=>{
-                                                                    e.currentTarget.style.background = "#f9fafc";
-                                                                    e.currentTarget.style.transform = "translateY(0)";
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "stopover-card",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        style: {
-                                                                            flexShrink: 0,
-                                                                            width: "32px",
-                                                                            height: "32px",
-                                                                            borderRadius: "50%",
-                                                                            background: "#eef3ff",
-                                                                            display: "flex",
-                                                                            alignItems: "center",
-                                                                            justifyContent: "center",
-                                                                            color: "#0052CC"
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "stopover-icon",
                                                                         children: [
                                                                             stopover.icon === "coffee" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$coffee$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Coffee$3e$__["Coffee"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2135,
+                                                                                lineNumber: 2479,
                                                                                 columnNumber: 58
                                                                             }, this),
                                                                             stopover.icon === "food" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$utensils$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Utensils$3e$__["Utensils"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2136,
+                                                                                lineNumber: 2481,
                                                                                 columnNumber: 56
                                                                             }, this),
                                                                             stopover.icon === "hotel" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$hotel$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Hotel$3e$__["Hotel"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2137,
+                                                                                lineNumber: 2483,
                                                                                 columnNumber: 57
                                                                             }, this),
                                                                             stopover.icon === "rest" && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
                                                                                 size: 16
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2138,
+                                                                                lineNumber: 2485,
                                                                                 columnNumber: 56
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2122,
+                                                                        lineNumber: 2478,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "stopover-content",
                                                                         children: [
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                style: {
-                                                                                    fontSize: "0.85rem",
-                                                                                    fontWeight: 600,
-                                                                                    color: "#0b1a2e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
+                                                                                className: "jsx-c349b943f3940e88" + " " + "stopover-name",
                                                                                 children: stopover.name
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2141,
+                                                                                lineNumber: 2489,
                                                                                 columnNumber: 27
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                                style: {
-                                                                                    fontSize: "0.75rem",
-                                                                                    color: "#4a5a6e"
-                                                                                },
-                                                                                className: "jsx-751477fed6e52f0d",
+                                                                                className: "jsx-c349b943f3940e88" + " " + "stopover-purpose",
                                                                                 children: stopover.purpose
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                lineNumber: 2150,
+                                                                                lineNumber: 2491,
                                                                                 columnNumber: 27
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2140,
+                                                                        lineNumber: 2488,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2102,
+                                                                lineNumber: 2477,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2092,
+                                                        lineNumber: 2475,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2049,
+                                                lineNumber: 2455,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                className: "jsx-751477fed6e52f0d",
+                                                className: "jsx-c349b943f3940e88" + " " + "travel-tips-section",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                                        type: "button",
                                                         onClick: ()=>toggleSection("tips"),
-                                                        style: {
-                                                            display: "flex",
-                                                            justifyContent: "space-between",
-                                                            alignItems: "center",
-                                                            width: "100%",
-                                                            background: "transparent",
-                                                            border: "none",
-                                                            cursor: "pointer",
-                                                            padding: "0.25rem 0",
-                                                            fontFamily: "inherit"
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        "aria-expanded": expandedSections.tips,
+                                                        className: "jsx-c349b943f3940e88" + " " + "route-guide-accordion-button",
                                                         children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                                style: {
-                                                                    fontSize: "1rem",
-                                                                    fontWeight: 700,
-                                                                    color: "#0b1a2e",
-                                                                    display: "flex",
-                                                                    alignItems: "center",
-                                                                    gap: "0.5rem",
-                                                                    margin: 0
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "jsx-c349b943f3940e88" + " " + "route-guide-accordion-title",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Shield$3e$__["Shield"], {
                                                                         size: 18,
                                                                         color: "#0052CC"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2189,
+                                                                        lineNumber: 2510,
                                                                         columnNumber: 21
                                                                     }, this),
-                                                                    "Pro Travel Tips"
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-c349b943f3940e88",
+                                                                        children: "Pro Travel Tips"
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 2511,
+                                                                        columnNumber: 21
+                                                                    }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2178,
+                                                                lineNumber: 2509,
                                                                 columnNumber: 19
                                                             }, this),
                                                             expandedSections.tips ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
@@ -4289,101 +3712,80 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2193,
+                                                                lineNumber: 2515,
                                                                 columnNumber: 21
                                                             }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                                                                 size: 20,
                                                                 color: "#7a8a9e"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2195,
+                                                                lineNumber: 2517,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2164,
+                                                        lineNumber: 2503,
                                                         columnNumber: 17
                                                     }, this),
                                                     expandedSections.tips && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            marginTop: "1rem",
-                                                            display: "grid",
-                                                            gridTemplateColumns: "1fr 1fr",
-                                                            gap: "0.75rem"
-                                                        },
-                                                        className: "jsx-751477fed6e52f0d",
+                                                        className: "jsx-c349b943f3940e88" + " " + "travel-tips-grid",
                                                         children: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["getTravelTips"])(route).map((tip, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    display: "flex",
-                                                                    alignItems: "flex-start",
-                                                                    gap: "0.5rem",
-                                                                    padding: "0.75rem",
-                                                                    background: "#f0f4fe",
-                                                                    borderRadius: "10px",
-                                                                    fontSize: "0.85rem",
-                                                                    color: "#1a2634",
-                                                                    lineHeight: "1.5"
-                                                                },
-                                                                className: "jsx-751477fed6e52f0d",
+                                                                className: "jsx-c349b943f3940e88" + " " + "travel-tip-card",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        style: {
-                                                                            color: "#0052CC",
-                                                                            flexShrink: 0
-                                                                        },
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88" + " " + "travel-tip-check",
                                                                         children: "✓"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2223,
+                                                                        lineNumber: 2525,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                        className: "jsx-751477fed6e52f0d",
+                                                                        className: "jsx-c349b943f3940e88",
                                                                         children: tip
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 2226,
+                                                                        lineNumber: 2527,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 2209,
+                                                                lineNumber: 2524,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 2200,
+                                                        lineNumber: 2522,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2163,
+                                                lineNumber: 2502,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 1767,
+                                        lineNumber: 2330,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 1706,
+                                lineNumber: 2307,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                id: "751477fed6e52f0d",
-                                children: '@media (width<=768px){.route-guide-wrapper.jsx-751477fed6e52f0d{padding:0}.route-guide-wrapper.jsx-751477fed6e52f0d [style*="grid-template-columns: 1fr 1fr"].jsx-751477fed6e52f0d{grid-template-columns:1fr!important}.route-guide-wrapper.jsx-751477fed6e52f0d [style*="padding: 2rem"].jsx-751477fed6e52f0d{padding:1.25rem!important}.route-guide-wrapper.jsx-751477fed6e52f0d [style*="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))"].jsx-751477fed6e52f0d{grid-template-columns:repeat(2,1fr)!important}}@media (width<=480px){.route-guide-wrapper.jsx-751477fed6e52f0d h2.jsx-751477fed6e52f0d{font-size:1.5rem!important}.route-guide-wrapper.jsx-751477fed6e52f0d [style*="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))"].jsx-751477fed6e52f0d{grid-template-columns:1fr!important}}'
+                                id: "c349b943f3940e88",
+                                children: ".route-guide-section.jsx-c349b943f3940e88{background:#fff;width:100%;padding:4rem 0;overflow:hidden}.route-guide-container.jsx-c349b943f3940e88{box-sizing:border-box;width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}.route-guide-header.jsx-c349b943f3940e88{text-align:center;width:100%;max-width:780px;margin:0 auto 2.5rem}.route-guide-badge.jsx-c349b943f3940e88{color:#0052cc;letter-spacing:.2px;background:#eef3ff;border-radius:40px;justify-content:center;align-items:center;gap:.5rem;padding:.3rem 1.2rem;font-size:.8rem;font-weight:600;line-height:1.4;display:inline-flex}.route-guide-title.jsx-c349b943f3940e88{color:#0b1a2e;overflow-wrap:anywhere;margin:.7rem 0 .75rem;font-size:max(1.8rem,min(3vw,2.3rem));font-weight:700;line-height:1.25}.route-guide-title.jsx-c349b943f3940e88 span.jsx-c349b943f3940e88{color:#0052cc}.route-guide-description.jsx-c349b943f3940e88{color:#4a5a6e;margin:0;font-size:1rem;line-height:1.7}.route-guide-card.jsx-c349b943f3940e88{box-sizing:border-box;background:#fff;border:1px solid #ecf0f7;border-radius:24px;width:100%;padding:2rem;box-shadow:0 8px 24px #0014320a}.route-overview-grid.jsx-c349b943f3940e88{border-bottom:1px solid #ecf0f7;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.25rem;margin-bottom:2rem;padding-bottom:2rem;display:grid}.route-overview-item.jsx-c349b943f3940e88{background:#f9fafc;border-radius:12px;align-items:center;gap:.75rem;min-width:0;padding:.75rem;transition:background-color .3s,transform .3s;display:flex}.route-overview-item.jsx-c349b943f3940e88:hover{background:#f0f4fe;transform:translateY(-2px)}.route-overview-icon.jsx-c349b943f3940e88{flex:none;justify-content:center;align-items:center;display:flex}.route-overview-content.jsx-c349b943f3940e88{min-width:0}.route-overview-label.jsx-c349b943f3940e88{color:#7a8a9e;margin-bottom:.15rem;font-size:.7rem;line-height:1.3}.route-overview-value.jsx-c349b943f3940e88{color:#0b1a2e;overflow-wrap:anywhere;word-break:break-word;font-size:.9rem;font-weight:600;line-height:1.4}.route-details-grid.jsx-c349b943f3940e88{border-bottom:1px solid #ecf0f7;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.5rem;margin-bottom:2rem;padding-bottom:2rem;display:grid}.route-detail-column.jsx-c349b943f3940e88{min-width:0}.route-detail-title.jsx-c349b943f3940e88{color:#0b1a2e;align-items:center;gap:.5rem;margin:0 0 1rem;font-size:1rem;font-weight:700;line-height:1.4;display:flex}.route-info-list.jsx-c349b943f3940e88,.quick-tips-list.jsx-c349b943f3940e88{flex-direction:column;gap:.75rem;display:flex}.route-info-row.jsx-c349b943f3940e88{background:#f9fafc;border-radius:8px;justify-content:space-between;align-items:flex-start;gap:1rem;min-width:0;padding:.65rem .75rem;font-size:.9rem;line-height:1.4;display:flex}.route-info-label.jsx-c349b943f3940e88{color:#4a5a6e;flex:none}.route-info-value.jsx-c349b943f3940e88{color:#0b1a2e;text-align:right;overflow-wrap:anywhere;min-width:0;font-weight:600}.quick-tip.jsx-c349b943f3940e88{color:#1a2634;border-radius:8px;align-items:flex-start;gap:.5rem;padding:.65rem .75rem;font-size:.85rem;line-height:1.5;display:flex}.quick-tip.jsx-c349b943f3940e88 svg{flex:none;margin-top:2px}.quick-tip-green.jsx-c349b943f3940e88{background:#f0fdf4}.quick-tip-yellow.jsx-c349b943f3940e88{background:#fef3c7}.quick-tip-blue.jsx-c349b943f3940e88{background:#e0f2fe}.route-guide-accordion-section.jsx-c349b943f3940e88{border-bottom:1px solid #ecf0f7;margin-bottom:1.5rem;padding-bottom:1.5rem}.travel-tips-section.jsx-c349b943f3940e88{width:100%}.route-guide-accordion-button.jsx-c349b943f3940e88{color:#0b1a2e;cursor:pointer;text-align:left;background:0 0;border:none;justify-content:space-between;align-items:center;gap:1rem;width:100%;padding:.35rem 0;font-family:inherit;display:flex}.route-guide-accordion-title.jsx-c349b943f3940e88{color:#0b1a2e;align-items:center;gap:.5rem;min-width:0;font-size:1rem;font-weight:700;line-height:1.4;display:flex}.route-guide-accordion-title.jsx-c349b943f3940e88 span.jsx-c349b943f3940e88{overflow-wrap:anywhere}.stopovers-grid.jsx-c349b943f3940e88{grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;margin-top:1rem;display:grid}.stopover-card.jsx-c349b943f3940e88{background:#f9fafc;border-radius:12px;align-items:flex-start;gap:.75rem;min-width:0;padding:1rem;transition:background-color .3s,transform .3s;display:flex}.stopover-card.jsx-c349b943f3940e88:hover{background:#f0f4fe;transform:translateY(-2px)}.stopover-icon.jsx-c349b943f3940e88{color:#0052cc;background:#eef3ff;border-radius:50%;flex:0 0 32px;justify-content:center;align-items:center;width:32px;height:32px;display:flex}.stopover-content.jsx-c349b943f3940e88{min-width:0}.stopover-name.jsx-c349b943f3940e88{color:#0b1a2e;overflow-wrap:anywhere;font-size:.85rem;font-weight:600;line-height:1.4}.stopover-purpose.jsx-c349b943f3940e88{color:#4a5a6e;overflow-wrap:anywhere;margin-top:.15rem;font-size:.75rem;line-height:1.45}.travel-tips-grid.jsx-c349b943f3940e88{grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;margin-top:1rem;display:grid}.travel-tip-card.jsx-c349b943f3940e88{color:#1a2634;background:#f0f4fe;border-radius:10px;align-items:flex-start;gap:.5rem;min-width:0;padding:.75rem;font-size:.85rem;line-height:1.5;display:flex}.travel-tip-check.jsx-c349b943f3940e88{color:#0052cc;flex:none;font-weight:700}@media (width<=1199px){.route-guide-container.jsx-c349b943f3940e88{padding:0 1.25rem}.route-guide-card.jsx-c349b943f3940e88{padding:1.75rem}.route-overview-grid.jsx-c349b943f3940e88,.stopovers-grid.jsx-c349b943f3940e88{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (width<=768px){.route-guide-section.jsx-c349b943f3940e88{padding:3rem 0}.route-guide-container.jsx-c349b943f3940e88{padding:0 1rem}.route-guide-header.jsx-c349b943f3940e88{margin-bottom:2rem}.route-guide-title.jsx-c349b943f3940e88{font-size:max(1.6rem,min(5vw,2rem));line-height:1.3}.route-guide-description.jsx-c349b943f3940e88{font-size:.92rem;line-height:1.65}.route-guide-card.jsx-c349b943f3940e88{border-radius:18px;padding:1.25rem}.route-overview-grid.jsx-c349b943f3940e88{grid-template-columns:repeat(2,minmax(0,1fr));gap:.85rem;margin-bottom:1.5rem;padding-bottom:1.5rem}.route-overview-item.jsx-c349b943f3940e88{gap:.6rem;padding:.7rem}.route-overview-value.jsx-c349b943f3940e88{font-size:.82rem}.route-details-grid.jsx-c349b943f3940e88{grid-template-columns:1fr;gap:1.5rem;margin-bottom:1.5rem;padding-bottom:1.5rem}.stopovers-grid.jsx-c349b943f3940e88{grid-template-columns:repeat(2,minmax(0,1fr))}.travel-tips-grid.jsx-c349b943f3940e88{grid-template-columns:1fr}}@media (width<=480px){.route-guide-section.jsx-c349b943f3940e88{padding:2.5rem 0}.route-guide-container.jsx-c349b943f3940e88{padding:0 .75rem}.route-guide-header.jsx-c349b943f3940e88{margin-bottom:1.5rem}.route-guide-badge.jsx-c349b943f3940e88{padding:.3rem .9rem;font-size:.75rem}.route-guide-title.jsx-c349b943f3940e88{margin-top:.65rem;font-size:1.5rem;line-height:1.3}.route-guide-description.jsx-c349b943f3940e88{font-size:.85rem;line-height:1.6}.route-guide-card.jsx-c349b943f3940e88{border-radius:16px;padding:1rem}.route-overview-grid.jsx-c349b943f3940e88{grid-template-columns:1fr;gap:.7rem;margin-bottom:1.25rem;padding-bottom:1.25rem}.route-overview-item.jsx-c349b943f3940e88{padding:.75rem}.route-overview-label.jsx-c349b943f3940e88{font-size:.68rem}.route-overview-value.jsx-c349b943f3940e88{font-size:.85rem}.route-details-grid.jsx-c349b943f3940e88{gap:1.25rem;margin-bottom:1.25rem;padding-bottom:1.25rem}.route-detail-title.jsx-c349b943f3940e88,.route-guide-accordion-title.jsx-c349b943f3940e88{font-size:.92rem}.route-info-row.jsx-c349b943f3940e88{flex-direction:column;align-items:flex-start;gap:.25rem;padding:.65rem .7rem;font-size:.82rem}.route-info-value.jsx-c349b943f3940e88{text-align:left}.quick-tip.jsx-c349b943f3940e88{padding:.65rem;font-size:.8rem}.route-guide-accordion-section.jsx-c349b943f3940e88{margin-bottom:1.25rem;padding-bottom:1.25rem}.stopovers-grid.jsx-c349b943f3940e88{grid-template-columns:1fr;gap:.7rem}.stopover-card.jsx-c349b943f3940e88{padding:.8rem}.stopover-name.jsx-c349b943f3940e88{font-size:.82rem}.stopover-purpose.jsx-c349b943f3940e88{font-size:.72rem}.travel-tips-grid.jsx-c349b943f3940e88{grid-template-columns:1fr;gap:.65rem}.travel-tip-card.jsx-c349b943f3940e88{padding:.7rem;font-size:.8rem}}@media (width<=359px){.route-guide-section.jsx-c349b943f3940e88{padding:2rem 0}.route-guide-container.jsx-c349b943f3940e88{padding:0 .6rem}.route-guide-card.jsx-c349b943f3940e88{border-radius:14px;padding:.8rem}.route-guide-title.jsx-c349b943f3940e88{font-size:1.35rem}.route-guide-description.jsx-c349b943f3940e88{font-size:.8rem}.route-overview-item.jsx-c349b943f3940e88{padding:.65rem}.route-overview-value.jsx-c349b943f3940e88{font-size:.8rem}.route-info-row.jsx-c349b943f3940e88{font-size:.78rem}.quick-tip.jsx-c349b943f3940e88{font-size:.76rem}.stopover-card.jsx-c349b943f3940e88{padding:.7rem}.travel-tip-card.jsx-c349b943f3940e88{font-size:.76rem}}@media (hover:none){.route-overview-item.jsx-c349b943f3940e88:hover,.stopover-card.jsx-c349b943f3940e88:hover{background:#f9fafc;transform:none}}@media (prefers-reduced-motion:reduce){.route-overview-item.jsx-c349b943f3940e88,.stopover-card.jsx-c349b943f3940e88{transition:none}}"
                             }, void 0, false, void 0, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 1702,
+                        lineNumber: 2306,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4426,14 +3828,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2303,
+                                                    lineNumber: 3217,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Travel Solutions"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2290,
+                                            lineNumber: 3204,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -4459,13 +3861,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2314,
+                                                    lineNumber: 3228,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2305,
+                                            lineNumber: 3219,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4485,13 +3887,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2318,
+                                            lineNumber: 3232,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2283,
+                                    lineNumber: 3197,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4626,7 +4028,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2450,
+                                                    lineNumber: 3364,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -4647,7 +4049,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2476,
+                                                    lineNumber: 3390,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4661,7 +4063,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: solution.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2496,
+                                                    lineNumber: 3410,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4685,7 +4087,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     color: "#0052CC"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2521,
+                                                                    lineNumber: 3435,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4693,18 +4095,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: feature
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2522,
+                                                                    lineNumber: 3436,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2510,
+                                                            lineNumber: 3424,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2508,
+                                                    lineNumber: 3422,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4728,7 +4130,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: "Recommended"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2539,
+                                                            lineNumber: 3453,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -4741,13 +4143,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: solution.recommendedSeater
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2542,
+                                                            lineNumber: 3456,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2528,
+                                                    lineNumber: 3442,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4785,25 +4187,25 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 16
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2587,
+                                                            lineNumber: 3501,
                                                             columnNumber: 21
                                                         }, this),
                                                         " Book Now"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2554,
+                                                    lineNumber: 3468,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2423,
+                                            lineNumber: 3337,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2332,
+                                    lineNumber: 3246,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4834,7 +4236,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Need a Custom Travel Solution?"
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2613,
+                                            lineNumber: 3527,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -4856,7 +4258,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2623,
+                                            lineNumber: 3537,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -4901,14 +4303,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2676,
+                                                            lineNumber: 3590,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Get Custom Quote"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2645,
+                                                    lineNumber: 3559,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -4942,26 +4344,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2704,
+                                                            lineNumber: 3618,
                                                             columnNumber: 19
                                                         }, this),
                                                         " Call Now"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2678,
+                                                    lineNumber: 3592,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2637,
+                                            lineNumber: 3551,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2594,
+                                    lineNumber: 3508,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -4971,12 +4373,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 2274,
+                            lineNumber: 3188,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 2270,
+                        lineNumber: 3184,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -4991,7 +4393,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 margin: "0 auto",
                                 padding: "0 1.5rem"
                             },
-                            className: "jsx-76150aa2d72024ce" + " " + "container",
+                            className: "jsx-c46bd41bf033792c" + " " + "container",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     style: {
@@ -4999,7 +4401,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         maxWidth: "780px",
                                         margin: "0 auto 3rem"
                                     },
-                                    className: "jsx-76150aa2d72024ce",
+                                    className: "jsx-c46bd41bf033792c",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
@@ -5013,20 +4415,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 fontSize: "0.8rem",
                                                 fontWeight: 600
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$indian$2d$rupee$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__IndianRupee$3e$__["IndianRupee"], {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2774,
+                                                    lineNumber: 3688,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Transparent Pricing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2761,
+                                            lineNumber: 3675,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5036,7 +4438,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 margin: "0.5rem 0 0.75rem",
                                                 color: "#0b1a2e"
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: [
                                                 "Clear, Transparent Pricing for",
                                                 " ",
@@ -5044,7 +4446,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     style: {
                                                         color: "#0052CC"
                                                     },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c",
                                                     children: [
                                                         route.origin,
                                                         " to ",
@@ -5052,13 +4454,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2785,
+                                                    lineNumber: 3699,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2776,
+                                            lineNumber: 3690,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5067,7 +4469,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 color: "#4a5a6e",
                                                 lineHeight: "1.6"
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: [
                                                 "No hidden charges, no surprises. What you see is what you pay for your",
                                                 route.origin,
@@ -5077,13 +4479,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2789,
+                                            lineNumber: 3703,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2754,
+                                    lineNumber: 3668,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5093,7 +4495,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         gap: "1.5rem",
                                         marginBottom: "3rem"
                                     },
-                                    className: "jsx-76150aa2d72024ce",
+                                    className: "jsx-c46bd41bf033792c",
                                     children: [
                                         {
                                             title: "Base Fare",
@@ -5101,7 +4503,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2814,
+                                                lineNumber: 3728,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Pay only for the distance you travel",
@@ -5119,7 +4521,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2826,
+                                                lineNumber: 3740,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Professional chauffeur charges",
@@ -5137,7 +4539,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2838,
+                                                lineNumber: 3752,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Actual charges as per route",
@@ -5155,7 +4557,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 size: 24
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 2850,
+                                                lineNumber: 3764,
                                                 columnNumber: 25
                                             }, this),
                                             description: "Complete trip cost",
@@ -5190,7 +4592,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 e.currentTarget.style.borderColor = item.bgColor;
                                                 e.currentTarget.style.boxShadow = "0 4px 12px rgba(0,0,0,0.04)";
                                             },
-                                            className: "jsx-76150aa2d72024ce" + " " + "pricing-card",
+                                            className: "jsx-c46bd41bf033792c" + " " + "pricing-card",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     style: {
@@ -5208,10 +4610,10 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     onMouseLeave: (e)=>{
                                                         e.currentTarget.style.height = "4px";
                                                     },
-                                                    className: "jsx-76150aa2d72024ce" + " " + "pricing-bar"
+                                                    className: "jsx-c46bd41bf033792c" + " " + "pricing-bar"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2890,
+                                                    lineNumber: 3804,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5237,11 +4639,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         e.currentTarget.style.background = item.bgColor;
                                                         e.currentTarget.style.color = item.color;
                                                     },
-                                                    className: "jsx-76150aa2d72024ce" + " " + "pricing-icon",
+                                                    className: "jsx-c46bd41bf033792c" + " " + "pricing-icon",
                                                     children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2910,
+                                                    lineNumber: 3824,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -5251,11 +4653,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         color: "#0b1a2e",
                                                         marginBottom: "0.25rem"
                                                     },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c",
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2940,
+                                                    lineNumber: 3854,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5264,11 +4666,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         color: "#4a5a6e",
                                                         marginBottom: "0.75rem"
                                                     },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c",
                                                     children: item.description
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2952,
+                                                    lineNumber: 3866,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5277,7 +4679,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         flexDirection: "column",
                                                         gap: "0.4rem"
                                                     },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c",
                                                     children: item.details.map((detail, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                             style: {
                                                                 display: "flex",
@@ -5287,44 +4689,44 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                 color: "#1a2634",
                                                                 padding: "0.2rem 0"
                                                             },
-                                                            className: "jsx-76150aa2d72024ce",
+                                                            className: "jsx-c46bd41bf033792c",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
                                                                     size: 14,
                                                                     color: item.color
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2982,
+                                                                    lineNumber: 3896,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c",
                                                                     children: detail
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 2983,
+                                                                    lineNumber: 3897,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, idx, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 2971,
+                                                            lineNumber: 3885,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 2963,
+                                                    lineNumber: 3877,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 2861,
+                                            lineNumber: 3775,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2803,
+                                    lineNumber: 3717,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -5344,7 +4746,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         e.currentTarget.style.borderColor = "#ecf0f7";
                                         e.currentTarget.style.boxShadow = "none";
                                     },
-                                    className: "jsx-76150aa2d72024ce" + " " + "pricing-table-wrapper",
+                                    className: "jsx-c46bd41bf033792c" + " " + "pricing-table-wrapper",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                             style: {
@@ -5354,7 +4756,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 marginBottom: "1.5rem",
                                                 textAlign: "center"
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: [
                                                 "Detailed Pricing Breakdown for ",
                                                 route.origin,
@@ -5364,30 +4766,30 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3012,
+                                            lineNumber: 3926,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             style: {
                                                 overflowX: "auto"
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("table", {
                                                 style: {
                                                     width: "100%",
                                                     borderCollapse: "collapse",
                                                     minWidth: "600px"
                                                 },
-                                                className: "jsx-76150aa2d72024ce",
+                                                className: "jsx-c46bd41bf033792c",
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("thead", {
-                                                        className: "jsx-76150aa2d72024ce",
+                                                        className: "jsx-c46bd41bf033792c",
                                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tr", {
                                                             style: {
                                                                 background: "#f9fafc",
                                                                 borderBottom: "2px solid #ecf0f7"
                                                             },
-                                                            className: "jsx-76150aa2d72024ce",
+                                                            className: "jsx-c46bd41bf033792c",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
                                                                     style: {
@@ -5396,11 +4798,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         fontWeight: 600,
                                                                         color: "#0b1a2e"
                                                                     },
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c",
                                                                     children: "Component"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3040,
+                                                                    lineNumber: 3954,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -5410,11 +4812,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         fontWeight: 600,
                                                                         color: "#0b1a2e"
                                                                     },
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c",
                                                                     children: "Description"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3050,
+                                                                    lineNumber: 3964,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -5424,26 +4826,26 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         fontWeight: 600,
                                                                         color: "#0b1a2e"
                                                                     },
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c",
                                                                     children: "Amount"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3060,
+                                                                    lineNumber: 3974,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3034,
+                                                            lineNumber: 3948,
                                                             columnNumber: 21
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 3033,
+                                                        lineNumber: 3947,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
-                                                        className: "jsx-76150aa2d72024ce",
+                                                        className: "jsx-c46bd41bf033792c",
                                                         children: [
                                                             {
                                                                 component: "Base Fare",
@@ -5497,7 +4899,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                         e.currentTarget.style.background = "transparent";
                                                                     }
                                                                 },
-                                                                className: "jsx-76150aa2d72024ce" + " " + "pricing-row",
+                                                                className: "jsx-c46bd41bf033792c" + " " + "pricing-row",
                                                                 children: [
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
                                                                         style: {
@@ -5505,11 +4907,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             fontWeight: item.highlight ? 700 : 500,
                                                                             color: item.highlight ? "#0052CC" : "#0b1a2e"
                                                                         },
-                                                                        className: "jsx-76150aa2d72024ce",
+                                                                        className: "jsx-c46bd41bf033792c",
                                                                         children: item.component
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3133,
+                                                                        lineNumber: 4047,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -5517,11 +4919,11 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             padding: "0.8rem 1.2rem",
                                                                             color: "#4a5a6e"
                                                                         },
-                                                                        className: "jsx-76150aa2d72024ce",
+                                                                        className: "jsx-c46bd41bf033792c",
                                                                         children: item.description
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3142,
+                                                                        lineNumber: 4056,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -5531,33 +4933,33 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             fontWeight: item.highlight ? 700 : 500,
                                                                             color: item.highlight ? "#0052CC" : "#0b1a2e"
                                                                         },
-                                                                        className: "jsx-76150aa2d72024ce",
+                                                                        className: "jsx-c46bd41bf033792c",
                                                                         children: item.amount
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 3150,
+                                                                        lineNumber: 4064,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 3111,
+                                                                lineNumber: 4025,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 3072,
+                                                        lineNumber: 3986,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 3026,
+                                                lineNumber: 3940,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3025,
+                                            lineNumber: 3939,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -5567,79 +4969,59 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 textAlign: "center",
                                                 marginTop: "1rem"
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c",
                                             children: "* Final fare may vary based on actual route, tolls, and additional halts. Contact us for a precise quote."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3166,
+                                            lineNumber: 4080,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 2992,
+                                    lineNumber: 3906,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: "grid",
-                                        gridTemplateColumns: "1fr 1fr",
-                                        gap: "2rem",
-                                        marginBottom: "2rem"
-                                    },
-                                    className: "jsx-76150aa2d72024ce",
+                                    className: "jsx-c46bd41bf033792c" + " " + "included-not-included-section",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                background: "#f0fdf4",
-                                                borderRadius: "20px",
-                                                padding: "1.5rem",
-                                                border: "1px solid #bbf7d0",
-                                                transition: "all 0.3s ease"
-                                            },
                                             onMouseEnter: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1.02)";
+                                                e.currentTarget.style.transform = "translateY(-4px)";
                                                 e.currentTarget.style.boxShadow = "0 8px 24px rgba(34, 197, 94, 0.15)";
                                             },
                                             onMouseLeave: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.transform = "translateY(0)";
                                                 e.currentTarget.style.boxShadow = "none";
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "included-card",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    style: {
-                                                        fontSize: "1.1rem",
-                                                        fontWeight: 700,
-                                                        color: "#15803d",
-                                                        marginBottom: "1rem",
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        gap: "0.5rem"
-                                                    },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c" + " " + "included-card-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle2$3e$__["CheckCircle2"], {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3218,
+                                                            lineNumber: 4111,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " What's Included"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "jsx-c46bd41bf033792c",
+                                                            children: "What's Included"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                            lineNumber: 4112,
+                                                            columnNumber: 19
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3207,
+                                                    lineNumber: 4110,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    style: {
-                                                        listStyle: "none",
-                                                        padding: 0,
-                                                        margin: 0
-                                                    },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c" + " " + "included-list",
                                                     children: [
                                                         `Base fare for ${route.distanceKm * 2} km round trip`,
                                                         "Professional, verified driver",
@@ -5649,97 +5031,78 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         "AC comfort throughout journey",
                                                         "24/7 customer support"
                                                     ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            style: {
-                                                                display: "flex",
-                                                                alignItems: "center",
-                                                                gap: "0.5rem",
-                                                                padding: "0.4rem 0",
-                                                                fontSize: "0.9rem",
-                                                                color: "#1a2634"
-                                                            },
-                                                            className: "jsx-76150aa2d72024ce",
+                                                            className: "jsx-c46bd41bf033792c" + " " + "included-list-item",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    style: {
-                                                                        color: "#22c55e",
-                                                                        fontSize: "1.1rem"
-                                                                    },
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c" + " " + "included-check",
                                                                     children: "✓"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3241,
+                                                                    lineNumber: 4126,
                                                                     columnNumber: 23
                                                                 }, this),
-                                                                item
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "jsx-c46bd41bf033792c" + " " + "included-item-text",
+                                                                    children: item
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 4127,
+                                                                    columnNumber: 23
+                                                                }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3230,
+                                                            lineNumber: 4125,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3220,
+                                                    lineNumber: 4115,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3189,
+                                            lineNumber: 4098,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                background: "#fef2f2",
-                                                borderRadius: "20px",
-                                                padding: "1.5rem",
-                                                border: "1px solid #fecaca",
-                                                transition: "all 0.3s ease"
-                                            },
                                             onMouseEnter: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1.02)";
+                                                e.currentTarget.style.transform = "translateY(-4px)";
                                                 e.currentTarget.style.boxShadow = "0 8px 24px rgba(239, 68, 68, 0.1)";
                                             },
                                             onMouseLeave: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.transform = "translateY(0)";
                                                 e.currentTarget.style.boxShadow = "none";
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "not-included-card",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    style: {
-                                                        fontSize: "1.1rem",
-                                                        fontWeight: 700,
-                                                        color: "#dc2626",
-                                                        marginBottom: "1rem",
-                                                        display: "flex",
-                                                        alignItems: "center",
-                                                        gap: "0.5rem"
-                                                    },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c" + " " + "not-included-card-title",
                                                     children: [
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__["X"], {
                                                             size: 20
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3280,
+                                                            lineNumber: 4147,
                                                             columnNumber: 19
                                                         }, this),
-                                                        " What's Not Included"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                            className: "jsx-c46bd41bf033792c",
+                                                            children: "What's Not Included"
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                            lineNumber: 4148,
+                                                            columnNumber: 19
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3269,
+                                                    lineNumber: 4146,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                                    style: {
-                                                        listStyle: "none",
-                                                        padding: 0,
-                                                        margin: 0
-                                                    },
-                                                    className: "jsx-76150aa2d72024ce",
+                                                    className: "jsx-c46bd41bf033792c" + " " + "included-list",
                                                     children: [
                                                         "Toll taxes (payable as per actual)",
                                                         "Inter-state permit fees",
@@ -5749,191 +5112,148 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         "Additional KM beyond the limit",
                                                         "Personal expenses and tips"
                                                     ].map((item, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                            style: {
-                                                                display: "flex",
-                                                                alignItems: "center",
-                                                                gap: "0.5rem",
-                                                                padding: "0.4rem 0",
-                                                                fontSize: "0.9rem",
-                                                                color: "#1a2634"
-                                                            },
-                                                            className: "jsx-76150aa2d72024ce",
+                                                            className: "jsx-c46bd41bf033792c" + " " + "included-list-item",
                                                             children: [
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    style: {
-                                                                        color: "#ef4444",
-                                                                        fontSize: "1.1rem"
-                                                                    },
-                                                                    className: "jsx-76150aa2d72024ce",
+                                                                    className: "jsx-c46bd41bf033792c" + " " + "not-included-cross",
                                                                     children: "✗"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3303,
+                                                                    lineNumber: 4162,
                                                                     columnNumber: 23
                                                                 }, this),
-                                                                item
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "jsx-c46bd41bf033792c" + " " + "included-item-text",
+                                                                    children: item
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 4163,
+                                                                    columnNumber: 23
+                                                                }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3292,
+                                                            lineNumber: 4161,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3282,
+                                                    lineNumber: 4151,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3251,
+                                            lineNumber: 4134,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3180,
+                                    lineNumber: 4096,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        background: "linear-gradient(135deg, #0052CC 0%, #0770E3 100%)",
-                                        borderRadius: "20px",
-                                        padding: "2rem",
-                                        textAlign: "center",
-                                        color: "#fff",
-                                        transition: "all 0.3s ease"
-                                    },
                                     onMouseEnter: (e)=>{
                                         e.currentTarget.style.boxShadow = "0 16px 48px rgba(0, 82, 204, 0.3)";
                                     },
                                     onMouseLeave: (e)=>{
                                         e.currentTarget.style.boxShadow = "none";
                                     },
-                                    className: "jsx-76150aa2d72024ce",
+                                    className: "jsx-c46bd41bf033792c" + " " + "pricing-promise",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                justifyContent: "center",
-                                                width: "56px",
-                                                height: "56px",
-                                                borderRadius: "50%",
-                                                background: "rgba(255,255,255,0.15)",
-                                                marginBottom: "1rem"
-                                            },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "pricing-promise-icon",
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
                                                 size: 28,
                                                 color: "#fff"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 3343,
+                                                lineNumber: 4185,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3331,
+                                            lineNumber: 4184,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                            style: {
-                                                fontSize: "1.3rem",
-                                                fontWeight: 700,
-                                                marginBottom: "0.5rem"
-                                            },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "pricing-promise-title",
                                             children: "Our Price Promise"
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3345,
+                                            lineNumber: 4189,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontSize: "1rem",
-                                                opacity: 0.9,
-                                                maxWidth: "600px",
-                                                margin: "0 auto 1.5rem",
-                                                lineHeight: "1.6"
-                                            },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "pricing-promise-text",
                                             children: [
                                                 "We guarantee the best price for your ",
                                                 route.origin,
                                                 " to",
                                                 " ",
                                                 route.destination,
-                                                "journey. If you find a lower price elsewhere, we'll match it."
+                                                " journey. If you find a lower price elsewhere, we'll match it."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3354,
+                                            lineNumber: 4192,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Price match query for ${route.origin} to ${route.destination}`)}`,
                                             target: "_blank",
                                             rel: "noopener noreferrer",
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "0.6rem",
-                                                padding: "0.8rem 2rem",
-                                                borderRadius: "50px",
-                                                background: "#fff",
-                                                color: "#0052CC",
-                                                fontWeight: 700,
-                                                textDecoration: "none",
-                                                transition: "all 0.3s ease",
-                                                border: "none",
-                                                fontSize: "1rem",
-                                                cursor: "pointer"
-                                            },
                                             onMouseEnter: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1.05)";
+                                                e.currentTarget.style.transform = "translateY(-2px)";
                                                 e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,0,0,0.15)";
                                             },
                                             onMouseLeave: (e)=>{
-                                                e.currentTarget.style.transform = "scale(1)";
+                                                e.currentTarget.style.transform = "translateY(0)";
                                                 e.currentTarget.style.boxShadow = "none";
                                             },
-                                            className: "jsx-76150aa2d72024ce",
+                                            className: "jsx-c46bd41bf033792c" + " " + "pricing-promise-btn",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3398,
+                                                    lineNumber: 4216,
                                                     columnNumber: 17
                                                 }, this),
-                                                " Get Best Price Quote"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    className: "jsx-c46bd41bf033792c",
+                                                    children: "Get Best Price Quote"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 4217,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3367,
+                                            lineNumber: 4199,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3314,
+                                    lineNumber: 4173,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    id: "76150aa2d72024ce",
-                                    children: '@media (width<=768px){.pricing-card.jsx-76150aa2d72024ce{padding:1.5rem!important}.pricing-table-wrapper.jsx-76150aa2d72024ce{padding:1.25rem!important}.pricing-table-wrapper.jsx-76150aa2d72024ce [style*="grid-template-columns: 1fr 1fr"].jsx-76150aa2d72024ce{grid-template-columns:1fr!important}.pricing-row.jsx-76150aa2d72024ce td.jsx-76150aa2d72024ce{padding:.6rem .8rem!important;font-size:.85rem!important}}@media (width<=480px){.pricing-card.jsx-76150aa2d72024ce{padding:1rem!important}.pricing-icon.jsx-76150aa2d72024ce{width:40px!important;height:40px!important}.pricing-icon.jsx-76150aa2d72024ce svg.jsx-76150aa2d72024ce{width:20px!important;height:20px!important}.pricing-table-wrapper.jsx-76150aa2d72024ce{padding:1rem!important}}'
+                                    id: "c46bd41bf033792c",
+                                    children: ".included-not-included-section.jsx-c46bd41bf033792c{box-sizing:border-box;grid-template-columns:repeat(2,minmax(0,1fr));gap:2rem;width:100%;margin-bottom:2rem;display:grid}.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c{box-sizing:border-box;border-radius:20px;width:100%;min-width:0;padding:1.5rem;transition:transform .3s,box-shadow .3s}.included-card.jsx-c46bd41bf033792c{background:#f0fdf4;border:1px solid #bbf7d0}.not-included-card.jsx-c46bd41bf033792c{background:#fef2f2;border:1px solid #fecaca}.included-card-title.jsx-c46bd41bf033792c,.not-included-card-title.jsx-c46bd41bf033792c{align-items:center;gap:.5rem;margin:0 0 1rem;font-size:1.1rem;font-weight:700;line-height:1.4;display:flex}.included-card-title.jsx-c46bd41bf033792c{color:#15803d}.not-included-card-title.jsx-c46bd41bf033792c{color:#dc2626}.included-card-title.jsx-c46bd41bf033792c svg,.not-included-card-title.jsx-c46bd41bf033792c svg{flex-shrink:0}.included-list.jsx-c46bd41bf033792c{margin:0;padding:0;list-style:none}.included-list-item.jsx-c46bd41bf033792c{color:#1a2634;box-sizing:border-box;align-items:flex-start;gap:.5rem;width:100%;padding:.4rem 0;font-size:.9rem;line-height:1.5;display:flex}.included-check.jsx-c46bd41bf033792c,.not-included-cross.jsx-c46bd41bf033792c{text-align:center;flex:0 0 20px;width:20px;font-size:1.1rem;font-weight:700;line-height:1.5}.included-check.jsx-c46bd41bf033792c{color:#22c55e}.not-included-cross.jsx-c46bd41bf033792c{color:#ef4444}.included-item-text.jsx-c46bd41bf033792c{overflow-wrap:anywhere;flex:1;min-width:0}.pricing-promise.jsx-c46bd41bf033792c{text-align:center;color:#fff;box-sizing:border-box;background:linear-gradient(135deg,#0052cc 0%,#0770e3 100%);border-radius:20px;width:100%;padding:2rem;transition:box-shadow .3s,transform .3s}.pricing-promise-icon.jsx-c46bd41bf033792c{background:#ffffff26;border-radius:50%;justify-content:center;align-items:center;width:56px;height:56px;margin:0 auto 1rem;display:inline-flex}.pricing-promise-title.jsx-c46bd41bf033792c{margin:0 0 .5rem;font-size:1.3rem;font-weight:700;line-height:1.4}.pricing-promise-text.jsx-c46bd41bf033792c{opacity:.9;width:100%;max-width:600px;margin:0 auto 1.5rem;font-size:1rem;line-height:1.6}.pricing-promise-btn.jsx-c46bd41bf033792c{color:#0052cc;cursor:pointer;box-sizing:border-box;background:#fff;border:none;border-radius:50px;justify-content:center;align-items:center;gap:.6rem;min-height:46px;padding:.8rem 2rem;font-size:1rem;font-weight:700;text-decoration:none;transition:transform .3s,box-shadow .3s;display:inline-flex}.pricing-promise-btn.jsx-c46bd41bf033792c svg{flex-shrink:0}@media (width<=1024px){.included-not-included-section.jsx-c46bd41bf033792c{gap:1.5rem}.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c{border-radius:18px;padding:1.35rem}.included-card-title.jsx-c46bd41bf033792c,.not-included-card-title.jsx-c46bd41bf033792c{font-size:1.05rem}.included-list-item.jsx-c46bd41bf033792c{font-size:.88rem}.pricing-promise.jsx-c46bd41bf033792c{border-radius:18px;padding:1.75rem}}@media (width<=768px){.included-not-included-section.jsx-c46bd41bf033792c{grid-template-columns:1fr;gap:1.25rem;margin-bottom:1.5rem}.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c{border-radius:17px;padding:1.25rem}.included-card-title.jsx-c46bd41bf033792c,.not-included-card-title.jsx-c46bd41bf033792c{margin-bottom:.85rem;font-size:1rem}.included-list-item.jsx-c46bd41bf033792c{padding:.38rem 0;font-size:.88rem}.pricing-promise.jsx-c46bd41bf033792c{border-radius:17px;padding:1.5rem}.pricing-promise-icon.jsx-c46bd41bf033792c{width:52px;height:52px}.pricing-promise-title.jsx-c46bd41bf033792c{font-size:1.2rem}.pricing-promise-text.jsx-c46bd41bf033792c{max-width:560px;font-size:.95rem}.pricing-promise-btn.jsx-c46bd41bf033792c{padding:.75rem 1.75rem}}@media (width<=480px){.included-not-included-section.jsx-c46bd41bf033792c{gap:1rem;margin-bottom:1.25rem}.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c{border-radius:15px;padding:1rem}.included-card-title.jsx-c46bd41bf033792c,.not-included-card-title.jsx-c46bd41bf033792c{gap:.4rem;margin-bottom:.75rem;font-size:.95rem}.included-card-title.jsx-c46bd41bf033792c svg,.not-included-card-title.jsx-c46bd41bf033792c svg{width:18px;height:18px}.included-list-item.jsx-c46bd41bf033792c{gap:.4rem;padding:.32rem 0;font-size:.82rem;line-height:1.45}.included-check.jsx-c46bd41bf033792c,.not-included-cross.jsx-c46bd41bf033792c{flex-basis:18px;width:18px;font-size:.95rem}.pricing-promise.jsx-c46bd41bf033792c{border-radius:15px;padding:1.25rem 1rem}.pricing-promise-icon.jsx-c46bd41bf033792c{width:48px;height:48px;margin-bottom:.75rem}.pricing-promise-icon.jsx-c46bd41bf033792c svg{width:24px;height:24px}.pricing-promise-title.jsx-c46bd41bf033792c{margin-bottom:.45rem;font-size:1.05rem}.pricing-promise-text.jsx-c46bd41bf033792c{margin-bottom:1.1rem;font-size:.84rem;line-height:1.5}.pricing-promise-btn.jsx-c46bd41bf033792c{border-radius:12px;width:100%;max-width:100%;min-height:44px;padding:.7rem 1rem;font-size:.85rem}.pricing-promise-btn.jsx-c46bd41bf033792c svg{width:17px;height:17px}}@media (width<=359px){.included-not-included-section.jsx-c46bd41bf033792c{gap:.85rem;margin-bottom:1rem}.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c{border-radius:13px;padding:.85rem}.included-card-title.jsx-c46bd41bf033792c,.not-included-card-title.jsx-c46bd41bf033792c{gap:.35rem;font-size:.88rem}.included-card-title.jsx-c46bd41bf033792c svg,.not-included-card-title.jsx-c46bd41bf033792c svg{width:17px;height:17px}.included-list-item.jsx-c46bd41bf033792c{gap:.35rem;padding:.28rem 0;font-size:.78rem}.included-check.jsx-c46bd41bf033792c,.not-included-cross.jsx-c46bd41bf033792c{flex-basis:17px;width:17px;font-size:.9rem}.pricing-promise.jsx-c46bd41bf033792c{border-radius:13px;padding:1rem .8rem}.pricing-promise-icon.jsx-c46bd41bf033792c{width:44px;height:44px}.pricing-promise-icon.jsx-c46bd41bf033792c svg{width:22px;height:22px}.pricing-promise-title.jsx-c46bd41bf033792c{font-size:.98rem}.pricing-promise-text.jsx-c46bd41bf033792c{font-size:.78rem;line-height:1.45}.pricing-promise-btn.jsx-c46bd41bf033792c{padding:.65rem .75rem;font-size:.78rem}}@media (hover:none){.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c,.pricing-promise.jsx-c46bd41bf033792c,.pricing-promise-btn.jsx-c46bd41bf033792c{transition:none}}@media (prefers-reduced-motion:reduce){.included-card.jsx-c46bd41bf033792c,.not-included-card.jsx-c46bd41bf033792c,.pricing-promise.jsx-c46bd41bf033792c,.pricing-promise-btn.jsx-c46bd41bf033792c{transition:none}}"
                                 }, void 0, false, void 0, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 2745,
+                            lineNumber: 3659,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 2741,
+                        lineNumber: 3655,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -5974,14 +5294,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3480,
+                                                    lineNumber: 4718,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Transparent Pricing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3467,
+                                            lineNumber: 4705,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -5997,7 +5317,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3482,
+                                            lineNumber: 4720,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6009,13 +5329,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             children: "Choose the vehicle that fits your group and luggage."
                                         }, void 0, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3492,
+                                            lineNumber: 4730,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3460,
+                                    lineNumber: 4698,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6064,7 +5384,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3539,
+                                                            lineNumber: 4777,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6085,7 +5405,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.capacity
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3552,
+                                                            lineNumber: 4790,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6111,20 +5431,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     fill: "#FFB800"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3589,
+                                                                    lineNumber: 4827,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " 4.9"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3571,
+                                                            lineNumber: 4809,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3527,
+                                                    lineNumber: 4765,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6143,7 +5463,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3595,
+                                                            lineNumber: 4833,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6158,7 +5478,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: model.tagline
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3606,
+                                                            lineNumber: 4844,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6186,7 +5506,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3632,
+                                                                            lineNumber: 4870,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.seater,
@@ -6194,7 +5514,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3631,
+                                                                    lineNumber: 4869,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6211,20 +5531,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3639,
+                                                                            lineNumber: 4877,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.luggageCapacity
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3638,
+                                                                    lineNumber: 4876,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3620,
+                                                            lineNumber: 4858,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6245,7 +5565,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                             children: "Starting from"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3657,
+                                                                            lineNumber: 4895,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6266,19 +5586,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                                     children: "/km"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                                    lineNumber: 3669,
+                                                                                    lineNumber: 4907,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                                            lineNumber: 3660,
+                                                                            lineNumber: 4898,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3656,
+                                                                    lineNumber: 4894,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -6295,13 +5615,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3680,
+                                                                    lineNumber: 4918,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3648,
+                                                            lineNumber: 4886,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -6332,42 +5652,42 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     size: 16
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3720,
+                                                                    lineNumber: 4958,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " Book This Vehicle"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3694,
+                                                            lineNumber: 4932,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3594,
+                                                    lineNumber: 4832,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, model.id, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3512,
+                                            lineNumber: 4750,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3503,
+                                    lineNumber: 4741,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3452,
+                            lineNumber: 4690,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3448,
+                        lineNumber: 4686,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6408,14 +5728,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3762,
+                                                    lineNumber: 5000,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Customer Reviews"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3749,
+                                            lineNumber: 4987,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -6439,13 +5759,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3773,
+                                                    lineNumber: 5011,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3764,
+                                            lineNumber: 5002,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6463,13 +5783,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3777,
+                                            lineNumber: 5015,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3742,
+                                    lineNumber: 4980,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6548,12 +5868,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             color: i < review.rating ? "#FFB800" : "#d1d5db"
                                                         }, i, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3864,
+                                                            lineNumber: 5102,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3855,
+                                                    lineNumber: 5093,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6571,7 +5891,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3874,
+                                                    lineNumber: 5112,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6599,7 +5919,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             children: review.avatar
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3896,
+                                                            lineNumber: 5134,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6613,7 +5933,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     children: review.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3913,
+                                                                    lineNumber: 5151,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6628,41 +5948,41 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 3922,
+                                                                    lineNumber: 5160,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3912,
+                                                            lineNumber: 5150,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3887,
+                                                    lineNumber: 5125,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3830,
+                                            lineNumber: 5068,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3789,
+                                    lineNumber: 5027,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3734,
+                            lineNumber: 4972,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3730,
+                        lineNumber: 4968,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -6686,12 +6006,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         children: "More Popular Routes"
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 3952,
+                                        lineNumber: 5190,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3951,
+                                    lineNumber: 5189,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -6708,7 +6028,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3958,
+                                                    lineNumber: 5196,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -6718,7 +6038,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3962,
+                                                            lineNumber: 5200,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -6729,7 +6049,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 3963,
+                                                            lineNumber: 5201,
                                                             columnNumber: 21
                                                         }, this),
                                                         " ",
@@ -6737,7 +6057,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3961,
+                                                    lineNumber: 5199,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -6746,708 +6066,536 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     children: "View Route"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 3965,
+                                                    lineNumber: 5203,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, item.routeSlug, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3957,
+                                            lineNumber: 5195,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3955,
+                                    lineNumber: 5193,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3943,
+                            lineNumber: 5181,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3939,
+                        lineNumber: 5177,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-                        className: "section-padding",
-                        style: {
-                            padding: "4rem 0",
-                            background: "#ffffff"
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            style: {
-                                maxWidth: "1280px",
-                                margin: "0 auto",
-                                padding: "0 1.5rem"
-                            },
-                            className: "jsx-548d48f0ecff5dd6" + " " + "container",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        textAlign: "center",
-                                        maxWidth: "780px",
-                                        margin: "0 auto 2.5rem"
-                                    },
-                                    className: "jsx-548d48f0ecff5dd6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                gap: "0.5rem",
-                                                background: "#eef3ff",
-                                                color: "#0052CC",
-                                                padding: "0.25rem 1.2rem",
-                                                borderRadius: "40px",
-                                                fontSize: "0.8rem",
-                                                fontWeight: 600
-                                            },
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                    size: 14
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4011,
-                                                    columnNumber: 17
-                                                }, this),
-                                                " Journey Preview"
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 3998,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
-                                            style: {
-                                                fontSize: "2.3rem",
-                                                fontWeight: 700,
-                                                margin: "0.5rem 0 0.75rem",
-                                                color: "#0b1a2e"
-                                            },
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: [
-                                                "Experience a Smooth Ride from",
-                                                " ",
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    style: {
-                                                        color: "#0052CC"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        route.origin,
-                                                        " to ",
-                                                        route.destination
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4022,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4013,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                fontSize: "1.05rem",
-                                                color: "#4a5a6e",
-                                                lineHeight: "1.6"
-                                            },
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: [
-                                                "Travel with comfort, safety, and flexibility. Your journey from",
-                                                " ",
-                                                route.origin,
-                                                " to ",
-                                                route.destination,
-                                                " starts here."
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4026,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 3991,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: "grid",
-                                        gridTemplateColumns: "1fr 1fr",
-                                        gap: "3rem",
-                                        alignItems: "center"
-                                    },
-                                    className: "jsx-548d48f0ecff5dd6",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        display: "inline-flex",
-                                                        alignItems: "center",
-                                                        gap: "0.5rem",
-                                                        background: "#0052CC",
-                                                        color: "#fff",
-                                                        padding: "0.3rem 1.2rem",
-                                                        borderRadius: "40px",
-                                                        fontSize: "0.75rem",
-                                                        fontWeight: 600,
-                                                        letterSpacing: "0.5px",
-                                                        marginBottom: "1rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bus$2d$front$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BusFront$3e$__["BusFront"], {
-                                                            size: 14
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4064,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        " Premium Travel Experience"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4049,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                                    style: {
-                                                        fontSize: "1.5rem",
-                                                        fontWeight: 700,
-                                                        color: "#0b1a2e",
-                                                        marginBottom: "0.5rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        "Travel from ",
-                                                        route.origin,
-                                                        " to ",
-                                                        route.destination
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4067,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                    style: {
-                                                        fontSize: "1rem",
-                                                        color: "#4a5a6e",
-                                                        lineHeight: "1.7",
-                                                        marginBottom: "1.5rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        route.distanceKm,
-                                                        "km journey in ",
-                                                        route.durationHrs,
-                                                        ". Perfect for",
-                                                        route.category?.toLowerCase() === "pilgrimage" ? " pilgrimage" : "",
-                                                        route.category?.toLowerCase() === "hill station" ? " hill station" : "",
-                                                        route.category?.toLowerCase() === "tourist" ? " tourism" : "",
-                                                        " ",
-                                                        "group travel."
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4078,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        display: "grid",
-                                                        gridTemplateColumns: "1fr 1fr",
-                                                        gap: "0.75rem",
-                                                        marginBottom: "1.5rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                                size: 16,
-                                                                color: "#0052CC"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4111,
-                                                                columnNumber: 29
-                                                            }, this),
-                                                            text: "Door-to-door pickup & drop"
-                                                        },
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
-                                                                size: 16,
-                                                                color: "#0052CC"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4115,
-                                                                columnNumber: 29
-                                                            }, this),
-                                                            text: "Safe & verified drivers"
-                                                        },
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                                                size: 16,
-                                                                color: "#0052CC"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4119,
-                                                                columnNumber: 29
-                                                            }, this),
-                                                            text: "Highly rated by travelers"
-                                                        },
-                                                        {
-                                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
-                                                                size: 16,
-                                                                color: "#0052CC"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4123,
-                                                                columnNumber: 29
-                                                            }, this),
-                                                            text: "On-time service guarantee"
-                                                        }
-                                                    ].map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                            style: {
-                                                                display: "flex",
-                                                                alignItems: "center",
-                                                                gap: "0.5rem",
-                                                                padding: "0.5rem",
-                                                                background: "#f9fafc",
-                                                                borderRadius: "10px",
-                                                                transition: "all 0.3s ease"
-                                                            },
-                                                            onMouseEnter: (e)=>{
-                                                                e.currentTarget.style.background = "#f0f4fe";
-                                                                e.currentTarget.style.transform = "translateX(4px)";
-                                                            },
-                                                            onMouseLeave: (e)=>{
-                                                                e.currentTarget.style.background = "#f9fafc";
-                                                                e.currentTarget.style.transform = "translateX(0)";
-                                                            },
-                                                            className: "jsx-548d48f0ecff5dd6",
-                                                            children: [
-                                                                feature.icon,
-                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                                    style: {
-                                                                        fontSize: "0.85rem",
-                                                                        color: "#1a2634",
-                                                                        fontWeight: 500
-                                                                    },
-                                                                    className: "jsx-548d48f0ecff5dd6",
-                                                                    children: feature.text
-                                                                }, void 0, false, {
-                                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                                    lineNumber: 4148,
-                                                                    columnNumber: 23
-                                                                }, this)
-                                                            ]
-                                                        }, index, true, {
-                                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4127,
-                                                            columnNumber: 21
-                                                        }, this))
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4101,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                    href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Book Urbania from ${route.origin} to ${route.destination}`)}`,
-                                                    target: "_blank",
-                                                    rel: "noopener noreferrer",
-                                                    style: {
-                                                        display: "inline-flex",
-                                                        alignItems: "center",
-                                                        gap: "0.6rem",
-                                                        padding: "0.8rem 2.5rem",
-                                                        borderRadius: "50px",
-                                                        background: "#25D366",
-                                                        color: "#fff",
-                                                        fontWeight: 700,
-                                                        textDecoration: "none",
-                                                        transition: "all 0.3s ease",
-                                                        border: "none",
-                                                        fontSize: "1rem",
-                                                        cursor: "pointer",
-                                                        boxShadow: "0 8px 24px rgba(37, 211, 102, 0.25)"
-                                                    },
-                                                    onMouseEnter: (e)=>{
-                                                        e.currentTarget.style.transform = "scale(1.05)";
-                                                        e.currentTarget.style.boxShadow = "0 12px 32px rgba(37, 211, 102, 0.35)";
-                                                    },
-                                                    onMouseLeave: (e)=>{
-                                                        e.currentTarget.style.transform = "scale(1)";
-                                                        e.currentTarget.style.boxShadow = "0 8px 24px rgba(37, 211, 102, 0.25)";
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: [
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
-                                                            size: 20
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4195,
-                                                            columnNumber: 19
-                                                        }, this),
-                                                        " Book Your Ride →"
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4162,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4047,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                borderRadius: "24px",
-                                                overflow: "hidden",
-                                                border: "1px solid #ecf0f7",
-                                                boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
-                                                transition: "all 0.3s ease"
-                                            },
-                                            onMouseEnter: (e)=>{
-                                                e.currentTarget.style.boxShadow = "0 16px 40px rgba(0, 82, 204, 0.12)";
-                                                e.currentTarget.style.transform = "scale(1.01)";
-                                            },
-                                            onMouseLeave: (e)=>{
-                                                e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,20,50,0.06)";
-                                                e.currentTarget.style.transform = "scale(1)";
-                                            },
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                style: {
-                                                    position: "relative",
-                                                    width: "100%",
-                                                    paddingBottom: "75%",
-                                                    background: "#eef3ff",
-                                                    display: "flex",
-                                                    alignItems: "center",
-                                                    justifyContent: "center"
-                                                },
-                                                className: "jsx-548d48f0ecff5dd6",
+                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-section",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                className: "jsx-33d2df6929a81fec" + " " + "journey-preview-container",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-header",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-preview-badge",
                                                 children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            position: "absolute",
-                                                            top: 0,
-                                                            left: 0,
-                                                            width: "100%",
-                                                            height: "100%"
-                                                        },
-                                                        className: "jsx-548d48f0ecff5dd6",
-                                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
-                                                            src: `https://www.google.com/maps/embed/v1/directions?key=YOUR_GOOGLE_MAPS_API_KEY&origin=${encodeURIComponent(route.origin)}&destination=${encodeURIComponent(route.destination)}&mode=driving`,
-                                                            width: "100%",
-                                                            height: "100%",
-                                                            style: {
-                                                                border: 0
-                                                            },
-                                                            allowFullScreen: "",
-                                                            loading: "lazy",
-                                                            referrerPolicy: "no-referrer-when-downgrade",
-                                                            title: `Map showing route from ${route.origin} to ${route.destination}`,
-                                                            className: "jsx-548d48f0ecff5dd6"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                                            lineNumber: 4240,
-                                                            columnNumber: 21
-                                                        }, this)
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                        size: 14
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4231,
-                                                        columnNumber: 19
+                                                        lineNumber: 5221,
+                                                        columnNumber: 17
                                                     }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                        style: {
-                                                            position: "absolute",
-                                                            top: 0,
-                                                            left: 0,
-                                                            width: "100%",
-                                                            height: "100%",
-                                                            display: "flex",
-                                                            flexDirection: "column",
-                                                            alignItems: "center",
-                                                            justifyContent: "center",
-                                                            background: "rgba(255,255,255,0.95)",
-                                                            color: "#0b1a2e",
-                                                            padding: "2rem",
-                                                            textAlign: "center",
-                                                            cursor: "pointer",
-                                                            transition: "all 0.3s ease",
-                                                            zIndex: 1
-                                                        },
-                                                        onClick: ()=>{
-                                                            window.open(`https://www.google.com/maps/dir/${encodeURIComponent(route.origin)}/${encodeURIComponent(route.destination)}`, "_blank");
-                                                        },
-                                                        onMouseEnter: (e)=>{
-                                                            e.currentTarget.style.background = "rgba(255,255,255,0.98)";
-                                                            e.currentTarget.style.boxShadow = "inset 0 0 0 2px #0052CC";
-                                                        },
-                                                        onMouseLeave: (e)=>{
-                                                            e.currentTarget.style.background = "rgba(255,255,255,0.95)";
-                                                            e.currentTarget.style.boxShadow = "none";
-                                                        },
-                                                        className: "jsx-548d48f0ecff5dd6" + " " + "map-overlay",
-                                                        children: [
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    fontSize: "3rem",
-                                                                    marginBottom: "0.5rem"
-                                                                },
-                                                                className: "jsx-548d48f0ecff5dd6",
-                                                                children: "🗺️"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4291,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                                                style: {
-                                                                    fontSize: "1.2rem",
-                                                                    fontWeight: 700,
-                                                                    color: "#0b1a2e",
-                                                                    marginBottom: "0.5rem"
-                                                                },
-                                                                className: "jsx-548d48f0ecff5dd6",
-                                                                children: "View Route Map"
-                                                            }, void 0, false, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4299,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                                                style: {
-                                                                    fontSize: "0.9rem",
-                                                                    color: "#4a5a6e",
-                                                                    maxWidth: "300px",
-                                                                    marginBottom: "0.5rem"
-                                                                },
-                                                                className: "jsx-548d48f0ecff5dd6",
-                                                                children: [
-                                                                    "Click to load live Google Map for ",
-                                                                    route.origin,
-                                                                    " to",
-                                                                    " ",
-                                                                    route.destination
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4309,
-                                                                columnNumber: 21
-                                                            }, this),
-                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                                style: {
-                                                                    display: "inline-flex",
-                                                                    alignItems: "center",
-                                                                    gap: "0.4rem",
-                                                                    color: "#0052CC",
-                                                                    fontWeight: 600,
-                                                                    fontSize: "0.85rem",
-                                                                    marginTop: "0.5rem"
-                                                                },
-                                                                className: "jsx-548d48f0ecff5dd6",
-                                                                children: [
-                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
-                                                                        size: 16
-                                                                    }, void 0, false, {
-                                                                        fileName: "[project]/components/RouteTemplate.jsx",
-                                                                        lineNumber: 4331,
-                                                                        columnNumber: 23
-                                                                    }, this),
-                                                                    "Open Google Maps"
-                                                                ]
-                                                            }, void 0, true, {
-                                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                                lineNumber: 4320,
-                                                                columnNumber: 21
-                                                            }, this)
-                                                        ]
-                                                    }, void 0, true, {
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-33d2df6929a81fec",
+                                                        children: "Journey Preview"
+                                                    }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4253,
-                                                        columnNumber: 19
+                                                        lineNumber: 5222,
+                                                        columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4219,
-                                                columnNumber: 17
+                                                lineNumber: 5220,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-preview-title",
+                                                children: [
+                                                    "Experience a Smooth Ride from",
+                                                    " ",
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        className: "jsx-33d2df6929a81fec",
+                                                        children: [
+                                                            route.origin,
+                                                            " to ",
+                                                            route.destination
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5227,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 5225,
+                                                columnNumber: 15
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-preview-description",
+                                                children: [
+                                                    "Travel with comfort, safety, and flexibility. Your journey from",
+                                                    " ",
+                                                    route.origin,
+                                                    " to ",
+                                                    route.destination,
+                                                    " starts here."
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 5232,
+                                                columnNumber: 15
                                             }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4200,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4038,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: "grid",
-                                        gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
-                                        gap: "1.5rem",
-                                        marginTop: "3rem"
-                                    },
-                                    className: "jsx-548d48f0ecff5dd6",
-                                    children: [
-                                        {
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$road$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Road$3e$__["Road"], {
-                                                size: 20,
-                                                color: "#0052CC"
-                                            }, void 0, false, {
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 5219,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-grid",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-preview-content",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-premium-badge",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$bus$2d$front$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__BusFront$3e$__["BusFront"], {
+                                                                size: 14
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5244,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "jsx-33d2df6929a81fec",
+                                                                children: "Premium Travel Experience"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5245,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5243,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-subtitle",
+                                                        children: [
+                                                            "Travel from ",
+                                                            route.origin,
+                                                            " to ",
+                                                            route.destination
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5248,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-text",
+                                                        children: [
+                                                            route.distanceKm,
+                                                            "km journey in ",
+                                                            route.durationHrs,
+                                                            ". Perfect for",
+                                                            route.category?.toLowerCase() === "pilgrimage" ? " pilgrimage" : "",
+                                                            route.category?.toLowerCase() === "hill station" ? " hill station" : "",
+                                                            route.category?.toLowerCase() === "tourist" ? " tourism" : "",
+                                                            " ",
+                                                            "group travel."
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5252,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-features",
+                                                        children: [
+                                                            {
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                                    size: 16,
+                                                                    color: "#0052CC"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5271,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                text: "Door-to-door pickup & drop"
+                                                            },
+                                                            {
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$shield$2d$check$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ShieldCheck$3e$__["ShieldCheck"], {
+                                                                    size: 16,
+                                                                    color: "#0052CC"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5275,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                text: "Safe & verified drivers"
+                                                            },
+                                                            {
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
+                                                                    size: 16,
+                                                                    color: "#0052CC"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5279,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                text: "Highly rated by travelers"
+                                                            },
+                                                            {
+                                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                                    size: 16,
+                                                                    color: "#0052CC"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5283,
+                                                                    columnNumber: 29
+                                                                }, this),
+                                                                text: "On-time service guarantee"
+                                                            }
+                                                        ].map((feature, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                onMouseEnter: (e)=>{
+                                                                    e.currentTarget.style.background = "#f0f4fe";
+                                                                    e.currentTarget.style.transform = "translateX(4px)";
+                                                                },
+                                                                onMouseLeave: (e)=>{
+                                                                    e.currentTarget.style.background = "#f9fafc";
+                                                                    e.currentTarget.style.transform = "translateX(0)";
+                                                                },
+                                                                className: "jsx-33d2df6929a81fec" + " " + "journey-feature",
+                                                                children: [
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-feature-icon",
+                                                                        children: feature.icon
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 5299,
+                                                                        columnNumber: 23
+                                                                    }, this),
+                                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-feature-text",
+                                                                        children: feature.text
+                                                                    }, void 0, false, {
+                                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                                        lineNumber: 5303,
+                                                                        columnNumber: 23
+                                                                    }, this)
+                                                                ]
+                                                            }, index, true, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5287,
+                                                                columnNumber: 21
+                                                            }, this))
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5268,
+                                                        columnNumber: 17
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                        href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Book Urbania from ${route.origin} to ${route.destination}`)}`,
+                                                        target: "_blank",
+                                                        rel: "noopener noreferrer",
+                                                        onMouseEnter: (e)=>{
+                                                            e.currentTarget.style.transform = "translateY(-2px)";
+                                                            e.currentTarget.style.boxShadow = "0 12px 32px rgba(37, 211, 102, 0.35)";
+                                                        },
+                                                        onMouseLeave: (e)=>{
+                                                            e.currentTarget.style.transform = "translateY(0)";
+                                                            e.currentTarget.style.boxShadow = "0 8px 24px rgba(37, 211, 102, 0.25)";
+                                                        },
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-book-btn",
+                                                        children: [
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
+                                                                size: 20
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5329,
+                                                                columnNumber: 19
+                                                            }, this),
+                                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                className: "jsx-33d2df6929a81fec",
+                                                                children: "Book Your Ride →"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5330,
+                                                                columnNumber: 19
+                                                            }, this)
+                                                        ]
+                                                    }, void 0, true, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5311,
+                                                        columnNumber: 17
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4350,
-                                                columnNumber: 25
+                                                lineNumber: 5241,
+                                                columnNumber: 15
                                             }, this),
-                                            label: "Total Distance",
-                                            value: `${route.distanceKm} km`
-                                        },
-                                        {
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
-                                                size: 20,
-                                                color: "#0052CC"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4355,
-                                                columnNumber: 25
-                                            }, this),
-                                            label: "Travel Time",
-                                            value: route.durationHrs
-                                        },
-                                        {
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
-                                                size: 20,
-                                                color: "#0052CC"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4360,
-                                                columnNumber: 25
-                                            }, this),
-                                            label: "Max Capacity",
-                                            value: "20 Passengers"
-                                        },
-                                        {
-                                            icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$car$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Car$3e$__["Car"], {
-                                                size: 20,
-                                                color: "#0052CC"
-                                            }, void 0, false, {
-                                                fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4365,
-                                                columnNumber: 25
-                                            }, this),
-                                            label: "Vehicle Type",
-                                            value: "Force Urbania"
-                                        }
-                                    ].map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                background: "#ffffff",
-                                                padding: "1.2rem",
-                                                borderRadius: "16px",
-                                                border: "1px solid #ecf0f7",
-                                                textAlign: "center",
-                                                transition: "all 0.3s ease"
-                                            },
-                                            onMouseEnter: (e)=>{
-                                                e.currentTarget.style.borderColor = "#0052CC";
-                                                e.currentTarget.style.transform = "translateY(-4px)";
-                                                e.currentTarget.style.boxShadow = "0 8px 24px rgba(0, 82, 204, 0.06)";
-                                            },
-                                            onMouseLeave: (e)=>{
-                                                e.currentTarget.style.borderColor = "#ecf0f7";
-                                                e.currentTarget.style.transform = "translateY(0)";
-                                                e.currentTarget.style.boxShadow = "none";
-                                            },
-                                            className: "jsx-548d48f0ecff5dd6",
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        display: "inline-flex",
-                                                        alignItems: "center",
-                                                        justifyContent: "center",
-                                                        width: "40px",
-                                                        height: "40px",
-                                                        borderRadius: "50%",
-                                                        background: "#eef3ff",
-                                                        marginBottom: "0.5rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: stat.icon
-                                                }, void 0, false, {
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                onMouseEnter: (e)=>{
+                                                    e.currentTarget.style.boxShadow = "0 16px 40px rgba(0, 82, 204, 0.12)";
+                                                    e.currentTarget.style.transform = "translateY(-2px)";
+                                                },
+                                                onMouseLeave: (e)=>{
+                                                    e.currentTarget.style.boxShadow = "0 8px 24px rgba(0,20,50,0.06)";
+                                                    e.currentTarget.style.transform = "translateY(0)";
+                                                },
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-map-card",
+                                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                    className: "jsx-33d2df6929a81fec" + " " + "journey-map-wrapper",
+                                                    children: [
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            className: "jsx-33d2df6929a81fec" + " " + "journey-map-container",
+                                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("iframe", {
+                                                                src: `https://www.google.com/maps/embed/v1/directions?key=YOUR_GOOGLE_MAPS_API_KEY&origin=${encodeURIComponent(route.origin)}&destination=${encodeURIComponent(route.destination)}&mode=driving`,
+                                                                width: "100%",
+                                                                height: "100%",
+                                                                style: {
+                                                                    border: 0
+                                                                },
+                                                                allowFullScreen: "",
+                                                                loading: "lazy",
+                                                                referrerPolicy: "no-referrer-when-downgrade",
+                                                                title: `Map showing route from ${route.origin} to ${route.destination}`,
+                                                                className: "jsx-33d2df6929a81fec"
+                                                            }, void 0, false, {
+                                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                                lineNumber: 5351,
+                                                                columnNumber: 21
+                                                            }, this)
+                                                        }, void 0, false, {
+                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                            lineNumber: 5350,
+                                                            columnNumber: 19
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                            onClick: ()=>{
+                                                                window.open(`https://www.google.com/maps/dir/${encodeURIComponent(route.origin)}/${encodeURIComponent(route.destination)}`, "_blank");
+                                                            },
+                                                            onMouseEnter: (e)=>{
+                                                                e.currentTarget.style.background = "rgba(255,255,255,0.98)";
+                                                                e.currentTarget.style.boxShadow = "inset 0 0 0 2px #0052CC";
+                                                            },
+                                                            onMouseLeave: (e)=>{
+                                                                e.currentTarget.style.background = "rgba(255,255,255,0.95)";
+                                                                e.currentTarget.style.boxShadow = "none";
+                                                            },
+                                                            className: "jsx-33d2df6929a81fec" + " " + "map-overlay",
+                                                            children: [
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "jsx-33d2df6929a81fec" + " " + "map-overlay-icon",
+                                                                    children: "🗺️"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5390,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
+                                                                    className: "jsx-33d2df6929a81fec",
+                                                                    children: "View Route Map"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5392,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                                    className: "jsx-33d2df6929a81fec",
+                                                                    children: [
+                                                                        "Click to load live Google Map for ",
+                                                                        route.origin,
+                                                                        " to",
+                                                                        " ",
+                                                                        route.destination
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5394,
+                                                                    columnNumber: 21
+                                                                }, this),
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                                    className: "jsx-33d2df6929a81fec" + " " + "map-overlay-link",
+                                                                    children: [
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$map$2d$pin$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MapPin$3e$__["MapPin"], {
+                                                                            size: 16
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                                            lineNumber: 5400,
+                                                                            columnNumber: 23
+                                                                        }, this),
+                                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                            className: "jsx-33d2df6929a81fec",
+                                                                            children: "Open Google Maps"
+                                                                        }, void 0, false, {
+                                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                                            lineNumber: 5401,
+                                                                            columnNumber: 23
+                                                                        }, this)
+                                                                    ]
+                                                                }, void 0, true, {
+                                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                                    lineNumber: 5399,
+                                                                    columnNumber: 21
+                                                                }, this)
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/components/RouteTemplate.jsx",
+                                                            lineNumber: 5368,
+                                                            columnNumber: 19
+                                                        }, this)
+                                                    ]
+                                                }, void 0, true, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4392,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: "0.7rem",
-                                                        color: "#7a8a9e",
-                                                        fontWeight: 600,
-                                                        textTransform: "uppercase",
-                                                        letterSpacing: "0.5px"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: stat.label
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4406,
-                                                    columnNumber: 19
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: "1.1rem",
-                                                        fontWeight: 700,
-                                                        color: "#0b1a2e",
-                                                        marginTop: "0.2rem"
-                                                    },
-                                                    className: "jsx-548d48f0ecff5dd6",
-                                                    children: stat.value
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4417,
-                                                    columnNumber: 19
+                                                    lineNumber: 5348,
+                                                    columnNumber: 17
                                                 }, this)
-                                            ]
-                                        }, index, true, {
-                                            fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4370,
-                                            columnNumber: 17
-                                        }, this))
-                                }, void 0, false, {
-                                    fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4340,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                    id: "548d48f0ecff5dd6",
-                                    children: "@media (width<=968px){.journey-preview-grid.jsx-548d48f0ecff5dd6{grid-template-columns:1fr!important;gap:2rem!important}}@media (width<=768px){.journey-preview-section.jsx-548d48f0ecff5dd6{padding:3rem 0!important}.journey-preview-grid.jsx-548d48f0ecff5dd6{gap:1.5rem!important}.journey-preview-features.jsx-548d48f0ecff5dd6{grid-template-columns:1fr!important}.journey-preview-stats.jsx-548d48f0ecff5dd6{grid-template-columns:repeat(2,1fr)!important}.journey-preview.jsx-548d48f0ecff5dd6 h3.jsx-548d48f0ecff5dd6{font-size:1.3rem!important}.map-overlay.jsx-548d48f0ecff5dd6 h4.jsx-548d48f0ecff5dd6{font-size:1rem!important}.map-overlay.jsx-548d48f0ecff5dd6 p.jsx-548d48f0ecff5dd6{font-size:.8rem!important}}@media (width<=480px){.journey-preview-stats.jsx-548d48f0ecff5dd6{grid-template-columns:1fr 1fr!important;gap:.75rem!important}.journey-preview.jsx-548d48f0ecff5dd6 h2.jsx-548d48f0ecff5dd6{font-size:1.8rem!important}.journey-preview.jsx-548d48f0ecff5dd6 .book-btn.jsx-548d48f0ecff5dd6{justify-content:center!important;width:100%!important}}"
-                                }, void 0, false, void 0, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 3982,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
+                                            }, void 0, false, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 5335,
+                                                columnNumber: 15
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 5239,
+                                        columnNumber: 13
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "jsx-33d2df6929a81fec" + " " + "journey-preview-stats",
+                                        children: [
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$road$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Road$3e$__["Road"], {
+                                                    size: 20,
+                                                    color: "#0052CC"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 5412,
+                                                    columnNumber: 25
+                                                }, this),
+                                                label: "Total Distance",
+                                                value: `${route.distanceKm} km`
+                                            },
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$clock$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Clock$3e$__["Clock"], {
+                                                    size: 20,
+                                                    color: "#0052CC"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 5417,
+                                                    columnNumber: 25
+                                                }, this),
+                                                label: "Travel Time",
+                                                value: route.durationHrs
+                                            },
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$users$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Users$3e$__["Users"], {
+                                                    size: 20,
+                                                    color: "#0052CC"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 5422,
+                                                    columnNumber: 25
+                                                }, this),
+                                                label: "Max Capacity",
+                                                value: "20 Passengers"
+                                            },
+                                            {
+                                                icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$car$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Car$3e$__["Car"], {
+                                                    size: 20,
+                                                    color: "#0052CC"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/RouteTemplate.jsx",
+                                                    lineNumber: 5427,
+                                                    columnNumber: 25
+                                                }, this),
+                                                label: "Vehicle Type",
+                                                value: "Force Urbania"
+                                            }
+                                        ].map((stat, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                onMouseEnter: (e)=>{
+                                                    e.currentTarget.style.borderColor = "#0052CC";
+                                                    e.currentTarget.style.transform = "translateY(-4px)";
+                                                    e.currentTarget.style.boxShadow = "0 8px 24px rgba(0, 82, 204, 0.06)";
+                                                },
+                                                onMouseLeave: (e)=>{
+                                                    e.currentTarget.style.borderColor = "#ecf0f7";
+                                                    e.currentTarget.style.transform = "translateY(0)";
+                                                    e.currentTarget.style.boxShadow = "none";
+                                                },
+                                                className: "jsx-33d2df6929a81fec" + " " + "journey-stat-card",
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-stat-icon",
+                                                        children: stat.icon
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5447,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-stat-label",
+                                                        children: stat.label
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5449,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                        className: "jsx-33d2df6929a81fec" + " " + "journey-stat-value",
+                                                        children: stat.value
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                                        lineNumber: 5451,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, index, true, {
+                                                fileName: "[project]/components/RouteTemplate.jsx",
+                                                lineNumber: 5432,
+                                                columnNumber: 17
+                                            }, this))
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/RouteTemplate.jsx",
+                                        lineNumber: 5409,
+                                        columnNumber: 13
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/components/RouteTemplate.jsx",
+                                lineNumber: 5217,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
+                                id: "33d2df6929a81fec",
+                                children: ".journey-preview-section.jsx-33d2df6929a81fec{box-sizing:border-box;background:#fff;width:100%;padding:4rem 0;overflow:hidden}.journey-preview-container.jsx-33d2df6929a81fec{box-sizing:border-box;width:100%;max-width:1280px;margin:0 auto;padding:0 1.5rem}.journey-preview-header.jsx-33d2df6929a81fec{text-align:center;width:100%;max-width:780px;margin:0 auto 2.5rem}.journey-preview-badge.jsx-33d2df6929a81fec{color:#0052cc;box-sizing:border-box;background:#eef3ff;border-radius:40px;justify-content:center;align-items:center;gap:.5rem;padding:.25rem 1.2rem;font-size:.8rem;font-weight:600;display:inline-flex}.journey-preview-title.jsx-33d2df6929a81fec{color:#0b1a2e;overflow-wrap:anywhere;margin:.5rem 0 .75rem;font-size:2.3rem;font-weight:700;line-height:1.25}.journey-preview-title.jsx-33d2df6929a81fec span.jsx-33d2df6929a81fec{color:#0052cc}.journey-preview-description.jsx-33d2df6929a81fec{color:#4a5a6e;margin:0;font-size:1.05rem;line-height:1.6}.journey-preview-grid.jsx-33d2df6929a81fec{box-sizing:border-box;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:3rem;width:100%;display:grid}.journey-preview-content.jsx-33d2df6929a81fec{width:100%;min-width:0}.journey-premium-badge.jsx-33d2df6929a81fec{color:#fff;letter-spacing:.5px;box-sizing:border-box;background:#0052cc;border-radius:40px;justify-content:center;align-items:center;gap:.5rem;max-width:100%;margin-bottom:1rem;padding:.3rem 1.2rem;font-size:.75rem;font-weight:600;display:inline-flex}.journey-preview-subtitle.jsx-33d2df6929a81fec{color:#0b1a2e;overflow-wrap:anywhere;margin:0 0 .5rem;font-size:1.5rem;font-weight:700;line-height:1.35}.journey-preview-text.jsx-33d2df6929a81fec{color:#4a5a6e;overflow-wrap:anywhere;margin:0 0 1.5rem;font-size:1rem;line-height:1.7}.journey-preview-features.jsx-33d2df6929a81fec{grid-template-columns:repeat(2,minmax(0,1fr));gap:.75rem;width:100%;margin-bottom:1.5rem;display:grid}.journey-feature.jsx-33d2df6929a81fec{box-sizing:border-box;background:#f9fafc;border-radius:10px;align-items:center;gap:.5rem;min-width:0;padding:.5rem;transition:background .3s,transform .3s;display:flex}.journey-feature-icon.jsx-33d2df6929a81fec{flex:none;justify-content:center;align-items:center;display:flex}.journey-feature-text.jsx-33d2df6929a81fec{color:#1a2634;overflow-wrap:anywhere;min-width:0;font-size:.85rem;font-weight:500;line-height:1.4}.journey-book-btn.jsx-33d2df6929a81fec{color:#fff;cursor:pointer;box-sizing:border-box;background:#25d366;border-radius:50px;justify-content:center;align-items:center;gap:.6rem;min-height:46px;padding:.8rem 2.5rem;font-size:1rem;font-weight:700;text-decoration:none;transition:transform .3s,box-shadow .3s;display:inline-flex;box-shadow:0 8px 24px #25d36640}.journey-book-btn.jsx-33d2df6929a81fec svg{flex-shrink:0}.journey-map-card.jsx-33d2df6929a81fec{box-sizing:border-box;border:1px solid #ecf0f7;border-radius:24px;width:100%;min-width:0;transition:transform .3s,box-shadow .3s;overflow:hidden;box-shadow:0 8px 24px #0014320f}.journey-map-wrapper.jsx-33d2df6929a81fec{background:#eef3ff;width:100%;height:0;padding-bottom:75%;position:relative;overflow:hidden}.journey-map-container.jsx-33d2df6929a81fec{width:100%;height:100%;position:absolute;inset:0}.journey-map-container.jsx-33d2df6929a81fec iframe.jsx-33d2df6929a81fec{width:100%;height:100%;display:block}.map-overlay.jsx-33d2df6929a81fec{z-index:2;color:#0b1a2e;text-align:center;cursor:pointer;box-sizing:border-box;background:#fffffff2;flex-direction:column;justify-content:center;align-items:center;padding:2rem;transition:background .3s,box-shadow .3s;display:flex;position:absolute;inset:0}.map-overlay-icon.jsx-33d2df6929a81fec{margin-bottom:.75rem;font-size:3rem;line-height:1}.map-overlay.jsx-33d2df6929a81fec h4.jsx-33d2df6929a81fec{color:#0b1a2e;margin:0 0 .5rem;font-size:1.2rem;font-weight:700}.map-overlay.jsx-33d2df6929a81fec p.jsx-33d2df6929a81fec{color:#4a5a6e;max-width:300px;margin:0 0 .5rem;font-size:.9rem;line-height:1.5}.map-overlay-link.jsx-33d2df6929a81fec{color:#0052cc;justify-content:center;align-items:center;gap:.4rem;margin-top:.5rem;font-size:.85rem;font-weight:600;display:inline-flex}.journey-preview-stats.jsx-33d2df6929a81fec{box-sizing:border-box;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.5rem;width:100%;margin-top:3rem;display:grid}.journey-stat-card.jsx-33d2df6929a81fec{text-align:center;box-sizing:border-box;background:#fff;border:1px solid #ecf0f7;border-radius:16px;min-width:0;padding:1.2rem;transition:border-color .3s,transform .3s,box-shadow .3s}.journey-stat-icon.jsx-33d2df6929a81fec{background:#eef3ff;border-radius:50%;justify-content:center;align-items:center;width:40px;height:40px;margin-bottom:.5rem;display:inline-flex}.journey-stat-label.jsx-33d2df6929a81fec{color:#7a8a9e;text-transform:uppercase;letter-spacing:.5px;overflow-wrap:anywhere;font-size:.7rem;font-weight:600;line-height:1.4}.journey-stat-value.jsx-33d2df6929a81fec{color:#0b1a2e;overflow-wrap:anywhere;margin-top:.2rem;font-size:1.1rem;font-weight:700;line-height:1.35}@media (width<=1200px){.journey-preview-container.jsx-33d2df6929a81fec{padding:0 1.25rem}.journey-preview-grid.jsx-33d2df6929a81fec{gap:2rem}.journey-preview-stats.jsx-33d2df6929a81fec{gap:1rem}}@media (width<=1024px){.journey-preview-section.jsx-33d2df6929a81fec{padding:3.5rem 0}.journey-preview-title.jsx-33d2df6929a81fec{font-size:2rem}.journey-preview-grid.jsx-33d2df6929a81fec{grid-template-columns:1fr;gap:2rem}.journey-preview-content.jsx-33d2df6929a81fec,.journey-map-card.jsx-33d2df6929a81fec{max-width:900px;margin:0 auto}.journey-preview-stats.jsx-33d2df6929a81fec{grid-template-columns:repeat(2,minmax(0,1fr));max-width:900px;margin-left:auto;margin-right:auto}}@media (width<=768px){.journey-preview-section.jsx-33d2df6929a81fec{padding:3rem 0}.journey-preview-container.jsx-33d2df6929a81fec{padding:0 1rem}.journey-preview-header.jsx-33d2df6929a81fec{margin-bottom:2rem}.journey-preview-title.jsx-33d2df6929a81fec{font-size:1.8rem;line-height:1.3}.journey-preview-description.jsx-33d2df6929a81fec{font-size:.95rem}.journey-preview-grid.jsx-33d2df6929a81fec{gap:1.5rem}.journey-preview-subtitle.jsx-33d2df6929a81fec{font-size:1.3rem}.journey-preview-text.jsx-33d2df6929a81fec{font-size:.92rem}.journey-preview-features.jsx-33d2df6929a81fec{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem}.journey-feature.jsx-33d2df6929a81fec{padding:.5rem}.journey-feature-text.jsx-33d2df6929a81fec{font-size:.8rem}.journey-book-btn.jsx-33d2df6929a81fec{padding:.75rem 2rem}.journey-map-card.jsx-33d2df6929a81fec{border-radius:20px}.journey-map-wrapper.jsx-33d2df6929a81fec{padding-bottom:68%}.map-overlay.jsx-33d2df6929a81fec{padding:1.5rem}.map-overlay-icon.jsx-33d2df6929a81fec{font-size:2.5rem}.map-overlay.jsx-33d2df6929a81fec h4.jsx-33d2df6929a81fec{font-size:1rem}.map-overlay.jsx-33d2df6929a81fec p.jsx-33d2df6929a81fec{font-size:.8rem}.journey-preview-stats.jsx-33d2df6929a81fec{gap:.75rem;margin-top:2rem}.journey-stat-card.jsx-33d2df6929a81fec{padding:1rem .75rem}.journey-stat-value.jsx-33d2df6929a81fec{font-size:1rem}}@media (width<=600px){.journey-preview-features.jsx-33d2df6929a81fec{grid-template-columns:1fr}.journey-feature.jsx-33d2df6929a81fec{min-height:42px}.journey-map-wrapper.jsx-33d2df6929a81fec{padding-bottom:72%}}@media (width<=480px){.journey-preview-section.jsx-33d2df6929a81fec{padding:2.5rem 0}.journey-preview-container.jsx-33d2df6929a81fec{padding:0 .75rem}.journey-preview-header.jsx-33d2df6929a81fec{margin-bottom:1.5rem}.journey-preview-badge.jsx-33d2df6929a81fec{padding:.25rem .9rem;font-size:.72rem}.journey-preview-title.jsx-33d2df6929a81fec{font-size:1.55rem;line-height:1.3}.journey-preview-description.jsx-33d2df6929a81fec{font-size:.86rem;line-height:1.55}.journey-preview-grid.jsx-33d2df6929a81fec{gap:1.25rem}.journey-premium-badge.jsx-33d2df6929a81fec{margin-bottom:.75rem;padding:.3rem .85rem;font-size:.68rem}.journey-preview-subtitle.jsx-33d2df6929a81fec{font-size:1.15rem;line-height:1.35}.journey-preview-text.jsx-33d2df6929a81fec{margin-bottom:1.1rem;font-size:.85rem;line-height:1.6}.journey-preview-features.jsx-33d2df6929a81fec{grid-template-columns:1fr;gap:.5rem;margin-bottom:1.1rem}.journey-feature.jsx-33d2df6929a81fec{border-radius:9px;padding:.5rem .6rem}.journey-feature-text.jsx-33d2df6929a81fec{font-size:.78rem}.journey-book-btn.jsx-33d2df6929a81fec{border-radius:12px;width:100%;min-height:44px;padding:.75rem 1rem;font-size:.88rem}.journey-book-btn.jsx-33d2df6929a81fec svg{width:18px;height:18px}.journey-map-card.jsx-33d2df6929a81fec{border-radius:16px}.journey-map-wrapper.jsx-33d2df6929a81fec{padding-bottom:78%}.map-overlay.jsx-33d2df6929a81fec{padding:1rem}.map-overlay-icon.jsx-33d2df6929a81fec{margin-bottom:.5rem;font-size:2rem}.map-overlay.jsx-33d2df6929a81fec h4.jsx-33d2df6929a81fec{margin-bottom:.35rem;font-size:.9rem}.map-overlay.jsx-33d2df6929a81fec p.jsx-33d2df6929a81fec{max-width:240px;font-size:.72rem;line-height:1.4}.map-overlay-link.jsx-33d2df6929a81fec{margin-top:.3rem;font-size:.75rem}.map-overlay-link.jsx-33d2df6929a81fec svg{width:14px;height:14px}.journey-preview-stats.jsx-33d2df6929a81fec{grid-template-columns:repeat(2,minmax(0,1fr));gap:.6rem;margin-top:1.5rem}.journey-stat-card.jsx-33d2df6929a81fec{border-radius:12px;padding:.85rem .5rem}.journey-stat-icon.jsx-33d2df6929a81fec{width:34px;height:34px;margin-bottom:.4rem}.journey-stat-icon.jsx-33d2df6929a81fec svg{width:17px;height:17px}.journey-stat-label.jsx-33d2df6929a81fec{letter-spacing:.3px;font-size:.62rem}.journey-stat-value.jsx-33d2df6929a81fec{margin-top:.15rem;font-size:.85rem}}@media (width<=359px){.journey-preview-section.jsx-33d2df6929a81fec{padding:2rem 0}.journey-preview-container.jsx-33d2df6929a81fec{padding:0 .6rem}.journey-preview-title.jsx-33d2df6929a81fec{font-size:1.35rem}.journey-preview-description.jsx-33d2df6929a81fec{font-size:.8rem}.journey-premium-badge.jsx-33d2df6929a81fec{padding:.28rem .7rem;font-size:.62rem}.journey-preview-subtitle.jsx-33d2df6929a81fec{font-size:1.05rem}.journey-preview-text.jsx-33d2df6929a81fec{font-size:.78rem}.journey-feature.jsx-33d2df6929a81fec{padding:.45rem .5rem}.journey-feature-text.jsx-33d2df6929a81fec{font-size:.72rem}.journey-book-btn.jsx-33d2df6929a81fec{padding:.7rem .75rem;font-size:.8rem}.journey-map-wrapper.jsx-33d2df6929a81fec{padding-bottom:82%}.map-overlay.jsx-33d2df6929a81fec{padding:.75rem}.map-overlay-icon.jsx-33d2df6929a81fec{font-size:1.7rem}.map-overlay.jsx-33d2df6929a81fec h4.jsx-33d2df6929a81fec{font-size:.8rem}.map-overlay.jsx-33d2df6929a81fec p.jsx-33d2df6929a81fec{max-width:200px;font-size:.65rem}.map-overlay-link.jsx-33d2df6929a81fec{font-size:.68rem}.journey-preview-stats.jsx-33d2df6929a81fec{gap:.5rem}.journey-stat-card.jsx-33d2df6929a81fec{border-radius:10px;padding:.7rem .35rem}.journey-stat-icon.jsx-33d2df6929a81fec{width:30px;height:30px}.journey-stat-label.jsx-33d2df6929a81fec{font-size:.55rem}.journey-stat-value.jsx-33d2df6929a81fec{font-size:.75rem}}@media (hover:none){.journey-feature.jsx-33d2df6929a81fec,.journey-map-card.jsx-33d2df6929a81fec,.journey-stat-card.jsx-33d2df6929a81fec,.journey-book-btn.jsx-33d2df6929a81fec{transition:none}}@media (prefers-reduced-motion:reduce){.journey-feature.jsx-33d2df6929a81fec,.journey-map-card.jsx-33d2df6929a81fec,.journey-stat-card.jsx-33d2df6929a81fec,.journey-book-btn.jsx-33d2df6929a81fec,.map-overlay.jsx-33d2df6929a81fec{transition:none}}"
+                            }, void 0, false, void 0, this)
+                        ]
+                    }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 3978,
+                        lineNumber: 5216,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7488,14 +6636,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4522,
+                                                    lineNumber: 6321,
                                                     columnNumber: 17
                                                 }, this),
                                                 " FAQ"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4509,
+                                            lineNumber: 6308,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7514,7 +6662,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4524,
+                                            lineNumber: 6323,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7532,13 +6680,13 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4535,
+                                            lineNumber: 6334,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4502,
+                                    lineNumber: 6301,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7556,12 +6704,12 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                             onToggle: ()=>toggleFAQ(index)
                                         }, index, false, {
                                             fileName: "[project]/components/RouteTemplate.jsx",
-                                            lineNumber: 4557,
+                                            lineNumber: 6356,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4547,
+                                    lineNumber: 6346,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -7582,18 +6730,18 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                    lineNumber: 4568,
+                                    lineNumber: 6367,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/RouteTemplate.jsx",
-                            lineNumber: 4494,
+                            lineNumber: 6293,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4490,
+                        lineNumber: 6289,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -7618,7 +6766,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4600,
+                                lineNumber: 6399,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7633,7 +6781,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4612,
+                                lineNumber: 6411,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7670,14 +6818,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 fill: "#FFB800"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4655,
+                                                lineNumber: 6454,
                                                 columnNumber: 15
                                             }, this),
                                             " ⭐⭐⭐ Limited Availability"
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4637,
+                                        lineNumber: 6436,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -7703,7 +6851,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4670,
+                                                lineNumber: 6469,
                                                 columnNumber: 15
                                             }, this),
                                             " ",
@@ -7711,7 +6859,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4659,
+                                        lineNumber: 6458,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -7726,7 +6874,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                         children: "Secure your luxury Force Urbania Tempo Traveller now. Get instant confirmation, transparent pricing, and a dedicated chauffeur for your journey."
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4677,
+                                        lineNumber: 6476,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7749,7 +6897,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4710,
+                                                    lineNumber: 6509,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Instant Confirmation"
@@ -7759,7 +6907,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4713,
+                                                    lineNumber: 6512,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Verified Chauffeur"
@@ -7769,7 +6917,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4714,
+                                                    lineNumber: 6513,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "Best Price Guarantee"
@@ -7779,7 +6927,7 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/RouteTemplate.jsx",
-                                                    lineNumber: 4715,
+                                                    lineNumber: 6514,
                                                     columnNumber: 25
                                                 }, this),
                                                 text: "24/7 Support"
@@ -7803,19 +6951,19 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: benefit.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4730,
+                                                        lineNumber: 6529,
                                                         columnNumber: 19
                                                     }, this),
                                                     benefit.text
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4717,
+                                                lineNumber: 6516,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4693,
+                                        lineNumber: 6492,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7853,14 +7001,14 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 22
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4771,
+                                                        lineNumber: 6570,
                                                         columnNumber: 17
                                                     }, this),
                                                     " Book Now on WhatsApp"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4746,
+                                                lineNumber: 6545,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -7887,20 +7035,20 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         size: 20
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4795,
+                                                        lineNumber: 6594,
                                                         columnNumber: 17
                                                     }, this),
                                                     " Call Now"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4775,
+                                                lineNumber: 6574,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4737,
+                                        lineNumber: 6536,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -7950,36 +7098,31 @@ function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
                                                         children: item.icon
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                                        lineNumber: 4829,
+                                                        lineNumber: 6628,
                                                         columnNumber: 19
                                                     }, this),
                                                     item.text
                                                 ]
                                             }, index, true, {
                                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                                lineNumber: 4818,
+                                                lineNumber: 6617,
                                                 columnNumber: 17
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/RouteTemplate.jsx",
-                                        lineNumber: 4800,
+                                        lineNumber: 6599,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/RouteTemplate.jsx",
-                                lineNumber: 4625,
+                                lineNumber: 6424,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4589,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
-                        fileName: "[project]/components/RouteTemplate.jsx",
-                        lineNumber: 4845,
+                        lineNumber: 6388,
                         columnNumber: 9
                     }, this)
                 ]
