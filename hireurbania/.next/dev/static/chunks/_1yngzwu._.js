@@ -632,13 +632,13 @@ function FareCalculator({ onOpenModal }) {
     const totalDriverAllowance = numDays * currentModel.driverAllowance;
     const estimatedTotal = baseKmFare + totalDriverAllowance;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
-        className: "section-padding",
+        className: "section-padding fare-calculator-section",
         id: "calculator",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "container",
+            className: "container fare-calculator-container",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "section-header",
+                    className: "section-header fare-calculator-header",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "badge-pill",
@@ -647,32 +647,39 @@ function FareCalculator({ onOpenModal }) {
                                     size: 14
                                 }, void 0, false, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 25,
-                                    columnNumber: 39
+                                    lineNumber: 29,
+                                    columnNumber: 13
                                 }, this),
-                                " Instant Online Estimator"
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                    children: "Instant Online Estimator"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/FareCalculator.jsx",
+                                    lineNumber: 30,
+                                    columnNumber: 13
+                                }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/FareCalculator.jsx",
-                            lineNumber: 25,
+                            lineNumber: 28,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                             className: "section-title",
                             children: [
-                                "Transparent ",
+                                "Transparent",
+                                ' ',
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "text-gradient-blue",
                                     children: "Fare Calculator"
                                 }, void 0, false, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 26,
-                                    columnNumber: 53
+                                    lineNumber: 35,
+                                    columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/FareCalculator.jsx",
-                            lineNumber: 26,
+                            lineNumber: 33,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -680,13 +687,13 @@ function FareCalculator({ onOpenModal }) {
                             children: "No hidden fees. Calculate your total estimated fare including base kilometer rates and driver allowance instantly."
                         }, void 0, false, {
                             fileName: "[project]/components/FareCalculator.jsx",
-                            lineNumber: 27,
+                            lineNumber: 38,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/FareCalculator.jsx",
-                    lineNumber: 24,
+                    lineNumber: 27,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -696,26 +703,18 @@ function FareCalculator({ onOpenModal }) {
                             className: "calc-controls",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: 'flex',
-                                        flexDirection: 'column',
-                                        gap: '0.5rem'
-                                    },
+                                    className: "seater-selector-group",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                             className: "form-label",
                                             children: "Select Seater Variant"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 34,
+                                            lineNumber: 52,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'grid',
-                                                gridTemplateColumns: 'repeat(auto-fit, minmax(100px, 1fr))',
-                                                gap: '0.5rem'
-                                            },
+                                            className: "seater-options",
                                             children: [
                                                 9,
                                                 12,
@@ -725,36 +724,25 @@ function FareCalculator({ onOpenModal }) {
                                             ].map((seater)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     type: "button",
                                                     onClick: ()=>setSelectedSeater(seater),
-                                                    style: {
-                                                        padding: '0.6rem 0.4rem',
-                                                        borderRadius: 'var(--radius-sm)',
-                                                        border: selectedSeater === seater ? '2px solid var(--blue-600)' : '1px solid var(--border-light)',
-                                                        background: selectedSeater === seater ? 'var(--blue-100)' : 'var(--bg-light)',
-                                                        color: selectedSeater === seater ? 'var(--blue-600)' : 'var(--text-dark)',
-                                                        fontWeight: '700',
-                                                        fontSize: '0.85rem',
-                                                        cursor: 'pointer',
-                                                        transition: '0.2s',
-                                                        textAlign: 'center'
-                                                    },
+                                                    className: `seater-option ${selectedSeater === seater ? 'active' : ''}`,
                                                     children: [
                                                         seater,
                                                         " Seater"
                                                     ]
                                                 }, seater, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 37,
+                                                    lineNumber: 58,
                                                     columnNumber: 19
                                                 }, this))
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 35,
+                                            lineNumber: 56,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 33,
+                                    lineNumber: 51,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -768,7 +756,7 @@ function FareCalculator({ onOpenModal }) {
                                                     children: "Estimated Roundtrip KM"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 63,
+                                                    lineNumber: 75,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -779,13 +767,13 @@ function FareCalculator({ onOpenModal }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 64,
+                                                    lineNumber: 79,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 62,
+                                            lineNumber: 74,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -798,48 +786,43 @@ function FareCalculator({ onOpenModal }) {
                                             className: "custom-slider"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 66,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'flex',
-                                                justifyContent: 'space-between',
-                                                fontSize: '0.72rem',
-                                                color: 'var(--text-muted)'
-                                            },
+                                            className: "slider-range-labels",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "200 KM"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 95,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "1,200 KM"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 77,
+                                                    lineNumber: 96,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "2,500 KM"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 78,
+                                                    lineNumber: 97,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -853,7 +836,7 @@ function FareCalculator({ onOpenModal }) {
                                                     children: "Trip Duration (Days)"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 85,
+                                                    lineNumber: 104,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -864,13 +847,13 @@ function FareCalculator({ onOpenModal }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 108,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 84,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -883,108 +866,92 @@ function FareCalculator({ onOpenModal }) {
                                             className: "custom-slider"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 88,
+                                            lineNumber: 113,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                display: 'flex',
-                                                justifyContent: 'space-between',
-                                                fontSize: '0.72rem',
-                                                color: 'var(--text-muted)'
-                                            },
+                                            className: "slider-range-labels",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "1 Day"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 98,
+                                                    lineNumber: 124,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "7 Days"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 99,
+                                                    lineNumber: 125,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "15 Days"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 100,
+                                                    lineNumber: 126,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 97,
+                                            lineNumber: 123,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 83,
+                                    lineNumber: 102,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        background: 'var(--bg-light)',
-                                        padding: '0.85rem 1rem',
-                                        borderRadius: 'var(--radius-sm)',
-                                        border: '1px solid var(--border-light)',
-                                        fontSize: '0.8rem',
-                                        color: 'var(--text-body)',
-                                        display: 'flex',
-                                        gap: '0.5rem',
-                                        alignItems: 'center'
-                                    },
+                                    className: "calculator-info",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$info$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Info$3e$__["Info"], {
                                             size: 16,
-                                            style: {
-                                                color: 'var(--blue-600)',
-                                                flexShrink: 0
-                                            }
+                                            className: "calculator-info-icon"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 132,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             children: [
-                                                "Min. billing cap for outstation trips is ",
+                                                "Min. billing cap for outstation trips is",
+                                                ' ',
                                                 currentModel.minKmPerDay,
                                                 " KM/day. State toll taxes & parking billed actuals."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 106,
+                                            lineNumber: 134,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 104,
+                                    lineNumber: 131,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/FareCalculator.jsx",
-                            lineNumber: 31,
+                            lineNumber: 48,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "calc-summary-box",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "calc-summary-content",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                             className: "calc-price-title",
                                             children: "Estimated Total Fare"
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 113,
+                                            lineNumber: 147,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -995,15 +962,11 @@ function FareCalculator({ onOpenModal }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 114,
+                                            lineNumber: 151,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                            style: {
-                                                color: 'rgba(255, 255, 255, 0.8)',
-                                                fontSize: '0.78rem',
-                                                marginBottom: '1.25rem'
-                                            },
+                                            className: "calc-price-subtitle",
                                             children: [
                                                 "For ",
                                                 currentModel.name,
@@ -1015,7 +978,7 @@ function FareCalculator({ onOpenModal }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 115,
+                                            lineNumber: 155,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -1028,7 +991,7 @@ function FareCalculator({ onOpenModal }) {
                                                             children: "Base Rate:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 121,
+                                                            lineNumber: 162,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1039,13 +1002,13 @@ function FareCalculator({ onOpenModal }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 122,
+                                                            lineNumber: 163,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 120,
+                                                    lineNumber: 161,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1059,7 +1022,7 @@ function FareCalculator({ onOpenModal }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 125,
+                                                            lineNumber: 167,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1069,13 +1032,13 @@ function FareCalculator({ onOpenModal }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 126,
+                                                            lineNumber: 168,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 124,
+                                                    lineNumber: 166,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1089,7 +1052,7 @@ function FareCalculator({ onOpenModal }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 129,
+                                                            lineNumber: 174,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1099,13 +1062,13 @@ function FareCalculator({ onOpenModal }) {
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 130,
+                                                            lineNumber: 178,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 173,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1115,91 +1078,93 @@ function FareCalculator({ onOpenModal }) {
                                                             children: "Doorstep Pickup & Drop:"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 184,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            style: {
-                                                                color: '#00A86B'
-                                                            },
+                                                            className: "included-text",
                                                             children: "INCLUDED"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/FareCalculator.jsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 186,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/FareCalculator.jsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 183,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 119,
+                                            lineNumber: 159,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 112,
+                                    lineNumber: 145,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    type: "button",
                                     onClick: ()=>onOpenModal({
                                             vehicle: currentModel.name,
                                             estKm: totalKm,
                                             days: numDays,
                                             fare: estimatedTotal
                                         }),
-                                    className: "btn btn-primary",
-                                    style: {
-                                        width: '100%'
-                                    },
+                                    className: "btn btn-primary calculator-book-btn",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$zap$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Zap$3e$__["Zap"], {
                                             size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 144,
+                                            lineNumber: 206,
                                             columnNumber: 15
                                         }, this),
-                                        " Book This Vehicle Now ",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "Book This Vehicle Now"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/FareCalculator.jsx",
+                                            lineNumber: 207,
+                                            columnNumber: 15
+                                        }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                             size: 16
                                         }, void 0, false, {
                                             fileName: "[project]/components/FareCalculator.jsx",
-                                            lineNumber: 144,
-                                            columnNumber: 55
+                                            lineNumber: 208,
+                                            columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/FareCalculator.jsx",
-                                    lineNumber: 139,
+                                    lineNumber: 194,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/FareCalculator.jsx",
-                            lineNumber: 111,
+                            lineNumber: 143,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/FareCalculator.jsx",
-                    lineNumber: 30,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/FareCalculator.jsx",
-            lineNumber: 23,
+            lineNumber: 24,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/FareCalculator.jsx",
-        lineNumber: 22,
+        lineNumber: 23,
         columnNumber: 5
     }, this);
 }
@@ -1698,18 +1663,18 @@ function HeroSection({ onOpenModal }) {
                 className: "hero-bg"
             }, void 0, false, {
                 fileName: "[project]/components/HeroSection.jsx",
-                lineNumber: 21,
+                lineNumber: 41,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "hero-overlay"
             }, void 0, false, {
                 fileName: "[project]/components/HeroSection.jsx",
-                lineNumber: 22,
+                lineNumber: 47,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "container",
+                className: "container hero-container",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "hero-grid",
                     children: [
@@ -1717,7 +1682,7 @@ function HeroSection({ onOpenModal }) {
                             className: "hero-content",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "badge-pill",
+                                    className: "badge-pill hero-badge",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
                                             size: 14,
@@ -1725,32 +1690,40 @@ function HeroSection({ onOpenModal }) {
                                             color: "#FFB800"
                                         }, void 0, false, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 29,
+                                            lineNumber: 58,
                                             columnNumber: 15
                                         }, this),
-                                        " #1 Rated Force Urbania Fleet in India"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "#1 Rated Force Urbania Fleet in India"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/HeroSection.jsx",
+                                            lineNumber: 63,
+                                            columnNumber: 15
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 28,
+                                    lineNumber: 57,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
                                     children: [
-                                        "Book ",
+                                        "Book",
+                                        ' ',
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "text-gradient-gold",
                                             children: "Ultra Luxury"
                                         }, void 0, false, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 33,
-                                            columnNumber: 20
+                                            lineNumber: 68,
+                                            columnNumber: 15
                                         }, this),
-                                        " Force Urbania Tempo Traveller"
+                                        ' ',
+                                        "Force Urbania Tempo Traveller"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 32,
+                                    lineNumber: 66,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1758,7 +1731,7 @@ function HeroSection({ onOpenModal }) {
                                     children: "First-class luxury road trips across Delhi, Noida, Indore, Ujjain, Jaipur, Rishikesh & 100+ outstation routes. Equipped with air-suspension, Italian leather recliners, Android Smart TV & certified hill drivers."
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 36,
+                                    lineNumber: 74,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1771,14 +1744,20 @@ function HeroSection({ onOpenModal }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 41,
-                                                    columnNumber: 45
+                                                    lineNumber: 85,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " Air Suspension Comfort"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Air Suspension Comfort"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 86,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 41,
+                                            lineNumber: 84,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1788,14 +1767,20 @@ function HeroSection({ onOpenModal }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 42,
-                                                    columnNumber: 45
+                                                    lineNumber: 90,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " Individual Roof AC Vents"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Individual Roof AC Vents"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 91,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 42,
+                                            lineNumber: 89,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1805,14 +1790,20 @@ function HeroSection({ onOpenModal }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 43,
-                                                    columnNumber: 45
+                                                    lineNumber: 95,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " Smart TV & High-Speed Charging"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Smart TV & High-Speed Charging"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 96,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 43,
+                                            lineNumber: 94,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1822,155 +1813,114 @@ function HeroSection({ onOpenModal }) {
                                                     size: 16
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 44,
-                                                    columnNumber: 45
+                                                    lineNumber: 100,
+                                                    columnNumber: 17
                                                 }, this),
-                                                " Certified Mountain Drivers"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Certified Mountain Drivers"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 101,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 44,
+                                            lineNumber: 99,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 40,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: 'flex',
-                                        gap: '1.5rem',
-                                        marginTop: '1.5rem',
-                                        marginBottom: '2rem',
-                                        padding: '1rem 1.25rem',
-                                        background: 'rgba(255, 255, 255, 0.12)',
-                                        borderRadius: 'var(--radius-md)',
-                                        border: '1px solid rgba(255, 255, 255, 0.25)',
-                                        maxWidth: '520px',
-                                        flexWrap: 'wrap'
-                                    },
+                                    className: "hero-trust-stats",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "trust-stat",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '1.4rem',
-                                                        fontWeight: '800',
-                                                        color: '#FFF',
-                                                        lineHeight: 1
-                                                    },
+                                                    className: "trust-stat-value",
                                                     children: "4.9 ★"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 61,
+                                                    lineNumber: 110,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '0.72rem',
-                                                        color: 'rgba(255, 255, 255, 0.85)',
-                                                        marginTop: '0.2rem'
-                                                    },
+                                                    className: "trust-stat-label",
                                                     children: "2,500+ Verified Trips"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 62,
+                                                    lineNumber: 114,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 60,
+                                            lineNumber: 109,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                borderLeft: '1px solid rgba(255, 255, 255, 0.2)',
-                                                paddingLeft: '1.25rem'
-                                            },
+                                            className: "trust-stat trust-stat-bordered",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '1.4rem',
-                                                        fontWeight: '800',
-                                                        color: '#FFF',
-                                                        lineHeight: 1
-                                                    },
+                                                    className: "trust-stat-value",
                                                     children: "100%"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 65,
+                                                    lineNumber: 120,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '0.72rem',
-                                                        color: 'rgba(255, 255, 255, 0.85)',
-                                                        marginTop: '0.2rem'
-                                                    },
+                                                    className: "trust-stat-label",
                                                     children: "On-Time Guarantee"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 66,
+                                                    lineNumber: 124,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 64,
+                                            lineNumber: 119,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            style: {
-                                                borderLeft: '1px solid rgba(255, 255, 255, 0.2)',
-                                                paddingLeft: '1.25rem'
-                                            },
+                                            className: "trust-stat trust-stat-bordered",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '1.4rem',
-                                                        fontWeight: '800',
-                                                        color: '#FFF',
-                                                        lineHeight: 1
-                                                    },
+                                                    className: "trust-stat-value",
                                                     children: "₹0"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 69,
+                                                    lineNumber: 130,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                                    style: {
-                                                        fontSize: '0.72rem',
-                                                        color: 'rgba(255, 255, 255, 0.85)',
-                                                        marginTop: '0.2rem'
-                                                    },
+                                                    className: "trust-stat-label",
                                                     children: "Hidden Charges"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 70,
+                                                    lineNumber: 134,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 68,
+                                            lineNumber: 129,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 48,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: 'flex',
-                                        gap: '1rem',
-                                        flexWrap: 'wrap'
-                                    },
+                                    className: "hero-actions",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                             href: "#calculator",
@@ -1980,14 +1930,20 @@ function HeroSection({ onOpenModal }) {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 76,
+                                                    lineNumber: 148,
                                                     columnNumber: 17
                                                 }, this),
-                                                " Calculate Fare Online"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Calculate Fare Online"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 149,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 75,
+                                            lineNumber: 144,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1998,106 +1954,87 @@ function HeroSection({ onOpenModal }) {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 79,
+                                                    lineNumber: 156,
                                                     columnNumber: 17
                                                 }, this),
-                                                " View Fleet Variants"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "View Fleet Variants"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 157,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 78,
+                                            lineNumber: 152,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 74,
+                                    lineNumber: 142,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/HeroSection.jsx",
-                            lineNumber: 27,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "quick-booking-card",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    style: {
-                                        display: 'flex',
-                                        gap: '0.5rem',
-                                        marginBottom: '1.25rem',
-                                        borderBottom: '1px solid var(--border-light)',
-                                        paddingBottom: '0.75rem'
-                                    },
+                                    className: "booking-tabs",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             type: "button",
                                             onClick: ()=>setActiveTab('outstation'),
-                                            style: {
-                                                flex: 1,
-                                                padding: '0.45rem 0.5rem',
-                                                borderRadius: 'var(--radius-xs)',
-                                                border: 'none',
-                                                background: activeTab === 'outstation' ? 'var(--blue-600)' : 'transparent',
-                                                color: activeTab === 'outstation' ? '#FFF' : 'var(--text-body)',
-                                                fontWeight: '600',
-                                                fontSize: '0.8rem',
-                                                cursor: 'pointer',
-                                                transition: '0.2s'
-                                            },
+                                            className: `booking-tab ${activeTab === 'outstation' ? 'active' : ''}`,
                                             children: "Outstation Round Trip"
                                         }, void 0, false, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 87,
+                                            lineNumber: 171,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             type: "button",
                                             onClick: ()=>setActiveTab('local'),
-                                            style: {
-                                                flex: 1,
-                                                padding: '0.45rem 0.5rem',
-                                                borderRadius: 'var(--radius-xs)',
-                                                border: 'none',
-                                                background: activeTab === 'local' ? 'var(--blue-600)' : 'transparent',
-                                                color: activeTab === 'local' ? '#FFF' : 'var(--text-body)',
-                                                fontWeight: '600',
-                                                fontSize: '0.8rem',
-                                                cursor: 'pointer',
-                                                transition: '0.2s'
-                                            },
+                                            className: `booking-tab ${activeTab === 'local' ? 'active' : ''}`,
                                             children: "Local / Sightseeing"
                                         }, void 0, false, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 105,
+                                            lineNumber: 181,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 86,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "card-header-title",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$star$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Star$3e$__["Star"], {
-                                            size: 18,
-                                            style: {
-                                                color: 'var(--orange)'
-                                            }
+                                            size: 18
                                         }, void 0, false, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 126,
+                                            lineNumber: 195,
                                             columnNumber: 15
                                         }, this),
-                                        " Instant Fare & Availability"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                            children: "Instant Fare & Availability"
+                                        }, void 0, false, {
+                                            fileName: "[project]/components/HeroSection.jsx",
+                                            lineNumber: 196,
+                                            columnNumber: 15
+                                        }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 125,
+                                    lineNumber: 194,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2105,7 +2042,7 @@ function HeroSection({ onOpenModal }) {
                                     children: "Get transparent quotes in 60 seconds with 100% door-step pickup"
                                 }, void 0, false, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 128,
+                                    lineNumber: 199,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -2124,14 +2061,20 @@ function HeroSection({ onOpenModal }) {
                                                                     size: 14
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 133,
-                                                                    columnNumber: 49
+                                                                    lineNumber: 213,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " Pickup City"
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    children: "Pickup City"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                                    lineNumber: 214,
+                                                                    columnNumber: 21
+                                                                }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 133,
+                                                            lineNumber: 212,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2145,7 +2088,7 @@ function HeroSection({ onOpenModal }) {
                                                                     children: "Select Pickup Hub"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 140,
+                                                                    lineNumber: 225,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CITY_HUBS"].map((hub)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2158,19 +2101,19 @@ function HeroSection({ onOpenModal }) {
                                                                         ]
                                                                     }, hub.slug, true, {
                                                                         fileName: "[project]/components/HeroSection.jsx",
-                                                                        lineNumber: 142,
+                                                                        lineNumber: 230,
                                                                         columnNumber: 23
                                                                     }, this))
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 134,
+                                                            lineNumber: 217,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 132,
+                                                    lineNumber: 210,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2183,14 +2126,20 @@ function HeroSection({ onOpenModal }) {
                                                                     size: 14
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 148,
-                                                                    columnNumber: 49
+                                                                    lineNumber: 245,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " Destination"
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    children: "Destination"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                                    lineNumber: 246,
+                                                                    columnNumber: 21
+                                                                }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 148,
+                                                            lineNumber: 244,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2202,13 +2151,13 @@ function HeroSection({ onOpenModal }) {
                                                             required: activeTab === 'outstation'
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 149,
+                                                            lineNumber: 249,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 147,
+                                                    lineNumber: 242,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2221,14 +2170,20 @@ function HeroSection({ onOpenModal }) {
                                                                     size: 14
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 160,
-                                                                    columnNumber: 49
+                                                                    lineNumber: 266,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " Seating Capacity"
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    children: "Seating Capacity"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                                    lineNumber: 267,
+                                                                    columnNumber: 21
+                                                                }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 160,
+                                                            lineNumber: 265,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -2242,7 +2197,7 @@ function HeroSection({ onOpenModal }) {
                                                                     children: "9 Seater VIP Recliner"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 167,
+                                                                    lineNumber: 278,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2250,7 +2205,7 @@ function HeroSection({ onOpenModal }) {
                                                                     children: "12 Seater Executive"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 168,
+                                                                    lineNumber: 282,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -2258,19 +2213,19 @@ function HeroSection({ onOpenModal }) {
                                                                     children: "16 Seater Premium"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 169,
+                                                                    lineNumber: 286,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 161,
+                                                            lineNumber: 270,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 159,
+                                                    lineNumber: 263,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2283,14 +2238,20 @@ function HeroSection({ onOpenModal }) {
                                                                     size: 14
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                                    lineNumber: 174,
-                                                                    columnNumber: 49
+                                                                    lineNumber: 297,
+                                                                    columnNumber: 21
                                                                 }, this),
-                                                                " Travel Date"
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    children: "Travel Date"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                                    lineNumber: 298,
+                                                                    columnNumber: 21
+                                                                }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 174,
+                                                            lineNumber: 296,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2301,70 +2262,72 @@ function HeroSection({ onOpenModal }) {
                                                             required: true
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/HeroSection.jsx",
-                                                            lineNumber: 175,
+                                                            lineNumber: 301,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 294,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 131,
+                                            lineNumber: 207,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                             type: "submit",
-                                            className: "btn btn-primary",
-                                            style: {
-                                                width: '100%',
-                                                marginTop: '0.5rem'
-                                            },
+                                            className: "btn btn-primary booking-submit-btn",
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$search$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Search$3e$__["Search"], {
                                                     size: 18
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/HeroSection.jsx",
-                                                    lineNumber: 186,
+                                                    lineNumber: 319,
                                                     columnNumber: 17
                                                 }, this),
-                                                " Check Availability & Instant Quote"
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                    children: "Check Availability & Instant Quote"
+                                                }, void 0, false, {
+                                                    fileName: "[project]/components/HeroSection.jsx",
+                                                    lineNumber: 320,
+                                                    columnNumber: 17
+                                                }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/HeroSection.jsx",
-                                            lineNumber: 185,
+                                            lineNumber: 315,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/HeroSection.jsx",
-                                    lineNumber: 130,
+                                    lineNumber: 205,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/HeroSection.jsx",
-                            lineNumber: 85,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/HeroSection.jsx",
-                    lineNumber: 25,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/HeroSection.jsx",
-                lineNumber: 24,
+                lineNumber: 49,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/HeroSection.jsx",
-        lineNumber: 20,
+        lineNumber: 40,
         columnNumber: 5
     }, this);
 }

@@ -3291,3 +3291,1512 @@ section[style*="rgba(14"] {
     transition: none;
   }
 }
+
+/* =========================================================
+   FARE CALCULATOR
+========================================================= */
+
+.fare-calculator-section {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.fare-calculator-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.fare-calculator-header {
+  width: 100%;
+  max-width: 850px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fare-calculator-header .section-subtitle {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* =========================================================
+   MAIN CALCULATOR CARD
+========================================================= */
+
+.calculator-card {
+  width: 100%;
+  min-width: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(320px, 0.9fr);
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   CALCULATOR CONTROLS
+========================================================= */
+
+.calc-controls {
+  min-width: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.seater-selector-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.seater-options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.seater-option {
+  width: 100%;
+  min-width: 0;
+  padding: 0.6rem 0.4rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+  background: var(--bg-light);
+  color: var(--text-dark);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  cursor: pointer;
+  transition: 0.2s;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.seater-option.active {
+  border: 2px solid var(--blue-600);
+  background: var(--blue-100);
+  color: var(--blue-600);
+}
+
+/* =========================================================
+   SLIDERS
+========================================================= */
+
+.slider-group {
+  width: 100%;
+  min-width: 0;
+  margin-top: 1.25rem;
+}
+
+.slider-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+}
+
+.slider-header .form-label {
+  min-width: 0;
+}
+
+.slider-value {
+  flex-shrink: 0;
+  font-weight: 700;
+  color: var(--blue-600);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.custom-slider {
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 0.75rem 0 0.45rem;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.slider-range-labels {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  line-height: 1.3;
+}
+
+.slider-range-labels span {
+  min-width: 0;
+}
+
+/* =========================================================
+   INFO BOX
+========================================================= */
+
+.calculator-info {
+  width: 100%;
+  min-width: 0;
+  margin-top: 1.25rem;
+  padding: 0.85rem 1rem;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  box-sizing: border-box;
+
+  background: var(--bg-light);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--border-light);
+
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--text-body);
+}
+
+.calculator-info-icon {
+  flex-shrink: 0;
+  color: var(--blue-600);
+  margin-top: 2px;
+}
+
+/* =========================================================
+   FARE SUMMARY
+========================================================= */
+
+.calc-summary-box {
+  width: 100%;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1.5rem;
+  box-sizing: border-box;
+}
+
+.calc-summary-content {
+  min-width: 0;
+}
+
+.calc-price-title {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.calc-price-amount {
+  font-size: 2.5rem;
+  line-height: 1.1;
+  font-weight: 800;
+  word-break: break-word;
+}
+
+.calc-price-subtitle {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 0.78rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+}
+
+.price-breakdown-list {
+  width: 100%;
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.price-breakdown-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  min-width: 0;
+  padding: 0.65rem 0;
+  box-sizing: border-box;
+}
+
+.price-breakdown-item span:first-child {
+  min-width: 0;
+}
+
+.price-breakdown-item span:last-child {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.included-text {
+  color: #00A86B;
+  font-weight: 700;
+}
+
+.calculator-book-btn {
+  width: 100%;
+  min-height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.calculator-book-btn span {
+  min-width: 0;
+}
+
+/* =========================================================
+   LARGE LAPTOP
+========================================================= */
+
+@media (max-width: 1200px) {
+
+  .calculator-card {
+    grid-template-columns: minmax(0, 1.25fr) minmax(300px, 0.85fr);
+    gap: 1.25rem;
+  }
+
+  .seater-options {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .calc-price-amount {
+    font-size: 2.25rem;
+  }
+}
+
+/* =========================================================
+   TABLET / SMALL LAPTOP
+========================================================= */
+
+@media (max-width: 1024px) {
+
+  .calculator-card {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .calc-summary-box {
+    min-height: auto;
+  }
+
+  .seater-options {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+  }
+
+  .calc-price-amount {
+    font-size: 2.4rem;
+  }
+}
+
+/* =========================================================
+   TABLET PORTRAIT
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .calculator-card {
+    gap: 1rem;
+  }
+
+  .seater-options {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .seater-option {
+    padding: 0.65rem 0.35rem;
+    font-size: 0.8rem;
+  }
+
+  .slider-group {
+    margin-top: 1.1rem;
+  }
+
+  .calculator-info {
+    font-size: 0.76rem;
+  }
+
+  .calc-summary-box {
+    gap: 1.25rem;
+  }
+
+  .calc-price-amount {
+    font-size: 2.2rem;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .fare-calculator-section {
+    overflow-x: hidden;
+  }
+
+  .fare-calculator-container {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .fare-calculator-header {
+    max-width: 100%;
+  }
+
+  .seater-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.5rem;
+  }
+
+  .seater-option {
+    min-height: 42px;
+    padding: 0.65rem 0.4rem;
+    font-size: 0.78rem;
+  }
+
+  .slider-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+
+  .slider-value {
+    font-size: 0.85rem;
+  }
+
+  .custom-slider {
+    margin-top: 0.8rem;
+  }
+
+  .slider-range-labels {
+    font-size: 0.66rem;
+  }
+
+  .calculator-info {
+    padding: 0.75rem 0.8rem;
+    font-size: 0.72rem;
+  }
+
+  .calc-summary-box {
+    padding: 1.25rem;
+  }
+
+  .calc-price-title {
+    font-size: 0.82rem;
+  }
+
+  .calc-price-amount {
+    font-size: 2rem;
+  }
+
+  .calc-price-subtitle {
+    font-size: 0.7rem;
+  }
+
+  .price-breakdown-item {
+    gap: 0.75rem;
+    font-size: 0.78rem;
+  }
+
+  .calculator-book-btn {
+    min-height: 48px;
+    font-size: 0.78rem;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .fare-calculator-container {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .seater-options {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .seater-option {
+    font-size: 0.72rem;
+    padding: 0.6rem 0.3rem;
+  }
+
+  .slider-range-labels {
+    font-size: 0.6rem;
+  }
+
+  .calculator-info {
+    align-items: flex-start;
+    font-size: 0.68rem;
+    line-height: 1.45;
+  }
+
+  .calc-summary-box {
+    padding: 1rem;
+  }
+
+  .calc-price-amount {
+    font-size: 1.8rem;
+  }
+
+  .price-breakdown-item {
+    font-size: 0.7rem;
+  }
+
+  .calculator-book-btn {
+    font-size: 0.7rem;
+    gap: 0.35rem;
+  }
+
+  .calculator-book-btn svg {
+    flex-shrink: 0;
+  }
+}
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .fare-calculator-container {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .seater-options {
+    gap: 0.4rem;
+  }
+
+  .seater-option {
+    min-height: 40px;
+    font-size: 0.66rem;
+  }
+
+  .slider-range-labels {
+    font-size: 0.55rem;
+  }
+
+  .calculator-info {
+    padding: 0.7rem;
+    font-size: 0.63rem;
+  }
+
+  .calc-summary-box {
+    padding: 0.85rem;
+  }
+
+  .calc-price-amount {
+    font-size: 1.6rem;
+  }
+
+  .price-breakdown-item {
+    font-size: 0.64rem;
+    gap: 0.5rem;
+  }
+
+  .calculator-book-btn {
+    min-height: 46px;
+    font-size: 0.64rem;
+  }
+}
+
+/* =========================================================
+   TOUCH DEVICES
+========================================================= */
+
+@media (hover: none) {
+
+  .seater-option:hover {
+    background: var(--bg-light);
+    color: var(--text-dark);
+  }
+
+  .seater-option.active:hover {
+    background: var(--blue-100);
+    color: var(--blue-600);
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .seater-option {
+    transition: none;
+  }
+}
+
+/* =========================================================
+   HERO SECTION
+========================================================= */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding-top: 7.5rem;
+  padding-bottom: 4rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  background: linear-gradient(
+    160deg,
+    #0052cc 0%,
+    #0770e3 40%,
+    #2684ff 100%
+  );
+}
+
+.hero-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.12;
+  mix-blend-mode: overlay;
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+
+  background: linear-gradient(
+    170deg,
+    rgba(7, 112, 227, 0.85) 0%,
+    rgba(38, 132, 255, 0.6) 50%,
+    rgba(0, 82, 204, 0.9) 100%
+  );
+}
+
+.hero-container {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   HERO GRID
+========================================================= */
+
+.hero-grid {
+  width: 100%;
+  min-width: 0;
+
+  display: grid;
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 3rem;
+  align-items: center;
+}
+
+.hero-content {
+  width: 100%;
+  min-width: 0;
+}
+
+/* =========================================================
+   HERO BADGE
+========================================================= */
+
+.hero-badge {
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.hero-badge span {
+  min-width: 0;
+}
+
+/* =========================================================
+   HERO HEADING
+========================================================= */
+
+.hero-content h1 {
+  max-width: 700px;
+  margin-bottom: 1.15rem;
+
+  font-size: 3.2rem;
+  line-height: 1.12;
+  letter-spacing: -0.03em;
+
+  color: #ffffff;
+
+  overflow-wrap: break-word;
+}
+
+.hero-content .text-gradient-gold,
+.hero-content .text-gradient-blue {
+  background: linear-gradient(
+    135deg,
+    #ffffff 0%,
+    #b3d4ff 100%
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* =========================================================
+   HERO DESCRIPTION
+========================================================= */
+
+.hero-desc {
+  width: 100%;
+  max-width: 520px;
+
+  margin-bottom: 1.75rem;
+
+  font-size: 1.05rem;
+  line-height: 1.7;
+
+  color: rgba(255, 255, 255, 0.85);
+
+  overflow-wrap: break-word;
+}
+
+/* =========================================================
+   FEATURE TAGS
+========================================================= */
+
+.hero-feature-tags {
+  width: 100%;
+  max-width: 680px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+
+  margin-bottom: 2.25rem;
+}
+
+.feature-tag {
+  max-width: 100%;
+
+  display: inline-flex;
+  align-items: center;
+
+  gap: 0.4rem;
+
+  padding: 0.4rem 0.85rem;
+
+  border-radius: var(--radius-xs);
+
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  font-size: 0.8rem;
+  line-height: 1.35;
+  font-weight: 500;
+
+  color: rgba(255, 255, 255, 0.9);
+
+  box-sizing: border-box;
+}
+
+.feature-tag svg {
+  flex-shrink: 0;
+  color: #ffb800;
+}
+
+/* =========================================================
+   TRUST STATS
+========================================================= */
+
+.hero-trust-stats {
+  width: 100%;
+  max-width: 520px;
+
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+
+  gap: 1.5rem;
+
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+
+  padding: 1rem 1.25rem;
+
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: var(--radius-md);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.trust-stat {
+  min-width: 0;
+}
+
+.trust-stat-bordered {
+  padding-left: 1.25rem;
+
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.trust-stat-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  line-height: 1;
+
+  color: #ffffff;
+}
+
+.trust-stat-label {
+  margin-top: 0.2rem;
+
+  font-size: 0.72rem;
+  line-height: 1.4;
+
+  color: rgba(255, 255, 255, 0.85);
+}
+
+/* =========================================================
+   HERO ACTIONS
+========================================================= */
+
+.hero-actions {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+}
+
+.hero-actions .btn {
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   QUICK BOOKING CARD
+========================================================= */
+
+.quick-booking-card {
+  position: relative;
+
+  width: 100%;
+  min-width: 0;
+
+  padding: 2rem;
+
+  box-sizing: border-box;
+
+  background: #ffffff;
+
+  border-radius: var(--radius-lg);
+
+  box-shadow: var(--shadow-xl);
+}
+
+.quick-booking-card::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 1.5rem;
+  right: 1.5rem;
+
+  height: 3px;
+
+  background: linear-gradient(
+    90deg,
+    var(--blue-600),
+    var(--orange)
+  );
+
+  border-radius: 0 0 2px 2px;
+}
+
+/* =========================================================
+   BOOKING TABS
+========================================================= */
+
+.booking-tabs {
+  width: 100%;
+
+  display: flex;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.75rem;
+
+  border-bottom: 1px solid var(--border-light);
+
+  box-sizing: border-box;
+}
+
+.booking-tab {
+  flex: 1 1 0;
+
+  min-width: 0;
+  min-height: 40px;
+
+  padding: 0.45rem 0.5rem;
+
+  border: none;
+  border-radius: var(--radius-xs);
+
+  background: transparent;
+
+  color: var(--text-body);
+
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.3;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+
+  box-sizing: border-box;
+}
+
+.booking-tab.active {
+  background: var(--blue-600);
+  color: #ffffff;
+}
+
+/* =========================================================
+   CARD HEADER
+========================================================= */
+
+.card-header-title {
+  display: flex;
+  align-items: center;
+
+  gap: 0.5rem;
+
+  margin-bottom: 0.25rem;
+
+  font-size: 1.2rem;
+  line-height: 1.35;
+
+  color: var(--text-dark);
+}
+
+.card-header-title svg {
+  flex-shrink: 0;
+  color: var(--orange);
+}
+
+.card-header-sub {
+  margin-bottom: 1.25rem;
+
+  color: var(--text-muted);
+
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+/* =========================================================
+   BOOKING FORM
+========================================================= */
+
+.booking-form-grid {
+  width: 100%;
+  min-width: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    minmax(0, 1fr);
+
+  gap: 1rem;
+
+  margin-bottom: 1.25rem;
+}
+
+.form-group {
+  width: 100%;
+  min-width: 0;
+}
+
+.quick-booking-card .form-label {
+  color: var(--text-body);
+}
+
+.quick-booking-card .form-input,
+.quick-booking-card .form-select {
+  width: 100%;
+  min-width: 0;
+
+  box-sizing: border-box;
+
+  background: var(--bg-light);
+  border-color: var(--border-light);
+  color: var(--text-dark);
+}
+
+.quick-booking-card .form-input:focus,
+.quick-booking-card .form-select:focus {
+  border-color: var(--blue-500);
+  background: #ffffff;
+}
+
+/* =========================================================
+   SUBMIT BUTTON
+========================================================= */
+
+.booking-submit-btn {
+  width: 100%;
+
+  min-height: 48px;
+
+  margin-top: 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  box-sizing: border-box;
+}
+
+.booking-submit-btn span {
+  min-width: 0;
+  text-align: center;
+}
+
+/* =========================================================
+   LARGE LAPTOP
+========================================================= */
+
+@media (max-width: 1200px) {
+
+  .hero-section {
+    padding-top: 7rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-grid {
+    gap: 2.25rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.9rem;
+  }
+
+  .hero-desc {
+    font-size: 1rem;
+  }
+
+  .quick-booking-card {
+    padding: 1.75rem;
+  }
+}
+
+/* =========================================================
+   LAPTOP / TABLET
+========================================================= */
+
+@media (max-width: 1024px) {
+
+  .hero-section {
+    min-height: auto;
+    padding-top: 6.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(320px, 0.85fr);
+
+    gap: 1.75rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.55rem;
+  }
+
+  .hero-desc {
+    font-size: 0.92rem;
+  }
+
+  .hero-feature-tags {
+    gap: 0.5rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .feature-tag {
+    font-size: 0.72rem;
+    padding: 0.38rem 0.7rem;
+  }
+
+  .quick-booking-card {
+    padding: 1.5rem;
+  }
+
+  .booking-form-grid {
+    gap: 0.8rem;
+  }
+}
+
+/* =========================================================
+   TABLET PORTRAIT
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .hero-section {
+    padding-top: 6rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-badge {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-content h1 {
+    max-width: 750px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    font-size: 2.8rem;
+  }
+
+  .hero-desc {
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-feature-tags {
+    max-width: 750px;
+
+    justify-content: center;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-trust-stats {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .quick-booking-card {
+    width: 100%;
+    max-width: 650px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* =========================================================
+   SMALL TABLET
+========================================================= */
+
+@media (max-width: 768px) {
+
+  .hero-section {
+    padding-top: 5.5rem;
+    padding-bottom: 3rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.4rem;
+    line-height: 1.15;
+  }
+
+  .hero-desc {
+    font-size: 0.9rem;
+    line-height: 1.65;
+  }
+
+  .hero-feature-tags {
+    gap: 0.5rem;
+  }
+
+  .hero-trust-stats {
+    gap: 1rem;
+    padding: 0.9rem 1rem;
+  }
+
+  .trust-stat-value {
+    font-size: 1.25rem;
+  }
+
+  .trust-stat-label {
+    font-size: 0.68rem;
+  }
+
+  .quick-booking-card {
+    padding: 1.35rem;
+  }
+
+  .card-header-title {
+    font-size: 1.1rem;
+  }
+}
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  .hero-section {
+    min-height: auto;
+
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .hero-container {
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+  }
+
+  .hero-grid {
+    gap: 1.75rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+    line-height: 1.18;
+    letter-spacing: -0.025em;
+
+    margin-bottom: 1rem;
+  }
+
+  .hero-desc {
+    font-size: 0.84rem;
+    line-height: 1.65;
+
+    margin-bottom: 1.35rem;
+  }
+
+  /* Feature tags become full width */
+  .hero-feature-tags {
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0.5rem;
+
+    margin-bottom: 1.5rem;
+  }
+
+  .feature-tag {
+    width: 100%;
+
+    justify-content: center;
+
+    padding: 0.5rem 0.65rem;
+
+    font-size: 0.7rem;
+  }
+
+  /* Trust stats */
+  .hero-trust-stats {
+    display: grid;
+
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+    gap: 0;
+
+    width: 100%;
+
+    padding: 0.8rem 0.5rem;
+
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .trust-stat {
+    min-width: 0;
+
+    padding: 0 0.4rem;
+
+    text-align: center;
+  }
+
+  .trust-stat-bordered {
+    padding-left: 0.4rem;
+  }
+
+  .trust-stat-value {
+    font-size: 1rem;
+  }
+
+  .trust-stat-label {
+    font-size: 0.58rem;
+    line-height: 1.35;
+  }
+
+  /* Hero buttons */
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+
+    gap: 0.7rem;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+
+    justify-content: center;
+
+    box-sizing: border-box;
+  }
+
+  /* Booking card */
+  .quick-booking-card {
+    width: 100%;
+
+    padding: 1.1rem;
+
+    border-radius: var(--radius-lg);
+  }
+
+  .quick-booking-card::before {
+    left: 1rem;
+    right: 1rem;
+  }
+
+  /* Tabs */
+  .booking-tabs {
+    gap: 0.35rem;
+    margin-bottom: 1rem;
+  }
+
+  .booking-tab {
+    min-height: 40px;
+
+    padding: 0.45rem 0.35rem;
+
+    font-size: 0.68rem;
+  }
+
+  .card-header-title {
+    font-size: 1rem;
+  }
+
+  .card-header-sub {
+    font-size: 0.75rem;
+    line-height: 1.5;
+
+    margin-bottom: 1rem;
+  }
+
+  /* Form becomes one column */
+  .booking-form-grid {
+    grid-template-columns: 1fr;
+
+    gap: 0.8rem;
+
+    margin-bottom: 1rem;
+  }
+
+  .booking-submit-btn {
+    min-height: 48px;
+
+    padding: 0.75rem;
+
+    font-size: 0.8rem;
+  }
+}
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .hero-section {
+    padding-top: 4.5rem;
+    padding-bottom: 2.25rem;
+  }
+
+  .hero-container {
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-desc {
+    font-size: 0.8rem;
+  }
+
+  .hero-feature-tags {
+    gap: 0.45rem;
+  }
+
+  .feature-tag {
+    font-size: 0.66rem;
+    padding: 0.45rem 0.55rem;
+  }
+
+  .hero-trust-stats {
+    padding: 0.7rem 0.3rem;
+  }
+
+  .trust-stat {
+    padding: 0 0.2rem;
+  }
+
+  .trust-stat-bordered {
+    padding-left: 0.2rem;
+  }
+
+  .trust-stat-value {
+    font-size: 0.92rem;
+  }
+
+  .trust-stat-label {
+    font-size: 0.54rem;
+  }
+
+  .quick-booking-card {
+    padding: 0.9rem;
+  }
+
+  .booking-tab {
+    font-size: 0.62rem;
+  }
+
+  .card-header-title {
+    font-size: 0.92rem;
+  }
+
+  .card-header-sub {
+    font-size: 0.7rem;
+  }
+
+  .booking-submit-btn {
+    font-size: 0.72rem;
+  }
+}
+
+/* =========================================================
+   EXTRA SMALL MOBILE
+========================================================= */
+
+@media (max-width: 360px) {
+
+  .hero-section {
+    padding-top: 4.25rem;
+    padding-bottom: 2rem;
+  }
+
+  .hero-container {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.55rem;
+  }
+
+  .hero-desc {
+    font-size: 0.76rem;
+  }
+
+  .feature-tag {
+    font-size: 0.61rem;
+  }
+
+  .hero-trust-stats {
+    padding: 0.6rem 0.2rem;
+  }
+
+  .trust-stat-value {
+    font-size: 0.85rem;
+  }
+
+  .trust-stat-label {
+    font-size: 0.5rem;
+  }
+
+  .quick-booking-card {
+    padding: 0.75rem;
+  }
+
+  .booking-tab {
+    font-size: 0.57rem;
+  }
+
+  .booking-submit-btn {
+    font-size: 0.67rem;
+  }
+}
+
+/* =========================================================
+   TOUCH DEVICES
+========================================================= */
+
+@media (hover: none) {
+
+  .hero-section .btn-primary:hover {
+    background: var(--orange);
+    box-shadow: var(--shadow-orange);
+  }
+
+  .hero-section .btn-outline:hover {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.35);
+  }
+}
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  .booking-tab {
+    transition: none;
+  }
+}
