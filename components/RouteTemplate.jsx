@@ -1351,92 +1351,96 @@ export default function RouteTemplate({
 
         {/* ===== CITY GUIDE SECTION ===== */}
         {cityGuide && (
-          <section
-            className="section-padding"
-            style={{ padding: "4rem 0", background: "#ffffff" }}
-          >
-            <div
-              className="container"
-              style={{
-                maxWidth: "1280px",
-                margin: "0 auto",
-                padding: "0 1.5rem",
-              }}
-            >
+          <section className="city-guide-section">
+            <div className="city-guide-container">
               <CityGuide cityData={cityGuide} route={route} />
             </div>
+
+            <style jsx>{`
+              .city-guide-section {
+                width: 100%;
+                background: #ffffff;
+                padding: 4rem 0;
+                overflow: hidden;
+              }
+
+              .city-guide-container {
+                width: 100%;
+                max-width: 1280px;
+                margin: 0 auto;
+                padding: 0 1.5rem;
+                box-sizing: border-box;
+              }
+
+              @media (max-width: 1024px) {
+                .city-guide-section {
+                  padding: 3.5rem 0;
+                }
+
+                .city-guide-container {
+                  padding: 0 1.25rem;
+                }
+              }
+
+              @media (max-width: 768px) {
+                .city-guide-section {
+                  padding: 3rem 0;
+                }
+
+                .city-guide-container {
+                  padding: 0 1rem;
+                }
+              }
+
+              @media (max-width: 480px) {
+                .city-guide-section {
+                  padding: 2.5rem 0;
+                }
+
+                .city-guide-container {
+                  padding: 0 0.75rem;
+                }
+              }
+
+              @media (max-width: 359px) {
+                .city-guide-section {
+                  padding: 2rem 0;
+                }
+
+                .city-guide-container {
+                  padding: 0 0.6rem;
+                }
+              }
+            `}</style>
           </section>
         )}
 
         {/* ===== HOW BOOKING WORKS SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#f9fafc" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Calendar size={14} /> How Booking Works
+        <section className="how-booking-section">
+          <div className="how-booking-container">
+            {/* ================= SECTION HEADER ================= */}
+            <div className="booking-section-header">
+              <div className="booking-section-badge">
+                <Calendar size={14} />
+                <span>How Booking Works</span>
               </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
+
+              <h2 className="booking-section-title">
                 Book Your{" "}
-                <span style={{ color: "#0052CC" }}>
+                <span>
                   {route.origin} to {route.destination}
                 </span>{" "}
                 Urbania in 4 Simple Steps
               </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
+
+              <p className="booking-section-description">
                 Quick and hassle-free booking process for your {route.origin} to{" "}
                 {route.destination} Urbania Tempo Traveller journey.
               </p>
             </div>
 
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
-                gap: "2rem",
-                position: "relative",
-              }}
-            >
+            {/* ================= BOOKING STEPS ================= */}
+            <div className="booking-steps-grid">
               {[
                 {
                   step: "1",
@@ -1465,178 +1469,44 @@ export default function RouteTemplate({
               ].map((item, index) => (
                 <div
                   key={index}
-                  style={{
-                    position: "relative",
-                    background: "#fff",
-                    padding: "2rem 1.5rem",
-                    borderRadius: "24px",
-                    textAlign: "center",
-                    border: "1px solid #ecf0f7",
-                    transition: "all 0.3s cubic-bezier(0.4, 0, 0.2, 1)",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
-                    cursor: "pointer",
-                    transform: "scale(1)",
-                  }}
-                  className="step-card"
+                  className="booking-step-card"
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.05)";
+                    e.currentTarget.style.transform = "translateY(-5px)";
                     e.currentTarget.style.borderColor = "#0052CC";
                     e.currentTarget.style.boxShadow =
                       "0 16px 40px rgba(0, 82, 204, 0.12)";
-                    e.currentTarget.style.background = "#ffffff";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
+                    e.currentTarget.style.transform = "translateY(0)";
                     e.currentTarget.style.borderColor = "#ecf0f7";
                     e.currentTarget.style.boxShadow =
                       "0 4px 12px rgba(0,0,0,0.02)";
-                    e.currentTarget.style.background = "#fff";
                   }}
                 >
                   {/* Step Number */}
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: "50px",
-                      height: "50px",
-                      margin: "0 auto 1rem",
-                      background: "#eef3ff",
-                      color: "#0052CC",
-                      borderRadius: "50%",
-                      fontSize: "1.5rem",
-                      fontWeight: 700,
-                      transition: "all 0.3s ease",
-                    }}
-                    className="step-number"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.background = "#0052CC";
-                      e.currentTarget.style.color = "#ffffff";
-                      e.currentTarget.style.transform = "scale(1.1)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.background = "#eef3ff";
-                      e.currentTarget.style.color = "#0052CC";
-                      e.currentTarget.style.transform = "scale(1)";
-                    }}
-                  >
-                    {item.step}
-                  </div>
+                  <div className="booking-step-number">{item.step}</div>
 
                   {/* Icon */}
-                  <div
-                    style={{
-                      color: "#0052CC",
-                      marginBottom: "0.5rem",
-                      transition: "transform 0.3s ease",
-                    }}
-                    className="step-icon"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scale(1.15)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scale(1)";
-                    }}
-                  >
-                    {item.icon}
-                  </div>
+                  <div className="booking-step-icon">{item.icon}</div>
 
                   {/* Title */}
-                  <h3
-                    style={{
-                      fontSize: "1.1rem",
-                      fontWeight: 700,
-                      marginBottom: "0.5rem",
-                      color: "#0b1a2e",
-                      transition: "color 0.3s ease",
-                    }}
-                    className="step-title"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#0052CC";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#0b1a2e";
-                    }}
-                  >
-                    {item.title}
-                  </h3>
+                  <h3 className="booking-step-title">{item.title}</h3>
 
                   {/* Description */}
-                  <p
-                    style={{
-                      fontSize: "0.9rem",
-                      color: "#4a5a6e",
-                      lineHeight: "1.6",
-                      transition: "color 0.3s ease",
-                    }}
-                    className="step-desc"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.color = "#1a2634";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.color = "#4a5a6e";
-                    }}
-                  >
-                    {item.desc}
-                  </p>
+                  <p className="booking-step-description">{item.desc}</p>
 
-                  {/* Decorative bottom line on hover */}
-                  <div
-                    style={{
-                      position: "absolute",
-                      bottom: 0,
-                      left: 0,
-                      right: 0,
-                      height: "3px",
-                      background:
-                        "linear-gradient(90deg, #0052CC 0%, #0770E3 100%)",
-                      transform: "scaleX(0)",
-                      transformOrigin: "left",
-                      transition:
-                        "transform 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
-                    }}
-                    className="step-bottom-line"
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.transform = "scaleX(1)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.transform = "scaleX(0)";
-                    }}
-                  />
+                  {/* Decorative Bottom Line */}
+                  <div className="booking-step-accent" />
 
-                  {/* Connector Line (except last) - Only visible on desktop */}
-                  {index < 3 && (
-                    <div
-                      style={{
-                        position: "absolute",
-                        top: "30%",
-                        right: "-1rem",
-                        width: "2rem",
-                        height: "2px",
-                        background: "#0052CC",
-                        opacity: 0.3,
-                        display: "none",
-                      }}
-                      className="step-connector"
-                    />
-                  )}
+                  {/* Connector */}
+                  {index < 3 && <div className="booking-step-connector" />}
                 </div>
               ))}
             </div>
 
-            {/* Quick Booking CTA */}
+            {/* ================= QUICK BOOKING CTA ================= */}
             <div
-              style={{
-                textAlign: "center",
-                marginTop: "3rem",
-                padding: "2rem",
-                background: "#ffffff",
-                borderRadius: "20px",
-                border: "1px solid #ecf0f7",
-                transition: "all 0.3s ease",
-              }}
-              className="booking-cta"
+              className="booking-quick-cta"
               onMouseEnter={(e) => {
                 e.currentTarget.style.borderColor = "#0052CC";
                 e.currentTarget.style.boxShadow =
@@ -1647,116 +1517,809 @@ export default function RouteTemplate({
                 e.currentTarget.style.boxShadow = "none";
               }}
             >
-              <p
-                style={{
-                  fontSize: "1rem",
-                  color: "#4a5a6e",
-                  marginBottom: "1rem",
-                }}
-              >
+              <p className="booking-cta-text">
                 Ready to book your Urbania for the{" "}
                 <strong>
                   {route.origin} to {route.destination}
                 </strong>{" "}
                 route?
               </p>
+
               <a
                 href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
                   `Book Force Urbania from ${route.origin} to ${route.destination} - Trip Date: [Your Date] - Group Size: [Number]`,
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.6rem",
-                  padding: "0.8rem 2.5rem",
-                  borderRadius: "50px",
-                  background: "#25D366",
-                  color: "#fff",
-                  fontWeight: 700,
-                  textDecoration: "none",
-                  transition: "all 0.3s ease",
-                  border: "none",
-                  fontSize: "1rem",
-                  cursor: "pointer",
-                }}
                 className="booking-cta-btn"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.05)";
+                  e.currentTarget.style.transform = "translateY(-2px)";
                   e.currentTarget.style.boxShadow =
                     "0 8px 24px rgba(37, 211, 102, 0.35)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.transform = "translateY(0)";
                   e.currentTarget.style.boxShadow = "none";
                 }}
               >
-                <MessageSquare size={20} /> Book Now
+                <MessageSquare size={20} />
+                <span>Book Now</span>
               </a>
             </div>
           </div>
+
+          {/* =========================================================
+      RESPONSIVE CSS
+  ========================================================= */}
+          <style jsx>{`
+            /* =====================================================
+       MAIN SECTION
+    ===================================================== */
+
+            .how-booking-section {
+              width: 100%;
+              background: #f9fafc;
+              padding: 4rem 0;
+              overflow: hidden;
+              box-sizing: border-box;
+            }
+
+            .how-booking-container {
+              width: 100%;
+              max-width: 1280px;
+              margin: 0 auto;
+              padding: 0 1.5rem;
+              box-sizing: border-box;
+            }
+
+            /* =====================================================
+       SECTION HEADER
+    ===================================================== */
+
+            .booking-section-header {
+              width: 100%;
+              max-width: 780px;
+              margin: 0 auto 3rem;
+              text-align: center;
+            }
+
+            .booking-section-badge {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+
+              background: #eef3ff;
+              color: #0052cc;
+
+              padding: 0.25rem 1.2rem;
+              border-radius: 40px;
+
+              font-size: 0.8rem;
+              font-weight: 600;
+
+              box-sizing: border-box;
+            }
+
+            .booking-section-title {
+              margin: 0.5rem 0 0.75rem;
+
+              font-size: 2.3rem;
+              font-weight: 700;
+              line-height: 1.25;
+
+              color: #0b1a2e;
+
+              overflow-wrap: anywhere;
+            }
+
+            .booking-section-title span {
+              color: #0052cc;
+            }
+
+            .booking-section-description {
+              margin: 0;
+
+              font-size: 1.05rem;
+              color: #4a5a6e;
+              line-height: 1.6;
+
+              overflow-wrap: anywhere;
+            }
+
+            /* =====================================================
+       BOOKING STEPS GRID
+    ===================================================== */
+
+            .booking-steps-grid {
+              width: 100%;
+
+              display: grid;
+              grid-template-columns: repeat(4, minmax(0, 1fr));
+
+              gap: 2rem;
+
+              position: relative;
+
+              box-sizing: border-box;
+            }
+
+            /* =====================================================
+       STEP CARD
+    ===================================================== */
+
+            .booking-step-card {
+              position: relative;
+
+              width: 100%;
+              min-width: 0;
+
+              background: #ffffff;
+
+              padding: 2rem 1.5rem;
+
+              border-radius: 24px;
+              border: 1px solid #ecf0f7;
+
+              text-align: center;
+
+              box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+
+              cursor: pointer;
+
+              overflow: hidden;
+
+              box-sizing: border-box;
+
+              transition:
+                transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+            }
+
+            /* =====================================================
+       STEP NUMBER
+    ===================================================== */
+
+            .booking-step-number {
+              width: 50px;
+              height: 50px;
+
+              margin: 0 auto 1rem;
+
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              background: #eef3ff;
+              color: #0052cc;
+
+              border-radius: 50%;
+
+              font-size: 1.5rem;
+              font-weight: 700;
+
+              box-sizing: border-box;
+
+              transition:
+                background 0.3s ease,
+                color 0.3s ease,
+                transform 0.3s ease;
+            }
+
+            .booking-step-card:hover .booking-step-number {
+              background: #0052cc;
+              color: #ffffff;
+              transform: scale(1.08);
+            }
+
+            /* =====================================================
+       STEP ICON
+    ===================================================== */
+
+            .booking-step-icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              color: #0052cc;
+
+              margin-bottom: 0.5rem;
+
+              transition: transform 0.3s ease;
+            }
+
+            .booking-step-card:hover .booking-step-icon {
+              transform: scale(1.1);
+            }
+
+            /* =====================================================
+       STEP TITLE
+    ===================================================== */
+
+            .booking-step-title {
+              margin: 0 0 0.5rem;
+
+              font-size: 1.1rem;
+              font-weight: 700;
+              line-height: 1.4;
+
+              color: #0b1a2e;
+
+              transition: color 0.3s ease;
+            }
+
+            .booking-step-card:hover .booking-step-title {
+              color: #0052cc;
+            }
+
+            /* =====================================================
+       STEP DESCRIPTION
+    ===================================================== */
+
+            .booking-step-description {
+              margin: 0;
+
+              font-size: 0.9rem;
+              color: #4a5a6e;
+              line-height: 1.6;
+
+              overflow-wrap: anywhere;
+
+              transition: color 0.3s ease;
+            }
+
+            .booking-step-card:hover .booking-step-description {
+              color: #1a2634;
+            }
+
+            /* =====================================================
+       BOTTOM ACCENT
+    ===================================================== */
+
+            .booking-step-accent {
+              position: absolute;
+
+              bottom: 0;
+              left: 0;
+              right: 0;
+
+              height: 3px;
+
+              background: linear-gradient(90deg, #0052cc 0%, #0770e3 100%);
+
+              transform: scaleX(0);
+              transform-origin: left;
+
+              transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+            .booking-step-card:hover .booking-step-accent {
+              transform: scaleX(1);
+            }
+
+            /* =====================================================
+       CONNECTOR
+    ===================================================== */
+
+            .booking-step-connector {
+              position: absolute;
+
+              top: 50%;
+              right: -2rem;
+
+              width: 2rem;
+              height: 2px;
+
+              background: #0052cc;
+              opacity: 0.3;
+
+              transform: translateY(-50%);
+
+              pointer-events: none;
+            }
+
+            /* =====================================================
+       QUICK CTA
+    ===================================================== */
+
+            .booking-quick-cta {
+              width: 100%;
+
+              margin-top: 3rem;
+
+              padding: 2rem;
+
+              background: #ffffff;
+
+              border-radius: 20px;
+              border: 1px solid #ecf0f7;
+
+              text-align: center;
+
+              box-sizing: border-box;
+
+              transition:
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+            }
+
+            .booking-cta-text {
+              margin: 0 0 1rem;
+
+              font-size: 1rem;
+              color: #4a5a6e;
+
+              line-height: 1.5;
+
+              overflow-wrap: anywhere;
+            }
+
+            .booking-cta-text strong {
+              color: #0b1a2e;
+              font-weight: 700;
+            }
+
+            .booking-cta-btn {
+              display: inline-flex;
+
+              align-items: center;
+              justify-content: center;
+
+              gap: 0.6rem;
+
+              min-height: 46px;
+
+              padding: 0.8rem 2.5rem;
+
+              border-radius: 50px;
+
+              background: #25d366;
+              color: #ffffff;
+
+              font-size: 1rem;
+              font-weight: 700;
+
+              text-decoration: none;
+
+              cursor: pointer;
+
+              box-sizing: border-box;
+
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            }
+
+            .booking-cta-btn :global(svg) {
+              flex-shrink: 0;
+            }
+
+            /* =====================================================
+       LARGE LAPTOP
+    ===================================================== */
+
+            @media (max-width: 1200px) {
+              .how-booking-container {
+                padding: 0 1.25rem;
+              }
+
+              .booking-steps-grid {
+                gap: 1.5rem;
+              }
+
+              .booking-step-card {
+                padding: 1.75rem 1.25rem;
+              }
+
+              .booking-step-connector {
+                right: -1.5rem;
+                width: 1.5rem;
+              }
+            }
+
+            /* =====================================================
+       TABLET / SMALL LAPTOP
+    ===================================================== */
+
+            @media (max-width: 1024px) {
+              .how-booking-section {
+                padding: 3.5rem 0;
+              }
+
+              .booking-section-header {
+                margin-bottom: 2.5rem;
+              }
+
+              .booking-section-title {
+                font-size: 2rem;
+              }
+
+              .booking-steps-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 1.5rem;
+              }
+
+              .booking-step-card {
+                padding: 1.75rem 1.25rem;
+              }
+
+              /* Hide connector on 2x2 layout */
+              .booking-step-connector {
+                display: none;
+              }
+
+              .booking-quick-cta {
+                margin-top: 2.5rem;
+              }
+            }
+
+            /* =====================================================
+       TABLET
+    ===================================================== */
+
+            @media (max-width: 768px) {
+              .how-booking-section {
+                padding: 3rem 0;
+              }
+
+              .how-booking-container {
+                padding: 0 1rem;
+              }
+
+              .booking-section-header {
+                margin-bottom: 2rem;
+              }
+
+              .booking-section-badge {
+                font-size: 0.75rem;
+                padding: 0.25rem 1rem;
+              }
+
+              .booking-section-title {
+                font-size: 1.8rem;
+                line-height: 1.3;
+              }
+
+              .booking-section-description {
+                font-size: 0.95rem;
+              }
+
+              .booking-steps-grid {
+                grid-template-columns: 1fr;
+                gap: 1rem;
+              }
+
+              .booking-step-card {
+                display: grid;
+                grid-template-columns: 52px 1fr;
+                grid-template-areas:
+                  "number icon"
+                  "number title"
+                  "number desc";
+
+                column-gap: 1rem;
+                text-align: left;
+
+                padding: 1.25rem;
+
+                border-radius: 18px;
+              }
+
+              .booking-step-number {
+                grid-area: number;
+
+                width: 48px;
+                height: 48px;
+
+                margin: 0;
+
+                align-self: center;
+
+                font-size: 1.3rem;
+              }
+
+              .booking-step-icon {
+                grid-area: icon;
+
+                justify-content: flex-start;
+
+                margin-bottom: 0.15rem;
+              }
+
+              .booking-step-title {
+                grid-area: title;
+
+                margin-bottom: 0.2rem;
+
+                font-size: 1rem;
+              }
+
+              .booking-step-description {
+                grid-area: desc;
+
+                font-size: 0.84rem;
+                line-height: 1.5;
+              }
+
+              .booking-step-accent {
+                height: 2px;
+              }
+
+              .booking-quick-cta {
+                margin-top: 2rem;
+                padding: 1.5rem;
+                border-radius: 17px;
+              }
+
+              .booking-cta-text {
+                font-size: 0.92rem;
+              }
+            }
+
+            /* =====================================================
+       LARGE MOBILE
+    ===================================================== */
+
+            @media (max-width: 600px) {
+              .booking-step-card {
+                grid-template-columns: 46px 1fr;
+                column-gap: 0.85rem;
+
+                padding: 1.1rem;
+              }
+
+              .booking-step-number {
+                width: 44px;
+                height: 44px;
+
+                font-size: 1.2rem;
+              }
+
+              .booking-step-icon :global(svg) {
+                width: 22px;
+                height: 22px;
+              }
+
+              .booking-step-title {
+                font-size: 0.95rem;
+              }
+
+              .booking-step-description {
+                font-size: 0.8rem;
+              }
+            }
+
+            /* =====================================================
+       MOBILE
+    ===================================================== */
+
+            @media (max-width: 480px) {
+              .how-booking-section {
+                padding: 2.5rem 0;
+              }
+
+              .how-booking-container {
+                padding: 0 0.75rem;
+              }
+
+              .booking-section-header {
+                margin-bottom: 1.5rem;
+              }
+
+              .booking-section-badge {
+                gap: 0.4rem;
+
+                padding: 0.25rem 0.85rem;
+
+                font-size: 0.7rem;
+              }
+
+              .booking-section-badge :global(svg) {
+                width: 13px;
+                height: 13px;
+              }
+
+              .booking-section-title {
+                font-size: 1.5rem;
+                line-height: 1.3;
+              }
+
+              .booking-section-description {
+                font-size: 0.84rem;
+                line-height: 1.55;
+              }
+
+              .booking-steps-grid {
+                gap: 0.8rem;
+              }
+
+              .booking-step-card {
+                grid-template-columns: 40px 1fr;
+                column-gap: 0.75rem;
+
+                padding: 1rem;
+
+                border-radius: 15px;
+              }
+
+              .booking-step-number {
+                width: 38px;
+                height: 38px;
+
+                font-size: 1rem;
+              }
+
+              .booking-step-icon {
+                margin-bottom: 0.1rem;
+              }
+
+              .booking-step-icon :global(svg) {
+                width: 20px;
+                height: 20px;
+              }
+
+              .booking-step-title {
+                font-size: 0.9rem;
+                margin-bottom: 0.15rem;
+              }
+
+              .booking-step-description {
+                font-size: 0.76rem;
+                line-height: 1.45;
+              }
+
+              .booking-quick-cta {
+                margin-top: 1.5rem;
+                padding: 1.1rem 0.9rem;
+
+                border-radius: 14px;
+              }
+
+              .booking-cta-text {
+                font-size: 0.8rem;
+                line-height: 1.5;
+              }
+
+              .booking-cta-btn {
+                width: 100%;
+
+                min-height: 44px;
+
+                padding: 0.7rem 1rem;
+
+                border-radius: 12px;
+
+                font-size: 0.85rem;
+              }
+
+              .booking-cta-btn :global(svg) {
+                width: 18px;
+                height: 18px;
+              }
+            }
+
+            /* =====================================================
+       VERY SMALL PHONES - 320px / 359px
+    ===================================================== */
+
+            @media (max-width: 359px) {
+              .how-booking-section {
+                padding: 2rem 0;
+              }
+
+              .how-booking-container {
+                padding: 0 0.6rem;
+              }
+
+              .booking-section-title {
+                font-size: 1.35rem;
+              }
+
+              .booking-section-description {
+                font-size: 0.77rem;
+              }
+
+              .booking-section-badge {
+                font-size: 0.65rem;
+                padding: 0.22rem 0.7rem;
+              }
+
+              .booking-step-card {
+                grid-template-columns: 36px 1fr;
+                column-gap: 0.65rem;
+
+                padding: 0.85rem;
+                border-radius: 13px;
+              }
+
+              .booking-step-number {
+                width: 34px;
+                height: 34px;
+
+                font-size: 0.9rem;
+              }
+
+              .booking-step-icon :global(svg) {
+                width: 18px;
+                height: 18px;
+              }
+
+              .booking-step-title {
+                font-size: 0.84rem;
+              }
+
+              .booking-step-description {
+                font-size: 0.7rem;
+                line-height: 1.4;
+              }
+
+              .booking-quick-cta {
+                padding: 0.9rem 0.7rem;
+                border-radius: 12px;
+              }
+
+              .booking-cta-text {
+                font-size: 0.72rem;
+              }
+
+              .booking-cta-btn {
+                min-height: 42px;
+                font-size: 0.78rem;
+                padding: 0.65rem 0.75rem;
+              }
+            }
+
+            /* =====================================================
+       TOUCH DEVICES
+    ===================================================== */
+
+            @media (hover: none) {
+              .booking-step-card,
+              .booking-step-number,
+              .booking-step-icon,
+              .booking-step-accent,
+              .booking-quick-cta,
+              .booking-cta-btn {
+                transition: none;
+              }
+            }
+
+            /* =====================================================
+       REDUCED MOTION
+    ===================================================== */
+
+            @media (prefers-reduced-motion: reduce) {
+              .booking-step-card,
+              .booking-step-number,
+              .booking-step-icon,
+              .booking-step-accent,
+              .booking-quick-cta,
+              .booking-cta-btn {
+                transition: none;
+              }
+            }
+          `}</style>
         </section>
 
         {/* ===== ROUTE GUIDE SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#ffffff" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
+        <section className="route-guide-section">
+          <div className="route-guide-container">
             {/* Section Header */}
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 2.5rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.3rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                  letterSpacing: "0.2px",
-                }}
-              >
+            <div className="route-guide-header">
+              <div className="route-guide-badge">
                 <Route size={14} />
-                Route Guide
+                <span>Route Guide</span>
               </div>
-              <h2
-                style={{
-                  fontSize: "clamp(1.8rem, 3vw, 2.3rem)",
-                  fontWeight: 700,
-                  margin: "0.7rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
+
+              <h2 className="route-guide-title">
                 Complete Travel Guide for{" "}
-                <span style={{ color: "#0052CC" }}>
+                <span>
                   {route.origin} to {route.destination}
                 </span>
               </h2>
-              <p
-                style={{
-                  fontSize: "1rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.7",
-                  margin: 0,
-                }}
-              >
+
+              <p className="route-guide-description">
                 Everything you need to know about your {route.origin} to{" "}
                 {route.destination} journey including route details, stopovers,
                 and travel tips.
@@ -1764,26 +2327,9 @@ export default function RouteTemplate({
             </div>
 
             {/* Main Route Guide Content */}
-            <div
-              style={{
-                background: "#ffffff",
-                borderRadius: "24px",
-                padding: "2rem",
-                border: "1px solid #ecf0f7",
-                boxShadow: "0 8px 24px rgba(0,20,50,0.04)",
-              }}
-            >
+            <div className="route-guide-card">
               {/* Route Overview Grid */}
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "repeat(auto-fit, minmax(180px, 1fr))",
-                  gap: "1.5rem",
-                  marginBottom: "2rem",
-                  paddingBottom: "2rem",
-                  borderBottom: "1px solid #ecf0f7",
-                }}
-              >
+              <div className="route-overview-grid">
                 {[
                   {
                     icon: <MapPin size={20} color="#0052CC" />,
@@ -1806,129 +2352,55 @@ export default function RouteTemplate({
                     value: getRoadType(route.category),
                   },
                 ].map((item, index) => (
-                  <div
-                    key={index}
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.75rem",
-                      padding: "0.75rem",
-                      background: "#f9fafc",
-                      borderRadius: "12px",
-                      transition: "all 0.3s ease",
-                    }}
-                    onMouseEnter={(e) => {
-                      e.currentTarget.style.background = "#f0f4fe";
-                      e.currentTarget.style.transform = "translateY(-2px)";
-                    }}
-                    onMouseLeave={(e) => {
-                      e.currentTarget.style.background = "#f9fafc";
-                      e.currentTarget.style.transform = "translateY(0)";
-                    }}
-                  >
-                    <div style={{ flexShrink: 0 }}>{item.icon}</div>
-                    <div>
-                      <div style={{ fontSize: "0.7rem", color: "#7a8a9e" }}>
-                        {item.label}
-                      </div>
-                      <div
-                        style={{
-                          fontSize: "0.9rem",
-                          fontWeight: 600,
-                          color: "#0b1a2e",
-                        }}
-                      >
-                        {item.value}
-                      </div>
+                  <div className="route-overview-item" key={index}>
+                    <div className="route-overview-icon">{item.icon}</div>
+
+                    <div className="route-overview-content">
+                      <div className="route-overview-label">{item.label}</div>
+
+                      <div className="route-overview-value">{item.value}</div>
                     </div>
                   </div>
                 ))}
               </div>
 
               {/* Route Details Grid */}
-              <div
-                style={{
-                  display: "grid",
-                  gridTemplateColumns: "1fr 1fr",
-                  gap: "1.5rem",
-                  marginBottom: "2rem",
-                  paddingBottom: "2rem",
-                  borderBottom: "1px solid #ecf0f7",
-                }}
-              >
+              <div className="route-details-grid">
                 {/* Left Column - Route Information */}
-                <div>
-                  <h3
-                    style={{
-                      fontSize: "1rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginBottom: "1rem",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                    }}
-                  >
+                <div className="route-detail-column">
+                  <h3 className="route-detail-title">
                     <Info size={18} color="#0052CC" />
-                    Route Information
+                    <span>Route Information</span>
                   </h3>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "0.75rem",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.5rem 0.75rem",
-                        background: "#f9fafc",
-                        borderRadius: "8px",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      <span style={{ color: "#4a5a6e" }}>Highway Name</span>
-                      <span style={{ fontWeight: 600, color: "#0b1a2e" }}>
+                  <div className="route-info-list">
+                    <div className="route-info-row">
+                      <span className="route-info-label">Highway Name</span>
+
+                      <span className="route-info-value">
                         {getHighwayName(route.origin, route.destination)}
                       </span>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.5rem 0.75rem",
-                        background: "#f9fafc",
-                        borderRadius: "8px",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      <span style={{ color: "#4a5a6e" }}>Road Condition</span>
+
+                    <div className="route-info-row">
+                      <span className="route-info-label">Road Condition</span>
+
                       <span
+                        className="route-info-value"
                         style={{
-                          fontWeight: 600,
                           color: route.distanceKm > 400 ? "#b33d00" : "#16803c",
                         }}
                       >
                         {getRoadCondition(route.distanceKm)}
                       </span>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.5rem 0.75rem",
-                        background: "#f9fafc",
-                        borderRadius: "8px",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      <span style={{ color: "#4a5a6e" }}>Night Travel</span>
+
+                    <div className="route-info-row">
+                      <span className="route-info-label">Night Travel</span>
+
                       <span
+                        className="route-info-value"
                         style={{
-                          fontWeight: 600,
                           color: route.distanceKm < 300 ? "#16803c" : "#b33d00",
                         }}
                       >
@@ -1937,18 +2409,11 @@ export default function RouteTemplate({
                           : "⚠️ Not Recommended"}
                       </span>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        padding: "0.5rem 0.75rem",
-                        background: "#f9fafc",
-                        borderRadius: "8px",
-                        fontSize: "0.9rem",
-                      }}
-                    >
-                      <span style={{ color: "#4a5a6e" }}>Best Season</span>
-                      <span style={{ fontWeight: 600, color: "#0b1a2e" }}>
+
+                    <div className="route-info-row">
+                      <span className="route-info-label">Best Season</span>
+
+                      <span className="route-info-value">
                         {getBestSeason(route.destination)}
                       </span>
                     </div>
@@ -1956,89 +2421,30 @@ export default function RouteTemplate({
                 </div>
 
                 {/* Right Column - Quick Tips */}
-                <div>
-                  <h3
-                    style={{
-                      fontSize: "1rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginBottom: "1rem",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                    }}
-                  >
+                <div className="route-detail-column">
+                  <h3 className="route-detail-title">
                     <Lightbulb size={18} color="#F59E0B" />
-                    Quick Tips
+                    <span>Quick Tips</span>
                   </h3>
 
-                  <div
-                    style={{
-                      display: "flex",
-                      flexDirection: "column",
-                      gap: "0.75rem",
-                    }}
-                  >
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "flex-start",
-                        gap: "0.5rem",
-                        padding: "0.5rem 0.75rem",
-                        background: "#f0fdf4",
-                        borderRadius: "8px",
-                        fontSize: "0.85rem",
-                        color: "#1a2634",
-                        lineHeight: "1.5",
-                      }}
-                    >
-                      <CheckCircle2
-                        size={16}
-                        color="#10b981"
-                        style={{ flexShrink: 0, marginTop: "2px" }}
-                      />
+                  <div className="quick-tips-list">
+                    <div className="quick-tip quick-tip-green">
+                      <CheckCircle2 size={16} color="#10b981" />
+
                       <span>
                         Start early from {route.origin} to avoid traffic
                       </span>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "flex-start",
-                        gap: "0.5rem",
-                        padding: "0.5rem 0.75rem",
-                        background: "#fef3c7",
-                        borderRadius: "8px",
-                        fontSize: "0.85rem",
-                        color: "#1a2634",
-                        lineHeight: "1.5",
-                      }}
-                    >
-                      <Fuel
-                        size={16}
-                        color="#d97706"
-                        style={{ flexShrink: 0, marginTop: "2px" }}
-                      />
+
+                    <div className="quick-tip quick-tip-yellow">
+                      <Fuel size={16} color="#d97706" />
+
                       <span>Fuel up before entering remote stretches</span>
                     </div>
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "flex-start",
-                        gap: "0.5rem",
-                        padding: "0.5rem 0.75rem",
-                        background: "#e0f2fe",
-                        borderRadius: "8px",
-                        fontSize: "0.85rem",
-                        color: "#1a2634",
-                        lineHeight: "1.5",
-                      }}
-                    >
-                      <Camera
-                        size={16}
-                        color="#0284c7"
-                        style={{ flexShrink: 0, marginTop: "2px" }}
-                      />
+
+                    <div className="quick-tip quick-tip-blue">
+                      <Camera size={16} color="#0284c7" />
+
                       <span>Carry camera for scenic views on the route</span>
                     </div>
                   </div>
@@ -2046,41 +2452,18 @@ export default function RouteTemplate({
               </div>
 
               {/* Stopovers Section */}
-              <div
-                style={{
-                  marginBottom: "1.5rem",
-                  borderBottom: "1px solid #ecf0f7",
-                  paddingBottom: "1.5rem",
-                }}
-              >
+              <div className="route-guide-accordion-section">
                 <button
+                  type="button"
                   onClick={() => toggleSection("stopovers")}
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
-                    background: "transparent",
-                    border: "none",
-                    cursor: "pointer",
-                    padding: "0.25rem 0",
-                    fontFamily: "inherit",
-                  }}
+                  className="route-guide-accordion-button"
+                  aria-expanded={expandedSections.stopovers}
                 >
-                  <h3
-                    style={{
-                      fontSize: "1rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      margin: 0,
-                    }}
-                  >
+                  <span className="route-guide-accordion-title">
                     <MapPinned size={18} color="#0052CC" />
-                    Recommended Stopovers
-                  </h3>
+                    <span>Recommended Stopovers</span>
+                  </span>
+
                   {expandedSections.stopovers ? (
                     <ChevronUp size={20} color="#7a8a9e" />
                   ) : (
@@ -2089,67 +2472,23 @@ export default function RouteTemplate({
                 </button>
 
                 {expandedSections.stopovers && (
-                  <div
-                    style={{
-                      marginTop: "1rem",
-                      display: "grid",
-                      gridTemplateColumns:
-                        "repeat(auto-fit, minmax(200px, 1fr))",
-                      gap: "1rem",
-                    }}
-                  >
+                  <div className="stopovers-grid">
                     {getStopovers(route.distanceKm).map((stopover, index) => (
-                      <div
-                        key={index}
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          gap: "0.75rem",
-                          padding: "1rem",
-                          background: "#f9fafc",
-                          borderRadius: "12px",
-                          transition: "all 0.3s ease",
-                        }}
-                        onMouseEnter={(e) => {
-                          e.currentTarget.style.background = "#f0f4fe";
-                          e.currentTarget.style.transform = "translateY(-2px)";
-                        }}
-                        onMouseLeave={(e) => {
-                          e.currentTarget.style.background = "#f9fafc";
-                          e.currentTarget.style.transform = "translateY(0)";
-                        }}
-                      >
-                        <div
-                          style={{
-                            flexShrink: 0,
-                            width: "32px",
-                            height: "32px",
-                            borderRadius: "50%",
-                            background: "#eef3ff",
-                            display: "flex",
-                            alignItems: "center",
-                            justifyContent: "center",
-                            color: "#0052CC",
-                          }}
-                        >
+                      <div key={index} className="stopover-card">
+                        <div className="stopover-icon">
                           {stopover.icon === "coffee" && <Coffee size={16} />}
+
                           {stopover.icon === "food" && <Utensils size={16} />}
+
                           {stopover.icon === "hotel" && <Hotel size={16} />}
+
                           {stopover.icon === "rest" && <Users size={16} />}
                         </div>
-                        <div>
-                          <div
-                            style={{
-                              fontSize: "0.85rem",
-                              fontWeight: 600,
-                              color: "#0b1a2e",
-                            }}
-                          >
-                            {stopover.name}
-                          </div>
-                          <div
-                            style={{ fontSize: "0.75rem", color: "#4a5a6e" }}
-                          >
+
+                        <div className="stopover-content">
+                          <div className="stopover-name">{stopover.name}</div>
+
+                          <div className="stopover-purpose">
                             {stopover.purpose}
                           </div>
                         </div>
@@ -2160,35 +2499,18 @@ export default function RouteTemplate({
               </div>
 
               {/* Travel Tips Section */}
-              <div>
+              <div className="travel-tips-section">
                 <button
+                  type="button"
                   onClick={() => toggleSection("tips")}
-                  style={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    width: "100%",
-                    background: "transparent",
-                    border: "none",
-                    cursor: "pointer",
-                    padding: "0.25rem 0",
-                    fontFamily: "inherit",
-                  }}
+                  className="route-guide-accordion-button"
+                  aria-expanded={expandedSections.tips}
                 >
-                  <h3
-                    style={{
-                      fontSize: "1rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      margin: 0,
-                    }}
-                  >
+                  <span className="route-guide-accordion-title">
                     <Shield size={18} color="#0052CC" />
-                    Pro Travel Tips
-                  </h3>
+                    <span>Pro Travel Tips</span>
+                  </span>
+
                   {expandedSections.tips ? (
                     <ChevronUp size={20} color="#7a8a9e" />
                   ) : (
@@ -2197,32 +2519,11 @@ export default function RouteTemplate({
                 </button>
 
                 {expandedSections.tips && (
-                  <div
-                    style={{
-                      marginTop: "1rem",
-                      display: "grid",
-                      gridTemplateColumns: "1fr 1fr",
-                      gap: "0.75rem",
-                    }}
-                  >
+                  <div className="travel-tips-grid">
                     {getTravelTips(route).map((tip, index) => (
-                      <div
-                        key={index}
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          gap: "0.5rem",
-                          padding: "0.75rem",
-                          background: "#f0f4fe",
-                          borderRadius: "10px",
-                          fontSize: "0.85rem",
-                          color: "#1a2634",
-                          lineHeight: "1.5",
-                        }}
-                      >
-                        <span style={{ color: "#0052CC", flexShrink: 0 }}>
-                          ✓
-                        </span>
+                      <div key={index} className="travel-tip-card">
+                        <span className="travel-tip-check">✓</span>
+
                         <span>{tip}</span>
                       </div>
                     ))}
@@ -2232,35 +2533,648 @@ export default function RouteTemplate({
             </div>
           </div>
 
-          {/* Responsive Styles */}
+          {/* ===== RESPONSIVE STYLES ===== */}
           <style jsx>{`
-            @media (max-width: 768px) {
-              .route-guide-wrapper {
-                padding: 0;
+            /* ================================
+       ROUTE GUIDE - BASE
+    ================================= */
+
+            .route-guide-section {
+              width: 100%;
+              background: #ffffff;
+              padding: 4rem 0;
+              overflow: hidden;
+            }
+
+            .route-guide-container {
+              width: 100%;
+              max-width: 1280px;
+              margin: 0 auto;
+              padding: 0 1.5rem;
+              box-sizing: border-box;
+            }
+
+            /* ================================
+       SECTION HEADER
+    ================================= */
+
+            .route-guide-header {
+              width: 100%;
+              max-width: 780px;
+              margin: 0 auto 2.5rem;
+              text-align: center;
+            }
+
+            .route-guide-badge {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+              background: #eef3ff;
+              color: #0052cc;
+              padding: 0.3rem 1.2rem;
+              border-radius: 40px;
+              font-size: 0.8rem;
+              font-weight: 600;
+              letter-spacing: 0.2px;
+              line-height: 1.4;
+            }
+
+            .route-guide-title {
+              margin: 0.7rem 0 0.75rem;
+              color: #0b1a2e;
+              font-size: clamp(1.8rem, 3vw, 2.3rem);
+              font-weight: 700;
+              line-height: 1.25;
+              overflow-wrap: anywhere;
+            }
+
+            .route-guide-title span {
+              color: #0052cc;
+            }
+
+            .route-guide-description {
+              margin: 0;
+              color: #4a5a6e;
+              font-size: 1rem;
+              line-height: 1.7;
+            }
+
+            /* ================================
+       MAIN CARD
+    ================================= */
+
+            .route-guide-card {
+              width: 100%;
+              background: #ffffff;
+              border: 1px solid #ecf0f7;
+              border-radius: 24px;
+              padding: 2rem;
+              box-shadow: 0 8px 24px rgba(0, 20, 50, 0.04);
+              box-sizing: border-box;
+            }
+
+            /* ================================
+       ROUTE OVERVIEW
+    ================================= */
+
+            .route-overview-grid {
+              display: grid;
+              grid-template-columns: repeat(4, minmax(0, 1fr));
+              gap: 1.25rem;
+              margin-bottom: 2rem;
+              padding-bottom: 2rem;
+              border-bottom: 1px solid #ecf0f7;
+            }
+
+            .route-overview-item {
+              min-width: 0;
+              display: flex;
+              align-items: center;
+              gap: 0.75rem;
+              padding: 0.75rem;
+              background: #f9fafc;
+              border-radius: 12px;
+              transition:
+                background-color 0.3s ease,
+                transform 0.3s ease;
+            }
+
+            .route-overview-item:hover {
+              background: #f0f4fe;
+              transform: translateY(-2px);
+            }
+
+            .route-overview-icon {
+              flex: 0 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .route-overview-content {
+              min-width: 0;
+            }
+
+            .route-overview-label {
+              font-size: 0.7rem;
+              color: #7a8a9e;
+              line-height: 1.3;
+              margin-bottom: 0.15rem;
+            }
+
+            .route-overview-value {
+              color: #0b1a2e;
+              font-size: 0.9rem;
+              font-weight: 600;
+              line-height: 1.4;
+              overflow-wrap: anywhere;
+              word-break: break-word;
+            }
+
+            /* ================================
+       ROUTE DETAILS
+    ================================= */
+
+            .route-details-grid {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 1.5rem;
+              margin-bottom: 2rem;
+              padding-bottom: 2rem;
+              border-bottom: 1px solid #ecf0f7;
+            }
+
+            .route-detail-column {
+              min-width: 0;
+            }
+
+            .route-detail-title {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              margin: 0 0 1rem;
+              color: #0b1a2e;
+              font-size: 1rem;
+              font-weight: 700;
+              line-height: 1.4;
+            }
+
+            .route-info-list,
+            .quick-tips-list {
+              display: flex;
+              flex-direction: column;
+              gap: 0.75rem;
+            }
+
+            .route-info-row {
+              display: flex;
+              align-items: flex-start;
+              justify-content: space-between;
+              gap: 1rem;
+              min-width: 0;
+              padding: 0.65rem 0.75rem;
+              background: #f9fafc;
+              border-radius: 8px;
+              font-size: 0.9rem;
+              line-height: 1.4;
+            }
+
+            .route-info-label {
+              color: #4a5a6e;
+              flex: 0 0 auto;
+            }
+
+            .route-info-value {
+              color: #0b1a2e;
+              font-weight: 600;
+              text-align: right;
+              min-width: 0;
+              overflow-wrap: anywhere;
+            }
+
+            /* ================================
+       QUICK TIPS
+    ================================= */
+
+            .quick-tip {
+              display: flex;
+              align-items: flex-start;
+              gap: 0.5rem;
+              padding: 0.65rem 0.75rem;
+              border-radius: 8px;
+              font-size: 0.85rem;
+              color: #1a2634;
+              line-height: 1.5;
+            }
+
+            .quick-tip :global(svg) {
+              flex: 0 0 auto;
+              margin-top: 2px;
+            }
+
+            .quick-tip-green {
+              background: #f0fdf4;
+            }
+
+            .quick-tip-yellow {
+              background: #fef3c7;
+            }
+
+            .quick-tip-blue {
+              background: #e0f2fe;
+            }
+
+            /* ================================
+       ACCORDION
+    ================================= */
+
+            .route-guide-accordion-section {
+              margin-bottom: 1.5rem;
+              padding-bottom: 1.5rem;
+              border-bottom: 1px solid #ecf0f7;
+            }
+
+            .travel-tips-section {
+              width: 100%;
+            }
+
+            .route-guide-accordion-button {
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              gap: 1rem;
+              padding: 0.35rem 0;
+              border: none;
+              background: transparent;
+              color: #0b1a2e;
+              cursor: pointer;
+              font-family: inherit;
+              text-align: left;
+            }
+
+            .route-guide-accordion-title {
+              min-width: 0;
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              color: #0b1a2e;
+              font-size: 1rem;
+              font-weight: 700;
+              line-height: 1.4;
+            }
+
+            .route-guide-accordion-title span {
+              overflow-wrap: anywhere;
+            }
+
+            /* ================================
+       STOPOVERS
+    ================================= */
+
+            .stopovers-grid {
+              display: grid;
+              grid-template-columns: repeat(4, minmax(0, 1fr));
+              gap: 1rem;
+              margin-top: 1rem;
+            }
+
+            .stopover-card {
+              min-width: 0;
+              display: flex;
+              align-items: flex-start;
+              gap: 0.75rem;
+              padding: 1rem;
+              background: #f9fafc;
+              border-radius: 12px;
+              transition:
+                background-color 0.3s ease,
+                transform 0.3s ease;
+            }
+
+            .stopover-card:hover {
+              background: #f0f4fe;
+              transform: translateY(-2px);
+            }
+
+            .stopover-icon {
+              flex: 0 0 32px;
+              width: 32px;
+              height: 32px;
+              border-radius: 50%;
+              background: #eef3ff;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              color: #0052cc;
+            }
+
+            .stopover-content {
+              min-width: 0;
+            }
+
+            .stopover-name {
+              color: #0b1a2e;
+              font-size: 0.85rem;
+              font-weight: 600;
+              line-height: 1.4;
+              overflow-wrap: anywhere;
+            }
+
+            .stopover-purpose {
+              color: #4a5a6e;
+              font-size: 0.75rem;
+              line-height: 1.45;
+              margin-top: 0.15rem;
+              overflow-wrap: anywhere;
+            }
+
+            /* ================================
+       TRAVEL TIPS
+    ================================= */
+
+            .travel-tips-grid {
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 0.75rem;
+              margin-top: 1rem;
+            }
+
+            .travel-tip-card {
+              min-width: 0;
+              display: flex;
+              align-items: flex-start;
+              gap: 0.5rem;
+              padding: 0.75rem;
+              background: #f0f4fe;
+              border-radius: 10px;
+              color: #1a2634;
+              font-size: 0.85rem;
+              line-height: 1.5;
+            }
+
+            .travel-tip-check {
+              flex: 0 0 auto;
+              color: #0052cc;
+              font-weight: 700;
+            }
+
+            /* ================================
+       LARGE TABLET
+    ================================= */
+
+            @media (max-width: 1199px) {
+              .route-guide-container {
+                padding: 0 1.25rem;
               }
 
-              .route-guide-wrapper [style*="grid-template-columns: 1fr 1fr"] {
-                grid-template-columns: 1fr !important;
+              .route-guide-card {
+                padding: 1.75rem;
               }
 
-              .route-guide-wrapper [style*="padding: 2rem"] {
-                padding: 1.25rem !important;
+              .route-overview-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
               }
 
-              .route-guide-wrapper
-                [style*="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))"] {
-                grid-template-columns: repeat(2, 1fr) !important;
+              .stopovers-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
               }
             }
 
-            @media (max-width: 480px) {
-              .route-guide-wrapper h2 {
-                font-size: 1.5rem !important;
+            /* ================================
+       TABLET
+    ================================= */
+
+            @media (max-width: 768px) {
+              .route-guide-section {
+                padding: 3rem 0;
               }
 
-              .route-guide-wrapper
-                [style*="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr))"] {
-                grid-template-columns: 1fr !important;
+              .route-guide-container {
+                padding: 0 1rem;
+              }
+
+              .route-guide-header {
+                margin-bottom: 2rem;
+              }
+
+              .route-guide-title {
+                font-size: clamp(1.6rem, 5vw, 2rem);
+                line-height: 1.3;
+              }
+
+              .route-guide-description {
+                font-size: 0.92rem;
+                line-height: 1.65;
+              }
+
+              .route-guide-card {
+                padding: 1.25rem;
+                border-radius: 18px;
+              }
+
+              .route-overview-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.85rem;
+                margin-bottom: 1.5rem;
+                padding-bottom: 1.5rem;
+              }
+
+              .route-overview-item {
+                padding: 0.7rem;
+                gap: 0.6rem;
+              }
+
+              .route-overview-value {
+                font-size: 0.82rem;
+              }
+
+              .route-details-grid {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+                margin-bottom: 1.5rem;
+                padding-bottom: 1.5rem;
+              }
+
+              .stopovers-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+              }
+
+              .travel-tips-grid {
+                grid-template-columns: 1fr;
+              }
+            }
+
+            /* ================================
+       MOBILE
+    ================================= */
+
+            @media (max-width: 480px) {
+              .route-guide-section {
+                padding: 2.5rem 0;
+              }
+
+              .route-guide-container {
+                padding: 0 0.75rem;
+              }
+
+              .route-guide-header {
+                margin-bottom: 1.5rem;
+              }
+
+              .route-guide-badge {
+                padding: 0.3rem 0.9rem;
+                font-size: 0.75rem;
+              }
+
+              .route-guide-title {
+                margin-top: 0.65rem;
+                font-size: 1.5rem;
+                line-height: 1.3;
+              }
+
+              .route-guide-description {
+                font-size: 0.85rem;
+                line-height: 1.6;
+              }
+
+              .route-guide-card {
+                padding: 1rem;
+                border-radius: 16px;
+              }
+
+              .route-overview-grid {
+                grid-template-columns: 1fr;
+                gap: 0.7rem;
+                margin-bottom: 1.25rem;
+                padding-bottom: 1.25rem;
+              }
+
+              .route-overview-item {
+                padding: 0.75rem;
+              }
+
+              .route-overview-label {
+                font-size: 0.68rem;
+              }
+
+              .route-overview-value {
+                font-size: 0.85rem;
+              }
+
+              .route-details-grid {
+                gap: 1.25rem;
+                margin-bottom: 1.25rem;
+                padding-bottom: 1.25rem;
+              }
+
+              .route-detail-title,
+              .route-guide-accordion-title {
+                font-size: 0.92rem;
+              }
+
+              .route-info-row {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.25rem;
+                padding: 0.65rem 0.7rem;
+                font-size: 0.82rem;
+              }
+
+              .route-info-value {
+                text-align: left;
+              }
+
+              .quick-tip {
+                padding: 0.65rem;
+                font-size: 0.8rem;
+              }
+
+              .route-guide-accordion-section {
+                margin-bottom: 1.25rem;
+                padding-bottom: 1.25rem;
+              }
+
+              .stopovers-grid {
+                grid-template-columns: 1fr;
+                gap: 0.7rem;
+              }
+
+              .stopover-card {
+                padding: 0.8rem;
+              }
+
+              .stopover-name {
+                font-size: 0.82rem;
+              }
+
+              .stopover-purpose {
+                font-size: 0.72rem;
+              }
+
+              .travel-tips-grid {
+                grid-template-columns: 1fr;
+                gap: 0.65rem;
+              }
+
+              .travel-tip-card {
+                font-size: 0.8rem;
+                padding: 0.7rem;
+              }
+            }
+
+            /* ================================
+       VERY SMALL MOBILE
+    ================================= */
+
+            @media (max-width: 359px) {
+              .route-guide-section {
+                padding: 2rem 0;
+              }
+
+              .route-guide-container {
+                padding: 0 0.6rem;
+              }
+
+              .route-guide-card {
+                padding: 0.8rem;
+                border-radius: 14px;
+              }
+
+              .route-guide-title {
+                font-size: 1.35rem;
+              }
+
+              .route-guide-description {
+                font-size: 0.8rem;
+              }
+
+              .route-overview-item {
+                padding: 0.65rem;
+              }
+
+              .route-overview-value {
+                font-size: 0.8rem;
+              }
+
+              .route-info-row {
+                font-size: 0.78rem;
+              }
+
+              .quick-tip {
+                font-size: 0.76rem;
+              }
+
+              .stopover-card {
+                padding: 0.7rem;
+              }
+
+              .travel-tip-card {
+                font-size: 0.76rem;
+              }
+            }
+
+            /* ================================
+       TOUCH DEVICES
+    ================================= */
+
+            @media (hover: none) {
+              .route-overview-item:hover,
+              .stopover-card:hover {
+                transform: none;
+                background: #f9fafc;
+              }
+            }
+
+            /* ================================
+       REDUCED MOTION
+    ================================= */
+
+            @media (prefers-reduced-motion: reduce) {
+              .route-overview-item,
+              .stopover-card {
+                transition: none;
               }
             }
           `}</style>
@@ -2619,7 +3533,7 @@ export default function RouteTemplate({
               >
                 Need a Custom Travel Solution?
               </h3>
-              
+
               <p
                 style={{
                   fontSize: "1rem",
@@ -3176,48 +4090,29 @@ export default function RouteTemplate({
               </p>
             </div>
 
-            {/* What's Included / Not Included */}
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "2rem",
-                marginBottom: "2rem",
-              }}
-            >
-              {/* Included */}
+            {/* =========================================================
+    WHAT'S INCLUDED / NOT INCLUDED
+========================================================= */}
+            <div className="included-not-included-section">
+              {/* ==================== INCLUDED ==================== */}
               <div
-                style={{
-                  background: "#f0fdf4",
-                  borderRadius: "20px",
-                  padding: "1.5rem",
-                  border: "1px solid #bbf7d0",
-                  transition: "all 0.3s ease",
-                }}
+                className="included-card"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.02)";
+                  e.currentTarget.style.transform = "translateY(-4px)";
                   e.currentTarget.style.boxShadow =
                     "0 8px 24px rgba(34, 197, 94, 0.15)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.transform = "translateY(0)";
                   e.currentTarget.style.boxShadow = "none";
                 }}
               >
-                <h3
-                  style={{
-                    fontSize: "1.1rem",
-                    fontWeight: 700,
-                    color: "#15803d",
-                    marginBottom: "1rem",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "0.5rem",
-                  }}
-                >
-                  <CheckCircle2 size={20} /> What's Included
+                <h3 className="included-card-title">
+                  <CheckCircle2 size={20} />
+                  <span>What's Included</span>
                 </h3>
-                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+
+                <ul className="included-list">
                   {[
                     `Base fare for ${route.distanceKm * 2} km round trip`,
                     "Professional, verified driver",
@@ -3227,59 +4122,33 @@ export default function RouteTemplate({
                     "AC comfort throughout journey",
                     "24/7 customer support",
                   ].map((item, index) => (
-                    <li
-                      key={index}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.5rem",
-                        padding: "0.4rem 0",
-                        fontSize: "0.9rem",
-                        color: "#1a2634",
-                      }}
-                    >
-                      <span style={{ color: "#22c55e", fontSize: "1.1rem" }}>
-                        ✓
-                      </span>
-                      {item}
+                    <li key={index} className="included-list-item">
+                      <span className="included-check">✓</span>
+                      <span className="included-item-text">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
 
-              {/* Not Included */}
+              {/* ==================== NOT INCLUDED ==================== */}
               <div
-                style={{
-                  background: "#fef2f2",
-                  borderRadius: "20px",
-                  padding: "1.5rem",
-                  border: "1px solid #fecaca",
-                  transition: "all 0.3s ease",
-                }}
+                className="not-included-card"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.02)";
+                  e.currentTarget.style.transform = "translateY(-4px)";
                   e.currentTarget.style.boxShadow =
                     "0 8px 24px rgba(239, 68, 68, 0.1)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.transform = "translateY(0)";
                   e.currentTarget.style.boxShadow = "none";
                 }}
               >
-                <h3
-                  style={{
-                    fontSize: "1.1rem",
-                    fontWeight: 700,
-                    color: "#dc2626",
-                    marginBottom: "1rem",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "0.5rem",
-                  }}
-                >
-                  <X size={20} /> What's Not Included
+                <h3 className="not-included-card-title">
+                  <X size={20} />
+                  <span>What's Not Included</span>
                 </h3>
-                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+
+                <ul className="included-list">
                   {[
                     "Toll taxes (payable as per actual)",
                     "Inter-state permit fees",
@@ -3289,37 +4158,20 @@ export default function RouteTemplate({
                     "Additional KM beyond the limit",
                     "Personal expenses and tips",
                   ].map((item, index) => (
-                    <li
-                      key={index}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.5rem",
-                        padding: "0.4rem 0",
-                        fontSize: "0.9rem",
-                        color: "#1a2634",
-                      }}
-                    >
-                      <span style={{ color: "#ef4444", fontSize: "1.1rem" }}>
-                        ✗
-                      </span>
-                      {item}
+                    <li key={index} className="included-list-item">
+                      <span className="not-included-cross">✗</span>
+                      <span className="included-item-text">{item}</span>
                     </li>
                   ))}
                 </ul>
               </div>
             </div>
 
-            {/* Pricing Promise */}
+            {/* =========================================================
+    PRICING PROMISE
+========================================================= */}
             <div
-              style={{
-                background: "linear-gradient(135deg, #0052CC 0%, #0770E3 100%)",
-                borderRadius: "20px",
-                padding: "2rem",
-                textAlign: "center",
-                color: "#fff",
-                transition: "all 0.3s ease",
-              }}
+              className="pricing-promise"
               onMouseEnter={(e) => {
                 e.currentTarget.style.boxShadow =
                   "0 16px 48px rgba(0, 82, 204, 0.3)";
@@ -3328,116 +4180,502 @@ export default function RouteTemplate({
                 e.currentTarget.style.boxShadow = "none";
               }}
             >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  width: "56px",
-                  height: "56px",
-                  borderRadius: "50%",
-                  background: "rgba(255,255,255,0.15)",
-                  marginBottom: "1rem",
-                }}
-              >
+              {/* Icon */}
+              <div className="pricing-promise-icon">
                 <ShieldCheck size={28} color="#fff" />
               </div>
-              <h3
-                style={{
-                  fontSize: "1.3rem",
-                  fontWeight: 700,
-                  marginBottom: "0.5rem",
-                }}
-              >
-                Our Price Promise
-              </h3>
-              <p
-                style={{
-                  fontSize: "1rem",
-                  opacity: 0.9,
-                  maxWidth: "600px",
-                  margin: "0 auto 1.5rem",
-                  lineHeight: "1.6",
-                }}
-              >
+
+              {/* Heading */}
+              <h3 className="pricing-promise-title">Our Price Promise</h3>
+
+              {/* Description */}
+              <p className="pricing-promise-text">
                 We guarantee the best price for your {route.origin} to{" "}
-                {route.destination}
-                journey. If you find a lower price elsewhere, we'll match it.
+                {route.destination} journey. If you find a lower price
+                elsewhere, we'll match it.
               </p>
+
+              {/* CTA */}
               <a
                 href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
                   `Price match query for ${route.origin} to ${route.destination}`,
                 )}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.6rem",
-                  padding: "0.8rem 2rem",
-                  borderRadius: "50px",
-                  background: "#fff",
-                  color: "#0052CC",
-                  fontWeight: 700,
-                  textDecoration: "none",
-                  transition: "all 0.3s ease",
-                  border: "none",
-                  fontSize: "1rem",
-                  cursor: "pointer",
-                }}
+                className="pricing-promise-btn"
                 onMouseEnter={(e) => {
-                  e.currentTarget.style.transform = "scale(1.05)";
+                  e.currentTarget.style.transform = "translateY(-2px)";
                   e.currentTarget.style.boxShadow =
                     "0 8px 24px rgba(0,0,0,0.15)";
                 }}
                 onMouseLeave={(e) => {
-                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.transform = "translateY(0)";
                   e.currentTarget.style.boxShadow = "none";
                 }}
               >
-                <MessageSquare size={18} /> Get Best Price Quote
+                <MessageSquare size={18} />
+                <span>Get Best Price Quote</span>
               </a>
             </div>
 
-            {/* Responsive Styles */}
+            {/* =========================================================
+    RESPONSIVE STYLES
+========================================================= */}
             <style jsx>{`
-              @media (max-width: 768px) {
-                .pricing-card {
-                  padding: 1.5rem !important;
+              /* ========================================================
+     MAIN INCLUDED / NOT INCLUDED GRID
+  ======================================================== */
+
+              .included-not-included-section {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 2rem;
+                margin-bottom: 2rem;
+                box-sizing: border-box;
+              }
+
+              /* ========================================================
+     COMMON CARD
+  ======================================================== */
+
+              .included-card,
+              .not-included-card {
+                width: 100%;
+                min-width: 0;
+                padding: 1.5rem;
+                border-radius: 20px;
+                box-sizing: border-box;
+                transition:
+                  transform 0.3s ease,
+                  box-shadow 0.3s ease;
+              }
+
+              /* Included */
+              .included-card {
+                background: #f0fdf4;
+                border: 1px solid #bbf7d0;
+              }
+
+              /* Not Included */
+              .not-included-card {
+                background: #fef2f2;
+                border: 1px solid #fecaca;
+              }
+
+              /* ========================================================
+     CARD HEADINGS
+  ======================================================== */
+
+              .included-card-title,
+              .not-included-card-title {
+                margin: 0 0 1rem;
+                display: flex;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 1.1rem;
+                font-weight: 700;
+                line-height: 1.4;
+              }
+
+              .included-card-title {
+                color: #15803d;
+              }
+
+              .not-included-card-title {
+                color: #dc2626;
+              }
+
+              .included-card-title :global(svg),
+              .not-included-card-title :global(svg) {
+                flex-shrink: 0;
+              }
+
+              /* ========================================================
+     LIST
+  ======================================================== */
+
+              .included-list {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+              }
+
+              .included-list-item {
+                width: 100%;
+                display: flex;
+                align-items: flex-start;
+                gap: 0.5rem;
+                padding: 0.4rem 0;
+                font-size: 0.9rem;
+                line-height: 1.5;
+                color: #1a2634;
+                box-sizing: border-box;
+              }
+
+              .included-check,
+              .not-included-cross {
+                flex: 0 0 20px;
+                width: 20px;
+                text-align: center;
+                font-size: 1.1rem;
+                font-weight: 700;
+                line-height: 1.5;
+              }
+
+              .included-check {
+                color: #22c55e;
+              }
+
+              .not-included-cross {
+                color: #ef4444;
+              }
+
+              .included-item-text {
+                flex: 1;
+                min-width: 0;
+                overflow-wrap: anywhere;
+              }
+
+              /* ========================================================
+     PRICING PROMISE
+  ======================================================== */
+
+              .pricing-promise {
+                width: 100%;
+                background: linear-gradient(135deg, #0052cc 0%, #0770e3 100%);
+                border-radius: 20px;
+                padding: 2rem;
+                text-align: center;
+                color: #fff;
+                box-sizing: border-box;
+                transition:
+                  box-shadow 0.3s ease,
+                  transform 0.3s ease;
+              }
+
+              .pricing-promise-icon {
+                width: 56px;
+                height: 56px;
+                border-radius: 50%;
+                background: rgba(255, 255, 255, 0.15);
+
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+
+                margin: 0 auto 1rem;
+              }
+
+              .pricing-promise-title {
+                margin: 0 0 0.5rem;
+                font-size: 1.3rem;
+                font-weight: 700;
+                line-height: 1.4;
+              }
+
+              .pricing-promise-text {
+                width: 100%;
+                max-width: 600px;
+                margin: 0 auto 1.5rem;
+                font-size: 1rem;
+                line-height: 1.6;
+                opacity: 0.9;
+              }
+
+              .pricing-promise-btn {
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0.6rem;
+
+                min-height: 46px;
+                padding: 0.8rem 2rem;
+
+                border-radius: 50px;
+                border: none;
+
+                background: #fff;
+                color: #0052cc;
+
+                font-size: 1rem;
+                font-weight: 700;
+                text-decoration: none;
+
+                cursor: pointer;
+                box-sizing: border-box;
+
+                transition:
+                  transform 0.3s ease,
+                  box-shadow 0.3s ease;
+              }
+
+              .pricing-promise-btn :global(svg) {
+                flex-shrink: 0;
+              }
+
+              /* ========================================================
+     LARGE TABLETS
+  ======================================================== */
+
+              @media (max-width: 1024px) {
+                .included-not-included-section {
+                  gap: 1.5rem;
                 }
 
-                .pricing-table-wrapper {
-                  padding: 1.25rem !important;
+                .included-card,
+                .not-included-card {
+                  padding: 1.35rem;
+                  border-radius: 18px;
                 }
 
-                .pricing-table-wrapper
-                  [style*="grid-template-columns: 1fr 1fr"] {
-                  grid-template-columns: 1fr !important;
+                .included-card-title,
+                .not-included-card-title {
+                  font-size: 1.05rem;
                 }
 
-                .pricing-row td {
-                  font-size: 0.85rem !important;
-                  padding: 0.6rem 0.8rem !important;
+                .included-list-item {
+                  font-size: 0.88rem;
+                }
+
+                .pricing-promise {
+                  padding: 1.75rem;
+                  border-radius: 18px;
                 }
               }
 
+              /* ========================================================
+     TABLET
+  ======================================================== */
+
+              @media (max-width: 768px) {
+                .included-not-included-section {
+                  grid-template-columns: 1fr;
+                  gap: 1.25rem;
+                  margin-bottom: 1.5rem;
+                }
+
+                .included-card,
+                .not-included-card {
+                  padding: 1.25rem;
+                  border-radius: 17px;
+                }
+
+                .included-card-title,
+                .not-included-card-title {
+                  margin-bottom: 0.85rem;
+                  font-size: 1rem;
+                }
+
+                .included-list-item {
+                  padding: 0.38rem 0;
+                  font-size: 0.88rem;
+                }
+
+                .pricing-promise {
+                  padding: 1.5rem;
+                  border-radius: 17px;
+                }
+
+                .pricing-promise-icon {
+                  width: 52px;
+                  height: 52px;
+                }
+
+                .pricing-promise-title {
+                  font-size: 1.2rem;
+                }
+
+                .pricing-promise-text {
+                  font-size: 0.95rem;
+                  max-width: 560px;
+                }
+
+                .pricing-promise-btn {
+                  padding: 0.75rem 1.75rem;
+                }
+              }
+
+              /* ========================================================
+     MOBILE
+  ======================================================== */
+
               @media (max-width: 480px) {
-                .pricing-card {
-                  padding: 1rem !important;
+                .included-not-included-section {
+                  gap: 1rem;
+                  margin-bottom: 1.25rem;
                 }
 
-                .pricing-icon {
-                  width: 40px !important;
-                  height: 40px !important;
+                .included-card,
+                .not-included-card {
+                  padding: 1rem;
+                  border-radius: 15px;
                 }
 
-                .pricing-icon svg {
-                  width: 20px !important;
-                  height: 20px !important;
+                .included-card-title,
+                .not-included-card-title {
+                  gap: 0.4rem;
+                  margin-bottom: 0.75rem;
+                  font-size: 0.95rem;
                 }
 
-                .pricing-table-wrapper {
-                  padding: 1rem !important;
+                .included-card-title :global(svg),
+                .not-included-card-title :global(svg) {
+                  width: 18px;
+                  height: 18px;
+                }
+
+                .included-list-item {
+                  gap: 0.4rem;
+                  padding: 0.32rem 0;
+                  font-size: 0.82rem;
+                  line-height: 1.45;
+                }
+
+                .included-check,
+                .not-included-cross {
+                  flex-basis: 18px;
+                  width: 18px;
+                  font-size: 0.95rem;
+                }
+
+                /* Pricing Promise */
+                .pricing-promise {
+                  padding: 1.25rem 1rem;
+                  border-radius: 15px;
+                }
+
+                .pricing-promise-icon {
+                  width: 48px;
+                  height: 48px;
+                  margin-bottom: 0.75rem;
+                }
+
+                .pricing-promise-icon :global(svg) {
+                  width: 24px;
+                  height: 24px;
+                }
+
+                .pricing-promise-title {
+                  font-size: 1.05rem;
+                  margin-bottom: 0.45rem;
+                }
+
+                .pricing-promise-text {
+                  font-size: 0.84rem;
+                  line-height: 1.5;
+                  margin-bottom: 1.1rem;
+                }
+
+                .pricing-promise-btn {
+                  width: 100%;
+                  max-width: 100%;
+                  min-height: 44px;
+                  padding: 0.7rem 1rem;
+                  font-size: 0.85rem;
+                  border-radius: 12px;
+                }
+
+                .pricing-promise-btn :global(svg) {
+                  width: 17px;
+                  height: 17px;
+                }
+              }
+
+              /* ========================================================
+     VERY SMALL PHONES - 320px / 359px
+  ======================================================== */
+
+              @media (max-width: 359px) {
+                .included-not-included-section {
+                  gap: 0.85rem;
+                  margin-bottom: 1rem;
+                }
+
+                .included-card,
+                .not-included-card {
+                  padding: 0.85rem;
+                  border-radius: 13px;
+                }
+
+                .included-card-title,
+                .not-included-card-title {
+                  font-size: 0.88rem;
+                  gap: 0.35rem;
+                }
+
+                .included-card-title :global(svg),
+                .not-included-card-title :global(svg) {
+                  width: 17px;
+                  height: 17px;
+                }
+
+                .included-list-item {
+                  font-size: 0.78rem;
+                  gap: 0.35rem;
+                  padding: 0.28rem 0;
+                }
+
+                .included-check,
+                .not-included-cross {
+                  flex-basis: 17px;
+                  width: 17px;
+                  font-size: 0.9rem;
+                }
+
+                .pricing-promise {
+                  padding: 1rem 0.8rem;
+                  border-radius: 13px;
+                }
+
+                .pricing-promise-icon {
+                  width: 44px;
+                  height: 44px;
+                }
+
+                .pricing-promise-icon :global(svg) {
+                  width: 22px;
+                  height: 22px;
+                }
+
+                .pricing-promise-title {
+                  font-size: 0.98rem;
+                }
+
+                .pricing-promise-text {
+                  font-size: 0.78rem;
+                  line-height: 1.45;
+                }
+
+                .pricing-promise-btn {
+                  font-size: 0.78rem;
+                  padding: 0.65rem 0.75rem;
+                }
+              }
+
+              /* ========================================================
+     TOUCH DEVICES
+  ======================================================== */
+
+              @media (hover: none) {
+                .included-card,
+                .not-included-card,
+                .pricing-promise,
+                .pricing-promise-btn {
+                  transition: none;
+                }
+              }
+
+              /* ========================================================
+     REDUCED MOTION
+  ======================================================== */
+
+              @media (prefers-reduced-motion: reduce) {
+                .included-card,
+                .not-included-card,
+                .pricing-promise,
+                .pricing-promise-btn {
+                  transition: none;
                 }
               }
             `}</style>
@@ -3975,114 +5213,43 @@ export default function RouteTemplate({
         </section>
 
         {/* ===== JOURNEY PREVIEW SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#ffffff" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            {/* Section Header */}
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 2.5rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <MapPin size={14} /> Journey Preview
+        <section className="journey-preview-section">
+          <div className="journey-preview-container">
+            {/* ================= SECTION HEADER ================= */}
+            <div className="journey-preview-header">
+              <div className="journey-preview-badge">
+                <MapPin size={14} />
+                <span>Journey Preview</span>
               </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
+
+              <h2 className="journey-preview-title">
                 Experience a Smooth Ride from{" "}
-                <span style={{ color: "#0052CC" }}>
+                <span>
                   {route.origin} to {route.destination}
                 </span>
               </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
+
+              <p className="journey-preview-description">
                 Travel with comfort, safety, and flexibility. Your journey from{" "}
                 {route.origin} to {route.destination} starts here.
               </p>
             </div>
 
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "1fr 1fr",
-                gap: "3rem",
-                alignItems: "center",
-              }}
-            >
-              {/* Left Column - Journey Details */}
-              <div>
+            {/* ================= JOURNEY CONTENT ================= */}
+            <div className="journey-preview-grid">
+              {/* ================= LEFT COLUMN ================= */}
+              <div className="journey-preview-content">
                 {/* Premium Badge */}
-                <div
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "0.5rem",
-                    background: "#0052CC",
-                    color: "#fff",
-                    padding: "0.3rem 1.2rem",
-                    borderRadius: "40px",
-                    fontSize: "0.75rem",
-                    fontWeight: 600,
-                    letterSpacing: "0.5px",
-                    marginBottom: "1rem",
-                  }}
-                >
-                  <BusFront size={14} /> Premium Travel Experience
+                <div className="journey-premium-badge">
+                  <BusFront size={14} />
+                  <span>Premium Travel Experience</span>
                 </div>
 
-                <h3
-                  style={{
-                    fontSize: "1.5rem",
-                    fontWeight: 700,
-                    color: "#0b1a2e",
-                    marginBottom: "0.5rem",
-                  }}
-                >
+                <h3 className="journey-preview-subtitle">
                   Travel from {route.origin} to {route.destination}
                 </h3>
 
-                <p
-                  style={{
-                    fontSize: "1rem",
-                    color: "#4a5a6e",
-                    lineHeight: "1.7",
-                    marginBottom: "1.5rem",
-                  }}
-                >
+                <p className="journey-preview-text">
                   {route.distanceKm}km journey in {route.durationHrs}. Perfect
                   for
                   {route.category?.toLowerCase() === "pilgrimage"
@@ -4097,15 +5264,8 @@ export default function RouteTemplate({
                   group travel.
                 </p>
 
-                {/* Features List */}
-                <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "1fr 1fr",
-                    gap: "0.75rem",
-                    marginBottom: "1.5rem",
-                  }}
-                >
+                {/* Features */}
+                <div className="journey-preview-features">
                   {[
                     {
                       icon: <MapPin size={16} color="#0052CC" />,
@@ -4126,15 +5286,7 @@ export default function RouteTemplate({
                   ].map((feature, index) => (
                     <div
                       key={index}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.5rem",
-                        padding: "0.5rem",
-                        background: "#f9fafc",
-                        borderRadius: "10px",
-                        transition: "all 0.3s ease",
-                      }}
+                      className="journey-feature"
                       onMouseEnter={(e) => {
                         e.currentTarget.style.background = "#f0f4fe";
                         e.currentTarget.style.transform = "translateX(4px)";
@@ -4144,14 +5296,11 @@ export default function RouteTemplate({
                         e.currentTarget.style.transform = "translateX(0)";
                       }}
                     >
-                      {feature.icon}
-                      <span
-                        style={{
-                          fontSize: "0.85rem",
-                          color: "#1a2634",
-                          fontWeight: 500,
-                        }}
-                      >
+                      <span className="journey-feature-icon">
+                        {feature.icon}
+                      </span>
+
+                      <span className="journey-feature-text">
                         {feature.text}
                       </span>
                     </div>
@@ -4165,80 +5314,46 @@ export default function RouteTemplate({
                   )}`}
                   target="_blank"
                   rel="noopener noreferrer"
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    gap: "0.6rem",
-                    padding: "0.8rem 2.5rem",
-                    borderRadius: "50px",
-                    background: "#25D366",
-                    color: "#fff",
-                    fontWeight: 700,
-                    textDecoration: "none",
-                    transition: "all 0.3s ease",
-                    border: "none",
-                    fontSize: "1rem",
-                    cursor: "pointer",
-                    boxShadow: "0 8px 24px rgba(37, 211, 102, 0.25)",
-                  }}
+                  className="journey-book-btn"
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "scale(1.05)";
+                    e.currentTarget.style.transform = "translateY(-2px)";
                     e.currentTarget.style.boxShadow =
                       "0 12px 32px rgba(37, 211, 102, 0.35)";
                   }}
                   onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "scale(1)";
+                    e.currentTarget.style.transform = "translateY(0)";
                     e.currentTarget.style.boxShadow =
                       "0 8px 24px rgba(37, 211, 102, 0.25)";
                   }}
                 >
-                  <MessageSquare size={20} /> Book Your Ride →
+                  <MessageSquare size={20} />
+                  <span>Book Your Ride →</span>
                 </a>
               </div>
 
-              {/* Right Column - Map */}
+              {/* ================= RIGHT COLUMN - MAP ================= */}
               <div
-                style={{
-                  borderRadius: "24px",
-                  overflow: "hidden",
-                  border: "1px solid #ecf0f7",
-                  boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
-                  transition: "all 0.3s ease",
-                }}
+                className="journey-map-card"
                 onMouseEnter={(e) => {
                   e.currentTarget.style.boxShadow =
                     "0 16px 40px rgba(0, 82, 204, 0.12)";
-                  e.currentTarget.style.transform = "scale(1.01)";
+                  e.currentTarget.style.transform = "translateY(-2px)";
                 }}
                 onMouseLeave={(e) => {
                   e.currentTarget.style.boxShadow =
                     "0 8px 24px rgba(0,20,50,0.06)";
-                  e.currentTarget.style.transform = "scale(1)";
+                  e.currentTarget.style.transform = "translateY(0)";
                 }}
               >
-                <div
-                  style={{
-                    position: "relative",
-                    width: "100%",
-                    paddingBottom: "75%",
-                    background: "#eef3ff",
-                    display: "flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  {/* Map Container */}
-                  <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                    }}
-                  >
+                <div className="journey-map-wrapper">
+                  {/* Map */}
+                  <div className="journey-map-container">
                     <iframe
-                      src={`https://www.google.com/maps/embed/v1/directions?key=YOUR_GOOGLE_MAPS_API_KEY&origin=${encodeURIComponent(route.origin)}&destination=${encodeURIComponent(route.destination)}&mode=driving`}
+                      src={`https://www.google.com/maps/embed/v1/directions?key=YOUR_GOOGLE_MAPS_API_KEY&origin=${encodeURIComponent(
+                        route.origin,
+                      )}&destination=${encodeURIComponent(
+                        route.destination,
+                      )}&mode=driving`}
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
@@ -4249,30 +5364,14 @@ export default function RouteTemplate({
                     />
                   </div>
 
-                  {/* Overlay - Only shown if map fails to load */}
+                  {/* Map Overlay */}
                   <div
-                    style={{
-                      position: "absolute",
-                      top: 0,
-                      left: 0,
-                      width: "100%",
-                      height: "100%",
-                      display: "flex",
-                      flexDirection: "column",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      background: "rgba(255,255,255,0.95)",
-                      color: "#0b1a2e",
-                      padding: "2rem",
-                      textAlign: "center",
-                      cursor: "pointer",
-                      transition: "all 0.3s ease",
-                      zIndex: 1,
-                    }}
                     className="map-overlay"
                     onClick={() => {
                       window.open(
-                        `https://www.google.com/maps/dir/${encodeURIComponent(route.origin)}/${encodeURIComponent(route.destination)}`,
+                        `https://www.google.com/maps/dir/${encodeURIComponent(
+                          route.origin,
+                        )}/${encodeURIComponent(route.destination)}`,
                         "_blank",
                       );
                     }}
@@ -4288,63 +5387,26 @@ export default function RouteTemplate({
                       e.currentTarget.style.boxShadow = "none";
                     }}
                   >
-                    <div
-                      style={{
-                        fontSize: "3rem",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      🗺️
-                    </div>
-                    <h4
-                      style={{
-                        fontSize: "1.2rem",
-                        fontWeight: 700,
-                        color: "#0b1a2e",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      View Route Map
-                    </h4>
-                    <p
-                      style={{
-                        fontSize: "0.9rem",
-                        color: "#4a5a6e",
-                        maxWidth: "300px",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
+                    <div className="map-overlay-icon">🗺️</div>
+
+                    <h4>View Route Map</h4>
+
+                    <p>
                       Click to load live Google Map for {route.origin} to{" "}
                       {route.destination}
                     </p>
-                    <div
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        gap: "0.4rem",
-                        color: "#0052CC",
-                        fontWeight: 600,
-                        fontSize: "0.85rem",
-                        marginTop: "0.5rem",
-                      }}
-                    >
+
+                    <div className="map-overlay-link">
                       <MapPin size={16} />
-                      Open Google Maps
+                      <span>Open Google Maps</span>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Route Stats Cards */}
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
-                gap: "1.5rem",
-                marginTop: "3rem",
-              }}
-            >
+            {/* ================= ROUTE STATS ================= */}
+            <div className="journey-preview-stats">
               {[
                 {
                   icon: <Road size={20} color="#0052CC" />,
@@ -4369,14 +5431,7 @@ export default function RouteTemplate({
               ].map((stat, index) => (
                 <div
                   key={index}
-                  style={{
-                    background: "#ffffff",
-                    padding: "1.2rem",
-                    borderRadius: "16px",
-                    border: "1px solid #ecf0f7",
-                    textAlign: "center",
-                    transition: "all 0.3s ease",
-                  }}
+                  className="journey-stat-card"
                   onMouseEnter={(e) => {
                     e.currentTarget.style.borderColor = "#0052CC";
                     e.currentTarget.style.transform = "translateY(-4px)";
@@ -4389,101 +5444,845 @@ export default function RouteTemplate({
                     e.currentTarget.style.boxShadow = "none";
                   }}
                 >
-                  <div
-                    style={{
-                      display: "inline-flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      width: "40px",
-                      height: "40px",
-                      borderRadius: "50%",
-                      background: "#eef3ff",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    {stat.icon}
-                  </div>
-                  <div
-                    style={{
-                      fontSize: "0.7rem",
-                      color: "#7a8a9e",
-                      fontWeight: 600,
-                      textTransform: "uppercase",
-                      letterSpacing: "0.5px",
-                    }}
-                  >
-                    {stat.label}
-                  </div>
-                  <div
-                    style={{
-                      fontSize: "1.1rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginTop: "0.2rem",
-                    }}
-                  >
-                    {stat.value}
-                  </div>
+                  <div className="journey-stat-icon">{stat.icon}</div>
+
+                  <div className="journey-stat-label">{stat.label}</div>
+
+                  <div className="journey-stat-value">{stat.value}</div>
                 </div>
               ))}
             </div>
-
-            {/* Responsive Styles */}
-            <style jsx>{`
-              @media (max-width: 968px) {
-                .journey-preview-grid {
-                  grid-template-columns: 1fr !important;
-                  gap: 2rem !important;
-                }
-              }
-
-              @media (max-width: 768px) {
-                .journey-preview-section {
-                  padding: 3rem 0 !important;
-                }
-
-                .journey-preview-grid {
-                  gap: 1.5rem !important;
-                }
-
-                .journey-preview-features {
-                  grid-template-columns: 1fr !important;
-                }
-
-                .journey-preview-stats {
-                  grid-template-columns: repeat(2, 1fr) !important;
-                }
-
-                .journey-preview h3 {
-                  font-size: 1.3rem !important;
-                }
-
-                .map-overlay h4 {
-                  font-size: 1rem !important;
-                }
-
-                .map-overlay p {
-                  font-size: 0.8rem !important;
-                }
-              }
-
-              @media (max-width: 480px) {
-                .journey-preview-stats {
-                  grid-template-columns: 1fr 1fr !important;
-                  gap: 0.75rem !important;
-                }
-
-                .journey-preview h2 {
-                  font-size: 1.8rem !important;
-                }
-
-                .journey-preview .book-btn {
-                  width: 100% !important;
-                  justify-content: center !important;
-                }
-              }
-            `}</style>
           </div>
+
+          {/* =========================================================
+      RESPONSIVE CSS
+  ========================================================= */}
+          <style jsx>{`
+            /* =====================================================
+       SECTION
+    ===================================================== */
+
+            .journey-preview-section {
+              width: 100%;
+              background: #ffffff;
+              padding: 4rem 0;
+              overflow: hidden;
+              box-sizing: border-box;
+            }
+
+            .journey-preview-container {
+              width: 100%;
+              max-width: 1280px;
+              margin: 0 auto;
+              padding: 0 1.5rem;
+              box-sizing: border-box;
+            }
+
+            /* =====================================================
+       SECTION HEADER
+    ===================================================== */
+
+            .journey-preview-header {
+              width: 100%;
+              max-width: 780px;
+              margin: 0 auto 2.5rem;
+              text-align: center;
+            }
+
+            .journey-preview-badge {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+
+              background: #eef3ff;
+              color: #0052cc;
+
+              padding: 0.25rem 1.2rem;
+              border-radius: 40px;
+
+              font-size: 0.8rem;
+              font-weight: 600;
+
+              box-sizing: border-box;
+            }
+
+            .journey-preview-title {
+              margin: 0.5rem 0 0.75rem;
+              font-size: 2.3rem;
+              font-weight: 700;
+              line-height: 1.25;
+              color: #0b1a2e;
+              overflow-wrap: anywhere;
+            }
+
+            .journey-preview-title span {
+              color: #0052cc;
+            }
+
+            .journey-preview-description {
+              margin: 0;
+              font-size: 1.05rem;
+              color: #4a5a6e;
+              line-height: 1.6;
+            }
+
+            /* =====================================================
+       MAIN GRID
+    ===================================================== */
+
+            .journey-preview-grid {
+              width: 100%;
+              display: grid;
+              grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+              gap: 3rem;
+              align-items: center;
+              box-sizing: border-box;
+            }
+
+            .journey-preview-content {
+              width: 100%;
+              min-width: 0;
+            }
+
+            /* =====================================================
+       PREMIUM BADGE
+    ===================================================== */
+
+            .journey-premium-badge {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+
+              background: #0052cc;
+              color: #fff;
+
+              padding: 0.3rem 1.2rem;
+              border-radius: 40px;
+
+              font-size: 0.75rem;
+              font-weight: 600;
+              letter-spacing: 0.5px;
+
+              margin-bottom: 1rem;
+              max-width: 100%;
+              box-sizing: border-box;
+            }
+
+            .journey-preview-subtitle {
+              margin: 0 0 0.5rem;
+              font-size: 1.5rem;
+              font-weight: 700;
+              line-height: 1.35;
+              color: #0b1a2e;
+              overflow-wrap: anywhere;
+            }
+
+            .journey-preview-text {
+              margin: 0 0 1.5rem;
+              font-size: 1rem;
+              color: #4a5a6e;
+              line-height: 1.7;
+              overflow-wrap: anywhere;
+            }
+
+            /* =====================================================
+       FEATURES
+    ===================================================== */
+
+            .journey-preview-features {
+              width: 100%;
+              display: grid;
+              grid-template-columns: repeat(2, minmax(0, 1fr));
+              gap: 0.75rem;
+              margin-bottom: 1.5rem;
+            }
+
+            .journey-feature {
+              min-width: 0;
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+
+              padding: 0.5rem;
+
+              background: #f9fafc;
+              border-radius: 10px;
+
+              transition:
+                background 0.3s ease,
+                transform 0.3s ease;
+
+              box-sizing: border-box;
+            }
+
+            .journey-feature-icon {
+              flex: 0 0 auto;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            }
+
+            .journey-feature-text {
+              min-width: 0;
+              font-size: 0.85rem;
+              color: #1a2634;
+              font-weight: 500;
+              line-height: 1.4;
+              overflow-wrap: anywhere;
+            }
+
+            /* =====================================================
+       BOOK BUTTON
+    ===================================================== */
+
+            .journey-book-btn {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.6rem;
+
+              min-height: 46px;
+              padding: 0.8rem 2.5rem;
+
+              border-radius: 50px;
+
+              background: #25d366;
+              color: #fff;
+
+              font-weight: 700;
+              font-size: 1rem;
+              text-decoration: none;
+
+              box-shadow: 0 8px 24px rgba(37, 211, 102, 0.25);
+
+              cursor: pointer;
+              box-sizing: border-box;
+
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+            }
+
+            .journey-book-btn :global(svg) {
+              flex-shrink: 0;
+            }
+
+            /* =====================================================
+       MAP
+    ===================================================== */
+
+            .journey-map-card {
+              width: 100%;
+              min-width: 0;
+
+              border-radius: 24px;
+              overflow: hidden;
+
+              border: 1px solid #ecf0f7;
+              box-shadow: 0 8px 24px rgba(0, 20, 50, 0.06);
+
+              transition:
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+
+              box-sizing: border-box;
+            }
+
+            .journey-map-wrapper {
+              position: relative;
+              width: 100%;
+              height: 0;
+              padding-bottom: 75%;
+              background: #eef3ff;
+              overflow: hidden;
+            }
+
+            .journey-map-container {
+              position: absolute;
+              inset: 0;
+              width: 100%;
+              height: 100%;
+            }
+
+            .journey-map-container iframe {
+              display: block;
+              width: 100%;
+              height: 100%;
+            }
+
+            /* =====================================================
+       MAP OVERLAY
+    ===================================================== */
+
+            .map-overlay {
+              position: absolute;
+              inset: 0;
+              z-index: 2;
+
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+
+              background: rgba(255, 255, 255, 0.95);
+              color: #0b1a2e;
+
+              padding: 2rem;
+              text-align: center;
+
+              cursor: pointer;
+
+              transition:
+                background 0.3s ease,
+                box-shadow 0.3s ease;
+
+              box-sizing: border-box;
+            }
+
+            .map-overlay-icon {
+              font-size: 3rem;
+              line-height: 1;
+              margin-bottom: 0.75rem;
+            }
+
+            .map-overlay h4 {
+              margin: 0 0 0.5rem;
+              font-size: 1.2rem;
+              font-weight: 700;
+              color: #0b1a2e;
+            }
+
+            .map-overlay p {
+              max-width: 300px;
+              margin: 0 0 0.5rem;
+              font-size: 0.9rem;
+              line-height: 1.5;
+              color: #4a5a6e;
+            }
+
+            .map-overlay-link {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.4rem;
+
+              margin-top: 0.5rem;
+
+              color: #0052cc;
+              font-size: 0.85rem;
+              font-weight: 600;
+            }
+
+            /* =====================================================
+       STATS
+    ===================================================== */
+
+            .journey-preview-stats {
+              width: 100%;
+              display: grid;
+              grid-template-columns: repeat(4, minmax(0, 1fr));
+              gap: 1.5rem;
+              margin-top: 3rem;
+              box-sizing: border-box;
+            }
+
+            .journey-stat-card {
+              min-width: 0;
+
+              background: #ffffff;
+              padding: 1.2rem;
+
+              border-radius: 16px;
+              border: 1px solid #ecf0f7;
+
+              text-align: center;
+
+              transition:
+                border-color 0.3s ease,
+                transform 0.3s ease,
+                box-shadow 0.3s ease;
+
+              box-sizing: border-box;
+            }
+
+            .journey-stat-icon {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+
+              width: 40px;
+              height: 40px;
+
+              border-radius: 50%;
+              background: #eef3ff;
+
+              margin-bottom: 0.5rem;
+            }
+
+            .journey-stat-label {
+              font-size: 0.7rem;
+              color: #7a8a9e;
+              font-weight: 600;
+
+              text-transform: uppercase;
+              letter-spacing: 0.5px;
+
+              line-height: 1.4;
+              overflow-wrap: anywhere;
+            }
+
+            .journey-stat-value {
+              margin-top: 0.2rem;
+
+              font-size: 1.1rem;
+              font-weight: 700;
+              line-height: 1.35;
+
+              color: #0b1a2e;
+              overflow-wrap: anywhere;
+            }
+
+            /* =====================================================
+       1200px - LARGE DESKTOP
+    ===================================================== */
+
+            @media (max-width: 1200px) {
+              .journey-preview-container {
+                padding: 0 1.25rem;
+              }
+
+              .journey-preview-grid {
+                gap: 2rem;
+              }
+
+              .journey-preview-stats {
+                gap: 1rem;
+              }
+            }
+
+            /* =====================================================
+       1024px - TABLET / SMALL LAPTOP
+    ===================================================== */
+
+            @media (max-width: 1024px) {
+              .journey-preview-section {
+                padding: 3.5rem 0;
+              }
+
+              .journey-preview-title {
+                font-size: 2rem;
+              }
+
+              .journey-preview-grid {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+              }
+
+              .journey-preview-content {
+                max-width: 900px;
+                margin: 0 auto;
+              }
+
+              .journey-map-card {
+                max-width: 900px;
+                margin: 0 auto;
+              }
+
+              .journey-preview-stats {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                max-width: 900px;
+                margin-left: auto;
+                margin-right: auto;
+              }
+            }
+
+            /* =====================================================
+       768px - TABLET
+    ===================================================== */
+
+            @media (max-width: 768px) {
+              .journey-preview-section {
+                padding: 3rem 0;
+              }
+
+              .journey-preview-container {
+                padding: 0 1rem;
+              }
+
+              .journey-preview-header {
+                margin-bottom: 2rem;
+              }
+
+              .journey-preview-title {
+                font-size: 1.8rem;
+                line-height: 1.3;
+              }
+
+              .journey-preview-description {
+                font-size: 0.95rem;
+              }
+
+              .journey-preview-grid {
+                gap: 1.5rem;
+              }
+
+              .journey-preview-subtitle {
+                font-size: 1.3rem;
+              }
+
+              .journey-preview-text {
+                font-size: 0.92rem;
+              }
+
+              .journey-preview-features {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.6rem;
+              }
+
+              .journey-feature {
+                padding: 0.5rem;
+              }
+
+              .journey-feature-text {
+                font-size: 0.8rem;
+              }
+
+              .journey-book-btn {
+                padding: 0.75rem 2rem;
+              }
+
+              .journey-map-card {
+                border-radius: 20px;
+              }
+
+              .journey-map-wrapper {
+                padding-bottom: 68%;
+              }
+
+              .map-overlay {
+                padding: 1.5rem;
+              }
+
+              .map-overlay-icon {
+                font-size: 2.5rem;
+              }
+
+              .map-overlay h4 {
+                font-size: 1rem;
+              }
+
+              .map-overlay p {
+                font-size: 0.8rem;
+              }
+
+              .journey-preview-stats {
+                margin-top: 2rem;
+                gap: 0.75rem;
+              }
+
+              .journey-stat-card {
+                padding: 1rem 0.75rem;
+              }
+
+              .journey-stat-value {
+                font-size: 1rem;
+              }
+            }
+
+            /* =====================================================
+       600px - SMALL TABLET / LARGE PHONE
+    ===================================================== */
+
+            @media (max-width: 600px) {
+              .journey-preview-features {
+                grid-template-columns: 1fr;
+              }
+
+              .journey-feature {
+                min-height: 42px;
+              }
+
+              .journey-map-wrapper {
+                padding-bottom: 72%;
+              }
+            }
+
+            /* =====================================================
+       480px - MOBILE
+    ===================================================== */
+
+            @media (max-width: 480px) {
+              .journey-preview-section {
+                padding: 2.5rem 0;
+              }
+
+              .journey-preview-container {
+                padding: 0 0.75rem;
+              }
+
+              .journey-preview-header {
+                margin-bottom: 1.5rem;
+              }
+
+              .journey-preview-badge {
+                padding: 0.25rem 0.9rem;
+                font-size: 0.72rem;
+              }
+
+              .journey-preview-title {
+                font-size: 1.55rem;
+                line-height: 1.3;
+              }
+
+              .journey-preview-description {
+                font-size: 0.86rem;
+                line-height: 1.55;
+              }
+
+              .journey-preview-grid {
+                gap: 1.25rem;
+              }
+
+              .journey-premium-badge {
+                padding: 0.3rem 0.85rem;
+                font-size: 0.68rem;
+                margin-bottom: 0.75rem;
+              }
+
+              .journey-preview-subtitle {
+                font-size: 1.15rem;
+                line-height: 1.35;
+              }
+
+              .journey-preview-text {
+                font-size: 0.85rem;
+                line-height: 1.6;
+                margin-bottom: 1.1rem;
+              }
+
+              .journey-preview-features {
+                grid-template-columns: 1fr;
+                gap: 0.5rem;
+                margin-bottom: 1.1rem;
+              }
+
+              .journey-feature {
+                padding: 0.5rem 0.6rem;
+                border-radius: 9px;
+              }
+
+              .journey-feature-text {
+                font-size: 0.78rem;
+              }
+
+              .journey-book-btn {
+                width: 100%;
+                padding: 0.75rem 1rem;
+                min-height: 44px;
+                border-radius: 12px;
+                font-size: 0.88rem;
+              }
+
+              .journey-book-btn :global(svg) {
+                width: 18px;
+                height: 18px;
+              }
+
+              .journey-map-card {
+                border-radius: 16px;
+              }
+
+              .journey-map-wrapper {
+                padding-bottom: 78%;
+              }
+
+              .map-overlay {
+                padding: 1rem;
+              }
+
+              .map-overlay-icon {
+                font-size: 2rem;
+                margin-bottom: 0.5rem;
+              }
+
+              .map-overlay h4 {
+                font-size: 0.9rem;
+                margin-bottom: 0.35rem;
+              }
+
+              .map-overlay p {
+                max-width: 240px;
+                font-size: 0.72rem;
+                line-height: 1.4;
+              }
+
+              .map-overlay-link {
+                font-size: 0.75rem;
+                margin-top: 0.3rem;
+              }
+
+              .map-overlay-link :global(svg) {
+                width: 14px;
+                height: 14px;
+              }
+
+              .journey-preview-stats {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.6rem;
+                margin-top: 1.5rem;
+              }
+
+              .journey-stat-card {
+                padding: 0.85rem 0.5rem;
+                border-radius: 12px;
+              }
+
+              .journey-stat-icon {
+                width: 34px;
+                height: 34px;
+                margin-bottom: 0.4rem;
+              }
+
+              .journey-stat-icon :global(svg) {
+                width: 17px;
+                height: 17px;
+              }
+
+              .journey-stat-label {
+                font-size: 0.62rem;
+                letter-spacing: 0.3px;
+              }
+
+              .journey-stat-value {
+                font-size: 0.85rem;
+                margin-top: 0.15rem;
+              }
+            }
+
+            /* =====================================================
+       359px - VERY SMALL PHONES
+    ===================================================== */
+
+            @media (max-width: 359px) {
+              .journey-preview-section {
+                padding: 2rem 0;
+              }
+
+              .journey-preview-container {
+                padding: 0 0.6rem;
+              }
+
+              .journey-preview-title {
+                font-size: 1.35rem;
+              }
+
+              .journey-preview-description {
+                font-size: 0.8rem;
+              }
+
+              .journey-premium-badge {
+                font-size: 0.62rem;
+                padding: 0.28rem 0.7rem;
+              }
+
+              .journey-preview-subtitle {
+                font-size: 1.05rem;
+              }
+
+              .journey-preview-text {
+                font-size: 0.78rem;
+              }
+
+              .journey-feature {
+                padding: 0.45rem 0.5rem;
+              }
+
+              .journey-feature-text {
+                font-size: 0.72rem;
+              }
+
+              .journey-book-btn {
+                font-size: 0.8rem;
+                padding: 0.7rem 0.75rem;
+              }
+
+              .journey-map-wrapper {
+                padding-bottom: 82%;
+              }
+
+              .map-overlay {
+                padding: 0.75rem;
+              }
+
+              .map-overlay-icon {
+                font-size: 1.7rem;
+              }
+
+              .map-overlay h4 {
+                font-size: 0.8rem;
+              }
+
+              .map-overlay p {
+                font-size: 0.65rem;
+                max-width: 200px;
+              }
+
+              .map-overlay-link {
+                font-size: 0.68rem;
+              }
+
+              .journey-preview-stats {
+                gap: 0.5rem;
+              }
+
+              .journey-stat-card {
+                padding: 0.7rem 0.35rem;
+                border-radius: 10px;
+              }
+
+              .journey-stat-icon {
+                width: 30px;
+                height: 30px;
+              }
+
+              .journey-stat-label {
+                font-size: 0.55rem;
+              }
+
+              .journey-stat-value {
+                font-size: 0.75rem;
+              }
+            }
+
+            /* =====================================================
+       TOUCH DEVICES
+    ===================================================== */
+
+            @media (hover: none) {
+              .journey-feature,
+              .journey-map-card,
+              .journey-stat-card,
+              .journey-book-btn {
+                transition: none;
+              }
+            }
+
+            /* =====================================================
+       REDUCED MOTION
+    ===================================================== */
+
+            @media (prefers-reduced-motion: reduce) {
+              .journey-feature,
+              .journey-map-card,
+              .journey-stat-card,
+              .journey-book-btn,
+              .map-overlay {
+                transition: none;
+              }
+            }
+          `}</style>
         </section>
 
         {/* ===== FAQ SECTION ===== */}
@@ -4841,8 +6640,6 @@ export default function RouteTemplate({
             </div>
           </div>
         </section>
-
-        <Footer />
       </main>
     </>
   );
