@@ -4,20 +4,5 @@
   "devCommand": "next dev",
   "installCommand": "npm install",
   "framework": "nextjs",
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "env": {
-    "MONGODB_URI": "@mongodb_uri"
-  },
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=3600, must-revalidate"
-        }
-      ]
-    }
-  ]
+  "cleanUrls": true
 }
