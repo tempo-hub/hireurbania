@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Phone, MessageSquare, Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar({ onOpenModal }) {
   const [scrolled, setScrolled] = useState(false);
@@ -76,13 +77,21 @@ export default function Navbar({ onOpenModal }) {
         <div className="container nav-container">
           {/* Logo */}
           <Link href="/" className="brand-logo" onClick={closeMobileMenu}>
-            <div className="logo-badge">HU</div>
+            {/* <div className="logo-badge">HU</div>
 
             <div className="brand-text">
               <span className="brand-title">HIRE URBANIA</span>
 
               <span className="brand-sub">LUXURY TEMPO TRAVELLER</span>
-            </div>
+            </div> */}
+            <Image
+              src="/HIRE_URBANIA_LOGO.png"
+              alt="HIRE_URBANIA_LOGO"
+              width={211}
+              height={45}
+              className="logo-img"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

@@ -134,7 +134,6 @@ export default function CitiesPage() {
           </div>
         </div>
       </section>
-
     </main>
   );
 }

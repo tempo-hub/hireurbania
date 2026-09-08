@@ -24,6 +24,9 @@ export const metadata = {
     "indore to ujjain urbania",
     "luxury tempo traveller rental",
   ],
+  icons: {
+    icon: "/HIRE_URBANIA_favicon.png",
+  },
   authors: [{ name: "Hire Urbania Fleet Services" }],
   creator: "Hire Urbania",
   publisher: "Hire Urbania Fleet Services",
