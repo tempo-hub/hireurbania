@@ -46,7 +46,7 @@ export default function BookingModal({ isOpen, onClose, prefillData = {} }) {
       `🚐 *Vehicle:* ${encodeURIComponent(vehicle)}%0A` +
       `📝 *Notes:* ${encodeURIComponent(notes || "None")}`;
 
-    const whatsappUrl = `https://wa.me/918448445504?text=${textMessage}`;
+    const whatsappUrl = `https://wa.me/919151827941?text=${textMessage}`;
     window.open(whatsappUrl, "_blank");
     onClose();
     alert(

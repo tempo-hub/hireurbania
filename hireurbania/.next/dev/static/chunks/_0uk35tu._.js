@@ -177,7 +177,7 @@ function BookingModal({ isOpen, onClose, prefillData = {} }) {
     const handleSubmit = (e)=>{
         e.preventDefault();
         const textMessage = `*New Force Urbania Booking Query*%0A` + `👤 *Name:* ${encodeURIComponent(name)}%0A` + `📞 *Phone:* ${encodeURIComponent(phone)}%0A` + `📍 *Pickup:* ${encodeURIComponent(pickup)}%0A` + `🏁 *Destination:* ${encodeURIComponent(dest)}%0A` + `📅 *Date:* ${encodeURIComponent(date)}%0A` + `🚐 *Vehicle:* ${encodeURIComponent(vehicle)}%0A` + `📝 *Notes:* ${encodeURIComponent(notes || "None")}`;
-        const whatsappUrl = `https://wa.me/918448445504?text=${textMessage}`;
+        const whatsappUrl = `https://wa.me/919151827941?text=${textMessage}`;
         window.open(whatsappUrl, "_blank");
         onClose();
         alert(`Thank you ${name}! Your query has been formatted for WhatsApp booking.`);
@@ -1804,7 +1804,7 @@ function Footer({ onOpenModal }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+918448445504",
+                                            href: "tel:+919151827941",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",

@@ -777,7 +777,7 @@ function Footer({ onOpenModal }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+918448445504",
+                                            href: "tel:+919151827941",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",
@@ -1443,7 +1443,7 @@ function RouteSeo({ route }) {
 _c1 = RouteSeo;
 function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
     _s();
-    const whatsappNumber = "918448445504";
+    const whatsappNumber = "919151827941";
     const whatsappText = encodeURIComponent(`Booking Query for Force Urbania ${route.origin} to ${route.destination}`);
     const roundTripDistance = route.distanceKm * 2;
     // ========== FAQ STATE ==========

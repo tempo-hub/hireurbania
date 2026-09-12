@@ -204,7 +204,7 @@ function Footer({ onOpenModal }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+918448445504",
+                                            href: "tel:+919151827941",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",
@@ -457,7 +457,7 @@ function Footer({ onOpenModal }) {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "+91 84484 45504"
+                                                    children: "+91 9151827941"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
                                                     lineNumber: 179,
@@ -632,7 +632,7 @@ function Navbar({ onOpenModal }) {
     _s();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const whatsappNumber = "918448445504";
+    const whatsappNumber = "919151827941";
     const whatsappText = "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -870,7 +870,7 @@ function Navbar({ onOpenModal }) {
                                 className: "jsx-925b43de95ebf32e" + " " + "nav-cta-group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "tel:+918448445504",
+                                        href: "tel:+919151827941",
                                         title: "Call 24/7 Helpline",
                                         className: "jsx-925b43de95ebf32e" + " " + "phone-quicklink",
                                         children: [

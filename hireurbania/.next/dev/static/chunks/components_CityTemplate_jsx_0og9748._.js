@@ -219,7 +219,7 @@ function CitySeo({ city }) {
                         },
                         areaServed: city.name,
                         serviceType: "Tempo Traveller Rental",
-                        telephone: "+918448445504"
+                        telephone: "+919151827941"
                     })
                 }
             }, void 0, false, {
@@ -237,7 +237,7 @@ function CitySeo({ city }) {
 _c1 = CitySeo;
 function CityTemplate({ city, routes, fleet }) {
     _s();
-    const whatsappNumber = "918448445504";
+    const whatsappNumber = "919151827941";
     const relatedRoutes = Array.isArray(routes) ? routes : [];
     const whatsappText = encodeURIComponent(`Booking Query for Urbania Tempo Traveller Hire in ${city.name}`);
     // FAQ state

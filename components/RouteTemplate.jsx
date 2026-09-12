@@ -177,7 +177,7 @@ export default function RouteTemplate({
   fleet,
   cityGuide,
 }) {
-  const whatsappNumber = "918448445504";
+  const whatsappNumber = "919151827941";
 
   const whatsappText = encodeURIComponent(
     `Booking Query for Force Urbania ${route.origin} to ${route.destination}`,
