@@ -76,7 +76,7 @@ export default function Footer({ onOpenModal }) {
               </button>
 
               <a
-                href="tel:+918448445504"
+                href="tel:+919151827941"
                 className="call-helpline-btn"
                 style={{
                   display: "inline-flex",
@@ -176,7 +176,7 @@ export default function Footer({ onOpenModal }) {
                 style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}
               >
                 <Phone size={16} style={{ color: "var(--blue-400)" }} />
-                <span>+91 84484 45504</span>
+                <span>+91 9151827941</span>
               </div>
 
               <div

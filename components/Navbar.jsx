@@ -8,7 +8,7 @@ import Image from "next/image";
 export default function Navbar({ onOpenModal }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const whatsappNumber = "918448445504";
+  const whatsappNumber = "919151827941";
 
   const whatsappText =
     "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
@@ -151,7 +151,7 @@ export default function Navbar({ onOpenModal }) {
           <div className="nav-cta-group">
             {/* Phone */}
             <a
-              href="tel:+918448445504"
+              href="tel:+919151827941"
               className="phone-quicklink"
               title="Call 24/7 Helpline"
             >
