@@ -235,7 +235,7 @@ export default async function SitemapPage({ params }) {
       },
       {
         q: `How do I confirm my Force Urbania booking from ${route.origin} to ${route.destination}?`,
-        a: `You can book instantly by calling +91 84484 45504 or clicking 'Book on WhatsApp'. Share your travel dates and passenger count to receive a guaranteed quote. A 20% advance token confirms your doorstep pickup booking.`,
+        a: `You can book instantly by calling +91 91518 27941 or clicking 'Book on WhatsApp'. Share your travel dates and passenger count to receive a guaranteed quote. A 20% advance token confirms your doorstep pickup booking.`,
       },
     ];
 
@@ -519,7 +519,7 @@ export default async function SitemapPage({ params }) {
                       borderColor: "rgba(255,255,255,0.3)",
                     }}
                   >
-                    <Phone size={18} /> Call +91 84484 45504
+                    <Phone size={18} /> Call +91 91518 27941
                   </a>
                 </div>
               </div>
