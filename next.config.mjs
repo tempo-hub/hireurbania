@@ -2,6 +2,21 @@
 const nextConfig = {
   trailingSlash: false,
   reactStrictMode: true,
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.hireurbaniatempotraveller.com',
+          },
+        ],
+        destination: 'https://hireurbaniatempotraveller.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
   typescript: {
     ignoreBuildErrors: false,
   },
