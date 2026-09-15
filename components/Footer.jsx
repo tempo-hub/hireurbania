@@ -1,7 +1,19 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, MessageSquare, MapPin, Mail } from "lucide-react";
+import {
+  Phone,
+  MessageSquare,
+  MapPin,
+  Mail,
+} from "lucide-react";
+import {
+  FaFacebookF,
+  FaInstagram,
+  FaYoutube,
+  FaPinterestP,
+} from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { CITY_HUBS } from "@/lib/routesData";
 
 export default function Footer({ onOpenModal }) {
@@ -116,6 +128,211 @@ export default function Footer({ onOpenModal }) {
                 <Phone size={14} />
                 <span>Call Helpline</span>
               </a>
+            </div>
+
+            {/* Social Media */}
+            <div>
+              <div
+                style={{
+                  color: "#ffffff",
+                  fontSize: "0.8rem",
+                  fontWeight: 700,
+                  marginTop: "0.75rem",
+                  marginBottom: "0.75rem",
+                  letterSpacing: "0.02em",
+                }}
+              >
+                Follow Us On
+              </div>
+
+              <div
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.6rem",
+                  flexWrap: "wrap",
+                }}
+              >
+                {/* Facebook */}
+                <Link
+                  href="https://www.facebook.com/hireurbaniatempotraveller/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hire Urbania on Facebook"
+                  title="Facebook"
+                  style={{
+                    width: "38px",
+                    height: "38px",
+                    borderRadius: "9px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    background: "rgba(255, 255, 255, 0.08)",
+                    border: "1px solid rgba(255, 255, 255, 0.14)",
+                    textDecoration: "none",
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#1877F2";
+                    e.currentTarget.style.borderColor = "#1877F2";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background =
+                      "rgba(255, 255, 255, 0.08)";
+                    e.currentTarget.style.borderColor =
+                      "rgba(255, 255, 255, 0.14)";
+                    e.currentTarget.style.transform = "translateY(0)";
+                  }}
+                >
+                  <FaFacebookF size={17} />
+                </Link>
+
+                {/* Instagram */}
+                <Link
+                  href="https://www.instagram.com/hireurbaniatempotraveller/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hire Urbania on Instagram"
+                  title="Instagram"
+                  style={{
+                    width: "38px",
+                    height: "38px",
+                    borderRadius: "9px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    background: "rgba(255, 255, 255, 0.08)",
+                    border: "1px solid rgba(255, 255, 255, 0.14)",
+                    textDecoration: "none",
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#E4405F";
+                    e.currentTarget.style.borderColor = "#E4405F";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background =
+                      "rgba(255, 255, 255, 0.08)";
+                    e.currentTarget.style.borderColor =
+                      "rgba(255, 255, 255, 0.14)";
+                    e.currentTarget.style.transform = "translateY(0)";
+                  }}
+                >
+                  <FaInstagram size={17} />
+                </Link>
+
+                {/* X / Twitter */}
+                <Link
+                  href="https://x.com/hireurbaniatt"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hire Urbania on X"
+                  title="X"
+                  style={{
+                    width: "38px",
+                    height: "38px",
+                    borderRadius: "9px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    background: "rgba(255, 255, 255, 0.08)",
+                    border: "1px solid rgba(255, 255, 255, 0.14)",
+                    textDecoration: "none",
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#000000";
+                    e.currentTarget.style.borderColor = "#000000";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background =
+                      "rgba(255, 255, 255, 0.08)";
+                    e.currentTarget.style.borderColor =
+                      "rgba(255, 255, 255, 0.14)";
+                    e.currentTarget.style.transform = "translateY(0)";
+                  }}
+                >
+                  <FaXTwitter size={17} />
+                </Link>
+
+                {/* YouTube */}
+                <Link
+                  href="https://www.youtube.com/@hireurbaniatempotraveller"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hire Urbania on YouTube"
+                  title="YouTube"
+                  style={{
+                    width: "38px",
+                    height: "38px",
+                    borderRadius: "9px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    background: "rgba(255, 255, 255, 0.08)",
+                    border: "1px solid rgba(255, 255, 255, 0.14)",
+                    textDecoration: "none",
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#FF0000";
+                    e.currentTarget.style.borderColor = "#FF0000";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background =
+                      "rgba(255, 255, 255, 0.08)";
+                    e.currentTarget.style.borderColor =
+                      "rgba(255, 255, 255, 0.14)";
+                    e.currentTarget.style.transform = "translateY(0)";
+                  }}
+                >
+                  <FaYoutube size={17} />
+                </Link>
+
+                {/* Pinterest */}
+                <Link
+                  href="https://in.pinterest.com/hireurbaniatempotraveller/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Hire Urbania on Pinterest"
+                  title="Pinterest"
+                  style={{
+                    width: "38px",
+                    height: "38px",
+                    borderRadius: "9px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    color: "#ffffff",
+                    background: "rgba(255, 255, 255, 0.08)",
+                    border: "1px solid rgba(255, 255, 255, 0.14)",
+                    textDecoration: "none",
+                    transition: "all 0.2s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "#E60023";
+                    e.currentTarget.style.borderColor = "#E60023";
+                    e.currentTarget.style.transform = "translateY(-2px)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background =
+                      "rgba(255, 255, 255, 0.08)";
+                    e.currentTarget.style.borderColor =
+                      "rgba(255, 255, 255, 0.14)";
+                    e.currentTarget.style.transform = "translateY(0)";
+                  }}
+                >
+                  <FaPinterestP size={17} />
+                </Link>
+              </div>
             </div>
           </div>
 

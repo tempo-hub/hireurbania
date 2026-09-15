@@ -128,18 +128,6 @@ export default function Navbar({ onOpenModal }) {
               </li>
 
               <li>
-                <Link href="/#reviews" className="nav-link">
-                  Reviews
-                </Link>
-              </li>
-
-              <li>
-                <Link href="/#faqs" className="nav-link">
-                  FAQs
-                </Link>
-              </li>
-
-              <li>
                 <Link href="/blogs" className="nav-link">
                   Blogs
                 </Link>
