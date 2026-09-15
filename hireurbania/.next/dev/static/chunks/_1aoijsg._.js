@@ -628,7 +628,7 @@ function ContactActions() {
                         lineNumber: 41,
                         columnNumber: 9
                     }, this),
-                    " Call +91 84484 45504"
+                    " Call +91 91518 27941"
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/TrustPage.jsx",

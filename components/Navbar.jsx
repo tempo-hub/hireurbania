@@ -77,13 +77,6 @@ export default function Navbar({ onOpenModal }) {
         <div className="container nav-container">
           {/* Logo */}
           <Link href="/" className="brand-logo" onClick={closeMobileMenu}>
-            {/* <div className="logo-badge">HU</div>
-
-            <div className="brand-text">
-              <span className="brand-title">HIRE URBANIA</span>
-
-              <span className="brand-sub">LUXURY TEMPO TRAVELLER</span>
-            </div> */}
             <Image
               src="/HIRE_URBANIA_LOGO.png"
               alt="HIRE_URBANIA_LOGO"
@@ -144,7 +137,7 @@ export default function Navbar({ onOpenModal }) {
               title="Call 24/7 Helpline"
             >
               <Phone size={17} />
-              <span>+91 84484 45504</span>
+              <span>+91 91518 27941</span>
             </a>
 
             {/* Instant Quote */}

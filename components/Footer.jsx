@@ -393,7 +393,7 @@ export default function Footer({ onOpenModal }) {
                 style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}
               >
                 <Phone size={16} style={{ color: "var(--blue-400)" }} />
-                <span>+91 9151827941</span>
+                <span>+91 91518 27941</span>
               </div>
 
               <div

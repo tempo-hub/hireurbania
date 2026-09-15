@@ -38,7 +38,7 @@ export function ContactActions() {
   return (
     <div className="trust-actions">
       <a className="btn btn-primary" href="tel:+919151827941">
-        <Phone size={17} /> Call +91 84484 45504
+        <Phone size={17} /> Call +91 91518 27941
       </a>
       <a
         className="btn btn-whatsapp"
