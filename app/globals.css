@@ -4800,3 +4800,112 @@ section[style*="rgba(14"] {
     transition: none;
   }
 }
+
+/* =========================================================
+   FLOATING ACTION BUTTONS (WhatsApp Left, Calling Right)
+========================================================= */
+.floating-btn {
+  position: fixed;
+  bottom: 24px;
+  z-index: 9999;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.floating-btn-whatsapp {
+  left: 24px;
+  background-color: #25d366;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.45), 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.floating-btn-whatsapp:hover {
+  background-color: #20ba5a;
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 10px 25px rgba(37, 211, 102, 0.6), 0 4px 12px rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+}
+
+.floating-btn-call {
+  right: 24px;
+  background: linear-gradient(135deg, #ff6b2c 0%, #f95700 100%);
+  box-shadow: 0 6px 20px rgba(249, 87, 0, 0.45), 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.floating-btn-call:hover {
+  background: linear-gradient(135deg, #f95700 0%, #e04e00 100%);
+  transform: translateY(-4px) scale(1.08);
+  box-shadow: 0 10px 25px rgba(249, 87, 0, 0.6), 0 4px 12px rgba(0, 0, 0, 0.18);
+  color: #ffffff;
+}
+
+@keyframes pulse-ring-green {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+@keyframes pulse-ring-orange {
+  0% {
+    box-shadow: 0 0 0 0 rgba(249, 87, 0, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(249, 87, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(249, 87, 0, 0);
+  }
+}
+
+.floating-btn-whatsapp::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: pulse-ring-green 2.5s infinite;
+  z-index: -1;
+}
+
+.floating-btn-call::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  animation: pulse-ring-orange 2.5s infinite 1.25s;
+  z-index: -1;
+}
+
+@media (max-width: 640px) {
+  .floating-btn {
+    bottom: 18px;
+    width: 50px;
+    height: 50px;
+  }
+  .floating-btn-whatsapp {
+    left: 18px;
+  }
+  .floating-btn-call {
+    right: 18px;
+  }
+}

@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FloatingContactButtons from "@/components/FloatingContactButtons";
 
 export default function AppShell({ children }) {
   const pathname = usePathname();
@@ -16,7 +17,9 @@ export default function AppShell({ children }) {
     <>
       <Navbar />
       {children}
+      <FloatingContactButtons />
       <Footer />
     </>
   );
 }
+
