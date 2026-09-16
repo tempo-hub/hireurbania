@@ -121,6 +121,12 @@ export default function Navbar({ onOpenModal }) {
               </li>
 
               <li>
+                <Link href="/cities" className="nav-link">
+                  All Cities
+                </Link>
+              </li>
+
+              <li>
                 <Link href="/blogs" className="nav-link">
                   Blogs
                 </Link>
