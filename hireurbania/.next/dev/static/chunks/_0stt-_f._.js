@@ -2164,7 +2164,7 @@ const FLEET_MODELS = [
 const CITY_HUBS = [
     {
         id: "ayodhya",
-        slug: "urbania-tempo-traveller-fare-in-ayodhya",
+        slug: "urbania-tempo-traveller-in-ayodhya",
         name: "Ayodhya",
         state: "Uttar Pradesh",
         tag: "Pilgrimage Hub",
@@ -2172,7 +2172,7 @@ const CITY_HUBS = [
     },
     {
         id: "bangalore",
-        slug: "urbania-tempo-traveller-fare-in-bangalore",
+        slug: "urbania-tempo-traveller-in-bangalore",
         name: "Bangalore",
         state: "Karnataka",
         tag: "Tech & Travel Hub",
@@ -2180,7 +2180,7 @@ const CITY_HUBS = [
     },
     {
         id: "delhi",
-        slug: "urbania-tempo-traveller-fare-in-delhi",
+        slug: "urbania-tempo-traveller-in-delhi",
         name: "Delhi",
         state: "Delhi",
         tag: "NCR Travel Hub",
@@ -2188,7 +2188,7 @@ const CITY_HUBS = [
     },
     {
         id: "ghaziabad",
-        slug: "urbania-tempo-traveller-fare-in-ghaziabad",
+        slug: "urbania-tempo-traveller-in-ghaziabad",
         name: "Ghaziabad",
         state: "Uttar Pradesh",
         tag: "NCR Hub",
@@ -2196,7 +2196,7 @@ const CITY_HUBS = [
     },
     {
         id: "hyderabad",
-        slug: "urbania-tempo-traveller-fare-in-hyderabad",
+        slug: "urbania-tempo-traveller-in-hyderabad",
         name: "Hyderabad",
         state: "Telangana",
         tag: "South India Hub",
@@ -2204,7 +2204,7 @@ const CITY_HUBS = [
     },
     {
         id: "lucknow",
-        slug: "urbania-tempo-traveller-fare-in-lucknow",
+        slug: "urbania-tempo-traveller-in-lucknow",
         name: "Lucknow",
         state: "Uttar Pradesh",
         tag: "UP Travel Hub",
@@ -2212,7 +2212,7 @@ const CITY_HUBS = [
     },
     {
         id: "ludhiana",
-        slug: "urbania-tempo-traveller-fare-in-ludhiana",
+        slug: "urbania-tempo-traveller-in-ludhiana",
         name: "Ludhiana",
         state: "Punjab",
         tag: "Punjab Travel Hub",
@@ -2220,7 +2220,7 @@ const CITY_HUBS = [
     },
     {
         id: "prayagraj",
-        slug: "urbania-tempo-traveller-fare-in-prayagraj",
+        slug: "urbania-tempo-traveller-in-prayagraj",
         name: "Prayagraj",
         state: "Uttar Pradesh",
         tag: "Pilgrimage Hub",
@@ -2228,7 +2228,7 @@ const CITY_HUBS = [
     },
     {
         id: "varanasi",
-        slug: "urbania-tempo-traveller-fare-in-varanasi",
+        slug: "urbania-tempo-traveller-in-varanasi",
         name: "Varanasi",
         state: "Uttar Pradesh",
         tag: "Pilgrimage & Travel Hub",
@@ -2236,7 +2236,7 @@ const CITY_HUBS = [
     },
     {
         id: "ahmedabad",
-        slug: "urbania-tempo-traveller-fare-in-ahmedabad",
+        slug: "urbania-tempo-traveller-in-ahmedabad",
         name: "Ahmedabad",
         state: "Gujarat",
         tag: "Business & Travel Hub",
@@ -2244,7 +2244,7 @@ const CITY_HUBS = [
     },
     {
         id: "chennai",
-        slug: "urbania-tempo-traveller-fare-in-chennai",
+        slug: "urbania-tempo-traveller-in-chennai",
         name: "Chennai",
         state: "Tamil Nadu",
         tag: "South India Travel Hub",
@@ -2252,7 +2252,7 @@ const CITY_HUBS = [
     },
     {
         id: "kolkata",
-        slug: "urbania-tempo-traveller-fare-in-kolkata",
+        slug: "urbania-tempo-traveller-in-kolkata",
         name: "Kolkata",
         state: "West Bengal",
         tag: "East India Travel Hub",
@@ -2260,7 +2260,7 @@ const CITY_HUBS = [
     },
     {
         id: "mumbai",
-        slug: "urbania-tempo-traveller-fare-in-mumbai",
+        slug: "urbania-tempo-traveller-in-mumbai",
         name: "Mumbai",
         state: "Maharashtra",
         tag: "Business & Travel Hub",
@@ -2268,7 +2268,7 @@ const CITY_HUBS = [
     },
     {
         id: "pune",
-        slug: "urbania-tempo-traveller-fare-in-pune",
+        slug: "urbania-tempo-traveller-in-pune",
         name: "Pune",
         state: "Maharashtra",
         tag: "Education & Travel Hub",
@@ -2276,7 +2276,7 @@ const CITY_HUBS = [
     },
     {
         id: "vijayawada",
-        slug: "urbania-tempo-traveller-fare-in-vijayawada",
+        slug: "urbania-tempo-traveller-in-vijayawada",
         name: "Vijayawada",
         state: "Andhra Pradesh",
         tag: "Business & Travel Hub",
@@ -2284,7 +2284,7 @@ const CITY_HUBS = [
     },
     {
         id: "visakhapatnam",
-        slug: "urbania-tempo-traveller-fare-in-visakhapatnam",
+        slug: "urbania-tempo-traveller-in-visakhapatnam",
         name: "Visakhapatnam",
         state: "Andhra Pradesh",
         tag: "Coastal Travel Hub",
@@ -2292,7 +2292,7 @@ const CITY_HUBS = [
     },
     {
         id: "guntur",
-        slug: "urbania-tempo-traveller-fare-in-guntur",
+        slug: "urbania-tempo-traveller-in-guntur",
         name: "Guntur",
         state: "Andhra Pradesh",
         tag: "Regional Travel Hub",
@@ -2300,7 +2300,7 @@ const CITY_HUBS = [
     },
     {
         id: "kakinada",
-        slug: "urbania-tempo-traveller-fare-in-kakinada",
+        slug: "urbania-tempo-traveller-in-kakinada",
         name: "Kakinada",
         state: "Andhra Pradesh",
         tag: "Coastal Travel Hub",
@@ -2308,7 +2308,7 @@ const CITY_HUBS = [
     },
     {
         id: "guwahati",
-        slug: "urbania-tempo-traveller-fare-in-guwahati",
+        slug: "urbania-tempo-traveller-in-guwahati",
         name: "Guwahati",
         state: "Assam",
         tag: "Northeast Travel Hub",
@@ -2316,7 +2316,7 @@ const CITY_HUBS = [
     },
     {
         id: "patna",
-        slug: "urbania-tempo-traveller-fare-in-patna",
+        slug: "urbania-tempo-traveller-in-patna",
         name: "Patna",
         state: "Bihar",
         tag: "Bihar Travel Hub",
@@ -2324,7 +2324,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhagalpur",
-        slug: "urbania-tempo-traveller-fare-in-bhagalpur",
+        slug: "urbania-tempo-traveller-in-bhagalpur",
         name: "Bhagalpur",
         state: "Bihar",
         tag: "Regional Travel Hub",
@@ -2332,7 +2332,7 @@ const CITY_HUBS = [
     },
     {
         id: "chandigarh",
-        slug: "urbania-tempo-traveller-fare-in-chandigarh",
+        slug: "urbania-tempo-traveller-in-chandigarh",
         name: "Chandigarh",
         state: "Chandigarh",
         tag: "Tricity Travel Hub",
@@ -2340,7 +2340,7 @@ const CITY_HUBS = [
     },
     {
         id: "mohali",
-        slug: "urbania-tempo-traveller-fare-in-mohali",
+        slug: "urbania-tempo-traveller-in-mohali",
         name: "Mohali",
         state: "Punjab",
         tag: "Tricity Travel Hub",
@@ -2348,7 +2348,7 @@ const CITY_HUBS = [
     },
     {
         id: "raipur",
-        slug: "urbania-tempo-traveller-fare-in-raipur",
+        slug: "urbania-tempo-traveller-in-raipur",
         name: "Raipur",
         state: "Chhattisgarh",
         tag: "Central India Travel Hub",
@@ -2356,7 +2356,7 @@ const CITY_HUBS = [
     },
     {
         id: "durg-bhilai",
-        slug: "urbania-tempo-traveller-fare-in-durg-bhilai",
+        slug: "urbania-tempo-traveller-in-durg-bhilai",
         name: "Durg-Bhilai",
         state: "Chhattisgarh",
         tag: "Industrial Travel Hub",
@@ -2364,7 +2364,7 @@ const CITY_HUBS = [
     },
     {
         id: "surat",
-        slug: "urbania-tempo-traveller-fare-in-surat",
+        slug: "urbania-tempo-traveller-in-surat",
         name: "Surat",
         state: "Gujarat",
         tag: "Business & Travel Hub",
@@ -2372,7 +2372,7 @@ const CITY_HUBS = [
     },
     {
         id: "vadodara",
-        slug: "urbania-tempo-traveller-fare-in-vadodara",
+        slug: "urbania-tempo-traveller-in-vadodara",
         name: "Vadodara",
         state: "Gujarat",
         tag: "Cultural & Business Hub",
@@ -2380,7 +2380,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajkot",
-        slug: "urbania-tempo-traveller-fare-in-rajkot",
+        slug: "urbania-tempo-traveller-in-rajkot",
         name: "Rajkot",
         state: "Gujarat",
         tag: "Saurashtra Travel Hub",
@@ -2388,7 +2388,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhavnagar",
-        slug: "urbania-tempo-traveller-fare-in-bhavnagar",
+        slug: "urbania-tempo-traveller-in-bhavnagar",
         name: "Bhavnagar",
         state: "Gujarat",
         tag: "Saurashtra Travel Hub",
@@ -2396,7 +2396,7 @@ const CITY_HUBS = [
     },
     {
         id: "gandhinagar",
-        slug: "urbania-tempo-traveller-fare-in-gandhinagar",
+        slug: "urbania-tempo-traveller-in-gandhinagar",
         name: "Gandhinagar",
         state: "Gujarat",
         tag: "Capital & Business Hub",
@@ -2404,7 +2404,7 @@ const CITY_HUBS = [
     },
     {
         id: "anand",
-        slug: "urbania-tempo-traveller-fare-in-anand",
+        slug: "urbania-tempo-traveller-in-anand",
         name: "Anand",
         state: "Gujarat",
         tag: "Central Gujarat Travel Hub",
@@ -2412,7 +2412,7 @@ const CITY_HUBS = [
     },
     {
         id: "navsari",
-        slug: "urbania-tempo-traveller-fare-in-navsari",
+        slug: "urbania-tempo-traveller-in-navsari",
         name: "Navsari",
         state: "Gujarat",
         tag: "South Gujarat Travel Hub",
@@ -2420,7 +2420,7 @@ const CITY_HUBS = [
     },
     {
         id: "bharuch",
-        slug: "urbania-tempo-traveller-fare-in-bharuch",
+        slug: "urbania-tempo-traveller-in-bharuch",
         name: "Bharuch",
         state: "Gujarat",
         tag: "Industrial Travel Hub",
@@ -2428,7 +2428,7 @@ const CITY_HUBS = [
     },
     {
         id: "faridabad",
-        slug: "urbania-tempo-traveller-fare-in-faridabad",
+        slug: "urbania-tempo-traveller-in-faridabad",
         name: "Faridabad",
         state: "Haryana",
         tag: "NCR Travel Hub",
@@ -2436,7 +2436,7 @@ const CITY_HUBS = [
     },
     {
         id: "gurugram",
-        slug: "urbania-tempo-traveller-fare-in-gurugram",
+        slug: "urbania-tempo-traveller-in-gurugram",
         name: "Gurugram",
         state: "Haryana",
         tag: "NCR Business Hub",
@@ -2444,7 +2444,7 @@ const CITY_HUBS = [
     },
     {
         id: "ambala",
-        slug: "urbania-tempo-traveller-fare-in-ambala",
+        slug: "urbania-tempo-traveller-in-ambala",
         name: "Ambala",
         state: "Haryana",
         tag: "North Haryana Travel Hub",
@@ -2452,7 +2452,7 @@ const CITY_HUBS = [
     },
     {
         id: "yamuna-nagar",
-        slug: "urbania-tempo-traveller-fare-in-yamuna-nagar",
+        slug: "urbania-tempo-traveller-in-yamuna-nagar",
         name: "Yamuna Nagar",
         state: "Haryana",
         tag: "North Haryana Travel Hub",
@@ -2460,7 +2460,7 @@ const CITY_HUBS = [
     },
     {
         id: "srinagar",
-        slug: "urbania-tempo-traveller-fare-in-srinagar",
+        slug: "urbania-tempo-traveller-in-srinagar",
         name: "Srinagar",
         state: "Jammu and Kashmir",
         tag: "Kashmir Travel Hub",
@@ -2468,7 +2468,7 @@ const CITY_HUBS = [
     },
     {
         id: "jammu",
-        slug: "urbania-tempo-traveller-fare-in-jammu",
+        slug: "urbania-tempo-traveller-in-jammu",
         name: "Jammu",
         state: "Jammu and Kashmir",
         tag: "Pilgrimage & Travel Hub",
@@ -2476,7 +2476,7 @@ const CITY_HUBS = [
     },
     {
         id: "ranchi",
-        slug: "urbania-tempo-traveller-fare-in-ranchi",
+        slug: "urbania-tempo-traveller-in-ranchi",
         name: "Ranchi",
         state: "Jharkhand",
         tag: "Jharkhand Travel Hub",
@@ -2484,7 +2484,7 @@ const CITY_HUBS = [
     },
     {
         id: "jamshedpur",
-        slug: "urbania-tempo-traveller-fare-in-jamshedpur",
+        slug: "urbania-tempo-traveller-in-jamshedpur",
         name: "Jamshedpur",
         state: "Jharkhand",
         tag: "Industrial Travel Hub",
@@ -2492,7 +2492,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhanbad",
-        slug: "urbania-tempo-traveller-fare-in-dhanbad",
+        slug: "urbania-tempo-traveller-in-dhanbad",
         name: "Dhanbad",
         state: "Jharkhand",
         tag: "Industrial Travel Hub",
@@ -2500,7 +2500,7 @@ const CITY_HUBS = [
     },
     {
         id: "bokaro-steel-city",
-        slug: "urbania-tempo-traveller-fare-in-bokaro-steel-city",
+        slug: "urbania-tempo-traveller-in-bokaro-steel-city",
         name: "Bokaro Steel City",
         state: "Jharkhand",
         tag: "Industrial Travel Hub",
@@ -2508,7 +2508,7 @@ const CITY_HUBS = [
     },
     {
         id: "mangaluru",
-        slug: "urbania-tempo-traveller-fare-in-mangaluru",
+        slug: "urbania-tempo-traveller-in-mangaluru",
         name: "Mangaluru",
         state: "Karnataka",
         tag: "Coastal Travel Hub",
@@ -2516,7 +2516,7 @@ const CITY_HUBS = [
     },
     {
         id: "kalaburagi",
-        slug: "urbania-tempo-traveller-fare-in-kalaburagi",
+        slug: "urbania-tempo-traveller-in-kalaburagi",
         name: "Kalaburagi",
         state: "Karnataka",
         tag: "Regional Travel Hub",
@@ -2524,7 +2524,7 @@ const CITY_HUBS = [
     },
     {
         id: "tumkur",
-        slug: "urbania-tempo-traveller-fare-in-tumkur",
+        slug: "urbania-tempo-traveller-in-tumkur",
         name: "Tumkur",
         state: "Karnataka",
         tag: "Bengaluru Regional Hub",
@@ -2532,7 +2532,7 @@ const CITY_HUBS = [
     },
     {
         id: "thrissur",
-        slug: "urbania-tempo-traveller-fare-in-thrissur",
+        slug: "urbania-tempo-traveller-in-thrissur",
         name: "Thrissur",
         state: "Kerala",
         tag: "Cultural Travel Hub",
@@ -2540,7 +2540,7 @@ const CITY_HUBS = [
     },
     {
         id: "kollam",
-        slug: "urbania-tempo-traveller-fare-in-kollam",
+        slug: "urbania-tempo-traveller-in-kollam",
         name: "Kollam",
         state: "Kerala",
         tag: "Backwater Travel Hub",
@@ -2548,7 +2548,7 @@ const CITY_HUBS = [
     },
     {
         id: "alappuzha",
-        slug: "urbania-tempo-traveller-fare-in-alappuzha",
+        slug: "urbania-tempo-traveller-in-alappuzha",
         name: "Alappuzha",
         state: "Kerala",
         tag: "Backwater Travel Hub",
@@ -2556,7 +2556,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhopal",
-        slug: "urbania-tempo-traveller-fare-in-bhopal",
+        slug: "urbania-tempo-traveller-in-bhopal",
         name: "Bhopal",
         state: "Madhya Pradesh",
         tag: "Capital & Travel Hub",
@@ -2564,7 +2564,7 @@ const CITY_HUBS = [
     },
     {
         id: "gwalior",
-        slug: "urbania-tempo-traveller-fare-in-gwalior",
+        slug: "urbania-tempo-traveller-in-gwalior",
         name: "Gwalior",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -2572,7 +2572,7 @@ const CITY_HUBS = [
     },
     {
         id: "nagpur",
-        slug: "urbania-tempo-traveller-fare-in-nagpur",
+        slug: "urbania-tempo-traveller-in-nagpur",
         name: "Nagpur",
         state: "Maharashtra",
         tag: "Central India Travel Hub",
@@ -2580,7 +2580,7 @@ const CITY_HUBS = [
     },
     {
         id: "chhatrapati-sambhajinagar",
-        slug: "urbania-tempo-traveller-fare-in-chhatrapati-sambhajinagar",
+        slug: "urbania-tempo-traveller-in-chhatrapati-sambhajinagar",
         name: "Chhatrapati Sambhajinagar",
         state: "Maharashtra",
         tag: "Heritage Travel Hub",
@@ -2588,7 +2588,7 @@ const CITY_HUBS = [
     },
     {
         id: "solapur",
-        slug: "urbania-tempo-traveller-fare-in-solapur",
+        slug: "urbania-tempo-traveller-in-solapur",
         name: "Solapur",
         state: "Maharashtra",
         tag: "Regional Travel Hub",
@@ -2596,7 +2596,7 @@ const CITY_HUBS = [
     },
     {
         id: "kolhapur",
-        slug: "urbania-tempo-traveller-fare-in-kolhapur",
+        slug: "urbania-tempo-traveller-in-kolhapur",
         name: "Kolhapur",
         state: "Maharashtra",
         tag: "Pilgrimage & Travel Hub",
@@ -2604,7 +2604,7 @@ const CITY_HUBS = [
     },
     {
         id: "jalgaon",
-        slug: "urbania-tempo-traveller-fare-in-jalgaon",
+        slug: "urbania-tempo-traveller-in-jalgaon",
         name: "Jalgaon",
         state: "Maharashtra",
         tag: "North Maharashtra Travel Hub",
@@ -2612,7 +2612,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhule",
-        slug: "urbania-tempo-traveller-fare-in-dhule",
+        slug: "urbania-tempo-traveller-in-dhule",
         name: "Dhule",
         state: "Maharashtra",
         tag: "North Maharashtra Travel Hub",
@@ -2620,7 +2620,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhiwandi",
-        slug: "urbania-tempo-traveller-fare-in-bhiwandi",
+        slug: "urbania-tempo-traveller-in-bhiwandi",
         name: "Bhiwandi",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2628,7 +2628,7 @@ const CITY_HUBS = [
     },
     {
         id: "malegaon",
-        slug: "urbania-tempo-traveller-fare-in-malegaon",
+        slug: "urbania-tempo-traveller-in-malegaon",
         name: "Malegaon",
         state: "Maharashtra",
         tag: "North Maharashtra Travel Hub",
@@ -2636,7 +2636,7 @@ const CITY_HUBS = [
     },
     {
         id: "navi-mumbai",
-        slug: "urbania-tempo-traveller-fare-in-navi-mumbai",
+        slug: "urbania-tempo-traveller-in-navi-mumbai",
         name: "Navi Mumbai",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2644,7 +2644,7 @@ const CITY_HUBS = [
     },
     {
         id: "kalyan-dombivli",
-        slug: "urbania-tempo-traveller-fare-in-kalyan-dombivli",
+        slug: "urbania-tempo-traveller-in-kalyan-dombivli",
         name: "Kalyan-Dombivli",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2652,7 +2652,7 @@ const CITY_HUBS = [
     },
     {
         id: "vasai-virar",
-        slug: "urbania-tempo-traveller-fare-in-vasai-virar",
+        slug: "urbania-tempo-traveller-in-vasai-virar",
         name: "Vasai-Virar",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2660,7 +2660,7 @@ const CITY_HUBS = [
     },
     {
         id: "mysuru",
-        slug: "urbania-tempo-traveller-fare-in-mysuru",
+        slug: "urbania-tempo-traveller-in-mysuru",
         name: "Mysuru",
         state: "Karnataka",
         tag: "Heritage & Travel Hub",
@@ -2668,7 +2668,7 @@ const CITY_HUBS = [
     },
     {
         id: "hubli-dharwad",
-        slug: "urbania-tempo-traveller-fare-in-hubli-dharwad",
+        slug: "urbania-tempo-traveller-in-hubli-dharwad",
         name: "Hubli-Dharwad",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -2676,7 +2676,7 @@ const CITY_HUBS = [
     },
     {
         id: "shimoga",
-        slug: "urbania-tempo-traveller-fare-in-shimoga",
+        slug: "urbania-tempo-traveller-in-shimoga",
         name: "Shimoga",
         state: "Karnataka",
         tag: "Nature & Travel Hub",
@@ -2684,7 +2684,7 @@ const CITY_HUBS = [
     },
     {
         id: "ballari",
-        slug: "urbania-tempo-traveller-fare-in-ballari",
+        slug: "urbania-tempo-traveller-in-ballari",
         name: "Ballari",
         state: "Karnataka",
         tag: "Heritage & Travel Hub",
@@ -2692,7 +2692,7 @@ const CITY_HUBS = [
     },
     {
         id: "kochi",
-        slug: "urbania-tempo-traveller-fare-in-kochi",
+        slug: "urbania-tempo-traveller-in-kochi",
         name: "Kochi",
         state: "Kerala",
         tag: "Kerala Travel Hub",
@@ -2700,7 +2700,7 @@ const CITY_HUBS = [
     },
     {
         id: "thiruvananthapuram",
-        slug: "urbania-tempo-traveller-fare-in-thiruvananthapuram",
+        slug: "urbania-tempo-traveller-in-thiruvananthapuram",
         name: "Thiruvananthapuram",
         state: "Kerala",
         tag: "Capital & Travel Hub",
@@ -2708,7 +2708,7 @@ const CITY_HUBS = [
     },
     {
         id: "malappuram",
-        slug: "urbania-tempo-traveller-fare-in-malappuram",
+        slug: "urbania-tempo-traveller-in-malappuram",
         name: "Malappuram",
         state: "Kerala",
         tag: "Malabar Travel Hub",
@@ -2716,7 +2716,7 @@ const CITY_HUBS = [
     },
     {
         id: "jabalpur",
-        slug: "urbania-tempo-traveller-fare-in-jabalpur",
+        slug: "urbania-tempo-traveller-in-jabalpur",
         name: "Jabalpur",
         state: "Madhya Pradesh",
         tag: "Nature & Travel Hub",
@@ -2724,7 +2724,7 @@ const CITY_HUBS = [
     },
     {
         id: "satna",
-        slug: "urbania-tempo-traveller-fare-in-satna",
+        slug: "urbania-tempo-traveller-in-satna",
         name: "Satna",
         state: "Madhya Pradesh",
         tag: "Pilgrimage Travel Hub",
@@ -2732,7 +2732,7 @@ const CITY_HUBS = [
     },
     {
         id: "burhanpur",
-        slug: "urbania-tempo-traveller-fare-in-burhanpur",
+        slug: "urbania-tempo-traveller-in-burhanpur",
         name: "Burhanpur",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -2740,7 +2740,7 @@ const CITY_HUBS = [
     },
     {
         id: "amravati",
-        slug: "urbania-tempo-traveller-fare-in-amravati",
+        slug: "urbania-tempo-traveller-in-amravati",
         name: "Amravati",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -2748,7 +2748,7 @@ const CITY_HUBS = [
     },
     {
         id: "nanded",
-        slug: "urbania-tempo-traveller-fare-in-nanded",
+        slug: "urbania-tempo-traveller-in-nanded",
         name: "Nanded",
         state: "Maharashtra",
         tag: "Pilgrimage Travel Hub",
@@ -2756,7 +2756,7 @@ const CITY_HUBS = [
     },
     {
         id: "sangli",
-        slug: "urbania-tempo-traveller-fare-in-sangli",
+        slug: "urbania-tempo-traveller-in-sangli",
         name: "Sangli",
         state: "Maharashtra",
         tag: "Western Maharashtra Travel Hub",
@@ -2764,7 +2764,7 @@ const CITY_HUBS = [
     },
     {
         id: "akola",
-        slug: "urbania-tempo-traveller-fare-in-akola",
+        slug: "urbania-tempo-traveller-in-akola",
         name: "Akola",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -2772,7 +2772,7 @@ const CITY_HUBS = [
     },
     {
         id: "latur",
-        slug: "urbania-tempo-traveller-fare-in-latur",
+        slug: "urbania-tempo-traveller-in-latur",
         name: "Latur",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -2780,7 +2780,7 @@ const CITY_HUBS = [
     },
     {
         id: "wardha",
-        slug: "urbania-tempo-traveller-fare-in-wardha",
+        slug: "urbania-tempo-traveller-in-wardha",
         name: "Wardha",
         state: "Maharashtra",
         tag: "Central Maharashtra Travel Hub",
@@ -2788,7 +2788,7 @@ const CITY_HUBS = [
     },
     {
         id: "mira-bhayandar",
-        slug: "urbania-tempo-traveller-fare-in-mira-bhayandar",
+        slug: "urbania-tempo-traveller-in-mira-bhayandar",
         name: "Mira-Bhayandar",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2796,7 +2796,7 @@ const CITY_HUBS = [
     },
     {
         id: "thane",
-        slug: "urbania-tempo-traveller-fare-in-thane",
+        slug: "urbania-tempo-traveller-in-thane",
         name: "Thane",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -2804,7 +2804,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhubaneswar",
-        slug: "urbania-tempo-traveller-fare-in-bhubaneswar",
+        slug: "urbania-tempo-traveller-in-bhubaneswar",
         name: "Bhubaneswar",
         state: "Odisha",
         tag: "Odisha Travel Hub",
@@ -2812,7 +2812,7 @@ const CITY_HUBS = [
     },
     {
         id: "cuttack",
-        slug: "urbania-tempo-traveller-fare-in-cuttack",
+        slug: "urbania-tempo-traveller-in-cuttack",
         name: "Cuttack",
         state: "Odisha",
         tag: "Odisha Travel Hub",
@@ -2820,7 +2820,7 @@ const CITY_HUBS = [
     },
     {
         id: "raurkela",
-        slug: "urbania-tempo-traveller-fare-in-raurkela",
+        slug: "urbania-tempo-traveller-in-raurkela",
         name: "Rourkela",
         state: "Odisha",
         tag: "Industrial Travel Hub",
@@ -2828,7 +2828,7 @@ const CITY_HUBS = [
     },
     {
         id: "berhampur",
-        slug: "urbania-tempo-traveller-fare-in-berhampur",
+        slug: "urbania-tempo-traveller-in-berhampur",
         name: "Berhampur",
         state: "Odisha",
         tag: "South Odisha Travel Hub",
@@ -2836,7 +2836,7 @@ const CITY_HUBS = [
     },
     {
         id: "puducherry",
-        slug: "urbania-tempo-traveller-fare-in-puducherry",
+        slug: "urbania-tempo-traveller-in-puducherry",
         name: "Puducherry",
         state: "Puducherry",
         tag: "Coastal Travel Hub",
@@ -2844,7 +2844,7 @@ const CITY_HUBS = [
     },
     {
         id: "amritsar",
-        slug: "urbania-tempo-traveller-fare-in-amritsar",
+        slug: "urbania-tempo-traveller-in-amritsar",
         name: "Amritsar",
         state: "Punjab",
         tag: "Pilgrimage & Heritage Hub",
@@ -2852,7 +2852,7 @@ const CITY_HUBS = [
     },
     {
         id: "jalandhar",
-        slug: "urbania-tempo-traveller-fare-in-jalandhar",
+        slug: "urbania-tempo-traveller-in-jalandhar",
         name: "Jalandhar",
         state: "Punjab",
         tag: "Punjab Travel Hub",
@@ -2860,7 +2860,7 @@ const CITY_HUBS = [
     },
     {
         id: "patiala",
-        slug: "urbania-tempo-traveller-fare-in-patiala",
+        slug: "urbania-tempo-traveller-in-patiala",
         name: "Patiala",
         state: "Punjab",
         tag: "Royal & Cultural Hub",
@@ -2868,7 +2868,7 @@ const CITY_HUBS = [
     },
     {
         id: "pathankot",
-        slug: "urbania-tempo-traveller-fare-in-pathankot",
+        slug: "urbania-tempo-traveller-in-pathankot",
         name: "Pathankot",
         state: "Punjab",
         tag: "Gateway to Himachal & Jammu",
@@ -2876,7 +2876,7 @@ const CITY_HUBS = [
     },
     {
         id: "jaipur",
-        slug: "urbania-tempo-traveller-fare-in-jaipur",
+        slug: "urbania-tempo-traveller-in-jaipur",
         name: "Jaipur",
         state: "Rajasthan",
         tag: "Heritage & Travel Hub",
@@ -2884,7 +2884,7 @@ const CITY_HUBS = [
     },
     {
         id: "jodhpur",
-        slug: "urbania-tempo-traveller-fare-in-jodhpur",
+        slug: "urbania-tempo-traveller-in-jodhpur",
         name: "Jodhpur",
         state: "Rajasthan",
         tag: "Heritage Travel Hub",
@@ -2892,7 +2892,7 @@ const CITY_HUBS = [
     },
     {
         id: "kota",
-        slug: "urbania-tempo-traveller-fare-in-kota",
+        slug: "urbania-tempo-traveller-in-kota",
         name: "Kota",
         state: "Rajasthan",
         tag: "Education & Travel Hub",
@@ -2900,7 +2900,7 @@ const CITY_HUBS = [
     },
     {
         id: "ajmer",
-        slug: "urbania-tempo-traveller-fare-in-ajmer",
+        slug: "urbania-tempo-traveller-in-ajmer",
         name: "Ajmer",
         state: "Rajasthan",
         tag: "Pilgrimage Travel Hub",
@@ -2908,7 +2908,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhilwara",
-        slug: "urbania-tempo-traveller-fare-in-bhilwara",
+        slug: "urbania-tempo-traveller-in-bhilwara",
         name: "Bhilwara",
         state: "Rajasthan",
         tag: "Textile & Travel Hub",
@@ -2916,7 +2916,7 @@ const CITY_HUBS = [
     },
     {
         id: "sikar",
-        slug: "urbania-tempo-traveller-fare-in-sikar",
+        slug: "urbania-tempo-traveller-in-sikar",
         name: "Sikar",
         state: "Rajasthan",
         tag: "Shekhawati Travel Hub",
@@ -2924,7 +2924,7 @@ const CITY_HUBS = [
     },
     {
         id: "alwar",
-        slug: "urbania-tempo-traveller-fare-in-alwar",
+        slug: "urbania-tempo-traveller-in-alwar",
         name: "Alwar",
         state: "Rajasthan",
         tag: "Heritage & Nature Hub",
@@ -2932,7 +2932,7 @@ const CITY_HUBS = [
     },
     {
         id: "sri-ganganagar",
-        slug: "urbania-tempo-traveller-fare-in-sri-ganganagar",
+        slug: "urbania-tempo-traveller-in-sri-ganganagar",
         name: "Sri Ganganagar",
         state: "Rajasthan",
         tag: "Northern Rajasthan Hub",
@@ -2940,7 +2940,7 @@ const CITY_HUBS = [
     },
     {
         id: "hanumangarh",
-        slug: "urbania-tempo-traveller-fare-in-hanumangarh",
+        slug: "urbania-tempo-traveller-in-hanumangarh",
         name: "Hanumangarh",
         state: "Rajasthan",
         tag: "Northern Rajasthan Hub",
@@ -2948,7 +2948,7 @@ const CITY_HUBS = [
     },
     {
         id: "chittorgarh",
-        slug: "urbania-tempo-traveller-fare-in-chittorgarh",
+        slug: "urbania-tempo-traveller-in-chittorgarh",
         name: "Chittorgarh",
         state: "Rajasthan",
         tag: "Fort & Heritage Hub",
@@ -2956,7 +2956,7 @@ const CITY_HUBS = [
     },
     {
         id: "pali",
-        slug: "urbania-tempo-traveller-fare-in-pali",
+        slug: "urbania-tempo-traveller-in-pali",
         name: "Pali",
         state: "Rajasthan",
         tag: "Marwar Travel Hub",
@@ -2964,7 +2964,7 @@ const CITY_HUBS = [
     },
     {
         id: "tonk",
-        slug: "urbania-tempo-traveller-fare-in-tonk",
+        slug: "urbania-tempo-traveller-in-tonk",
         name: "Tonk",
         state: "Rajasthan",
         tag: "Heritage Travel Hub",
@@ -2972,7 +2972,7 @@ const CITY_HUBS = [
     },
     {
         id: "coimbatore",
-        slug: "urbania-tempo-traveller-fare-in-coimbatore",
+        slug: "urbania-tempo-traveller-in-coimbatore",
         name: "Coimbatore",
         state: "Tamil Nadu",
         tag: "Business & Travel Hub",
@@ -2980,7 +2980,7 @@ const CITY_HUBS = [
     },
     {
         id: "madurai",
-        slug: "urbania-tempo-traveller-fare-in-madurai",
+        slug: "urbania-tempo-traveller-in-madurai",
         name: "Madurai",
         state: "Tamil Nadu",
         tag: "Pilgrimage & Heritage Hub",
@@ -2988,7 +2988,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiruchirappalli",
-        slug: "urbania-tempo-traveller-fare-in-tiruchirappalli",
+        slug: "urbania-tempo-traveller-in-tiruchirappalli",
         name: "Tiruchirappalli",
         state: "Tamil Nadu",
         tag: "Central Tamil Nadu Hub",
@@ -2996,7 +2996,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiruppur",
-        slug: "urbania-tempo-traveller-fare-in-tiruppur",
+        slug: "urbania-tempo-traveller-in-tiruppur",
         name: "Tiruppur",
         state: "Tamil Nadu",
         tag: "Industrial Travel Hub",
@@ -3004,7 +3004,7 @@ const CITY_HUBS = [
     },
     {
         id: "thanjavur",
-        slug: "urbania-tempo-traveller-fare-in-thanjavur",
+        slug: "urbania-tempo-traveller-in-thanjavur",
         name: "Thanjavur",
         state: "Tamil Nadu",
         tag: "Heritage & Pilgrimage Hub",
@@ -3012,7 +3012,7 @@ const CITY_HUBS = [
     },
     {
         id: "nagercoil",
-        slug: "urbania-tempo-traveller-fare-in-nagercoil",
+        slug: "urbania-tempo-traveller-in-nagercoil",
         name: "Nagercoil",
         state: "Tamil Nadu",
         tag: "Southern Travel Hub",
@@ -3020,7 +3020,7 @@ const CITY_HUBS = [
     },
     {
         id: "ambur",
-        slug: "urbania-tempo-traveller-fare-in-ambur",
+        slug: "urbania-tempo-traveller-in-ambur",
         name: "Ambur",
         state: "Tamil Nadu",
         tag: "Regional Travel Hub",
@@ -3028,7 +3028,7 @@ const CITY_HUBS = [
     },
     {
         id: "pallavaram",
-        slug: "urbania-tempo-traveller-fare-in-pallavaram",
+        slug: "urbania-tempo-traveller-in-pallavaram",
         name: "Pallavaram",
         state: "Tamil Nadu",
         tag: "Chennai Metropolitan Hub",
@@ -3036,7 +3036,7 @@ const CITY_HUBS = [
     },
     {
         id: "warangal",
-        slug: "urbania-tempo-traveller-fare-in-warangal",
+        slug: "urbania-tempo-traveller-in-warangal",
         name: "Warangal",
         state: "Telangana",
         tag: "Tier 2 Heritage Hub",
@@ -3044,7 +3044,7 @@ const CITY_HUBS = [
     },
     {
         id: "ramagundam",
-        slug: "urbania-tempo-traveller-fare-in-ramagundam",
+        slug: "urbania-tempo-traveller-in-ramagundam",
         name: "Ramagundam",
         state: "Telangana",
         tag: "Industrial Travel Hub",
@@ -3052,7 +3052,7 @@ const CITY_HUBS = [
     },
     {
         id: "adilabad",
-        slug: "urbania-tempo-traveller-fare-in-adilabad",
+        slug: "urbania-tempo-traveller-in-adilabad",
         name: "Adilabad",
         state: "Telangana",
         tag: "North Telangana Hub",
@@ -3060,7 +3060,7 @@ const CITY_HUBS = [
     },
     {
         id: "jagityal",
-        slug: "urbania-tempo-traveller-fare-in-jagityal",
+        slug: "urbania-tempo-traveller-in-jagityal",
         name: "Jagityal",
         state: "Telangana",
         tag: "North Telangana Travel Hub",
@@ -3068,7 +3068,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhongir",
-        slug: "urbania-tempo-traveller-fare-in-bhongir",
+        slug: "urbania-tempo-traveller-in-bhongir",
         name: "Bhongir",
         state: "Telangana",
         tag: "Heritage Travel Hub",
@@ -3076,7 +3076,7 @@ const CITY_HUBS = [
     },
     {
         id: "narayanpet",
-        slug: "urbania-tempo-traveller-fare-in-narayanpet",
+        slug: "urbania-tempo-traveller-in-narayanpet",
         name: "Narayanpet",
         state: "Telangana",
         tag: "South Telangana Travel Hub",
@@ -3084,7 +3084,7 @@ const CITY_HUBS = [
     },
     {
         id: "jogulamba",
-        slug: "urbania-tempo-traveller-fare-in-jogulamba",
+        slug: "urbania-tempo-traveller-in-jogulamba",
         name: "Jogulamba",
         state: "Telangana",
         tag: "Pilgrimage Travel Hub",
@@ -3092,7 +3092,7 @@ const CITY_HUBS = [
     },
     {
         id: "jayashankar-bhupalpally",
-        slug: "urbania-tempo-traveller-fare-in-jayashankar-bhupalpally",
+        slug: "urbania-tempo-traveller-in-jayashankar-bhupalpally",
         name: "Jayashankar Bhupalpally",
         state: "Telangana",
         tag: "Nature & Travel Hub",
@@ -3100,7 +3100,7 @@ const CITY_HUBS = [
     },
     {
         id: "mulugu",
-        slug: "urbania-tempo-traveller-fare-in-mulugu",
+        slug: "urbania-tempo-traveller-in-mulugu",
         name: "Mulugu",
         state: "Telangana",
         tag: "Nature & Pilgrimage Hub",
@@ -3108,7 +3108,7 @@ const CITY_HUBS = [
     },
     {
         id: "kumuram-bheem-asifabad",
-        slug: "urbania-tempo-traveller-fare-in-kumuram-bheem-asifabad",
+        slug: "urbania-tempo-traveller-in-kumuram-bheem-asifabad",
         name: "Kumuram Bheem Asifabad",
         state: "Telangana",
         tag: "North Telangana Travel Hub",
@@ -3116,7 +3116,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajanna-sircilla",
-        slug: "urbania-tempo-traveller-fare-in-rajanna-sircilla",
+        slug: "urbania-tempo-traveller-in-rajanna-sircilla",
         name: "Rajanna Sircilla",
         state: "Telangana",
         tag: "Cultural & Travel Hub",
@@ -3124,7 +3124,7 @@ const CITY_HUBS = [
     },
     {
         id: "peddapalle",
-        slug: "urbania-tempo-traveller-fare-in-peddapalle",
+        slug: "urbania-tempo-traveller-in-peddapalle",
         name: "Peddapalle",
         state: "Telangana",
         tag: "Industrial & Travel Hub",
@@ -3133,7 +3133,7 @@ const CITY_HUBS = [
     // ----------------EXTRA_ROUTES
     {
         id: "kanpur",
-        slug: "urbania-tempo-traveller-fare-in-kanpur",
+        slug: "urbania-tempo-traveller-in-kanpur",
         name: "Kanpur",
         state: "Uttar Pradesh",
         tag: "Industrial & Travel Hub",
@@ -3141,7 +3141,7 @@ const CITY_HUBS = [
     },
     {
         id: "agra",
-        slug: "urbania-tempo-traveller-fare-in-agra",
+        slug: "urbania-tempo-traveller-in-agra",
         name: "Agra",
         state: "Uttar Pradesh",
         tag: "Tourism & Travel Hub",
@@ -3149,7 +3149,7 @@ const CITY_HUBS = [
     },
     {
         id: "meerut",
-        slug: "urbania-tempo-traveller-fare-in-meerut",
+        slug: "urbania-tempo-traveller-in-meerut",
         name: "Meerut",
         state: "Uttar Pradesh",
         tag: "NCR & Industrial Hub",
@@ -3157,7 +3157,7 @@ const CITY_HUBS = [
     },
     {
         id: "bareilly",
-        slug: "urbania-tempo-traveller-fare-in-bareilly",
+        slug: "urbania-tempo-traveller-in-bareilly",
         name: "Bareilly",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3165,7 +3165,7 @@ const CITY_HUBS = [
     },
     {
         id: "aligarh",
-        slug: "urbania-tempo-traveller-fare-in-aligarh",
+        slug: "urbania-tempo-traveller-in-aligarh",
         name: "Aligarh",
         state: "Uttar Pradesh",
         tag: "Educational & Industrial Hub",
@@ -3173,7 +3173,7 @@ const CITY_HUBS = [
     },
     {
         id: "moradabad",
-        slug: "urbania-tempo-traveller-fare-in-moradabad",
+        slug: "urbania-tempo-traveller-in-moradabad",
         name: "Moradabad",
         state: "Uttar Pradesh",
         tag: "Industrial & Travel Hub",
@@ -3181,7 +3181,7 @@ const CITY_HUBS = [
     },
     {
         id: "noida",
-        slug: "urbania-tempo-traveller-fare-in-noida",
+        slug: "urbania-tempo-traveller-in-noida",
         name: "Noida",
         state: "Uttar Pradesh",
         tag: "NCR Business Hub",
@@ -3189,7 +3189,7 @@ const CITY_HUBS = [
     },
     {
         id: "shahjahanpur",
-        slug: "urbania-tempo-traveller-fare-in-shahjahanpur",
+        slug: "urbania-tempo-traveller-in-shahjahanpur",
         name: "Shahjahanpur",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3197,7 +3197,7 @@ const CITY_HUBS = [
     },
     {
         id: "rampur",
-        slug: "urbania-tempo-traveller-fare-in-rampur",
+        slug: "urbania-tempo-traveller-in-rampur",
         name: "Rampur",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3205,7 +3205,7 @@ const CITY_HUBS = [
     },
     {
         id: "bulandshahr",
-        slug: "urbania-tempo-traveller-fare-in-bulandshahr",
+        slug: "urbania-tempo-traveller-in-bulandshahr",
         name: "Bulandshahr",
         state: "Uttar Pradesh",
         tag: "NCR Regional Hub",
@@ -3213,7 +3213,7 @@ const CITY_HUBS = [
     },
     {
         id: "orai",
-        slug: "urbania-tempo-traveller-fare-in-orai",
+        slug: "urbania-tempo-traveller-in-orai",
         name: "Orai",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Travel Hub",
@@ -3221,7 +3221,7 @@ const CITY_HUBS = [
     },
     {
         id: "sitapur",
-        slug: "urbania-tempo-traveller-fare-in-sitapur",
+        slug: "urbania-tempo-traveller-in-sitapur",
         name: "Sitapur",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3229,7 +3229,7 @@ const CITY_HUBS = [
     },
     {
         id: "bahraich",
-        slug: "urbania-tempo-traveller-fare-in-bahraich",
+        slug: "urbania-tempo-traveller-in-bahraich",
         name: "Bahraich",
         state: "Uttar Pradesh",
         tag: "Regional & Religious Hub",
@@ -3237,7 +3237,7 @@ const CITY_HUBS = [
     },
     {
         id: "unnao",
-        slug: "urbania-tempo-traveller-fare-in-unnao",
+        slug: "urbania-tempo-traveller-in-unnao",
         name: "Unnao",
         state: "Uttar Pradesh",
         tag: "Industrial & Regional Hub",
@@ -3245,7 +3245,7 @@ const CITY_HUBS = [
     },
     {
         id: "rae-bareli",
-        slug: "urbania-tempo-traveller-fare-in-rae-bareli",
+        slug: "urbania-tempo-traveller-in-rae-bareli",
         name: "Rae Bareli",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3253,7 +3253,7 @@ const CITY_HUBS = [
     },
     {
         id: "loni",
-        slug: "urbania-tempo-traveller-fare-in-loni",
+        slug: "urbania-tempo-traveller-in-loni",
         name: "Loni",
         state: "Uttar Pradesh",
         tag: "Delhi NCR Hub",
@@ -3261,7 +3261,7 @@ const CITY_HUBS = [
     },
     {
         id: "khurja",
-        slug: "urbania-tempo-traveller-fare-in-khurja",
+        slug: "urbania-tempo-traveller-in-khurja",
         name: "Khurja",
         state: "Uttar Pradesh",
         tag: "Industrial & Regional Hub",
@@ -3269,7 +3269,7 @@ const CITY_HUBS = [
     },
     {
         id: "barabanki",
-        slug: "urbania-tempo-traveller-fare-in-barabanki",
+        slug: "urbania-tempo-traveller-in-barabanki",
         name: "Barabanki",
         state: "Uttar Pradesh",
         tag: "Lucknow Regional Hub",
@@ -3277,7 +3277,7 @@ const CITY_HUBS = [
     },
     {
         id: "azamgarh",
-        slug: "urbania-tempo-traveller-fare-in-azamgarh",
+        slug: "urbania-tempo-traveller-in-azamgarh",
         name: "Azamgarh",
         state: "Uttar Pradesh",
         tag: "Eastern UP Travel Hub",
@@ -3285,7 +3285,7 @@ const CITY_HUBS = [
     },
     {
         id: "mau",
-        slug: "urbania-tempo-traveller-fare-in-mau",
+        slug: "urbania-tempo-traveller-in-mau",
         name: "Mau",
         state: "Uttar Pradesh",
         tag: "Eastern UP Regional Hub",
@@ -3293,7 +3293,7 @@ const CITY_HUBS = [
     },
     {
         id: "farrukhabad",
-        slug: "urbania-tempo-traveller-fare-in-farrukhabad",
+        slug: "urbania-tempo-traveller-in-farrukhabad",
         name: "Farrukhabad",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3301,7 +3301,7 @@ const CITY_HUBS = [
     },
     {
         id: "basti",
-        slug: "urbania-tempo-traveller-fare-in-basti",
+        slug: "urbania-tempo-traveller-in-basti",
         name: "Basti",
         state: "Uttar Pradesh",
         tag: "Eastern UP Regional Hub",
@@ -3309,7 +3309,7 @@ const CITY_HUBS = [
     },
     {
         id: "shravasti",
-        slug: "urbania-tempo-traveller-fare-in-shravasti",
+        slug: "urbania-tempo-traveller-in-shravasti",
         name: "Shravasti",
         state: "Uttar Pradesh",
         tag: "Buddhist & Religious Hub",
@@ -3317,7 +3317,7 @@ const CITY_HUBS = [
     },
     {
         id: "sant-kabir-nagar",
-        slug: "urbania-tempo-traveller-fare-in-sant-kabir-nagar",
+        slug: "urbania-tempo-traveller-in-sant-kabir-nagar",
         name: "Sant Kabir Nagar",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3325,7 +3325,7 @@ const CITY_HUBS = [
     },
     {
         id: "amethi",
-        slug: "urbania-tempo-traveller-fare-in-amethi",
+        slug: "urbania-tempo-traveller-in-amethi",
         name: "Amethi",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3333,7 +3333,7 @@ const CITY_HUBS = [
     },
     {
         id: "sambhal",
-        slug: "urbania-tempo-traveller-fare-in-sambhal",
+        slug: "urbania-tempo-traveller-in-sambhal",
         name: "Sambhal",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3341,7 +3341,7 @@ const CITY_HUBS = [
     },
     {
         id: "hamirpur",
-        slug: "urbania-tempo-traveller-fare-in-hamirpur",
+        slug: "urbania-tempo-traveller-in-hamirpur",
         name: "Hamirpur",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Travel Hub",
@@ -3349,7 +3349,7 @@ const CITY_HUBS = [
     },
     {
         id: "chitrakoot",
-        slug: "urbania-tempo-traveller-fare-in-chitrakoot",
+        slug: "urbania-tempo-traveller-in-chitrakoot",
         name: "Chitrakoot",
         state: "Uttar Pradesh",
         tag: "Religious & Tourism Hub",
@@ -3357,7 +3357,7 @@ const CITY_HUBS = [
     },
     {
         id: "kaushambi",
-        slug: "urbania-tempo-traveller-fare-in-kaushambi",
+        slug: "urbania-tempo-traveller-in-kaushambi",
         name: "Kaushambi",
         state: "Uttar Pradesh",
         tag: "Buddhist & Historic Hub",
@@ -3365,7 +3365,7 @@ const CITY_HUBS = [
     },
     {
         id: "pratapgarh",
-        slug: "urbania-tempo-traveller-fare-in-pratapgarh",
+        slug: "urbania-tempo-traveller-in-pratapgarh",
         name: "Pratapgarh",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3373,7 +3373,7 @@ const CITY_HUBS = [
     },
     {
         id: "lalitpur",
-        slug: "urbania-tempo-traveller-fare-in-lalitpur",
+        slug: "urbania-tempo-traveller-in-lalitpur",
         name: "Lalitpur",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Travel Hub",
@@ -3381,7 +3381,7 @@ const CITY_HUBS = [
     },
     {
         id: "dehradun",
-        slug: "urbania-tempo-traveller-fare-in-dehradun",
+        slug: "urbania-tempo-traveller-in-dehradun",
         name: "Dehradun",
         state: "Uttarakhand",
         tag: "Capital & Travel Hub",
@@ -3389,7 +3389,7 @@ const CITY_HUBS = [
     },
     {
         id: "haldwani",
-        slug: "urbania-tempo-traveller-fare-in-haldwani",
+        slug: "urbania-tempo-traveller-in-haldwani",
         name: "Haldwani",
         state: "Uttarakhand",
         tag: "Kumaon Travel Hub",
@@ -3397,7 +3397,7 @@ const CITY_HUBS = [
     },
     {
         id: "rudrapur",
-        slug: "urbania-tempo-traveller-fare-in-rudrapur",
+        slug: "urbania-tempo-traveller-in-rudrapur",
         name: "Rudrapur",
         state: "Uttarakhand",
         tag: "Industrial & Travel Hub",
@@ -3405,7 +3405,7 @@ const CITY_HUBS = [
     },
     {
         id: "pithoragarh",
-        slug: "urbania-tempo-traveller-fare-in-pithoragarh",
+        slug: "urbania-tempo-traveller-in-pithoragarh",
         name: "Pithoragarh",
         state: "Uttarakhand",
         tag: "Kumaon Hill Travel Hub",
@@ -3413,7 +3413,7 @@ const CITY_HUBS = [
     },
     {
         id: "tehri-garhwal",
-        slug: "urbania-tempo-traveller-fare-in-tehri-garhwal",
+        slug: "urbania-tempo-traveller-in-tehri-garhwal",
         name: "Tehri Garhwal",
         state: "Uttarakhand",
         tag: "Hill & Adventure Hub",
@@ -3421,7 +3421,7 @@ const CITY_HUBS = [
     },
     {
         id: "uttarkashi",
-        slug: "urbania-tempo-traveller-fare-in-uttarkashi",
+        slug: "urbania-tempo-traveller-in-uttarkashi",
         name: "Uttarkashi",
         state: "Uttarakhand",
         tag: "Pilgrimage & Hill Hub",
@@ -3429,7 +3429,7 @@ const CITY_HUBS = [
     },
     {
         id: "chamoli",
-        slug: "urbania-tempo-traveller-fare-in-chamoli",
+        slug: "urbania-tempo-traveller-in-chamoli",
         name: "Chamoli",
         state: "Uttarakhand",
         tag: "Pilgrimage & Mountain Hub",
@@ -3437,7 +3437,7 @@ const CITY_HUBS = [
     },
     {
         id: "champawat",
-        slug: "urbania-tempo-traveller-fare-in-champawat",
+        slug: "urbania-tempo-traveller-in-champawat",
         name: "Champawat",
         state: "Uttarakhand",
         tag: "Historic & Hill Travel Hub",
@@ -3445,7 +3445,7 @@ const CITY_HUBS = [
     },
     {
         id: "pauri-garhwal",
-        slug: "urbania-tempo-traveller-fare-in-pauri-garhwal",
+        slug: "urbania-tempo-traveller-in-pauri-garhwal",
         name: "Pauri Garhwal",
         state: "Uttarakhand",
         tag: "Garhwal Hill Travel Hub",
@@ -3453,7 +3453,7 @@ const CITY_HUBS = [
     },
     {
         id: "rudraprayag",
-        slug: "urbania-tempo-traveller-fare-in-rudraprayag",
+        slug: "urbania-tempo-traveller-in-rudraprayag",
         name: "Rudraprayag",
         state: "Uttarakhand",
         tag: "Pilgrimage & Travel Hub",
@@ -3461,7 +3461,7 @@ const CITY_HUBS = [
     },
     {
         id: "durgapur",
-        slug: "urbania-tempo-traveller-fare-in-durgapur",
+        slug: "urbania-tempo-traveller-in-durgapur",
         name: "Durgapur",
         state: "West Bengal",
         tag: "Industrial & Travel Hub",
@@ -3469,7 +3469,7 @@ const CITY_HUBS = [
     },
     {
         id: "asansol",
-        slug: "urbania-tempo-traveller-fare-in-asansol",
+        slug: "urbania-tempo-traveller-in-asansol",
         name: "Asansol",
         state: "West Bengal",
         tag: "Industrial & Travel Hub",
@@ -3477,7 +3477,7 @@ const CITY_HUBS = [
     },
     {
         id: "siliguri",
-        slug: "urbania-tempo-traveller-fare-in-siliguri",
+        slug: "urbania-tempo-traveller-in-siliguri",
         name: "Siliguri",
         state: "West Bengal",
         tag: "North Bengal Gateway",
@@ -3485,7 +3485,7 @@ const CITY_HUBS = [
     },
     {
         id: "malda",
-        slug: "urbania-tempo-traveller-fare-in-malda",
+        slug: "urbania-tempo-traveller-in-malda",
         name: "Malda",
         state: "West Bengal",
         tag: "North Bengal Travel Hub",
@@ -3493,7 +3493,7 @@ const CITY_HUBS = [
     },
     {
         id: "baharampur",
-        slug: "urbania-tempo-traveller-fare-in-baharampur",
+        slug: "urbania-tempo-traveller-in-baharampur",
         name: "Baharampur",
         state: "West Bengal",
         tag: "Murshidabad Travel Hub",
@@ -3501,7 +3501,7 @@ const CITY_HUBS = [
     },
     {
         id: "krishnanagar",
-        slug: "urbania-tempo-traveller-fare-in-krishnanagar",
+        slug: "urbania-tempo-traveller-in-krishnanagar",
         name: "Krishnanagar",
         state: "West Bengal",
         tag: "Nadia Travel Hub",
@@ -3509,7 +3509,7 @@ const CITY_HUBS = [
     },
     {
         id: "raiganj",
-        slug: "urbania-tempo-traveller-fare-in-raiganj",
+        slug: "urbania-tempo-traveller-in-raiganj",
         name: "Raiganj",
         state: "West Bengal",
         tag: "North Bengal Hub",
@@ -3517,7 +3517,7 @@ const CITY_HUBS = [
     },
     {
         id: "balurghat",
-        slug: "urbania-tempo-traveller-fare-in-balurghat",
+        slug: "urbania-tempo-traveller-in-balurghat",
         name: "Balurghat",
         state: "West Bengal",
         tag: "South Dinajpur Hub",
@@ -3525,7 +3525,7 @@ const CITY_HUBS = [
     },
     {
         id: "midnapore",
-        slug: "urbania-tempo-traveller-fare-in-midnapore",
+        slug: "urbania-tempo-traveller-in-midnapore",
         name: "Midnapore",
         state: "West Bengal",
         tag: "Southwest Bengal Hub",
@@ -3533,7 +3533,7 @@ const CITY_HUBS = [
     },
     {
         id: "bankura",
-        slug: "urbania-tempo-traveller-fare-in-bankura",
+        slug: "urbania-tempo-traveller-in-bankura",
         name: "Bankura",
         state: "West Bengal",
         tag: "Heritage & Travel Hub",
@@ -3541,7 +3541,7 @@ const CITY_HUBS = [
     },
     {
         id: "purulia",
-        slug: "urbania-tempo-traveller-fare-in-purulia",
+        slug: "urbania-tempo-traveller-in-purulia",
         name: "Purulia",
         state: "West Bengal",
         tag: "Nature & Travel Hub",
@@ -3549,7 +3549,7 @@ const CITY_HUBS = [
     },
     {
         id: "birbhum",
-        slug: "urbania-tempo-traveller-fare-in-birbhum",
+        slug: "urbania-tempo-traveller-in-birbhum",
         name: "Birbhum",
         state: "West Bengal",
         tag: "Cultural & Pilgrimage Hub",
@@ -3557,7 +3557,7 @@ const CITY_HUBS = [
     },
     {
         id: "nadia",
-        slug: "urbania-tempo-traveller-fare-in-nadia",
+        slug: "urbania-tempo-traveller-in-nadia",
         name: "Nadia",
         state: "West Bengal",
         tag: "Pilgrimage & Cultural Hub",
@@ -3565,7 +3565,7 @@ const CITY_HUBS = [
     },
     {
         id: "hooghly",
-        slug: "urbania-tempo-traveller-fare-in-hooghly",
+        slug: "urbania-tempo-traveller-in-hooghly",
         name: "Hooghly",
         state: "West Bengal",
         tag: "Kolkata Region Hub",
@@ -3573,7 +3573,7 @@ const CITY_HUBS = [
     },
     {
         id: "bardhaman",
-        slug: "urbania-tempo-traveller-fare-in-bardhaman",
+        slug: "urbania-tempo-traveller-in-bardhaman",
         name: "Bardhaman",
         state: "West Bengal",
         tag: "Central Bengal Hub",
@@ -3581,7 +3581,7 @@ const CITY_HUBS = [
     },
     {
         id: "paschim-medininipur",
-        slug: "urbania-tempo-traveller-fare-in-paschim-medininipur",
+        slug: "urbania-tempo-traveller-in-paschim-medininipur",
         name: "Paschim Medinipur",
         state: "West Bengal",
         tag: "Southwest Bengal Hub",
@@ -3589,7 +3589,7 @@ const CITY_HUBS = [
     },
     {
         id: "purba-medininipur",
-        slug: "urbania-tempo-traveller-fare-in-purba-medininipur",
+        slug: "urbania-tempo-traveller-in-purba-medininipur",
         name: "Purba Medinipur",
         state: "West Bengal",
         tag: "Coastal Travel Hub",
@@ -3597,7 +3597,7 @@ const CITY_HUBS = [
     },
     {
         id: "north-24-parganas",
-        slug: "urbania-tempo-traveller-fare-in-north-24-parganas",
+        slug: "urbania-tempo-traveller-in-north-24-parganas",
         name: "North 24 Parganas",
         state: "West Bengal",
         tag: "Kolkata Metro Region",
@@ -3605,7 +3605,7 @@ const CITY_HUBS = [
     },
     {
         id: "south-24-parganas",
-        slug: "urbania-tempo-traveller-fare-in-south-24-parganas",
+        slug: "urbania-tempo-traveller-in-south-24-parganas",
         name: "South 24 Parganas",
         state: "West Bengal",
         tag: "Kolkata & Coastal Hub",
@@ -3613,7 +3613,7 @@ const CITY_HUBS = [
     },
     {
         id: "kolkata-municipal-corporation",
-        slug: "urbania-tempo-traveller-fare-in-kolkata-municipal-corporation-area",
+        slug: "urbania-tempo-traveller-in-kolkata-municipal-corporation-area",
         name: "Kolkata Municipal Corporation Area",
         state: "West Bengal",
         tag: "Kolkata Metro Core",
@@ -3621,7 +3621,7 @@ const CITY_HUBS = [
     },
     {
         id: "panipat",
-        slug: "urbania-tempo-traveller-fare-in-panipat",
+        slug: "urbania-tempo-traveller-in-panipat",
         name: "Panipat",
         state: "Haryana",
         tag: "NCR & Industrial Hub",
@@ -3629,7 +3629,7 @@ const CITY_HUBS = [
     },
     {
         id: "karnal",
-        slug: "urbania-tempo-traveller-fare-in-karnal",
+        slug: "urbania-tempo-traveller-in-karnal",
         name: "Karnal",
         state: "Haryana",
         tag: "NCR & Travel Hub",
@@ -3637,7 +3637,7 @@ const CITY_HUBS = [
     },
     {
         id: "hisar",
-        slug: "urbania-tempo-traveller-fare-in-hisar",
+        slug: "urbania-tempo-traveller-in-hisar",
         name: "Hisar",
         state: "Haryana",
         tag: "Regional Travel Hub",
@@ -3645,7 +3645,7 @@ const CITY_HUBS = [
     },
     {
         id: "sonipat",
-        slug: "urbania-tempo-traveller-fare-in-sonipat",
+        slug: "urbania-tempo-traveller-in-sonipat",
         name: "Sonipat",
         state: "Haryana",
         tag: "NCR Hub",
@@ -3653,7 +3653,7 @@ const CITY_HUBS = [
     },
     {
         id: "panchkula",
-        slug: "urbania-tempo-traveller-fare-in-panchkula",
+        slug: "urbania-tempo-traveller-in-panchkula",
         name: "Panchkula",
         state: "Haryana",
         tag: "Tricity Travel Hub",
@@ -3661,7 +3661,7 @@ const CITY_HUBS = [
     },
     {
         id: "rewari",
-        slug: "urbania-tempo-traveller-fare-in-rewari",
+        slug: "urbania-tempo-traveller-in-rewari",
         name: "Rewari",
         state: "Haryana",
         tag: "NCR & Transit Hub",
@@ -3669,7 +3669,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhiwani",
-        slug: "urbania-tempo-traveller-fare-in-bhiwani",
+        slug: "urbania-tempo-traveller-in-bhiwani",
         name: "Bhiwani",
         state: "Haryana",
         tag: "Regional Travel Hub",
@@ -3677,7 +3677,7 @@ const CITY_HUBS = [
     },
     {
         id: "jind",
-        slug: "urbania-tempo-traveller-fare-in-jind",
+        slug: "urbania-tempo-traveller-in-jind",
         name: "Jind",
         state: "Haryana",
         tag: "Central Haryana Hub",
@@ -3685,7 +3685,7 @@ const CITY_HUBS = [
     },
     {
         id: "kaithal",
-        slug: "urbania-tempo-traveller-fare-in-kaithal",
+        slug: "urbania-tempo-traveller-in-kaithal",
         name: "Kaithal",
         state: "Haryana",
         tag: "Regional Travel Hub",
@@ -3693,7 +3693,7 @@ const CITY_HUBS = [
     },
     {
         id: "kurukshetra",
-        slug: "urbania-tempo-traveller-fare-in-kurukshetra",
+        slug: "urbania-tempo-traveller-in-kurukshetra",
         name: "Kurukshetra",
         state: "Haryana",
         tag: "Pilgrimage & Heritage Hub",
@@ -3701,7 +3701,7 @@ const CITY_HUBS = [
     },
     {
         id: "fatehabad",
-        slug: "urbania-tempo-traveller-fare-in-fatehabad",
+        slug: "urbania-tempo-traveller-in-fatehabad",
         name: "Fatehabad",
         state: "Haryana",
         tag: "Regional Travel Hub",
@@ -3709,7 +3709,7 @@ const CITY_HUBS = [
     },
     {
         id: "sirsa",
-        slug: "urbania-tempo-traveller-fare-in-sirsa",
+        slug: "urbania-tempo-traveller-in-sirsa",
         name: "Sirsa",
         state: "Haryana",
         tag: "Western Haryana Hub",
@@ -3717,7 +3717,7 @@ const CITY_HUBS = [
     },
     {
         id: "narnaul",
-        slug: "urbania-tempo-traveller-fare-in-narnaul",
+        slug: "urbania-tempo-traveller-in-narnaul",
         name: "Narnaul",
         state: "Haryana",
         tag: "Heritage & NCR Gateway",
@@ -3725,7 +3725,7 @@ const CITY_HUBS = [
     },
     {
         id: "palwal",
-        slug: "urbania-tempo-traveller-fare-in-palwal",
+        slug: "urbania-tempo-traveller-in-palwal",
         name: "Palwal",
         state: "Haryana",
         tag: "NCR Gateway",
@@ -3733,7 +3733,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahendragarh",
-        slug: "urbania-tempo-traveller-fare-in-mahendragarh",
+        slug: "urbania-tempo-traveller-in-mahendragarh",
         name: "Mahendragarh",
         state: "Haryana",
         tag: "South Haryana Hub",
@@ -3741,7 +3741,7 @@ const CITY_HUBS = [
     },
     {
         id: "charkhi-dadri",
-        slug: "urbania-tempo-traveller-fare-in-charkhi-dadri",
+        slug: "urbania-tempo-traveller-in-charkhi-dadri",
         name: "Charkhi Dadri",
         state: "Haryana",
         tag: "Southwest Haryana Hub",
@@ -3749,7 +3749,7 @@ const CITY_HUBS = [
     },
     {
         id: "hoshiarpur",
-        slug: "urbania-tempo-traveller-fare-in-hoshiarpur",
+        slug: "urbania-tempo-traveller-in-hoshiarpur",
         name: "Hoshiarpur",
         state: "Punjab",
         tag: "Doaba Travel Hub",
@@ -3757,7 +3757,7 @@ const CITY_HUBS = [
     },
     {
         id: "moga",
-        slug: "urbania-tempo-traveller-fare-in-moga",
+        slug: "urbania-tempo-traveller-in-moga",
         name: "Moga",
         state: "Punjab",
         tag: "Central Punjab Hub",
@@ -3765,7 +3765,7 @@ const CITY_HUBS = [
     },
     {
         id: "kapurthala",
-        slug: "urbania-tempo-traveller-fare-in-kapurthala",
+        slug: "urbania-tempo-traveller-in-kapurthala",
         name: "Kapurthala",
         state: "Punjab",
         tag: "Heritage & Travel Hub",
@@ -3773,7 +3773,7 @@ const CITY_HUBS = [
     },
     {
         id: "ferozepur",
-        slug: "urbania-tempo-traveller-fare-in-ferozepur",
+        slug: "urbania-tempo-traveller-in-ferozepur",
         name: "Ferozepur",
         state: "Punjab",
         tag: "Border & Heritage Hub",
@@ -3781,7 +3781,7 @@ const CITY_HUBS = [
     },
     {
         id: "barnala",
-        slug: "urbania-tempo-traveller-fare-in-barnala",
+        slug: "urbania-tempo-traveller-in-barnala",
         name: "Barnala",
         state: "Punjab",
         tag: "Malwa Travel Hub",
@@ -3789,7 +3789,7 @@ const CITY_HUBS = [
     },
     {
         id: "mansa",
-        slug: "urbania-tempo-traveller-fare-in-mansa",
+        slug: "urbania-tempo-traveller-in-mansa",
         name: "Mansa",
         state: "Punjab",
         tag: "Malwa Regional Hub",
@@ -3797,7 +3797,7 @@ const CITY_HUBS = [
     },
     {
         id: "fazilka",
-        slug: "urbania-tempo-traveller-fare-in-fazilka",
+        slug: "urbania-tempo-traveller-in-fazilka",
         name: "Fazilka",
         state: "Punjab",
         tag: "Border Travel Hub",
@@ -3805,7 +3805,7 @@ const CITY_HUBS = [
     },
     {
         id: "tarn-taran",
-        slug: "urbania-tempo-traveller-fare-in-tarn-taran",
+        slug: "urbania-tempo-traveller-in-tarn-taran",
         name: "Tarn Taran",
         state: "Punjab",
         tag: "Pilgrimage Hub",
@@ -3813,7 +3813,7 @@ const CITY_HUBS = [
     },
     {
         id: "nawanshahr",
-        slug: "urbania-tempo-traveller-fare-in-nawanshahr",
+        slug: "urbania-tempo-traveller-in-nawanshahr",
         name: "Nawanshahr",
         state: "Punjab",
         tag: "Doaba Regional Hub",
@@ -3821,7 +3821,7 @@ const CITY_HUBS = [
     },
     {
         id: "rupnagar",
-        slug: "urbania-tempo-traveller-fare-in-rupnagar",
+        slug: "urbania-tempo-traveller-in-rupnagar",
         name: "Rupnagar",
         state: "Punjab",
         tag: "Heritage & Travel Hub",
@@ -3829,7 +3829,7 @@ const CITY_HUBS = [
     },
     {
         id: "muktsar",
-        slug: "urbania-tempo-traveller-fare-in-muktsar",
+        slug: "urbania-tempo-traveller-in-muktsar",
         name: "Muktsar",
         state: "Punjab",
         tag: "Pilgrimage & Regional Hub",
@@ -3837,7 +3837,7 @@ const CITY_HUBS = [
     },
     {
         id: "faridkot",
-        slug: "urbania-tempo-traveller-fare-in-faridkot",
+        slug: "urbania-tempo-traveller-in-faridkot",
         name: "Faridkot",
         state: "Punjab",
         tag: "Regional Travel Hub",
@@ -3845,7 +3845,7 @@ const CITY_HUBS = [
     },
     {
         id: "gurdaspur",
-        slug: "urbania-tempo-traveller-fare-in-gurdaspur",
+        slug: "urbania-tempo-traveller-in-gurdaspur",
         name: "Gurdaspur",
         state: "Punjab",
         tag: "North Punjab Travel Hub",
@@ -3853,7 +3853,7 @@ const CITY_HUBS = [
     },
     {
         id: "jalandhar-cantt",
-        slug: "urbania-tempo-traveller-fare-in-jalandhar-cantt",
+        slug: "urbania-tempo-traveller-in-jalandhar-cantt",
         name: "Jalandhar Cantt",
         state: "Punjab",
         tag: "Jalandhar Transit Hub",
@@ -3861,7 +3861,7 @@ const CITY_HUBS = [
     },
     {
         id: "amritsar-cantt",
-        slug: "urbania-tempo-traveller-fare-in-amritsar-cantt",
+        slug: "urbania-tempo-traveller-in-amritsar-cantt",
         name: "Amritsar Cantt",
         state: "Punjab",
         tag: "Pilgrimage & Transit Hub",
@@ -3869,7 +3869,7 @@ const CITY_HUBS = [
     },
     {
         id: "etawah",
-        slug: "urbania-tempo-traveller-fare-in-etawah",
+        slug: "urbania-tempo-traveller-in-etawah",
         name: "Etawah",
         state: "Uttar Pradesh",
         tag: "Regional Travel Hub",
@@ -3877,7 +3877,7 @@ const CITY_HUBS = [
     },
     {
         id: "bathinda",
-        slug: "urbania-tempo-traveller-fare-in-bathinda",
+        slug: "urbania-tempo-traveller-in-bathinda",
         name: "Bathinda",
         state: "Punjab",
         tag: "Major Regional Hub",
@@ -3885,7 +3885,7 @@ const CITY_HUBS = [
     },
     {
         id: "udaipur",
-        slug: "urbania-tempo-traveller-fare-in-udaipur",
+        slug: "urbania-tempo-traveller-in-udaipur",
         name: "Udaipur",
         state: "Rajasthan",
         tag: "Tourism & Heritage Hub",
@@ -3893,7 +3893,7 @@ const CITY_HUBS = [
     },
     {
         id: "salem",
-        slug: "urbania-tempo-traveller-fare-in-salem",
+        slug: "urbania-tempo-traveller-in-salem",
         name: "Salem",
         state: "Tamil Nadu",
         tag: "Major Regional Hub",
@@ -3901,7 +3901,7 @@ const CITY_HUBS = [
     },
     {
         id: "jhansi",
-        slug: "urbania-tempo-traveller-fare-in-jhansi",
+        slug: "urbania-tempo-traveller-in-jhansi",
         name: "Jhansi",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Travel Hub",
@@ -3909,7 +3909,7 @@ const CITY_HUBS = [
     },
     {
         id: "mathura",
-        slug: "urbania-tempo-traveller-fare-in-mathura",
+        slug: "urbania-tempo-traveller-in-mathura",
         name: "Mathura",
         state: "Uttar Pradesh",
         tag: "Pilgrimage Hub",
@@ -3917,7 +3917,7 @@ const CITY_HUBS = [
     },
     {
         id: "bikaner",
-        slug: "urbania-tempo-traveller-fare-in-bikaner",
+        slug: "urbania-tempo-traveller-in-bikaner",
         name: "Bikaner",
         state: "Rajasthan",
         tag: "Desert & Heritage Hub",
@@ -3925,7 +3925,7 @@ const CITY_HUBS = [
     },
     {
         id: "nashik",
-        slug: "urbania-tempo-traveller-fare-in-nashik",
+        slug: "urbania-tempo-traveller-in-nashik",
         name: "Nashik",
         state: "Maharashtra",
         tag: "Pilgrimage & Wine Tourism Hub",
@@ -3933,7 +3933,7 @@ const CITY_HUBS = [
     },
     {
         id: "saharanpur",
-        slug: "urbania-tempo-traveller-fare-in-saharanpur",
+        slug: "urbania-tempo-traveller-in-saharanpur",
         name: "Saharanpur",
         state: "Uttar Pradesh",
         tag: "Western UP Travel Hub",
@@ -3941,7 +3941,7 @@ const CITY_HUBS = [
     },
     {
         id: "gorakhpur",
-        slug: "urbania-tempo-traveller-fare-in-gorakhpur",
+        slug: "urbania-tempo-traveller-in-gorakhpur",
         name: "Gorakhpur",
         state: "Uttar Pradesh",
         tag: "Eastern UP Travel Hub",
@@ -3949,7 +3949,7 @@ const CITY_HUBS = [
     },
     {
         id: "muzaffarnagar",
-        slug: "urbania-tempo-traveller-fare-in-muzaffarnagar",
+        slug: "urbania-tempo-traveller-in-muzaffarnagar",
         name: "Muzaffarnagar",
         state: "Uttar Pradesh",
         tag: "Western UP Hub",
@@ -3957,7 +3957,7 @@ const CITY_HUBS = [
     },
     {
         id: "mainpuri",
-        slug: "urbania-tempo-traveller-fare-in-mainpuri",
+        slug: "urbania-tempo-traveller-in-mainpuri",
         name: "Mainpuri",
         state: "Uttar Pradesh",
         tag: "Central UP Travel Hub",
@@ -3965,7 +3965,7 @@ const CITY_HUBS = [
     },
     {
         id: "modinagar",
-        slug: "urbania-tempo-traveller-fare-in-modinagar",
+        slug: "urbania-tempo-traveller-in-modinagar",
         name: "Modinagar",
         state: "Uttar Pradesh",
         tag: "NCR Travel Hub",
@@ -3973,7 +3973,7 @@ const CITY_HUBS = [
     },
     {
         id: "sultanpur",
-        slug: "urbania-tempo-traveller-fare-in-sultanpur",
+        slug: "urbania-tempo-traveller-in-sultanpur",
         name: "Sultanpur",
         state: "Uttar Pradesh",
         tag: "Central-Eastern UP Hub",
@@ -3981,7 +3981,7 @@ const CITY_HUBS = [
     },
     {
         id: "banda",
-        slug: "urbania-tempo-traveller-fare-in-banda",
+        slug: "urbania-tempo-traveller-in-banda",
         name: "Banda",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Travel Hub",
@@ -3989,7 +3989,7 @@ const CITY_HUBS = [
     },
     {
         id: "pilihit",
-        slug: "urbania-tempo-traveller-fare-in-pilibhit",
+        slug: "urbania-tempo-traveller-in-pilibhit",
         name: "Pilibhit",
         state: "Uttar Pradesh",
         tag: "Terai & Wildlife Hub",
@@ -3997,7 +3997,7 @@ const CITY_HUBS = [
     },
     {
         id: "hardoi",
-        slug: "urbania-tempo-traveller-fare-in-hardoi",
+        slug: "urbania-tempo-traveller-in-hardoi",
         name: "Hardoi",
         state: "Uttar Pradesh",
         tag: "Central UP Hub",
@@ -4005,7 +4005,7 @@ const CITY_HUBS = [
     },
     {
         id: "hapur",
-        slug: "urbania-tempo-traveller-fare-in-hapur",
+        slug: "urbania-tempo-traveller-in-hapur",
         name: "Hapur",
         state: "Uttar Pradesh",
         tag: "NCR Regional Hub",
@@ -4013,7 +4013,7 @@ const CITY_HUBS = [
     },
     {
         id: "etah",
-        slug: "urbania-tempo-traveller-fare-in-etah",
+        slug: "urbania-tempo-traveller-in-etah",
         name: "Etah",
         state: "Uttar Pradesh",
         tag: "Central UP Regional Hub",
@@ -4021,7 +4021,7 @@ const CITY_HUBS = [
     },
     {
         id: "mirzapur",
-        slug: "urbania-tempo-traveller-fare-in-mirzapur",
+        slug: "urbania-tempo-traveller-in-mirzapur",
         name: "Mirzapur",
         state: "Uttar Pradesh",
         tag: "Spiritual & Heritage Hub",
@@ -4029,7 +4029,7 @@ const CITY_HUBS = [
     },
     {
         id: "deoria",
-        slug: "urbania-tempo-traveller-fare-in-deoria",
+        slug: "urbania-tempo-traveller-in-deoria",
         name: "Deoria",
         state: "Uttar Pradesh",
         tag: "Eastern UP Regional Hub",
@@ -4037,7 +4037,7 @@ const CITY_HUBS = [
     },
     {
         id: "gonda",
-        slug: "urbania-tempo-traveller-fare-in-gonda",
+        slug: "urbania-tempo-traveller-in-gonda",
         name: "Gonda",
         state: "Uttar Pradesh",
         tag: "Awadh Travel Hub",
@@ -4045,7 +4045,7 @@ const CITY_HUBS = [
     },
     {
         id: "chandauli",
-        slug: "urbania-tempo-traveller-fare-in-chandauli",
+        slug: "urbania-tempo-traveller-in-chandauli",
         name: "Chandauli",
         state: "Uttar Pradesh",
         tag: "Purvanchal Gateway",
@@ -4053,7 +4053,7 @@ const CITY_HUBS = [
     },
     {
         id: "ballia",
-        slug: "urbania-tempo-traveller-fare-in-ballia",
+        slug: "urbania-tempo-traveller-in-ballia",
         name: "Ballia",
         state: "Uttar Pradesh",
         tag: "Purvanchal Regional Hub",
@@ -4061,7 +4061,7 @@ const CITY_HUBS = [
     },
     {
         id: "jaunpur",
-        slug: "urbania-tempo-traveller-fare-in-jaunpur",
+        slug: "urbania-tempo-traveller-in-jaunpur",
         name: "Jaunpur",
         state: "Uttar Pradesh",
         tag: "Heritage & Pilgrimage Hub",
@@ -4069,7 +4069,7 @@ const CITY_HUBS = [
     },
     {
         id: "ghazipur",
-        slug: "urbania-tempo-traveller-fare-in-ghazipur",
+        slug: "urbania-tempo-traveller-in-ghazipur",
         name: "Ghazipur",
         state: "Uttar Pradesh",
         tag: "Purvanchal Travel Hub",
@@ -4077,7 +4077,7 @@ const CITY_HUBS = [
     },
     {
         id: "ambedkar-nagar",
-        slug: "urbania-tempo-traveller-fare-in-ambedkar-nagar",
+        slug: "urbania-tempo-traveller-in-ambedkar-nagar",
         name: "Ambedkar Nagar",
         state: "Uttar Pradesh",
         tag: "Eastern UP Regional Hub",
@@ -4085,7 +4085,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahoba",
-        slug: "urbania-tempo-traveller-fare-in-mahoba",
+        slug: "urbania-tempo-traveller-in-mahoba",
         name: "Mahoba",
         state: "Uttar Pradesh",
         tag: "Bundelkhand Heritage Hub",
@@ -4093,7 +4093,7 @@ const CITY_HUBS = [
     },
     {
         id: "kushinagar",
-        slug: "urbania-tempo-traveller-fare-in-kushinagar",
+        slug: "urbania-tempo-traveller-in-kushinagar",
         name: "Kushinagar",
         state: "Uttar Pradesh",
         tag: "Buddhist Pilgrimage Hub",
@@ -4101,7 +4101,7 @@ const CITY_HUBS = [
     },
     {
         id: "sonbhadra",
-        slug: "urbania-tempo-traveller-fare-in-sonbhadra",
+        slug: "urbania-tempo-traveller-in-sonbhadra",
         name: "Sonbhadra",
         state: "Uttar Pradesh",
         tag: "Nature & Industrial Hub",
@@ -4109,7 +4109,7 @@ const CITY_HUBS = [
     },
     {
         id: "haridwar",
-        slug: "urbania-tempo-traveller-fare-in-haridwar",
+        slug: "urbania-tempo-traveller-in-haridwar",
         name: "Haridwar",
         state: "Uttarakhand",
         tag: "Religious & Pilgrimage Hub",
@@ -4117,7 +4117,7 @@ const CITY_HUBS = [
     },
     {
         id: "kashipur",
-        slug: "urbania-tempo-traveller-fare-in-kashipur",
+        slug: "urbania-tempo-traveller-in-kashipur",
         name: "Kashipur",
         state: "Uttarakhand",
         tag: "Industrial & Regional Hub",
@@ -4125,7 +4125,7 @@ const CITY_HUBS = [
     },
     {
         id: "almora",
-        slug: "urbania-tempo-traveller-fare-in-almora",
+        slug: "urbania-tempo-traveller-in-almora",
         name: "Almora",
         state: "Uttarakhand",
         tag: "Hill Tourism Hub",
@@ -4133,7 +4133,7 @@ const CITY_HUBS = [
     },
     {
         id: "nainital",
-        slug: "urbania-tempo-traveller-fare-in-nainital",
+        slug: "urbania-tempo-traveller-in-nainital",
         name: "Nainital",
         state: "Uttarakhand",
         tag: "Hill Tourism Hub",
@@ -4141,7 +4141,7 @@ const CITY_HUBS = [
     },
     {
         id: "bageshwar",
-        slug: "urbania-tempo-traveller-fare-in-bageshwar",
+        slug: "urbania-tempo-traveller-in-bageshwar",
         name: "Bageshwar",
         state: "Uttarakhand",
         tag: "Religious & Hill Travel Hub",
@@ -4149,7 +4149,7 @@ const CITY_HUBS = [
     },
     {
         id: "anantnag",
-        slug: "urbania-tempo-traveller-fare-in-anantnag",
+        slug: "urbania-tempo-traveller-in-anantnag",
         name: "Anantnag",
         state: "Jammu & Kashmir",
         tag: "Tourism & Valley Travel Hub",
@@ -4157,7 +4157,7 @@ const CITY_HUBS = [
     },
     {
         id: "baramulla",
-        slug: "urbania-tempo-traveller-fare-in-baramulla",
+        slug: "urbania-tempo-traveller-in-baramulla",
         name: "Baramulla",
         state: "Jammu & Kashmir",
         tag: "Kashmir Travel Hub",
@@ -4165,7 +4165,7 @@ const CITY_HUBS = [
     },
     {
         id: "bandipora",
-        slug: "urbania-tempo-traveller-fare-in-bandipora",
+        slug: "urbania-tempo-traveller-in-bandipora",
         name: "Bandipora",
         state: "Jammu & Kashmir",
         tag: "Scenic Valley Travel Hub",
@@ -4173,7 +4173,7 @@ const CITY_HUBS = [
     },
     {
         id: "doda",
-        slug: "urbania-tempo-traveller-fare-in-doda",
+        slug: "urbania-tempo-traveller-in-doda",
         name: "Doda",
         state: "Jammu & Kashmir",
         tag: "Mountain Travel Hub",
@@ -4181,7 +4181,7 @@ const CITY_HUBS = [
     },
     {
         id: "kathua",
-        slug: "urbania-tempo-traveller-fare-in-kathua",
+        slug: "urbania-tempo-traveller-in-kathua",
         name: "Kathua",
         state: "Jammu & Kashmir",
         tag: "Regional Travel Hub",
@@ -4189,7 +4189,7 @@ const CITY_HUBS = [
     },
     {
         id: "kishtwar",
-        slug: "urbania-tempo-traveller-fare-in-kishtwar",
+        slug: "urbania-tempo-traveller-in-kishtwar",
         name: "Kishtwar",
         state: "Jammu & Kashmir",
         tag: "Mountain & Adventure Hub",
@@ -4197,7 +4197,7 @@ const CITY_HUBS = [
     },
     {
         id: "kulgam",
-        slug: "urbania-tempo-traveller-fare-in-kulgam",
+        slug: "urbania-tempo-traveller-in-kulgam",
         name: "Kulgam",
         state: "Jammu & Kashmir",
         tag: "Valley Travel Hub",
@@ -4205,7 +4205,7 @@ const CITY_HUBS = [
     },
     {
         id: "kupwara",
-        slug: "urbania-tempo-traveller-fare-in-kupwara",
+        slug: "urbania-tempo-traveller-in-kupwara",
         name: "Kupwara",
         state: "Jammu & Kashmir",
         tag: "North Kashmir Travel Hub",
@@ -4213,7 +4213,7 @@ const CITY_HUBS = [
     },
     {
         id: "poonch",
-        slug: "urbania-tempo-traveller-fare-in-poonch",
+        slug: "urbania-tempo-traveller-in-poonch",
         name: "Poonch",
         state: "Jammu & Kashmir",
         tag: "Mountain & Heritage Hub",
@@ -4221,7 +4221,7 @@ const CITY_HUBS = [
     },
     {
         id: "ramban",
-        slug: "urbania-tempo-traveller-fare-in-ramban",
+        slug: "urbania-tempo-traveller-in-ramban",
         name: "Ramban",
         state: "Jammu & Kashmir",
         tag: "Mountain Travel Hub",
@@ -4229,7 +4229,7 @@ const CITY_HUBS = [
     },
     {
         id: "reasi",
-        slug: "urbania-tempo-traveller-fare-in-reasi",
+        slug: "urbania-tempo-traveller-in-reasi",
         name: "Reasi",
         state: "Jammu & Kashmir",
         tag: "Pilgrimage & Travel Hub",
@@ -4237,7 +4237,7 @@ const CITY_HUBS = [
     },
     {
         id: "samba",
-        slug: "urbania-tempo-traveller-fare-in-samba",
+        slug: "urbania-tempo-traveller-in-samba",
         name: "Samba",
         state: "Jammu & Kashmir",
         tag: "Regional & Industrial Hub",
@@ -4245,7 +4245,7 @@ const CITY_HUBS = [
     },
     {
         id: "shopian",
-        slug: "urbania-tempo-traveller-fare-in-shopian",
+        slug: "urbania-tempo-traveller-in-shopian",
         name: "Shopian",
         state: "Jammu & Kashmir",
         tag: "Apple & Valley Travel Hub",
@@ -4253,7 +4253,7 @@ const CITY_HUBS = [
     },
     {
         id: "udhampur",
-        slug: "urbania-tempo-traveller-fare-in-udhampur",
+        slug: "urbania-tempo-traveller-in-udhampur",
         name: "Udhampur",
         state: "Jammu & Kashmir",
         tag: "Regional Travel Hub",
@@ -4261,7 +4261,7 @@ const CITY_HUBS = [
     },
     {
         id: "leh",
-        slug: "urbania-tempo-traveller-fare-in-leh",
+        slug: "urbania-tempo-traveller-in-leh",
         name: "Leh",
         state: "Ladakh",
         tag: "Ladakh Travel Hub",
@@ -4269,7 +4269,7 @@ const CITY_HUBS = [
     },
     {
         id: "kargil",
-        slug: "urbania-tempo-traveller-fare-in-kargil",
+        slug: "urbania-tempo-traveller-in-kargil",
         name: "Kargil",
         state: "Ladakh",
         tag: "Ladakh Travel Hub",
@@ -4277,7 +4277,7 @@ const CITY_HUBS = [
     },
     {
         id: "bahadurgarh",
-        slug: "urbania-tempo-traveller-fare-in-bahadurgarh",
+        slug: "urbania-tempo-traveller-in-bahadurgarh",
         name: "Bahadurgarh",
         state: "Haryana",
         tag: "NCR Hub",
@@ -4285,7 +4285,7 @@ const CITY_HUBS = [
     },
     {
         id: "manesar",
-        slug: "urbania-tempo-traveller-fare-in-manesar",
+        slug: "urbania-tempo-traveller-in-manesar",
         name: "Manesar",
         state: "Haryana",
         tag: "NCR Travel Hub",
@@ -4293,7 +4293,7 @@ const CITY_HUBS = [
     },
     {
         id: "sohna",
-        slug: "urbania-tempo-traveller-fare-in-sohna",
+        slug: "urbania-tempo-traveller-in-sohna",
         name: "Sohna",
         state: "Haryana",
         tag: "NCR Travel Hub",
@@ -4301,7 +4301,7 @@ const CITY_HUBS = [
     },
     {
         id: "badshahpur",
-        slug: "urbania-tempo-traveller-fare-in-badshahpur",
+        slug: "urbania-tempo-traveller-in-badshahpur",
         name: "Badshahpur",
         state: "Haryana",
         tag: "Gurugram Hub",
@@ -4309,7 +4309,7 @@ const CITY_HUBS = [
     },
     {
         id: "ahmednagar",
-        slug: "urbania-tempo-traveller-fare-in-ahmednagar",
+        slug: "urbania-tempo-traveller-in-ahmednagar",
         name: "Ahmednagar",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4317,7 +4317,7 @@ const CITY_HUBS = [
     },
     {
         id: "amalner",
-        slug: "urbania-tempo-traveller-fare-in-amalner",
+        slug: "urbania-tempo-traveller-in-amalner",
         name: "Amalner",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4325,7 +4325,7 @@ const CITY_HUBS = [
     },
     {
         id: "ambajogai",
-        slug: "urbania-tempo-traveller-fare-in-ambajogai",
+        slug: "urbania-tempo-traveller-in-ambajogai",
         name: "Ambajogai",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4333,7 +4333,7 @@ const CITY_HUBS = [
     },
     {
         id: "baramati",
-        slug: "urbania-tempo-traveller-fare-in-baramati",
+        slug: "urbania-tempo-traveller-in-baramati",
         name: "Baramati",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4341,7 +4341,7 @@ const CITY_HUBS = [
     },
     {
         id: "bardoli",
-        slug: "urbania-tempo-traveller-fare-in-bardoli",
+        slug: "urbania-tempo-traveller-in-bardoli",
         name: "Bardoli",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4349,7 +4349,7 @@ const CITY_HUBS = [
     },
     {
         id: "beed",
-        slug: "urbania-tempo-traveller-fare-in-beed",
+        slug: "urbania-tempo-traveller-in-beed",
         name: "Beed",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4357,7 +4357,7 @@ const CITY_HUBS = [
     },
     {
         id: "bharatpur",
-        slug: "urbania-tempo-traveller-fare-in-bharatpur",
+        slug: "urbania-tempo-traveller-in-bharatpur",
         name: "Bharatpur",
         state: "Rajasthan",
         tag: "Rajasthan Travel Hub",
@@ -4365,7 +4365,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhimavaram",
-        slug: "urbania-tempo-traveller-fare-in-bhimavaram",
+        slug: "urbania-tempo-traveller-in-bhimavaram",
         name: "Bhimavaram",
         state: "Andhra Pradesh",
         tag: "Andhra Pradesh Travel Hub",
@@ -4373,7 +4373,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhusawal",
-        slug: "urbania-tempo-traveller-fare-in-bhusawal",
+        slug: "urbania-tempo-traveller-in-bhusawal",
         name: "Bhusawal",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4381,7 +4381,7 @@ const CITY_HUBS = [
     },
     {
         id: "bidar",
-        slug: "urbania-tempo-traveller-fare-in-bidar",
+        slug: "urbania-tempo-traveller-in-bidar",
         name: "Bidar",
         state: "Karnataka",
         tag: "Karnataka Travel Hub",
@@ -4389,7 +4389,7 @@ const CITY_HUBS = [
     },
     {
         id: "bilaspur",
-        slug: "urbania-tempo-traveller-fare-in-bilaspur",
+        slug: "urbania-tempo-traveller-in-bilaspur",
         name: "Bilaspur",
         state: "Chhattisgarh",
         tag: "Chhattisgarh Travel Hub",
@@ -4397,7 +4397,7 @@ const CITY_HUBS = [
     },
     {
         id: "buldhana",
-        slug: "urbania-tempo-traveller-fare-in-buldhana",
+        slug: "urbania-tempo-traveller-in-buldhana",
         name: "Buldhana",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4405,7 +4405,7 @@ const CITY_HUBS = [
     },
     {
         id: "chalisgaon",
-        slug: "urbania-tempo-traveller-fare-in-chalisgaon",
+        slug: "urbania-tempo-traveller-in-chalisgaon",
         name: "Chalisgaon",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4413,7 +4413,7 @@ const CITY_HUBS = [
     },
     {
         id: "chandrapur",
-        slug: "urbania-tempo-traveller-fare-in-chandrapur",
+        slug: "urbania-tempo-traveller-in-chandrapur",
         name: "Chandrapur",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -4421,7 +4421,7 @@ const CITY_HUBS = [
     },
     {
         id: "chiplun",
-        slug: "urbania-tempo-traveller-fare-in-chiplun",
+        slug: "urbania-tempo-traveller-in-chiplun",
         name: "Chiplun",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4429,7 +4429,7 @@ const CITY_HUBS = [
     },
     {
         id: "dahod",
-        slug: "urbania-tempo-traveller-fare-in-dahod",
+        slug: "urbania-tempo-traveller-in-dahod",
         name: "Dahod",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4437,7 +4437,7 @@ const CITY_HUBS = [
     },
     {
         id: "daund",
-        slug: "urbania-tempo-traveller-fare-in-daund",
+        slug: "urbania-tempo-traveller-in-daund",
         name: "Daund",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4445,7 +4445,7 @@ const CITY_HUBS = [
     },
     {
         id: "dharmapuri",
-        slug: "urbania-tempo-traveller-fare-in-dharmapuri",
+        slug: "urbania-tempo-traveller-in-dharmapuri",
         name: "Dharmapuri",
         state: "Tamil Nadu",
         tag: "Tamil Nadu Travel Hub",
@@ -4453,7 +4453,7 @@ const CITY_HUBS = [
     },
     {
         id: "eluru",
-        slug: "urbania-tempo-traveller-fare-in-eluru",
+        slug: "urbania-tempo-traveller-in-eluru",
         name: "Eluru",
         state: "Andhra Pradesh",
         tag: "Andhra Pradesh Travel Hub",
@@ -4461,7 +4461,7 @@ const CITY_HUBS = [
     },
     {
         id: "firozabad",
-        slug: "urbania-tempo-traveller-fare-in-firozabad",
+        slug: "urbania-tempo-traveller-in-firozabad",
         name: "Firozabad",
         state: "Uttar Pradesh",
         tag: "Uttar Pradesh Travel Hub",
@@ -4469,7 +4469,7 @@ const CITY_HUBS = [
     },
     {
         id: "gadhinglaj",
-        slug: "urbania-tempo-traveller-fare-in-gadhinglaj",
+        slug: "urbania-tempo-traveller-in-gadhinglaj",
         name: "Gadhinglaj",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4477,7 +4477,7 @@ const CITY_HUBS = [
     },
     {
         id: "gadwal",
-        slug: "urbania-tempo-traveller-fare-in-gadwal",
+        slug: "urbania-tempo-traveller-in-gadwal",
         name: "Gadwal",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4485,7 +4485,7 @@ const CITY_HUBS = [
     },
     {
         id: "gandhidham",
-        slug: "urbania-tempo-traveller-fare-in-gandhidham",
+        slug: "urbania-tempo-traveller-in-gandhidham",
         name: "Gandhidham",
         state: "Gujarat",
         tag: "Kutch Travel Hub",
@@ -4493,7 +4493,7 @@ const CITY_HUBS = [
     },
     {
         id: "gaya",
-        slug: "urbania-tempo-traveller-fare-in-gaya",
+        slug: "urbania-tempo-traveller-in-gaya",
         name: "Gaya",
         state: "Bihar",
         tag: "Pilgrimage Travel Hub",
@@ -4501,7 +4501,7 @@ const CITY_HUBS = [
     },
     {
         id: "gondia",
-        slug: "urbania-tempo-traveller-fare-in-gondia",
+        slug: "urbania-tempo-traveller-in-gondia",
         name: "Gondia",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -4509,7 +4509,7 @@ const CITY_HUBS = [
     },
     {
         id: "hajipur",
-        slug: "urbania-tempo-traveller-fare-in-hajipur",
+        slug: "urbania-tempo-traveller-in-hajipur",
         name: "Hajipur",
         state: "Bihar",
         tag: "Bihar Travel Hub",
@@ -4517,7 +4517,7 @@ const CITY_HUBS = [
     },
     {
         id: "hingoli",
-        slug: "urbania-tempo-traveller-fare-in-hingoli",
+        slug: "urbania-tempo-traveller-in-hingoli",
         name: "Hingoli",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4525,7 +4525,7 @@ const CITY_HUBS = [
     },
     {
         id: "hoshangabad",
-        slug: "urbania-tempo-traveller-fare-in-hoshangabad",
+        slug: "urbania-tempo-traveller-in-hoshangabad",
         name: "Hoshangabad",
         state: "Madhya Pradesh",
         tag: "Central India Travel Hub",
@@ -4533,7 +4533,7 @@ const CITY_HUBS = [
     },
     {
         id: "hosur",
-        slug: "urbania-tempo-traveller-fare-in-hosur",
+        slug: "urbania-tempo-traveller-in-hosur",
         name: "Hosur",
         state: "Tamil Nadu",
         tag: "Tamil Nadu Travel Hub",
@@ -4541,7 +4541,7 @@ const CITY_HUBS = [
     },
     {
         id: "ichalkaranji",
-        slug: "urbania-tempo-traveller-fare-in-ichalkaranji",
+        slug: "urbania-tempo-traveller-in-ichalkaranji",
         name: "Ichalkaranji",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4549,7 +4549,7 @@ const CITY_HUBS = [
     },
     {
         id: "indapur",
-        slug: "urbania-tempo-traveller-fare-in-indapur",
+        slug: "urbania-tempo-traveller-in-indapur",
         name: "Indapur",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4557,7 +4557,7 @@ const CITY_HUBS = [
     },
     {
         id: "islampur",
-        slug: "urbania-tempo-traveller-fare-in-islampur",
+        slug: "urbania-tempo-traveller-in-islampur",
         name: "Islampur",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4565,7 +4565,7 @@ const CITY_HUBS = [
     },
     {
         id: "jalna",
-        slug: "urbania-tempo-traveller-fare-in-jalna",
+        slug: "urbania-tempo-traveller-in-jalna",
         name: "Jalna",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4573,7 +4573,7 @@ const CITY_HUBS = [
     },
     {
         id: "jharsuguda",
-        slug: "urbania-tempo-traveller-fare-in-jharsuguda",
+        slug: "urbania-tempo-traveller-in-jharsuguda",
         name: "Jharsuguda",
         state: "Odisha",
         tag: "Odisha Travel Hub",
@@ -4581,7 +4581,7 @@ const CITY_HUBS = [
     },
     {
         id: "junagadh",
-        slug: "urbania-tempo-traveller-fare-in-junagadh",
+        slug: "urbania-tempo-traveller-in-junagadh",
         name: "Junagadh",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4589,7 +4589,7 @@ const CITY_HUBS = [
     },
     {
         id: "kachchh",
-        slug: "urbania-tempo-traveller-fare-in-kachchh",
+        slug: "urbania-tempo-traveller-in-kachchh",
         name: "Kachchh",
         state: "Gujarat",
         tag: "Kutch Travel Hub",
@@ -4597,7 +4597,7 @@ const CITY_HUBS = [
     },
     {
         id: "kadi",
-        slug: "urbania-tempo-traveller-fare-in-kadi",
+        slug: "urbania-tempo-traveller-in-kadi",
         name: "Kadi",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4605,7 +4605,7 @@ const CITY_HUBS = [
     },
     {
         id: "kagal",
-        slug: "urbania-tempo-traveller-fare-in-kagal",
+        slug: "urbania-tempo-traveller-in-kagal",
         name: "Kagal",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4613,7 +4613,7 @@ const CITY_HUBS = [
     },
     {
         id: "kalol",
-        slug: "urbania-tempo-traveller-fare-in-kalol",
+        slug: "urbania-tempo-traveller-in-kalol",
         name: "Kalol",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4621,7 +4621,7 @@ const CITY_HUBS = [
     },
     {
         id: "kamareddy",
-        slug: "urbania-tempo-traveller-fare-in-kamareddy",
+        slug: "urbania-tempo-traveller-in-kamareddy",
         name: "Kamareddy",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4629,7 +4629,7 @@ const CITY_HUBS = [
     },
     {
         id: "karad",
-        slug: "urbania-tempo-traveller-fare-in-karad",
+        slug: "urbania-tempo-traveller-in-karad",
         name: "Karad",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4637,7 +4637,7 @@ const CITY_HUBS = [
     },
     {
         id: "karwar",
-        slug: "urbania-tempo-traveller-fare-in-karwar",
+        slug: "urbania-tempo-traveller-in-karwar",
         name: "Karwar",
         state: "Karnataka",
         tag: "Coastal Karnataka Hub",
@@ -4645,7 +4645,7 @@ const CITY_HUBS = [
     },
     {
         id: "khamgaon",
-        slug: "urbania-tempo-traveller-fare-in-khamgaon",
+        slug: "urbania-tempo-traveller-in-khamgaon",
         name: "Khamgaon",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4653,7 +4653,7 @@ const CITY_HUBS = [
     },
     {
         id: "khammam",
-        slug: "urbania-tempo-traveller-fare-in-khammam",
+        slug: "urbania-tempo-traveller-in-khammam",
         name: "Khammam",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4661,7 +4661,7 @@ const CITY_HUBS = [
     },
     {
         id: "kharar",
-        slug: "urbania-tempo-traveller-fare-in-kharar",
+        slug: "urbania-tempo-traveller-in-kharar",
         name: "Kharar",
         state: "Punjab",
         tag: "Tricity Travel Hub",
@@ -4669,7 +4669,7 @@ const CITY_HUBS = [
     },
     {
         id: "kopargaon",
-        slug: "urbania-tempo-traveller-fare-in-kopargaon",
+        slug: "urbania-tempo-traveller-in-kopargaon",
         name: "Kopargaon",
         state: "Maharashtra",
         tag: "Pilgrimage Travel Hub",
@@ -4677,7 +4677,7 @@ const CITY_HUBS = [
     },
     {
         id: "machilipatnam",
-        slug: "urbania-tempo-traveller-fare-in-machilipatnam",
+        slug: "urbania-tempo-traveller-in-machilipatnam",
         name: "Machilipatnam",
         state: "Andhra Pradesh",
         tag: "Coastal Andhra Hub",
@@ -4685,7 +4685,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahabubnagar",
-        slug: "urbania-tempo-traveller-fare-in-mahabubnagar",
+        slug: "urbania-tempo-traveller-in-mahabubnagar",
         name: "Mahabubnagar",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4693,7 +4693,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahad",
-        slug: "urbania-tempo-traveller-fare-in-mahad",
+        slug: "urbania-tempo-traveller-in-mahad",
         name: "Mahad",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4701,7 +4701,7 @@ const CITY_HUBS = [
     },
     {
         id: "malvan",
-        slug: "urbania-tempo-traveller-fare-in-malvan",
+        slug: "urbania-tempo-traveller-in-malvan",
         name: "Malvan",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4709,7 +4709,7 @@ const CITY_HUBS = [
     },
     {
         id: "mehsana",
-        slug: "urbania-tempo-traveller-fare-in-mehsana",
+        slug: "urbania-tempo-traveller-in-mehsana",
         name: "Mehsana",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4717,7 +4717,7 @@ const CITY_HUBS = [
     },
     {
         id: "modasa",
-        slug: "urbania-tempo-traveller-fare-in-modasa",
+        slug: "urbania-tempo-traveller-in-modasa",
         name: "Modasa",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4725,7 +4725,7 @@ const CITY_HUBS = [
     },
     {
         id: "nadiad",
-        slug: "urbania-tempo-traveller-fare-in-nadiad",
+        slug: "urbania-tempo-traveller-in-nadiad",
         name: "Nadiad",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4733,7 +4733,7 @@ const CITY_HUBS = [
     },
     {
         id: "nalgonda",
-        slug: "urbania-tempo-traveller-fare-in-nalgonda",
+        slug: "urbania-tempo-traveller-in-nalgonda",
         name: "Nalgonda",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4741,7 +4741,7 @@ const CITY_HUBS = [
     },
     {
         id: "nandyal",
-        slug: "urbania-tempo-traveller-fare-in-nandyal",
+        slug: "urbania-tempo-traveller-in-nandyal",
         name: "Nandyal",
         state: "Andhra Pradesh",
         tag: "Andhra Pradesh Travel Hub",
@@ -4749,7 +4749,7 @@ const CITY_HUBS = [
     },
     {
         id: "narsipatnam",
-        slug: "urbania-tempo-traveller-fare-in-narsipatnam",
+        slug: "urbania-tempo-traveller-in-narsipatnam",
         name: "Narsipatnam",
         state: "Andhra Pradesh",
         tag: "Andhra Pradesh Travel Hub",
@@ -4757,7 +4757,7 @@ const CITY_HUBS = [
     },
     {
         id: "nilanga",
-        slug: "urbania-tempo-traveller-fare-in-nilanga",
+        slug: "urbania-tempo-traveller-in-nilanga",
         name: "Nilanga",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4765,7 +4765,7 @@ const CITY_HUBS = [
     },
     {
         id: "omerga",
-        slug: "urbania-tempo-traveller-fare-in-omerga",
+        slug: "urbania-tempo-traveller-in-omerga",
         name: "Omerga",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4773,7 +4773,7 @@ const CITY_HUBS = [
     },
     {
         id: "ongole",
-        slug: "urbania-tempo-traveller-fare-in-ongole",
+        slug: "urbania-tempo-traveller-in-ongole",
         name: "Ongole",
         state: "Andhra Pradesh",
         tag: "Andhra Pradesh Travel Hub",
@@ -4781,7 +4781,7 @@ const CITY_HUBS = [
     },
     {
         id: "osmanabad",
-        slug: "urbania-tempo-traveller-fare-in-osmanabad",
+        slug: "urbania-tempo-traveller-in-osmanabad",
         name: "Osmanabad",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4789,7 +4789,7 @@ const CITY_HUBS = [
     },
     {
         id: "ozar",
-        slug: "urbania-tempo-traveller-fare-in-ozar",
+        slug: "urbania-tempo-traveller-in-ozar",
         name: "Ozar",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4797,7 +4797,7 @@ const CITY_HUBS = [
     },
     {
         id: "pachora",
-        slug: "urbania-tempo-traveller-fare-in-pachora",
+        slug: "urbania-tempo-traveller-in-pachora",
         name: "Pachora",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4805,7 +4805,7 @@ const CITY_HUBS = [
     },
     {
         id: "palghar",
-        slug: "urbania-tempo-traveller-fare-in-palghar",
+        slug: "urbania-tempo-traveller-in-palghar",
         name: "Palghar",
         state: "Maharashtra",
         tag: "Mumbai Metropolitan Hub",
@@ -4813,7 +4813,7 @@ const CITY_HUBS = [
     },
     {
         id: "pandharpur",
-        slug: "urbania-tempo-traveller-fare-in-pandharpur",
+        slug: "urbania-tempo-traveller-in-pandharpur",
         name: "Pandharpur",
         state: "Maharashtra",
         tag: "Pilgrimage Travel Hub",
@@ -4821,7 +4821,7 @@ const CITY_HUBS = [
     },
     {
         id: "parbhani",
-        slug: "urbania-tempo-traveller-fare-in-parbhani",
+        slug: "urbania-tempo-traveller-in-parbhani",
         name: "Parbhani",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -4829,7 +4829,7 @@ const CITY_HUBS = [
     },
     {
         id: "phaltan",
-        slug: "urbania-tempo-traveller-fare-in-phaltan",
+        slug: "urbania-tempo-traveller-in-phaltan",
         name: "Phaltan",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4837,7 +4837,7 @@ const CITY_HUBS = [
     },
     {
         id: "pimpalgaon",
-        slug: "urbania-tempo-traveller-fare-in-pimpalgaon",
+        slug: "urbania-tempo-traveller-in-pimpalgaon",
         name: "Pimpalgaon",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4845,7 +4845,7 @@ const CITY_HUBS = [
     },
     {
         id: "raigad",
-        slug: "urbania-tempo-traveller-fare-in-raigad",
+        slug: "urbania-tempo-traveller-in-raigad",
         name: "Raigad",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4853,7 +4853,7 @@ const CITY_HUBS = [
     },
     {
         id: "raigarh",
-        slug: "urbania-tempo-traveller-fare-in-raigarh",
+        slug: "urbania-tempo-traveller-in-raigarh",
         name: "Raigarh",
         state: "Chhattisgarh",
         tag: "Chhattisgarh Travel Hub",
@@ -4861,7 +4861,7 @@ const CITY_HUBS = [
     },
     {
         id: "ratnagiri",
-        slug: "urbania-tempo-traveller-fare-in-ratnagiri",
+        slug: "urbania-tempo-traveller-in-ratnagiri",
         name: "Ratnagiri",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4869,7 +4869,7 @@ const CITY_HUBS = [
     },
     {
         id: "roorkee",
-        slug: "urbania-tempo-traveller-fare-in-roorkee",
+        slug: "urbania-tempo-traveller-in-roorkee",
         name: "Roorkee",
         state: "Uttarakhand",
         tag: "Uttarakhand Travel Hub",
@@ -4877,7 +4877,7 @@ const CITY_HUBS = [
     },
     {
         id: "rohtak",
-        slug: "urbania-tempo-traveller-fare-in-rohtak",
+        slug: "urbania-tempo-traveller-in-rohtak",
         name: "Rohtak",
         state: "Haryana",
         tag: "Haryana Travel Hub",
@@ -4885,7 +4885,7 @@ const CITY_HUBS = [
     },
     {
         id: "ropar",
-        slug: "urbania-tempo-traveller-fare-in-ropar",
+        slug: "urbania-tempo-traveller-in-ropar",
         name: "Ropar",
         state: "Punjab",
         tag: "Punjab Travel Hub",
@@ -4893,7 +4893,7 @@ const CITY_HUBS = [
     },
     {
         id: "sabarkantha",
-        slug: "urbania-tempo-traveller-fare-in-sabarkantha",
+        slug: "urbania-tempo-traveller-in-sabarkantha",
         name: "Sabarkantha",
         state: "Gujarat",
         tag: "Gujarat Travel Hub",
@@ -4901,7 +4901,7 @@ const CITY_HUBS = [
     },
     {
         id: "sakri",
-        slug: "urbania-tempo-traveller-fare-in-sakri",
+        slug: "urbania-tempo-traveller-in-sakri",
         name: "Sakri",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4909,7 +4909,7 @@ const CITY_HUBS = [
     },
     {
         id: "sangrur",
-        slug: "urbania-tempo-traveller-fare-in-sangrur",
+        slug: "urbania-tempo-traveller-in-sangrur",
         name: "Sangrur",
         state: "Punjab",
         tag: "Punjab Travel Hub",
@@ -4917,7 +4917,7 @@ const CITY_HUBS = [
     },
     {
         id: "sawantwadi",
-        slug: "urbania-tempo-traveller-fare-in-sawantwadi",
+        slug: "urbania-tempo-traveller-in-sawantwadi",
         name: "Sawantwadi",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4925,7 +4925,7 @@ const CITY_HUBS = [
     },
     {
         id: "shahada",
-        slug: "urbania-tempo-traveller-fare-in-shahada",
+        slug: "urbania-tempo-traveller-in-shahada",
         name: "Shahada",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4933,7 +4933,7 @@ const CITY_HUBS = [
     },
     {
         id: "shahapur",
-        slug: "urbania-tempo-traveller-fare-in-shahapur",
+        slug: "urbania-tempo-traveller-in-shahapur",
         name: "Shahapur",
         state: "Maharashtra",
         tag: "Mumbai Region Hub",
@@ -4941,7 +4941,7 @@ const CITY_HUBS = [
     },
     {
         id: "shirpur",
-        slug: "urbania-tempo-traveller-fare-in-shirpur",
+        slug: "urbania-tempo-traveller-in-shirpur",
         name: "Shirpur",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4949,7 +4949,7 @@ const CITY_HUBS = [
     },
     {
         id: "siddipet",
-        slug: "urbania-tempo-traveller-fare-in-siddipet",
+        slug: "urbania-tempo-traveller-in-siddipet",
         name: "Siddipet",
         state: "Telangana",
         tag: "Telangana Travel Hub",
@@ -4957,7 +4957,7 @@ const CITY_HUBS = [
     },
     {
         id: "sindhudurg",
-        slug: "urbania-tempo-traveller-fare-in-sindhudurg",
+        slug: "urbania-tempo-traveller-in-sindhudurg",
         name: "Sindhudurg",
         state: "Maharashtra",
         tag: "Konkan Travel Hub",
@@ -4965,7 +4965,7 @@ const CITY_HUBS = [
     },
     {
         id: "sinnar",
-        slug: "urbania-tempo-traveller-fare-in-sinnar",
+        slug: "urbania-tempo-traveller-in-sinnar",
         name: "Sinnar",
         state: "Maharashtra",
         tag: "Maharashtra Travel Hub",
@@ -4973,7 +4973,7 @@ const CITY_HUBS = [
     },
     {
         id: "srikakulam",
-        slug: "urbania-tempo-traveller-fare-in-srikakulam",
+        slug: "urbania-tempo-traveller-in-srikakulam",
         name: "Srikakulam",
         state: "Andhra Pradesh",
         tag: "Coastal Andhra Hub",
@@ -4981,7 +4981,7 @@ const CITY_HUBS = [
     },
     {
         id: "tirunelveli",
-        slug: "urbania-tempo-traveller-fare-in-tirunelveli",
+        slug: "urbania-tempo-traveller-in-tirunelveli",
         name: "Tirunelveli",
         state: "Tamil Nadu",
         tag: "Tamil Nadu Travel Hub",
@@ -4989,7 +4989,7 @@ const CITY_HUBS = [
     },
     {
         id: "tuni",
-        slug: "urbania-tempo-traveller-fare-in-tuni",
+        slug: "urbania-tempo-traveller-in-tuni",
         name: "Tuni",
         state: "Andhra Pradesh",
         tag: "Coastal Andhra Hub",
@@ -4997,7 +4997,7 @@ const CITY_HUBS = [
     },
     {
         id: "udgir",
-        slug: "urbania-tempo-traveller-fare-in-udgir",
+        slug: "urbania-tempo-traveller-in-udgir",
         name: "Udgir",
         state: "Maharashtra",
         tag: "Marathwada Travel Hub",
@@ -5005,7 +5005,7 @@ const CITY_HUBS = [
     },
     {
         id: "unjha",
-        slug: "urbania-tempo-traveller-fare-in-unjha",
+        slug: "urbania-tempo-traveller-in-unjha",
         name: "Unjha",
         state: "Gujarat",
         tag: "North Gujarat Hub",
@@ -5013,7 +5013,7 @@ const CITY_HUBS = [
     },
     {
         id: "uran",
-        slug: "urbania-tempo-traveller-fare-in-uran",
+        slug: "urbania-tempo-traveller-in-uran",
         name: "Uran",
         state: "Maharashtra",
         tag: "Mumbai Region Hub",
@@ -5021,7 +5021,7 @@ const CITY_HUBS = [
     },
     {
         id: "valsad",
-        slug: "urbania-tempo-traveller-fare-in-valsad",
+        slug: "urbania-tempo-traveller-in-valsad",
         name: "Valsad",
         state: "Gujarat",
         tag: "South Gujarat Hub",
@@ -5029,7 +5029,7 @@ const CITY_HUBS = [
     },
     {
         id: "vijayapura",
-        slug: "urbania-tempo-traveller-fare-in-vijayapura",
+        slug: "urbania-tempo-traveller-in-vijayapura",
         name: "Vijayapura",
         state: "Karnataka",
         tag: "Karnataka Travel Hub",
@@ -5037,7 +5037,7 @@ const CITY_HUBS = [
     },
     {
         id: "visnagar",
-        slug: "urbania-tempo-traveller-fare-in-visnagar",
+        slug: "urbania-tempo-traveller-in-visnagar",
         name: "Visnagar",
         state: "Gujarat",
         tag: "North Gujarat Hub",
@@ -5045,7 +5045,7 @@ const CITY_HUBS = [
     },
     {
         id: "vizianagaram",
-        slug: "urbania-tempo-traveller-fare-in-vizianagaram",
+        slug: "urbania-tempo-traveller-in-vizianagaram",
         name: "Vizianagaram",
         state: "Andhra Pradesh",
         tag: "Coastal Andhra Hub",
@@ -5053,7 +5053,7 @@ const CITY_HUBS = [
     },
     {
         id: "vyara",
-        slug: "urbania-tempo-traveller-fare-in-vyara",
+        slug: "urbania-tempo-traveller-in-vyara",
         name: "Vyara",
         state: "Gujarat",
         tag: "South Gujarat Hub",
@@ -5061,7 +5061,7 @@ const CITY_HUBS = [
     },
     {
         id: "wani",
-        slug: "urbania-tempo-traveller-fare-in-wani",
+        slug: "urbania-tempo-traveller-in-wani",
         name: "Wani",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -5069,7 +5069,7 @@ const CITY_HUBS = [
     },
     {
         id: "washim",
-        slug: "urbania-tempo-traveller-fare-in-washim",
+        slug: "urbania-tempo-traveller-in-washim",
         name: "Washim",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -5077,7 +5077,7 @@ const CITY_HUBS = [
     },
     {
         id: "yavatmal",
-        slug: "urbania-tempo-traveller-fare-in-yavatmal",
+        slug: "urbania-tempo-traveller-in-yavatmal",
         name: "Yavatmal",
         state: "Maharashtra",
         tag: "Vidarbha Travel Hub",
@@ -5085,7 +5085,7 @@ const CITY_HUBS = [
     },
     {
         id: "zirakpur",
-        slug: "urbania-tempo-traveller-fare-in-zirakpur",
+        slug: "urbania-tempo-traveller-in-zirakpur",
         name: "Zirakpur",
         state: "Punjab",
         tag: "Tricity Travel Hub",
@@ -5094,7 +5094,7 @@ const CITY_HUBS = [
     // -----15 September Routes-----
     {
         id: "bhuj",
-        slug: "urbania-tempo-traveller-fare-in-bhuj",
+        slug: "urbania-tempo-traveller-in-bhuj",
         name: "Bhuj",
         state: "Gujarat",
         tag: "Kutch Travel Hub",
@@ -5102,7 +5102,7 @@ const CITY_HUBS = [
     },
     {
         id: "botad",
-        slug: "urbania-tempo-traveller-fare-in-botad",
+        slug: "urbania-tempo-traveller-in-botad",
         name: "Botad",
         state: "Gujarat",
         tag: "Saurashtra Travel Hub",
@@ -5110,7 +5110,7 @@ const CITY_HUBS = [
     },
     {
         id: "dabhoi",
-        slug: "urbania-tempo-traveller-fare-in-dabhoi",
+        slug: "urbania-tempo-traveller-in-dabhoi",
         name: "Dabhoi",
         state: "Gujarat",
         tag: "Central Gujarat Travel Hub",
@@ -5118,7 +5118,7 @@ const CITY_HUBS = [
     },
     {
         id: "daman",
-        slug: "urbania-tempo-traveller-fare-in-daman",
+        slug: "urbania-tempo-traveller-in-daman",
         name: "Daman",
         state: "Daman and Diu",
         tag: "Coastal Travel Hub",
@@ -5126,7 +5126,7 @@ const CITY_HUBS = [
     },
     {
         id: "dwarka",
-        slug: "urbania-tempo-traveller-fare-in-dwarka",
+        slug: "urbania-tempo-traveller-in-dwarka",
         name: "Dwarka",
         state: "Gujarat",
         tag: "Pilgrimage Travel Hub",
@@ -5134,7 +5134,7 @@ const CITY_HUBS = [
     },
     {
         id: "godhra",
-        slug: "urbania-tempo-traveller-fare-in-godhra",
+        slug: "urbania-tempo-traveller-in-godhra",
         name: "Godhra",
         state: "Gujarat",
         tag: "Central Gujarat Travel Hub",
@@ -5142,7 +5142,7 @@ const CITY_HUBS = [
     },
     {
         id: "himmatnagar",
-        slug: "urbania-tempo-traveller-fare-in-himmatnagar",
+        slug: "urbania-tempo-traveller-in-himmatnagar",
         name: "Himmatnagar",
         state: "Gujarat",
         tag: "North Gujarat Travel Hub",
@@ -5150,7 +5150,7 @@ const CITY_HUBS = [
     },
     {
         id: "idar",
-        slug: "urbania-tempo-traveller-fare-in-idar",
+        slug: "urbania-tempo-traveller-in-idar",
         name: "Idar",
         state: "Gujarat",
         tag: "Sabarkantha Travel Hub",
@@ -5158,7 +5158,7 @@ const CITY_HUBS = [
     },
     {
         id: "jamnagar",
-        slug: "urbania-tempo-traveller-fare-in-jamnagar",
+        slug: "urbania-tempo-traveller-in-jamnagar",
         name: "Jamnagar",
         state: "Gujarat",
         tag: "Saurashtra Travel Hub",
@@ -5166,7 +5166,7 @@ const CITY_HUBS = [
     },
     {
         id: "kapadvanj",
-        slug: "urbania-tempo-traveller-fare-in-kapadvanj",
+        slug: "urbania-tempo-traveller-in-kapadvanj",
         name: "Kapadvanj",
         state: "Gujarat",
         tag: "Kheda Travel Hub",
@@ -5174,7 +5174,7 @@ const CITY_HUBS = [
     },
     {
         id: "karjan",
-        slug: "urbania-tempo-traveller-fare-in-karjan",
+        slug: "urbania-tempo-traveller-in-karjan",
         name: "Karjan",
         state: "Gujarat",
         tag: "Vadodara Travel Hub",
@@ -5182,7 +5182,7 @@ const CITY_HUBS = [
     },
     {
         id: "khambhat",
-        slug: "urbania-tempo-traveller-fare-in-khambhat",
+        slug: "urbania-tempo-traveller-in-khambhat",
         name: "Khambhat",
         state: "Gujarat",
         tag: "Anand Travel Hub",
@@ -5190,7 +5190,7 @@ const CITY_HUBS = [
     },
     {
         id: "kheda",
-        slug: "urbania-tempo-traveller-fare-in-kheda",
+        slug: "urbania-tempo-traveller-in-kheda",
         name: "Kheda",
         state: "Gujarat",
         tag: "Central Gujarat Travel Hub",
@@ -5198,7 +5198,7 @@ const CITY_HUBS = [
     },
     {
         id: "kodinar",
-        slug: "urbania-tempo-traveller-fare-in-kodinar",
+        slug: "urbania-tempo-traveller-in-kodinar",
         name: "Kodinar",
         state: "Gujarat",
         tag: "Saurashtra Coastal Hub",
@@ -5206,7 +5206,7 @@ const CITY_HUBS = [
     },
     {
         id: "lathi",
-        slug: "urbania-tempo-traveller-fare-in-lathi",
+        slug: "urbania-tempo-traveller-in-lathi",
         name: "Lathi",
         state: "Gujarat",
         tag: "Saurashtra Travel Hub",
@@ -5214,7 +5214,7 @@ const CITY_HUBS = [
     },
     {
         id: "limbdi",
-        slug: "urbania-tempo-traveller-fare-in-limbdi",
+        slug: "urbania-tempo-traveller-in-limbdi",
         name: "Limbdi",
         state: "Gujarat",
         tag: "Surendranagar Travel Hub",
@@ -5222,7 +5222,7 @@ const CITY_HUBS = [
     },
     {
         id: "lunawada",
-        slug: "urbania-tempo-traveller-fare-in-lunawada",
+        slug: "urbania-tempo-traveller-in-lunawada",
         name: "Lunawada",
         state: "Gujarat",
         tag: "Mahisagar Travel Hub",
@@ -5230,7 +5230,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahuva",
-        slug: "urbania-tempo-traveller-fare-in-mahuva",
+        slug: "urbania-tempo-traveller-in-mahuva",
         name: "Mahuva",
         state: "Gujarat",
         tag: "Saurashtra Coastal Hub",
@@ -5238,7 +5238,7 @@ const CITY_HUBS = [
     },
     {
         id: "mandvi",
-        slug: "urbania-tempo-traveller-fare-in-mandvi",
+        slug: "urbania-tempo-traveller-in-mandvi",
         name: "Mandvi",
         state: "Gujarat",
         tag: "Kutch Coastal Travel Hub",
@@ -5246,7 +5246,7 @@ const CITY_HUBS = [
     },
     {
         id: "mangrol",
-        slug: "urbania-tempo-traveller-fare-in-mangrol",
+        slug: "urbania-tempo-traveller-in-mangrol",
         name: "Mangrol",
         state: "Gujarat",
         tag: "Saurashtra Coastal Hub",
@@ -5254,7 +5254,7 @@ const CITY_HUBS = [
     },
     {
         id: "meghraj",
-        slug: "urbania-tempo-traveller-fare-in-meghraj",
+        slug: "urbania-tempo-traveller-in-meghraj",
         name: "Meghraj",
         state: "Gujarat",
         tag: "Aravalli Travel Hub",
@@ -5262,7 +5262,7 @@ const CITY_HUBS = [
     },
     {
         id: "morbi",
-        slug: "urbania-tempo-traveller-fare-in-morbi",
+        slug: "urbania-tempo-traveller-in-morbi",
         name: "Morbi",
         state: "Gujarat",
         tag: "Saurashtra Industrial Hub",
@@ -5270,7 +5270,7 @@ const CITY_HUBS = [
     },
     {
         id: "mundra",
-        slug: "urbania-tempo-traveller-fare-in-mundra",
+        slug: "urbania-tempo-traveller-in-mundra",
         name: "Mundra",
         state: "Gujarat",
         tag: "Kutch Industrial Hub",
@@ -5278,7 +5278,7 @@ const CITY_HUBS = [
     },
     {
         id: "padra",
-        slug: "urbania-tempo-traveller-fare-in-padra",
+        slug: "urbania-tempo-traveller-in-padra",
         name: "Padra",
         state: "Gujarat",
         tag: "Vadodara Travel Hub",
@@ -5286,7 +5286,7 @@ const CITY_HUBS = [
     },
     {
         id: "palanpur",
-        slug: "urbania-tempo-traveller-fare-in-palanpur",
+        slug: "urbania-tempo-traveller-in-palanpur",
         name: "Palanpur",
         state: "Gujarat",
         tag: "North Gujarat Travel Hub",
@@ -5294,7 +5294,7 @@ const CITY_HUBS = [
     },
     {
         id: "patan",
-        slug: "urbania-tempo-traveller-fare-in-patan",
+        slug: "urbania-tempo-traveller-in-patan",
         name: "Patan",
         state: "Gujarat",
         tag: "Heritage Travel Hub",
@@ -5302,7 +5302,7 @@ const CITY_HUBS = [
     },
     {
         id: "porbandar",
-        slug: "urbania-tempo-traveller-fare-in-porbandar",
+        slug: "urbania-tempo-traveller-in-porbandar",
         name: "Porbandar",
         state: "Gujarat",
         tag: "Coastal Saurashtra Hub",
@@ -5310,7 +5310,7 @@ const CITY_HUBS = [
     },
     {
         id: "radhanpur",
-        slug: "urbania-tempo-traveller-fare-in-radhanpur",
+        slug: "urbania-tempo-traveller-in-radhanpur",
         name: "Radhanpur",
         state: "Gujarat",
         tag: "North Gujarat Travel Hub",
@@ -5318,7 +5318,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajpipla",
-        slug: "urbania-tempo-traveller-fare-in-rajpipla",
+        slug: "urbania-tempo-traveller-in-rajpipla",
         name: "Rajpipla",
         state: "Gujarat",
         tag: "Narmada Tourism Hub",
@@ -5326,7 +5326,7 @@ const CITY_HUBS = [
     },
     {
         id: "salaya",
-        slug: "urbania-tempo-traveller-fare-in-salaya",
+        slug: "urbania-tempo-traveller-in-salaya",
         name: "Salaya",
         state: "Gujarat",
         tag: "Devbhoomi Dwarka Travel Hub",
@@ -5334,7 +5334,7 @@ const CITY_HUBS = [
     },
     {
         id: "sanand",
-        slug: "urbania-tempo-traveller-fare-in-sanand",
+        slug: "urbania-tempo-traveller-in-sanand",
         name: "Sanand",
         state: "Gujarat",
         tag: "Ahmedabad Travel Hub",
@@ -5342,7 +5342,7 @@ const CITY_HUBS = [
     },
     {
         id: "savli",
-        slug: "urbania-tempo-traveller-fare-in-savli",
+        slug: "urbania-tempo-traveller-in-savli",
         name: "Savli",
         state: "Gujarat",
         tag: "Vadodara Industrial Hub",
@@ -5350,7 +5350,7 @@ const CITY_HUBS = [
     },
     {
         id: "sidhpur",
-        slug: "urbania-tempo-traveller-fare-in-sidhpur",
+        slug: "urbania-tempo-traveller-in-sidhpur",
         name: "Sidhpur",
         state: "Gujarat",
         tag: "North Gujarat Heritage Hub",
@@ -5358,7 +5358,7 @@ const CITY_HUBS = [
     },
     {
         id: "somnath",
-        slug: "urbania-tempo-traveller-fare-in-somnath",
+        slug: "urbania-tempo-traveller-in-somnath",
         name: "Somnath",
         state: "Gujarat",
         tag: "Pilgrimage Tourism Hub",
@@ -5366,7 +5366,7 @@ const CITY_HUBS = [
     },
     {
         id: "thangadh",
-        slug: "urbania-tempo-traveller-fare-in-thangadh",
+        slug: "urbania-tempo-traveller-in-thangadh",
         name: "Thangadh",
         state: "Gujarat",
         tag: "Surendranagar Travel Hub",
@@ -5374,7 +5374,7 @@ const CITY_HUBS = [
     },
     {
         id: "umbergaon",
-        slug: "urbania-tempo-traveller-fare-in-umbergaon",
+        slug: "urbania-tempo-traveller-in-umbergaon",
         name: "Umbergaon",
         state: "Gujarat",
         tag: "South Gujarat Coastal Hub",
@@ -5382,7 +5382,7 @@ const CITY_HUBS = [
     },
     {
         id: "vadnagar",
-        slug: "urbania-tempo-traveller-fare-in-vadnagar",
+        slug: "urbania-tempo-traveller-in-vadnagar",
         name: "Vadnagar",
         state: "Gujarat",
         tag: "Heritage Tourism Hub",
@@ -5390,7 +5390,7 @@ const CITY_HUBS = [
     },
     {
         id: "valod",
-        slug: "urbania-tempo-traveller-fare-in-valod",
+        slug: "urbania-tempo-traveller-in-valod",
         name: "Valod",
         state: "Gujarat",
         tag: "Tapi Travel Hub",
@@ -5398,7 +5398,7 @@ const CITY_HUBS = [
     },
     {
         id: "vapi",
-        slug: "urbania-tempo-traveller-fare-in-vapi",
+        slug: "urbania-tempo-traveller-in-vapi",
         name: "Vapi",
         state: "Gujarat",
         tag: "South Gujarat Industrial Hub",
@@ -5406,7 +5406,7 @@ const CITY_HUBS = [
     },
     {
         id: "veraval",
-        slug: "urbania-tempo-traveller-fare-in-veraval",
+        slug: "urbania-tempo-traveller-in-veraval",
         name: "Veraval",
         state: "Gujarat",
         tag: "Somnath Coastal Hub",
@@ -5414,7 +5414,7 @@ const CITY_HUBS = [
     },
     {
         id: "vijapur",
-        slug: "urbania-tempo-traveller-fare-in-vijapur",
+        slug: "urbania-tempo-traveller-in-vijapur",
         name: "Vijapur",
         state: "Gujarat",
         tag: "North Gujarat Travel Hub",
@@ -5422,7 +5422,7 @@ const CITY_HUBS = [
     },
     {
         id: "margao",
-        slug: "urbania-tempo-traveller-fare-in-margao",
+        slug: "urbania-tempo-traveller-in-margao",
         name: "Margao",
         state: "Goa",
         tag: "South Goa Travel Hub",
@@ -5430,7 +5430,7 @@ const CITY_HUBS = [
     },
     {
         id: "vasco-da-gama",
-        slug: "urbania-tempo-traveller-fare-in-vasco-da-gama",
+        slug: "urbania-tempo-traveller-in-vasco-da-gama",
         name: "Vasco da Gama",
         state: "Goa",
         tag: "Airport Travel Hub",
@@ -5438,7 +5438,7 @@ const CITY_HUBS = [
     },
     {
         id: "mapusa",
-        slug: "urbania-tempo-traveller-fare-in-mapusa",
+        slug: "urbania-tempo-traveller-in-mapusa",
         name: "Mapusa",
         state: "Goa",
         tag: "North Goa Travel Hub",
@@ -5446,7 +5446,7 @@ const CITY_HUBS = [
     },
     {
         id: "ponda",
-        slug: "urbania-tempo-traveller-fare-in-ponda",
+        slug: "urbania-tempo-traveller-in-ponda",
         name: "Ponda",
         state: "Goa",
         tag: "Central Goa Travel Hub",
@@ -5454,7 +5454,7 @@ const CITY_HUBS = [
     },
     {
         id: "bicholim",
-        slug: "urbania-tempo-traveller-fare-in-bicholim",
+        slug: "urbania-tempo-traveller-in-bicholim",
         name: "Bicholim",
         state: "Goa",
         tag: "North Goa Travel Hub",
@@ -5462,7 +5462,7 @@ const CITY_HUBS = [
     },
     {
         id: "curchorem",
-        slug: "urbania-tempo-traveller-fare-in-curchorem",
+        slug: "urbania-tempo-traveller-in-curchorem",
         name: "Curchorem",
         state: "Goa",
         tag: "South Goa Travel Hub",
@@ -5470,7 +5470,7 @@ const CITY_HUBS = [
     },
     {
         id: "sanquelim",
-        slug: "urbania-tempo-traveller-fare-in-sanquelim",
+        slug: "urbania-tempo-traveller-in-sanquelim",
         name: "Sanquelim",
         state: "Goa",
         tag: "North Goa Travel Hub",
@@ -5478,7 +5478,7 @@ const CITY_HUBS = [
     },
     {
         id: "valpoi",
-        slug: "urbania-tempo-traveller-fare-in-valpoi",
+        slug: "urbania-tempo-traveller-in-valpoi",
         name: "Valpoi",
         state: "Goa",
         tag: "Sattari Travel Hub",
@@ -5486,7 +5486,7 @@ const CITY_HUBS = [
     },
     {
         id: "quepem",
-        slug: "urbania-tempo-traveller-fare-in-quepem",
+        slug: "urbania-tempo-traveller-in-quepem",
         name: "Quepem",
         state: "Goa",
         tag: "South Goa Travel Hub",
@@ -5494,7 +5494,7 @@ const CITY_HUBS = [
     },
     {
         id: "canacona",
-        slug: "urbania-tempo-traveller-fare-in-canacona",
+        slug: "urbania-tempo-traveller-in-canacona",
         name: "Canacona",
         state: "Goa",
         tag: "South Goa Beach Hub",
@@ -5502,7 +5502,7 @@ const CITY_HUBS = [
     },
     {
         id: "pernem",
-        slug: "urbania-tempo-traveller-fare-in-pernem",
+        slug: "urbania-tempo-traveller-in-pernem",
         name: "Pernem",
         state: "Goa",
         tag: "North Goa Travel Hub",
@@ -5510,7 +5510,7 @@ const CITY_HUBS = [
     },
     {
         id: "sattari",
-        slug: "urbania-tempo-traveller-fare-in-sattari",
+        slug: "urbania-tempo-traveller-in-sattari",
         name: "Sattari",
         state: "Goa",
         tag: "Nature Travel Hub",
@@ -5518,7 +5518,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiswadi",
-        slug: "urbania-tempo-traveller-fare-in-tiswadi",
+        slug: "urbania-tempo-traveller-in-tiswadi",
         name: "Tiswadi",
         state: "Goa",
         tag: "Panaji Travel Hub",
@@ -5526,7 +5526,7 @@ const CITY_HUBS = [
     },
     {
         id: "mormugao",
-        slug: "urbania-tempo-traveller-fare-in-mormugao",
+        slug: "urbania-tempo-traveller-in-mormugao",
         name: "Mormugao",
         state: "Goa",
         tag: "Port & Coastal Travel Hub",
@@ -5534,7 +5534,7 @@ const CITY_HUBS = [
     },
     {
         id: "dharbandora",
-        slug: "urbania-tempo-traveller-fare-in-dharbandora",
+        slug: "urbania-tempo-traveller-in-dharbandora",
         name: "Dharbandora",
         state: "Goa",
         tag: "Central Goa Travel Hub",
@@ -5542,7 +5542,7 @@ const CITY_HUBS = [
     },
     {
         id: "silvassa",
-        slug: "urbania-tempo-traveller-fare-in-silvassa",
+        slug: "urbania-tempo-traveller-in-silvassa",
         name: "Silvassa",
         state: "Dadra and Nagar Haveli and Daman and Diu",
         tag: "Union Territory Travel Hub",
@@ -5550,7 +5550,7 @@ const CITY_HUBS = [
     },
     {
         id: "diu",
-        slug: "urbania-tempo-traveller-fare-in-diu",
+        slug: "urbania-tempo-traveller-in-diu",
         name: "Diu",
         state: "Dadra and Nagar Haveli and Daman and Diu",
         tag: "Coastal Tourism Hub",
@@ -5558,7 +5558,7 @@ const CITY_HUBS = [
     },
     {
         id: "bagalkot",
-        slug: "urbania-tempo-traveller-fare-in-bagalkot",
+        slug: "urbania-tempo-traveller-in-bagalkot",
         name: "Bagalkot",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -5566,7 +5566,7 @@ const CITY_HUBS = [
     },
     {
         id: "belagavi",
-        slug: "urbania-tempo-traveller-fare-in-belagavi",
+        slug: "urbania-tempo-traveller-in-belagavi",
         name: "Belagavi",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -5574,7 +5574,7 @@ const CITY_HUBS = [
     },
     {
         id: "chikkamagaluru",
-        slug: "urbania-tempo-traveller-fare-in-chikkamagaluru",
+        slug: "urbania-tempo-traveller-in-chikkamagaluru",
         name: "Chikkamagaluru",
         state: "Karnataka",
         tag: "Hill Station Travel Hub",
@@ -5582,7 +5582,7 @@ const CITY_HUBS = [
     },
     {
         id: "chitradurga",
-        slug: "urbania-tempo-traveller-fare-in-chitradurga",
+        slug: "urbania-tempo-traveller-in-chitradurga",
         name: "Chitradurga",
         state: "Karnataka",
         tag: "Central Karnataka Travel Hub",
@@ -5590,7 +5590,7 @@ const CITY_HUBS = [
     },
     {
         id: "davangere",
-        slug: "urbania-tempo-traveller-fare-in-davangere",
+        slug: "urbania-tempo-traveller-in-davangere",
         name: "Davangere",
         state: "Karnataka",
         tag: "Central Karnataka Travel Hub",
@@ -5598,7 +5598,7 @@ const CITY_HUBS = [
     },
     {
         id: "gadag",
-        slug: "urbania-tempo-traveller-fare-in-gadag",
+        slug: "urbania-tempo-traveller-in-gadag",
         name: "Gadag",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -5606,7 +5606,7 @@ const CITY_HUBS = [
     },
     {
         id: "hassan",
-        slug: "urbania-tempo-traveller-fare-in-hassan",
+        slug: "urbania-tempo-traveller-in-hassan",
         name: "Hassan",
         state: "Karnataka",
         tag: "Heritage Travel Hub",
@@ -5614,7 +5614,7 @@ const CITY_HUBS = [
     },
     {
         id: "haveri",
-        slug: "urbania-tempo-traveller-fare-in-haveri",
+        slug: "urbania-tempo-traveller-in-haveri",
         name: "Haveri",
         state: "Karnataka",
         tag: "Central Karnataka Travel Hub",
@@ -5622,7 +5622,7 @@ const CITY_HUBS = [
     },
     {
         id: "kodagu",
-        slug: "urbania-tempo-traveller-fare-in-kodagu",
+        slug: "urbania-tempo-traveller-in-kodagu",
         name: "Kodagu",
         state: "Karnataka",
         tag: "Coorg Tourism Hub",
@@ -5630,7 +5630,7 @@ const CITY_HUBS = [
     },
     {
         id: "kolar",
-        slug: "urbania-tempo-traveller-fare-in-kolar",
+        slug: "urbania-tempo-traveller-in-kolar",
         name: "Kolar",
         state: "Karnataka",
         tag: "Bengaluru Region Travel Hub",
@@ -5638,7 +5638,7 @@ const CITY_HUBS = [
     },
     {
         id: "mandya",
-        slug: "urbania-tempo-traveller-fare-in-mandya",
+        slug: "urbania-tempo-traveller-in-mandya",
         name: "Mandya",
         state: "Karnataka",
         tag: "Mysuru Region Travel Hub",
@@ -5646,7 +5646,7 @@ const CITY_HUBS = [
     },
     {
         id: "raichur",
-        slug: "urbania-tempo-traveller-fare-in-raichur",
+        slug: "urbania-tempo-traveller-in-raichur",
         name: "Raichur",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -5654,7 +5654,7 @@ const CITY_HUBS = [
     },
     {
         id: "shivamogga",
-        slug: "urbania-tempo-traveller-fare-in-shivamogga",
+        slug: "urbania-tempo-traveller-in-shivamogga",
         name: "Shivamogga",
         state: "Karnataka",
         tag: "Malnad Travel Hub",
@@ -5662,7 +5662,7 @@ const CITY_HUBS = [
     },
     {
         id: "udupi",
-        slug: "urbania-tempo-traveller-fare-in-udupi",
+        slug: "urbania-tempo-traveller-in-udupi",
         name: "Udupi",
         state: "Karnataka",
         tag: "Coastal Karnataka Travel Hub",
@@ -5670,7 +5670,7 @@ const CITY_HUBS = [
     },
     {
         id: "uttara-kannada",
-        slug: "urbania-tempo-traveller-fare-in-uttara-kannada",
+        slug: "urbania-tempo-traveller-in-uttara-kannada",
         name: "Uttara Kannada",
         state: "Karnataka",
         tag: "Coastal Karnataka Tourism Hub",
@@ -5678,7 +5678,7 @@ const CITY_HUBS = [
     },
     {
         id: "yadgir",
-        slug: "urbania-tempo-traveller-fare-in-yadgir",
+        slug: "urbania-tempo-traveller-in-yadgir",
         name: "Yadgir",
         state: "Karnataka",
         tag: "North Karnataka Travel Hub",
@@ -5686,7 +5686,7 @@ const CITY_HUBS = [
     },
     {
         id: "angamaly",
-        slug: "urbania-tempo-traveller-fare-in-angamaly",
+        slug: "urbania-tempo-traveller-in-angamaly",
         name: "Angamaly",
         state: "Kerala",
         tag: "Central Kerala Travel Hub",
@@ -5694,7 +5694,7 @@ const CITY_HUBS = [
     },
     {
         id: "attingal",
-        slug: "urbania-tempo-traveller-fare-in-attingal",
+        slug: "urbania-tempo-traveller-in-attingal",
         name: "Attingal",
         state: "Kerala",
         tag: "South Kerala Travel Hub",
@@ -5702,7 +5702,7 @@ const CITY_HUBS = [
     },
     {
         id: "chalakudy",
-        slug: "urbania-tempo-traveller-fare-in-chalakudy",
+        slug: "urbania-tempo-traveller-in-chalakudy",
         name: "Chalakudy",
         state: "Kerala",
         tag: "Nature Tourism Hub",
@@ -5710,7 +5710,7 @@ const CITY_HUBS = [
     },
     {
         id: "chengannur",
-        slug: "urbania-tempo-traveller-fare-in-chengannur",
+        slug: "urbania-tempo-traveller-in-chengannur",
         name: "Chengannur",
         state: "Kerala",
         tag: "Pilgrimage Travel Hub",
@@ -5718,7 +5718,7 @@ const CITY_HUBS = [
     },
     {
         id: "cherthala",
-        slug: "urbania-tempo-traveller-fare-in-cherthala",
+        slug: "urbania-tempo-traveller-in-cherthala",
         name: "Cherthala",
         state: "Kerala",
         tag: "Coastal Kerala Travel Hub",
@@ -5726,7 +5726,7 @@ const CITY_HUBS = [
     },
     {
         id: "chittur",
-        slug: "urbania-tempo-traveller-fare-in-chittur",
+        slug: "urbania-tempo-traveller-in-chittur",
         name: "Chittur",
         state: "Kerala",
         tag: "Palakkad Travel Hub",
@@ -5734,7 +5734,7 @@ const CITY_HUBS = [
     },
     {
         id: "ernakulam",
-        slug: "urbania-tempo-traveller-fare-in-ernakulam",
+        slug: "urbania-tempo-traveller-in-ernakulam",
         name: "Ernakulam",
         state: "Kerala",
         tag: "Central Kerala Travel Hub",
@@ -5742,7 +5742,7 @@ const CITY_HUBS = [
     },
     {
         id: "idukki",
-        slug: "urbania-tempo-traveller-fare-in-idukki",
+        slug: "urbania-tempo-traveller-in-idukki",
         name: "Idukki",
         state: "Kerala",
         tag: "Hill Tourism Hub",
@@ -5750,7 +5750,7 @@ const CITY_HUBS = [
     },
     {
         id: "kannur",
-        slug: "urbania-tempo-traveller-fare-in-kannur",
+        slug: "urbania-tempo-traveller-in-kannur",
         name: "Kannur",
         state: "Kerala",
         tag: "North Kerala Travel Hub",
@@ -5758,7 +5758,7 @@ const CITY_HUBS = [
     },
     {
         id: "kasaragod",
-        slug: "urbania-tempo-traveller-fare-in-kasaragod",
+        slug: "urbania-tempo-traveller-in-kasaragod",
         name: "Kasaragod",
         state: "Kerala",
         tag: "North Kerala Travel Hub",
@@ -5766,7 +5766,7 @@ const CITY_HUBS = [
     },
     {
         id: "kayankulam",
-        slug: "urbania-tempo-traveller-fare-in-kayankulam",
+        slug: "urbania-tempo-traveller-in-kayankulam",
         name: "Kayamkulam",
         state: "Kerala",
         tag: "Backwater Travel Hub",
@@ -5774,7 +5774,7 @@ const CITY_HUBS = [
     },
     {
         id: "kottayam",
-        slug: "urbania-tempo-traveller-fare-in-kottayam",
+        slug: "urbania-tempo-traveller-in-kottayam",
         name: "Kottayam",
         state: "Kerala",
         tag: "Central Kerala Travel Hub",
@@ -5782,7 +5782,7 @@ const CITY_HUBS = [
     },
     {
         id: "kozhikode",
-        slug: "urbania-tempo-traveller-fare-in-kozhikode",
+        slug: "urbania-tempo-traveller-in-kozhikode",
         name: "Kozhikode",
         state: "Kerala",
         tag: "North Kerala Travel Hub",
@@ -5790,7 +5790,7 @@ const CITY_HUBS = [
     },
     {
         id: "palakkad",
-        slug: "urbania-tempo-traveller-fare-in-palakkad",
+        slug: "urbania-tempo-traveller-in-palakkad",
         name: "Palakkad",
         state: "Kerala",
         tag: "Gateway Kerala Travel Hub",
@@ -5798,7 +5798,7 @@ const CITY_HUBS = [
     },
     {
         id: "pathanamthitta",
-        slug: "urbania-tempo-traveller-fare-in-pathanamthitta",
+        slug: "urbania-tempo-traveller-in-pathanamthitta",
         name: "Pathanamthitta",
         state: "Kerala",
         tag: "Pilgrimage Travel Hub",
@@ -5806,7 +5806,7 @@ const CITY_HUBS = [
     },
     {
         id: "thiruvalla",
-        slug: "urbania-tempo-traveller-fare-in-thiruvalla",
+        slug: "urbania-tempo-traveller-in-thiruvalla",
         name: "Thiruvalla",
         state: "Kerala",
         tag: "Central Kerala Travel Hub",
@@ -5814,7 +5814,7 @@ const CITY_HUBS = [
     },
     {
         id: "thodupuzha",
-        slug: "urbania-tempo-traveller-fare-in-thodupuzha",
+        slug: "urbania-tempo-traveller-in-thodupuzha",
         name: "Thodupuzha",
         state: "Kerala",
         tag: "Idukki Travel Hub",
@@ -5822,7 +5822,7 @@ const CITY_HUBS = [
     },
     {
         id: "wayanad",
-        slug: "urbania-tempo-traveller-fare-in-wayanad",
+        slug: "urbania-tempo-traveller-in-wayanad",
         name: "Wayanad",
         state: "Kerala",
         tag: "Hill Station Tourism Hub",
@@ -5830,7 +5830,7 @@ const CITY_HUBS = [
     },
     {
         id: "arakkonam",
-        slug: "urbania-tempo-traveller-fare-in-arakkonam",
+        slug: "urbania-tempo-traveller-in-arakkonam",
         name: "Arakkonam",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5838,7 +5838,7 @@ const CITY_HUBS = [
     },
     {
         id: "ariyalur",
-        slug: "urbania-tempo-traveller-fare-in-ariyalur",
+        slug: "urbania-tempo-traveller-in-ariyalur",
         name: "Ariyalur",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5846,7 +5846,7 @@ const CITY_HUBS = [
     },
     {
         id: "attur",
-        slug: "urbania-tempo-traveller-fare-in-attur",
+        slug: "urbania-tempo-traveller-in-attur",
         name: "Attur",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5854,7 +5854,7 @@ const CITY_HUBS = [
     },
     {
         id: "avadi",
-        slug: "urbania-tempo-traveller-fare-in-avadi",
+        slug: "urbania-tempo-traveller-in-avadi",
         name: "Avadi",
         state: "Tamil Nadu",
         tag: "Chennai Travel Hub",
@@ -5862,7 +5862,7 @@ const CITY_HUBS = [
     },
     {
         id: "batlagundu",
-        slug: "urbania-tempo-traveller-fare-in-batlagundu",
+        slug: "urbania-tempo-traveller-in-batlagundu",
         name: "Batlagundu",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5870,7 +5870,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhavani",
-        slug: "urbania-tempo-traveller-fare-in-bhavani",
+        slug: "urbania-tempo-traveller-in-bhavani",
         name: "Bhavani",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5878,7 +5878,7 @@ const CITY_HUBS = [
     },
     {
         id: "cheyyar",
-        slug: "urbania-tempo-traveller-fare-in-cheyyar",
+        slug: "urbania-tempo-traveller-in-cheyyar",
         name: "Cheyyar",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5886,7 +5886,7 @@ const CITY_HUBS = [
     },
     {
         id: "chidambaram",
-        slug: "urbania-tempo-traveller-fare-in-chidambaram",
+        slug: "urbania-tempo-traveller-in-chidambaram",
         name: "Chidambaram",
         state: "Tamil Nadu",
         tag: "Temple Tourism Hub",
@@ -5894,7 +5894,7 @@ const CITY_HUBS = [
     },
     {
         id: "coonoor",
-        slug: "urbania-tempo-traveller-fare-in-coonoor",
+        slug: "urbania-tempo-traveller-in-coonoor",
         name: "Coonoor",
         state: "Tamil Nadu",
         tag: "Hill Station Tourism Hub",
@@ -5902,7 +5902,7 @@ const CITY_HUBS = [
     },
     {
         id: "cuddalore",
-        slug: "urbania-tempo-traveller-fare-in-cuddalore",
+        slug: "urbania-tempo-traveller-in-cuddalore",
         name: "Cuddalore",
         state: "Tamil Nadu",
         tag: "Coastal Travel Hub",
@@ -5910,7 +5910,7 @@ const CITY_HUBS = [
     },
     {
         id: "dindigul",
-        slug: "urbania-tempo-traveller-fare-in-dindigul",
+        slug: "urbania-tempo-traveller-in-dindigul",
         name: "Dindigul",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5918,7 +5918,7 @@ const CITY_HUBS = [
     },
     {
         id: "erode",
-        slug: "urbania-tempo-traveller-fare-in-erode",
+        slug: "urbania-tempo-traveller-in-erode",
         name: "Erode",
         state: "Tamil Nadu",
         tag: "Major Travel Hub",
@@ -5926,7 +5926,7 @@ const CITY_HUBS = [
     },
     {
         id: "gudiyatham",
-        slug: "urbania-tempo-traveller-fare-in-gudiyatham",
+        slug: "urbania-tempo-traveller-in-gudiyatham",
         name: "Gudiyatham",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5934,7 +5934,7 @@ const CITY_HUBS = [
     },
     {
         id: "karur",
-        slug: "urbania-tempo-traveller-fare-in-karur",
+        slug: "urbania-tempo-traveller-in-karur",
         name: "Karur",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5942,7 +5942,7 @@ const CITY_HUBS = [
     },
     {
         id: "kumbakonam",
-        slug: "urbania-tempo-traveller-fare-in-kumbakonam",
+        slug: "urbania-tempo-traveller-in-kumbakonam",
         name: "Kumbakonam",
         state: "Tamil Nadu",
         tag: "Temple Tourism Hub",
@@ -5950,7 +5950,7 @@ const CITY_HUBS = [
     },
     {
         id: "mayiladuthurai",
-        slug: "urbania-tempo-traveller-fare-in-mayiladuthurai",
+        slug: "urbania-tempo-traveller-in-mayiladuthurai",
         name: "Mayiladuthurai",
         state: "Tamil Nadu",
         tag: "Temple Tourism Hub",
@@ -5958,7 +5958,7 @@ const CITY_HUBS = [
     },
     {
         id: "nagapattinam",
-        slug: "urbania-tempo-traveller-fare-in-nagapattinam",
+        slug: "urbania-tempo-traveller-in-nagapattinam",
         name: "Nagapattinam",
         state: "Tamil Nadu",
         tag: "Coastal Tourism Hub",
@@ -5966,7 +5966,7 @@ const CITY_HUBS = [
     },
     {
         id: "namakkal",
-        slug: "urbania-tempo-traveller-fare-in-namakkal",
+        slug: "urbania-tempo-traveller-in-namakkal",
         name: "Namakkal",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5974,7 +5974,7 @@ const CITY_HUBS = [
     },
     {
         id: "oddanchatram",
-        slug: "urbania-tempo-traveller-fare-in-oddanchatram",
+        slug: "urbania-tempo-traveller-in-oddanchatram",
         name: "Oddanchatram",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5982,7 +5982,7 @@ const CITY_HUBS = [
     },
     {
         id: "palani",
-        slug: "urbania-tempo-traveller-fare-in-palani",
+        slug: "urbania-tempo-traveller-in-palani",
         name: "Palani",
         state: "Tamil Nadu",
         tag: "Pilgrimage Tourism Hub",
@@ -5990,7 +5990,7 @@ const CITY_HUBS = [
     },
     {
         id: "paramakudi",
-        slug: "urbania-tempo-traveller-fare-in-paramakudi",
+        slug: "urbania-tempo-traveller-in-paramakudi",
         name: "Paramakudi",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -5998,7 +5998,7 @@ const CITY_HUBS = [
     },
     {
         id: "pattukkottai",
-        slug: "urbania-tempo-traveller-fare-in-pattukkottai",
+        slug: "urbania-tempo-traveller-in-pattukkottai",
         name: "Pattukkottai",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6006,7 +6006,7 @@ const CITY_HUBS = [
     },
     {
         id: "perambalur",
-        slug: "urbania-tempo-traveller-fare-in-perambalur",
+        slug: "urbania-tempo-traveller-in-perambalur",
         name: "Perambalur",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6014,7 +6014,7 @@ const CITY_HUBS = [
     },
     {
         id: "pollachi",
-        slug: "urbania-tempo-traveller-fare-in-pollachi",
+        slug: "urbania-tempo-traveller-in-pollachi",
         name: "Pollachi",
         state: "Tamil Nadu",
         tag: "Nature Tourism Hub",
@@ -6022,7 +6022,7 @@ const CITY_HUBS = [
     },
     {
         id: "pudukkottai",
-        slug: "urbania-tempo-traveller-fare-in-pudukkottai",
+        slug: "urbania-tempo-traveller-in-pudukkottai",
         name: "Pudukkottai",
         state: "Tamil Nadu",
         tag: "Heritage Travel Hub",
@@ -6030,7 +6030,7 @@ const CITY_HUBS = [
     },
     {
         id: "ramanathapuram",
-        slug: "urbania-tempo-traveller-fare-in-ramanathapuram",
+        slug: "urbania-tempo-traveller-in-ramanathapuram",
         name: "Ramanathapuram",
         state: "Tamil Nadu",
         tag: "Pilgrimage Travel Hub",
@@ -6038,7 +6038,7 @@ const CITY_HUBS = [
     },
     {
         id: "ranipet",
-        slug: "urbania-tempo-traveller-fare-in-ranipet",
+        slug: "urbania-tempo-traveller-in-ranipet",
         name: "Ranipet",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6046,7 +6046,7 @@ const CITY_HUBS = [
     },
     {
         id: "sivakasi",
-        slug: "urbania-tempo-traveller-fare-in-sivakasi",
+        slug: "urbania-tempo-traveller-in-sivakasi",
         name: "Sivakasi",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6054,7 +6054,7 @@ const CITY_HUBS = [
     },
     {
         id: "sivaganga",
-        slug: "urbania-tempo-traveller-fare-in-sivaganga",
+        slug: "urbania-tempo-traveller-in-sivaganga",
         name: "Sivaganga",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6062,7 +6062,7 @@ const CITY_HUBS = [
     },
     {
         id: "srirangam",
-        slug: "urbania-tempo-traveller-fare-in-srirangam",
+        slug: "urbania-tempo-traveller-in-srirangam",
         name: "Srirangam",
         state: "Tamil Nadu",
         tag: "Temple Tourism Hub",
@@ -6070,7 +6070,7 @@ const CITY_HUBS = [
     },
     {
         id: "tenkasi",
-        slug: "urbania-tempo-traveller-fare-in-tenkasi",
+        slug: "urbania-tempo-traveller-in-tenkasi",
         name: "Tenkasi",
         state: "Tamil Nadu",
         tag: "Nature Tourism Hub",
@@ -6078,7 +6078,7 @@ const CITY_HUBS = [
     },
     {
         id: "theni",
-        slug: "urbania-tempo-traveller-fare-in-theni",
+        slug: "urbania-tempo-traveller-in-theni",
         name: "Theni",
         state: "Tamil Nadu",
         tag: "Nature Tourism Hub",
@@ -6086,7 +6086,7 @@ const CITY_HUBS = [
     },
     {
         id: "thoothukudi",
-        slug: "urbania-tempo-traveller-fare-in-thoothukudi",
+        slug: "urbania-tempo-traveller-in-thoothukudi",
         name: "Thoothukudi",
         state: "Tamil Nadu",
         tag: "Coastal Travel Hub",
@@ -6094,7 +6094,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiruchengodu",
-        slug: "urbania-tempo-traveller-fare-in-tiruchengodu",
+        slug: "urbania-tempo-traveller-in-tiruchengodu",
         name: "Tiruchengodu",
         state: "Tamil Nadu",
         tag: "Temple Tourism Hub",
@@ -6102,7 +6102,7 @@ const CITY_HUBS = [
     },
     {
         id: "tirupattur",
-        slug: "urbania-tempo-traveller-fare-in-tirupattur",
+        slug: "urbania-tempo-traveller-in-tirupattur",
         name: "Tirupattur",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6110,7 +6110,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiruvallur",
-        slug: "urbania-tempo-traveller-fare-in-tiruvallur",
+        slug: "urbania-tempo-traveller-in-tiruvallur",
         name: "Tiruvallur",
         state: "Tamil Nadu",
         tag: "Chennai Region Travel Hub",
@@ -6118,7 +6118,7 @@ const CITY_HUBS = [
     },
     {
         id: "tiruvannamalai",
-        slug: "urbania-tempo-traveller-fare-in-tiruvannamalai",
+        slug: "urbania-tempo-traveller-in-tiruvannamalai",
         name: "Tiruvannamalai",
         state: "Tamil Nadu",
         tag: "Pilgrimage Tourism Hub",
@@ -6126,7 +6126,7 @@ const CITY_HUBS = [
     },
     {
         id: "udumalpet",
-        slug: "urbania-tempo-traveller-fare-in-udumalpet",
+        slug: "urbania-tempo-traveller-in-udumalpet",
         name: "Udumalpet",
         state: "Tamil Nadu",
         tag: "Nature Tourism Hub",
@@ -6134,7 +6134,7 @@ const CITY_HUBS = [
     },
     {
         id: "vellore",
-        slug: "urbania-tempo-traveller-fare-in-vellore",
+        slug: "urbania-tempo-traveller-in-vellore",
         name: "Vellore",
         state: "Tamil Nadu",
         tag: "Major Travel Hub",
@@ -6142,7 +6142,7 @@ const CITY_HUBS = [
     },
     {
         id: "viluppuram",
-        slug: "urbania-tempo-traveller-fare-in-viluppuram",
+        slug: "urbania-tempo-traveller-in-viluppuram",
         name: "Viluppuram",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6150,7 +6150,7 @@ const CITY_HUBS = [
     },
     {
         id: "virudhunagar",
-        slug: "urbania-tempo-traveller-fare-in-virudhunagar",
+        slug: "urbania-tempo-traveller-in-virudhunagar",
         name: "Virudhunagar",
         state: "Tamil Nadu",
         tag: "Travel Hub",
@@ -6158,7 +6158,7 @@ const CITY_HUBS = [
     },
     {
         id: "adoni",
-        slug: "urbania-tempo-traveller-fare-in-adoni",
+        slug: "urbania-tempo-traveller-in-adoni",
         name: "Adoni",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6166,7 +6166,7 @@ const CITY_HUBS = [
     },
     {
         id: "amalapuram",
-        slug: "urbania-tempo-traveller-fare-in-amalapuram",
+        slug: "urbania-tempo-traveller-in-amalapuram",
         name: "Amalapuram",
         state: "Andhra Pradesh",
         tag: "Coastal Travel Hub",
@@ -6174,7 +6174,7 @@ const CITY_HUBS = [
     },
     {
         id: "anakapalle",
-        slug: "urbania-tempo-traveller-fare-in-anakapalle",
+        slug: "urbania-tempo-traveller-in-anakapalle",
         name: "Anakapalle",
         state: "Andhra Pradesh",
         tag: "Visakhapatnam Region Travel Hub",
@@ -6182,7 +6182,7 @@ const CITY_HUBS = [
     },
     {
         id: "anantapur",
-        slug: "urbania-tempo-traveller-fare-in-anantapur",
+        slug: "urbania-tempo-traveller-in-anantapur",
         name: "Anantapur",
         state: "Andhra Pradesh",
         tag: "Major Travel Hub",
@@ -6190,7 +6190,7 @@ const CITY_HUBS = [
     },
     {
         id: "bapatla",
-        slug: "urbania-tempo-traveller-fare-in-bapatla",
+        slug: "urbania-tempo-traveller-in-bapatla",
         name: "Bapatla",
         state: "Andhra Pradesh",
         tag: "Coastal Travel Hub",
@@ -6198,7 +6198,7 @@ const CITY_HUBS = [
     },
     {
         id: "chittoor",
-        slug: "urbania-tempo-traveller-fare-in-chittoor",
+        slug: "urbania-tempo-traveller-in-chittoor",
         name: "Chittoor",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6206,7 +6206,7 @@ const CITY_HUBS = [
     },
     {
         id: "cuddapah",
-        slug: "urbania-tempo-traveller-fare-in-cuddapah",
+        slug: "urbania-tempo-traveller-in-cuddapah",
         name: "Cuddapah",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6214,7 +6214,7 @@ const CITY_HUBS = [
     },
     {
         id: "dharmavaram",
-        slug: "urbania-tempo-traveller-fare-in-dharmavaram",
+        slug: "urbania-tempo-traveller-in-dharmavaram",
         name: "Dharmavaram",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6222,7 +6222,7 @@ const CITY_HUBS = [
     },
     {
         id: "guntakal",
-        slug: "urbania-tempo-traveller-fare-in-guntakal",
+        slug: "urbania-tempo-traveller-in-guntakal",
         name: "Guntakal",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6230,7 +6230,7 @@ const CITY_HUBS = [
     },
     {
         id: "hindupur",
-        slug: "urbania-tempo-traveller-fare-in-hindupur",
+        slug: "urbania-tempo-traveller-in-hindupur",
         name: "Hindupur",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6238,7 +6238,7 @@ const CITY_HUBS = [
     },
     {
         id: "kadapa",
-        slug: "urbania-tempo-traveller-fare-in-kadapa",
+        slug: "urbania-tempo-traveller-in-kadapa",
         name: "Kadapa",
         state: "Andhra Pradesh",
         tag: "Major Travel Hub",
@@ -6246,7 +6246,7 @@ const CITY_HUBS = [
     },
     {
         id: "kavali",
-        slug: "urbania-tempo-traveller-fare-in-kavali",
+        slug: "urbania-tempo-traveller-in-kavali",
         name: "Kavali",
         state: "Andhra Pradesh",
         tag: "Coastal Travel Hub",
@@ -6254,7 +6254,7 @@ const CITY_HUBS = [
     },
     {
         id: "kurnool",
-        slug: "urbania-tempo-traveller-fare-in-kurnool",
+        slug: "urbania-tempo-traveller-in-kurnool",
         name: "Kurnool",
         state: "Andhra Pradesh",
         tag: "Major Travel Hub",
@@ -6262,7 +6262,7 @@ const CITY_HUBS = [
     },
     {
         id: "madanapalle",
-        slug: "urbania-tempo-traveller-fare-in-madanapalle",
+        slug: "urbania-tempo-traveller-in-madanapalle",
         name: "Madanapalle",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6270,7 +6270,7 @@ const CITY_HUBS = [
     },
     {
         id: "markapur",
-        slug: "urbania-tempo-traveller-fare-in-markapur",
+        slug: "urbania-tempo-traveller-in-markapur",
         name: "Markapur",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6278,7 +6278,7 @@ const CITY_HUBS = [
     },
     {
         id: "nellore",
-        slug: "urbania-tempo-traveller-fare-in-nellore",
+        slug: "urbania-tempo-traveller-in-nellore",
         name: "Nellore",
         state: "Andhra Pradesh",
         tag: "Major Travel Hub",
@@ -6286,7 +6286,7 @@ const CITY_HUBS = [
     },
     {
         id: "palakollu",
-        slug: "urbania-tempo-traveller-fare-in-palakollu",
+        slug: "urbania-tempo-traveller-in-palakollu",
         name: "Palakollu",
         state: "Andhra Pradesh",
         tag: "Temple Tourism Hub",
@@ -6294,7 +6294,7 @@ const CITY_HUBS = [
     },
     {
         id: "proddatur",
-        slug: "urbania-tempo-traveller-fare-in-proddatur",
+        slug: "urbania-tempo-traveller-in-proddatur",
         name: "Proddatur",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6302,7 +6302,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajampet",
-        slug: "urbania-tempo-traveller-fare-in-rajampet",
+        slug: "urbania-tempo-traveller-in-rajampet",
         name: "Rajampet",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6310,7 +6310,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajahmundry",
-        slug: "urbania-tempo-traveller-fare-in-rajahmundry",
+        slug: "urbania-tempo-traveller-in-rajahmundry",
         name: "Rajahmundry",
         state: "Andhra Pradesh",
         tag: "Major Travel Hub",
@@ -6318,7 +6318,7 @@ const CITY_HUBS = [
     },
     {
         id: "ramachandrapuram",
-        slug: "urbania-tempo-traveller-fare-in-ramachandrapuram",
+        slug: "urbania-tempo-traveller-in-ramachandrapuram",
         name: "Ramachandrapuram",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6326,7 +6326,7 @@ const CITY_HUBS = [
     },
     {
         id: "rayachoti",
-        slug: "urbania-tempo-traveller-fare-in-rayachoti",
+        slug: "urbania-tempo-traveller-in-rayachoti",
         name: "Rayachoti",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6334,7 +6334,7 @@ const CITY_HUBS = [
     },
     {
         id: "tadepalligudem",
-        slug: "urbania-tempo-traveller-fare-in-tadepalligudem",
+        slug: "urbania-tempo-traveller-in-tadepalligudem",
         name: "Tadepalligudem",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6342,7 +6342,7 @@ const CITY_HUBS = [
     },
     {
         id: "tanuku",
-        slug: "urbania-tempo-traveller-fare-in-tanuku",
+        slug: "urbania-tempo-traveller-in-tanuku",
         name: "Tanuku",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6350,7 +6350,7 @@ const CITY_HUBS = [
     },
     {
         id: "tirupati",
-        slug: "urbania-tempo-traveller-fare-in-tirupati",
+        slug: "urbania-tempo-traveller-in-tirupati",
         name: "Tirupati",
         state: "Andhra Pradesh",
         tag: "Pilgrimage Tourism Hub",
@@ -6358,7 +6358,7 @@ const CITY_HUBS = [
     },
     {
         id: "vinukonda",
-        slug: "urbania-tempo-traveller-fare-in-vinukonda",
+        slug: "urbania-tempo-traveller-in-vinukonda",
         name: "Vinukonda",
         state: "Andhra Pradesh",
         tag: "Travel Hub",
@@ -6366,7 +6366,7 @@ const CITY_HUBS = [
     },
     {
         id: "armoor",
-        slug: "urbania-tempo-traveller-fare-in-armoor",
+        slug: "urbania-tempo-traveller-in-armoor",
         name: "Armoor",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6374,7 +6374,7 @@ const CITY_HUBS = [
     },
     {
         id: "asifabad",
-        slug: "urbania-tempo-traveller-fare-in-asifabad",
+        slug: "urbania-tempo-traveller-in-asifabad",
         name: "Asifabad",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6382,7 +6382,7 @@ const CITY_HUBS = [
     },
     {
         id: "bodhan",
-        slug: "urbania-tempo-traveller-fare-in-bodhan",
+        slug: "urbania-tempo-traveller-in-bodhan",
         name: "Bodhan",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6390,7 +6390,7 @@ const CITY_HUBS = [
     },
     {
         id: "karimnagar",
-        slug: "urbania-tempo-traveller-fare-in-karimnagar",
+        slug: "urbania-tempo-traveller-in-karimnagar",
         name: "Karimnagar",
         state: "Telangana",
         tag: "Major Travel Hub",
@@ -6398,7 +6398,7 @@ const CITY_HUBS = [
     },
     {
         id: "kothagudem",
-        slug: "urbania-tempo-traveller-fare-in-kothagudem",
+        slug: "urbania-tempo-traveller-in-kothagudem",
         name: "Kothagudem",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6406,7 +6406,7 @@ const CITY_HUBS = [
     },
     {
         id: "mancherial",
-        slug: "urbania-tempo-traveller-fare-in-mancherial",
+        slug: "urbania-tempo-traveller-in-mancherial",
         name: "Mancherial",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6414,7 +6414,7 @@ const CITY_HUBS = [
     },
     {
         id: "medak",
-        slug: "urbania-tempo-traveller-fare-in-medak",
+        slug: "urbania-tempo-traveller-in-medak",
         name: "Medak",
         state: "Telangana",
         tag: "Heritage Travel Hub",
@@ -6422,7 +6422,7 @@ const CITY_HUBS = [
     },
     {
         id: "nirmal",
-        slug: "urbania-tempo-traveller-fare-in-nirmal",
+        slug: "urbania-tempo-traveller-in-nirmal",
         name: "Nirmal",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6430,7 +6430,7 @@ const CITY_HUBS = [
     },
     {
         id: "nizamabad",
-        slug: "urbania-tempo-traveller-fare-in-nizamabad",
+        slug: "urbania-tempo-traveller-in-nizamabad",
         name: "Nizamabad",
         state: "Telangana",
         tag: "Major Travel Hub",
@@ -6438,7 +6438,7 @@ const CITY_HUBS = [
     },
     {
         id: "sangareddy",
-        slug: "urbania-tempo-traveller-fare-in-sangareddy",
+        slug: "urbania-tempo-traveller-in-sangareddy",
         name: "Sangareddy",
         state: "Telangana",
         tag: "Hyderabad Region Travel Hub",
@@ -6446,7 +6446,7 @@ const CITY_HUBS = [
     },
     {
         id: "suryapet",
-        slug: "urbania-tempo-traveller-fare-in-suryapet",
+        slug: "urbania-tempo-traveller-in-suryapet",
         name: "Suryapet",
         state: "Telangana",
         tag: "Major Travel Hub",
@@ -6454,7 +6454,7 @@ const CITY_HUBS = [
     },
     {
         id: "vikarabad",
-        slug: "urbania-tempo-traveller-fare-in-vikarabad",
+        slug: "urbania-tempo-traveller-in-vikarabad",
         name: "Vikarabad",
         state: "Telangana",
         tag: "Weekend Travel Hub",
@@ -6462,7 +6462,7 @@ const CITY_HUBS = [
     },
     {
         id: "wanaparthy",
-        slug: "urbania-tempo-traveller-fare-in-wanaparthy",
+        slug: "urbania-tempo-traveller-in-wanaparthy",
         name: "Wanaparthy",
         state: "Telangana",
         tag: "Travel Hub",
@@ -6470,7 +6470,7 @@ const CITY_HUBS = [
     },
     {
         id: "karaikal",
-        slug: "urbania-tempo-traveller-fare-in-karaikal",
+        slug: "urbania-tempo-traveller-in-karaikal",
         name: "Karaikal",
         state: "Puducherry",
         tag: "Coastal Travel Hub",
@@ -6478,7 +6478,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahe",
-        slug: "urbania-tempo-traveller-fare-in-mahe",
+        slug: "urbania-tempo-traveller-in-mahe",
         name: "Mahe",
         state: "Puducherry",
         tag: "Coastal Travel Hub",
@@ -6486,7 +6486,7 @@ const CITY_HUBS = [
     },
     {
         id: "yanam",
-        slug: "urbania-tempo-traveller-fare-in-yanam",
+        slug: "urbania-tempo-traveller-in-yanam",
         name: "Yanam",
         state: "Puducherry",
         tag: "Coastal Travel Hub",
@@ -6494,7 +6494,7 @@ const CITY_HUBS = [
     },
     {
         id: "kavaratti",
-        slug: "urbania-tempo-traveller-fare-in-kavaratti",
+        slug: "urbania-tempo-traveller-in-kavaratti",
         name: "Kavaratti",
         state: "Lakshadweep",
         tag: "Island Travel Hub",
@@ -6502,7 +6502,7 @@ const CITY_HUBS = [
     },
     {
         id: "alipurduar",
-        slug: "urbania-tempo-traveller-fare-in-alipurduar",
+        slug: "urbania-tempo-traveller-in-alipurduar",
         name: "Alipurduar",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6510,7 +6510,7 @@ const CITY_HUBS = [
     },
     {
         id: "barasat",
-        slug: "urbania-tempo-traveller-fare-in-barasat",
+        slug: "urbania-tempo-traveller-in-barasat",
         name: "Barasat",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6518,7 +6518,7 @@ const CITY_HUBS = [
     },
     {
         id: "barrackpore",
-        slug: "urbania-tempo-traveller-fare-in-barrackpore",
+        slug: "urbania-tempo-traveller-in-barrackpore",
         name: "Barrackpore",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6526,7 +6526,7 @@ const CITY_HUBS = [
     },
     {
         id: "basirhat",
-        slug: "urbania-tempo-traveller-fare-in-basirhat",
+        slug: "urbania-tempo-traveller-in-basirhat",
         name: "Basirhat",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6534,7 +6534,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhatpara",
-        slug: "urbania-tempo-traveller-fare-in-bhatpara",
+        slug: "urbania-tempo-traveller-in-bhatpara",
         name: "Bhatpara",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6542,7 +6542,7 @@ const CITY_HUBS = [
     },
     {
         id: "bolpur",
-        slug: "urbania-tempo-traveller-fare-in-bolpur",
+        slug: "urbania-tempo-traveller-in-bolpur",
         name: "Bolpur",
         state: "West Bengal",
         tag: "Cultural Travel Hub",
@@ -6550,7 +6550,7 @@ const CITY_HUBS = [
     },
     {
         id: "cooch-behar",
-        slug: "urbania-tempo-traveller-fare-in-cooch-behar",
+        slug: "urbania-tempo-traveller-in-cooch-behar",
         name: "Cooch Behar",
         state: "West Bengal",
         tag: "Heritage Travel Hub",
@@ -6558,7 +6558,7 @@ const CITY_HUBS = [
     },
     {
         id: "darjeeling",
-        slug: "urbania-tempo-traveller-fare-in-darjeeling",
+        slug: "urbania-tempo-traveller-in-darjeeling",
         name: "Darjeeling",
         state: "West Bengal",
         tag: "Hill Station Travel Hub",
@@ -6566,7 +6566,7 @@ const CITY_HUBS = [
     },
     {
         id: "diamond-harbour",
-        slug: "urbania-tempo-traveller-fare-in-diamond-harbour",
+        slug: "urbania-tempo-traveller-in-diamond-harbour",
         name: "Diamond Harbour",
         state: "West Bengal",
         tag: "Weekend Travel Hub",
@@ -6574,7 +6574,7 @@ const CITY_HUBS = [
     },
     {
         id: "dinhata",
-        slug: "urbania-tempo-traveller-fare-in-dinhata",
+        slug: "urbania-tempo-traveller-in-dinhata",
         name: "Dinhata",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6582,7 +6582,7 @@ const CITY_HUBS = [
     },
     {
         id: "falta",
-        slug: "urbania-tempo-traveller-fare-in-falta",
+        slug: "urbania-tempo-traveller-in-falta",
         name: "Falta",
         state: "West Bengal",
         tag: "Weekend Travel Hub",
@@ -6590,7 +6590,7 @@ const CITY_HUBS = [
     },
     {
         id: "gangarampur",
-        slug: "urbania-tempo-traveller-fare-in-gangarampur",
+        slug: "urbania-tempo-traveller-in-gangarampur",
         name: "Gangarampur",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6598,7 +6598,7 @@ const CITY_HUBS = [
     },
     {
         id: "gopalpur",
-        slug: "urbania-tempo-traveller-fare-in-gopalpur",
+        slug: "urbania-tempo-traveller-in-gopalpur",
         name: "Gopalpur",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6606,7 +6606,7 @@ const CITY_HUBS = [
     },
     {
         id: "habra",
-        slug: "urbania-tempo-traveller-fare-in-habra",
+        slug: "urbania-tempo-traveller-in-habra",
         name: "Habra",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6614,7 +6614,7 @@ const CITY_HUBS = [
     },
     {
         id: "halisahar",
-        slug: "urbania-tempo-traveller-fare-in-halisahar",
+        slug: "urbania-tempo-traveller-in-halisahar",
         name: "Halisahar",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6622,7 +6622,7 @@ const CITY_HUBS = [
     },
     {
         id: "howrah",
-        slug: "urbania-tempo-traveller-fare-in-howrah",
+        slug: "urbania-tempo-traveller-in-howrah",
         name: "Howrah",
         state: "West Bengal",
         tag: "Major Travel Hub",
@@ -6630,7 +6630,7 @@ const CITY_HUBS = [
     },
     {
         id: "hugli-chinsurah",
-        slug: "urbania-tempo-traveller-fare-in-hugli-chinsurah",
+        slug: "urbania-tempo-traveller-in-hugli-chinsurah",
         name: "Hugli-Chinsurah",
         state: "West Bengal",
         tag: "Heritage Travel Hub",
@@ -6638,7 +6638,7 @@ const CITY_HUBS = [
     },
     {
         id: "jalpaiguri",
-        slug: "urbania-tempo-traveller-fare-in-jalpaiguri",
+        slug: "urbania-tempo-traveller-in-jalpaiguri",
         name: "Jalpaiguri",
         state: "West Bengal",
         tag: "Major Travel Hub",
@@ -6646,7 +6646,7 @@ const CITY_HUBS = [
     },
     {
         id: "jangipur",
-        slug: "urbania-tempo-traveller-fare-in-jangipur",
+        slug: "urbania-tempo-traveller-in-jangipur",
         name: "Jangipur",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6654,7 +6654,7 @@ const CITY_HUBS = [
     },
     {
         id: "katwa",
-        slug: "urbania-tempo-traveller-fare-in-katwa",
+        slug: "urbania-tempo-traveller-in-katwa",
         name: "Katwa",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6662,7 +6662,7 @@ const CITY_HUBS = [
     },
     {
         id: "kharagpur",
-        slug: "urbania-tempo-traveller-fare-in-kharagpur",
+        slug: "urbania-tempo-traveller-in-kharagpur",
         name: "Kharagpur",
         state: "West Bengal",
         tag: "Major Travel Hub",
@@ -6670,7 +6670,7 @@ const CITY_HUBS = [
     },
     {
         id: "mathabhanga",
-        slug: "urbania-tempo-traveller-fare-in-mathabhanga",
+        slug: "urbania-tempo-traveller-in-mathabhanga",
         name: "Mathabhanga",
         state: "West Bengal",
         tag: "North Bengal Travel Hub",
@@ -6678,7 +6678,7 @@ const CITY_HUBS = [
     },
     {
         id: "medinipur",
-        slug: "urbania-tempo-traveller-fare-in-medinipur",
+        slug: "urbania-tempo-traveller-in-medinipur",
         name: "Medinipur",
         state: "West Bengal",
         tag: "Major Travel Hub",
@@ -6686,7 +6686,7 @@ const CITY_HUBS = [
     },
     {
         id: "memari",
-        slug: "urbania-tempo-traveller-fare-in-memari",
+        slug: "urbania-tempo-traveller-in-memari",
         name: "Memari",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6694,7 +6694,7 @@ const CITY_HUBS = [
     },
     {
         id: "murshidabad",
-        slug: "urbania-tempo-traveller-fare-in-murshidabad",
+        slug: "urbania-tempo-traveller-in-murshidabad",
         name: "Murshidabad",
         state: "West Bengal",
         tag: "Heritage Travel Hub",
@@ -6702,7 +6702,7 @@ const CITY_HUBS = [
     },
     {
         id: "naihati",
-        slug: "urbania-tempo-traveller-fare-in-naihati",
+        slug: "urbania-tempo-traveller-in-naihati",
         name: "Naihati",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6710,7 +6710,7 @@ const CITY_HUBS = [
     },
     {
         id: "nabadwip",
-        slug: "urbania-tempo-traveller-fare-in-nabadwip",
+        slug: "urbania-tempo-traveller-in-nabadwip",
         name: "Nabadwip",
         state: "West Bengal",
         tag: "Pilgrimage Travel Hub",
@@ -6718,7 +6718,7 @@ const CITY_HUBS = [
     },
     {
         id: "nakashipara",
-        slug: "urbania-tempo-traveller-fare-in-nakashipara",
+        slug: "urbania-tempo-traveller-in-nakashipara",
         name: "Nakashipara",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6726,7 +6726,7 @@ const CITY_HUBS = [
     },
     {
         id: "nalhati",
-        slug: "urbania-tempo-traveller-fare-in-nalhati",
+        slug: "urbania-tempo-traveller-in-nalhati",
         name: "Nalhati",
         state: "West Bengal",
         tag: "Pilgrimage Travel Hub",
@@ -6734,7 +6734,7 @@ const CITY_HUBS = [
     },
     {
         id: "panihati",
-        slug: "urbania-tempo-traveller-fare-in-panihati",
+        slug: "urbania-tempo-traveller-in-panihati",
         name: "Panihati",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6742,7 +6742,7 @@ const CITY_HUBS = [
     },
     {
         id: "ranaghat",
-        slug: "urbania-tempo-traveller-fare-in-ranaghat",
+        slug: "urbania-tempo-traveller-in-ranaghat",
         name: "Ranaghat",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6750,7 +6750,7 @@ const CITY_HUBS = [
     },
     {
         id: "santipur",
-        slug: "urbania-tempo-traveller-fare-in-santipur",
+        slug: "urbania-tempo-traveller-in-santipur",
         name: "Santipur",
         state: "West Bengal",
         tag: "Heritage Travel Hub",
@@ -6758,7 +6758,7 @@ const CITY_HUBS = [
     },
     {
         id: "serampore",
-        slug: "urbania-tempo-traveller-fare-in-serampore",
+        slug: "urbania-tempo-traveller-in-serampore",
         name: "Serampore",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6766,7 +6766,7 @@ const CITY_HUBS = [
     },
     {
         id: "shyamnagar",
-        slug: "urbania-tempo-traveller-fare-in-shyamnagar",
+        slug: "urbania-tempo-traveller-in-shyamnagar",
         name: "Shyamnagar",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6774,7 +6774,7 @@ const CITY_HUBS = [
     },
     {
         id: "siuri",
-        slug: "urbania-tempo-traveller-fare-in-siuri",
+        slug: "urbania-tempo-traveller-in-siuri",
         name: "Siuri",
         state: "West Bengal",
         tag: "Travel Hub",
@@ -6782,7 +6782,7 @@ const CITY_HUBS = [
     },
     {
         id: "tamluk",
-        slug: "urbania-tempo-traveller-fare-in-tamluk",
+        slug: "urbania-tempo-traveller-in-tamluk",
         name: "Tamluk",
         state: "West Bengal",
         tag: "Heritage Travel Hub",
@@ -6790,7 +6790,7 @@ const CITY_HUBS = [
     },
     {
         id: "tarakeswar",
-        slug: "urbania-tempo-traveller-fare-in-tarakeswar",
+        slug: "urbania-tempo-traveller-in-tarakeswar",
         name: "Tarakeswar",
         state: "West Bengal",
         tag: "Pilgrimage Travel Hub",
@@ -6798,7 +6798,7 @@ const CITY_HUBS = [
     },
     {
         id: "uluberia",
-        slug: "urbania-tempo-traveller-fare-in-uluberia",
+        slug: "urbania-tempo-traveller-in-uluberia",
         name: "Uluberia",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6806,7 +6806,7 @@ const CITY_HUBS = [
     },
     {
         id: "uttarpara",
-        slug: "urbania-tempo-traveller-fare-in-uttarpara",
+        slug: "urbania-tempo-traveller-in-uttarpara",
         name: "Uttarpara",
         state: "West Bengal",
         tag: "Kolkata Region Travel Hub",
@@ -6814,7 +6814,7 @@ const CITY_HUBS = [
     },
     {
         id: "arrah",
-        slug: "urbania-tempo-traveller-fare-in-arrah",
+        slug: "urbania-tempo-traveller-in-arrah",
         name: "Arrah",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6822,7 +6822,7 @@ const CITY_HUBS = [
     },
     {
         id: "aurangabad",
-        slug: "urbania-tempo-traveller-fare-in-aurangabad",
+        slug: "urbania-tempo-traveller-in-aurangabad",
         name: "Aurangabad",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6830,7 +6830,7 @@ const CITY_HUBS = [
     },
     {
         id: "bagaha",
-        slug: "urbania-tempo-traveller-fare-in-bagaha",
+        slug: "urbania-tempo-traveller-in-bagaha",
         name: "Bagaha",
         state: "Bihar",
         tag: "Nature Travel Hub",
@@ -6838,7 +6838,7 @@ const CITY_HUBS = [
     },
     {
         id: "banka",
-        slug: "urbania-tempo-traveller-fare-in-banka",
+        slug: "urbania-tempo-traveller-in-banka",
         name: "Banka",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6846,7 +6846,7 @@ const CITY_HUBS = [
     },
     {
         id: "begusarai",
-        slug: "urbania-tempo-traveller-fare-in-begusarai",
+        slug: "urbania-tempo-traveller-in-begusarai",
         name: "Begusarai",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6854,7 +6854,7 @@ const CITY_HUBS = [
     },
     {
         id: "bettiah",
-        slug: "urbania-tempo-traveller-fare-in-bettiah",
+        slug: "urbania-tempo-traveller-in-bettiah",
         name: "Bettiah",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6862,7 +6862,7 @@ const CITY_HUBS = [
     },
     {
         id: "buxar",
-        slug: "urbania-tempo-traveller-fare-in-buxar",
+        slug: "urbania-tempo-traveller-in-buxar",
         name: "Buxar",
         state: "Bihar",
         tag: "Pilgrimage Travel Hub",
@@ -6870,7 +6870,7 @@ const CITY_HUBS = [
     },
     {
         id: "chhapra",
-        slug: "urbania-tempo-traveller-fare-in-chhapra",
+        slug: "urbania-tempo-traveller-in-chhapra",
         name: "Chhapra",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6878,7 +6878,7 @@ const CITY_HUBS = [
     },
     {
         id: "darbhanga",
-        slug: "urbania-tempo-traveller-fare-in-darbhanga",
+        slug: "urbania-tempo-traveller-in-darbhanga",
         name: "Darbhanga",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6886,7 +6886,7 @@ const CITY_HUBS = [
     },
     {
         id: "dehri",
-        slug: "urbania-tempo-traveller-fare-in-dehri",
+        slug: "urbania-tempo-traveller-in-dehri",
         name: "Dehri",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6894,7 +6894,7 @@ const CITY_HUBS = [
     },
     {
         id: "dumraon",
-        slug: "urbania-tempo-traveller-fare-in-dumraon",
+        slug: "urbania-tempo-traveller-in-dumraon",
         name: "Dumraon",
         state: "Bihar",
         tag: "Heritage Travel Hub",
@@ -6902,7 +6902,7 @@ const CITY_HUBS = [
     },
     {
         id: "gopalganj",
-        slug: "urbania-tempo-traveller-fare-in-gopalganj",
+        slug: "urbania-tempo-traveller-in-gopalganj",
         name: "Gopalganj",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6910,7 +6910,7 @@ const CITY_HUBS = [
     },
     {
         id: "jamui",
-        slug: "urbania-tempo-traveller-fare-in-jamui",
+        slug: "urbania-tempo-traveller-in-jamui",
         name: "Jamui",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6918,7 +6918,7 @@ const CITY_HUBS = [
     },
     {
         id: "jehanabad",
-        slug: "urbania-tempo-traveller-fare-in-jehanabad",
+        slug: "urbania-tempo-traveller-in-jehanabad",
         name: "Jehanabad",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6926,7 +6926,7 @@ const CITY_HUBS = [
     },
     {
         id: "katihar",
-        slug: "urbania-tempo-traveller-fare-in-katihar",
+        slug: "urbania-tempo-traveller-in-katihar",
         name: "Katihar",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6934,7 +6934,7 @@ const CITY_HUBS = [
     },
     {
         id: "kishanganj",
-        slug: "urbania-tempo-traveller-fare-in-kishanganj",
+        slug: "urbania-tempo-traveller-in-kishanganj",
         name: "Kishanganj",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6942,7 +6942,7 @@ const CITY_HUBS = [
     },
     {
         id: "lakhisarai",
-        slug: "urbania-tempo-traveller-fare-in-lakhisarai",
+        slug: "urbania-tempo-traveller-in-lakhisarai",
         name: "Lakhisarai",
         state: "Bihar",
         tag: "Pilgrimage Travel Hub",
@@ -6950,7 +6950,7 @@ const CITY_HUBS = [
     },
     {
         id: "madhubani",
-        slug: "urbania-tempo-traveller-fare-in-madhubani",
+        slug: "urbania-tempo-traveller-in-madhubani",
         name: "Madhubani",
         state: "Bihar",
         tag: "Cultural Travel Hub",
@@ -6958,7 +6958,7 @@ const CITY_HUBS = [
     },
     {
         id: "munger",
-        slug: "urbania-tempo-traveller-fare-in-munger",
+        slug: "urbania-tempo-traveller-in-munger",
         name: "Munger",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6966,7 +6966,7 @@ const CITY_HUBS = [
     },
     {
         id: "muzaffarpur",
-        slug: "urbania-tempo-traveller-fare-in-muzaffarpur",
+        slug: "urbania-tempo-traveller-in-muzaffarpur",
         name: "Muzaffarpur",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6974,7 +6974,7 @@ const CITY_HUBS = [
     },
     {
         id: "nawada",
-        slug: "urbania-tempo-traveller-fare-in-nawada",
+        slug: "urbania-tempo-traveller-in-nawada",
         name: "Nawada",
         state: "Bihar",
         tag: "Travel Hub",
@@ -6982,7 +6982,7 @@ const CITY_HUBS = [
     },
     {
         id: "purnia",
-        slug: "urbania-tempo-traveller-fare-in-purnia",
+        slug: "urbania-tempo-traveller-in-purnia",
         name: "Purnia",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6990,7 +6990,7 @@ const CITY_HUBS = [
     },
     {
         id: "samastipur",
-        slug: "urbania-tempo-traveller-fare-in-samastipur",
+        slug: "urbania-tempo-traveller-in-samastipur",
         name: "Samastipur",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -6998,7 +6998,7 @@ const CITY_HUBS = [
     },
     {
         id: "sasaram",
-        slug: "urbania-tempo-traveller-fare-in-sasaram",
+        slug: "urbania-tempo-traveller-in-sasaram",
         name: "Sasaram",
         state: "Bihar",
         tag: "Heritage Travel Hub",
@@ -7006,7 +7006,7 @@ const CITY_HUBS = [
     },
     {
         id: "siwan",
-        slug: "urbania-tempo-traveller-fare-in-siwan",
+        slug: "urbania-tempo-traveller-in-siwan",
         name: "Siwan",
         state: "Bihar",
         tag: "Major Travel Hub",
@@ -7014,7 +7014,7 @@ const CITY_HUBS = [
     },
     {
         id: "sitamarhi",
-        slug: "urbania-tempo-traveller-fare-in-sitamarhi",
+        slug: "urbania-tempo-traveller-in-sitamarhi",
         name: "Sitamarhi",
         state: "Bihar",
         tag: "Pilgrimage Travel Hub",
@@ -7022,7 +7022,7 @@ const CITY_HUBS = [
     },
     {
         id: "bokaro",
-        slug: "urbania-tempo-traveller-fare-in-bokaro",
+        slug: "urbania-tempo-traveller-in-bokaro",
         name: "Bokaro",
         state: "Jharkhand",
         tag: "Major Travel Hub",
@@ -7030,7 +7030,7 @@ const CITY_HUBS = [
     },
     {
         id: "chaibasa",
-        slug: "urbania-tempo-traveller-fare-in-chaibasa",
+        slug: "urbania-tempo-traveller-in-chaibasa",
         name: "Chaibasa",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7038,7 +7038,7 @@ const CITY_HUBS = [
     },
     {
         id: "deoghar",
-        slug: "urbania-tempo-traveller-fare-in-deoghar",
+        slug: "urbania-tempo-traveller-in-deoghar",
         name: "Deoghar",
         state: "Jharkhand",
         tag: "Pilgrimage Travel Hub",
@@ -7046,7 +7046,7 @@ const CITY_HUBS = [
     },
     {
         id: "dumka",
-        slug: "urbania-tempo-traveller-fare-in-dumka",
+        slug: "urbania-tempo-traveller-in-dumka",
         name: "Dumka",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7054,7 +7054,7 @@ const CITY_HUBS = [
     },
     {
         id: "giridih",
-        slug: "urbania-tempo-traveller-fare-in-giridih",
+        slug: "urbania-tempo-traveller-in-giridih",
         name: "Giridih",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7062,7 +7062,7 @@ const CITY_HUBS = [
     },
     {
         id: "godda",
-        slug: "urbania-tempo-traveller-fare-in-godda",
+        slug: "urbania-tempo-traveller-in-godda",
         name: "Godda",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7070,7 +7070,7 @@ const CITY_HUBS = [
     },
     {
         id: "gumla",
-        slug: "urbania-tempo-traveller-fare-in-gumla",
+        slug: "urbania-tempo-traveller-in-gumla",
         name: "Gumla",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7078,7 +7078,7 @@ const CITY_HUBS = [
     },
     {
         id: "hazaribagh",
-        slug: "urbania-tempo-traveller-fare-in-hazaribagh",
+        slug: "urbania-tempo-traveller-in-hazaribagh",
         name: "Hazaribagh",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7086,7 +7086,7 @@ const CITY_HUBS = [
     },
     {
         id: "jamtara",
-        slug: "urbania-tempo-traveller-fare-in-jamtara",
+        slug: "urbania-tempo-traveller-in-jamtara",
         name: "Jamtara",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7094,7 +7094,7 @@ const CITY_HUBS = [
     },
     {
         id: "khunti",
-        slug: "urbania-tempo-traveller-fare-in-khunti",
+        slug: "urbania-tempo-traveller-in-khunti",
         name: "Khunti",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7102,7 +7102,7 @@ const CITY_HUBS = [
     },
     {
         id: "latehar",
-        slug: "urbania-tempo-traveller-fare-in-latehar",
+        slug: "urbania-tempo-traveller-in-latehar",
         name: "Latehar",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7110,7 +7110,7 @@ const CITY_HUBS = [
     },
     {
         id: "lohargada",
-        slug: "urbania-tempo-traveller-fare-in-lohardaga",
+        slug: "urbania-tempo-traveller-in-lohardaga",
         name: "Lohardaga",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7118,7 +7118,7 @@ const CITY_HUBS = [
     },
     {
         id: "pakur",
-        slug: "urbania-tempo-traveller-fare-in-pakur",
+        slug: "urbania-tempo-traveller-in-pakur",
         name: "Pakur",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7126,7 +7126,7 @@ const CITY_HUBS = [
     },
     {
         id: "palamu",
-        slug: "urbania-tempo-traveller-fare-in-palamu",
+        slug: "urbania-tempo-traveller-in-palamu",
         name: "Palamu",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7134,7 +7134,7 @@ const CITY_HUBS = [
     },
     {
         id: "ramgarh",
-        slug: "urbania-tempo-traveller-fare-in-ramgarh",
+        slug: "urbania-tempo-traveller-in-ramgarh",
         name: "Ramgarh",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7142,7 +7142,7 @@ const CITY_HUBS = [
     },
     {
         id: "sahebganj",
-        slug: "urbania-tempo-traveller-fare-in-sahebganj",
+        slug: "urbania-tempo-traveller-in-sahebganj",
         name: "Sahebganj",
         state: "Jharkhand",
         tag: "Travel Hub",
@@ -7150,7 +7150,7 @@ const CITY_HUBS = [
     },
     {
         id: "saraikela",
-        slug: "urbania-tempo-traveller-fare-in-saraikela",
+        slug: "urbania-tempo-traveller-in-saraikela",
         name: "Saraikela",
         state: "Jharkhand",
         tag: "Cultural Travel Hub",
@@ -7158,7 +7158,7 @@ const CITY_HUBS = [
     },
     {
         id: "simdega",
-        slug: "urbania-tempo-traveller-fare-in-simdega",
+        slug: "urbania-tempo-traveller-in-simdega",
         name: "Simdega",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7166,7 +7166,7 @@ const CITY_HUBS = [
     },
     {
         id: "west-singhbhum",
-        slug: "urbania-tempo-traveller-fare-in-west-singhbhum",
+        slug: "urbania-tempo-traveller-in-west-singhbhum",
         name: "West Singhbhum",
         state: "Jharkhand",
         tag: "Nature Travel Hub",
@@ -7174,7 +7174,7 @@ const CITY_HUBS = [
     },
     {
         id: "balangir",
-        slug: "urbania-tempo-traveller-fare-in-balangir",
+        slug: "urbania-tempo-traveller-in-balangir",
         name: "Balangir",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7182,7 +7182,7 @@ const CITY_HUBS = [
     },
     {
         id: "balasore",
-        slug: "urbania-tempo-traveller-fare-in-balasore",
+        slug: "urbania-tempo-traveller-in-balasore",
         name: "Balasore",
         state: "Odisha",
         tag: "Coastal Travel Hub",
@@ -7190,7 +7190,7 @@ const CITY_HUBS = [
     },
     {
         id: "baripada",
-        slug: "urbania-tempo-traveller-fare-in-baripada",
+        slug: "urbania-tempo-traveller-in-baripada",
         name: "Baripada",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7198,7 +7198,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhadrak",
-        slug: "urbania-tempo-traveller-fare-in-bhadrak",
+        slug: "urbania-tempo-traveller-in-bhadrak",
         name: "Bhadrak",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7206,7 +7206,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhawanipatna",
-        slug: "urbania-tempo-traveller-fare-in-bhawanipatna",
+        slug: "urbania-tempo-traveller-in-bhawanipatna",
         name: "Bhawanipatna",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7214,7 +7214,7 @@ const CITY_HUBS = [
     },
     {
         id: "bolangir",
-        slug: "urbania-tempo-traveller-fare-in-bolangir",
+        slug: "urbania-tempo-traveller-in-bolangir",
         name: "Bolangir",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7222,7 +7222,7 @@ const CITY_HUBS = [
     },
     {
         id: "boudh",
-        slug: "urbania-tempo-traveller-fare-in-boudh",
+        slug: "urbania-tempo-traveller-in-boudh",
         name: "Boudh",
         state: "Odisha",
         tag: "Cultural Travel Hub",
@@ -7230,7 +7230,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhenkanal",
-        slug: "urbania-tempo-traveller-fare-in-dhenkanal",
+        slug: "urbania-tempo-traveller-in-dhenkanal",
         name: "Dhenkanal",
         state: "Odisha",
         tag: "Heritage Travel Hub",
@@ -7238,7 +7238,7 @@ const CITY_HUBS = [
     },
     {
         id: "ganjam",
-        slug: "urbania-tempo-traveller-fare-in-ganjam",
+        slug: "urbania-tempo-traveller-in-ganjam",
         name: "Ganjam",
         state: "Odisha",
         tag: "Coastal Travel Hub",
@@ -7246,7 +7246,7 @@ const CITY_HUBS = [
     },
     {
         id: "jagatsinghpur",
-        slug: "urbania-tempo-traveller-fare-in-jagatsinghpur",
+        slug: "urbania-tempo-traveller-in-jagatsinghpur",
         name: "Jagatsinghpur",
         state: "Odisha",
         tag: "Coastal Travel Hub",
@@ -7254,7 +7254,7 @@ const CITY_HUBS = [
     },
     {
         id: "jajpur",
-        slug: "urbania-tempo-traveller-fare-in-jajpur",
+        slug: "urbania-tempo-traveller-in-jajpur",
         name: "Jajpur",
         state: "Odisha",
         tag: "Pilgrimage Travel Hub",
@@ -7262,7 +7262,7 @@ const CITY_HUBS = [
     },
     {
         id: "kalahandi",
-        slug: "urbania-tempo-traveller-fare-in-kalahandi",
+        slug: "urbania-tempo-traveller-in-kalahandi",
         name: "Kalahandi",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7270,7 +7270,7 @@ const CITY_HUBS = [
     },
     {
         id: "kandhamal",
-        slug: "urbania-tempo-traveller-fare-in-kandhamal",
+        slug: "urbania-tempo-traveller-in-kandhamal",
         name: "Kandhamal",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7278,7 +7278,7 @@ const CITY_HUBS = [
     },
     {
         id: "kendrapara",
-        slug: "urbania-tempo-traveller-fare-in-kendrapara",
+        slug: "urbania-tempo-traveller-in-kendrapara",
         name: "Kendrapara",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7286,7 +7286,7 @@ const CITY_HUBS = [
     },
     {
         id: "keonjhar",
-        slug: "urbania-tempo-traveller-fare-in-keonjhar",
+        slug: "urbania-tempo-traveller-in-keonjhar",
         name: "Keonjhar",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7294,7 +7294,7 @@ const CITY_HUBS = [
     },
     {
         id: "koraput",
-        slug: "urbania-tempo-traveller-fare-in-koraput",
+        slug: "urbania-tempo-traveller-in-koraput",
         name: "Koraput",
         state: "Odisha",
         tag: "Hill Travel Hub",
@@ -7302,7 +7302,7 @@ const CITY_HUBS = [
     },
     {
         id: "malkangiri",
-        slug: "urbania-tempo-traveller-fare-in-malkangiri",
+        slug: "urbania-tempo-traveller-in-malkangiri",
         name: "Malkangiri",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7310,7 +7310,7 @@ const CITY_HUBS = [
     },
     {
         id: "mayurbhanj",
-        slug: "urbania-tempo-traveller-fare-in-mayurbhanj",
+        slug: "urbania-tempo-traveller-in-mayurbhanj",
         name: "Mayurbhanj",
         state: "Odisha",
         tag: "Wildlife Travel Hub",
@@ -7318,7 +7318,7 @@ const CITY_HUBS = [
     },
     {
         id: "nabarangpur",
-        slug: "urbania-tempo-traveller-fare-in-nabarangpur",
+        slug: "urbania-tempo-traveller-in-nabarangpur",
         name: "Nabarangpur",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7326,7 +7326,7 @@ const CITY_HUBS = [
     },
     {
         id: "nayagarh",
-        slug: "urbania-tempo-traveller-fare-in-nayagarh",
+        slug: "urbania-tempo-traveller-in-nayagarh",
         name: "Nayagarh",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7334,7 +7334,7 @@ const CITY_HUBS = [
     },
     {
         id: "nuapada",
-        slug: "urbania-tempo-traveller-fare-in-nuapada",
+        slug: "urbania-tempo-traveller-in-nuapada",
         name: "Nuapada",
         state: "Odisha",
         tag: "Travel Hub",
@@ -7342,7 +7342,7 @@ const CITY_HUBS = [
     },
     {
         id: "puri",
-        slug: "urbania-tempo-traveller-fare-in-puri",
+        slug: "urbania-tempo-traveller-in-puri",
         name: "Puri",
         state: "Odisha",
         tag: "Pilgrimage Travel Hub",
@@ -7350,7 +7350,7 @@ const CITY_HUBS = [
     },
     {
         id: "rayagada",
-        slug: "urbania-tempo-traveller-fare-in-rayagada",
+        slug: "urbania-tempo-traveller-in-rayagada",
         name: "Rayagada",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7358,7 +7358,7 @@ const CITY_HUBS = [
     },
     {
         id: "sambalpur",
-        slug: "urbania-tempo-traveller-fare-in-sambalpur",
+        slug: "urbania-tempo-traveller-in-sambalpur",
         name: "Sambalpur",
         state: "Odisha",
         tag: "Major Travel Hub",
@@ -7366,7 +7366,7 @@ const CITY_HUBS = [
     },
     {
         id: "subarnapur",
-        slug: "urbania-tempo-traveller-fare-in-subarnapur",
+        slug: "urbania-tempo-traveller-in-subarnapur",
         name: "Subarnapur",
         state: "Odisha",
         tag: "Cultural Travel Hub",
@@ -7374,7 +7374,7 @@ const CITY_HUBS = [
     },
     {
         id: "sundargarh",
-        slug: "urbania-tempo-traveller-fare-in-sundargarh",
+        slug: "urbania-tempo-traveller-in-sundargarh",
         name: "Sundargarh",
         state: "Odisha",
         tag: "Nature Travel Hub",
@@ -7382,7 +7382,7 @@ const CITY_HUBS = [
     },
     {
         id: "barpeta",
-        slug: "urbania-tempo-traveller-fare-in-barpeta",
+        slug: "urbania-tempo-traveller-in-barpeta",
         name: "Barpeta",
         state: "Assam",
         tag: "Cultural Travel Hub",
@@ -7390,7 +7390,7 @@ const CITY_HUBS = [
     },
     {
         id: "bongaigaon",
-        slug: "urbania-tempo-traveller-fare-in-bongaigaon",
+        slug: "urbania-tempo-traveller-in-bongaigaon",
         name: "Bongaigaon",
         state: "Assam",
         tag: "Travel Hub",
@@ -7398,7 +7398,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhubri",
-        slug: "urbania-tempo-traveller-fare-in-dhubri",
+        slug: "urbania-tempo-traveller-in-dhubri",
         name: "Dhubri",
         state: "Assam",
         tag: "Cultural Travel Hub",
@@ -7406,7 +7406,7 @@ const CITY_HUBS = [
     },
     {
         id: "dibrugarh",
-        slug: "urbania-tempo-traveller-fare-in-dibrugarh",
+        slug: "urbania-tempo-traveller-in-dibrugarh",
         name: "Dibrugarh",
         state: "Assam",
         tag: "Major Travel Hub",
@@ -7414,7 +7414,7 @@ const CITY_HUBS = [
     },
     {
         id: "goalpara",
-        slug: "urbania-tempo-traveller-fare-in-goalpara",
+        slug: "urbania-tempo-traveller-in-goalpara",
         name: "Goalpara",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7422,7 +7422,7 @@ const CITY_HUBS = [
     },
     {
         id: "golaghat",
-        slug: "urbania-tempo-traveller-fare-in-golaghat",
+        slug: "urbania-tempo-traveller-in-golaghat",
         name: "Golaghat",
         state: "Assam",
         tag: "Wildlife Travel Hub",
@@ -7430,7 +7430,7 @@ const CITY_HUBS = [
     },
     {
         id: "haflong",
-        slug: "urbania-tempo-traveller-fare-in-haflong",
+        slug: "urbania-tempo-traveller-in-haflong",
         name: "Haflong",
         state: "Assam",
         tag: "Hill Travel Hub",
@@ -7438,7 +7438,7 @@ const CITY_HUBS = [
     },
     {
         id: "hailakandi",
-        slug: "urbania-tempo-traveller-fare-in-hailakandi",
+        slug: "urbania-tempo-traveller-in-hailakandi",
         name: "Hailakandi",
         state: "Assam",
         tag: "Travel Hub",
@@ -7446,7 +7446,7 @@ const CITY_HUBS = [
     },
     {
         id: "jorhat",
-        slug: "urbania-tempo-traveller-fare-in-jorhat",
+        slug: "urbania-tempo-traveller-in-jorhat",
         name: "Jorhat",
         state: "Assam",
         tag: "Tea Travel Hub",
@@ -7454,7 +7454,7 @@ const CITY_HUBS = [
     },
     {
         id: "karimganj",
-        slug: "urbania-tempo-traveller-fare-in-karimganj",
+        slug: "urbania-tempo-traveller-in-karimganj",
         name: "Karimganj",
         state: "Assam",
         tag: "Travel Hub",
@@ -7462,7 +7462,7 @@ const CITY_HUBS = [
     },
     {
         id: "kokrajhar",
-        slug: "urbania-tempo-traveller-fare-in-kokrajhar",
+        slug: "urbania-tempo-traveller-in-kokrajhar",
         name: "Kokrajhar",
         state: "Assam",
         tag: "Cultural Travel Hub",
@@ -7470,7 +7470,7 @@ const CITY_HUBS = [
     },
     {
         id: "lakhimpur",
-        slug: "urbania-tempo-traveller-fare-in-lakhimpur",
+        slug: "urbania-tempo-traveller-in-lakhimpur",
         name: "Lakhimpur",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7478,7 +7478,7 @@ const CITY_HUBS = [
     },
     {
         id: "marigaon",
-        slug: "urbania-tempo-traveller-fare-in-marigaon",
+        slug: "urbania-tempo-traveller-in-marigaon",
         name: "Marigaon",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7486,7 +7486,7 @@ const CITY_HUBS = [
     },
     {
         id: "nagaon",
-        slug: "urbania-tempo-traveller-fare-in-nagaon",
+        slug: "urbania-tempo-traveller-in-nagaon",
         name: "Nagaon",
         state: "Assam",
         tag: "Major Travel Hub",
@@ -7494,7 +7494,7 @@ const CITY_HUBS = [
     },
     {
         id: "nalbari",
-        slug: "urbania-tempo-traveller-fare-in-nalbari",
+        slug: "urbania-tempo-traveller-in-nalbari",
         name: "Nalbari",
         state: "Assam",
         tag: "Cultural Travel Hub",
@@ -7502,7 +7502,7 @@ const CITY_HUBS = [
     },
     {
         id: "sibsagar",
-        slug: "urbania-tempo-traveller-fare-in-sibsagar",
+        slug: "urbania-tempo-traveller-in-sibsagar",
         name: "Sibsagar",
         state: "Assam",
         tag: "Heritage Travel Hub",
@@ -7510,7 +7510,7 @@ const CITY_HUBS = [
     },
     {
         id: "sonitpur",
-        slug: "urbania-tempo-traveller-fare-in-sonitpur",
+        slug: "urbania-tempo-traveller-in-sonitpur",
         name: "Sonitpur",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7518,7 +7518,7 @@ const CITY_HUBS = [
     },
     {
         id: "tinsukia",
-        slug: "urbania-tempo-traveller-fare-in-tinsukia",
+        slug: "urbania-tempo-traveller-in-tinsukia",
         name: "Tinsukia",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7526,7 +7526,7 @@ const CITY_HUBS = [
     },
     {
         id: "udalguri",
-        slug: "urbania-tempo-traveller-fare-in-udalguri",
+        slug: "urbania-tempo-traveller-in-udalguri",
         name: "Udalguri",
         state: "Assam",
         tag: "Nature Travel Hub",
@@ -7534,7 +7534,7 @@ const CITY_HUBS = [
     },
     {
         id: "shillong",
-        slug: "urbania-tempo-traveller-fare-in-shillong",
+        slug: "urbania-tempo-traveller-in-shillong",
         name: "Shillong",
         state: "Meghalaya",
         tag: "Major Hill Travel Hub",
@@ -7542,7 +7542,7 @@ const CITY_HUBS = [
     },
     {
         id: "tura",
-        slug: "urbania-tempo-traveller-fare-in-tura",
+        slug: "urbania-tempo-traveller-in-tura",
         name: "Tura",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7550,7 +7550,7 @@ const CITY_HUBS = [
     },
     {
         id: "jowai",
-        slug: "urbania-tempo-traveller-fare-in-jowai",
+        slug: "urbania-tempo-traveller-in-jowai",
         name: "Jowai",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7558,7 +7558,7 @@ const CITY_HUBS = [
     },
     {
         id: "nongstoin",
-        slug: "urbania-tempo-traveller-fare-in-nongstoin",
+        slug: "urbania-tempo-traveller-in-nongstoin",
         name: "Nongstoin",
         state: "Meghalaya",
         tag: "Hill Travel Hub",
@@ -7566,7 +7566,7 @@ const CITY_HUBS = [
     },
     {
         id: "williamnagar",
-        slug: "urbania-tempo-traveller-fare-in-williamnagar",
+        slug: "urbania-tempo-traveller-in-williamnagar",
         name: "Williamnagar",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7574,7 +7574,7 @@ const CITY_HUBS = [
     },
     {
         id: "baghmara",
-        slug: "urbania-tempo-traveller-fare-in-baghmara",
+        slug: "urbania-tempo-traveller-in-baghmara",
         name: "Baghmara",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7582,7 +7582,7 @@ const CITY_HUBS = [
     },
     {
         id: "resubelpara",
-        slug: "urbania-tempo-traveller-fare-in-resubelpara",
+        slug: "urbania-tempo-traveller-in-resubelpara",
         name: "Resubelpara",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7590,7 +7590,7 @@ const CITY_HUBS = [
     },
     {
         id: "ampati",
-        slug: "urbania-tempo-traveller-fare-in-ampati",
+        slug: "urbania-tempo-traveller-in-ampati",
         name: "Ampati",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7598,7 +7598,7 @@ const CITY_HUBS = [
     },
     {
         id: "khliehriat",
-        slug: "urbania-tempo-traveller-fare-in-khliehriat",
+        slug: "urbania-tempo-traveller-in-khliehriat",
         name: "Khliehriat",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7606,7 +7606,7 @@ const CITY_HUBS = [
     },
     {
         id: "mairang",
-        slug: "urbania-tempo-traveller-fare-in-mairang",
+        slug: "urbania-tempo-traveller-in-mairang",
         name: "Mairang",
         state: "Meghalaya",
         tag: "Hill Travel Hub",
@@ -7614,7 +7614,7 @@ const CITY_HUBS = [
     },
     {
         id: "mawkyrwat",
-        slug: "urbania-tempo-traveller-fare-in-mawkyrwat",
+        slug: "urbania-tempo-traveller-in-mawkyrwat",
         name: "Mawkyrwat",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7622,7 +7622,7 @@ const CITY_HUBS = [
     },
     {
         id: "nongpoh",
-        slug: "urbania-tempo-traveller-fare-in-nongpoh",
+        slug: "urbania-tempo-traveller-in-nongpoh",
         name: "Nongpoh",
         state: "Meghalaya",
         tag: "Hill Travel Hub",
@@ -7630,7 +7630,7 @@ const CITY_HUBS = [
     },
     {
         id: "rongram",
-        slug: "urbania-tempo-traveller-fare-in-rongram",
+        slug: "urbania-tempo-traveller-in-rongram",
         name: "Rongram",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7638,7 +7638,7 @@ const CITY_HUBS = [
     },
     {
         id: "selsella",
-        slug: "urbania-tempo-traveller-fare-in-selsella",
+        slug: "urbania-tempo-traveller-in-selsella",
         name: "Selsella",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7646,7 +7646,7 @@ const CITY_HUBS = [
     },
     {
         id: "shangpung",
-        slug: "urbania-tempo-traveller-fare-in-shangpung",
+        slug: "urbania-tempo-traveller-in-shangpung",
         name: "Shangpung",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7654,7 +7654,7 @@ const CITY_HUBS = [
     },
     {
         id: "thadlaskein",
-        slug: "urbania-tempo-traveller-fare-in-thadlaskein",
+        slug: "urbania-tempo-traveller-in-thadlaskein",
         name: "Thadlaskein",
         state: "Meghalaya",
         tag: "Nature Travel Hub",
@@ -7662,7 +7662,7 @@ const CITY_HUBS = [
     },
     {
         id: "imphal",
-        slug: "urbania-tempo-traveller-fare-in-imphal",
+        slug: "urbania-tempo-traveller-in-imphal",
         name: "Imphal",
         state: "Manipur",
         tag: "Major Travel Hub",
@@ -7670,7 +7670,7 @@ const CITY_HUBS = [
     },
     {
         id: "thoubal",
-        slug: "urbania-tempo-traveller-fare-in-thoubal",
+        slug: "urbania-tempo-traveller-in-thoubal",
         name: "Thoubal",
         state: "Manipur",
         tag: "Nature Travel Hub",
@@ -7678,7 +7678,7 @@ const CITY_HUBS = [
     },
     {
         id: "bishnupur",
-        slug: "urbania-tempo-traveller-fare-in-bishnupur",
+        slug: "urbania-tempo-traveller-in-bishnupur",
         name: "Bishnupur",
         state: "Manipur",
         tag: "Heritage Travel Hub",
@@ -7686,7 +7686,7 @@ const CITY_HUBS = [
     },
     {
         id: "churachandpur",
-        slug: "urbania-tempo-traveller-fare-in-churachandpur",
+        slug: "urbania-tempo-traveller-in-churachandpur",
         name: "Churachandpur",
         state: "Manipur",
         tag: "Nature Travel Hub",
@@ -7694,7 +7694,7 @@ const CITY_HUBS = [
     },
     {
         id: "kakching",
-        slug: "urbania-tempo-traveller-fare-in-kakching",
+        slug: "urbania-tempo-traveller-in-kakching",
         name: "Kakching",
         state: "Manipur",
         tag: "Travel Hub",
@@ -7702,7 +7702,7 @@ const CITY_HUBS = [
     },
     {
         id: "kangpokpi",
-        slug: "urbania-tempo-traveller-fare-in-kangpokpi",
+        slug: "urbania-tempo-traveller-in-kangpokpi",
         name: "Kangpokpi",
         state: "Manipur",
         tag: "Hill Travel Hub",
@@ -7710,7 +7710,7 @@ const CITY_HUBS = [
     },
     {
         id: "senapati",
-        slug: "urbania-tempo-traveller-fare-in-senapati",
+        slug: "urbania-tempo-traveller-in-senapati",
         name: "Senapati",
         state: "Manipur",
         tag: "Nature Travel Hub",
@@ -7718,7 +7718,7 @@ const CITY_HUBS = [
     },
     {
         id: "tamenglong",
-        slug: "urbania-tempo-traveller-fare-in-tamenglong",
+        slug: "urbania-tempo-traveller-in-tamenglong",
         name: "Tamenglong",
         state: "Manipur",
         tag: "Nature Travel Hub",
@@ -7726,7 +7726,7 @@ const CITY_HUBS = [
     },
     {
         id: "ukhrul",
-        slug: "urbania-tempo-traveller-fare-in-ukhrul",
+        slug: "urbania-tempo-traveller-in-ukhrul",
         name: "Ukhrul",
         state: "Manipur",
         tag: "Hill Travel Hub",
@@ -7734,7 +7734,7 @@ const CITY_HUBS = [
     },
     {
         id: "chandel",
-        slug: "urbania-tempo-traveller-fare-in-chandel",
+        slug: "urbania-tempo-traveller-in-chandel",
         name: "Chandel",
         state: "Manipur",
         tag: "Nature Travel Hub",
@@ -7742,7 +7742,7 @@ const CITY_HUBS = [
     },
     {
         id: "aizawl",
-        slug: "urbania-tempo-traveller-fare-in-aizawl",
+        slug: "urbania-tempo-traveller-in-aizawl",
         name: "Aizawl",
         state: "Mizoram",
         tag: "Major Hill Travel Hub",
@@ -7750,7 +7750,7 @@ const CITY_HUBS = [
     },
     {
         id: "lunglei",
-        slug: "urbania-tempo-traveller-fare-in-lunglei",
+        slug: "urbania-tempo-traveller-in-lunglei",
         name: "Lunglei",
         state: "Mizoram",
         tag: "Hill Travel Hub",
@@ -7758,7 +7758,7 @@ const CITY_HUBS = [
     },
     {
         id: "siaha",
-        slug: "urbania-tempo-traveller-fare-in-siaha",
+        slug: "urbania-tempo-traveller-in-siaha",
         name: "Siaha",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7766,7 +7766,7 @@ const CITY_HUBS = [
     },
     {
         id: "champhai",
-        slug: "urbania-tempo-traveller-fare-in-champhai",
+        slug: "urbania-tempo-traveller-in-champhai",
         name: "Champhai",
         state: "Mizoram",
         tag: "Hill Travel Hub",
@@ -7774,7 +7774,7 @@ const CITY_HUBS = [
     },
     {
         id: "kolasib",
-        slug: "urbania-tempo-traveller-fare-in-kolasib",
+        slug: "urbania-tempo-traveller-in-kolasib",
         name: "Kolasib",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7782,7 +7782,7 @@ const CITY_HUBS = [
     },
     {
         id: "lawngtlai",
-        slug: "urbania-tempo-traveller-fare-in-lawngtlai",
+        slug: "urbania-tempo-traveller-in-lawngtlai",
         name: "Lawngtlai",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7790,7 +7790,7 @@ const CITY_HUBS = [
     },
     {
         id: "mamit",
-        slug: "urbania-tempo-traveller-fare-in-mamit",
+        slug: "urbania-tempo-traveller-in-mamit",
         name: "Mamit",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7798,7 +7798,7 @@ const CITY_HUBS = [
     },
     {
         id: "saiha",
-        slug: "urbania-tempo-traveller-fare-in-saiha",
+        slug: "urbania-tempo-traveller-in-saiha",
         name: "Saiha",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7806,7 +7806,7 @@ const CITY_HUBS = [
     },
     {
         id: "serchhip",
-        slug: "urbania-tempo-traveller-fare-in-serchhip",
+        slug: "urbania-tempo-traveller-in-serchhip",
         name: "Serchhip",
         state: "Mizoram",
         tag: "Nature Travel Hub",
@@ -7814,7 +7814,7 @@ const CITY_HUBS = [
     },
     {
         id: "kohima",
-        slug: "urbania-tempo-traveller-fare-in-kohima",
+        slug: "urbania-tempo-traveller-in-kohima",
         name: "Kohima",
         state: "Nagaland",
         tag: "Major Hill Travel Hub",
@@ -7822,7 +7822,7 @@ const CITY_HUBS = [
     },
     {
         id: "dimapur",
-        slug: "urbania-tempo-traveller-fare-in-dimapur",
+        slug: "urbania-tempo-traveller-in-dimapur",
         name: "Dimapur",
         state: "Nagaland",
         tag: "Major Travel Hub",
@@ -7830,7 +7830,7 @@ const CITY_HUBS = [
     },
     {
         id: "mokokchung",
-        slug: "urbania-tempo-traveller-fare-in-mokokchung",
+        slug: "urbania-tempo-traveller-in-mokokchung",
         name: "Mokokchung",
         state: "Nagaland",
         tag: "Hill Travel Hub",
@@ -7838,7 +7838,7 @@ const CITY_HUBS = [
     },
     {
         id: "tuensang",
-        slug: "urbania-tempo-traveller-fare-in-tuensang",
+        slug: "urbania-tempo-traveller-in-tuensang",
         name: "Tuensang",
         state: "Nagaland",
         tag: "Hill Travel Hub",
@@ -7846,7 +7846,7 @@ const CITY_HUBS = [
     },
     {
         id: "wokha",
-        slug: "urbania-tempo-traveller-fare-in-wokha",
+        slug: "urbania-tempo-traveller-in-wokha",
         name: "Wokha",
         state: "Nagaland",
         tag: "Nature Travel Hub",
@@ -7854,7 +7854,7 @@ const CITY_HUBS = [
     },
     {
         id: "zunheboto",
-        slug: "urbania-tempo-traveller-fare-in-zunheboto",
+        slug: "urbania-tempo-traveller-in-zunheboto",
         name: "Zunheboto",
         state: "Nagaland",
         tag: "Hill Travel Hub",
@@ -7862,7 +7862,7 @@ const CITY_HUBS = [
     },
     {
         id: "phek",
-        slug: "urbania-tempo-traveller-fare-in-phek",
+        slug: "urbania-tempo-traveller-in-phek",
         name: "Phek",
         state: "Nagaland",
         tag: "Nature Travel Hub",
@@ -7870,7 +7870,7 @@ const CITY_HUBS = [
     },
     {
         id: "kiphire",
-        slug: "urbania-tempo-traveller-fare-in-kiphire",
+        slug: "urbania-tempo-traveller-in-kiphire",
         name: "Kiphire",
         state: "Nagaland",
         tag: "Hill Travel Hub",
@@ -7878,7 +7878,7 @@ const CITY_HUBS = [
     },
     {
         id: "longleng",
-        slug: "urbania-tempo-traveller-fare-in-longleng",
+        slug: "urbania-tempo-traveller-in-longleng",
         name: "Longleng",
         state: "Nagaland",
         tag: "Hill Travel Hub",
@@ -7886,7 +7886,7 @@ const CITY_HUBS = [
     },
     {
         id: "mon",
-        slug: "urbania-tempo-traveller-fare-in-mon",
+        slug: "urbania-tempo-traveller-in-mon",
         name: "Mon",
         state: "Nagaland",
         tag: "Cultural Travel Hub",
@@ -7894,7 +7894,7 @@ const CITY_HUBS = [
     },
     {
         id: "peren",
-        slug: "urbania-tempo-traveller-fare-in-peren",
+        slug: "urbania-tempo-traveller-in-peren",
         name: "Peren",
         state: "Nagaland",
         tag: "Nature Travel Hub",
@@ -7902,7 +7902,7 @@ const CITY_HUBS = [
     },
     {
         id: "agartala",
-        slug: "urbania-tempo-traveller-fare-in-agartala",
+        slug: "urbania-tempo-traveller-in-agartala",
         name: "Agartala",
         state: "Tripura",
         tag: "Major Travel Hub",
@@ -7910,7 +7910,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhalai",
-        slug: "urbania-tempo-traveller-fare-in-dhalai",
+        slug: "urbania-tempo-traveller-in-dhalai",
         name: "Dhalai",
         state: "Tripura",
         tag: "Nature Travel Hub",
@@ -7918,7 +7918,7 @@ const CITY_HUBS = [
     },
     {
         id: "gomati",
-        slug: "urbania-tempo-traveller-fare-in-gomati",
+        slug: "urbania-tempo-traveller-in-gomati",
         name: "Gomati",
         state: "Tripura",
         tag: "Nature Travel Hub",
@@ -7926,7 +7926,7 @@ const CITY_HUBS = [
     },
     {
         id: "khowai",
-        slug: "urbania-tempo-traveller-fare-in-khowai",
+        slug: "urbania-tempo-traveller-in-khowai",
         name: "Khowai",
         state: "Tripura",
         tag: "Nature Travel Hub",
@@ -7934,7 +7934,7 @@ const CITY_HUBS = [
     },
     {
         id: "north-tripura",
-        slug: "urbania-tempo-traveller-fare-in-north-tripura",
+        slug: "urbania-tempo-traveller-in-north-tripura",
         name: "North Tripura",
         state: "Tripura",
         tag: "Nature Travel Hub",
@@ -7942,7 +7942,7 @@ const CITY_HUBS = [
     },
     {
         id: "sepahijala",
-        slug: "urbania-tempo-traveller-fare-in-sepahijala",
+        slug: "urbania-tempo-traveller-in-sepahijala",
         name: "Sepahijala",
         state: "Tripura",
         tag: "Wildlife Travel Hub",
@@ -7950,7 +7950,7 @@ const CITY_HUBS = [
     },
     {
         id: "south-tripura",
-        slug: "urbania-tempo-traveller-fare-in-south-tripura",
+        slug: "urbania-tempo-traveller-in-south-tripura",
         name: "South Tripura",
         state: "Tripura",
         tag: "Travel Hub",
@@ -7958,7 +7958,7 @@ const CITY_HUBS = [
     },
     {
         id: "unakoti",
-        slug: "urbania-tempo-traveller-fare-in-unakoti",
+        slug: "urbania-tempo-traveller-in-unakoti",
         name: "Unakoti",
         state: "Tripura",
         tag: "Heritage Travel Hub",
@@ -7966,7 +7966,7 @@ const CITY_HUBS = [
     },
     {
         id: "west-tripura",
-        slug: "urbania-tempo-traveller-fare-in-west-tripura",
+        slug: "urbania-tempo-traveller-in-west-tripura",
         name: "West Tripura",
         state: "Tripura",
         tag: "Travel Hub",
@@ -7974,7 +7974,7 @@ const CITY_HUBS = [
     },
     {
         id: "itanagar",
-        slug: "urbania-tempo-traveller-fare-in-itanagar",
+        slug: "urbania-tempo-traveller-in-itanagar",
         name: "Itanagar",
         state: "Arunachal Pradesh",
         tag: "Major Travel Hub",
@@ -7982,7 +7982,7 @@ const CITY_HUBS = [
     },
     {
         id: "tawang",
-        slug: "urbania-tempo-traveller-fare-in-tawang",
+        slug: "urbania-tempo-traveller-in-tawang",
         name: "Tawang",
         state: "Arunachal Pradesh",
         tag: "Hill Travel Hub",
@@ -7990,7 +7990,7 @@ const CITY_HUBS = [
     },
     {
         id: "west-kameng",
-        slug: "urbania-tempo-traveller-fare-in-west-kameng",
+        slug: "urbania-tempo-traveller-in-west-kameng",
         name: "West Kameng",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -7998,7 +7998,7 @@ const CITY_HUBS = [
     },
     {
         id: "east-kameng",
-        slug: "urbania-tempo-traveller-fare-in-east-kameng",
+        slug: "urbania-tempo-traveller-in-east-kameng",
         name: "East Kameng",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8006,7 +8006,7 @@ const CITY_HUBS = [
     },
     {
         id: "papum-pare",
-        slug: "urbania-tempo-traveller-fare-in-papum-pare",
+        slug: "urbania-tempo-traveller-in-papum-pare",
         name: "Papum Pare",
         state: "Arunachal Pradesh",
         tag: "Travel Hub",
@@ -8014,7 +8014,7 @@ const CITY_HUBS = [
     },
     {
         id: "kurung-kumey",
-        slug: "urbania-tempo-traveller-fare-in-kurung-kumey",
+        slug: "urbania-tempo-traveller-in-kurung-kumey",
         name: "Kurung Kumey",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8022,7 +8022,7 @@ const CITY_HUBS = [
     },
     {
         id: "kra-daadi",
-        slug: "urbania-tempo-traveller-fare-in-kra-daadi",
+        slug: "urbania-tempo-traveller-in-kra-daadi",
         name: "Kra Daadi",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8030,7 +8030,7 @@ const CITY_HUBS = [
     },
     {
         id: "lower-subansiri",
-        slug: "urbania-tempo-traveller-fare-in-lower-subansiri",
+        slug: "urbania-tempo-traveller-in-lower-subansiri",
         name: "Lower Subansiri",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8038,7 +8038,7 @@ const CITY_HUBS = [
     },
     {
         id: "upper-subansiri",
-        slug: "urbania-tempo-traveller-fare-in-upper-subansiri",
+        slug: "urbania-tempo-traveller-in-upper-subansiri",
         name: "Upper Subansiri",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8046,7 +8046,7 @@ const CITY_HUBS = [
     },
     {
         id: "west-siang",
-        slug: "urbania-tempo-traveller-fare-in-west-siang",
+        slug: "urbania-tempo-traveller-in-west-siang",
         name: "West Siang",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8054,7 +8054,7 @@ const CITY_HUBS = [
     },
     {
         id: "east-siang",
-        slug: "urbania-tempo-traveller-fare-in-east-siang",
+        slug: "urbania-tempo-traveller-in-east-siang",
         name: "East Siang",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8062,7 +8062,7 @@ const CITY_HUBS = [
     },
     {
         id: "siang",
-        slug: "urbania-tempo-traveller-fare-in-siang",
+        slug: "urbania-tempo-traveller-in-siang",
         name: "Siang",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8070,7 +8070,7 @@ const CITY_HUBS = [
     },
     {
         id: "upper-siang",
-        slug: "urbania-tempo-traveller-fare-in-upper-siang",
+        slug: "urbania-tempo-traveller-in-upper-siang",
         name: "Upper Siang",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8078,7 +8078,7 @@ const CITY_HUBS = [
     },
     {
         id: "lower-dibang-valley",
-        slug: "urbania-tempo-traveller-fare-in-lower-dibang-valley",
+        slug: "urbania-tempo-traveller-in-lower-dibang-valley",
         name: "Lower Dibang Valley",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8086,7 +8086,7 @@ const CITY_HUBS = [
     },
     {
         id: "dibang-valley",
-        slug: "urbania-tempo-traveller-fare-in-dibang-valley",
+        slug: "urbania-tempo-traveller-in-dibang-valley",
         name: "Dibang Valley",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8094,7 +8094,7 @@ const CITY_HUBS = [
     },
     {
         id: "upper-dibang-valley",
-        slug: "urbania-tempo-traveller-fare-in-upper-dibang-valley",
+        slug: "urbania-tempo-traveller-in-upper-dibang-valley",
         name: "Upper Dibang Valley",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8102,7 +8102,7 @@ const CITY_HUBS = [
     },
     {
         id: "lohit",
-        slug: "urbania-tempo-traveller-fare-in-lohit",
+        slug: "urbania-tempo-traveller-in-lohit",
         name: "Lohit",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8110,7 +8110,7 @@ const CITY_HUBS = [
     },
     {
         id: "changlang",
-        slug: "urbania-tempo-traveller-fare-in-changlang",
+        slug: "urbania-tempo-traveller-in-changlang",
         name: "Changlang",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8118,7 +8118,7 @@ const CITY_HUBS = [
     },
     {
         id: "tirap",
-        slug: "urbania-tempo-traveller-fare-in-tirap",
+        slug: "urbania-tempo-traveller-in-tirap",
         name: "Tirap",
         state: "Arunachal Pradesh",
         tag: "Nature Travel Hub",
@@ -8126,7 +8126,7 @@ const CITY_HUBS = [
     },
     {
         id: "namsai",
-        slug: "urbania-tempo-traveller-fare-in-namsai",
+        slug: "urbania-tempo-traveller-in-namsai",
         name: "Namsai",
         state: "Arunachal Pradesh",
         tag: "Cultural Travel Hub",
@@ -8135,7 +8135,7 @@ const CITY_HUBS = [
     // 16 Sep routes
     {
         id: "gangtok",
-        slug: "urbania-tempo-traveller-fare-in-gangtok",
+        slug: "urbania-tempo-traveller-in-gangtok",
         name: "Gangtok",
         state: "Sikkim",
         tag: "Major Hill Travel Hub",
@@ -8143,7 +8143,7 @@ const CITY_HUBS = [
     },
     {
         id: "namchi",
-        slug: "urbania-tempo-traveller-fare-in-namchi",
+        slug: "urbania-tempo-traveller-in-namchi",
         name: "Namchi",
         state: "Sikkim",
         tag: "Hill Travel Hub",
@@ -8151,7 +8151,7 @@ const CITY_HUBS = [
     },
     {
         id: "gyalshing",
-        slug: "urbania-tempo-traveller-fare-in-gyalshing",
+        slug: "urbania-tempo-traveller-in-gyalshing",
         name: "Gyalshing",
         state: "Sikkim",
         tag: "Hill Travel Hub",
@@ -8159,7 +8159,7 @@ const CITY_HUBS = [
     },
     {
         id: "melli",
-        slug: "urbania-tempo-traveller-fare-in-melli",
+        slug: "urbania-tempo-traveller-in-melli",
         name: "Melli",
         state: "Sikkim",
         tag: "Nature Travel Hub",
@@ -8167,7 +8167,7 @@ const CITY_HUBS = [
     },
     {
         id: "rangpo",
-        slug: "urbania-tempo-traveller-fare-in-rangpo",
+        slug: "urbania-tempo-traveller-in-rangpo",
         name: "Rangpo",
         state: "Sikkim",
         tag: "Travel Hub",
@@ -8175,7 +8175,7 @@ const CITY_HUBS = [
     },
     {
         id: "singtam",
-        slug: "urbania-tempo-traveller-fare-in-singtam",
+        slug: "urbania-tempo-traveller-in-singtam",
         name: "Singtam",
         state: "Sikkim",
         tag: "Nature Travel Hub",
@@ -8183,7 +8183,7 @@ const CITY_HUBS = [
     },
     {
         id: "jorthang",
-        slug: "urbania-tempo-traveller-fare-in-jorthang",
+        slug: "urbania-tempo-traveller-in-jorthang",
         name: "Jorthang",
         state: "Sikkim",
         tag: "Hill Travel Hub",
@@ -8191,7 +8191,7 @@ const CITY_HUBS = [
     },
     {
         id: "ravangla",
-        slug: "urbania-tempo-traveller-fare-in-ravangla",
+        slug: "urbania-tempo-traveller-in-ravangla",
         name: "Ravangla",
         state: "Sikkim",
         tag: "Hill Travel Hub",
@@ -8199,7 +8199,7 @@ const CITY_HUBS = [
     },
     {
         id: "soreng",
-        slug: "urbania-tempo-traveller-fare-in-soreng",
+        slug: "urbania-tempo-traveller-in-soreng",
         name: "Soreng",
         state: "Sikkim",
         tag: "Nature Travel Hub",
@@ -8207,7 +8207,7 @@ const CITY_HUBS = [
     },
     {
         id: "yuksom",
-        slug: "urbania-tempo-traveller-fare-in-yuksom",
+        slug: "urbania-tempo-traveller-in-yuksom",
         name: "Yuksom",
         state: "Sikkim",
         tag: "Heritage Travel Hub",
@@ -8215,7 +8215,7 @@ const CITY_HUBS = [
     },
     {
         id: "agar-malwa",
-        slug: "urbania-tempo-traveller-fare-in-agar-malwa",
+        slug: "urbania-tempo-traveller-in-agar-malwa",
         name: "Agar Malwa",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8223,7 +8223,7 @@ const CITY_HUBS = [
     },
     {
         id: "alirajpur",
-        slug: "urbania-tempo-traveller-fare-in-alirajpur",
+        slug: "urbania-tempo-traveller-in-alirajpur",
         name: "Alirajpur",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8231,7 +8231,7 @@ const CITY_HUBS = [
     },
     {
         id: "anuppur",
-        slug: "urbania-tempo-traveller-fare-in-anuppur",
+        slug: "urbania-tempo-traveller-in-anuppur",
         name: "Anuppur",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8239,7 +8239,7 @@ const CITY_HUBS = [
     },
     {
         id: "ashoknagar",
-        slug: "urbania-tempo-traveller-fare-in-ashoknagar",
+        slug: "urbania-tempo-traveller-in-ashoknagar",
         name: "Ashoknagar",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8247,7 +8247,7 @@ const CITY_HUBS = [
     },
     {
         id: "balaghat",
-        slug: "urbania-tempo-traveller-fare-in-balaghat",
+        slug: "urbania-tempo-traveller-in-balaghat",
         name: "Balaghat",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8255,7 +8255,7 @@ const CITY_HUBS = [
     },
     {
         id: "betul",
-        slug: "urbania-tempo-traveller-fare-in-betul",
+        slug: "urbania-tempo-traveller-in-betul",
         name: "Betul",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8263,7 +8263,7 @@ const CITY_HUBS = [
     },
     {
         id: "bhind",
-        slug: "urbania-tempo-traveller-fare-in-bhind",
+        slug: "urbania-tempo-traveller-in-bhind",
         name: "Bhind",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8271,7 +8271,7 @@ const CITY_HUBS = [
     },
     {
         id: "chhatarpur",
-        slug: "urbania-tempo-traveller-fare-in-chhatarpur",
+        slug: "urbania-tempo-traveller-in-chhatarpur",
         name: "Chhatarpur",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8279,7 +8279,7 @@ const CITY_HUBS = [
     },
     {
         id: "damoh",
-        slug: "urbania-tempo-traveller-fare-in-damoh",
+        slug: "urbania-tempo-traveller-in-damoh",
         name: "Damoh",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8287,7 +8287,7 @@ const CITY_HUBS = [
     },
     {
         id: "datia",
-        slug: "urbania-tempo-traveller-fare-in-datia",
+        slug: "urbania-tempo-traveller-in-datia",
         name: "Datia",
         state: "Madhya Pradesh",
         tag: "Pilgrimage Travel Hub",
@@ -8295,7 +8295,7 @@ const CITY_HUBS = [
     },
     {
         id: "dewas",
-        slug: "urbania-tempo-traveller-fare-in-dewas",
+        slug: "urbania-tempo-traveller-in-dewas",
         name: "Dewas",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8303,7 +8303,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhar",
-        slug: "urbania-tempo-traveller-fare-in-dhar",
+        slug: "urbania-tempo-traveller-in-dhar",
         name: "Dhar",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8311,7 +8311,7 @@ const CITY_HUBS = [
     },
     {
         id: "dindori",
-        slug: "urbania-tempo-traveller-fare-in-dindori",
+        slug: "urbania-tempo-traveller-in-dindori",
         name: "Dindori",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8319,7 +8319,7 @@ const CITY_HUBS = [
     },
     {
         id: "guna",
-        slug: "urbania-tempo-traveller-fare-in-guna",
+        slug: "urbania-tempo-traveller-in-guna",
         name: "Guna",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8327,7 +8327,7 @@ const CITY_HUBS = [
     },
     {
         id: "harda",
-        slug: "urbania-tempo-traveller-fare-in-harda",
+        slug: "urbania-tempo-traveller-in-harda",
         name: "Harda",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8335,7 +8335,7 @@ const CITY_HUBS = [
     },
     {
         id: "indore",
-        slug: "urbania-tempo-traveller-fare-in-indore",
+        slug: "urbania-tempo-traveller-in-indore",
         name: "Indore",
         state: "Madhya Pradesh",
         tag: "Major Travel Hub",
@@ -8343,7 +8343,7 @@ const CITY_HUBS = [
     },
     {
         id: "jhabua",
-        slug: "urbania-tempo-traveller-fare-in-jhabua",
+        slug: "urbania-tempo-traveller-in-jhabua",
         name: "Jhabua",
         state: "Madhya Pradesh",
         tag: "Cultural Travel Hub",
@@ -8351,7 +8351,7 @@ const CITY_HUBS = [
     },
     {
         id: "katni",
-        slug: "urbania-tempo-traveller-fare-in-katni",
+        slug: "urbania-tempo-traveller-in-katni",
         name: "Katni",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8359,7 +8359,7 @@ const CITY_HUBS = [
     },
     {
         id: "khandwa",
-        slug: "urbania-tempo-traveller-fare-in-khandwa",
+        slug: "urbania-tempo-traveller-in-khandwa",
         name: "Khandwa",
         state: "Madhya Pradesh",
         tag: "Pilgrimage Travel Hub",
@@ -8367,7 +8367,7 @@ const CITY_HUBS = [
     },
     {
         id: "mandla",
-        slug: "urbania-tempo-traveller-fare-in-mandla",
+        slug: "urbania-tempo-traveller-in-mandla",
         name: "Mandla",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8375,7 +8375,7 @@ const CITY_HUBS = [
     },
     {
         id: "morena",
-        slug: "urbania-tempo-traveller-fare-in-morena",
+        slug: "urbania-tempo-traveller-in-morena",
         name: "Morena",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8383,7 +8383,7 @@ const CITY_HUBS = [
     },
     {
         id: "narsinghpur",
-        slug: "urbania-tempo-traveller-fare-in-narsinghpur",
+        slug: "urbania-tempo-traveller-in-narsinghpur",
         name: "Narsinghpur",
         state: "Madhya Pradesh",
         tag: "Pilgrimage Travel Hub",
@@ -8391,7 +8391,7 @@ const CITY_HUBS = [
     },
     {
         id: "neemuch",
-        slug: "urbania-tempo-traveller-fare-in-neemuch",
+        slug: "urbania-tempo-traveller-in-neemuch",
         name: "Neemuch",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8399,7 +8399,7 @@ const CITY_HUBS = [
     },
     {
         id: "panna",
-        slug: "urbania-tempo-traveller-fare-in-panna",
+        slug: "urbania-tempo-traveller-in-panna",
         name: "Panna",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8407,7 +8407,7 @@ const CITY_HUBS = [
     },
     {
         id: "raisen",
-        slug: "urbania-tempo-traveller-fare-in-raisen",
+        slug: "urbania-tempo-traveller-in-raisen",
         name: "Raisen",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8415,7 +8415,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajgarh",
-        slug: "urbania-tempo-traveller-fare-in-rajgarh",
+        slug: "urbania-tempo-traveller-in-rajgarh",
         name: "Rajgarh",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8423,7 +8423,7 @@ const CITY_HUBS = [
     },
     {
         id: "ratlam",
-        slug: "urbania-tempo-traveller-fare-in-ratlam",
+        slug: "urbania-tempo-traveller-in-ratlam",
         name: "Ratlam",
         state: "Madhya Pradesh",
         tag: "Major Travel Hub",
@@ -8431,7 +8431,7 @@ const CITY_HUBS = [
     },
     {
         id: "rewa",
-        slug: "urbania-tempo-traveller-fare-in-rewa",
+        slug: "urbania-tempo-traveller-in-rewa",
         name: "Rewa",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8439,7 +8439,7 @@ const CITY_HUBS = [
     },
     {
         id: "sagar",
-        slug: "urbania-tempo-traveller-fare-in-sagar",
+        slug: "urbania-tempo-traveller-in-sagar",
         name: "Sagar",
         state: "Madhya Pradesh",
         tag: "Major Travel Hub",
@@ -8447,7 +8447,7 @@ const CITY_HUBS = [
     },
     {
         id: "sehore",
-        slug: "urbania-tempo-traveller-fare-in-sehore",
+        slug: "urbania-tempo-traveller-in-sehore",
         name: "Sehore",
         state: "Madhya Pradesh",
         tag: "Pilgrimage Travel Hub",
@@ -8455,7 +8455,7 @@ const CITY_HUBS = [
     },
     {
         id: "seoni",
-        slug: "urbania-tempo-traveller-fare-in-seoni",
+        slug: "urbania-tempo-traveller-in-seoni",
         name: "Seoni",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8463,7 +8463,7 @@ const CITY_HUBS = [
     },
     {
         id: "shahdol",
-        slug: "urbania-tempo-traveller-fare-in-shahdol",
+        slug: "urbania-tempo-traveller-in-shahdol",
         name: "Shahdol",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8471,7 +8471,7 @@ const CITY_HUBS = [
     },
     {
         id: "shajapur",
-        slug: "urbania-tempo-traveller-fare-in-shajapur",
+        slug: "urbania-tempo-traveller-in-shajapur",
         name: "Shajapur",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8479,7 +8479,7 @@ const CITY_HUBS = [
     },
     {
         id: "sheopur",
-        slug: "urbania-tempo-traveller-fare-in-sheopur",
+        slug: "urbania-tempo-traveller-in-sheopur",
         name: "Sheopur",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8487,7 +8487,7 @@ const CITY_HUBS = [
     },
     {
         id: "shivpuri",
-        slug: "urbania-tempo-traveller-fare-in-shivpuri",
+        slug: "urbania-tempo-traveller-in-shivpuri",
         name: "Shivpuri",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8495,7 +8495,7 @@ const CITY_HUBS = [
     },
     {
         id: "sidhi",
-        slug: "urbania-tempo-traveller-fare-in-sidhi",
+        slug: "urbania-tempo-traveller-in-sidhi",
         name: "Sidhi",
         state: "Madhya Pradesh",
         tag: "Nature Travel Hub",
@@ -8503,7 +8503,7 @@ const CITY_HUBS = [
     },
     {
         id: "singrauli",
-        slug: "urbania-tempo-traveller-fare-in-singrauli",
+        slug: "urbania-tempo-traveller-in-singrauli",
         name: "Singrauli",
         state: "Madhya Pradesh",
         tag: "Travel Hub",
@@ -8511,7 +8511,7 @@ const CITY_HUBS = [
     },
     {
         id: "tikamgarh",
-        slug: "urbania-tempo-traveller-fare-in-tikamgarh",
+        slug: "urbania-tempo-traveller-in-tikamgarh",
         name: "Tikamgarh",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8519,7 +8519,7 @@ const CITY_HUBS = [
     },
     {
         id: "ujjain",
-        slug: "urbania-tempo-traveller-fare-in-ujjain",
+        slug: "urbania-tempo-traveller-in-ujjain",
         name: "Ujjain",
         state: "Madhya Pradesh",
         tag: "Major Pilgrimage Hub",
@@ -8527,7 +8527,7 @@ const CITY_HUBS = [
     },
     {
         id: "umaria",
-        slug: "urbania-tempo-traveller-fare-in-umaria",
+        slug: "urbania-tempo-traveller-in-umaria",
         name: "Umaria",
         state: "Madhya Pradesh",
         tag: "Wildlife Travel Hub",
@@ -8535,7 +8535,7 @@ const CITY_HUBS = [
     },
     {
         id: "vidisha",
-        slug: "urbania-tempo-traveller-fare-in-vidisha",
+        slug: "urbania-tempo-traveller-in-vidisha",
         name: "Vidisha",
         state: "Madhya Pradesh",
         tag: "Heritage Travel Hub",
@@ -8543,7 +8543,7 @@ const CITY_HUBS = [
     },
     {
         id: "balod",
-        slug: "urbania-tempo-traveller-fare-in-balod",
+        slug: "urbania-tempo-traveller-in-balod",
         name: "Balod",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8551,7 +8551,7 @@ const CITY_HUBS = [
     },
     {
         id: "baloda-bazar",
-        slug: "urbania-tempo-traveller-fare-in-baloda-bazar",
+        slug: "urbania-tempo-traveller-in-baloda-bazar",
         name: "Baloda Bazar",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8559,7 +8559,7 @@ const CITY_HUBS = [
     },
     {
         id: "balrampur",
-        slug: "urbania-tempo-traveller-fare-in-balrampur",
+        slug: "urbania-tempo-traveller-in-balrampur",
         name: "Balrampur",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8567,7 +8567,7 @@ const CITY_HUBS = [
     },
     {
         id: "bastar",
-        slug: "urbania-tempo-traveller-fare-in-bastar",
+        slug: "urbania-tempo-traveller-in-bastar",
         name: "Bastar",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8575,7 +8575,7 @@ const CITY_HUBS = [
     },
     {
         id: "bemetara",
-        slug: "urbania-tempo-traveller-fare-in-bemetara",
+        slug: "urbania-tempo-traveller-in-bemetara",
         name: "Bemetara",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8583,7 +8583,7 @@ const CITY_HUBS = [
     },
     {
         id: "bijapur",
-        slug: "urbania-tempo-traveller-fare-in-bijapur",
+        slug: "urbania-tempo-traveller-in-bijapur",
         name: "Bijapur",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8591,7 +8591,7 @@ const CITY_HUBS = [
     },
     {
         id: "dantewada",
-        slug: "urbania-tempo-traveller-fare-in-dantewada",
+        slug: "urbania-tempo-traveller-in-dantewada",
         name: "Dantewada",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8599,7 +8599,7 @@ const CITY_HUBS = [
     },
     {
         id: "dhamtari",
-        slug: "urbania-tempo-traveller-fare-in-dhamtari",
+        slug: "urbania-tempo-traveller-in-dhamtari",
         name: "Dhamtari",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8607,7 +8607,7 @@ const CITY_HUBS = [
     },
     {
         id: "durg",
-        slug: "urbania-tempo-traveller-fare-in-durg",
+        slug: "urbania-tempo-traveller-in-durg",
         name: "Durg",
         state: "Chhattisgarh",
         tag: "Major Travel Hub",
@@ -8615,7 +8615,7 @@ const CITY_HUBS = [
     },
     {
         id: "gariaband",
-        slug: "urbania-tempo-traveller-fare-in-gariaband",
+        slug: "urbania-tempo-traveller-in-gariaband",
         name: "Gariaband",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8623,7 +8623,7 @@ const CITY_HUBS = [
     },
     {
         id: "janjgir-champa",
-        slug: "urbania-tempo-traveller-fare-in-janjgir-champa",
+        slug: "urbania-tempo-traveller-in-janjgir-champa",
         name: "Janjgir-Champa",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8631,7 +8631,7 @@ const CITY_HUBS = [
     },
     {
         id: "jashpur",
-        slug: "urbania-tempo-traveller-fare-in-jashpur",
+        slug: "urbania-tempo-traveller-in-jashpur",
         name: "Jashpur",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8639,7 +8639,7 @@ const CITY_HUBS = [
     },
     {
         id: "kabirdham",
-        slug: "urbania-tempo-traveller-fare-in-kabirdham",
+        slug: "urbania-tempo-traveller-in-kabirdham",
         name: "Kabirdham",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8647,7 +8647,7 @@ const CITY_HUBS = [
     },
     {
         id: "kanker",
-        slug: "urbania-tempo-traveller-fare-in-kanker",
+        slug: "urbania-tempo-traveller-in-kanker",
         name: "Kanker",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8655,7 +8655,7 @@ const CITY_HUBS = [
     },
     {
         id: "kondagaon",
-        slug: "urbania-tempo-traveller-fare-in-kondagaon",
+        slug: "urbania-tempo-traveller-in-kondagaon",
         name: "Kondagaon",
         state: "Chhattisgarh",
         tag: "Cultural Travel Hub",
@@ -8663,7 +8663,7 @@ const CITY_HUBS = [
     },
     {
         id: "korba",
-        slug: "urbania-tempo-traveller-fare-in-korba",
+        slug: "urbania-tempo-traveller-in-korba",
         name: "Korba",
         state: "Chhattisgarh",
         tag: "Major Travel Hub",
@@ -8671,7 +8671,7 @@ const CITY_HUBS = [
     },
     {
         id: "korea",
-        slug: "urbania-tempo-traveller-fare-in-korea",
+        slug: "urbania-tempo-traveller-in-korea",
         name: "Korea",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8679,7 +8679,7 @@ const CITY_HUBS = [
     },
     {
         id: "mahasamund",
-        slug: "urbania-tempo-traveller-fare-in-mahasamund",
+        slug: "urbania-tempo-traveller-in-mahasamund",
         name: "Mahasamund",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8687,7 +8687,7 @@ const CITY_HUBS = [
     },
     {
         id: "mungeli",
-        slug: "urbania-tempo-traveller-fare-in-mungeli",
+        slug: "urbania-tempo-traveller-in-mungeli",
         name: "Mungeli",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8695,7 +8695,7 @@ const CITY_HUBS = [
     },
     {
         id: "narayanpur",
-        slug: "urbania-tempo-traveller-fare-in-narayanpur",
+        slug: "urbania-tempo-traveller-in-narayanpur",
         name: "Narayanpur",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8703,7 +8703,7 @@ const CITY_HUBS = [
     },
     {
         id: "rajnandgaon",
-        slug: "urbania-tempo-traveller-fare-in-rajnandgaon",
+        slug: "urbania-tempo-traveller-in-rajnandgaon",
         name: "Rajnandgaon",
         state: "Chhattisgarh",
         tag: "Travel Hub",
@@ -8711,7 +8711,7 @@ const CITY_HUBS = [
     },
     {
         id: "sukma",
-        slug: "urbania-tempo-traveller-fare-in-sukma",
+        slug: "urbania-tempo-traveller-in-sukma",
         name: "Sukma",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8719,7 +8719,7 @@ const CITY_HUBS = [
     },
     {
         id: "surajpur",
-        slug: "urbania-tempo-traveller-fare-in-surajpur",
+        slug: "urbania-tempo-traveller-in-surajpur",
         name: "Surajpur",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -8727,7 +8727,7 @@ const CITY_HUBS = [
     },
     {
         id: "surguja",
-        slug: "urbania-tempo-traveller-fare-in-surguja",
+        slug: "urbania-tempo-traveller-in-surguja",
         name: "Surguja",
         state: "Chhattisgarh",
         tag: "Nature Travel Hub",
@@ -17724,6 +17724,142 @@ const SITEMAP_ROUTES = [
         category: "Pilgrimage",
         popular: true,
         routeSlug: "noida-to-vrindavan-force-urbania"
+    },
+    // Ludhiana Routes
+    {
+        origin: "Ludhiana",
+        destination: "Chandigarh",
+        distanceKm: 105,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-chandigarh-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Amritsar",
+        distanceKm: 140,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-amritsar-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Jalandhar",
+        distanceKm: 65,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-jalandhar-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Patiala",
+        distanceKm: 100,
+        durationHrs: "2.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-patiala-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Bathinda",
+        distanceKm: 150,
+        durationHrs: "3.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-bathinda-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Firozpur",
+        distanceKm: 125,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-firozpur-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Moga",
+        distanceKm: 70,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-moga-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Kapurthala",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-kapurthala-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Hoshiarpur",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-hoshiarpur-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Nawanshahr",
+        distanceKm: 60,
+        durationHrs: "1.5 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-nawanshahr-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Sangrur",
+        distanceKm: 80,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-sangrur-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Barnala",
+        distanceKm: 75,
+        durationHrs: "2 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-barnala-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Faridkot",
+        distanceKm: 140,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-faridkot-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Gurdaspur",
+        distanceKm: 135,
+        durationHrs: "3 hrs",
+        category: "City",
+        popular: false,
+        routeSlug: "ludhiana-to-gurdaspur-force-urbania"
+    },
+    {
+        origin: "Ludhiana",
+        destination: "Pathankot",
+        distanceKm: 185,
+        durationHrs: "4 hrs",
+        category: "City",
+        popular: true,
+        routeSlug: "ludhiana-to-pathankot-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({
