@@ -35,7 +35,7 @@ export default function RouteExplorer({ onOpenModal }) {
             Popular City Hubs:
           </div>
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.45rem' }}>
-            {CITY_HUBS.map(city => (
+            {CITY_HUBS.slice(0, 10).map(city => (
               <Link 
                 key={city.slug} 
                 href={`/${city.slug}`}
