@@ -23,7 +23,6 @@ import {
 } from "lucide-react";
 import { FAQS } from "@/lib/routesData";
 import { useState } from "react";
-import Footer from "./Footer";
 
 // ========== FAQ COMPONENT ==========
 function FAQItem({ question, answer, isOpen, onToggle }) {
@@ -93,8 +92,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 // ========== SEO COMPONENT (can be moved to a separate file) ==========
 function CitySeo({ city }) {
   const title =
-    city.metaTitle ||
-    `Urbania Tempo Traveller Hire in ${city.name} | Premium Group Travel`;
+    `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`;
   const description =
     city.metaDescription ||
     `Book luxury Urbania Tempo Traveller in ${city.name}. ${city.desc} Doorstep pickup, ${city.tag} fleet with experienced chauffeurs.`;

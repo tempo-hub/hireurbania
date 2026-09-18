@@ -11,7 +11,7 @@ export async function generateMetadata({ params }) {
   const city = CITY_HUBS.find((item) => item.slug === slug);
   if (!city) return { title: 'City Not Found | Hire Urbania' };
   return {
-    title: `Urbania Tempo Traveller Hire in ${city.name}`,
+    title: `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`,
     description: `Book a luxury Force Urbania tempo traveller in ${city.name} for local sightseeing and outstation trips.`
   };
 }

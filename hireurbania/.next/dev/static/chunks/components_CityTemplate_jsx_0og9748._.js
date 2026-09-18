@@ -28,11 +28,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$re
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/arrow-right.mjs [app-client] (ecmascript) <export default as ArrowRight>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/lib/routesData.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$Footer$2e$jsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/Footer.jsx [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
-;
 ;
 ;
 ;
@@ -74,7 +72,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                         children: question
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 60,
+                        lineNumber: 59,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -87,25 +85,25 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                             color: "#0052CC"
                         }, void 0, false, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 63,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
                             size: 20,
                             color: "#7a8a9e"
                         }, void 0, false, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 65,
+                            lineNumber: 64,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 61,
+                        lineNumber: 60,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 41,
+                lineNumber: 40,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -126,25 +124,25 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
                     children: answer
                 }, void 0, false, {
                     fileName: "[project]/components/CityTemplate.jsx",
-                    lineNumber: 76,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 69,
+                lineNumber: 68,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CityTemplate.jsx",
-        lineNumber: 31,
+        lineNumber: 30,
         columnNumber: 5
     }, this);
 }
 _c = FAQItem;
 // ========== SEO COMPONENT (can be moved to a separate file) ==========
 function CitySeo({ city }) {
-    const title = city.metaTitle || `Urbania Tempo Traveller Hire in ${city.name} | Premium Group Travel`;
+    const title = `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`;
     const description = city.metaDescription || `Book luxury Urbania Tempo Traveller in ${city.name}. ${city.desc} Doorstep pickup, ${city.tag} fleet with experienced chauffeurs.`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -152,7 +150,7 @@ function CitySeo({ city }) {
                 children: title
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 104,
+                lineNumber: 102,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -160,7 +158,7 @@ function CitySeo({ city }) {
                 content: description
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 105,
+                lineNumber: 103,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -168,7 +166,7 @@ function CitySeo({ city }) {
                 content: title
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 106,
+                lineNumber: 104,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -176,7 +174,7 @@ function CitySeo({ city }) {
                 content: description
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 107,
+                lineNumber: 105,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -184,7 +182,7 @@ function CitySeo({ city }) {
                 content: "website"
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 108,
+                lineNumber: 106,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("meta", {
@@ -192,7 +190,7 @@ function CitySeo({ city }) {
                 content: "en_IN"
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 109,
+                lineNumber: 107,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
@@ -200,7 +198,7 @@ function CitySeo({ city }) {
                 href: `https://hireurbaniatempotraveller.com/city/${city.id}`
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 110,
+                lineNumber: 108,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("script", {
@@ -224,13 +222,13 @@ function CitySeo({ city }) {
                 }
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 116,
+                lineNumber: 114,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CityTemplate.jsx",
-        lineNumber: 103,
+        lineNumber: 101,
         columnNumber: 5
     }, this);
 }
@@ -259,7 +257,7 @@ function CityTemplate({ city, routes, fleet }) {
                 city: city
             }, void 0, false, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 167,
+                lineNumber: 165,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("main", {
@@ -289,7 +287,7 @@ function CityTemplate({ city, routes, fleet }) {
                                 }
                             }, void 0, false, {
                                 fileName: "[project]/components/CityTemplate.jsx",
-                                lineNumber: 183,
+                                lineNumber: 181,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -323,14 +321,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                 children: "Home"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 219,
+                                                lineNumber: 217,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                                 size: 14
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 229,
+                                                lineNumber: 227,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -343,14 +341,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                 children: "Cities"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 230,
+                                                lineNumber: 228,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                                 size: 14
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 240,
+                                                lineNumber: 238,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -361,13 +359,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                 children: city.name
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 241,
+                                                lineNumber: 239,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityTemplate.jsx",
-                                        lineNumber: 208,
+                                        lineNumber: 206,
                                         columnNumber: 13
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -400,7 +398,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 size: 14
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 272,
+                                                                lineNumber: 270,
                                                                 columnNumber: 19
                                                             }, this),
                                                             " ",
@@ -408,7 +406,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 257,
+                                                        lineNumber: 255,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -424,7 +422,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             "Urbania Tempo Traveller ",
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 285,
+                                                                lineNumber: 283,
                                                                 columnNumber: 43
                                                             }, this),
                                                             "Hire in ",
@@ -435,13 +433,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 children: city.name
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 286,
+                                                                lineNumber: 284,
                                                                 columnNumber: 27
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 275,
+                                                        lineNumber: 273,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -457,7 +455,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 289,
+                                                        lineNumber: 287,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -484,14 +482,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         color: "#FFB800"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 320,
+                                                                        lineNumber: 318,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " 4.9/5 Rating"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 312,
+                                                                lineNumber: 310,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -506,14 +504,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 331,
+                                                                        lineNumber: 329,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " 500+ Happy Groups"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 323,
+                                                                lineNumber: 321,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -528,20 +526,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         size: 16
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 341,
+                                                                        lineNumber: 339,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Insurance Covered"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 333,
+                                                                lineNumber: 331,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 302,
+                                                        lineNumber: 300,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -577,14 +575,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 374,
+                                                                        lineNumber: 372,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Get Instant Quote"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 353,
+                                                                lineNumber: 351,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -610,26 +608,26 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         size: 20
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 395,
+                                                                        lineNumber: 393,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Call Us"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 376,
+                                                                lineNumber: 374,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 345,
+                                                        lineNumber: 343,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 256,
+                                                lineNumber: 254,
                                                 columnNumber: 15
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -656,7 +654,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 }
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 418,
+                                                                lineNumber: 416,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -668,13 +666,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 children: "Plan Your City Trip"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 419,
+                                                                lineNumber: 417,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 410,
+                                                        lineNumber: 408,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -686,7 +684,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                         children: "Tell us your group size and travel requirement."
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 430,
+                                                        lineNumber: 428,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("form", {
@@ -707,7 +705,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 value: `Quote for Urbania in ${city.name}`
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 454,
+                                                                lineNumber: 452,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -730,14 +728,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 size: 14
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 472,
+                                                                                lineNumber: 470,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             " Pickup City"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 461,
+                                                                        lineNumber: 459,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -757,13 +755,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         }
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 474,
+                                                                        lineNumber: 472,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 460,
+                                                                lineNumber: 458,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -786,14 +784,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 size: 14
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 504,
+                                                                                lineNumber: 502,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             " Seater Variant"
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 493,
+                                                                        lineNumber: 491,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("select", {
@@ -815,7 +813,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 children: "9 Seater VIP Recliner"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 521,
+                                                                                lineNumber: 519,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -823,7 +821,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 children: "12 Seater Executive Urbania"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 525,
+                                                                                lineNumber: 523,
                                                                                 columnNumber: 23
                                                                             }, this),
                                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("option", {
@@ -831,19 +829,19 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 children: "16 Seater Premium Urbania"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 529,
+                                                                                lineNumber: 527,
                                                                                 columnNumber: 23
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 507,
+                                                                        lineNumber: 505,
                                                                         columnNumber: 21
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 492,
+                                                                lineNumber: 490,
                                                                 columnNumber: 19
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -871,20 +869,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         size: 18
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 560,
+                                                                        lineNumber: 558,
                                                                         columnNumber: 21
                                                                     }, this),
                                                                     " Request Fare"
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 535,
+                                                                lineNumber: 533,
                                                                 columnNumber: 19
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 440,
+                                                        lineNumber: 438,
                                                         columnNumber: 17
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -897,31 +895,31 @@ function CityTemplate({ city, routes, fleet }) {
                                                         children: "⚡ Response within 2 minutes"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 564,
+                                                        lineNumber: 562,
                                                         columnNumber: 17
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 401,
+                                                lineNumber: 399,
                                                 columnNumber: 15
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityTemplate.jsx",
-                                        lineNumber: 246,
+                                        lineNumber: 244,
                                         columnNumber: 13
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/CityTemplate.jsx",
-                                lineNumber: 197,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 171,
+                        lineNumber: 169,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -939,20 +937,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 585,
+                                                    lineNumber: 583,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Why Hire Urbania"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 586,
+                                                    lineNumber: 584,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 584,
+                                            lineNumber: 582,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -962,20 +960,20 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 589,
+                                            lineNumber: 587,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             children: "Travel comfortably with your group in a premium Force Urbania, backed by experienced chauffeurs, doorstep pickup and reliable support."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 591,
+                                            lineNumber: 589,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 583,
+                                    lineNumber: 581,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -986,7 +984,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 602,
+                                                lineNumber: 600,
                                                 columnNumber: 25
                                             }, this),
                                             title: "All Group Sizes",
@@ -997,7 +995,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 607,
+                                                lineNumber: 605,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Doorstep Pickup",
@@ -1008,7 +1006,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 612,
+                                                lineNumber: 610,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Trusted Chauffeurs",
@@ -1019,7 +1017,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 30
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 617,
+                                                lineNumber: 615,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Safety Assured",
@@ -1033,43 +1031,43 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: feature.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 623,
+                                                    lineNumber: 621,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                                                     children: feature.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 625,
+                                                    lineNumber: 623,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                     children: feature.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 627,
+                                                    lineNumber: 625,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 622,
+                                            lineNumber: 620,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 599,
+                                    lineNumber: 597,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 581,
+                            lineNumber: 579,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 580,
+                        lineNumber: 578,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1090,14 +1088,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 641,
+                                                            lineNumber: 639,
                                                             columnNumber: 19
                                                         }, this),
                                                         "About Urbania"
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 640,
+                                                    lineNumber: 638,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1109,13 +1107,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: city.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 646,
+                                                            lineNumber: 644,
                                                             columnNumber: 54
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 645,
+                                                    lineNumber: 643,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1127,7 +1125,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 649,
+                                                    lineNumber: 647,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1139,7 +1137,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 662,
+                                                                lineNumber: 660,
                                                                 columnNumber: 29
                                                             }, this),
                                                             title: "Group Travel Specialists",
@@ -1151,7 +1149,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 667,
+                                                                lineNumber: 665,
                                                                 columnNumber: 29
                                                             }, this),
                                                             title: "Safety Certified",
@@ -1163,7 +1161,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 672,
+                                                                lineNumber: 670,
                                                                 columnNumber: 29
                                                             }, this),
                                                             title: "Punctual Service",
@@ -1175,7 +1173,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 color: "#0052CC"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 677,
+                                                                lineNumber: 675,
                                                                 columnNumber: 29
                                                             }, this),
                                                             title: "Local Expertise",
@@ -1189,7 +1187,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: item.icon
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 683,
+                                                                    lineNumber: 681,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1200,7 +1198,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             children: item.title
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 688,
+                                                                            lineNumber: 686,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1208,24 +1206,24 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             children: item.desc
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 689,
+                                                                            lineNumber: 687,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 687,
+                                                                    lineNumber: 685,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, index, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 682,
+                                                            lineNumber: 680,
                                                             columnNumber: 21
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 659,
+                                                    lineNumber: 657,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1241,7 +1239,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 703,
+                                                                    lineNumber: 701,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1252,13 +1250,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 704,
+                                                                    lineNumber: 702,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 697,
+                                                            lineNumber: 695,
                                                             columnNumber: 19
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1270,32 +1268,32 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Learn More"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 708,
+                                                                    lineNumber: 706,
                                                                     columnNumber: 21
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$right$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowRight$3e$__["ArrowRight"], {
                                                                     size: 18
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 709,
+                                                                    lineNumber: 707,
                                                                     columnNumber: 21
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 707,
+                                                            lineNumber: 705,
                                                             columnNumber: 19
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 696,
+                                                    lineNumber: 694,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 639,
+                                            lineNumber: 637,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1330,7 +1328,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         children: stat.number
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 726,
+                                                                        lineNumber: 724,
                                                                         columnNumber: 25
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1338,18 +1336,18 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         children: stat.label
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 730,
+                                                                        lineNumber: 728,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, index, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 725,
+                                                                lineNumber: 723,
                                                                 columnNumber: 23
                                                             }, this))
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 718,
+                                                        lineNumber: 716,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1360,7 +1358,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 children: "🚐"
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 739,
+                                                                lineNumber: 737,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
@@ -1372,7 +1370,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 741,
+                                                                lineNumber: 739,
                                                                 columnNumber: 21
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1385,35 +1383,35 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 743,
+                                                                lineNumber: 741,
                                                                 columnNumber: 21
                                                             }, this)
                                                         ]
                                                     }, void 0, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 738,
+                                                        lineNumber: 736,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 716,
+                                                lineNumber: 714,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 715,
+                                            lineNumber: 713,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 637,
+                                    lineNumber: 635,
                                     columnNumber: 13
                                 }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/CityTemplate.jsx",
-                                lineNumber: 636,
+                                lineNumber: 634,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1423,7 +1421,7 @@ function CityTemplate({ city, routes, fleet }) {
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 635,
+                        lineNumber: 633,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1464,14 +1462,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1332,
+                                                    lineNumber: 1330,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Our Fleet"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1319,
+                                            lineNumber: 1317,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1487,7 +1485,7 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1334,
+                                            lineNumber: 1332,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1499,13 +1497,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             children: "Choose the vehicle that fits your group and luggage."
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1344,
+                                            lineNumber: 1342,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 1312,
+                                    lineNumber: 1310,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1554,7 +1552,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             }
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1391,
+                                                            lineNumber: 1389,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1575,7 +1573,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: model.capacity
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1404,
+                                                            lineNumber: 1402,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1601,20 +1599,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     fill: "#FFB800"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1441,
+                                                                    lineNumber: 1439,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " 4.9"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1423,
+                                                            lineNumber: 1421,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1379,
+                                                    lineNumber: 1377,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1633,7 +1631,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: model.name
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1447,
+                                                            lineNumber: 1445,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1648,7 +1646,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: model.tagline
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1458,
+                                                            lineNumber: 1456,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1676,7 +1674,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1484,
+                                                                            lineNumber: 1482,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.seater,
@@ -1684,7 +1682,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1483,
+                                                                    lineNumber: 1481,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1701,20 +1699,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             }
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1491,
+                                                                            lineNumber: 1489,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         model.luggageCapacity
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1490,
+                                                                    lineNumber: 1488,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1472,
+                                                            lineNumber: 1470,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1735,7 +1733,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             children: "Starting from"
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1509,
+                                                                            lineNumber: 1507,
                                                                             columnNumber: 25
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1756,19 +1754,19 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                     children: "/km"
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                                    lineNumber: 1521,
+                                                                                    lineNumber: 1519,
                                                                                     columnNumber: 27
                                                                                 }, this)
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1512,
+                                                                            lineNumber: 1510,
                                                                             columnNumber: 25
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1508,
+                                                                    lineNumber: 1506,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1785,13 +1783,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1532,
+                                                                    lineNumber: 1530,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1500,
+                                                            lineNumber: 1498,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1822,42 +1820,42 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     size: 16
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1572,
+                                                                    lineNumber: 1570,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 " Book This Vehicle"
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1546,
+                                                            lineNumber: 1544,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1446,
+                                                    lineNumber: 1444,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, model.id, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1364,
+                                            lineNumber: 1362,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 1355,
+                                    lineNumber: 1353,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 1304,
+                            lineNumber: 1302,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 1300,
+                        lineNumber: 1298,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -1898,14 +1896,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1615,
+                                                    lineNumber: 1613,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Transparent Pricing"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1602,
+                                            lineNumber: 1600,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1925,13 +1923,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: city.name
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1627,
+                                                    lineNumber: 1625,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1618,
+                                            lineNumber: 1616,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1947,13 +1945,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1630,
+                                            lineNumber: 1628,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 1595,
+                                    lineNumber: 1593,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1986,7 +1984,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: "Vehicle"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1668,
+                                                            lineNumber: 1666,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -1997,7 +1995,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: "Rate"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1677,
+                                                            lineNumber: 1675,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2008,7 +2006,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: "Minimum KM / Day"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1686,
+                                                            lineNumber: 1684,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2019,7 +2017,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: "Driver Allowance"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1695,
+                                                            lineNumber: 1693,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2031,18 +2029,18 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: "Action"
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1704,
+                                                            lineNumber: 1702,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1660,
+                                                    lineNumber: 1658,
                                                     columnNumber: 19
                                                 }, this)
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 1659,
+                                                lineNumber: 1657,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2069,7 +2067,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             children: model.name
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1737,
+                                                                            lineNumber: 1735,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
@@ -2084,18 +2082,18 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1747,
+                                                                            lineNumber: 1745,
                                                                             columnNumber: 27
                                                                         }, this)
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1736,
+                                                                    lineNumber: 1734,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1731,
+                                                                lineNumber: 1729,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2115,13 +2113,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         children: "/km"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 1768,
+                                                                        lineNumber: 1766,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1759,
+                                                                lineNumber: 1757,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2136,7 +2134,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1780,
+                                                                lineNumber: 1778,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2156,13 +2154,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         children: "/day"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 1799,
+                                                                        lineNumber: 1797,
                                                                         columnNumber: 25
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1791,
+                                                                lineNumber: 1789,
                                                                 columnNumber: 23
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2195,41 +2193,41 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             size: 14
                                                                         }, void 0, false, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1840,
+                                                                            lineNumber: 1838,
                                                                             columnNumber: 27
                                                                         }, this),
                                                                         " Get Quote"
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1817,
+                                                                    lineNumber: 1815,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1811,
+                                                                lineNumber: 1809,
                                                                 columnNumber: 23
                                                             }, this)
                                                         ]
                                                     }, model.id, true, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 1718,
+                                                        lineNumber: 1716,
                                                         columnNumber: 21
                                                     }, this))
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 1716,
+                                                lineNumber: 1714,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityTemplate.jsx",
-                                        lineNumber: 1652,
+                                        lineNumber: 1650,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 1644,
+                                    lineNumber: 1642,
                                     columnNumber: 13
                                 }, this),
                                 relatedRoutes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2256,7 +2254,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1858,
+                                                    lineNumber: 1856,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2267,13 +2265,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: "Explore popular destinations and get an estimated fare for your group journey."
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 1869,
+                                                    lineNumber: 1867,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1852,
+                                            lineNumber: 1850,
                                             columnNumber: 17
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2305,7 +2303,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Route"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1902,
+                                                                    lineNumber: 1900,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2316,7 +2314,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Distance"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1911,
+                                                                    lineNumber: 1909,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2327,7 +2325,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Travel Time"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1920,
+                                                                    lineNumber: 1918,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2338,7 +2336,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Starting Fare"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1929,
+                                                                    lineNumber: 1927,
                                                                     columnNumber: 25
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("th", {
@@ -2350,18 +2348,18 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: "Action"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 1938,
+                                                                    lineNumber: 1936,
                                                                     columnNumber: 25
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 1895,
+                                                            lineNumber: 1893,
                                                             columnNumber: 23
                                                         }, this)
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 1894,
+                                                        lineNumber: 1892,
                                                         columnNumber: 21
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("tbody", {
@@ -2397,12 +2395,12 @@ function CityTemplate({ city, routes, fleet }) {
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 1992,
+                                                                            lineNumber: 1990,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 1987,
+                                                                        lineNumber: 1985,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2417,7 +2415,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 2005,
+                                                                        lineNumber: 2003,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2428,7 +2426,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                         children: route.durationHrs
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 2016,
+                                                                        lineNumber: 2014,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2450,13 +2448,13 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                 children: "approx. round trip"
                                                                             }, void 0, false, {
                                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                                lineNumber: 2034,
+                                                                                lineNumber: 2032,
                                                                                 columnNumber: 31
                                                                             }, this)
                                                                         ]
                                                                     }, void 0, true, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 2026,
+                                                                        lineNumber: 2024,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("td", {
@@ -2489,48 +2487,48 @@ function CityTemplate({ city, routes, fleet }) {
                                                                                     size: 14
                                                                                 }, void 0, false, {
                                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                                    lineNumber: 2077,
+                                                                                    lineNumber: 2075,
                                                                                     columnNumber: 33
                                                                                 }, this),
                                                                                 " Get Quote"
                                                                             ]
                                                                         }, void 0, true, {
                                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                                            lineNumber: 2054,
+                                                                            lineNumber: 2052,
                                                                             columnNumber: 31
                                                                         }, this)
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                                        lineNumber: 2048,
+                                                                        lineNumber: 2046,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, route.routeSlug || index, true, {
                                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                                lineNumber: 1975,
+                                                                lineNumber: 1973,
                                                                 columnNumber: 27
                                                             }, this);
                                                         })
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 1950,
+                                                        lineNumber: 1948,
                                                         columnNumber: 21
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 1887,
+                                                lineNumber: 1885,
                                                 columnNumber: 19
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 1880,
+                                            lineNumber: 1878,
                                             columnNumber: 17
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 1851,
+                                    lineNumber: 1849,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2547,18 +2545,18 @@ function CityTemplate({ city, routes, fleet }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2090,
+                                    lineNumber: 2088,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 1586,
+                            lineNumber: 1584,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 1582,
+                        lineNumber: 1580,
                         columnNumber: 9
                     }, this),
                     relatedRoutes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2578,12 +2576,12 @@ function CityTemplate({ city, routes, fleet }) {
                                         children: "More Routes"
                                     }, void 0, false, {
                                         fileName: "[project]/components/CityTemplate.jsx",
-                                        lineNumber: 2118,
+                                        lineNumber: 2116,
                                         columnNumber: 17
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2117,
+                                    lineNumber: 2115,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2600,7 +2598,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2124,
+                                                    lineNumber: 2122,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2610,7 +2608,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 2128,
+                                                            lineNumber: 2126,
                                                             columnNumber: 23
                                                         }, this),
                                                         " ",
@@ -2621,7 +2619,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             size: 14
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 2129,
+                                                            lineNumber: 2127,
                                                             columnNumber: 23
                                                         }, this),
                                                         " ",
@@ -2629,7 +2627,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2127,
+                                                    lineNumber: 2125,
                                                     columnNumber: 21
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -2638,29 +2636,29 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: "View Route"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2131,
+                                                    lineNumber: 2129,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, item.routeSlug, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2123,
+                                            lineNumber: 2121,
                                             columnNumber: 19
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2121,
+                                    lineNumber: 2119,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2109,
+                            lineNumber: 2107,
                             columnNumber: 13
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2108,
+                        lineNumber: 2106,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2701,14 +2699,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2177,
+                                                    lineNumber: 2175,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Perfect for Every Journey"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2164,
+                                            lineNumber: 2162,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2724,7 +2722,7 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2179,
+                                            lineNumber: 2177,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2741,13 +2739,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2189,
+                                            lineNumber: 2187,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2157,
+                                    lineNumber: 2155,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2819,7 +2817,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2267,
+                                                    lineNumber: 2265,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2832,7 +2830,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2270,
+                                                    lineNumber: 2268,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2844,29 +2842,29 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2280,
+                                                    lineNumber: 2278,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2241,
+                                            lineNumber: 2239,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2202,
+                                    lineNumber: 2200,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2149,
+                            lineNumber: 2147,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2145,
+                        lineNumber: 2143,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -2884,20 +2882,20 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2303,
+                                                    lineNumber: 2301,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "How Booking Works"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2304,
+                                                    lineNumber: 2302,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2302,
+                                            lineNumber: 2300,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -2908,7 +2906,7 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2307,
+                                            lineNumber: 2305,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2919,13 +2917,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2309,
+                                            lineNumber: 2307,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2301,
+                                    lineNumber: 2299,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2937,7 +2935,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2322,
+                                                lineNumber: 2320,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Contact Us",
@@ -2949,7 +2947,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2328,
+                                                lineNumber: 2326,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Get Quote",
@@ -2961,7 +2959,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2334,
+                                                lineNumber: 2332,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Confirm Booking",
@@ -2973,7 +2971,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 size: 28
                                             }, void 0, false, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2340,
+                                                lineNumber: 2338,
                                                 columnNumber: 25
                                             }, this),
                                             title: "Enjoy Travel",
@@ -2987,7 +2985,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.step
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2347,
+                                                    lineNumber: 2345,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2995,7 +2993,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.icon
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2350,
+                                                    lineNumber: 2348,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -3003,7 +3001,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.title
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2353,
+                                                    lineNumber: 2351,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3011,14 +3009,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     children: item.desc
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2356,
+                                                    lineNumber: 2354,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                     className: "step-bottom-line"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2359,
+                                                    lineNumber: 2357,
                                                     columnNumber: 19
                                                 }, this),
                                                 index < 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3026,18 +3024,18 @@ function CityTemplate({ city, routes, fleet }) {
                                                     "aria-hidden": "true"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2363,
+                                                    lineNumber: 2361,
                                                     columnNumber: 21
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2345,
+                                            lineNumber: 2343,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2318,
+                                    lineNumber: 2316,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3053,7 +3051,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2374,
+                                                lineNumber: 2372,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3066,42 +3064,42 @@ function CityTemplate({ city, routes, fleet }) {
                                                         size: 20
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 2384,
+                                                        lineNumber: 2382,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         children: "Book Now"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/CityTemplate.jsx",
-                                                        lineNumber: 2385,
+                                                        lineNumber: 2383,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/CityTemplate.jsx",
-                                                lineNumber: 2376,
+                                                lineNumber: 2374,
                                                 columnNumber: 17
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/components/CityTemplate.jsx",
-                                        lineNumber: 2373,
+                                        lineNumber: 2371,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2372,
+                                    lineNumber: 2370,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2297,
+                            lineNumber: 2295,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2296,
+                        lineNumber: 2294,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3142,14 +3140,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2425,
+                                                    lineNumber: 2423,
                                                     columnNumber: 17
                                                 }, this),
                                                 " Customer Reviews"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2412,
+                                            lineNumber: 2410,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3162,7 +3160,7 @@ function CityTemplate({ city, routes, fleet }) {
                                             children: "What Our Customers Say"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2427,
+                                            lineNumber: 2425,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3178,13 +3176,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2437,
+                                            lineNumber: 2435,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2405,
+                                    lineNumber: 2403,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3263,12 +3261,12 @@ function CityTemplate({ city, routes, fleet }) {
                                                             color: i < review.rating ? "#FFB800" : "#d1d5db"
                                                         }, i, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 2524,
+                                                            lineNumber: 2522,
                                                             columnNumber: 23
                                                         }, this))
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2515,
+                                                    lineNumber: 2513,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3286,7 +3284,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2534,
+                                                    lineNumber: 2532,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3314,7 +3312,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                             children: review.avatar
                                                         }, void 0, false, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 2556,
+                                                            lineNumber: 2554,
                                                             columnNumber: 21
                                                         }, this),
                                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3328,7 +3326,7 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     children: review.name
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 2573,
+                                                                    lineNumber: 2571,
                                                                     columnNumber: 23
                                                                 }, this),
                                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3343,41 +3341,41 @@ function CityTemplate({ city, routes, fleet }) {
                                                                     ]
                                                                 }, void 0, true, {
                                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                                    lineNumber: 2582,
+                                                                    lineNumber: 2580,
                                                                     columnNumber: 23
                                                                 }, this)
                                                             ]
                                                         }, void 0, true, {
                                                             fileName: "[project]/components/CityTemplate.jsx",
-                                                            lineNumber: 2572,
+                                                            lineNumber: 2570,
                                                             columnNumber: 21
                                                         }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2547,
+                                                    lineNumber: 2545,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
                                         }, index, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2490,
+                                            lineNumber: 2488,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2449,
+                                    lineNumber: 2447,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2397,
+                            lineNumber: 2395,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2393,
+                        lineNumber: 2391,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3418,14 +3416,14 @@ function CityTemplate({ city, routes, fleet }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/CityTemplate.jsx",
-                                                    lineNumber: 2631,
+                                                    lineNumber: 2629,
                                                     columnNumber: 17
                                                 }, this),
                                                 " FAQ"
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2618,
+                                            lineNumber: 2616,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -3438,7 +3436,7 @@ function CityTemplate({ city, routes, fleet }) {
                                             children: "Frequently Asked Questions"
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2633,
+                                            lineNumber: 2631,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3455,13 +3453,13 @@ function CityTemplate({ city, routes, fleet }) {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2643,
+                                            lineNumber: 2641,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2611,
+                                    lineNumber: 2609,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -3479,23 +3477,23 @@ function CityTemplate({ city, routes, fleet }) {
                                             onToggle: ()=>toggleFAQ(index)
                                         }, index, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2665,
+                                            lineNumber: 2663,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2655,
+                                    lineNumber: 2653,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2603,
+                            lineNumber: 2601,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2599,
+                        lineNumber: 2597,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -3527,7 +3525,7 @@ function CityTemplate({ city, routes, fleet }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2690,
+                                    lineNumber: 2688,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -3541,7 +3539,7 @@ function CityTemplate({ city, routes, fleet }) {
                                     children: "Book your Urbania Tempo Traveller today and experience luxury group travel."
                                 }, void 0, false, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2700,
+                                    lineNumber: 2698,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -3568,37 +3566,37 @@ function CityTemplate({ city, routes, fleet }) {
                                             size: 22
                                         }, void 0, false, {
                                             fileName: "[project]/components/CityTemplate.jsx",
-                                            lineNumber: 2732,
+                                            lineNumber: 2730,
                                             columnNumber: 15
                                         }, this),
                                         " Get Instant Quote"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/CityTemplate.jsx",
-                                    lineNumber: 2712,
+                                    lineNumber: 2710,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/CityTemplate.jsx",
-                            lineNumber: 2686,
+                            lineNumber: 2684,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/CityTemplate.jsx",
-                        lineNumber: 2678,
+                        lineNumber: 2676,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/CityTemplate.jsx",
-                lineNumber: 169,
+                lineNumber: 167,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/CityTemplate.jsx",
-        lineNumber: 165,
+        lineNumber: 163,
         columnNumber: 5
     }, this);
 }

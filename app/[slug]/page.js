@@ -91,7 +91,9 @@ export async function generateMetadata({ params }) {
 
   const city = CITY_HUBS.find((c) => c.slug === slug);
   if (city) {
-    const title = `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater`;
+    const title =
+      city.metaTitle ||
+      `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`;
     const description = `Urbania Tempo Traveller Hire in ${city.name}. Doorstep pickup, dual AC, 140° pushback leather recliners & experienced local drivers. Best per-km rates for outstation & sightseeing.`;
     return {
       title,
