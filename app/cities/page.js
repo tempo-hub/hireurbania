@@ -3,7 +3,7 @@ import { ArrowRight, MapPin } from "lucide-react";
 import { CITY_HUBS } from "@/lib/routesData";
 
 export const metadata = {
-  title: "Urbania Tempo Traveller Cities | Hire Across India",
+  title: "Urbania Tempo Traveller Cities | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now",
   description:
     "Explore city hubs for Force Urbania tempo traveller rentals, local sightseeing, and outstation group travel across India.",
 };
