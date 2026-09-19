@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const route = SITEMAP_ROUTES.find((item) => item.routeSlug === slug);
   if (!route) return { title: 'Route Not Found | Hire Urbania' };
   return {
-    title: `Force Urbania ${route.origin} to ${route.destination}`,
+    title: `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`,
     description: `Hire a luxury Force Urbania from ${route.origin} to ${route.destination}. Distance ${route.distanceKm} KM and travel time ${route.durationHrs}.`
   };
 }

@@ -40,14 +40,9 @@ export async function generateMetadata({ params }) {
 
   const route = SITEMAP_ROUTES.find((r) => r.routeSlug === slug);
   if (route) {
-    const isJoshimath = slug === "delhi-to-joshimath-force-urbania";
-    const title = isJoshimath
-      ? `Force Urbania Delhi to Joshimath | Hire 9, 12, 16, 17 & 20 Seater Van`
-      : `Force Urbania ${route.origin} to ${route.destination} | Hire Luxury Tempo Traveller`;
+    const title = `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`;
 
-    const description = isJoshimath
-      ? `Book Force Urbania from Delhi to Joshimath & Auli. 9-20 seater luxury recliners, air suspension & hill drivers. Fares start @ ₹26/km. Instant Quote!`
-      : `Hire Force Urbania luxury van from ${route.origin} to ${route.destination}. Road distance ${route.distanceKm} KM, duration ${route.durationHrs}. Book 9, 12, 16, 17 & 20 seater variants with air suspension, pushback leather recliners & certified drivers.`;
+    const description = `Hire Force Urbania luxury van from ${route.origin} to ${route.destination}. Road distance ${route.distanceKm} KM, duration ${route.durationHrs}. Book 9, 12, 16, 17 & 20 seater variants with air suspension, pushback leather recliners & certified drivers.`;
 
     return {
       title,

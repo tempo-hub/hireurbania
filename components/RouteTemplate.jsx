@@ -121,7 +121,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 function RouteSeo({ route }) {
   const title =
     route.metaTitle ||
-    `Force Urbania ${route.origin} to ${route.destination} | Tempo Traveller Hire`;
+    `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`;
   const description =
     route.metaDescription ||
     `Book Force Urbania tempo traveller from ${route.origin} to ${route.destination}. ${route.distanceKm}km, ${route.durationHrs} journey with luxury seating, AC, and experienced chauffeurs.`;
