@@ -22639,15 +22639,6 @@ const SITEMAP_ROUTES = [
     },
     {
         origin: "Hyderabad",
-        destination: "Suryapet",
-        distanceKm: 135,
-        durationHrs: "3 hrs",
-        category: "Tourist",
-        popular: true,
-        routeSlug: "hyderabad-to-suryapet-force-urbania"
-    },
-    {
-        origin: "Hyderabad",
         destination: "Khammam",
         distanceKm: 195,
         durationHrs: "4 hrs",
@@ -23635,6 +23626,2580 @@ const SITEMAP_ROUTES = [
         category: "Tourist",
         popular: true,
         routeSlug: "hyderabad-to-chandigarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Panchkula",
+        distanceKm: 1840,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-panchkula-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mohali",
+        distanceKm: 1830,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mohali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Amritsar",
+        distanceKm: 2000,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-amritsar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jalandhar",
+        distanceKm: 1920,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jalandhar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ludhiana",
+        distanceKm: 1870,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ludhiana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Patiala",
+        distanceKm: 1850,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-patiala-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shimla",
+        distanceKm: 1950,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-shimla-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kufri",
+        distanceKm: 1970,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kufri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Manali",
+        distanceKm: 2050,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-manali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kullu",
+        distanceKm: 2020,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kullu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Naggar",
+        distanceKm: 2030,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-naggar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Palampur",
+        distanceKm: 1950,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-palampur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dharamshala",
+        distanceKm: 1980,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dharamshala-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "McLeod Ganj",
+        distanceKm: 1980,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mcleod-ganj-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bir Billing",
+        distanceKm: 1970,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bir-billing-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rajgundha",
+        distanceKm: 2020,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-rajgundha-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Barot",
+        distanceKm: 2020,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-barot-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Malana",
+        distanceKm: 2080,
+        durationHrs: "38 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-malana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tirthan Valley",
+        distanceKm: 2050,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tirthan-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Great Himalayan National Park",
+        distanceKm: 2070,
+        durationHrs: "38 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-great-himalayan-national-park-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Spiti Valley",
+        distanceKm: 2200,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kaza",
+        distanceKm: 2250,
+        durationHrs: "41 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kaza-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tabo",
+        distanceKm: 2200,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tabo-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dhankar",
+        distanceKm: 2220,
+        durationHrs: "41 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dhankar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pin Valley",
+        distanceKm: 2250,
+        durationHrs: "41 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pin-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kunzum Pass",
+        distanceKm: 2300,
+        durationHrs: "43 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kunzum-pass-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rohtang Pass",
+        distanceKm: 2100,
+        durationHrs: "38 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-rohtang-pass-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Leh",
+        distanceKm: 2500,
+        durationHrs: "46 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-leh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ladakh",
+        distanceKm: 2500,
+        durationHrs: "46 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ladakh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nubra Valley",
+        distanceKm: 2700,
+        durationHrs: "50 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nubra-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pangong Tso",
+        distanceKm: 2750,
+        durationHrs: "51 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pangong-tso-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tso Moriri",
+        distanceKm: 2700,
+        durationHrs: "50 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tso-moriri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Zanskar Valley",
+        distanceKm: 2800,
+        durationHrs: "52 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-zanskar-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kargil",
+        distanceKm: 2650,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kargil-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Drass",
+        distanceKm: 2700,
+        durationHrs: "50 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-drass-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Srinagar",
+        distanceKm: 2600,
+        durationHrs: "47 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-srinagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gulmarg",
+        distanceKm: 2640,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gulmarg-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pahalgam",
+        distanceKm: 2650,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pahalgam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sonamarg",
+        distanceKm: 2640,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-sonamarg-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Yusmarg",
+        distanceKm: 2630,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-yusmarg-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dachigam",
+        distanceKm: 2630,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dachigam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kokernag",
+        distanceKm: 2680,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kokernag-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Verinag",
+        distanceKm: 2670,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-verinag-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Anantnag",
+        distanceKm: 2650,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-anantnag-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Aru Valley",
+        distanceKm: 2700,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-aru-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Betaab Valley",
+        distanceKm: 2700,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-betaab-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chandanwari",
+        distanceKm: 2720,
+        durationHrs: "50 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-chandanwari-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Amarnath",
+        distanceKm: 2750,
+        durationHrs: "51 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-amarnath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Katra",
+        distanceKm: 2500,
+        durationHrs: "45 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-katra-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jammu",
+        distanceKm: 2480,
+        durationHrs: "45 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jammu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Patnitop",
+        distanceKm: 2520,
+        durationHrs: "46 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-patnitop-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sanasar",
+        distanceKm: 2530,
+        durationHrs: "46 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-sanasar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Baisaran",
+        distanceKm: 2680,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-baisaran-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kehribal",
+        distanceKm: 2670,
+        durationHrs: "49 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kehribal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tangmarg",
+        distanceKm: 2640,
+        durationHrs: "48 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tangmarg-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gurez Valley",
+        distanceKm: 2800,
+        durationHrs: "52 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gurez-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Karnah",
+        distanceKm: 2820,
+        durationHrs: "52 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-karnah-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Keran",
+        distanceKm: 2750,
+        durationHrs: "51 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-keran-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Machil",
+        distanceKm: 2800,
+        durationHrs: "52 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-machil-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bangus Valley",
+        distanceKm: 2770,
+        durationHrs: "51 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bangus-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Lolab Valley",
+        distanceKm: 2730,
+        durationHrs: "50 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-lolab-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhubaneswar",
+        distanceKm: 1450,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bhubaneswar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Puri",
+        distanceKm: 1500,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-puri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Konark",
+        distanceKm: 1530,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-konark-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chilika Lake",
+        distanceKm: 1530,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-chilika-lake-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Cuttack",
+        distanceKm: 1420,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-cuttack-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rourkela",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-rourkela-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jamshedpur",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jamshedpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ranchi",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ranchi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dhanbad",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dhanbad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kolkata",
+        distanceKm: 1500,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kolkata-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Howrah",
+        distanceKm: 1500,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-howrah-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Siliguri",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-siliguri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Darjeeling",
+        distanceKm: 1950,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-darjeeling-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kalimpong",
+        distanceKm: 1970,
+        durationHrs: "38 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kalimpong-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kurseong",
+        distanceKm: 1930,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kurseong-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mirik",
+        distanceKm: 1980,
+        durationHrs: "38 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-mirik-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gangtok",
+        distanceKm: 2050,
+        durationHrs: "39 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gangtok-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pelling",
+        distanceKm: 2100,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pelling-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Lachen",
+        distanceKm: 2180,
+        durationHrs: "42 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-lachen-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Lachung",
+        distanceKm: 2200,
+        durationHrs: "42 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-lachung-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Yumthang Valley",
+        distanceKm: 2250,
+        durationHrs: "43 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-yumthang-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nathu La Pass",
+        distanceKm: 2100,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nathu-la-pass-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tsomgo Lake",
+        distanceKm: 2070,
+        durationHrs: "40 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tsomgo-lake-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Zuluk",
+        distanceKm: 2150,
+        durationHrs: "41 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-zuluk-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Udaipur",
+        distanceKm: 1500,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jodhpur",
+        distanceKm: 1700,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jodhpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jaisalmer",
+        distanceKm: 1950,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jaisalmer-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bikaner",
+        distanceKm: 1800,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bikaner-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ajmer",
+        distanceKm: 1450,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ajmer-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pushkar",
+        distanceKm: 1460,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pushkar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mount Abu",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mount-abu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bundi",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bundi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kota",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kota-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bharatpur",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bharatpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Alwar",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-alwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shekhawati",
+        distanceKm: 1600,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-shekhawati-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ranthambore",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ranthambore-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sariska",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sariska-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kumbhalgarh",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kumbhalgarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ranakpur",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ranakpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Charbhuja",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-charbhuja-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nathdwara",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nathdwara-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Eklingji",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-eklingji-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nagda",
+        distanceKm: 1300,
+        durationHrs: "24 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-nagda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Haldighati",
+        distanceKm: 1420,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-haldighati-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Banswara",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-banswara-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pratapgarh",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-pratapgarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Neemrana",
+        distanceKm: 1500,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-neemrana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mandawa",
+        distanceKm: 1650,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mandawa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mathura",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mathura-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vrindavan",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-vrindavan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gwalior",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Orchha",
+        distanceKm: 1100,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-orchha-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Khajuraho",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-khajuraho-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Indore",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-indore-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhopal",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ujjain",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ujjain-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Omkareshwar",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-omkareshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Maheshwar",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-maheshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mandu",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mandu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jabalpur",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bandhavgarh",
+        distanceKm: 1100,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bandhavgarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kanha",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kanha-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pench",
+        distanceKm: 750,
+        durationHrs: "14 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pench-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pachmarhi",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pachmarhi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Amarkantak",
+        distanceKm: 1150,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-amarkantak-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gandhinagar",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gandhinagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ahmedabad",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ahmedabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Surat",
+        distanceKm: 700,
+        durationHrs: "13 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-surat-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dwarka",
+        distanceKm: 1500,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dwarka-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Somnath",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-somnath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Veraval",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-veraval-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Porbandar",
+        distanceKm: 1450,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-porbandar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jamnagar",
+        distanceKm: 1400,
+        durationHrs: "26 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jamnagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rajkot",
+        distanceKm: 1300,
+        durationHrs: "24 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-rajkot-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhavnagar",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhavnagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gir National Park",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gir-national-park-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Palitana",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-palitana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kutch",
+        distanceKm: 1550,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kutch-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhuj",
+        distanceKm: 1550,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bhuj-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mandvi",
+        distanceKm: 1600,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mandvi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dholavira",
+        distanceKm: 1800,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dholavira-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ambaji",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ambaji-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Modhera",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-modhera-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Patan",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-patan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mehsana",
+        distanceKm: 1300,
+        durationHrs: "24 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-mehsana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bharuch",
+        distanceKm: 1000,
+        durationHrs: "19 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bharuch-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vapi",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-vapi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vijayawada",
+        distanceKm: 275,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-vijayawada-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Guntur",
+        distanceKm: 275,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-guntur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rajahmundry",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-rajahmundry-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Visakhapatnam",
+        distanceKm: 620,
+        durationHrs: "11 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-visakhapatnam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vizianagaram",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-vizianagaram-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Srikakulam",
+        distanceKm: 730,
+        durationHrs: "13 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-srikakulam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Eluru",
+        distanceKm: 325,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-eluru-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhimavaram",
+        distanceKm: 390,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhimavaram-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tadepalligudem",
+        distanceKm: 350,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-tadepalligudem-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tanuku",
+        distanceKm: 400,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-tanuku-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Narsapur",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-narsapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Palakollu",
+        distanceKm: 410,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-palakollu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Machilipatnam",
+        distanceKm: 350,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-machilipatnam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tenali",
+        distanceKm: 300,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-tenali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chirala",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-chirala-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kavali",
+        distanceKm: 520,
+        durationHrs: "10 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kavali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kandukur",
+        distanceKm: 450,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kandukur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Markapur",
+        distanceKm: 270,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-markapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Podili",
+        distanceKm: 330,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-podili-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kanigiri",
+        distanceKm: 370,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kanigiri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Darsi",
+        distanceKm: 350,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-darsi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chimakurthy",
+        distanceKm: 400,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-chimakurthy-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vinukonda",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-vinukonda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Narasaraopet",
+        distanceKm: 260,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-narasaraopet-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sattenapalle",
+        distanceKm: 240,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sattenapalle-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Piduguralla",
+        distanceKm: 220,
+        durationHrs: "4 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-piduguralla-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Macherla",
+        distanceKm: 190,
+        durationHrs: "4 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-macherla-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Miryalaguda",
+        distanceKm: 150,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-miryalaguda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kodad",
+        distanceKm: 180,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kodad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Suryapet",
+        distanceKm: 140,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-suryapet-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jangaon",
+        distanceKm: 85,
+        durationHrs: "2 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jangaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Siddipet",
+        distanceKm: 110,
+        durationHrs: "2 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-siddipet-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Medak",
+        distanceKm: 100,
+        durationHrs: "2 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-medak-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sangareddy",
+        distanceKm: 55,
+        durationHrs: "1 hr",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-sangareddy-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Zaheerabad",
+        distanceKm: 105,
+        durationHrs: "2 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-zaheerabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Narayankhed",
+        distanceKm: 150,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-narayankhed-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bidar",
+        distanceKm: 145,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bidar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhalki",
+        distanceKm: 170,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhalki-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Basavakalyan",
+        distanceKm: 150,
+        durationHrs: "3 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-basavakalyan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gulbarga",
+        distanceKm: 210,
+        durationHrs: "4 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gulbarga-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Yadgir",
+        distanceKm: 225,
+        durationHrs: "4 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-yadgir-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shahapur",
+        distanceKm: 250,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-shahapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shorapur",
+        distanceKm: 270,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-shorapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Raichur",
+        distanceKm: 210,
+        durationHrs: "4 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-raichur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sindhanur",
+        distanceKm: 290,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sindhanur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gangavathi",
+        distanceKm: 330,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-gangavathi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Koppal",
+        distanceKm: 350,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-koppal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Yelburga",
+        distanceKm: 330,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-yelburga-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kushtagi",
+        distanceKm: 300,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kushtagi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Badami",
+        distanceKm: 450,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-badami-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Aihole",
+        distanceKm: 470,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-aihole-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pattadakal",
+        distanceKm: 460,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pattadakal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bagalkot",
+        distanceKm: 440,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bagalkot-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mudhol",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-mudhol-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jamakhandi",
+        distanceKm: 500,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jamakhandi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bijapur",
+        distanceKm: 410,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bijapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Basavana Bagewadi",
+        distanceKm: 420,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-basavana-bagewadi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sindagi",
+        distanceKm: 390,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sindagi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Indi",
+        distanceKm: 420,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-indi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Solapur",
+        distanceKm: 305,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-solapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pandharpur",
+        distanceKm: 380,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pandharpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Barshi",
+        distanceKm: 350,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-barshi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Latur",
+        distanceKm: 270,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-latur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Osmanabad",
+        distanceKm: 330,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-osmanabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nanded",
+        distanceKm: 280,
+        durationHrs: "5 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nanded-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Parbhani",
+        distanceKm: 340,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-parbhani-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Hingoli",
+        distanceKm: 380,
+        durationHrs: "7 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-hingoli-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jalna",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jalna-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Beed",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-beed-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dharashiv",
+        distanceKm: 330,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dharashiv-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tuljapur",
+        distanceKm: 340,
+        durationHrs: "6 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tuljapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jalgaon",
+        distanceKm: 700,
+        durationHrs: "13 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-jalgaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dhule",
+        distanceKm: 750,
+        durationHrs: "14 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dhule-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nandurbar",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-nandurbar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shahada",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-shahada-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Navapur",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-navapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vadodara",
+        distanceKm: 1100,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-vadodara-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Anand",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-anand-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nadiad",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-nadiad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kheda",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kheda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dahod",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dahod-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Godhra",
+        distanceKm: 1100,
+        durationHrs: "20 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-godhra-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Lunavada",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-lunavada-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Modasa",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-modasa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Himmatnagar",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-himmatnagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Idar",
+        distanceKm: 1280,
+        durationHrs: "24 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-idar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shamlaji",
+        distanceKm: 1300,
+        durationHrs: "24 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-shamlaji-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Udaipur (Rajasthan)",
+        distanceKm: 1500,
+        durationHrs: "27 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-udaipur-rajasthan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dungarpur",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dungarpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chittorgarh",
+        distanceKm: 1350,
+        durationHrs: "25 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-chittorgarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Neemuch",
+        distanceKm: 1200,
+        durationHrs: "22 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-neemuch-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mandsaur",
+        distanceKm: 1150,
+        durationHrs: "21 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-mandsaur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ratlam",
+        distanceKm: 1050,
+        durationHrs: "20 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ratlam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jhabua",
+        distanceKm: 1000,
+        durationHrs: "19 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jhabua-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Alirajpur",
+        distanceKm: 950,
+        durationHrs: "18 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-alirajpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Barwani",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-barwani-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Khargone",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-khargone-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Khandwa",
+        distanceKm: 700,
+        durationHrs: "13 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-khandwa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Burhanpur",
+        distanceKm: 520,
+        durationHrs: "10 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-burhanpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Akola",
+        distanceKm: 400,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-akola-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Washim",
+        distanceKm: 430,
+        durationHrs: "8 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-washim-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Buldhana",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-buldhana-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shegaon",
+        distanceKm: 500,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-shegaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Khamgaon",
+        distanceKm: 480,
+        durationHrs: "9 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-khamgaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Malkapur",
+        distanceKm: 530,
+        durationHrs: "10 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-malkapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chalisgaon",
+        distanceKm: 650,
+        durationHrs: "12 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-chalisgaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Manmad",
+        distanceKm: 700,
+        durationHrs: "13 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-manmad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Malegaon",
+        distanceKm: 730,
+        durationHrs: "14 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-malegaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Shirpur",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-shirpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dondaicha",
+        distanceKm: 820,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dondaicha-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sindkheda",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sindkheda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Taloda",
+        distanceKm: 880,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-taloda-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Akkalkuwa",
+        distanceKm: 900,
+        durationHrs: "17 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-akkalkuwa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Palghar",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-palghar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vasai",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-vasai-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Virar",
+        distanceKm: 820,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-virar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhayandar",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhayandar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Borivali",
+        distanceKm: 790,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-borivali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Andheri",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-andheri-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bandra",
+        distanceKm: 780,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bandra-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Colaba",
+        distanceKm: 790,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-colaba-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nariman Point",
+        distanceKm: 790,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nariman-point-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Marine Drive",
+        distanceKm: 790,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-marine-drive-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Juhu",
+        distanceKm: 785,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-juhu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Versova",
+        distanceKm: 790,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-versova-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Madh Island",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-madh-island-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gorai",
+        distanceKm: 810,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-gorai-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Manori",
+        distanceKm: 810,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-manori-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Uttan",
+        distanceKm: 810,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-uttan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mira Road",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mira-road-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Naigaon",
+        distanceKm: 810,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-naigaon-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nallasopara",
+        distanceKm: 820,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-nallasopara-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Boisar",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-boisar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dahanu",
+        distanceKm: 850,
+        durationHrs: "16 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dahanu-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Silvassa",
+        distanceKm: 800,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-silvassa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Daman",
+        distanceKm: 820,
+        durationHrs: "15 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-daman-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Diu",
+        distanceKm: 1250,
+        durationHrs: "23 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-diu-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({
