@@ -127,7 +127,7 @@ function CitySeo({ city }) {
             },
             areaServed: city.name,
             serviceType: "Tempo Traveller Rental",
-            telephone: "+919151827941",
+            telephone: "+916280820037",
           }),
         }}
       />
@@ -137,11 +137,9 @@ function CitySeo({ city }) {
 
 // ========== MAIN COMPONENT ==========
 export default function CityTemplate({ city, routes, fleet }) {
-  const whatsappNumber = "919151827941";
+  const whatsappNumber = "916280820037";
   const relatedRoutes = Array.isArray(routes) ? routes : [];
-  const whatsappText = encodeURIComponent(
-    `Booking Query for Urbania Tempo Traveller Hire in ${city.name}`,
-  );
+  const whatsappText = `Booking Query for Urbania Tempo Traveller Hire in ${city.name}`;
 
   // FAQ state
   const [openFAQIndex, setOpenFAQIndex] = useState(null);
@@ -693,7 +691,9 @@ export default function CityTemplate({ city, routes, fleet }) {
                 {/* Buttons */}
                 <div className="about-urbania-actions">
                   <a
-                    href={`https://wa.me/${whatsappNumber}?text=${whatsappText}`}
+                    href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                      whatsappText
+                    )}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="about-urbania-primary-btn"
@@ -1956,17 +1956,17 @@ export default function CityTemplate({ city, routes, fleet }) {
                         const cheapestVehicle =
                           fleet.length > 0
                             ? fleet.reduce((cheapest, current) =>
-                                current.ratePerKm < cheapest.ratePerKm
-                                  ? current
-                                  : cheapest,
-                              )
+                              current.ratePerKm < cheapest.ratePerKm
+                                ? current
+                                : cheapest,
+                            )
                             : null;
 
                         const estimatedFare = cheapestVehicle
                           ? Math.round(
-                              distance * 2 * cheapestVehicle.ratePerKm +
-                                cheapestVehicle.driverAllowance * 2,
-                            )
+                            distance * 2 * cheapestVehicle.ratePerKm +
+                            cheapestVehicle.driverAllowance * 2,
+                          )
                           : 0;
 
                         return (

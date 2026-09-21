@@ -642,7 +642,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 _c = FAQItem;
 // ========== SEO COMPONENT ==========
 function RouteSeo({ route }) {
-    const title = route.metaTitle || `Force Urbania ${route.origin} to ${route.destination} | Tempo Traveller Hire`;
+    const title = route.metaTitle || `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`;
     const description = route.metaDescription || `Book Force Urbania tempo traveller from ${route.origin} to ${route.destination}. ${route.distanceKm}km, ${route.durationHrs} journey with luxury seating, AC, and experienced chauffeurs.`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
         children: [
@@ -740,7 +740,7 @@ function RouteSeo({ route }) {
 _c1 = RouteSeo;
 function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
     _s();
-    const whatsappNumber = "919151827941";
+    const whatsappNumber = "916280820037";
     const whatsappText = encodeURIComponent(`Booking Query for Force Urbania ${route.origin} to ${route.destination}`);
     const roundTripDistance = route.distanceKm * 2;
     // ========== FAQ STATE ==========

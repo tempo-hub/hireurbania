@@ -159,7 +159,7 @@ function BookingModal({ isOpen, onClose, prefillData = {} }) {
     const handleSubmit = (e)=>{
         e.preventDefault();
         const textMessage = `*New Force Urbania Booking Query*%0A` + `👤 *Name:* ${encodeURIComponent(name)}%0A` + `📞 *Phone:* ${encodeURIComponent(phone)}%0A` + `📍 *Pickup:* ${encodeURIComponent(pickup)}%0A` + `🏁 *Destination:* ${encodeURIComponent(dest)}%0A` + `📅 *Date:* ${encodeURIComponent(date)}%0A` + `🚐 *Vehicle:* ${encodeURIComponent(vehicle)}%0A` + `📝 *Notes:* ${encodeURIComponent(notes || "None")}`;
-        const whatsappUrl = `https://wa.me/919151827941?text=${textMessage}`;
+        const whatsappUrl = `https://wa.me/916280820037?text=${textMessage}`;
         window.open(whatsappUrl, "_blank");
         onClose();
         alert(`Thank you ${name}! Your query has been formatted for WhatsApp booking.`);

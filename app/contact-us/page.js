@@ -11,7 +11,7 @@ export default function ContactPage() {
     >
       <ContactActions />
       <TrustArticle title="Booking helpline">
-        <p><strong>Phone:</strong> +91 91518 27941</p>
+        <p><strong>Phone:</strong> +91 6280820037</p>
         <p><strong>Email:</strong> booking@hireurbaniatempotraveller.com</p>
         <p><strong>Service area:</strong> Delhi NCR, Noida, Gurugram, Uttarakhand, Rajasthan, Madhya Pradesh, Uttar Pradesh, and pan India routes.</p>
       </TrustArticle>

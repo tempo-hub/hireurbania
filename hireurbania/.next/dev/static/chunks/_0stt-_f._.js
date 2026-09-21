@@ -85,7 +85,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function FloatingContactButtons() {
-    const whatsappNumber = "919151827941";
+    const whatsappNumber = "916280820037";
     const defaultMsg = encodeURIComponent("Hi, I want to book a Force Urbania Tempo Traveller. Please share details and pricing.");
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMsg}`;
     const phoneUrl = `tel:+${whatsappNumber}`;
@@ -166,6 +166,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b
 ;
 ;
 function Footer({ onOpenModal }) {
+    const whatsappNumber = "916280820037";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "site-footer",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -190,7 +191,7 @@ function Footer({ onOpenModal }) {
                                             children: "HU"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 27,
+                                            lineNumber: 24,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -204,7 +205,7 @@ function Footer({ onOpenModal }) {
                                                     children: "HIRE URBANIA"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 34,
+                                                    lineNumber: 31,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -215,19 +216,19 @@ function Footer({ onOpenModal }) {
                                                     children: "LUXURY TEMPO TRAVELLER"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 37,
+                                                    lineNumber: 34,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 33,
+                                            lineNumber: 30,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 26,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -240,7 +241,7 @@ function Footer({ onOpenModal }) {
                                     children: "Hire Urbania Luxury Tempo Traveller for comfortable and hassle-free group travel. Enjoy premium Urbania vehicles, experienced chauffeurs, transparent pricing, and doorstep pickup for family trips, weddings, pilgrimages, corporate tours, and outstation journeys across India."
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 46,
+                                    lineNumber: 43,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -252,44 +253,34 @@ function Footer({ onOpenModal }) {
                                         width: "100%"
                                     },
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                            onClick: ()=>onOpenModal?.(),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                            href: `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(`Hello, I want to make an enquiry for Urbania Tempo Traveller Hire. Please share the details and availability.`)}`,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
                                             className: "btn btn-primary btn-sm",
-                                            style: {
-                                                display: "inline-flex",
-                                                alignItems: "center",
-                                                justifyContent: "center",
-                                                gap: "0.45rem",
-                                                minHeight: "40px",
-                                                padding: "0.65rem 1.2rem",
-                                                borderRadius: "8px",
-                                                whiteSpace: "nowrap",
-                                                lineHeight: 1,
-                                                cursor: "pointer"
-                                            },
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$square$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageSquare$3e$__["MessageSquare"], {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 86,
+                                                    lineNumber: 75,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Quick Inquiry"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 87,
+                                                    lineNumber: 76,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 70,
+                                            lineNumber: 67,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+919151827941",
+                                            href: "tel:+916280820037",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",
@@ -328,26 +319,26 @@ function Footer({ onOpenModal }) {
                                                     size: 14
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 128,
+                                                    lineNumber: 117,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     children: "Call Helpline"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 129,
+                                                    lineNumber: 118,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 90,
+                                            lineNumber: 79,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 61,
+                                    lineNumber: 58,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -364,7 +355,7 @@ function Footer({ onOpenModal }) {
                                             children: "Follow Us On"
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 135,
+                                            lineNumber: 124,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -408,12 +399,12 @@ function Footer({ onOpenModal }) {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
-                                                        lineNumber: 189,
+                                                        lineNumber: 178,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 157,
+                                                    lineNumber: 146,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -449,12 +440,12 @@ function Footer({ onOpenModal }) {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
-                                                        lineNumber: 225,
+                                                        lineNumber: 214,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 193,
+                                                    lineNumber: 182,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -490,12 +481,12 @@ function Footer({ onOpenModal }) {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
-                                                        lineNumber: 261,
+                                                        lineNumber: 250,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 229,
+                                                    lineNumber: 218,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -531,12 +522,12 @@ function Footer({ onOpenModal }) {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
-                                                        lineNumber: 297,
+                                                        lineNumber: 286,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 265,
+                                                    lineNumber: 254,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -572,30 +563,30 @@ function Footer({ onOpenModal }) {
                                                         size: 17
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
-                                                        lineNumber: 333,
+                                                        lineNumber: 322,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 301,
+                                                    lineNumber: 290,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 148,
+                                            lineNumber: 137,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 134,
+                                    lineNumber: 123,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 25,
+                            lineNumber: 22,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -605,7 +596,7 @@ function Footer({ onOpenModal }) {
                                     children: "Trust Hire"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 341,
+                                    lineNumber: 330,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -617,12 +608,12 @@ function Footer({ onOpenModal }) {
                                                 children: "Terms & Conditions"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 345,
+                                                lineNumber: 334,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 344,
+                                            lineNumber: 333,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -631,12 +622,12 @@ function Footer({ onOpenModal }) {
                                                 children: "Privacy Policy"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 348,
+                                                lineNumber: 337,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 347,
+                                            lineNumber: 336,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -645,12 +636,12 @@ function Footer({ onOpenModal }) {
                                                 children: "Contact Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 351,
+                                                lineNumber: 340,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 350,
+                                            lineNumber: 339,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -659,12 +650,12 @@ function Footer({ onOpenModal }) {
                                                 children: "About Us"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 354,
+                                                lineNumber: 343,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 353,
+                                            lineNumber: 342,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -673,12 +664,12 @@ function Footer({ onOpenModal }) {
                                                 children: "Refund & Cancellation"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 357,
+                                                lineNumber: 346,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 356,
+                                            lineNumber: 345,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -687,24 +678,24 @@ function Footer({ onOpenModal }) {
                                                 children: "Blogs"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 360,
+                                                lineNumber: 349,
                                                 columnNumber: 17
                                             }, this)
                                         }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 359,
+                                            lineNumber: 348,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 343,
+                                    lineNumber: 332,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 340,
+                            lineNumber: 329,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -714,7 +705,7 @@ function Footer({ onOpenModal }) {
                                     children: "Popular City Hubs"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 367,
+                                    lineNumber: 356,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
@@ -728,23 +719,23 @@ function Footer({ onOpenModal }) {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/components/Footer.jsx",
-                                                lineNumber: 371,
+                                                lineNumber: 360,
                                                 columnNumber: 19
                                             }, this)
                                         }, city.slug, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 370,
+                                            lineNumber: 359,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 368,
+                                    lineNumber: 357,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 366,
+                            lineNumber: 355,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -754,7 +745,7 @@ function Footer({ onOpenModal }) {
                                     children: "24/7 Booking Helpline"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 381,
+                                    lineNumber: 370,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -772,28 +763,42 @@ function Footer({ onOpenModal }) {
                                                 gap: "0.6rem",
                                                 alignItems: "center"
                                             },
-                                            children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
-                                                    size: 16,
-                                                    style: {
-                                                        color: "var(--blue-400)"
-                                                    }
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 395,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "+91 91518 27941"
-                                                }, void 0, false, {
-                                                    fileName: "[project]/components/Footer.jsx",
-                                                    lineNumber: 396,
-                                                    columnNumber: 17
-                                                }, this)
-                                            ]
-                                        }, void 0, true, {
+                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                                href: "tel:+916280820037",
+                                                style: {
+                                                    display: "flex",
+                                                    gap: "0.6rem",
+                                                    alignItems: "center",
+                                                    color: "inherit",
+                                                    textDecoration: "none"
+                                                },
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                                        size: 16,
+                                                        style: {
+                                                            color: "var(--blue-400)"
+                                                        }
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Footer.jsx",
+                                                        lineNumber: 394,
+                                                        columnNumber: 19
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                        children: "+91 6280820037"
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/components/Footer.jsx",
+                                                        lineNumber: 395,
+                                                        columnNumber: 19
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/components/Footer.jsx",
+                                                lineNumber: 384,
+                                                columnNumber: 17
+                                            }, this)
+                                        }, void 0, false, {
                                             fileName: "[project]/components/Footer.jsx",
-                                            lineNumber: 392,
+                                            lineNumber: 381,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -846,7 +851,7 @@ function Footer({ onOpenModal }) {
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                    children: "Headquartered in Noida, Uttar Pradesh • Serving clients across India"
+                                                    children: "First floor, C3/96, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010"
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/Footer.jsx",
                                                     lineNumber: 421,
@@ -861,19 +866,19 @@ function Footer({ onOpenModal }) {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/Footer.jsx",
-                                    lineNumber: 383,
+                                    lineNumber: 372,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/Footer.jsx",
-                            lineNumber: 380,
+                            lineNumber: 369,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/Footer.jsx",
-                    lineNumber: 23,
+                    lineNumber: 20,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -915,12 +920,12 @@ function Footer({ onOpenModal }) {
             ]
         }, void 0, true, {
             fileName: "[project]/components/Footer.jsx",
-            lineNumber: 22,
+            lineNumber: 19,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/Footer.jsx",
-        lineNumber: 21,
+        lineNumber: 18,
         columnNumber: 5
     }, this);
 }
@@ -959,7 +964,7 @@ function Navbar({ onOpenModal }) {
     _s();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const whatsappNumber = "919151827941";
+    const whatsappNumber = "916280820037";
     const whatsappText = "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -1181,7 +1186,7 @@ function Navbar({ onOpenModal }) {
                                 className: "jsx-925b43de95ebf32e" + " " + "nav-cta-group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "tel:+919151827941",
+                                        href: "tel:+916280820037",
                                         title: "Call 24/7 Helpline",
                                         className: "jsx-925b43de95ebf32e" + " " + "phone-quicklink",
                                         children: [
@@ -1194,7 +1199,7 @@ function Navbar({ onOpenModal }) {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "jsx-925b43de95ebf32e",
-                                                children: "+91 91518 27941"
+                                                children: "+91 62808 20037"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
                                                 lineNumber: 146,
@@ -1278,7 +1283,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Home"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 180,
+                                lineNumber: 179,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1288,7 +1293,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Fleet Variants"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 188,
+                                lineNumber: 187,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1298,7 +1303,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Fare Calculator"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 196,
+                                lineNumber: 195,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1308,7 +1313,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Popular Outstation Routes"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 204,
+                                lineNumber: 203,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1318,7 +1323,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Tour Packages"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 212,
+                                lineNumber: 211,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1328,7 +1333,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Customer Reviews"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 220,
+                                lineNumber: 219,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1338,7 +1343,7 @@ function Navbar({ onOpenModal }) {
                                 children: "FAQs"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 228,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1348,7 +1353,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Blogs"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 236,
+                                lineNumber: 235,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1360,14 +1365,14 @@ function Navbar({ onOpenModal }) {
                                         size: 17
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 250,
+                                        lineNumber: 249,
                                         columnNumber: 13
                                     }, this),
                                     "Get Instant Quote"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 245,
+                                lineNumber: 244,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1382,7 +1387,7 @@ function Navbar({ onOpenModal }) {
                         className: "jsx-925b43de95ebf32e" + " " + "mobile-menu-overlay"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 257,
+                        lineNumber: 256,
                         columnNumber: 11
                     }, this)
                 ]
@@ -23090,6 +23095,546 @@ const SITEMAP_ROUTES = [
         category: "Tourist",
         popular: true,
         routeSlug: "hyderabad-to-dudhsagar-falls-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dehradun",
+        distanceKm: 1800,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Mussoorie",
+        distanceKm: 1850,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-mussoorie-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nainital",
+        distanceKm: 1750,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-nainital-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ranikhet",
+        distanceKm: 1800,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ranikhet-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Almora",
+        distanceKm: 1780,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-almora-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kausani",
+        distanceKm: 1820,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kausani-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Binsar",
+        distanceKm: 1800,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-binsar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Jageshwar",
+        distanceKm: 1850,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-jageshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chaukori",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-chaukori-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Pithoragarh",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-pithoragarh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Munsiyari",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-munsiyari-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Joshimath",
+        distanceKm: 1950,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-joshimath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Auli",
+        distanceKm: 1970,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-auli-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chopta",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-chopta-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tungnath",
+        distanceKm: 1910,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tungnath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Madhyamaheshwar",
+        distanceKm: 1950,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-madhyamaheshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kalpeshwar",
+        distanceKm: 2000,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kalpeshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rudranath",
+        distanceKm: 1980,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-rudranath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gaurikund",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gaurikund-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Guptakashi",
+        distanceKm: 1920,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-guptakashi-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ukhimath",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ukhimath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Sitaram",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-sitaram-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhatwari",
+        distanceKm: 1850,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhatwari-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Harsil",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-harsil-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dharali",
+        distanceKm: 1900,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dharali-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bagori",
+        distanceKm: 1910,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bagori-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gangnani",
+        distanceKm: 1870,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-gangnani-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bhaironghati",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-bhaironghati-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gaumukh",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gaumukh-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tapovan",
+        distanceKm: 1970,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-tapovan-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Nelong Valley",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-nelong-valley-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Satopanth Lake",
+        distanceKm: 2000,
+        durationHrs: "37 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-satopanth-lake-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Vasuki Tal",
+        distanceKm: 1950,
+        durationHrs: "36 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-vasuki-tal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Roopkund",
+        distanceKm: 1850,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-roopkund-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Bedni Bugyal",
+        distanceKm: 1850,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-bedni-bugyal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ali Bugyal",
+        distanceKm: 1850,
+        durationHrs: "35 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-ali-bugyal-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gwaldam",
+        distanceKm: 1800,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-gwaldam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Baijnath",
+        distanceKm: 1820,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-baijnath-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Dwarahat",
+        distanceKm: 1780,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-dwarahat-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Someshwar",
+        distanceKm: 1770,
+        durationHrs: "33 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-someshwar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Lohaghat",
+        distanceKm: 1850,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-lohaghat-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Champawat",
+        distanceKm: 1830,
+        durationHrs: "34 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-champawat-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Tanakpur",
+        distanceKm: 1780,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-tanakpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Khatima",
+        distanceKm: 1750,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-khatima-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Banbasa",
+        distanceKm: 1770,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-banbasa-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Haldwani",
+        distanceKm: 1730,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-haldwani-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kathgodam",
+        distanceKm: 1730,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kathgodam-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kichha",
+        distanceKm: 1690,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-kichha-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Rudrapur",
+        distanceKm: 1700,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-rudrapur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Kashipur",
+        distanceKm: 1660,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-kashipur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Moradabad",
+        distanceKm: 1650,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-moradabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Noida",
+        distanceKm: 1570,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-noida-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Gurugram",
+        distanceKm: 1580,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-gurugram-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Faridabad",
+        distanceKm: 1580,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-faridabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ghaziabad",
+        distanceKm: 1590,
+        durationHrs: "28 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ghaziabad-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Meerut",
+        distanceKm: 1630,
+        durationHrs: "29 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-meerut-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Muzaffarnagar",
+        distanceKm: 1680,
+        durationHrs: "30 hrs",
+        category: "Tourist",
+        popular: false,
+        routeSlug: "hyderabad-to-muzaffarnagar-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Saharanpur",
+        distanceKm: 1740,
+        durationHrs: "31 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-saharanpur-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Ambala",
+        distanceKm: 1800,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-ambala-force-urbania"
+    },
+    {
+        origin: "Hyderabad",
+        destination: "Chandigarh",
+        distanceKm: 1830,
+        durationHrs: "32 hrs",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "hyderabad-to-chandigarh-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({

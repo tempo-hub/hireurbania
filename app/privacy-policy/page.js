@@ -23,7 +23,7 @@ export default function PrivacyPage() {
         <p>We share relevant trip details only with the people needed to fulfil your booking, such as our assigned driver or operations team. We retain booking information for operational, accounting, and legal requirements.</p>
       </TrustArticle>
       <TrustArticle title="Contact">
-        <p>For privacy questions or a request about your information, email booking@hireurbaniatempotraveller.com or call +91 91518 27941.</p>
+        <p>For privacy questions or a request about your information, email booking@hireurbaniatempotraveller.com or call +91 6280820037.</p>
       </TrustArticle>
     </TrustPage>
   );

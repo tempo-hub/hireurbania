@@ -177,7 +177,7 @@ export default function RouteTemplate({
   fleet,
   cityGuide,
 }) {
-  const whatsappNumber = "919151827941";
+  const whatsappNumber = "916280820037";
 
   const whatsappText = encodeURIComponent(
     `Booking Query for Force Urbania ${route.origin} to ${route.destination}`,
@@ -1183,7 +1183,7 @@ export default function RouteTemplate({
                         {formatCurrency(
                           Math.round(
                             roundTripDistance * model.ratePerKm +
-                              model.driverAllowance * 3,
+                            model.driverAllowance * 3,
                           ),
                         )}
                       </td>

@@ -1,12 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  Phone,
-  MessageSquare,
-  MapPin,
-  Mail,
-} from "lucide-react";
+import { Phone, MessageSquare, MapPin, Mail } from "lucide-react";
 import {
   FaFacebookF,
   FaInstagram,
@@ -17,6 +12,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { CITY_HUBS } from "@/lib/routesData";
 
 export default function Footer({ onOpenModal }) {
+  const whatsappNumber = "916280820037";
+
   return (
     <footer className="site-footer">
       <div className="container">
@@ -67,28 +64,20 @@ export default function Footer({ onOpenModal }) {
                 width: "100%",
               }}
             >
-              <button
-                onClick={() => onOpenModal?.()}
+              <a
+                href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                  `Hello, I want to make an enquiry for Urbania Tempo Traveller Hire. Please share the details and availability.`,
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="btn btn-primary btn-sm"
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  gap: "0.45rem",
-                  minHeight: "40px",
-                  padding: "0.65rem 1.2rem",
-                  borderRadius: "8px",
-                  whiteSpace: "nowrap",
-                  lineHeight: 1,
-                  cursor: "pointer",
-                }}
               >
                 <MessageSquare size={14} />
                 <span>Quick Inquiry</span>
-              </button>
+              </a>
 
               <a
-                href="tel:+919151827941"
+                href="tel:+916280820037"
                 className="call-helpline-btn"
                 style={{
                   display: "inline-flex",
@@ -392,8 +381,19 @@ export default function Footer({ onOpenModal }) {
               <div
                 style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}
               >
-                <Phone size={16} style={{ color: "var(--blue-400)" }} />
-                <span>+91 91518 27941</span>
+                <a
+                  href="tel:+916280820037"
+                  style={{
+                    display: "flex",
+                    gap: "0.6rem",
+                    alignItems: "center",
+                    color: "inherit",
+                    textDecoration: "none",
+                  }}
+                >
+                  <Phone size={16} style={{ color: "var(--blue-400)" }} />
+                  <span>+91 6280820037</span>
+                </a>
               </div>
 
               <div
@@ -419,8 +419,8 @@ export default function Footer({ onOpenModal }) {
                   }}
                 />
                 <span>
-                  Headquartered in Noida, Uttar Pradesh • Serving clients across
-                  India
+                  First floor, C3/96, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar
+                  Pradesh 226010
                 </span>
               </div>
             </div>
