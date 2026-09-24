@@ -31107,6 +31107,1942 @@ const SITEMAP_ROUTES = [
         category: "City",
         popular: true,
         routeSlug: "mumbai-to-thiruvananthapuram-force-urbania"
+    },
+    // Varanasi Routes
+    {
+        origin: "Varanasi",
+        destination: "Dehradun",
+        distanceKm: 820,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Haridwar",
+        distanceKm: 900,
+        durationHrs: "15.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Rishikesh",
+        distanceKm: 850,
+        durationHrs: "14.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-rishikesh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nainital",
+        distanceKm: 700,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nainital-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mussoorie",
+        distanceKm: 850,
+        durationHrs: "15.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mussoorie-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Haldwani",
+        distanceKm: 680,
+        durationHrs: "12.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-haldwani-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Rudrapur",
+        distanceKm: 650,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-rudrapur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kashipur",
+        distanceKm: 630,
+        durationHrs: "11.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kashipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Almora",
+        distanceKm: 750,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-almora-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Pithoragarh",
+        distanceKm: 900,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-pithoragarh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Joshimath",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-joshimath-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kotdwar",
+        distanceKm: 750,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kotdwar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bhopal",
+        distanceKm: 780,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Indore",
+        distanceKm: 1000,
+        durationHrs: "19 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-indore-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jabalpur",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Gwalior",
+        distanceKm: 700,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-gwalior-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ujjain",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ujjain-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Rewa",
+        distanceKm: 250,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-rewa-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Satna",
+        distanceKm: 220,
+        durationHrs: "4.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-satna-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Katni",
+        distanceKm: 400,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-katni-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sagar",
+        distanceKm: 500,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sagar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dewas",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dewas-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Khajuraho",
+        distanceKm: 420,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-khajuraho-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chhindwara",
+        distanceKm: 700,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chhindwara-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Burhanpur",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-burhanpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Shivpuri",
+        distanceKm: 750,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-shivpuri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ratlam",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ratlam-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jaipur",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jaipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jodhpur",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jodhpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Udaipur",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-udaipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kota",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kota-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ajmer",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ajmer-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bikaner",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bikaner-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Alwar",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-alwar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bharatpur",
+        distanceKm: 700,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bharatpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sikar",
+        distanceKm: 1000,
+        durationHrs: "19 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sikar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Pali",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-pali-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mount Abu",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mount-abu-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jaisalmer",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jaisalmer-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bhilwara",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bhilwara-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chittorgarh",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chittorgarh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hanumangarh",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hanumangarh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Khatu Shyam Ji",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-khatu-shyam-ji-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Salasar Balaji",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-salasar-balaji-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Pushkar",
+        distanceKm: 980,
+        durationHrs: "19 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-pushkar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nathdwara",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nathdwara-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ranakpur Jain Temple",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ranakpur-jain-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Eklingji Temple",
+        distanceKm: 1120,
+        durationHrs: "21.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-eklingji-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Amer Fort",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-amer-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kumbhalgarh Fort",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kumbhalgarh-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mehandipur Balaji",
+        distanceKm: 800,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mehandipur-balaji-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Karni Mata Temple",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-karni-mata-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dilwara Temples",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dilwara-temples-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Govind Dev Ji Temple",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-govind-dev-ji-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ranthambore National Park",
+        distanceKm: 900,
+        durationHrs: "17 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ranthambore-national-park-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sariska National Park",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sariska-national-park-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Keoladeo National Park",
+        distanceKm: 700,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-keoladeo-national-park-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nakki Lake",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nakki-lake-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sam Sand Dunes",
+        distanceKm: 1380,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sam-sand-dunes-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "City Palace Udaipur",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-city-palace-udaipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Lake Pichola",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-lake-pichola-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hawa Mahal",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hawa-mahal-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jantar Mantar Jaipur",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jantar-mantar-jaipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jaigarh Fort",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jaigarh-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nahargarh Fort",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nahargarh-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jal Mahal",
+        distanceKm: 850,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jal-mahal-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Fateh Sagar Lake",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-fateh-sagar-lake-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Junagarh Fort",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-junagarh-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Patwon Ki Haveli",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-patwon-ki-haveli-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Rani Sati Temple",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-rani-sati-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Desert National Park",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-desert-national-park-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Osian",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-osian-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chand Baori Abhaneri",
+        distanceKm: 900,
+        durationHrs: "17 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chand-baori-abhaneri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bhangarh Fort",
+        distanceKm: 900,
+        durationHrs: "17 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bhangarh-fort-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jaisamand Lake",
+        distanceKm: 1120,
+        durationHrs: "21.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jaisamand-lake-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Patna",
+        distanceKm: 250,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-patna-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Gaya",
+        distanceKm: 260,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-gaya-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bodh Gaya",
+        distanceKm: 280,
+        durationHrs: "5.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bodh-gaya-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Muzaffarpur",
+        distanceKm: 300,
+        durationHrs: "6 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-muzaffarpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bhagalpur",
+        distanceKm: 500,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bhagalpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Darbhanga",
+        distanceKm: 380,
+        durationHrs: "7.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-darbhanga-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Purnia",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-purnia-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Arrah",
+        distanceKm: 250,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-arrah-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Begusarai",
+        distanceKm: 400,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-begusarai-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Munger",
+        distanceKm: 450,
+        durationHrs: "9 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-munger-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sasaram",
+        distanceKm: 150,
+        durationHrs: "3 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sasaram-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hajipur",
+        distanceKm: 280,
+        durationHrs: "5.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hajipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Siwan",
+        distanceKm: 220,
+        durationHrs: "4.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-siwan-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chapra",
+        distanceKm: 200,
+        durationHrs: "4 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chapra-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Delhi",
+        distanceKm: 800,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-delhi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Noida",
+        distanceKm: 780,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-noida-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Gurugram",
+        distanceKm: 820,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-gurugram-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Ghaziabad",
+        distanceKm: 770,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-ghaziabad-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Faridabad",
+        distanceKm: 820,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-faridabad-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Greater Noida",
+        distanceKm: 800,
+        durationHrs: "14.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-greater-noida-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Meerut",
+        distanceKm: 850,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-meerut-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Panipat",
+        distanceKm: 900,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-panipat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dharamshala",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dharamshala-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kullu",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kullu-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Solan",
+        distanceKm: 1000,
+        durationHrs: "19 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-solan-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mandi",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mandi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bilaspur",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bilaspur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hamirpur",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hamirpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Una",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-una-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nahan",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nahan-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chamba",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chamba-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Palampur",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-palampur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kangra",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kangra-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Baddi",
+        distanceKm: 950,
+        durationHrs: "18 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-baddi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Paonta Sahib",
+        distanceKm: 900,
+        durationHrs: "17 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-paonta-sahib-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nurpur",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nurpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "McLeodganj",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mcleodganj-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dalhousie",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dalhousie-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Khajjiar",
+        distanceKm: 1220,
+        durationHrs: "23.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-khajjiar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kasauli",
+        distanceKm: 1000,
+        durationHrs: "19 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kasauli-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chail",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chail-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Spiti Valley",
+        distanceKm: 1500,
+        durationHrs: "30 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-spiti-valley-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kasol",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kasol-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Lahaul Valley",
+        distanceKm: 1450,
+        durationHrs: "28 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-lahaul-valley-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sangla Valley",
+        distanceKm: 1400,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sangla-valley-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kalpa",
+        distanceKm: 1450,
+        durationHrs: "28 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kalpa-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kaza",
+        distanceKm: 1550,
+        durationHrs: "30 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kaza-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Narkanda",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-narkanda-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kufri",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kufri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mashobra",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mashobra-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Shoja",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-shoja-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Barot Valley",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-barot-valley-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Fagu",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-fagu-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Naldehra",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-naldehra-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bhuntar",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bhuntar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Naggar",
+        distanceKm: 1220,
+        durationHrs: "23.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-naggar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jibhi",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jibhi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Banjar",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-banjar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Tosh",
+        distanceKm: 1300,
+        durationHrs: "25 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-tosh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sainj",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sainj-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Baijnath",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-baijnath-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bir Billing",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bir-billing-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chamunda",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chamunda-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jawalamukhi",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jawalamukhi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Banikhet",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-banikhet-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Pangi Valley",
+        distanceKm: 1350,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-pangi-valley-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chitkul",
+        distanceKm: 1450,
+        durationHrs: "28 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chitkul-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nako",
+        distanceKm: 1500,
+        durationHrs: "29 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nako-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dhankar",
+        distanceKm: 1550,
+        durationHrs: "30 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dhankar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kolkata",
+        distanceKm: 680,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kolkata-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Howrah",
+        distanceKm: 690,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-howrah-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Durgapur",
+        distanceKm: 520,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-durgapur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Asansol",
+        distanceKm: 480,
+        durationHrs: "9 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-asansol-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Siliguri",
+        distanceKm: 700,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-siliguri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Darjeeling",
+        distanceKm: 750,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-darjeeling-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kalimpong",
+        distanceKm: 750,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kalimpong-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kharagpur",
+        distanceKm: 750,
+        durationHrs: "14.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kharagpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Shantiniketan",
+        distanceKm: 550,
+        durationHrs: "11 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-shantiniketan-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Malda",
+        distanceKm: 450,
+        durationHrs: "9 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-malda-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Cooch Behar",
+        distanceKm: 800,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-cooch-behar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jalpaiguri",
+        distanceKm: 720,
+        durationHrs: "14.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jalpaiguri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Alipurduar",
+        distanceKm: 800,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-alipurduar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Murshidabad",
+        distanceKm: 550,
+        durationHrs: "11 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-murshidabad-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Krishnanagar",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-krishnanagar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nabadwip",
+        distanceKm: 580,
+        durationHrs: "11.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nabadwip-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mayapur",
+        distanceKm: 590,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mayapur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Tarapith",
+        distanceKm: 500,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-tarapith-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Digha",
+        distanceKm: 800,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-digha-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bishnupur",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bishnupur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bardhaman",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bardhaman-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Haldia",
+        distanceKm: 750,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-haldia-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Purulia",
+        distanceKm: 550,
+        durationHrs: "11 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-purulia-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Raiganj",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-raiganj-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Balurghat",
+        distanceKm: 650,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-balurghat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bankura",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bankura-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Midnapore",
+        distanceKm: 700,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-midnapore-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kalyani",
+        distanceKm: 650,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kalyani-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Barasat",
+        distanceKm: 680,
+        durationHrs: "13.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-barasat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Serampore",
+        distanceKm: 670,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-serampore-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Chandannagar",
+        distanceKm: 660,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-chandannagar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bongaon",
+        distanceKm: 750,
+        durationHrs: "15 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bongaon-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Habra",
+        distanceKm: 720,
+        durationHrs: "14.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-habra-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Santipur",
+        distanceKm: 620,
+        durationHrs: "12.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-santipur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Berhampore",
+        distanceKm: 500,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-berhampore-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Guwahati",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-guwahati-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dibrugarh",
+        distanceKm: 1400,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dibrugarh-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Jorhat",
+        distanceKm: 1250,
+        durationHrs: "24 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-jorhat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sivasagar",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sivasagar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Tezpur",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-tezpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Silchar",
+        distanceKm: 1400,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-silchar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kaziranga",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kaziranga-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Majuli",
+        distanceKm: 1300,
+        durationHrs: "25 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-majuli-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Haflong",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-haflong-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nagaon",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nagaon-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Tinsukia",
+        distanceKm: 1450,
+        durationHrs: "28 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-tinsukia-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Golaghat",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-golaghat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dhubri",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dhubri-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bongaigaon",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bongaigaon-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Kokrajhar",
+        distanceKm: 1120,
+        durationHrs: "21.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-kokrajhar-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Barpeta",
+        distanceKm: 1080,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-barpeta-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Nalbari",
+        distanceKm: 1050,
+        durationHrs: "20 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-nalbari-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mangaldoi",
+        distanceKm: 1100,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mangaldoi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "North Lakhimpur",
+        distanceKm: 1300,
+        durationHrs: "25 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-north-lakhimpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Dhemaji",
+        distanceKm: 1350,
+        durationHrs: "26 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-dhemaji-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Karimganj",
+        distanceKm: 1450,
+        durationHrs: "28 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-karimganj-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hojai",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hojai-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Morigaon",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-morigaon-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Biswanath Chariali",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-biswanath-chariali-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sonitpur",
+        distanceKm: 1150,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sonitpur-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Bokakhat",
+        distanceKm: 1220,
+        durationHrs: "23.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-bokakhat-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Pobitora",
+        distanceKm: 1120,
+        durationHrs: "21.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-pobitora-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Manas National Park",
+        distanceKm: 1200,
+        durationHrs: "23 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-manas-national-park-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Sualkuchi",
+        distanceKm: 1080,
+        durationHrs: "21 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-sualkuchi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Hajo",
+        distanceKm: 1070,
+        durationHrs: "20.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-hajo-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Mahamaya Temple",
+        distanceKm: 1160,
+        durationHrs: "22 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-mahamaya-temple-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Diphu",
+        distanceKm: 1300,
+        durationHrs: "25 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-diphu-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Umrangso",
+        distanceKm: 1400,
+        durationHrs: "27 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-umrangso-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Margherita",
+        distanceKm: 1520,
+        durationHrs: "30 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-margherita-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Digboi",
+        distanceKm: 1510,
+        durationHrs: "30 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-digboi-force-urbania"
+    },
+    {
+        origin: "Varanasi",
+        destination: "Namphake",
+        distanceKm: 1470,
+        durationHrs: "29 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "varanasi-to-namphake-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({
