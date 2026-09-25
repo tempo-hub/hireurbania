@@ -17,6 +17,13 @@ export default async function sitemap() {
     priority: 0.8,
   }));
 
+  const routeEntrieswithRouteSlug = SITEMAP_ROUTES.map((route) => ({
+    url: `${baseUrl}/routes/${route.routeSlug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.8,
+  }));
+
   const cityEntries = CITY_HUBS.map((city) => ({
     url: `${baseUrl}/${city.slug}`,
     lastModified: new Date(),
@@ -38,5 +45,5 @@ export default async function sitemap() {
     priority: slug === 'contact-us' ? 0.8 : 0.5,
   }));
 
-  return [homeEntry, ...cityEntries, ...routeEntries, ...trustEntries];
+  return [homeEntry, ...cityEntries, ...routeEntries, ...trustEntries, ...routeEntrieswithRouteSlug];
 }
