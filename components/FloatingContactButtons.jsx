@@ -5,7 +5,7 @@ import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
 
 export default function FloatingContactButtons() {
-  const whatsappNumber = "916280820037";
+  const whatsappNumber = "919818022327";
   const defaultMsg = encodeURIComponent(
     "Hi, I want to book a Force Urbania Tempo Traveller. Please share details and pricing."
   );

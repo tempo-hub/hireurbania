@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import BookingModal from "@/components/BookingModal";
 
-const whatsappNumber = "916280820037";
+const whatsappNumber = "919818022327";
 
 export default function TrustPage({ title, eyebrow, intro, children }) {
   const [modalOpen, setModalOpen] = useState(false);
@@ -37,8 +37,8 @@ export default function TrustPage({ title, eyebrow, intro, children }) {
 export function ContactActions() {
   return (
     <div className="trust-actions">
-      <a className="btn btn-primary" href="tel:+916280820037">
-        <Phone size={17} /> Call +91 6280820037
+      <a className="btn btn-primary" href="tel:+919818022327">
+        <Phone size={17} /> Call +91 9818022327
       </a>
       <a
         className="btn btn-whatsapp"

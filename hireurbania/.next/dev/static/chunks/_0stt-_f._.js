@@ -85,7 +85,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function FloatingContactButtons() {
-    const whatsappNumber = "916280820037";
+    const whatsappNumber = "919818022327";
     const defaultMsg = encodeURIComponent("Hi, I want to book a Force Urbania Tempo Traveller. Please share details and pricing.");
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMsg}`;
     const phoneUrl = `tel:+${whatsappNumber}`;
@@ -166,7 +166,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b
 ;
 ;
 function Footer({ onOpenModal }) {
-    const whatsappNumber = "916280820037";
+    const whatsappNumber = "919818022327";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "site-footer",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -280,7 +280,7 @@ function Footer({ onOpenModal }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+916280820037",
+                                            href: "tel:+919818022327",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",
@@ -764,7 +764,7 @@ function Footer({ onOpenModal }) {
                                                 alignItems: "center"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "tel:+916280820037",
+                                                href: "tel:+919818022327",
                                                 style: {
                                                     display: "flex",
                                                     gap: "0.6rem",
@@ -784,7 +784,7 @@ function Footer({ onOpenModal }) {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "+91 6280820037"
+                                                        children: "+91 9818022327"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
                                                         lineNumber: 395,
@@ -964,7 +964,7 @@ function Navbar({ onOpenModal }) {
     _s();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const whatsappNumber = "916280820037";
+    const whatsappNumber = "919818022327";
     const whatsappText = "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -1186,7 +1186,7 @@ function Navbar({ onOpenModal }) {
                                 className: "jsx-925b43de95ebf32e" + " " + "nav-cta-group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "tel:+916280820037",
+                                        href: "tel:+919818022327",
                                         title: "Call 24/7 Helpline",
                                         className: "jsx-925b43de95ebf32e" + " " + "phone-quicklink",
                                         children: [
@@ -1199,7 +1199,7 @@ function Navbar({ onOpenModal }) {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "jsx-925b43de95ebf32e",
-                                                children: "+91 62808 20037"
+                                                children: "+91 98180 22327"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
                                                 lineNumber: 146,
@@ -1327,23 +1327,13 @@ function Navbar({ onOpenModal }) {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#reviews",
+                                href: "/cities",
                                 onClick: closeMobileMenu,
                                 className: "mobile-nav-link",
-                                children: "Customer Reviews"
+                                children: "All Cities"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
                                 lineNumber: 219,
-                                columnNumber: 11
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                                href: "/#faqs",
-                                onClick: closeMobileMenu,
-                                className: "mobile-nav-link",
-                                children: "FAQs"
-                            }, void 0, false, {
-                                fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
@@ -1353,7 +1343,7 @@ function Navbar({ onOpenModal }) {
                                 children: "Blogs"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 235,
+                                lineNumber: 227,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1365,14 +1355,14 @@ function Navbar({ onOpenModal }) {
                                         size: 17
                                     }, void 0, false, {
                                         fileName: "[project]/components/Navbar.jsx",
-                                        lineNumber: 249,
+                                        lineNumber: 241,
                                         columnNumber: 13
                                     }, this),
                                     "Get Instant Quote"
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/Navbar.jsx",
-                                lineNumber: 244,
+                                lineNumber: 236,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -1387,7 +1377,7 @@ function Navbar({ onOpenModal }) {
                         className: "jsx-925b43de95ebf32e" + " " + "mobile-menu-overlay"
                     }, void 0, false, {
                         fileName: "[project]/components/Navbar.jsx",
-                        lineNumber: 256,
+                        lineNumber: 248,
                         columnNumber: 11
                     }, this)
                 ]
