@@ -33033,6 +33033,881 @@ const SITEMAP_ROUTES = [
         category: "City",
         popular: true,
         routeSlug: "varanasi-to-namphake-force-urbania"
+    },
+    // Prayagraj Routes
+    {
+        origin: "Prayagraj",
+        destination: "Varanasi",
+        distanceKm: 125,
+        durationHrs: "2.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-varanasi-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Lucknow",
+        distanceKm: 200,
+        durationHrs: "4 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-lucknow-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Ayodhya",
+        distanceKm: 170,
+        durationHrs: "4 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-ayodhya-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Kanpur",
+        distanceKm: 210,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-kanpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Mirzapur",
+        distanceKm: 90,
+        durationHrs: "2 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-mirzapur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Bhadohi",
+        distanceKm: 100,
+        durationHrs: "2.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-bhadohi-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Jaunpur",
+        distanceKm: 110,
+        durationHrs: "3 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-jaunpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Sultanpur",
+        distanceKm: 150,
+        durationHrs: "3.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-sultanpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Fatehpur",
+        distanceKm: 120,
+        durationHrs: "3 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-fatehpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Raebareli",
+        distanceKm: 120,
+        durationHrs: "3 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-raebareli-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Gorakhpur",
+        distanceKm: 300,
+        durationHrs: "7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-gorakhpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Banda",
+        distanceKm: 140,
+        durationHrs: "4 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-banda-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Chitrakoot",
+        distanceKm: 130,
+        durationHrs: "3.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-chitrakoot-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Satna",
+        distanceKm: 150,
+        durationHrs: "4 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-satna-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Rewa",
+        distanceKm: 180,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-rewa-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Delhi",
+        distanceKm: 700,
+        durationHrs: "10-12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-delhi-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Agra",
+        distanceKm: 500,
+        durationHrs: "8-9 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-agra-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Mathura",
+        distanceKm: 600,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-mathura-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Vrindavan",
+        distanceKm: 610,
+        durationHrs: "10 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-vrindavan-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Haridwar",
+        distanceKm: 800,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Rishikesh",
+        distanceKm: 820,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-rishikesh-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Jaipur",
+        distanceKm: 750,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-jaipur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Bhopal",
+        distanceKm: 650,
+        durationHrs: "11 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-bhopal-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Indore",
+        distanceKm: 800,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-indore-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Patna",
+        distanceKm: 350,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-patna-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Gaya",
+        distanceKm: 400,
+        durationHrs: "9 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-gaya-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Ranchi",
+        distanceKm: 600,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-ranchi-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Kolkata",
+        distanceKm: 800,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-kolkata-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Allahabad Airport",
+        distanceKm: 15,
+        durationHrs: "30 Minutes",
+        category: "Airport",
+        popular: true,
+        routeSlug: "prayagraj-to-allahabad-airport-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Varanasi Airport",
+        distanceKm: 140,
+        durationHrs: "3 Hours",
+        category: "Airport",
+        popular: true,
+        routeSlug: "prayagraj-to-varanasi-airport-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Mau",
+        distanceKm: 230,
+        durationHrs: "6 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-mau-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Azamgarh",
+        distanceKm: 260,
+        durationHrs: "6-7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-azamgarh-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Ballia",
+        distanceKm: 280,
+        durationHrs: "7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-ballia-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Deoria",
+        distanceKm: 320,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-deoria-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Ghazipur",
+        distanceKm: 220,
+        durationHrs: "5-6 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-ghazipur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Sonbhadra",
+        distanceKm: 250,
+        durationHrs: "6 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-sonbhadra-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Renukoot",
+        distanceKm: 270,
+        durationHrs: "6-7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-renukoot-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Obra",
+        distanceKm: 260,
+        durationHrs: "6 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-obra-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Prayagraj Airport",
+        distanceKm: 15,
+        durationHrs: "30 Minutes",
+        category: "Airport",
+        popular: true,
+        routeSlug: "prayagraj-to-prayagraj-airport-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Jhansi",
+        distanceKm: 400,
+        durationHrs: "7-8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-jhansi-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Lalitpur",
+        distanceKm: 450,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-lalitpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Ujjain",
+        distanceKm: 700,
+        durationHrs: "12 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-ujjain-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Jabalpur",
+        distanceKm: 350,
+        durationHrs: "7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-jabalpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Nagpur",
+        distanceKm: 800,
+        durationHrs: "14 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-nagpur-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Vidhyanchal",
+        distanceKm: 95,
+        durationHrs: "2.5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-vidhyanchal-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Sarnath",
+        distanceKm: 130,
+        durationHrs: "3 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-sarnath-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Shravasti",
+        distanceKm: 300,
+        durationHrs: "7 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-shravasti-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Kushinagar",
+        distanceKm: 350,
+        durationHrs: "8 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-kushinagar-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Haldia",
+        distanceKm: 900,
+        durationHrs: "16 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-haldia-force-urbania"
+    },
+    {
+        origin: "Prayagraj",
+        destination: "Dhanbad",
+        distanceKm: 650,
+        durationHrs: "13 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "prayagraj-to-dhanbad-force-urbania"
+    },
+    // Ghaziabad Routes
+    {
+        origin: "Ghaziabad",
+        destination: "Haridwar",
+        distanceKm: 205,
+        durationHrs: "4 Hours 30 Minutes",
+        category: "City",
+        popular: true,
+        routeSlug: "ghaziabad-to-haridwar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Rishikesh",
+        distanceKm: 225,
+        durationHrs: "5 Hours",
+        category: "City",
+        popular: true,
+        routeSlug: "ghaziabad-to-rishikesh-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Dehradun",
+        distanceKm: 255,
+        durationHrs: "5 Hours 30 Minutes",
+        category: "City",
+        popular: true,
+        routeSlug: "ghaziabad-to-dehradun-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Mussoorie",
+        distanceKm: 290,
+        durationHrs: "6 Hours 30 Minutes",
+        category: "City",
+        popular: true,
+        routeSlug: "ghaziabad-to-mussoorie-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Dhanaulti",
+        distanceKm: 320,
+        durationHrs: "7 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-dhanaulti-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kanatal",
+        distanceKm: 335,
+        durationHrs: "7 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-kanatal-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Auli",
+        distanceKm: 500,
+        durationHrs: "11 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-auli-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Chopta",
+        distanceKm: 410,
+        durationHrs: "9 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-chopta-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Nainital",
+        distanceKm: 290,
+        durationHrs: "6 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-nainital-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Bhimtal",
+        distanceKm: 310,
+        durationHrs: "6 Hours 45 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-bhimtal-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Sattal",
+        distanceKm: 315,
+        durationHrs: "7 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-sattal-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Naukuchiatal",
+        distanceKm: 320,
+        durationHrs: "7 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-naukuchiatal-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Mukteshwar",
+        distanceKm: 345,
+        durationHrs: "8 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-mukteshwar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Ranikhet",
+        distanceKm: 365,
+        durationHrs: "8 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-ranikhet-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kausani",
+        distanceKm: 420,
+        durationHrs: "10 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-kausani-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Binsar",
+        distanceKm: 430,
+        durationHrs: "10 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-binsar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Almora",
+        distanceKm: 395,
+        durationHrs: "9 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-almora-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Chaukori",
+        distanceKm: 510,
+        durationHrs: "11 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-chaukori-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Munsiyari",
+        distanceKm: 610,
+        durationHrs: "13 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-munsiyari-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Jim Corbett National Park (Dhikala/Bijrani)",
+        distanceKm: 215,
+        durationHrs: "5 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-jim-corbett-national-park-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Rajaji National Park",
+        distanceKm: 240,
+        durationHrs: "5 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-rajaji-national-park-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Valley of Flowers (base Ghangaria)",
+        distanceKm: 545,
+        durationHrs: "12 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-valley-of-flowers-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Hemkund Sahib",
+        distanceKm: 555,
+        durationHrs: "12 Hours 30 Minutes",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-hemkund-sahib-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Badrinath",
+        distanceKm: 530,
+        durationHrs: "12 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-badrinath-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kedarnath",
+        distanceKm: 470,
+        durationHrs: "11 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-kedarnath-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Gangotri",
+        distanceKm: 490,
+        durationHrs: "11 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-gangotri-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Char Dham Circuit (Yamunotri-Gangotri-Kedarnath-Badrinath)",
+        distanceKm: 1650,
+        durationHrs: "10 Days",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-char-dham-circuit-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Do Dham Circuit (Kedarnath-Badrinath)",
+        distanceKm: 980,
+        durationHrs: "6 Days",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-do-dham-circuit-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Panch Kedar Circuit",
+        distanceKm: 1250,
+        durationHrs: "8 Days",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-panch-kedar-circuit-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Panch Prayag Circuit (Devprayag, Rudraprayag, Karnaprayag, Nandaprayag, Vishnuprayag)",
+        distanceKm: 780,
+        durationHrs: "5 Days",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-panch-prayag-circuit-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Chakrata",
+        distanceKm: 330,
+        durationHrs: "7 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-chakrata-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Landour",
+        distanceKm: 295,
+        durationHrs: "6 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-landour-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Harsil",
+        distanceKm: 470,
+        durationHrs: "11 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-harsil-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Khirsu",
+        distanceKm: 360,
+        durationHrs: "8 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-khirsu-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Pauri",
+        distanceKm: 340,
+        durationHrs: "7 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-pauri-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Lansdowne",
+        distanceKm: 255,
+        durationHrs: "6 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-lansdowne-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Pithoragarh",
+        distanceKm: 540,
+        durationHrs: "12 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-pithoragarh-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Abbott Mount",
+        distanceKm: 430,
+        durationHrs: "10 Hours",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-abbott-mount-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Bageshwar",
+        distanceKm: 455,
+        durationHrs: "10 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-bageshwar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Baijnath Temple (Uttarakhand)",
+        distanceKm: 445,
+        durationHrs: "10 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-baijnath-temple-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Jageshwar Dham",
+        distanceKm: 470,
+        durationHrs: "11 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-jageshwar-dham-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kainchi Dham (Neem Karoli Baba Ashram)",
+        distanceKm: 330,
+        durationHrs: "7 Hours 30 Minutes",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-kainchi-dham-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Patal Bhuvaneshwar",
+        distanceKm: 540,
+        durationHrs: "12 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-patal-bhuvaneshwar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kartik Swami Temple",
+        distanceKm: 390,
+        durationHrs: "9 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-kartik-swami-temple-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Tehri Lake",
+        distanceKm: 330,
+        durationHrs: "7 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-tehri-lake-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "New Tehri",
+        distanceKm: 335,
+        durationHrs: "7 Hours 30 Minutes",
+        category: "Tourist",
+        popular: true,
+        routeSlug: "ghaziabad-to-new-tehri-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Surkanda Devi Temple",
+        distanceKm: 315,
+        durationHrs: "7 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-surkanda-devi-temple-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({
