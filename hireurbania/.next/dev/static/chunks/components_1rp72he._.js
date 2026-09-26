@@ -740,7 +740,7 @@ function RouteSeo({ route }) {
 _c1 = RouteSeo;
 function RouteTemplate({ city, route, relatedRoutes, fleet, cityGuide }) {
     _s();
-    const whatsappNumber = "919818022327";
+    const whatsappNumber = "919151827941";
     const whatsappText = encodeURIComponent(`Booking Query for Force Urbania ${route.origin} to ${route.destination}`);
     const roundTripDistance = route.distanceKm * 2;
     // ========== FAQ STATE ==========

@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
     image: "https://hireurbaniatempotraveller.com/images/hero.png",
     description:
       "Premier Force Urbania luxury van rental service across India. 9 to 20 seater variants available for outstation, pilgrimage, and corporate tours.",
-    telephone: "+919818022327",
+    telephone: "+919151827941",
     priceRange: "₹26 - ₹38 per km",
     address: {
       "@type": "PostalAddress",

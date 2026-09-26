@@ -85,7 +85,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist
 ;
 ;
 function FloatingContactButtons() {
-    const whatsappNumber = "919818022327";
+    const whatsappNumber = "919151827941";
     const defaultMsg = encodeURIComponent("Hi, I want to book a Force Urbania Tempo Traveller. Please share details and pricing.");
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${defaultMsg}`;
     const phoneUrl = `tel:+${whatsappNumber}`;
@@ -166,7 +166,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$routesData$2e$js__$5b
 ;
 ;
 function Footer({ onOpenModal }) {
-    const whatsappNumber = "919818022327";
+    const whatsappNumber = "919151827941";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         className: "site-footer",
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -280,7 +280,7 @@ function Footer({ onOpenModal }) {
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                            href: "tel:+919818022327",
+                                            href: "tel:+919151827941",
                                             className: "call-helpline-btn",
                                             style: {
                                                 display: "inline-flex",
@@ -764,7 +764,7 @@ function Footer({ onOpenModal }) {
                                                 alignItems: "center"
                                             },
                                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                                href: "tel:+919818022327",
+                                                href: "tel:+919151827941",
                                                 style: {
                                                     display: "flex",
                                                     gap: "0.6rem",
@@ -784,7 +784,7 @@ function Footer({ onOpenModal }) {
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                        children: "+91 9818022327"
+                                                        children: "+91 9151827941"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/Footer.jsx",
                                                         lineNumber: 395,
@@ -964,7 +964,7 @@ function Navbar({ onOpenModal }) {
     _s();
     const [scrolled, setScrolled] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const [mobileOpen, setMobileOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const whatsappNumber = "919818022327";
+    const whatsappNumber = "919151827941";
     const whatsappText = "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "Navbar.useEffect": ()=>{
@@ -1186,7 +1186,7 @@ function Navbar({ onOpenModal }) {
                                 className: "jsx-925b43de95ebf32e" + " " + "nav-cta-group",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "tel:+919818022327",
+                                        href: "tel:+919151827941",
                                         title: "Call 24/7 Helpline",
                                         className: "jsx-925b43de95ebf32e" + " " + "phone-quicklink",
                                         children: [
@@ -1199,7 +1199,7 @@ function Navbar({ onOpenModal }) {
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "jsx-925b43de95ebf32e",
-                                                children: "+91 98180 22327"
+                                                children: "+91 91518 27941"
                                             }, void 0, false, {
                                                 fileName: "[project]/components/Navbar.jsx",
                                                 lineNumber: 146,
@@ -33908,6 +33908,151 @@ const SITEMAP_ROUTES = [
         category: "Pilgrimage",
         popular: true,
         routeSlug: "ghaziabad-to-surkanda-devi-temple-force-urbania"
+    },
+    // Remaining Ghaziabad routes
+    {
+        origin: "Ghaziabad",
+        destination: "Kunjapuri Temple",
+        distanceKm: 245,
+        durationHrs: "5 Hours 30 Minutes",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-kunjapuri-temple-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Shimla",
+        distanceKm: 360,
+        durationHrs: "8 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-shimla-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Manali",
+        distanceKm: 555,
+        durationHrs: "11 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-manali-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kullu",
+        distanceKm: 515,
+        durationHrs: "10 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-kullu-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Kasol",
+        distanceKm: 535,
+        durationHrs: "11 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-kasol-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Manikaran Sahib",
+        distanceKm: 540,
+        durationHrs: "11 Hours",
+        category: "Pilgrimage",
+        popular: true,
+        routeSlug: "ghaziabad-to-manikaran-sahib-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Dharamshala",
+        distanceKm: 480,
+        durationHrs: "10 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-dharamshala-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "McLeodganj",
+        distanceKm: 490,
+        durationHrs: "10 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-mcleodganj-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Dalhousie",
+        distanceKm: 570,
+        durationHrs: "11 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-dalhousie-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Khajjiar",
+        distanceKm: 590,
+        durationHrs: "12 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-khajjiar-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Chamba",
+        distanceKm: 610,
+        durationHrs: "12 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-chamba-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Bir Billing",
+        distanceKm: 470,
+        durationHrs: "10 Hours",
+        category: "Adventure",
+        popular: true,
+        routeSlug: "ghaziabad-to-bir-billing-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Palampur",
+        distanceKm: 455,
+        durationHrs: "9 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-palampur-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Jibhi",
+        distanceKm: 495,
+        durationHrs: "10 Hours",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-jibhi-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Tirthan Valley",
+        distanceKm: 500,
+        durationHrs: "10 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-tirthan-valley-force-urbania"
+    },
+    {
+        origin: "Ghaziabad",
+        destination: "Shoja",
+        distanceKm: 510,
+        durationHrs: "10 Hours 30 Minutes",
+        category: "Hill Station",
+        popular: true,
+        routeSlug: "ghaziabad-to-shoja-force-urbania"
     }
 ];
 const ROUTES_WITH_GUIDES = SITEMAP_ROUTES.map(_c = (route)=>({

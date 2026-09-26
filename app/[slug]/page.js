@@ -246,7 +246,7 @@ export default async function SitemapPage({ params }) {
         "@type": "AutoRental",
         name: "Hire Force Urbania Tempo Traveller",
         url: baseUrl,
-        telephone: "+919818022327",
+        telephone: "+919151827941",
         priceRange: "₹26 - ₹38 per km",
       },
       areaServed: [
@@ -501,7 +501,7 @@ export default async function SitemapPage({ params }) {
 
                 <div style={{ display: "flex", gap: "1rem", flexWrap: "wrap" }}>
                   <a
-                    href={`https://wa.me/919818022327?text=Booking Query for Force Urbania ${route.origin} to ${route.destination}`}
+                    href={`https://wa.me/919151827941?text=Booking Query for Force Urbania ${route.origin} to ${route.destination}`}
                     target="_blank"
                     className="btn btn-whatsapp"
                   >
@@ -509,14 +509,14 @@ export default async function SitemapPage({ params }) {
                     {route.destination} on WhatsApp
                   </a>
                   <a
-                    href="tel:+919818022327"
+                    href="tel:+919151827941"
                     className="btn btn-outline"
                     style={{
                       color: "#FFF",
                       borderColor: "rgba(255,255,255,0.3)",
                     }}
                   >
-                    <Phone size={18} /> Call +91 9818022327
+                    <Phone size={18} /> Call +91 9151827941
                   </a>
                 </div>
               </div>
@@ -533,7 +533,7 @@ export default async function SitemapPage({ params }) {
                 </p>
 
                 <form
-                    action="https://wa.me/919818022327"
+                    action="https://wa.me/919151827941"
                   target="_blank"
                   method="GET"
                 >
@@ -997,7 +997,7 @@ export default async function SitemapPage({ params }) {
                         </span>
                       </div>
                       <a
-                        href={`https://wa.me/919818022327?text=Booking Query for ${model.name} on ${route.origin} to ${route.destination}`}
+                        href={`https://wa.me/919151827941?text=Booking Query for ${model.name} on ${route.origin} to ${route.destination}`}
                         target="_blank"
                         className="btn btn-primary btn-sm"
                       >
@@ -1152,7 +1152,7 @@ export default async function SitemapPage({ params }) {
               }}
             >
               <a
-                href={`https://wa.me/919818022327?text=Booking Query for Force Urbania ${route.origin} to ${route.destination}`}
+                href={`https://wa.me/919151827941?text=Booking Query for Force Urbania ${route.origin} to ${route.destination}`}
                 target="_blank"
                 className="btn btn-whatsapp"
                 style={{ fontSize: "1rem", padding: "0.85rem 1.8rem" }}
