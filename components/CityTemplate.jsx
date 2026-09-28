@@ -21,7 +21,6 @@ import {
   ChevronUp,
   ArrowRight,
 } from "lucide-react";
-import { FAQS } from "@/lib/routesData";
 import { useState } from "react";
 
 // ========== FAQ COMPONENT ==========
@@ -91,8 +90,7 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 
 // ========== SEO COMPONENT (can be moved to a separate file) ==========
 function CitySeo({ city }) {
-  const title =
-    `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`;
+  const title = `Urbania Tempo Traveller Hire in ${city.name} | 9, 12, 16, 17 & 20 Seater @₹30/km | Book Now`;
   const description =
     city.metaDescription ||
     `Book luxury Urbania Tempo Traveller in ${city.name}. ${city.desc} Doorstep pickup, ${city.tag} fleet with experienced chauffeurs.`;
@@ -135,8 +133,374 @@ function CitySeo({ city }) {
   );
 }
 
+// ========== HIRE URBANIA VS OTHERS COMPARISON ==========
+function WhyBookFromUs({ cityName }) {
+  const comparisonData = [
+    {
+      feature: "Vehicle Type",
+      urbania: "Force Urbania",
+      others: "Standard Tempo Traveller",
+    },
+    {
+      feature: "Interior Comfort",
+      urbania: "Premium, spacious and modern interior",
+      others: "Standard comfortable interior",
+    },
+    {
+      feature: "Seating Comfort",
+      urbania: "Premium reclining push-back seats",
+      others: "Standard push-back seats",
+    },
+    {
+      feature: "Passenger Experience",
+      urbania: "Designed for comfortable long-distance journeys",
+      others: "Suitable for regular group travel",
+    },
+    {
+      feature: "Luggage Space",
+      urbania: "Spacious luggage area for group travel",
+      others: "Standard luggage space",
+    },
+    {
+      feature: "Air Conditioning",
+      urbania: "Fully air-conditioned",
+      others: "Air-conditioned",
+    },
+    {
+      feature: "Best For",
+      urbania:
+        "Family trips, weddings, corporate travel, tours & premium group journeys",
+      others: "Budget-friendly family and group travel",
+    },
+    {
+      feature: "Long-Distance Travel",
+      urbania: "Ideal for comfortable outstation and multi-city trips",
+      others: "Suitable for city and outstation journeys",
+    },
+    {
+      feature: "Group Size",
+      urbania: "Multiple seating options for different group sizes",
+      others: "Multiple seating configurations available",
+    },
+    {
+      feature: "Travel Comfort",
+      urbania: "Premium travel experience for longer journeys",
+      others: "Comfortable option for regular group transportation",
+    },
+  ];
+
+  return (
+    <section
+      className="urbania-comparison-section"
+      style={{
+        padding: "4rem 0",
+        background: "#f9fafc",
+      }}
+    >
+      <div
+        className="container"
+        style={{
+          maxWidth: "1280px",
+          margin: "0 auto",
+          padding: "0 1.5rem",
+        }}
+      >
+        {/* ================= SECTION HEADER ================= */}
+        <div
+          style={{
+            textAlign: "center",
+            maxWidth: "820px",
+            margin: "0 auto 2.5rem",
+          }}
+        >
+          {/* Badge */}
+          <div
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "0.5rem",
+              background: "#eef3ff",
+              color: "#0052CC",
+              padding: "0.3rem 1.2rem",
+              borderRadius: "40px",
+              fontSize: "0.8rem",
+              fontWeight: 600,
+            }}
+          >
+            <CheckCircle2 size={14} />
+            Compare Your Options
+          </div>
+
+          {/* Heading */}
+          <h2
+            style={{
+              fontSize: "2.3rem",
+              fontWeight: 700,
+              margin: "0.7rem 0 0.75rem",
+              color: "#0b1a2e",
+              lineHeight: 1.2,
+            }}
+          >
+            Hire Urbania vs Others in{" "}
+            <span style={{ color: "#0052CC" }}>{cityName}</span>
+          </h2>
+
+          {/* Description */}
+          <p
+            style={{
+              fontSize: "1.05rem",
+              color: "#4a5a6e",
+              lineHeight: 1.7,
+              margin: 0,
+            }}
+          >
+            Compare Force Urbania with other group travel options in {cityName}{" "}
+            and understand the difference in comfort, space, seating and
+            suitability for your journey.
+          </p>
+        </div>
+
+        {/* ================= COMPARISON TABLE ================= */}
+        <div
+          style={{
+            background: "#fff",
+            borderRadius: "20px",
+            border: "1px solid #ecf0f7",
+            boxShadow: "0 8px 28px rgba(0,20,50,0.06)",
+            overflow: "hidden",
+          }}
+        >
+          <div
+            style={{
+              overflowX: "auto",
+            }}
+          >
+            <table
+              style={{
+                width: "100%",
+                borderCollapse: "collapse",
+                minWidth: "760px",
+              }}
+            >
+              {/* ================= TABLE HEADER ================= */}
+              <thead>
+                <tr
+                  style={{
+                    background:
+                      "linear-gradient(135deg, #0052CC 0%, #0770E3 100%)",
+                    color: "#fff",
+                  }}
+                >
+                  <th
+                    style={{
+                      padding: "1.1rem 1.2rem",
+                      textAlign: "left",
+                      fontSize: "0.95rem",
+                      fontWeight: 700,
+                      width: "25%",
+                    }}
+                  >
+                    Feature
+                  </th>
+
+                  <th
+                    style={{
+                      padding: "1.1rem 1.2rem",
+                      textAlign: "left",
+                      fontSize: "0.95rem",
+                      fontWeight: 700,
+                      width: "37.5%",
+                    }}
+                  >
+                    Hire Urbania
+                  </th>
+
+                  <th
+                    style={{
+                      padding: "1.1rem 1.2rem",
+                      textAlign: "left",
+                      fontSize: "0.95rem",
+                      fontWeight: 700,
+                      width: "37.5%",
+                    }}
+                  >
+                    Other Travel Options
+                  </th>
+                </tr>
+              </thead>
+
+              {/* ================= TABLE BODY ================= */}
+              <tbody>
+                {comparisonData.map((item, index) => (
+                  <tr
+                    key={item.feature}
+                    style={{
+                      borderBottom:
+                        index < comparisonData.length - 1
+                          ? "1px solid #ecf0f7"
+                          : "none",
+                    }}
+                  >
+                    {/* Feature */}
+                    <td
+                      style={{
+                        padding: "1rem 1.2rem",
+                        color: "#0b1a2e",
+                        fontWeight: 600,
+                        background: "#fafcff",
+                      }}
+                    >
+                      {item.feature}
+                    </td>
+
+                    {/* Hire Urbania */}
+                    <td
+                      style={{
+                        padding: "1rem 1.2rem",
+                        color: "#1f2b3a",
+                        fontSize: "0.92rem",
+                      }}
+                    >
+                      <span
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "0.5rem",
+                        }}
+                      >
+                        <CheckCircle2
+                          size={18}
+                          color="#0052CC"
+                          style={{
+                            flexShrink: 0,
+                            marginTop: "2px",
+                          }}
+                        />
+
+                        <span>{item.urbania}</span>
+                      </span>
+                    </td>
+
+                    {/* Others */}
+                    <td
+                      style={{
+                        padding: "1rem 1.2rem",
+                        color: "#4a5a6e",
+                        fontSize: "0.92rem",
+                      }}
+                    >
+                      {item.others}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        {/* ================= BOTTOM CTA ================= */}
+        <div
+          style={{
+            marginTop: "2rem",
+            background: "#eef3ff",
+            borderRadius: "18px",
+            padding: "1.5rem 2rem",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "1.5rem",
+            flexWrap: "wrap",
+          }}
+        >
+          {/* CTA Content */}
+          <div>
+            <h3
+              style={{
+                margin: "0 0 0.35rem",
+                color: "#0b1a2e",
+                fontSize: "1.15rem",
+              }}
+            >
+              Planning a group trip in {cityName}?
+            </h3>
+
+            <p
+              style={{
+                margin: 0,
+                color: "#4a5a6e",
+                fontSize: "0.9rem",
+              }}
+            >
+              Get the latest Force Urbania availability and fare for your
+              journey.
+            </p>
+          </div>
+
+          {/* WhatsApp CTA */}
+          <a
+            href={`https://wa.me/919151827941?text=${encodeURIComponent(
+              `I want to hire a Force Urbania in ${cityName}`,
+            )}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              justifyContent: "center",
+              gap: "0.5rem",
+              padding: "0.75rem 1.5rem",
+              borderRadius: "50px",
+              background: "#0052CC",
+              color: "#fff",
+              fontWeight: 700,
+              fontSize: "0.9rem",
+              textDecoration: "none",
+              whiteSpace: "nowrap",
+            }}
+          >
+            <MessageSquare size={17} />
+            Get Urbania Quote
+          </a>
+        </div>
+      </div>
+
+      {/* ================= RESPONSIVE CSS ================= */}
+      <style jsx>{`
+        @media (max-width: 768px) {
+          .urbania-comparison-section {
+            padding: 3rem 0 !important;
+          }
+
+          .urbania-comparison-section h2 {
+            font-size: 1.9rem !important;
+          }
+        }
+
+        @media (max-width: 600px) {
+          .urbania-comparison-section {
+            padding: 2.5rem 0 !important;
+          }
+
+          .urbania-comparison-section > div {
+            padding-left: 0.9rem !important;
+            padding-right: 0.9rem !important;
+          }
+
+          .urbania-comparison-section h2 {
+            font-size: 1.65rem !important;
+          }
+
+          .urbania-comparison-section p {
+            font-size: 0.92rem !important;
+          }
+        }
+      `}</style>
+    </section>
+  );
+}
+
 // ========== MAIN COMPONENT ==========
-export default function CityTemplate({ city, routes, fleet }) {
+export default function CityTemplate({ city, routes, fleet, faqs = [], allCities = [] }) {
   const whatsappNumber = "919151827941";
   const relatedRoutes = Array.isArray(routes) ? routes : [];
   const whatsappText = `Booking Query for Urbania Tempo Traveller Hire in ${city.name}`;
@@ -156,6 +520,35 @@ export default function CityTemplate({ city, routes, fleet }) {
       maximumFractionDigits: 0,
     }).format(amount);
   };
+
+  const defaultFaqs = [
+    {
+      q: `What is the cost of hiring a Force Urbania Tempo Traveller in ${city.name}?`,
+      a: `The cost of hiring a Force Urbania Tempo Traveller in ${city.name} depends on the number of seats, travel distance, number of days, route, tolls, parking and other trip requirements. Contact Hire Urbania Tempo Traveller for the latest fare for your journey.`,
+    },
+    {
+      q: `Which Force Urbania seating options are available in ${city.name}?`,
+      a: `We provide comfortable Force Urbania Tempo Travellers in multiple seating options, including 12, 17 and other configurations subject to availability and route requirements in ${city.name}.`,
+    },
+    {
+      q: `Can I hire a Force Urbania for local sightseeing in ${city.name}?`,
+      a: `Yes. You can hire a Force Urbania Tempo Traveller for local sightseeing in ${city.name} as well as nearby destinations. The itinerary can be customized according to your group size, sightseeing plans and travel requirements.`,
+    },
+    {
+      q: `Can I book a Force Urbania from ${city.name} for an outstation trip?`,
+      a: `Yes. Hire Urbania Tempo Traveller provides Force Urbania vehicles from ${city.name} for one-way trips, round trips, multi-day tours, family vacations, pilgrimage journeys, weddings, corporate travel and other group trips.`,
+    },
+    {
+      q: `Is a driver included with a Force Urbania booking in ${city.name}?`,
+      a: `Yes. Force Urbania Tempo Traveller bookings in ${city.name} are generally provided with an experienced chauffeur familiar with city, highway and outstation routes. Driver charges may vary depending on the trip duration and route.`,
+    },
+    {
+      q: `How can I book a Force Urbania Tempo Traveller in ${city.name}?`,
+      a: `You can contact Hire Urbania Tempo Traveller through WhatsApp or phone. Share your pickup location, destination, travel dates, group size and preferred Force Urbania vehicle, and our team will help you with availability, booking and fare details.`,
+    },
+  ];
+
+  const displayFaqs = faqs.length > 0 ? faqs : defaultFaqs;
 
   return (
     <>
@@ -692,7 +1085,7 @@ export default function CityTemplate({ city, routes, fleet }) {
                 <div className="about-urbania-actions">
                   <a
                     href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                      whatsappText
+                      whatsappText,
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -1294,7 +1687,7 @@ export default function CityTemplate({ city, routes, fleet }) {
           `}</style>
         </section>
 
-        {/* ===== FLEET SECTION ===== */}
+        {/* ===== OUR FLEET SECTION ===== */}
         <section
           className="section-padding fleet-section"
           style={{ padding: "4rem 0", background: "#f9fafc" }}
@@ -1575,6 +1968,9 @@ export default function CityTemplate({ city, routes, fleet }) {
             </div>
           </div>
         </section>
+
+        {/* Urbania vs Tempo Traveller Comparison */}
+        <WhyBookFromUs cityName={city.name} />
 
         {/* ===== URBANIA FARE & PRICING SECTION ===== */}
         <section
@@ -1956,17 +2352,17 @@ export default function CityTemplate({ city, routes, fleet }) {
                         const cheapestVehicle =
                           fleet.length > 0
                             ? fleet.reduce((cheapest, current) =>
-                              current.ratePerKm < cheapest.ratePerKm
-                                ? current
-                                : cheapest,
-                            )
+                                current.ratePerKm < cheapest.ratePerKm
+                                  ? current
+                                  : cheapest,
+                              )
                             : null;
 
                         const estimatedFare = cheapestVehicle
                           ? Math.round(
-                            distance * 2 * cheapestVehicle.ratePerKm +
-                            cheapestVehicle.driverAllowance * 2,
-                          )
+                              distance * 2 * cheapestVehicle.ratePerKm +
+                                cheapestVehicle.driverAllowance * 2,
+                            )
                           : 0;
 
                         return (
@@ -2659,7 +3055,7 @@ export default function CityTemplate({ city, routes, fleet }) {
                 margin: "0 auto",
               }}
             >
-              {FAQS.map((faq, index) => (
+              {displayFaqs.map((faq, index) => (
                 <FAQItem
                   key={index}
                   question={faq.q}
@@ -2671,6 +3067,152 @@ export default function CityTemplate({ city, routes, fleet }) {
             </div>
           </div>
         </section>
+
+        {/* ===== OTHER CITIES INTERLINKING SECTION ===== */}
+        {allCities.length > 0 && (
+          <section
+            style={{
+              padding: "4rem 0",
+              background: "#f0f4ff",
+            }}
+          >
+            <div
+              className="container"
+              style={{
+                maxWidth: "1280px",
+                margin: "0 auto",
+                padding: "0 1.5rem",
+              }}
+            >
+              {/* Section Header */}
+              <div
+                style={{
+                  textAlign: "center",
+                  maxWidth: "780px",
+                  margin: "0 auto 2.5rem",
+                }}
+              >
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    background: "#dde8ff",
+                    color: "#0052CC",
+                    padding: "0.3rem 1.2rem",
+                    borderRadius: "40px",
+                    fontSize: "0.8rem",
+                    fontWeight: 600,
+                    marginBottom: "0.75rem",
+                  }}
+                >
+                  <MapPin size={14} /> Other Cities
+                </div>
+                <h2
+                  style={{
+                    fontSize: "2rem",
+                    fontWeight: 700,
+                    color: "#0b1a2e",
+                    marginBottom: "0.6rem",
+                    lineHeight: 1.25,
+                  }}
+                >
+                  Urbania Hire in Other Cities
+                </h2>
+                <p
+                  style={{
+                    fontSize: "1rem",
+                    color: "#4a5a6e",
+                    lineHeight: 1.65,
+                    margin: 0,
+                  }}
+                >
+                  We offer Force Urbania Tempo Traveller hire across India.
+                  Explore availability in cities near you.
+                </p>
+              </div>
+
+              {/* City Links Grid */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fill, minmax(220px, 1fr))",
+                  gap: "0.85rem",
+                }}
+              >
+                {allCities.map((c) => (
+                  <Link
+                    key={c.slug}
+                    href={`/${c.slug}`}
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: "0.6rem",
+                      padding: "0.85rem 1.1rem",
+                      background: "#ffffff",
+                      border: "1.5px solid #dde5f5",
+                      borderRadius: "12px",
+                      color: "#0b1a2e",
+                      textDecoration: "none",
+                      fontSize: "0.92rem",
+                      fontWeight: 500,
+                      transition: "all 0.22s ease",
+                      boxShadow: "0 1px 4px rgba(0,30,80,0.05)",
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.borderColor = "#0052CC";
+                      e.currentTarget.style.background = "#eef3ff";
+                      e.currentTarget.style.color = "#0052CC";
+                      e.currentTarget.style.transform = "translateY(-2px)";
+                      e.currentTarget.style.boxShadow =
+                        "0 6px 18px rgba(0,82,204,0.12)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.borderColor = "#dde5f5";
+                      e.currentTarget.style.background = "#ffffff";
+                      e.currentTarget.style.color = "#0b1a2e";
+                      e.currentTarget.style.transform = "translateY(0)";
+                      e.currentTarget.style.boxShadow =
+                        "0 1px 4px rgba(0,30,80,0.05)";
+                    }}
+                  >
+                    <span
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                      }}
+                    >
+                      <MapPin
+                        size={14}
+                        color="#0052CC"
+                        style={{ flexShrink: 0 }}
+                      />
+                      <span>
+                        <span style={{ fontWeight: 600 }}>{c.name}</span>
+                        {c.state && (
+                          <span
+                            style={{
+                              display: "block",
+                              fontSize: "0.75rem",
+                              color: "#7a8a9e",
+                              fontWeight: 400,
+                              marginTop: "0.05rem",
+                            }}
+                          >
+                            {c.state}
+                          </span>
+                        )}
+                      </span>
+                    </span>
+                    <ArrowRight size={15} color="#0052CC" style={{ flexShrink: 0 }} />
+                  </Link>
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ===== CTA SECTION ===== */}
         <section
