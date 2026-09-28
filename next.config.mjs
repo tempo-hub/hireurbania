@@ -5,6 +5,11 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/urbania-tempo-traveller-fare-in-:city',
+        destination: '/urbania-tempo-traveller-in-:city',
+        permanent: true,
+      },
+      {
         source: '/:path*',
         has: [
           {
