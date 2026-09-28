@@ -25,5 +25,7 @@ export default async function CityPage({ params }) {
     route.origin.toLowerCase() === city.name.toLowerCase()
   );
 
-  return <CityTemplate city={city} routes={routes} fleet={FLEET_MODELS} />;
+  const otherCities = CITY_HUBS.filter((c) => c.slug !== slug);
+
+  return <CityTemplate city={city} routes={routes} fleet={FLEET_MODELS} allCities={otherCities} />;
 }
