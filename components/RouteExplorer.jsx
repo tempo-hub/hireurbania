@@ -105,7 +105,7 @@ export default function RouteExplorer({ onOpenModal }) {
 
               <div className="route-footer">
                 <span className="route-est-price">Est. ₹{Math.round(route.distanceKm * 2 * 29 + 600).toLocaleString('en-IN')}</span>
-                <Link href={`/${route.routeSlug}`} className="btn btn-primary btn-sm">
+                <Link href={`/routes/${route.routeSlug}`} className="btn btn-primary btn-sm">
                   View Route <ArrowRight size={14} />
                 </Link>
               </div>

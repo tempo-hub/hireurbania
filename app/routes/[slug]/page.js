@@ -11,9 +11,26 @@ export async function generateMetadata({ params }) {
   const { slug } = await params;
   const route = SITEMAP_ROUTES.find((item) => item.routeSlug === slug);
   if (!route) return { title: 'Route Not Found | Hire Urbania' };
+  const baseUrl = 'https://hireurbaniatempotraveller.com';
+  const canonical = `${baseUrl}/routes/${route.routeSlug}`;
+  const title = `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`;
+  const description = `Hire a luxury Force Urbania from ${route.origin} to ${route.destination}. Distance ${route.distanceKm} KM and travel time ${route.durationHrs}.`;
   return {
-    title: `Hire ${route.origin} to ${route.destination} Urbania @30/km | Book Now`,
-    description: `Hire a luxury Force Urbania from ${route.origin} to ${route.destination}. Distance ${route.distanceKm} KM and travel time ${route.durationHrs}.`
+    title,
+    description,
+    alternates: { canonical },
+    openGraph: {
+      title,
+      description,
+      url: canonical,
+      siteName: 'Hire Force Urbania Tempo Traveller',
+      type: 'article',
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+    },
   };
 }
 
