@@ -133,59 +133,66 @@ function CitySeo({ city }) {
   );
 }
 
-// ========== HIRE URBANIA VS OTHERS COMPARISON ==========
+// ========== HIRE URBANIA VS TEMPO TRAVELLER COMPARISON ==========
 function WhyBookFromUs({ cityName }) {
   const comparisonData = [
     {
       feature: "Vehicle Type",
       urbania: "Force Urbania",
-      others: "Standard Tempo Traveller",
+      tempo: "Standard Tempo Traveller",
     },
     {
       feature: "Interior Comfort",
       urbania: "Premium, spacious and modern interior",
-      others: "Standard comfortable interior",
+      tempo: "Comfortable standard interior",
     },
     {
       feature: "Seating Comfort",
       urbania: "Premium reclining push-back seats",
-      others: "Standard push-back seats",
+      tempo: "Standard push-back seats",
     },
     {
       feature: "Passenger Experience",
-      urbania: "Designed for comfortable long-distance journeys",
-      others: "Suitable for regular group travel",
+      urbania: "Premium and comfortable experience for long journeys",
+      tempo: "Comfortable option for regular group travel",
     },
     {
       feature: "Luggage Space",
-      urbania: "Spacious luggage area for group travel",
-      others: "Standard luggage space",
+      urbania: "Spacious luggage area for family and group trips",
+      tempo: "Standard luggage space",
     },
     {
       feature: "Air Conditioning",
       urbania: "Fully air-conditioned",
-      others: "Air-conditioned",
+      tempo: "Air-conditioned",
     },
     {
       feature: "Best For",
       urbania:
         "Family trips, weddings, corporate travel, tours & premium group journeys",
-      others: "Budget-friendly family and group travel",
+      tempo:
+        "Family trips, sightseeing, local travel & regular group journeys",
     },
     {
       feature: "Long-Distance Travel",
-      urbania: "Ideal for comfortable outstation and multi-city trips",
-      others: "Suitable for city and outstation journeys",
+      urbania:
+        "Ideal for comfortable outstation and multi-city journeys",
+      tempo:
+        "Suitable for city, sightseeing and outstation journeys",
     },
     {
-      feature: "Group Size",
-      urbania: "Multiple seating options for different group sizes",
-      others: "Multiple seating configurations available",
+      feature: "Seating Options",
+      urbania:
+        "Multiple Urbania seating options for different group sizes",
+      tempo:
+        "Multiple Tempo Traveller seating configurations",
     },
     {
       feature: "Travel Comfort",
-      urbania: "Premium travel experience for longer journeys",
-      others: "Comfortable option for regular group transportation",
+      urbania:
+        "Premium travel experience for longer journeys",
+      tempo:
+        "Comfortable option for regular group transportation",
     },
   ];
 
@@ -241,7 +248,7 @@ function WhyBookFromUs({ cityName }) {
               lineHeight: 1.2,
             }}
           >
-            Hire Urbania vs Others in{" "}
+            Hire Urbania vs Tempo Traveller in{" "}
             <span style={{ color: "#0052CC" }}>{cityName}</span>
           </h2>
 
@@ -254,9 +261,9 @@ function WhyBookFromUs({ cityName }) {
               margin: 0,
             }}
           >
-            Compare Force Urbania with other group travel options in {cityName}{" "}
-            and understand the difference in comfort, space, seating and
-            suitability for your journey.
+            Compare Force Urbania and Tempo Traveller options in {cityName}{" "}
+            to understand the differences in comfort, seating, luggage space
+            and suitability for your group journey.
           </p>
         </div>
 
@@ -324,7 +331,7 @@ function WhyBookFromUs({ cityName }) {
                       width: "37.5%",
                     }}
                   >
-                    Other Travel Options
+                    Tempo Traveller
                   </th>
                 </tr>
               </thead>
@@ -381,7 +388,7 @@ function WhyBookFromUs({ cityName }) {
                       </span>
                     </td>
 
-                    {/* Others */}
+                    {/* Tempo Traveller */}
                     <td
                       style={{
                         padding: "1rem 1.2rem",
@@ -389,7 +396,7 @@ function WhyBookFromUs({ cityName }) {
                         fontSize: "0.92rem",
                       }}
                     >
-                      {item.others}
+                      {item.tempo}
                     </td>
                   </tr>
                 ))}
@@ -439,7 +446,7 @@ function WhyBookFromUs({ cityName }) {
           {/* WhatsApp CTA */}
           <a
             href={`https://wa.me/919151827941?text=${encodeURIComponent(
-              `I want to hire a Force Urbania in ${cityName}`,
+              `I want to hire a Force Urbania in ${cityName}`
             )}`}
             target="_blank"
             rel="noopener noreferrer"
@@ -503,6 +510,12 @@ function WhyBookFromUs({ cityName }) {
 export default function CityTemplate({ city, routes, fleet, faqs = [], allCities = [] }) {
   const whatsappNumber = "919151827941";
   const relatedRoutes = Array.isArray(routes) ? routes : [];
+
+  const nearbyRoutes = [...relatedRoutes]
+  .filter((route) => Number(route.distanceKm) > 0)
+  .sort((a, b) => Number(a.distanceKm) - Number(b.distanceKm))
+  .slice(0, 10);
+  
   const whatsappText = `Booking Query for Urbania Tempo Traveller Hire in ${city.name}`;
 
   // FAQ state
@@ -2498,7 +2511,7 @@ export default function CityTemplate({ city, routes, fleet, faqs = [], allCities
         </section>
 
         {/* ===== ROUTES SECTION ===== */}
-        {relatedRoutes.length > 0 && (
+        {nearbyRoutes.length > 0 && (
           <section className="section-padding">
             <div
               className="container"
@@ -2513,7 +2526,7 @@ export default function CityTemplate({ city, routes, fleet, faqs = [], allCities
               </div>
 
               <div className="routes-grid">
-                {relatedRoutes.map((item) => (
+                {nearbyRoutes.map((item) => (
                   <div key={item.routeSlug} className="route-card">
                     <h3 className="route-dest">
                       {item.origin} to {item.destination}
