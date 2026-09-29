@@ -105,7 +105,7 @@ function CitySeo({ city }) {
       <meta property="og:locale" content="en_IN" />
       <link
         rel="canonical"
-        href={`https://hireurbaniatempotraveller.com/city/${city.id}`}
+        href={`https://hireurbaniatempotraveller.com/${city.slug}`}
       />
 
       {/* City-specific structured data for local business */}
