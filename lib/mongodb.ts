@@ -3,10 +3,6 @@ import dns from "dns";
 
 const MONGODB_URI = process.env.MONGODB_URI || "";
 
-export function hasMongoConfig() {
-  return Boolean(MONGODB_URI);
-}
-
 /**
  * Resolve a mongodb+srv:// URI into a standard mongodb:// URI
  * using Google DNS (8.8.8.8) to bypass ISP DNS that can't handle SRV records.
@@ -70,8 +66,8 @@ if (!cached) {
 }
 
 export async function connectDB() {
-  if (!hasMongoConfig()) {
-    return null;
+  if (!MONGODB_URI) {
+    throw new Error("Please define MONGODB_URI in environment variables");
   }
 
   if (cached!.conn) return cached!.conn;
