@@ -1,90 +1,99 @@
 import mongoose from "mongoose";
-import dns from "dns";
 
-const MONGODB_URI = process.env.MONGODB_URI || "";
-
-export function hasMongoConfig() {
-  return Boolean(MONGODB_URI);
-}
-
-/**
- * Resolve a mongodb+srv:// URI into a standard mongodb:// URI
- * using Google DNS (8.8.8.8) to bypass ISP DNS that can't handle SRV records.
- */
-async function resolveSrvToStandardUri(srvUri: string): Promise<string> {
-  if (!srvUri.startsWith("mongodb+srv://")) return srvUri;
-
-  const resolver = new dns.Resolver();
-  resolver.setServers(["8.8.8.8", "8.8.4.4"]);
-
-  const url = new URL(srvUri);
-  const hostname = url.hostname;
-
-  // Resolve SRV records
-  const srvRecords = await new Promise<dns.SrvRecord[]>((resolve, reject) => {
-    resolver.resolveSrv(`_mongodb._tcp.${hostname}`, (err, records) => {
-      if (err) reject(err);
-      else resolve(records);
-    });
-  });
-
-  // Resolve TXT records (contains authSource, replicaSet, etc.)
-  let txtOptions = "";
-  try {
-    const txtRecords = await new Promise<string[][]>((resolve, reject) => {
-      resolver.resolveTxt(hostname, (err, records) => {
-        if (err) reject(err);
-        else resolve(records);
-      });
-    });
-    txtOptions = txtRecords.map((r) => r.join("")).join("&");
-  } catch {
-    // TXT records are optional
-  }
-
-  const hosts = srvRecords.map((r) => `${r.name}:${r.port}`).join(",");
-  const auth = url.username
-    ? `${encodeURIComponent(decodeURIComponent(url.username))}:${encodeURIComponent(decodeURIComponent(url.password))}@`
-    : "";
-  const dbName = url.pathname || "/";
-  const existingParams = url.search ? url.search.slice(1) : "";
-
-  const allParams = [txtOptions, existingParams, "tls=true"]
-    .filter(Boolean)
-    .join("&");
-
-  return `mongodb://${auth}${hosts}${dbName}?${allParams}`;
-}
-
-/* eslint-disable @typescript-eslint/no-explicit-any */
 const globalAny = globalThis as any;
 
-let cached = globalAny.mongoose as {
-  conn: typeof mongoose | null;
-  promise: Promise<typeof mongoose> | null;
-  resolvedUri: string | null;
-} | undefined;
+let cached = globalAny.mongoose as
+  | {
+      conn: typeof mongoose | null;
+      promise: Promise<typeof mongoose> | null;
+    }
+  | undefined;
 
 if (!cached) {
-  cached = globalAny.mongoose = { conn: null, promise: null, resolvedUri: null };
+  cached = globalAny.mongoose = {
+    conn: null,
+    promise: null,
+  };
+}
+
+const mongoCache = cached;
+
+export function hasMongoConfig() {
+  return Boolean(process.env.MONGODB_URI);
+}
+
+export function isAtlasWhitelistError(err: unknown): boolean {
+  const msg =
+    err instanceof Error ? err.message : typeof err === "string" ? err : "";
+
+  return (
+    msg.includes("Could not connect to any servers") ||
+    msg.includes("whitelist") ||
+    msg.includes("IP that isn't whitelisted") ||
+    (msg.includes("MongoServerSelectionError") && msg.includes("Atlas"))
+  );
+}
+
+export function friendlyMongoError(err: unknown): string {
+  if (isAtlasWhitelistError(err)) {
+    return (
+      "MongoDB Atlas connection failed. Check Atlas Network Access, " +
+      "database credentials, and the MongoDB URI configured in Vercel."
+    );
+  }
+
+  if (err instanceof Error) {
+    return err.message;
+  }
+
+  return "Failed to connect to database";
 }
 
 export async function connectDB() {
-  if (!hasMongoConfig()) {
-    return null;
+  const MONGODB_URI = process.env.MONGODB_URI;
+
+  if (!MONGODB_URI) {
+    throw new Error(
+      "MONGODB_URI is missing. Add MONGODB_URI to Vercel Production Environment Variables."
+    );
   }
 
-  if (cached!.conn) return cached!.conn;
-
-  if (!cached!.promise) {
-    // Resolve SRV URI to standard URI using Google DNS
-    if (!cached!.resolvedUri) {
-      cached!.resolvedUri = await resolveSrvToStandardUri(MONGODB_URI);
-      console.log("MongoDB: Resolved connection URI successfully");
-    }
-    cached!.promise = mongoose.connect(cached!.resolvedUri);
+  if (mongoCache.conn) {
+    return mongoCache.conn;
   }
 
-  cached!.conn = await cached!.promise;
-  return cached!.conn;
+  if (!mongoCache.promise) {
+    mongoCache.promise = mongoose
+      .connect(MONGODB_URI, {
+        bufferCommands: false,
+        serverSelectionTimeoutMS: 5000,
+        connectTimeoutMS: 10000,
+        socketTimeoutMS: 20000,
+        maxPoolSize: 10,
+      })
+      .then((m) => {
+        console.log("MongoDB: connected successfully");
+        return m;
+      })
+      .catch((err) => {
+        mongoCache.promise = null;
+
+        console.error(
+          "MongoDB connection failed:",
+          friendlyMongoError(err)
+        );
+
+        throw err;
+      });
+  }
+
+  try {
+    mongoCache.conn = await mongoCache.promise;
+  } catch (err) {
+    mongoCache.promise = null;
+    mongoCache.conn = null;
+    throw err;
+  }
+
+  return mongoCache.conn;
 }
