@@ -42,6 +42,18 @@ export function friendlyMongoError(err: unknown): string {
     );
   }
 
+  const msg =
+    err instanceof Error ? err.message : typeof err === "string" ? err : "";
+
+  if (msg.includes("querySrv") || msg.includes("ECONNREFUSED")) {
+    return (
+      "MongoDB DNS lookup failed locally (querySrv ECONNREFUSED). " +
+      "Use the direct mongodb:// URI with explicit shard hosts instead of " +
+      "mongodb+srv://, or switch your local DNS to 8.8.8.8. Original error: " +
+      msg
+    );
+  }
+
   if (err instanceof Error) {
     return err.message;
   }
@@ -66,9 +78,9 @@ export async function connectDB() {
     mongoCache.promise = mongoose
       .connect(MONGODB_URI, {
         bufferCommands: false,
-        serverSelectionTimeoutMS: 5000,
-        connectTimeoutMS: 10000,
-        socketTimeoutMS: 20000,
+        serverSelectionTimeoutMS: 15000,
+        connectTimeoutMS: 20000,
+        socketTimeoutMS: 30000,
         maxPoolSize: 10,
       })
       .then((m) => {

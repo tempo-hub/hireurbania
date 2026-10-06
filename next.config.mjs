@@ -1,5 +1,15 @@
+import path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Pin Turbopack root to this project so stray parent lockfiles
+  // (e.g. D:\hireurbania\package-lock.json) are ignored in `next dev`.
+  turbopack: {
+    root: __dirname,
+  },
   trailingSlash: false,
   reactStrictMode: true,
   async redirects() {

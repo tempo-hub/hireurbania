@@ -1,5 +1,6 @@
 import { SITEMAP_ROUTES, CITY_HUBS } from '@/lib/routesData';
 import { BLOGS, getCategorySlug } from '@/lib/blogs';
+import { localityData } from '@/lib/localityData';
 
 export default async function sitemap() {
   const baseUrl = 'https://hireurbaniatempotraveller.com';
@@ -56,5 +57,12 @@ export default async function sitemap() {
     }),
   );
 
-  return [homeEntry, ...cityEntries, ...routeEntries, ...trustEntries, ...blogEntries, ...blogCategoryEntries];
+  const localityEntries = localityData.map((item) => ({
+    url: `${baseUrl}/${item.city}/${item.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.75,
+  }));
+
+  return [homeEntry, ...cityEntries, ...routeEntries, ...localityEntries, ...trustEntries, ...blogEntries, ...blogCategoryEntries];
 }
