@@ -15,6 +15,16 @@ const nextConfig = {
   async redirects() {
     return [
       {
+        source: '/delhi/tempo-traveller-fare-in-punjabi-bagh',
+        destination: '/delhi/urbania-fare-in-punjabi-bagh',
+        permanent: true,
+      },
+      {
+        source: '/:city/tempo-traveller-fare-in-:locality',
+        destination: '/:city/urbania-fare-in-:locality',
+        permanent: true,
+      },
+      {
         source: '/:path*',
         has: [
           {

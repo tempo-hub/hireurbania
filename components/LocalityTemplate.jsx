@@ -221,7 +221,7 @@ export default function LocalityTemplate({
                   letterSpacing: "-0.02em",
                 }}
               >
-                Tempo Traveller Fare in{" "}
+                Urbania Fare in{" "}
                 <span style={{ color: "#FFB800" }}>{locality.locality}</span>,{" "}
                 {locality.cityName}
               </h1>
@@ -495,6 +495,363 @@ export default function LocalityTemplate({
           }
         `}</style>
       </section>
+
+      {/* ===== FLEET ===== */}
+      {fleet?.length > 0 && (
+        <section style={{ padding: "3.5rem 0", background: "#f9fafc" }}>
+          <div
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            {/* Section Heading */}
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Award size={14} /> Our Fleet
+              </div>
+
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Urbania Fleet in {locality.cityName}
+              </h2>
+
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                Choose the vehicle that fits your group and luggage from{" "}
+                {placeLabel}.
+              </p>
+            </div>
+
+            {/* Fleet Grid */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                gap: "2rem",
+              }}
+            >
+              {fleet.map((model) => (
+                <div
+                  key={model.id}
+                  className="fleet-image-card"
+                  style={{
+                    background: "#fff",
+                    borderRadius: "24px",
+                    overflow: "hidden",
+                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
+                    border: "1px solid #f0f4fe",
+                    cursor: "pointer",
+                    position: "relative",
+                  }}
+                >
+                  {/* ===== CARD IMAGE ===== */}
+                  <div
+                    style={{
+                      position: "relative",
+                      height: "220px",
+                      background: "#eef3ff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <Image
+                      src={model.image}
+                      alt={model.name}
+                      width={400}
+                      height={220}
+                      className="fleet-image"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                      }}
+                    />
+
+                    {/* Capacity Badge */}
+                    <span
+                      style={{
+                        position: "absolute",
+                        top: "12px",
+                        right: "12px",
+                        background: "#0052CC",
+                        color: "#fff",
+                        padding: "0.25rem 1rem",
+                        borderRadius: "40px",
+                        fontWeight: 600,
+                        fontSize: "0.8rem",
+                        zIndex: 2,
+                      }}
+                    >
+                      {model.capacity}
+                    </span>
+
+                    {/* Rating Badge */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        bottom: "12px",
+                        left: "12px",
+                        background: "rgba(0,0,0,0.7)",
+                        backdropFilter: "blur(8px)",
+                        color: "#FFB800",
+                        padding: "0.2rem 0.8rem",
+                        borderRadius: "20px",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.3rem",
+                        zIndex: 2,
+                      }}
+                    >
+                      <Star size={14} fill="#FFB800" />
+                      4.9
+                    </div>
+                  </div>
+
+                  {/* ===== CARD BODY ===== */}
+                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
+                    {/* Vehicle Name */}
+                    <h3
+                      className="fleet-title"
+                      style={{
+                        fontSize: "1.25rem",
+                        fontWeight: 700,
+                        margin: "0 0 0.2rem",
+                        color: "#0b1a2e",
+                      }}
+                    >
+                      {model.name}
+                    </h3>
+
+                    {/* Tagline */}
+                    <p
+                      style={{
+                        color: "#4a5a6e",
+                        fontSize: "0.85rem",
+                        margin: "0 0 0.75rem",
+                        minHeight: "40px",
+                      }}
+                    >
+                      {model.tagline}
+                    </p>
+
+                    {/* ===== KEY SPECS ===== */}
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "1rem",
+                        flexWrap: "wrap",
+                        marginBottom: "0.75rem",
+                        padding: "0.5rem 0",
+                        borderTop: "1px solid #f0f4fe",
+                        borderBottom: "1px solid #f0f4fe",
+                      }}
+                    >
+                      <span
+                        style={{
+                          fontSize: "0.8rem",
+                          color: "#4a5a6e",
+                        }}
+                      >
+                        <Users
+                          size={14}
+                          style={{
+                            display: "inline",
+                            marginRight: "0.2rem",
+                            verticalAlign: "middle",
+                          }}
+                        />
+                        {model.seater} Seats
+                      </span>
+
+                      <span
+                        style={{
+                          fontSize: "0.8rem",
+                          color: "#4a5a6e",
+                        }}
+                      >
+                        <Luggage
+                          size={14}
+                          style={{
+                            display: "inline",
+                            marginRight: "0.2rem",
+                            verticalAlign: "middle",
+                          }}
+                        />
+                        {model.luggageCapacity}
+                      </span>
+                    </div>
+
+                    {/* ===== PRICING ===== */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      <div>
+                        <span
+                          style={{
+                            fontSize: "0.75rem",
+                            color: "#7a8a9e",
+                          }}
+                        >
+                          Starting from
+                        </span>
+
+                        <p
+                          style={{
+                            fontSize: "1.3rem",
+                            fontWeight: 700,
+                            color: "#0b1a2e",
+                            margin: 0,
+                          }}
+                        >
+                          ₹{model.ratePerKm}
+                          <span
+                            style={{
+                              fontSize: "0.9rem",
+                              fontWeight: 400,
+                              color: "#7a8a9e",
+                            }}
+                          >
+                            /km
+                          </span>
+                        </p>
+                      </div>
+
+                      <span
+                        style={{
+                          fontSize: "0.7rem",
+                          color: "#7a8a9e",
+                          background: "#f0f4fe",
+                          padding: "0.2rem 0.8rem",
+                          borderRadius: "20px",
+                        }}
+                      >
+                        {model.minKmPerDay}+ km/day
+                      </span>
+                    </div>
+
+                    {/* ===== BOOK BUTTON ===== */}
+                    <a
+                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                        `Book ${model.name} in ${locality.cityName}`,
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="fleet-book-button"
+                    >
+                      <MessageSquare size={16} />
+                      Book This Vehicle
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* ===== HOVER + RESPONSIVE CSS ===== */}
+          <style jsx>{`
+            .fleet-image-card {
+              transition:
+                transform 0.3s ease,
+                border-color 0.3s ease,
+                box-shadow 0.3s ease;
+            }
+
+            .fleet-image-card:hover {
+              transform: scale(1.02);
+              border-color: #0052cc !important;
+              box-shadow: 0 14px 32px rgba(0, 82, 204, 0.16);
+            }
+
+            .fleet-image-card .fleet-image {
+              transition: transform 0.5s ease;
+            }
+
+            .fleet-image-card:hover .fleet-image {
+              transform: scale(1.06);
+            }
+
+            .fleet-title {
+              transition: color 0.25s ease;
+            }
+
+            .fleet-image-card:hover .fleet-title {
+              color: #0052cc !important;
+            }
+
+            .fleet-book-button {
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.5rem;
+              width: 100%;
+              padding: 0.7rem 1.5rem;
+              border-radius: 40px;
+              background: #0052cc;
+              color: #fff;
+              font-weight: 600;
+              font-size: 0.9rem;
+              text-decoration: none;
+              transition:
+                background-color 0.25s ease,
+                transform 0.25s ease,
+                box-shadow 0.25s ease;
+              margin-top: 0.5rem;
+            }
+
+            .fleet-book-button:hover {
+              background: #003ea6;
+              transform: translateY(-2px);
+              box-shadow: 0 8px 18px rgba(0, 82, 204, 0.25);
+            }
+
+            @media (max-width: 600px) {
+              .fleet-image-card:hover {
+                transform: scale(1.01);
+              }
+            }
+          `}</style>
+        </section>
+      )}
 
       {/* ===== QUICK FACTS ===== */}
       <section style={{ padding: "3rem 0", background: "#fff" }}>
@@ -953,363 +1310,6 @@ export default function LocalityTemplate({
         </section>
       )}
 
-      {/* ===== FLEET ===== */}
-      {fleet?.length > 0 && (
-        <section style={{ padding: "3.5rem 0", background: "#f9fafc" }}>
-          <div
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            {/* Section Heading */}
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Award size={14} /> Our Fleet
-              </div>
-
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                Urbania Fleet in {locality.cityName}
-              </h2>
-
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
-                Choose the vehicle that fits your group and luggage from{" "}
-                {placeLabel}.
-              </p>
-            </div>
-
-            {/* Fleet Grid */}
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              {fleet.map((model) => (
-                <div
-                  key={model.id}
-                  className="fleet-image-card"
-                  style={{
-                    background: "#fff",
-                    borderRadius: "24px",
-                    overflow: "hidden",
-                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
-                    border: "1px solid #f0f4fe",
-                    cursor: "pointer",
-                    position: "relative",
-                  }}
-                >
-                  {/* ===== CARD IMAGE ===== */}
-                  <div
-                    style={{
-                      position: "relative",
-                      height: "220px",
-                      background: "#eef3ff",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={model.image}
-                      alt={model.name}
-                      width={400}
-                      height={220}
-                      className="fleet-image"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                      }}
-                    />
-
-                    {/* Capacity Badge */}
-                    <span
-                      style={{
-                        position: "absolute",
-                        top: "12px",
-                        right: "12px",
-                        background: "#0052CC",
-                        color: "#fff",
-                        padding: "0.25rem 1rem",
-                        borderRadius: "40px",
-                        fontWeight: 600,
-                        fontSize: "0.8rem",
-                        zIndex: 2,
-                      }}
-                    >
-                      {model.capacity}
-                    </span>
-
-                    {/* Rating Badge */}
-                    <div
-                      style={{
-                        position: "absolute",
-                        bottom: "12px",
-                        left: "12px",
-                        background: "rgba(0,0,0,0.7)",
-                        backdropFilter: "blur(8px)",
-                        color: "#FFB800",
-                        padding: "0.2rem 0.8rem",
-                        borderRadius: "20px",
-                        fontSize: "0.75rem",
-                        fontWeight: 600,
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.3rem",
-                        zIndex: 2,
-                      }}
-                    >
-                      <Star size={14} fill="#FFB800" />
-                      4.9
-                    </div>
-                  </div>
-
-                  {/* ===== CARD BODY ===== */}
-                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
-                    {/* Vehicle Name */}
-                    <h3
-                      className="fleet-title"
-                      style={{
-                        fontSize: "1.25rem",
-                        fontWeight: 700,
-                        margin: "0 0 0.2rem",
-                        color: "#0b1a2e",
-                      }}
-                    >
-                      {model.name}
-                    </h3>
-
-                    {/* Tagline */}
-                    <p
-                      style={{
-                        color: "#4a5a6e",
-                        fontSize: "0.85rem",
-                        margin: "0 0 0.75rem",
-                        minHeight: "40px",
-                      }}
-                    >
-                      {model.tagline}
-                    </p>
-
-                    {/* ===== KEY SPECS ===== */}
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "1rem",
-                        flexWrap: "wrap",
-                        marginBottom: "0.75rem",
-                        padding: "0.5rem 0",
-                        borderTop: "1px solid #f0f4fe",
-                        borderBottom: "1px solid #f0f4fe",
-                      }}
-                    >
-                      <span
-                        style={{
-                          fontSize: "0.8rem",
-                          color: "#4a5a6e",
-                        }}
-                      >
-                        <Users
-                          size={14}
-                          style={{
-                            display: "inline",
-                            marginRight: "0.2rem",
-                            verticalAlign: "middle",
-                          }}
-                        />
-                        {model.seater} Seats
-                      </span>
-
-                      <span
-                        style={{
-                          fontSize: "0.8rem",
-                          color: "#4a5a6e",
-                        }}
-                      >
-                        <Luggage
-                          size={14}
-                          style={{
-                            display: "inline",
-                            marginRight: "0.2rem",
-                            verticalAlign: "middle",
-                          }}
-                        />
-                        {model.luggageCapacity}
-                      </span>
-                    </div>
-
-                    {/* ===== PRICING ===== */}
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      <div>
-                        <span
-                          style={{
-                            fontSize: "0.75rem",
-                            color: "#7a8a9e",
-                          }}
-                        >
-                          Starting from
-                        </span>
-
-                        <p
-                          style={{
-                            fontSize: "1.3rem",
-                            fontWeight: 700,
-                            color: "#0b1a2e",
-                            margin: 0,
-                          }}
-                        >
-                          ₹{model.ratePerKm}
-                          <span
-                            style={{
-                              fontSize: "0.9rem",
-                              fontWeight: 400,
-                              color: "#7a8a9e",
-                            }}
-                          >
-                            /km
-                          </span>
-                        </p>
-                      </div>
-
-                      <span
-                        style={{
-                          fontSize: "0.7rem",
-                          color: "#7a8a9e",
-                          background: "#f0f4fe",
-                          padding: "0.2rem 0.8rem",
-                          borderRadius: "20px",
-                        }}
-                      >
-                        {model.minKmPerDay}+ km/day
-                      </span>
-                    </div>
-
-                    {/* ===== BOOK BUTTON ===== */}
-                    <a
-                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                        `Book ${model.name} in ${locality.cityName}`,
-                      )}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="fleet-book-button"
-                    >
-                      <MessageSquare size={16} />
-                      Book This Vehicle
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* ===== HOVER + RESPONSIVE CSS ===== */}
-          <style jsx>{`
-            .fleet-image-card {
-              transition:
-                transform 0.3s ease,
-                border-color 0.3s ease,
-                box-shadow 0.3s ease;
-            }
-
-            .fleet-image-card:hover {
-              transform: scale(1.02);
-              border-color: #0052cc !important;
-              box-shadow: 0 14px 32px rgba(0, 82, 204, 0.16);
-            }
-
-            .fleet-image-card .fleet-image {
-              transition: transform 0.5s ease;
-            }
-
-            .fleet-image-card:hover .fleet-image {
-              transform: scale(1.06);
-            }
-
-            .fleet-title {
-              transition: color 0.25s ease;
-            }
-
-            .fleet-image-card:hover .fleet-title {
-              color: #0052cc !important;
-            }
-
-            .fleet-book-button {
-              display: inline-flex;
-              align-items: center;
-              justify-content: center;
-              gap: 0.5rem;
-              width: 100%;
-              padding: 0.7rem 1.5rem;
-              border-radius: 40px;
-              background: #0052cc;
-              color: #fff;
-              font-weight: 600;
-              font-size: 0.9rem;
-              text-decoration: none;
-              transition:
-                background-color 0.25s ease,
-                transform 0.25s ease,
-                box-shadow 0.25s ease;
-              margin-top: 0.5rem;
-            }
-
-            .fleet-book-button:hover {
-              background: #003ea6;
-              transform: translateY(-2px);
-              box-shadow: 0 8px 18px rgba(0, 82, 204, 0.25);
-            }
-
-            @media (max-width: 600px) {
-              .fleet-image-card:hover {
-                transform: scale(1.01);
-              }
-            }
-          `}</style>
-        </section>
-      )}
-
       {/* =========================================================
     URBANIA VS STANDARD TEMPO TRAVELLER
 ========================================================= */}
@@ -1580,8 +1580,8 @@ export default function LocalityTemplate({
       </section>
 
       {/* =========================================================
-    WHY BOOK FORCE URBANIA
-========================================================= */}
+          WHY BOOK FORCE URBANIA
+          ========================================================= */}
       <section
         style={{
           padding: "4rem 0",
@@ -1887,6 +1887,7 @@ export default function LocalityTemplate({
             >
               More {locality.cityName} localities
             </h2>
+
             <div style={{ display: "flex", flexWrap: "wrap", gap: "0.7rem" }}>
               {otherLocalities.map((o) => (
                 <Link
@@ -1894,10 +1895,11 @@ export default function LocalityTemplate({
                   href={`/${o.city}/${o.slug}`}
                   className="locality-link"
                 >
-                  Tempo Traveller in {o.locality}
+                  Urbania in {o.locality}
                 </Link>
               ))}
             </div>
+
             <div style={{ marginTop: "1.5rem" }}>
               <Link
                 href={cityLink}

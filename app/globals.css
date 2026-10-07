@@ -4908,4 +4908,24 @@ section[style*="rgba(14"] {
   .floating-btn-call {
     right: 18px;
   }
-}
+}
+
+.locality-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 14px;
+  background: #fff;
+  color: #1175EA;
+  border: 1px solid #d9e8ff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.locality-link:hover {
+  background: #1175EA;
+  color: #fff;
+  border-color: #1175EA;
+}
