@@ -90,6 +90,7 @@ export default function LocalityTemplate({
   otherLocalities = [],
   cityHubSlug = null,
 }) {
+  const { city, cityName, description } = locality;
   const whatsappNumber = "919151827941";
   const [openFAQIndex, setOpenFAQIndex] = useState(null);
 
@@ -124,6 +125,7 @@ export default function LocalityTemplate({
   ];
 
   const cityLink = cityHubSlug ? `/${cityHubSlug}` : "/cities";
+  const cityPageUrl = `/urbania-tempo-traveller-in-${locality.city}`;
 
   return (
     <main>
@@ -234,7 +236,10 @@ export default function LocalityTemplate({
                   maxWidth: "620px",
                 }}
               >
-                {locality.description}
+                {description} For more options, explore our{" "}
+                <Link href={cityPageUrl} className="transition-all duration-200 hover:underline hover:decoration-white hover:underline-offset-4">
+                  {cityName} Urbania Tempo Traveller service
+                </Link>.
               </p>
 
               <div
@@ -1311,8 +1316,8 @@ export default function LocalityTemplate({
       )}
 
       {/* =========================================================
-    URBANIA VS STANDARD TEMPO TRAVELLER
-========================================================= */}
+         URBANIA VS STANDARD TEMPO TRAVELLER
+        ========================================================= */}
       <section
         style={{
           padding: "4rem 0",
