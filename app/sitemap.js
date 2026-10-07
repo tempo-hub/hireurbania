@@ -1,4 +1,6 @@
 import { SITEMAP_ROUTES, CITY_HUBS } from '@/lib/routesData';
+import { BLOGS, getCategorySlug } from '@/lib/blogs';
+import { localityData } from '@/lib/localityData';
 
 export default async function sitemap() {
   const baseUrl = 'https://hireurbaniatempotraveller.com';
@@ -11,13 +13,6 @@ export default async function sitemap() {
   };
 
   const routeEntries = SITEMAP_ROUTES.map((route) => ({
-    url: `${baseUrl}/${route.routeSlug}`,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 0.8,
-  }));
-
-  const routeEntrieswithRouteSlug = SITEMAP_ROUTES.map((route) => ({
     url: `${baseUrl}/routes/${route.routeSlug}`,
     lastModified: new Date(),
     changeFrequency: 'weekly',
@@ -38,6 +33,7 @@ export default async function sitemap() {
     'about-us',
     'refund-cancellation',
     'blogs',
+    'cities',
   ].map((slug) => ({
     url: `${baseUrl}/${slug}`,
     lastModified: new Date(),
@@ -45,5 +41,28 @@ export default async function sitemap() {
     priority: slug === 'contact-us' ? 0.8 : 0.5,
   }));
 
-  return [homeEntry, ...cityEntries, ...routeEntries, ...trustEntries, ...routeEntrieswithRouteSlug];
+  const blogEntries = BLOGS.map((blog) => ({
+    url: `${baseUrl}/blogs/${blog.slug}`,
+    lastModified: blog.createdAt ? new Date(blog.createdAt) : new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }));
+
+  const blogCategoryEntries = [...new Set(BLOGS.map((b) => getCategorySlug(b.category)))].map(
+    (categorySlug) => ({
+      url: `${baseUrl}/blogs/category/${categorySlug}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.5,
+    }),
+  );
+
+  const localityEntries = localityData.map((item) => ({
+    url: `${baseUrl}/${item.city}/${item.slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.75,
+  }));
+
+  return [homeEntry, ...cityEntries, ...routeEntries, ...localityEntries, ...trustEntries, ...blogEntries, ...blogCategoryEntries];
 }
