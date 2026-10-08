@@ -126,6 +126,13 @@ function RouteSeo({ route }) {
     route.metaDescription ||
     `Book Force Urbania tempo traveller from ${route.origin} to ${route.destination}. ${route.distanceKm}km, ${route.durationHrs} journey with luxury seating, AC, and experienced chauffeurs.`;
 
+  // ✅ Auto-updated timestamp
+  const lastUpdated = new Date().toLocaleDateString("en-IN", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+
   return (
     <>
       <title>{title}</title>
@@ -134,6 +141,7 @@ function RouteSeo({ route }) {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_IN" />
+      <meta name="last-modified" content={new Date().toISOString()} />
       <link
         rel="canonical"
         href={`https://hireurbaniatempotraveller.com/routes/${route.routeSlug}`}
@@ -162,9 +170,14 @@ function RouteSeo({ route }) {
                 unitText: "km",
               },
             },
+            dateModified: new Date().toISOString(),
           }),
         }}
       />
+
+      {/* ✅ Visible timestamp for users (optional) */}
+      <meta name="article:modified_time" content={new Date().toISOString()} />
+      <span style={{ display: "none" }} data-last-updated={lastUpdated} />
     </>
   );
 }
@@ -372,6 +385,35 @@ export default function RouteTemplate({
                   }}
                 >
                   <Award size={14} /> Premium Route
+                </div>
+
+                {/* ✅ Last Updated Badge */}
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.4rem",
+                    background: "rgba(255,255,255,0.12)",
+                    backdropFilter: "blur(8px)",
+                    padding: "0.25rem 0.9rem",
+                    borderRadius: "40px",
+                    fontSize: "0.7rem",
+                    fontWeight: 500,
+                    color: "rgba(255,255,255,0.85)",
+                    marginLeft: "0.5rem",
+                    marginBottom: "0.5rem",
+                    verticalAlign: "middle",
+                  }}
+                >
+                  <Clock size={12} />
+                  <span>
+                    Last updated:{" "}
+                    {new Date().toLocaleDateString("en-IN", {
+                      year: "numeric",
+                      month: "short",
+                      day: "numeric",
+                    })}
+                  </span>
                 </div>
 
                 <h1
@@ -1009,6 +1051,133 @@ export default function RouteTemplate({
                 Urbania travel with a professional chauffeur.
               </span>
             </div>
+
+            {/* ===== EXACT ROUTE DETAILS ===== */}
+            <div
+              style={{
+                marginTop: "2rem",
+                padding: "1.5rem",
+                background: "#ffffff",
+                borderRadius: "16px",
+                border: "1px solid #ecf0f7",
+              }}
+            >
+              <h3
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  fontSize: "1.1rem",
+                  fontWeight: 700,
+                  color: "#0b1a2e",
+                  marginBottom: "1rem",
+                }}
+              >
+                <Route size={18} color="#0052CC" />
+                <span>Exact Route & Directions</span>
+              </h3>
+
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+                  gap: "1rem",
+                }}
+              >
+                {[
+                  {
+                    label: "Starting Point",
+                    value: `${route.origin} City Center`,
+                    icon: <MapPin size={16} color="#0052CC" />,
+                  },
+                  {
+                    label: "Primary Highway",
+                    value: getHighwayName(route.origin, route.destination),
+                    icon: <Road size={16} color="#0052CC" />,
+                  },
+                  {
+                    label: "Major Cities En Route",
+                    value:
+                      route.viaCities?.join(" → ") ||
+                      "Direct route via national highway",
+                    icon: <MapPinned size={16} color="#0052CC" />,
+                  },
+                  {
+                    label: "Ending Point",
+                    value: `${route.destination} City Center`,
+                    icon: <MapPin size={16} color="#0052CC" />,
+                  },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = "scale(1.03)";
+                      e.currentTarget.style.borderColor = "#0052CC";
+                      e.currentTarget.style.boxShadow =
+                        "0 8px 20px rgba(0, 82, 204, 0.12)";
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = "scale(1)";
+                      e.currentTarget.style.borderColor = "#ecf0f7";
+                      e.currentTarget.style.boxShadow = "none";
+                    }}
+                    style={{
+                      padding: "0.85rem 1rem",
+                      background: "#f9fafc",
+                      borderRadius: "12px",
+                      border: "1px solid #ecf0f7",
+
+                      // Hover animation
+                      transition:
+                        "transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease",
+                      cursor: "pointer",
+                    }}
+                  >
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.4rem",
+                        fontSize: "0.7rem",
+                        color: "#7a8a9e",
+                        fontWeight: 600,
+                        textTransform: "uppercase",
+                        letterSpacing: "0.5px",
+                        marginBottom: "0.35rem",
+                      }}
+                    >
+                      {item.icon}
+                      <span>{item.label}</span>
+                    </div>
+
+                    <div
+                      style={{
+                        fontSize: "0.9rem",
+                        color: "#0b1a2e",
+                        fontWeight: 600,
+                        lineHeight: 1.4,
+                      }}
+                    >
+                      {item.value}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <p
+                style={{
+                  fontSize: "0.8rem",
+                  color: "#7a8a9e",
+                  marginTop: "1rem",
+                  lineHeight: 1.6,
+                }}
+              >
+                <strong>Note:</strong> The exact route may vary based on traffic
+                conditions, road closures, and driver discretion. Our chauffeurs
+                are familiar with alternate routes to ensure the fastest and
+                safest journey.
+              </p>
+            </div>
           </div>
 
           {/* Responsive Styles */}
@@ -1135,6 +1304,7 @@ export default function RouteTemplate({
                     </th>
                   </tr>
                 </thead>
+
                 <tbody>
                   {fleet.map((model, index) => (
                     <tr
@@ -1183,7 +1353,7 @@ export default function RouteTemplate({
                         {formatCurrency(
                           Math.round(
                             roundTripDistance * model.ratePerKm +
-                            model.driverAllowance * 3,
+                              model.driverAllowance * 2,
                           ),
                         )}
                       </td>
@@ -1233,6 +1403,562 @@ export default function RouteTemplate({
               * Estimates include driver allowance for 3 days. Final fare may
               vary based on actual route, tolls, and taxes.
             </p>
+
+            {/* ===== ONE-WAY vs ROUND-TRIP PRICING ===== */}
+            <div style={{ marginTop: "2.5rem" }}>
+              <h3
+                style={{
+                  textAlign: "center",
+                  fontSize: "1.4rem",
+                  fontWeight: 700,
+                  color: "#0b1a2e",
+                  marginBottom: "1.5rem",
+                }}
+              >
+                One-Way vs Round-Trip Pricing
+              </h3>
+
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+                  gap: "1.5rem",
+                }}
+              >
+                {/* One-Way Card */}
+                <div
+                  style={{
+                    background: "#ffffff",
+                    borderRadius: "20px",
+                    padding: "1.8rem",
+                    border: "2px solid #e0f2fe",
+                    transition: "all 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-6px)";
+                    e.currentTarget.style.borderColor = "#0284c7";
+                    e.currentTarget.style.boxShadow =
+                      "0 16px 40px rgba(2, 132, 199, 0.12)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.borderColor = "#e0f2fe";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      background: "#e0f2fe",
+                      color: "#0284c7",
+                      padding: "0.3rem 1rem",
+                      borderRadius: "40px",
+                      fontSize: "0.75rem",
+                      fontWeight: 700,
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <ArrowRight size={14} /> ONE-WAY
+                  </div>
+
+                  <h4
+                    style={{
+                      fontSize: "1.15rem",
+                      fontWeight: 700,
+                      color: "#0b1a2e",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    {route.origin} → {route.destination}
+                  </h4>
+
+                  <p
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "#4a5a6e",
+                      marginBottom: "1rem",
+                      lineHeight: 1.6,
+                    }}
+                  >
+                    Perfect for one-way travelers, relocation, or drop-only
+                    trips.
+                  </p>
+
+                  <div
+                    style={{
+                      padding: "1rem",
+                      background: "#f0f9ff",
+                      borderRadius: "12px",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: "0.75rem",
+                        color: "#7a8a9e",
+                        marginBottom: "0.25rem",
+                      }}
+                    >
+                      Estimated Fare
+                    </div>
+                    <div
+                      style={{
+                        fontSize: "1.4rem",
+                        fontWeight: 700,
+                        color: "#0284c7",
+                      }}
+                    >
+                      ₹
+                      {Math.round(route.distanceKm * 30 + 600).toLocaleString(
+                        "en-IN",
+                      )}
+                      <span
+                        style={{
+                          fontSize: "0.85rem",
+                          fontWeight: 500,
+                          color: "#7a8a9e",
+                        }}
+                      >
+                        {" "}
+                        onwards
+                      </span>
+                    </div>
+                  </div>
+
+                  <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                    {[
+                      `Covers ${route.distanceKm} km one-way`,
+                      "Driver allowance included",
+                      "Toll & taxes extra",
+                      "Ideal for 1-2 day trips",
+                    ].map((item, idx) => (
+                      <li
+                        key={idx}
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "0.5rem",
+                          padding: "0.35rem 0",
+                          fontSize: "0.85rem",
+                          color: "#1a2634",
+                        }}
+                      >
+                        <CheckCircle2
+                          size={14}
+                          color="#0284c7"
+                          style={{ flexShrink: 0, marginTop: "2px" }}
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Round-Trip Card */}
+                <div
+                  style={{
+                    background: "#ffffff",
+                    borderRadius: "20px",
+                    padding: "1.8rem",
+                    border: "2px solid #dce7ff",
+                    position: "relative",
+                    transition: "all 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-6px)";
+                    e.currentTarget.style.borderColor = "#0052CC";
+                    e.currentTarget.style.boxShadow =
+                      "0 16px 40px rgba(0, 82, 204, 0.12)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.borderColor = "#dce7ff";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                >
+                  {/* Best Value Badge */}
+                  <div
+                    style={{
+                      position: "absolute",
+                      top: "-12px",
+                      right: "20px",
+                      background: "#FFB800",
+                      color: "#0b1a2e",
+                      padding: "0.25rem 0.9rem",
+                      borderRadius: "40px",
+                      fontSize: "0.7rem",
+                      fontWeight: 800,
+                      letterSpacing: "0.5px",
+                    }}
+                  >
+                    BEST VALUE
+                  </div>
+
+                  <div
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      background: "#eef3ff",
+                      color: "#0052CC",
+                      padding: "0.3rem 1rem",
+                      borderRadius: "40px",
+                      fontSize: "0.75rem",
+                      fontWeight: 700,
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <Route size={14} /> ROUND-TRIP
+                  </div>
+
+                  <h4
+                    style={{
+                      fontSize: "1.15rem",
+                      fontWeight: 700,
+                      color: "#0b1a2e",
+                      marginBottom: "0.5rem",
+                    }}
+                  >
+                    {route.origin} ↔ {route.destination}
+                  </h4>
+
+                  <p
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "#4a5a6e",
+                      marginBottom: "1rem",
+                      lineHeight: 1.6,
+                    }}
+                  >
+                    Best for family trips, group tours, and multi-day journeys.
+                  </p>
+
+                  <div
+                    style={{
+                      padding: "1rem",
+                      background: "#f0f4fe",
+                      borderRadius: "12px",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <div
+                      style={{
+                        fontSize: "0.75rem",
+                        color: "#7a8a9e",
+                        marginBottom: "0.25rem",
+                      }}
+                    >
+                      Estimated Fare
+                    </div>
+                    <div
+                      style={{
+                        fontSize: "1.4rem",
+                        fontWeight: 700,
+                        color: "#0052CC",
+                      }}
+                    >
+                      ₹
+                      {Math.round(
+                        route.distanceKm * 2 * 30 + 600 * 2,
+                      ).toLocaleString("en-IN")}
+                      <span
+                        style={{
+                          fontSize: "0.85rem",
+                          fontWeight: 500,
+                          color: "#7a8a9e",
+                        }}
+                      >
+                        {" "}
+                        onwards
+                      </span>
+                    </div>
+                  </div>
+
+                  <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                    {[
+                      `Covers ${route.distanceKm * 2} km round-trip`,
+                      "Driver allowance included",
+                      "Better per-km rate",
+                      "Ideal for 2-3 day trips",
+                    ].map((item, idx) => (
+                      <li
+                        key={idx}
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "0.5rem",
+                          padding: "0.35rem 0",
+                          fontSize: "0.85rem",
+                          color: "#1a2634",
+                        }}
+                      >
+                        <CheckCircle2
+                          size={14}
+                          color="#0052CC"
+                          style={{ flexShrink: 0, marginTop: "2px" }}
+                        />
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* CTA */}
+              <div
+                style={{
+                  marginTop: "1.5rem",
+                  textAlign: "center",
+                  padding: "1.25rem",
+                  background: "#f9fafc",
+                  borderRadius: "16px",
+                  border: "1px solid #ecf0f7",
+                }}
+              >
+                <p
+                  style={{
+                    fontSize: "0.9rem",
+                    color: "#4a5a6e",
+                    marginBottom: "0.75rem",
+                  }}
+                >
+                  Need an exact one-way or round-trip quote?
+                </p>
+                <a
+                  href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                    `One-way / Round-trip quote for ${route.origin} to ${route.destination}`,
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    padding: "0.65rem 1.75rem",
+                    borderRadius: "40px",
+                    background: "#25D366",
+                    color: "#fff",
+                    fontWeight: 700,
+                    fontSize: "0.9rem",
+                    textDecoration: "none",
+                    cursor: "pointer",
+                  }}
+                >
+                  <MessageSquare size={16} /> Get Exact Quote
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== PICKUP & DROP LOCATIONS ===== */}
+        <section
+          className="pickup-drop-section"
+          style={{ padding: "4rem 0", background: "#f9fafc" }}
+        >
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            {/* Header */}
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <MapPin size={14} /> Pickup & Drop
+              </div>
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Pickup & Drop Locations for{" "}
+                <span style={{ color: "#0052CC" }}>
+                  {route.origin} to {route.destination}
+                </span>
+              </h2>
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                We offer flexible pickup and drop at your preferred location
+                across {route.origin} and {route.destination}.
+              </p>
+            </div>
+
+            {/* Two Column Grid */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                gap: "2rem",
+              }}
+            >
+              {/* Pickup Locations */}
+              <div
+                style={{
+                  background: "#ffffff",
+                  borderRadius: "20px",
+                  padding: "1.8rem",
+                  border: "1px solid #ecf0f7",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
+                }}
+              >
+                <h3
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    fontSize: "1.15rem",
+                    fontWeight: 700,
+                    color: "#0b1a2e",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <MapPin size={20} color="#0052CC" />
+                  <span>Pickup Points in {route.origin}</span>
+                </h3>
+
+                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                  {[
+                    `Any hotel / residence in ${route.origin}`,
+                    `${route.origin} Railway Station`,
+                    `${route.origin} Airport`,
+                    `${route.origin} Bus Stand`,
+                    `Custom pickup point (on request)`,
+                  ].map((point, idx) => (
+                    <li
+                      key={idx}
+                      style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                        gap: "0.6rem",
+                        padding: "0.55rem 0",
+                        borderBottom: idx < 4 ? "1px solid #f0f4fe" : "none",
+                        fontSize: "0.9rem",
+                        color: "#1a2634",
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      <CheckCircle2
+                        size={16}
+                        color="#22c55e"
+                        style={{ flexShrink: 0, marginTop: "2px" }}
+                      />
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* Drop Locations */}
+              <div
+                style={{
+                  background: "#ffffff",
+                  borderRadius: "20px",
+                  padding: "1.8rem",
+                  border: "1px solid #ecf0f7",
+                  boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
+                }}
+              >
+                <h3
+                  style={{
+                    display: "flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    fontSize: "1.15rem",
+                    fontWeight: 700,
+                    color: "#0b1a2e",
+                    marginBottom: "1rem",
+                  }}
+                >
+                  <MapPin size={20} color="#0052CC" />
+                  <span>Drop Points in {route.destination}</span>
+                </h3>
+
+                <ul style={{ listStyle: "none", padding: 0, margin: 0 }}>
+                  {[
+                    `Any hotel / residence in ${route.destination}`,
+                    `${route.destination} Railway Station`,
+                    `${route.destination} Airport`,
+                    `${route.destination} Bus Stand`,
+                    `Custom drop point (on request)`,
+                  ].map((point, idx) => (
+                    <li
+                      key={idx}
+                      style={{
+                        display: "flex",
+                        alignItems: "flex-start",
+                        gap: "0.6rem",
+                        padding: "0.55rem 0",
+                        borderBottom: idx < 4 ? "1px solid #f0f4fe" : "none",
+                        fontSize: "0.9rem",
+                        color: "#1a2634",
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      <CheckCircle2
+                        size={16}
+                        color="#22c55e"
+                        style={{ flexShrink: 0, marginTop: "2px" }}
+                      />
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            {/* Note */}
+            <div
+              style={{
+                marginTop: "2rem",
+                padding: "1rem 1.5rem",
+                background: "#f0f4fe",
+                borderRadius: "12px",
+                border: "1px solid #dce7ff",
+                display: "flex",
+                alignItems: "center",
+                gap: "0.6rem",
+                fontSize: "0.9rem",
+                color: "#0b1a2e",
+                lineHeight: 1.6,
+              }}
+            >
+              <Info size={18} color="#0052CC" style={{ flexShrink: 0 }} />
+              <span>
+                Doorstep pickup and drop is available for all bookings.
+                Additional charges may apply for out-of-city pickup points.
+              </span>
+            </div>
           </div>
         </section>
 
@@ -4682,6 +5408,262 @@ export default function RouteTemplate({
           </div>
         </section>
 
+        {/* ===== CANCELLATION POLICY SECTION ===== */}
+        <section
+          className="cancellation-policy-section"
+          style={{ padding: "4rem 0", background: "#f9fafc" }}
+        >
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            {/* Header */}
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <ShieldCheck size={14} /> Cancellation Policy
+              </div>
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Flexible Cancellation & Refund Policy
+              </h2>
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                We understand plans change. Our cancellation policy is designed
+                to be fair and transparent for all our customers.
+              </p>
+            </div>
+
+            {/* Policy Grid */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+                gap: "1.5rem",
+                marginBottom: "2rem",
+              }}
+            >
+              {[
+                {
+                  icon: <CheckCircle2 size={22} />,
+                  title: "Free Cancellation",
+                  desc: "Cancel up to 24 hours before pickup for a full refund.",
+                  color: "#16803c",
+                  bg: "#f0fdf4",
+                  border: "#bbf7d0",
+                },
+                {
+                  icon: <Clock size={22} />,
+                  title: "12-24 Hours",
+                  desc: "Cancel 12-24 hours before pickup — 75% refund applicable.",
+                  color: "#b33d00",
+                  bg: "#fff3e0",
+                  border: "#fed7aa",
+                },
+                {
+                  icon: <Info size={22} />,
+                  title: "Under 12 Hours",
+                  desc: "Cancel within 12 hours of pickup — 50% refund applicable.",
+                  color: "#dc2626",
+                  bg: "#fef2f2",
+                  border: "#fecaca",
+                },
+                {
+                  icon: <X size={22} />,
+                  title: "No-Show",
+                  desc: "No refund for no-show or cancellation after driver dispatch.",
+                  color: "#7c3aed",
+                  bg: "#f3e8ff",
+                  border: "#e9d5ff",
+                },
+              ].map((item, idx) => (
+                <div
+                  key={idx}
+                  style={{
+                    background: "#ffffff",
+                    borderRadius: "16px",
+                    padding: "1.5rem",
+                    border: `1px solid ${item.border}`,
+                    transition: "all 0.3s ease",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "translateY(-4px)";
+                    e.currentTarget.style.boxShadow = `0 12px 28px ${item.color}15`;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "translateY(0)";
+                    e.currentTarget.style.boxShadow = "none";
+                  }}
+                >
+                  <div
+                    style={{
+                      display: "inline-flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      width: "44px",
+                      height: "44px",
+                      borderRadius: "12px",
+                      background: item.bg,
+                      color: item.color,
+                      marginBottom: "0.75rem",
+                    }}
+                  >
+                    {item.icon}
+                  </div>
+                  <h3
+                    style={{
+                      fontSize: "1rem",
+                      fontWeight: 700,
+                      color: "#0b1a2e",
+                      marginBottom: "0.4rem",
+                    }}
+                  >
+                    {item.title}
+                  </h3>
+                  <p
+                    style={{
+                      fontSize: "0.85rem",
+                      color: "#4a5a6e",
+                      lineHeight: 1.6,
+                      margin: 0,
+                    }}
+                  >
+                    {item.desc}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            {/* Refund Process */}
+            <div
+              style={{
+                background: "#ffffff",
+                borderRadius: "20px",
+                padding: "2rem",
+                border: "1px solid #ecf0f7",
+              }}
+            >
+              <h3
+                style={{
+                  fontSize: "1.15rem",
+                  fontWeight: 700,
+                  color: "#0b1a2e",
+                  marginBottom: "1rem",
+                }}
+              >
+                How Refunds Work
+              </h3>
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
+                  gap: "1rem",
+                }}
+              >
+                {[
+                  {
+                    step: "1",
+                    text: "Request cancellation via WhatsApp or call",
+                  },
+                  { step: "2", text: "Get confirmation within 2 hours" },
+                  {
+                    step: "3",
+                    text: "Refund processed within 5-7 business days",
+                  },
+                  {
+                    step: "4",
+                    text: "Amount credited to original payment method",
+                  },
+                ].map((item, idx) => (
+                  <div
+                    key={idx}
+                    style={{
+                      display: "flex",
+                      alignItems: "flex-start",
+                      gap: "0.75rem",
+                      padding: "1rem",
+                      background: "#f9fafc",
+                      borderRadius: "12px",
+                    }}
+                  >
+                    <div
+                      style={{
+                        flexShrink: 0,
+                        width: "32px",
+                        height: "32px",
+                        borderRadius: "50%",
+                        background: "#0052CC",
+                        color: "#fff",
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        fontWeight: 700,
+                        fontSize: "0.85rem",
+                      }}
+                    >
+                      {item.step}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: "0.85rem",
+                        color: "#1a2634",
+                        lineHeight: 1.5,
+                      }}
+                    >
+                      {item.text}
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <p
+                style={{
+                  fontSize: "0.8rem",
+                  color: "#7a8a9e",
+                  marginTop: "1.25rem",
+                  lineHeight: 1.6,
+                }}
+              >
+                <strong>Note:</strong> Cancellation policy may vary during peak
+                seasons and for special event bookings. Please confirm at the
+                time of booking.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ===== FLEET SECTION ===== */}
         <section
           className="section-padding fleet-section"
@@ -4960,6 +5942,197 @@ export default function RouteTemplate({
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== REAL PHOTOS GALLERY ===== */}
+        <section
+          className="photo-gallery-section"
+          style={{ padding: "4rem 0", background: "#ffffff" }}
+        >
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            {/* Header */}
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Camera size={14} /> Real Photos
+              </div>
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Real Photos of Our Force Urbania Fleet
+              </h2>
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                Authentic photos of our vehicles, interiors, and happy customers
+                on the {route.origin} to {route.destination} route.
+              </p>
+            </div>
+
+            {/* Gallery Grid */}
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))",
+                gap: "1rem",
+              }}
+            >
+              {(fleet || []).slice(0, 8).map((model, idx) => (
+                <div
+                  key={idx}
+                  style={{
+                    position: "relative",
+                    borderRadius: "16px",
+                    overflow: "hidden",
+                    aspectRatio: "4 / 3",
+                    background: "#eef3ff",
+                    cursor: "pointer",
+                    transition: "all 0.4s cubic-bezier(0.4, 0, 0.2, 1)",
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = "scale(1.03)";
+                    e.currentTarget.style.boxShadow =
+                      "0 16px 40px rgba(0, 82, 204, 0.18)";
+                    const img = e.currentTarget.querySelector("img");
+                    if (img) img.style.transform = "scale(1.1)";
+                    const overlay =
+                      e.currentTarget.querySelector(".photo-overlay");
+                    if (overlay) overlay.style.opacity = "1";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = "scale(1)";
+                    e.currentTarget.style.boxShadow = "none";
+                    const img = e.currentTarget.querySelector("img");
+                    if (img) img.style.transform = "scale(1)";
+                    const overlay =
+                      e.currentTarget.querySelector(".photo-overlay");
+                    if (overlay) overlay.style.opacity = "0";
+                  }}
+                >
+                  <Image
+                    src={model.image}
+                    alt={`${model.name} - Force Urbania`}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+                    style={{
+                      objectFit: "cover",
+                      transition: "transform 0.5s ease",
+                    }}
+                  />
+                  {/* Overlay */}
+                  <div
+                    className="photo-overlay"
+                    style={{
+                      position: "absolute",
+                      inset: 0,
+                      background:
+                        "linear-gradient(to top, rgba(0,30,80,0.85) 0%, transparent 60%)",
+                      display: "flex",
+                      alignItems: "flex-end",
+                      padding: "1rem",
+                      opacity: 0,
+                      transition: "opacity 0.3s ease",
+                    }}
+                  >
+                    <div>
+                      <div
+                        style={{
+                          color: "#fff",
+                          fontWeight: 700,
+                          fontSize: "0.95rem",
+                          marginBottom: "0.2rem",
+                        }}
+                      >
+                        {model.name}
+                      </div>
+                      <div
+                        style={{
+                          color: "rgba(255,255,255,0.85)",
+                          fontSize: "0.75rem",
+                        }}
+                      >
+                        {model.capacity} · {model.luggageCapacity}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* CTA */}
+            <div
+              style={{
+                marginTop: "2rem",
+                textAlign: "center",
+              }}
+            >
+              <p
+                style={{
+                  fontSize: "0.9rem",
+                  color: "#4a5a6e",
+                  marginBottom: "0.75rem",
+                }}
+              >
+                Want to see more photos or a video of the vehicle before
+                booking?
+              </p>
+              <a
+                href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                  `Request vehicle photos for ${route.origin} to ${route.destination}`,
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  padding: "0.7rem 2rem",
+                  borderRadius: "40px",
+                  background: "#0052CC",
+                  color: "#fff",
+                  fontWeight: 700,
+                  fontSize: "0.9rem",
+                  textDecoration: "none",
+                  cursor: "pointer",
+                }}
+              >
+                <Camera size={16} /> Request More Photos
+              </a>
             </div>
           </div>
         </section>
