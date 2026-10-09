@@ -17,6 +17,7 @@ import {
   Users,
   ArrowRight,
   Luggage,
+  Route,
 } from "lucide-react";
 import { useState } from "react";
 import Image from "next/image";
@@ -90,7 +91,7 @@ export default function LocalityTemplate({
   otherLocalities = [],
   cityHubSlug = null,
 }) {
-  const { city, cityName, description } = locality;
+  const { cityName, description } = locality;
   const whatsappNumber = "919151827941";
   const [openFAQIndex, setOpenFAQIndex] = useState(null);
 
@@ -237,9 +238,13 @@ export default function LocalityTemplate({
                 }}
               >
                 {description} For more options, explore our{" "}
-                <Link href={cityPageUrl} className="transition-all duration-200 hover:underline hover:decoration-white hover:underline-offset-4">
+                <Link
+                  href={cityPageUrl}
+                  className="transition-all duration-200 hover:underline hover:decoration-white hover:underline-offset-4"
+                >
                   {cityName} Urbania Tempo Traveller service
-                </Link>.
+                </Link>
+                .
               </p>
 
               <div
@@ -1113,6 +1118,170 @@ export default function LocalityTemplate({
         `}</style>
       </section>
 
+      {/* ===== LOCAL PICKUP & TRAVEL GUIDE ===== */}
+      <section className="pickup-guide-section">
+        <div className="pickup-guide-container">
+          {/* Section Heading */}
+          <div className="pickup-guide-heading">
+            <span className="pickup-guide-badge">
+              <MapPin size={15} />
+              Local Travel Guide
+            </span>
+
+            <h2>
+              Tempo Traveller Pickup in <span>{locality.locality}</span>,{" "}
+              {locality.cityName}
+            </h2>
+
+            <p>
+              Planning a group journey from {locality.locality}? Arrange a Force
+              Urbania pickup for family trips, corporate travel, weddings and
+              outstation journeys with advance booking and confirmed pickup
+              details.
+            </p>
+          </div>
+
+          {/* Guide Cards */}
+          <div className="pickup-guide-grid">
+            {/* Pickup Arrangements */}
+            <article className="pickup-guide-card">
+              <div className="pickup-guide-icon">
+                <MapPin size={23} />
+              </div>
+
+              <h3>Pickup Arrangements</h3>
+
+              <p>
+                Share your exact pickup address in {locality.locality},{" "}
+                {locality.cityName}, along with your preferred pickup time.
+                Home, hotel and other pickup points can be discussed during
+                booking.
+              </p>
+
+              <h4>Nearby areas</h4>
+
+              <div className="pickup-guide-tags">
+                {(locality.nearbyAreas || []).slice(0, 6).map((area) => (
+                  <span key={area}>{area}</span>
+                ))}
+              </div>
+            </article>
+
+            {/* Trip Types */}
+            <article className="pickup-guide-card">
+              <div className="pickup-guide-icon">
+                <Route size={23} />
+              </div>
+
+              <h3>Plan Your Journey</h3>
+
+              <p>
+                Choose your journey type before requesting a quote. The final
+                fare depends on the destination, total distance, travel dates
+                and trip duration.
+              </p>
+
+              <ul className="pickup-guide-list">
+                <li>
+                  <CheckCircle2 size={17} />
+                  Local and sightseeing trips
+                </li>
+                <li>
+                  <CheckCircle2 size={17} />
+                  One-way outstation journeys
+                </li>
+                <li>
+                  <CheckCircle2 size={17} />
+                  Round trips and multi-day tours
+                </li>
+                <li>
+                  <CheckCircle2 size={17} />
+                  Weddings and group travel
+                </li>
+              </ul>
+            </article>
+
+            {/* Vehicle Selection */}
+            <article className="pickup-guide-card">
+              <div className="pickup-guide-icon">
+                <Users size={23} />
+              </div>
+
+              <h3>Choose the Right Vehicle</h3>
+
+              <p>
+                Select a suitable vehicle according to your passenger count and
+                luggage requirements. Confirm the available seating
+                configuration before booking.
+              </p>
+
+              <div className="pickup-guide-seaters">
+                <span>9 Seater</span>
+                <span>12 Seater</span>
+                <span>16 Seater</span>
+              </div>
+
+              <p className="pickup-guide-note">
+                Seating configurations and availability are subject to
+                confirmation.
+              </p>
+            </article>
+          </div>
+
+          {/* Popular Routes */}
+          {locality.popularRoutes?.length > 0 && (
+            <div className="pickup-guide-routes">
+              <div>
+                <h3>Popular Trips from {locality.locality}</h3>
+                <p>
+                  Ask for a vehicle and fare estimate for your preferred
+                  destination.
+                </p>
+              </div>
+
+              <div className="pickup-guide-route-links">
+                {locality.popularRoutes.slice(0, 6).map((route, index) => (
+                  <a
+                    key={`${route}-${index}`}
+                    href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                      `Hello, I need a Force Urbania fare quote for ${route} from ${placeLabel}. Please share availability, total fare and inclusions.`,
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span>{route}</span>
+                    <ArrowRight size={17} />
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Booking CTA */}
+          <div className="pickup-guide-cta">
+            <div>
+              <h3>Need a pickup from {locality.locality}?</h3>
+              <p>
+                Share your destination, journey date, group size and preferred
+                seater to request a personalised quotation.
+              </p>
+            </div>
+
+            <a
+              href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                `Hello, I want to book a Force Urbania from ${placeLabel}. Please help me with vehicle availability and the fare.`,
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MessageSquare size={18} />
+              Get a Fare Quote
+              <ArrowRight size={17} />
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* ===== POPULAR ROUTES ===== */}
       {locality.popularRoutes?.length > 0 && (
         <section style={{ padding: "3.5rem 0", background: "#f9fafc" }}>
@@ -1829,6 +1998,595 @@ export default function LocalityTemplate({
             }
           }
         `}</style>
+      </section>
+
+      {/* =========================================================
+    LOCAL FARE BREAKDOWN
+========================================================= */}
+      <section
+        style={{
+          padding: "4rem 0",
+          background: "linear-gradient(180deg, #f9fafc 0%, #f1f5fb 100%)",
+        }}
+      >
+        <div
+          style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+        >
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <span
+              style={{
+                display: "inline-block",
+                background: "#eef3ff",
+                color: "#0052CC",
+                padding: "0.45rem 1rem",
+                border: "1px solid #cbdcff",
+                borderRadius: "30px",
+                fontWeight: 700,
+                fontSize: "0.8rem",
+                letterSpacing: "0.5px",
+              }}
+            >
+              FARE TRANSPARENCY
+            </span>
+
+            <h2
+              style={{
+                color: "#0b1a2e",
+                fontSize: "clamp(1.6rem, 4vw, 2.2rem)",
+                margin: "1rem 0 0.7rem",
+                fontWeight: 800,
+                letterSpacing: "-0.5px",
+              }}
+            >
+              Urbania Rental Fare in {locality.locality}
+            </h2>
+
+            <p
+              style={{
+                color: "#4a5a6e",
+                lineHeight: 1.7,
+                maxWidth: "720px",
+                margin: "0 auto",
+                fontSize: "0.98rem",
+              }}
+            >
+              Understand the main cost components before booking a Force Urbania
+              from {placeLabel}. Request a quote based on your actual route,
+              dates and selected vehicle.
+            </p>
+          </div>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(230px, 1fr))",
+              gap: "1.25rem",
+            }}
+          >
+            {[
+              {
+                title: "Vehicle Rental",
+                description:
+                  "The rate depends on the selected Urbania variant and your rental terms.",
+                number: "01",
+              },
+              {
+                title: "Distance & Duration",
+                description:
+                  "The route, total kilometres, travel days and minimum daily kilometres can affect the fare.",
+                number: "02",
+              },
+              {
+                title: "Driver Allowance",
+                description:
+                  "Confirm the applicable driver allowance for your trip before booking.",
+                number: "03",
+              },
+              {
+                title: "Additional Charges",
+                description:
+                  "Check whether tolls, parking, state taxes and night charges apply to your journey.",
+                number: "04",
+              },
+            ].map((item) => (
+              <article
+                key={item.number}
+                style={{
+                  background: "#ffffff",
+                  border: "1px solid #d7e2f2",
+                  borderRadius: "18px",
+                  padding: "1.5rem",
+                  boxShadow: "0 4px 14px rgba(11, 26, 46, 0.05)",
+                  transition:
+                    "transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease",
+                  cursor: "default",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform =
+                    "translateY(-6px) scale(1.02)";
+                  e.currentTarget.style.borderColor = "#0052CC";
+                  e.currentTarget.style.boxShadow =
+                    "0 14px 30px rgba(0, 82, 204, 0.13)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateY(0) scale(1)";
+                  e.currentTarget.style.borderColor = "#d7e2f2";
+                  e.currentTarget.style.boxShadow =
+                    "0 4px 14px rgba(11, 26, 46, 0.05)";
+                }}
+              >
+                <div
+                  style={{
+                    width: "46px",
+                    height: "46px",
+                    display: "grid",
+                    placeItems: "center",
+                    background: "#eef3ff",
+                    color: "#0052CC",
+                    border: "1px solid #d5e2ff",
+                    borderRadius: "13px",
+                    fontWeight: 800,
+                    fontSize: "0.95rem",
+                    marginBottom: "1.1rem",
+                    transition: "transform 0.25s ease",
+                  }}
+                >
+                  {item.number}
+                </div>
+
+                <h3
+                  style={{
+                    color: "#0b1a2e",
+                    fontSize: "1.08rem",
+                    fontWeight: 750,
+                    margin: "0 0 0.65rem",
+                  }}
+                >
+                  {item.title}
+                </h3>
+
+                <p
+                  style={{
+                    color: "#5b6b7e",
+                    fontSize: "0.92rem",
+                    lineHeight: 1.75,
+                    margin: 0,
+                  }}
+                >
+                  {item.description}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <div
+            style={{
+              marginTop: "1.75rem",
+              padding: "1.25rem 1.4rem",
+              background: "#eef3ff",
+              border: "1px solid #cbdcff",
+              borderLeft: "5px solid #0052CC",
+              borderRadius: "14px",
+              color: "#263b5a",
+              lineHeight: 1.75,
+              fontSize: "0.92rem",
+              boxShadow: "0 4px 12px rgba(0, 30, 80, 0.04)",
+            }}
+          >
+            <strong>Before confirming:</strong> Ask for the total estimated
+            fare, included services, extra charges and applicable payment or
+            cancellation terms in writing.
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================
+    HOW TO BOOK IN 3 STEPS
+========================================================= */}
+      <section
+        style={{
+          padding: "4rem 1.5rem",
+          background: "linear-gradient(180deg, #ffffff 0%, #f7faff 100%)",
+        }}
+      >
+        <div style={{ maxWidth: "1280px", margin: "0 auto" }}>
+          <div style={{ textAlign: "center", marginBottom: "2.5rem" }}>
+            <span
+              style={{
+                display: "inline-block",
+                padding: "0.4rem 1rem",
+                background: "#eef3ff",
+                color: "#0052CC",
+                border: "1px solid #cbdcff",
+                borderRadius: "30px",
+                fontSize: "0.8rem",
+                fontWeight: 800,
+                letterSpacing: "0.5px",
+                marginBottom: "0.9rem",
+              }}
+            >
+              SIMPLE BOOKING PROCESS
+            </span>
+
+            <h2
+              style={{
+                color: "#0b1a2e",
+                fontSize: "clamp(1.6rem, 4vw, 2.2rem)",
+                fontWeight: 800,
+                margin: "0 0 0.7rem",
+                letterSpacing: "-0.5px",
+              }}
+            >
+              How to Book an Urbania in {locality.locality}
+            </h2>
+
+            <p
+              style={{
+                color: "#5b6b7e",
+                lineHeight: 1.7,
+                maxWidth: "650px",
+                margin: "0 auto",
+                fontSize: "0.96rem",
+              }}
+            >
+              Three simple steps to request your group travel booking.
+            </p>
+          </div>
+
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))",
+              gap: "1.25rem",
+            }}
+          >
+            {[
+              {
+                number: "1",
+                title: "Share Your Trip Details",
+                description:
+                  "Tell us your pickup location, destination, travel date, return date if applicable, and passenger count.",
+              },
+              {
+                number: "2",
+                title: "Confirm Vehicle & Fare",
+                description:
+                  "Discuss the suitable seater, vehicle availability, estimated distance, total fare and extra charges.",
+              },
+              {
+                number: "3",
+                title: "Confirm Your Booking",
+                description:
+                  "Review the booking terms and payment instructions, then get confirmation of your vehicle and pickup details.",
+              },
+            ].map((step) => (
+              <article
+                key={step.number}
+                style={{
+                  padding: "1.7rem",
+                  border: "1px solid #d7e2f2",
+                  borderRadius: "20px",
+                  background: "#ffffff",
+                  boxShadow: "0 5px 16px rgba(11, 26, 46, 0.05)",
+                  transition:
+                    "transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease",
+                  cursor: "default",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform =
+                    "translateY(-7px) scale(1.02)";
+                  e.currentTarget.style.borderColor = "#0052CC";
+                  e.currentTarget.style.boxShadow =
+                    "0 15px 32px rgba(0, 82, 204, 0.13)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = "translateY(0) scale(1)";
+                  e.currentTarget.style.borderColor = "#d7e2f2";
+                  e.currentTarget.style.boxShadow =
+                    "0 5px 16px rgba(11, 26, 46, 0.05)";
+                }}
+              >
+                <div
+                  style={{
+                    width: "50px",
+                    height: "50px",
+                    borderRadius: "15px",
+                    background: "linear-gradient(135deg, #0052CC, #3385FF)",
+                    color: "#ffffff",
+                    border: "1px solid #0052CC",
+                    display: "grid",
+                    placeItems: "center",
+                    fontSize: "1.2rem",
+                    fontWeight: 800,
+                    marginBottom: "1.2rem",
+                    boxShadow: "0 5px 12px rgba(0, 82, 204, 0.2)",
+                    transition: "transform 0.25s ease",
+                  }}
+                >
+                  {step.number}
+                </div>
+
+                <h3
+                  style={{
+                    color: "#0b1a2e",
+                    fontSize: "1.08rem",
+                    fontWeight: 750,
+                    margin: "0 0 0.7rem",
+                  }}
+                >
+                  {step.title}
+                </h3>
+
+                <p
+                  style={{
+                    color: "#5b6b7e",
+                    fontSize: "0.92rem",
+                    lineHeight: 1.75,
+                    margin: 0,
+                  }}
+                >
+                  {step.description}
+                </p>
+              </article>
+            ))}
+          </div>
+
+          <div style={{ textAlign: "center", marginTop: "2.25rem" }}>
+            <a
+              href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                `Hello, I want to book a Force Urbania from ${placeLabel}. Please share availability, total fare and booking terms.`,
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.6rem",
+                padding: "0.95rem 1.7rem",
+                background: "#25D366",
+                color: "#ffffff",
+                textDecoration: "none",
+                border: "1px solid #1db954",
+                borderRadius: "50px",
+                fontWeight: 750,
+                fontSize: "0.95rem",
+                boxShadow: "0 5px 15px rgba(37, 211, 102, 0.2)",
+                transition:
+                  "transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform =
+                  "translateY(-3px) scale(1.03)";
+                e.currentTarget.style.boxShadow =
+                  "0 10px 24px rgba(37, 211, 102, 0.3)";
+                e.currentTarget.style.background = "#1fbd5a";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0) scale(1)";
+                e.currentTarget.style.boxShadow =
+                  "0 5px 15px rgba(37, 211, 102, 0.2)";
+                e.currentTarget.style.background = "#25D366";
+              }}
+            >
+              <MessageSquare size={18} />
+              Enquire on WhatsApp
+              <ArrowRight size={17} />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* =========================================================
+    TRIP REQUIREMENTS CHECKLIST
+========================================================= */}
+      <section
+        style={{
+          padding: "4rem 1.5rem",
+          background: "linear-gradient(180deg, #f9fafc 0%, #f1f5fb 100%)",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "1280px",
+            margin: "0 auto",
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gap: "2rem",
+            alignItems: "center",
+          }}
+        >
+          {/* LEFT CONTENT */}
+          <div>
+            <span
+              style={{
+                display: "inline-block",
+                color: "#0052CC",
+                background: "#eef3ff",
+                border: "1px solid #cbdcff",
+                borderRadius: "30px",
+                padding: "0.4rem 0.9rem",
+                fontWeight: 800,
+                fontSize: "0.8rem",
+                letterSpacing: "0.5px",
+              }}
+            >
+              PLAN YOUR JOURNEY
+            </span>
+
+            <h2
+              style={{
+                color: "#0b1a2e",
+                fontSize: "clamp(1.6rem, 4vw, 2.1rem)",
+                fontWeight: 800,
+                lineHeight: 1.3,
+                margin: "1rem 0 0.8rem",
+              }}
+            >
+              What to Keep Ready Before Booking
+            </h2>
+
+            <p
+              style={{
+                color: "#5b6b7e",
+                lineHeight: 1.8,
+                fontSize: "0.96rem",
+                margin: "0 0 1rem",
+              }}
+            >
+              For a more accurate quote from {placeLabel}, share these trip
+              details with the booking team.
+            </p>
+
+            <a
+              href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                `Hello, I need an Urbania booking quote from ${placeLabel}. Please help me with vehicle options, fare and availability.`,
+              )}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                justifyContent: "center",
+                gap: "0.6rem",
+                padding: "0.9rem 1.4rem",
+                background: "#0052CC",
+                color: "#ffffff",
+                border: "1px solid #0045ad",
+                textDecoration: "none",
+                borderRadius: "12px",
+                fontWeight: 750,
+                marginTop: "0.5rem",
+                boxShadow: "0 5px 14px rgba(0, 82, 204, 0.18)",
+                transition:
+                  "transform 0.25s ease, box-shadow 0.25s ease, background 0.25s ease",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform =
+                  "translateY(-3px) scale(1.03)";
+                e.currentTarget.style.background = "#0045ad";
+                e.currentTarget.style.boxShadow =
+                  "0 10px 22px rgba(0, 82, 204, 0.27)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "translateY(0) scale(1)";
+                e.currentTarget.style.background = "#0052CC";
+                e.currentTarget.style.boxShadow =
+                  "0 5px 14px rgba(0, 82, 204, 0.18)";
+              }}
+            >
+              <MessageSquare size={18} />
+              Request a Quote
+              <ArrowRight size={17} />
+            </a>
+          </div>
+
+          {/* RIGHT CHECKLIST CARD */}
+          <div
+            style={{
+              background: "#ffffff",
+              border: "1px solid #d7e2f2",
+              borderRadius: "20px",
+              padding: "1.5rem",
+              boxShadow: "0 6px 20px rgba(11, 26, 46, 0.06)",
+              transition:
+                "transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-5px) scale(1.01)";
+              e.currentTarget.style.borderColor = "#0052CC";
+              e.currentTarget.style.boxShadow =
+                "0 14px 30px rgba(0, 82, 204, 0.12)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0) scale(1)";
+              e.currentTarget.style.borderColor = "#d7e2f2";
+              e.currentTarget.style.boxShadow =
+                "0 6px 20px rgba(11, 26, 46, 0.06)";
+            }}
+          >
+            <h3
+              style={{
+                color: "#0b1a2e",
+                fontSize: "1.1rem",
+                fontWeight: 800,
+                margin: "0 0 0.5rem",
+              }}
+            >
+              Your Booking Checklist
+            </h3>
+
+            <p
+              style={{
+                color: "#7a8a9e",
+                fontSize: "0.85rem",
+                lineHeight: 1.6,
+                margin: "0 0 0.8rem",
+              }}
+            >
+              Keep these details ready for a smoother enquiry.
+            </p>
+
+            {[
+              "Exact pickup address in " + placeLabel,
+              "Destination and planned stops",
+              "Travel date and pickup time",
+              "Return date or total trip duration",
+              "Number of passengers and luggage",
+              "Preferred 9, 12 or 16-seater option",
+            ].map((item, index, items) => (
+              <div
+                key={item}
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "0.75rem",
+                  padding: "0.9rem 0.65rem",
+                  margin: "0 -0.65rem",
+                  borderBottom:
+                    index === items.length - 1 ? "none" : "1px solid #edf1f7",
+                  borderRadius: "8px",
+                  color: "#263b5a",
+                  fontSize: "0.92rem",
+                  lineHeight: 1.6,
+                  transition: "background 0.2s ease, transform 0.2s ease",
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "#f4f7ff";
+                  e.currentTarget.style.transform = "translateX(3px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "transparent";
+                  e.currentTarget.style.transform = "translateX(0)";
+                }}
+              >
+                <CheckCircle2
+                  size={19}
+                  color="#0052CC"
+                  style={{ flexShrink: 0, marginTop: "2px" }}
+                />
+                <span>{item}</span>
+              </div>
+            ))}
+
+            <div
+              style={{
+                marginTop: "0.9rem",
+                padding: "0.9rem 1rem",
+                background: "#eef3ff",
+                border: "1px solid #d5e2ff",
+                borderLeft: "4px solid #0052CC",
+                borderRadius: "10px",
+                color: "#405675",
+                fontSize: "0.82rem",
+                lineHeight: 1.7,
+              }}
+            >
+              <strong style={{ color: "#0b1a2e" }}>Booking tip:</strong> Confirm
+              availability and final charges before making payment.
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* ===== FAQ ===== */}
