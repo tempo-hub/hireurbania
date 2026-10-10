@@ -90,13 +90,26 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 
 // ========== SEO COMPONENT ==========
 function CitySeo({ city, faqs = [], fleet = [] }) {
-  // ✅ SEO FIX #1: Title ≤60 chars with "on Rent", price, and seater range
-  const title = `Urbania on Rent in ${city.name} | 9-17 Seater @₹30/km`;
+  const fleetSeaters =
+    fleet.length > 0
+      ? [...new Set(fleet.map((f) => f.seater))].sort((a, b) => a - b)
+      : [9, 12, 16];
+  const seaterRange =
+    fleetSeaters.length > 1
+      ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
+      : `${fleetSeaters[0]}`;
+  const seaterList =
+    fleetSeaters.length > 1
+      ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
+      : `${fleetSeaters[0]}`;
+
+  // SEO FIX #1: Title ≤60 chars with "on Rent", price, and seater range
+  const title = `Urbania on Rent in ${city.name} | ${seaterRange} Seater @₹30/km`;
 
   // SEO FIX #2: Meta description ~150 chars with rent, price, seater, WhatsApp CTA
   const description =
     city.metaDescription ||
-    `Force Urbania tempo traveller on rent in ${city.name} from ₹30/km. 9, 12, 16 & 17 seater with driver, doorstep pickup. Book on WhatsApp.`;
+    `Force Urbania tempo traveller on rent in ${city.name} from ₹30/km. ${seaterList} seater with driver, doorstep pickup. Book on WhatsApp.`;
 
   // SEO FIX #11: Build FAQPage schema from actual FAQs
   const faqSchema =
@@ -554,7 +567,10 @@ export default function CityTemplate({
     fleetSeaters.length > 1
       ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
       : `${fleetSeaters[0]}`;
-  const seaterList = fleetSeaters.join(", ");
+  const seaterList =
+    fleetSeaters.length > 1
+      ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
+      : `${fleetSeaters[0]}`;
 
   // SEO FIX #12: City-specific pickup points
   const cityPickupPoints = city.pickupPoints || [
@@ -594,10 +610,7 @@ export default function CityTemplate({
       q: `Which Force Urbania seating options are available in ${city.name}?`,
       a: `We provide comfortable Force Urbania Tempo Travellers in ${seaterList} seater configurations in ${city.name}. All vehicles come with push-back seats, AC, and spacious luggage area. Availability is subject to your travel dates and route.`,
     },
-    {
-      q: `Is a 17 seater Urbania available for rent in ${city.name}?`,
-      a: `Yes, 17 seater Force Urbania is available in ${city.name} subject to availability. Please share your travel dates and group size on WhatsApp to confirm availability and get the best rate.`,
-    },
+
     {
       q: `How to do Urbania booking near me in ${city.name}?`,
       a: `To book an Urbania near you in ${city.name}, simply WhatsApp us your pickup location, destination, travel dates, and group size. We offer doorstep pickup from ${cityPickupPoints.slice(0, 3).join(", ")} and other locations across ${city.name}. Our team will share availability and fare within 2 minutes.`,
@@ -1066,6 +1079,280 @@ export default function CityTemplate({
                   ⚡ Response within 2 minutes
                 </p>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== OUR FLEET SECTION ===== */}
+        <section
+          className="section-padding fleet-section"
+          style={{ padding: "4rem 0", background: "#f9fafc" }}
+        >
+          <div
+            className="container"
+            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+          >
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Award size={14} /> Our Fleet
+              </div>
+              {/* ✅ SEO FIX #3: H2 uses "on Rent" */}
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Urbania on Rent in {city.name} – Our Fleet
+              </h2>
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                Choose the vehicle that fits your group and luggage.
+              </p>
+            </div>
+
+            <div
+              className="fleet-grid"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                gap: "2rem",
+              }}
+            >
+              {fleet.map((model) => (
+                <div
+                  key={model.id}
+                  className="fleet-card"
+                  style={{
+                    background: "#fff",
+                    borderRadius: "24px",
+                    overflow: "hidden",
+                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
+                    transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
+                    border: "1px solid #f0f4fe",
+                    cursor: "pointer",
+                    position: "relative",
+                  }}
+                >
+                  <div
+                    className="fleet-img-wrapper"
+                    style={{
+                      position: "relative",
+                      height: "220px",
+                      background: "#eef3ff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <Image
+                      src={model.image}
+                      // ✅ SEO FIX #9: Descriptive alt text with city
+                      alt={`Force Urbania ${model.seater} seater on rent in ${city.name}`}
+                      width={400}
+                      height={220}
+                      className="fleet-img"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        transition: "transform 0.5s ease",
+                      }}
+                    />
+                    <span
+                      className="fleet-badge"
+                      style={{
+                        position: "absolute",
+                        top: "12px",
+                        right: "12px",
+                        background: "#0052CC",
+                        color: "#fff",
+                        padding: "0.25rem 1rem",
+                        borderRadius: "40px",
+                        fontWeight: 600,
+                        fontSize: "0.8rem",
+                        zIndex: 2,
+                        transition: "transform 0.3s ease",
+                      }}
+                    >
+                      {model.capacity}
+                    </span>
+                    <div
+                      style={{
+                        position: "absolute",
+                        bottom: "12px",
+                        left: "12px",
+                        background: "rgba(0,0,0,0.7)",
+                        backdropFilter: "blur(8px)",
+                        color: "#FFB800",
+                        padding: "0.2rem 0.8rem",
+                        borderRadius: "20px",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.3rem",
+                        zIndex: 2,
+                      }}
+                    >
+                      <Star size={14} fill="#FFB800" /> 4.9
+                    </div>
+                  </div>
+
+                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
+                    <h3
+                      className="fleet-title"
+                      style={{
+                        fontSize: "1.25rem",
+                        fontWeight: 700,
+                        marginBottom: "0.2rem",
+                        transition: "color 0.3s ease",
+                      }}
+                    >
+                      {model.name}
+                    </h3>
+                    <p
+                      className="fleet-tagline"
+                      style={{
+                        color: "#4a5a6e",
+                        fontSize: "0.85rem",
+                        marginBottom: "0.75rem",
+                        minHeight: "40px",
+                        transition: "color 0.3s ease",
+                      }}
+                    >
+                      {model.tagline}
+                    </p>
+
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "1rem",
+                        flexWrap: "wrap",
+                        marginBottom: "0.75rem",
+                        padding: "0.5rem 0",
+                        borderTop: "1px solid #f0f4fe",
+                        borderBottom: "1px solid #f0f4fe",
+                      }}
+                    >
+                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
+                        <Users
+                          size={14}
+                          style={{ display: "inline", marginRight: "0.2rem" }}
+                        />
+                        {model.seater} Seats
+                      </span>
+                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
+                        <Luggage
+                          size={14}
+                          style={{ display: "inline", marginRight: "0.2rem" }}
+                        />
+                        {model.luggageCapacity}
+                      </span>
+                    </div>
+
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      <div>
+                        <span style={{ fontSize: "0.75rem", color: "#7a8a9e" }}>
+                          Starting from
+                        </span>
+                        <p
+                          style={{
+                            fontSize: "1.3rem",
+                            fontWeight: 700,
+                            color: "#0b1a2e",
+                            margin: 0,
+                          }}
+                        >
+                          {formatCurrency(model.ratePerKm)}
+                          <span
+                            style={{
+                              fontSize: "0.9rem",
+                              fontWeight: 400,
+                              color: "#7a8a9e",
+                            }}
+                          >
+                            /km
+                          </span>
+                        </p>
+                      </div>
+                      <span
+                        style={{
+                          fontSize: "0.7rem",
+                          color: "#7a8a9e",
+                          background: "#f0f4fe",
+                          padding: "0.2rem 0.8rem",
+                          borderRadius: "20px",
+                        }}
+                      >
+                        {model.minKmPerDay}+ km/day
+                      </span>
+                    </div>
+
+                    <a
+                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                        `Book ${model.name} on rent in ${city.name}`,
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="book-button"
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: "0.5rem",
+                        width: "100%",
+                        padding: "0.7rem 1.5rem",
+                        borderRadius: "40px",
+                        background: "#0052CC",
+                        color: "#fff",
+                        fontWeight: 600,
+                        fontSize: "0.9rem",
+                        textDecoration: "none",
+                        transition: "all 0.3s ease",
+                        border: "none",
+                        marginTop: "0.5rem",
+                        cursor: "pointer",
+                      }}
+                    >
+                      <MessageSquare size={16} /> Book This Vehicle
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -1652,280 +1939,6 @@ export default function CityTemplate({
               }
             }
           `}</style>
-        </section>
-
-        {/* ===== OUR FLEET SECTION ===== */}
-        <section
-          className="section-padding fleet-section"
-          style={{ padding: "4rem 0", background: "#f9fafc" }}
-        >
-          <div
-            className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Award size={14} /> Our Fleet
-              </div>
-              {/* ✅ SEO FIX #3: H2 uses "on Rent" */}
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                Urbania on Rent in {city.name} – Our Fleet
-              </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
-                Choose the vehicle that fits your group and luggage.
-              </p>
-            </div>
-
-            <div
-              className="fleet-grid"
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              {fleet.map((model) => (
-                <div
-                  key={model.id}
-                  className="fleet-card"
-                  style={{
-                    background: "#fff",
-                    borderRadius: "24px",
-                    overflow: "hidden",
-                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
-                    transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
-                    border: "1px solid #f0f4fe",
-                    cursor: "pointer",
-                    position: "relative",
-                  }}
-                >
-                  <div
-                    className="fleet-img-wrapper"
-                    style={{
-                      position: "relative",
-                      height: "220px",
-                      background: "#eef3ff",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={model.image}
-                      // ✅ SEO FIX #9: Descriptive alt text with city
-                      alt={`Force Urbania ${model.seater} seater on rent in ${city.name}`}
-                      width={400}
-                      height={220}
-                      className="fleet-img"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        transition: "transform 0.5s ease",
-                      }}
-                    />
-                    <span
-                      className="fleet-badge"
-                      style={{
-                        position: "absolute",
-                        top: "12px",
-                        right: "12px",
-                        background: "#0052CC",
-                        color: "#fff",
-                        padding: "0.25rem 1rem",
-                        borderRadius: "40px",
-                        fontWeight: 600,
-                        fontSize: "0.8rem",
-                        zIndex: 2,
-                        transition: "transform 0.3s ease",
-                      }}
-                    >
-                      {model.capacity}
-                    </span>
-                    <div
-                      style={{
-                        position: "absolute",
-                        bottom: "12px",
-                        left: "12px",
-                        background: "rgba(0,0,0,0.7)",
-                        backdropFilter: "blur(8px)",
-                        color: "#FFB800",
-                        padding: "0.2rem 0.8rem",
-                        borderRadius: "20px",
-                        fontSize: "0.75rem",
-                        fontWeight: 600,
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.3rem",
-                        zIndex: 2,
-                      }}
-                    >
-                      <Star size={14} fill="#FFB800" /> 4.9
-                    </div>
-                  </div>
-
-                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
-                    <h3
-                      className="fleet-title"
-                      style={{
-                        fontSize: "1.25rem",
-                        fontWeight: 700,
-                        marginBottom: "0.2rem",
-                        transition: "color 0.3s ease",
-                      }}
-                    >
-                      {model.name}
-                    </h3>
-                    <p
-                      className="fleet-tagline"
-                      style={{
-                        color: "#4a5a6e",
-                        fontSize: "0.85rem",
-                        marginBottom: "0.75rem",
-                        minHeight: "40px",
-                        transition: "color 0.3s ease",
-                      }}
-                    >
-                      {model.tagline}
-                    </p>
-
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "1rem",
-                        flexWrap: "wrap",
-                        marginBottom: "0.75rem",
-                        padding: "0.5rem 0",
-                        borderTop: "1px solid #f0f4fe",
-                        borderBottom: "1px solid #f0f4fe",
-                      }}
-                    >
-                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
-                        <Users
-                          size={14}
-                          style={{ display: "inline", marginRight: "0.2rem" }}
-                        />
-                        {model.seater} Seats
-                      </span>
-                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
-                        <Luggage
-                          size={14}
-                          style={{ display: "inline", marginRight: "0.2rem" }}
-                        />
-                        {model.luggageCapacity}
-                      </span>
-                    </div>
-
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      <div>
-                        <span style={{ fontSize: "0.75rem", color: "#7a8a9e" }}>
-                          Starting from
-                        </span>
-                        <p
-                          style={{
-                            fontSize: "1.3rem",
-                            fontWeight: 700,
-                            color: "#0b1a2e",
-                            margin: 0,
-                          }}
-                        >
-                          {formatCurrency(model.ratePerKm)}
-                          <span
-                            style={{
-                              fontSize: "0.9rem",
-                              fontWeight: 400,
-                              color: "#7a8a9e",
-                            }}
-                          >
-                            /km
-                          </span>
-                        </p>
-                      </div>
-                      <span
-                        style={{
-                          fontSize: "0.7rem",
-                          color: "#7a8a9e",
-                          background: "#f0f4fe",
-                          padding: "0.2rem 0.8rem",
-                          borderRadius: "20px",
-                        }}
-                      >
-                        {model.minKmPerDay}+ km/day
-                      </span>
-                    </div>
-
-                    <a
-                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                        `Book ${model.name} on rent in ${city.name}`,
-                      )}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="book-button"
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gap: "0.5rem",
-                        width: "100%",
-                        padding: "0.7rem 1.5rem",
-                        borderRadius: "40px",
-                        background: "#0052CC",
-                        color: "#fff",
-                        fontWeight: 600,
-                        fontSize: "0.9rem",
-                        textDecoration: "none",
-                        transition: "all 0.3s ease",
-                        border: "none",
-                        marginTop: "0.5rem",
-                        cursor: "pointer",
-                      }}
-                    >
-                      <MessageSquare size={16} /> Book This Vehicle
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
         </section>
 
         {/* Urbania vs Tempo Traveller Comparison */}
@@ -2619,6 +2632,38 @@ export default function CityTemplate({
           </div>
         </section>
 
+        {/* ===== LOCAL SERVICE AREA SECTION ===== */}
+        <section className="section-padding" style={{ padding: "4rem 0", background: "#f0f4ff" }}>
+          <div className="container" style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}>
+            <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto" }}>
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#dde8ff",
+                  color: "#0052CC",
+                  padding: "0.3rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.85rem",
+                  fontWeight: 600,
+                  marginBottom: "1rem",
+                }}
+              >
+                <MapPin size={16} /> Near Me
+              </div>
+              <h2 style={{ fontSize: "2rem", fontWeight: 700, color: "#0b1a2e", marginBottom: "1rem" }}>
+                Urbania Rentals Across {city.name}
+              </h2>
+              <p style={{ fontSize: "1.05rem", color: "#4a5a6e", lineHeight: "1.6" }}>
+                <strong>Service Areas:</strong> We proudly serve all major neighborhoods including {(city.serviceAreas || [`${city.name} Center`, `${city.name} Suburbs`]).join(", ")}. 
+                <br /><br />
+                <strong>Pickup Points:</strong> Fast doorstep pickup available from {cityPickupPoints.join(", ")}.
+              </p>
+            </div>
+          </div>
+        </section>
+
         {/* ===== CUSTOMER REVIEWS SECTION ===== */}
         <section
           className="section-padding"
@@ -2805,6 +2850,58 @@ export default function CityTemplate({
                       </div>
                     </div>
                   </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
+        {/* ===== GALLERY SECTION ===== */}
+        <section
+          className="section-padding gallery-section"
+          style={{ padding: "4rem 0", background: "#f9fafc" }}
+        >
+          <div className="container" style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}>
+            <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 3rem" }}>
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Star size={14} /> Gallery
+              </div>
+              <h2 style={{ fontSize: "2.3rem", fontWeight: 700, margin: "0.5rem 0 0.75rem", color: "#0b1a2e" }}>
+                Force Urbania Gallery in {city.name}
+              </h2>
+              <p style={{ fontSize: "1.05rem", color: "#4a5a6e", lineHeight: "1.6" }}>
+                Explore the premium interiors and exteriors of our Force Urbania fleet available for rent in {city.name}.
+              </p>
+            </div>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                gap: "1.5rem",
+              }}
+            >
+              {[
+                { src: "/images/images/Force-Urbania-9-Seater.png", alt: `Force Urbania 9 seater exterior in ${city.name}` },
+                { src: "/images/images/Force-Urbania-12-Seater.png", alt: `Force Urbania 12 seater side view in ${city.name}` },
+                { src: "/images/images/Force-Urbania-16-Seater.png", alt: `Force Urbeniya 16 seater on rent in ${city.name}` },
+                { src: "/images/images/interior.png", alt: `Premium Force Urbania interior with pushback seats in ${city.name}` },
+                { src: "/images/images/hero.png", alt: `Force Urbania tempo traveller fleet ready for dispatch in ${city.name}` },
+                { src: "/images/images/fleet.png", alt: `Force Urbania vehicles available for group travel in ${city.name}` },
+              ].map((img, index) => (
+                <div key={index} style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 8px 24px rgba(0,20,50,0.06)", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", padding: "1rem" }}>
+                  <Image src={img.src} alt={img.alt} width={600} height={400} style={{ width: "100%", height: "auto", objectFit: "contain" }} />
                 </div>
               ))}
             </div>

@@ -700,6 +700,288 @@ export default function RouteTemplate({
           </div>
         </section>
 
+        {/* ===== FLEET SECTION ===== */}
+        <section
+          className="section-padding fleet-section"
+          style={{ padding: "4rem 0", background: "#f9fafc" }}
+        >
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
+              <div
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  gap: "0.5rem",
+                  background: "#eef3ff",
+                  color: "#0052CC",
+                  padding: "0.25rem 1.2rem",
+                  borderRadius: "40px",
+                  fontSize: "0.8rem",
+                  fontWeight: 600,
+                }}
+              >
+                <Award size={14} /> Transparent Pricing
+              </div>
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
+                Urbania Fleet in {city.name}
+              </h2>
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                Choose the vehicle that fits your group and luggage.
+              </p>
+            </div>
+
+            <div
+              className="fleet-grid"
+              style={{
+                display: "grid",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                gap: "2rem",
+              }}
+            >
+              {fleet.map((model) => (
+                <div
+                  key={model.id}
+                  className="fleet-card"
+                  style={{
+                    background: "#fff",
+                    borderRadius: "24px",
+                    overflow: "hidden",
+                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
+                    transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
+                    border: "1px solid #f0f4fe",
+                    cursor: "pointer",
+                    position: "relative",
+                  }}
+                >
+                  {/* Card Image */}
+                  <div
+                    className="fleet-image-wrapper"
+                    style={{
+                      position: "relative",
+                      height: "220px",
+                      background: "#eef3ff",
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                      overflow: "hidden",
+                    }}
+                  >
+                    <Image
+                      src={model.image}
+                      alt={model.name}
+                      width={400}
+                      height={220}
+                      className="fleet-image"
+                      style={{
+                        width: "100%",
+                        height: "100%",
+                        objectFit: "cover",
+                        transition: "transform 0.5s ease",
+                      }}
+                    />
+                    <span
+                      className="fleet-badge"
+                      style={{
+                        position: "absolute",
+                        top: "12px",
+                        right: "12px",
+                        background: "#0052CC",
+                        color: "#fff",
+                        padding: "0.25rem 1rem",
+                        borderRadius: "40px",
+                        fontWeight: 600,
+                        fontSize: "0.8rem",
+                        zIndex: 2,
+                        transition: "transform 0.3s ease",
+                      }}
+                    >
+                      {model.capacity}
+                    </span>
+                    {/* Rating Badge */}
+                    <div
+                      style={{
+                        position: "absolute",
+                        bottom: "12px",
+                        left: "12px",
+                        background: "rgba(0,0,0,0.7)",
+                        backdropFilter: "blur(8px)",
+                        color: "#FFB800",
+                        padding: "0.2rem 0.8rem",
+                        borderRadius: "20px",
+                        fontSize: "0.75rem",
+                        fontWeight: 600,
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.3rem",
+                        zIndex: 2,
+                      }}
+                    >
+                      <Star size={14} fill="#FFB800" /> 4.9
+                    </div>
+                  </div>
+
+                  {/* Card Body */}
+                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
+                    <h3
+                      className="fleet-title"
+                      style={{
+                        fontSize: "1.25rem",
+                        fontWeight: 700,
+                        marginBottom: "0.2rem",
+                        transition: "color 0.3s ease",
+                      }}
+                    >
+                      {model.name}
+                    </h3>
+                    <p
+                      className="fleet-tagline"
+                      style={{
+                        color: "#4a5a6e",
+                        fontSize: "0.85rem",
+                        marginBottom: "0.75rem",
+                        minHeight: "40px",
+                        transition: "color 0.3s ease",
+                      }}
+                    >
+                      {model.tagline}
+                    </p>
+
+                    {/* Key Specs */}
+                    <div
+                      style={{
+                        display: "flex",
+                        gap: "1rem",
+                        flexWrap: "wrap",
+                        marginBottom: "0.75rem",
+                        padding: "0.5rem 0",
+                        borderTop: "1px solid #f0f4fe",
+                        borderBottom: "1px solid #f0f4fe",
+                      }}
+                    >
+                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
+                        <Users
+                          size={14}
+                          style={{ display: "inline", marginRight: "0.2rem" }}
+                        />
+                        {model.seater} Seats
+                      </span>
+                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
+                        <Luggage
+                          size={14}
+                          style={{ display: "inline", marginRight: "0.2rem" }}
+                        />
+                        {model.luggageCapacity}
+                      </span>
+                    </div>
+
+                    {/* Pricing */}
+                    <div
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        justifyContent: "space-between",
+                        marginBottom: "0.5rem",
+                      }}
+                    >
+                      <div>
+                        <span style={{ fontSize: "0.75rem", color: "#7a8a9e" }}>
+                          Starting from
+                        </span>
+                        <p
+                          style={{
+                            fontSize: "1.3rem",
+                            fontWeight: 700,
+                            color: "#0b1a2e",
+                            margin: 0,
+                          }}
+                        >
+                          {formatCurrency(model.ratePerKm)}
+                          <span
+                            style={{
+                              fontSize: "0.9rem",
+                              fontWeight: 400,
+                              color: "#7a8a9e",
+                            }}
+                          >
+                            /km
+                          </span>
+                        </p>
+                      </div>
+                      <span
+                        style={{
+                          fontSize: "0.7rem",
+                          color: "#7a8a9e",
+                          background: "#f0f4fe",
+                          padding: "0.2rem 0.8rem",
+                          borderRadius: "20px",
+                        }}
+                      >
+                        {model.minKmPerDay}+ km/day
+                      </span>
+                    </div>
+
+                    {/* Book Button */}
+                    <a
+                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
+                        `Book ${model.name} in ${city.name}`,
+                      )}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="book-button"
+                      style={{
+                        display: "inline-flex",
+                        alignItems: "center",
+                        justifyContent: "center",
+                        gap: "0.5rem",
+                        width: "100%",
+                        padding: "0.7rem 1.5rem",
+                        borderRadius: "40px",
+                        background: "#0052CC",
+                        color: "#fff",
+                        fontWeight: 600,
+                        fontSize: "0.9rem",
+                        textDecoration: "none",
+                        transition: "all 0.3s ease",
+                        border: "none",
+                        marginTop: "0.5rem",
+                        cursor: "pointer",
+                      }}
+                    >
+                      <MessageSquare size={16} /> Book This Vehicle
+                    </a>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* ===== ROUTE HIGHLIGHTS ===== */}
         <section
           className="route-highlights-section"
@@ -5660,288 +5942,6 @@ export default function RouteTemplate({
                 seasons and for special event bookings. Please confirm at the
                 time of booking.
               </p>
-            </div>
-          </div>
-        </section>
-
-        {/* ===== FLEET SECTION ===== */}
-        <section
-          className="section-padding fleet-section"
-          style={{ padding: "4rem 0", background: "#f9fafc" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Award size={14} /> Transparent Pricing
-              </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                Urbania Fleet in {city.name}
-              </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
-                Choose the vehicle that fits your group and luggage.
-              </p>
-            </div>
-
-            <div
-              className="fleet-grid"
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              {fleet.map((model) => (
-                <div
-                  key={model.id}
-                  className="fleet-card"
-                  style={{
-                    background: "#fff",
-                    borderRadius: "24px",
-                    overflow: "hidden",
-                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
-                    transition: "all 0.35s cubic-bezier(0.4, 0, 0.2, 1)",
-                    border: "1px solid #f0f4fe",
-                    cursor: "pointer",
-                    position: "relative",
-                  }}
-                >
-                  {/* Card Image */}
-                  <div
-                    className="fleet-image-wrapper"
-                    style={{
-                      position: "relative",
-                      height: "220px",
-                      background: "#eef3ff",
-                      display: "flex",
-                      alignItems: "center",
-                      justifyContent: "center",
-                      overflow: "hidden",
-                    }}
-                  >
-                    <Image
-                      src={model.image}
-                      alt={model.name}
-                      width={400}
-                      height={220}
-                      className="fleet-image"
-                      style={{
-                        width: "100%",
-                        height: "100%",
-                        objectFit: "cover",
-                        transition: "transform 0.5s ease",
-                      }}
-                    />
-                    <span
-                      className="fleet-badge"
-                      style={{
-                        position: "absolute",
-                        top: "12px",
-                        right: "12px",
-                        background: "#0052CC",
-                        color: "#fff",
-                        padding: "0.25rem 1rem",
-                        borderRadius: "40px",
-                        fontWeight: 600,
-                        fontSize: "0.8rem",
-                        zIndex: 2,
-                        transition: "transform 0.3s ease",
-                      }}
-                    >
-                      {model.capacity}
-                    </span>
-                    {/* Rating Badge */}
-                    <div
-                      style={{
-                        position: "absolute",
-                        bottom: "12px",
-                        left: "12px",
-                        background: "rgba(0,0,0,0.7)",
-                        backdropFilter: "blur(8px)",
-                        color: "#FFB800",
-                        padding: "0.2rem 0.8rem",
-                        borderRadius: "20px",
-                        fontSize: "0.75rem",
-                        fontWeight: 600,
-                        display: "flex",
-                        alignItems: "center",
-                        gap: "0.3rem",
-                        zIndex: 2,
-                      }}
-                    >
-                      <Star size={14} fill="#FFB800" /> 4.9
-                    </div>
-                  </div>
-
-                  {/* Card Body */}
-                  <div style={{ padding: "1.5rem 1.2rem 1.8rem" }}>
-                    <h3
-                      className="fleet-title"
-                      style={{
-                        fontSize: "1.25rem",
-                        fontWeight: 700,
-                        marginBottom: "0.2rem",
-                        transition: "color 0.3s ease",
-                      }}
-                    >
-                      {model.name}
-                    </h3>
-                    <p
-                      className="fleet-tagline"
-                      style={{
-                        color: "#4a5a6e",
-                        fontSize: "0.85rem",
-                        marginBottom: "0.75rem",
-                        minHeight: "40px",
-                        transition: "color 0.3s ease",
-                      }}
-                    >
-                      {model.tagline}
-                    </p>
-
-                    {/* Key Specs */}
-                    <div
-                      style={{
-                        display: "flex",
-                        gap: "1rem",
-                        flexWrap: "wrap",
-                        marginBottom: "0.75rem",
-                        padding: "0.5rem 0",
-                        borderTop: "1px solid #f0f4fe",
-                        borderBottom: "1px solid #f0f4fe",
-                      }}
-                    >
-                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
-                        <Users
-                          size={14}
-                          style={{ display: "inline", marginRight: "0.2rem" }}
-                        />
-                        {model.seater} Seats
-                      </span>
-                      <span style={{ fontSize: "0.8rem", color: "#4a5a6e" }}>
-                        <Luggage
-                          size={14}
-                          style={{ display: "inline", marginRight: "0.2rem" }}
-                        />
-                        {model.luggageCapacity}
-                      </span>
-                    </div>
-
-                    {/* Pricing */}
-                    <div
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        marginBottom: "0.5rem",
-                      }}
-                    >
-                      <div>
-                        <span style={{ fontSize: "0.75rem", color: "#7a8a9e" }}>
-                          Starting from
-                        </span>
-                        <p
-                          style={{
-                            fontSize: "1.3rem",
-                            fontWeight: 700,
-                            color: "#0b1a2e",
-                            margin: 0,
-                          }}
-                        >
-                          {formatCurrency(model.ratePerKm)}
-                          <span
-                            style={{
-                              fontSize: "0.9rem",
-                              fontWeight: 400,
-                              color: "#7a8a9e",
-                            }}
-                          >
-                            /km
-                          </span>
-                        </p>
-                      </div>
-                      <span
-                        style={{
-                          fontSize: "0.7rem",
-                          color: "#7a8a9e",
-                          background: "#f0f4fe",
-                          padding: "0.2rem 0.8rem",
-                          borderRadius: "20px",
-                        }}
-                      >
-                        {model.minKmPerDay}+ km/day
-                      </span>
-                    </div>
-
-                    {/* Book Button */}
-                    <a
-                      href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                        `Book ${model.name} in ${city.name}`,
-                      )}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="book-button"
-                      style={{
-                        display: "inline-flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        gap: "0.5rem",
-                        width: "100%",
-                        padding: "0.7rem 1.5rem",
-                        borderRadius: "40px",
-                        background: "#0052CC",
-                        color: "#fff",
-                        fontWeight: 600,
-                        fontSize: "0.9rem",
-                        textDecoration: "none",
-                        transition: "all 0.3s ease",
-                        border: "none",
-                        marginTop: "0.5rem",
-                        cursor: "pointer",
-                      }}
-                    >
-                      <MessageSquare size={16} /> Book This Vehicle
-                    </a>
-                  </div>
-                </div>
-              ))}
             </div>
           </div>
         </section>
