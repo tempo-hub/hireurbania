@@ -43,13 +43,26 @@ export async function generateMetadata({ params }) {
     notFound();
   }
 
+  const fleetSeaters =
+    FLEET_MODELS.length > 0
+      ? [...new Set(FLEET_MODELS.map((f) => f.seater))].sort((a, b) => a - b)
+      : [9, 12, 16];
+  const seaterRange =
+    fleetSeaters.length > 1
+      ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
+      : `${fleetSeaters[0]}`;
+  const seaterList =
+    fleetSeaters.length > 1
+      ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
+      : `${fleetSeaters[0]}`;
+
   const title =
     city.metaTitle ||
-    `Urbania Tempo Traveller in ${city.name} | Hire Urbania`;
+    `Urbania on Rent in ${city.name} | ${seaterRange} Seater @₹30/km`;
 
   const description =
     city.metaDescription ||
-    `Hire a Force Urbania Tempo Traveller in ${city.name} for group travel, local sightseeing and outstation trips. Ask about seating options, pickup availability and trip-specific fares.`;
+    `Force Urbania tempo traveller on rent in ${city.name} from ₹30/km. ${seaterList} seater with driver, doorstep pickup. Book on WhatsApp.`;
 
   const canonical = `${SITE_URL}/${city.slug}`;
   const image = `${SITE_URL}/images/hero.png`;
@@ -140,6 +153,7 @@ export default async function CityRootPage({ params }) {
         city={city}
         routes={matchedCityRoutes}
         fleet={FLEET_MODELS}
+        allCities={CITY_HUBS.filter((c) => c.slug !== city.slug).slice(0, 12)}
       />
     </>
   );
