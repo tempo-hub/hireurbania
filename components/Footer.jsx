@@ -402,27 +402,6 @@ export default function Footer({ onOpenModal }) {
                 <Mail size={16} style={{ color: "var(--blue-400)" }} />
                 <span>booking@hireurbaniatempotraveller.com</span>
               </div>
-
-              <div
-                style={{
-                  display: "flex",
-                  gap: "0.6rem",
-                  alignItems: "flex-start",
-                }}
-              >
-                <MapPin
-                  size={16}
-                  style={{
-                    color: "var(--blue-400)",
-                    marginTop: "0.2rem",
-                    flexShrink: 0,
-                  }}
-                />
-                <span>
-                  First floor, C3/96, Vibhuti Khand, Gomti Nagar, Lucknow, Uttar
-                  Pradesh 226010
-                </span>
-              </div>
             </div>
           </div>
         </div>
