@@ -14,12 +14,14 @@ import {
   Users,
   Star,
   Shield,
-  Clock as ClockIcon,
   ChevronRight,
   Luggage,
   ChevronDown,
   ChevronUp,
   ArrowRight,
+  Info,
+  BookOpen,
+  Truck,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -90,28 +92,31 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 
 // ========== SEO COMPONENT ==========
 function CitySeo({ city, faqs = [], fleet = [] }) {
-  const fleetSeaters =
-    fleet.length > 0
-      ? [...new Set(fleet.map((f) => f.seater))].sort((a, b) => a - b)
-      : [9, 12, 16];
-  const seaterRange =
-    fleetSeaters.length > 1
-      ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
-      : `${fleetSeaters[0]}`;
-  const seaterList =
-    fleetSeaters.length > 1
-      ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
-      : `${fleetSeaters[0]}`;
+  // const fleetSeaters =
+  //   fleet.length > 0
+  //     ? [...new Set(fleet.map((f) => f.seater))].sort((a, b) => a - b)
+  //     : [9, 17];
+  // const seaterRange =
+  //   fleetSeaters.length > 1
+  //     ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
+  //     : `${fleetSeaters[0]}`;
+  // const seaterList =
+  //   fleetSeaters.length > 1
+  //     ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
+  //     : `${fleetSeaters[0]}`;
 
-  // SEO FIX #1: Title ≤60 chars with "on Rent", price, and seater range
+  const fleetSeaters = [9, 17];
+
+  const seaterRange = `${fleetSeaters[0]}-${fleetSeaters[1]}`;
+
+  const seaterList = `${fleetSeaters[0]} and ${fleetSeaters[1]}`;
+
   const title = `Urbania on Rent in ${city.name} | ${seaterRange} Seater @₹30/km`;
 
-  // SEO FIX #2: Meta description ~150 chars with rent, price, seater, WhatsApp CTA
   const description =
     city.metaDescription ||
     `Force Urbania tempo traveller on rent in ${city.name} from ₹30/km. ${seaterList} seater with driver, doorstep pickup. Book on WhatsApp.`;
 
-  // SEO FIX #11: Build FAQPage schema from actual FAQs
   const faqSchema =
     faqs.length > 0
       ? {
@@ -120,59 +125,113 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
           mainEntity: faqs.map((faq) => ({
             "@type": "Question",
             name: faq.q,
-            acceptedAnswer: {
-              "@type": "Answer",
-              text: faq.a,
-            },
+            acceptedAnswer: { "@type": "Answer", text: faq.a },
           })),
         }
       : null;
 
-  // SEO FIX #11: Product/Offer schema with pricing
+  // Product schema — kept for retail-style search
   const productSchema = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: `Force Urbania Tempo Traveller on Rent in ${city.name}`,
     description: description,
-    brand: {
-      "@type": "Brand",
-      name: "Force Motors",
-    },
+    brand: { "@type": "Brand", name: "Force Motors" },
     offers: {
       "@type": "AggregateOffer",
       priceCurrency: "INR",
-      lowPrice: fleet.length > 0 ? Math.min(...fleet.map((f) => f.ratePerKm)) : 30,
-      highPrice: fleet.length > 0 ? Math.max(...fleet.map((f) => f.ratePerKm)) : 32,
-      offerCount: fleet.length || 3,
+      lowPrice:
+        fleet.length > 0 ? Math.min(...fleet.map((f) => f.ratePerKm)) : 30,
+      highPrice:
+        fleet.length > 0 ? Math.max(...fleet.map((f) => f.ratePerKm)) : 33,
+      offerCount: fleet.length || 4,
       availability: "https://schema.org/InStock",
       areaServed: city.name,
     },
   };
 
-  // SEO FIX #11: LocalBusiness with city-specific address (no Lucknow footer)
+  // Service schema — semantically correct for rentals
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    serviceType: "Tempo Traveller Rental",
+    name: `Force Urbania Tempo Traveller on Rent in ${city.name}`,
+    description: description,
+    provider: {
+      "@type": "TravelAgency",
+      name: `Urbania Tempo Traveller ${city.name}`,
+      telephone: "+919151827941",
+      areaServed: { "@type": "City", name: city.name },
+    },
+    areaServed: { "@type": "City", name: city.name },
+    offers: {
+      "@type": "AggregateOffer",
+      priceCurrency: "INR",
+      lowPrice:
+        fleet.length > 0 ? Math.min(...fleet.map((f) => f.ratePerKm)) : 30,
+      highPrice:
+        fleet.length > 0 ? Math.max(...fleet.map((f) => f.ratePerKm)) : 33,
+      offerCount: fleet.length || 4,
+      availability: "https://schema.org/InStock",
+    },
+  };
+
+  const postalAddress = {
+    "@type": "PostalAddress",
+    addressLocality: city.name,
+    ...(city.state && { addressRegion: city.state }),
+    addressCountry: city.country || "IN",
+    ...(city.streetAddress && { streetAddress: city.streetAddress }),
+    ...(city.postalCode && { postalCode: city.postalCode }),
+  };
+
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "TravelAgency",
     name: `Urbania Tempo Traveller ${city.name}`,
     description: description,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: city.name,
-      addressRegion: city.state || "",
-      addressCountry: city.country || "India",
-    },
-    areaServed: {
-      "@type": "City",
-      name: city.name,
-    },
-    serviceType: "Tempo Traveller Rental",
+    url: `https://hireurbaniatempotraveller.com/${city.slug}`,
     telephone: "+919151827941",
-    priceRange: "₹30-₹32 per km",
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.9",
-      reviewCount: "500",
-    },
+    priceRange: "₹30-₹33 per km",
+    image: "https://hireurbaniatempotraveller.com/images/images/hero.png",
+    address: postalAddress,
+    ...(city.lat && city.lng
+      ? {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: city.lat,
+            longitude: city.lng,
+          },
+        }
+      : {}),
+    areaServed: { "@type": "City", name: city.name },
+    serviceType: "Tempo Traveller Rental",
+  };
+
+  // BreadcrumbList schema
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Home",
+        item: "https://hireurbaniatempotraveller.com/",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Cities",
+        item: "https://hireurbaniatempotraveller.com/cities",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: city.name,
+        item: `https://hireurbaniatempotraveller.com/${city.slug}`,
+      },
+    ],
   };
 
   return (
@@ -183,7 +242,10 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_IN" />
-      {/* SEO FIX #10: meta keywords tag removed */}
+      <meta
+        property="og:url"
+        content={`https://hireurbaniatempotraveller.com/${city.slug}`}
+      />
       <link
         rel="canonical"
         href={`https://hireurbaniatempotraveller.com/${city.slug}`}
@@ -191,7 +253,13 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
 
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(localBusinessSchema),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
       <script
         type="application/ld+json"
@@ -203,11 +271,15 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
     </>
   );
 }
 
-// ========== HIRE URBANIA VS TEMPO TRAVELLER COMPARISON ==========
+// ========== COMPARISON COMPONENT ==========
 function WhyBookFromUs({ cityName }) {
   const comparisonData = [
     {
@@ -295,7 +367,6 @@ function WhyBookFromUs({ cityName }) {
             <CheckCircle2 size={14} />
             Compare Your Options
           </div>
-
           <h2
             style={{
               fontSize: "2.3rem",
@@ -308,7 +379,6 @@ function WhyBookFromUs({ cityName }) {
             Urbania on Rent vs Tempo Traveller in{" "}
             <span style={{ color: "#0052CC" }}>{cityName}</span>
           </h2>
-
           <p
             style={{
               fontSize: "1.05rem",
@@ -471,9 +541,7 @@ function WhyBookFromUs({ cityName }) {
             </p>
           </div>
           <a
-            href={`https://wa.me/919151827941?text=${encodeURIComponent(
-              `I want to hire a Force Urbania in ${cityName}`,
-            )}`}
+            href={`https://wa.me/919151827941?text=${encodeURIComponent(`I want to hire a Force Urbania in ${cityName}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -562,7 +630,7 @@ export default function CityTemplate({
   const fleetSeaters =
     fleet.length > 0
       ? [...new Set(fleet.map((f) => f.seater))].sort((a, b) => a - b)
-      : [9, 12, 16];
+      : [9, 17];
   const seaterRange =
     fleetSeaters.length > 1
       ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
@@ -581,71 +649,63 @@ export default function CityTemplate({
     "Hotel Pickup",
   ];
 
-  // SEO FIX #12: City-specific service areas
-  const cityServiceAreas = city.serviceAreas || [
-    `Central ${city.name}`,
-    `North ${city.name}`,
-    `South ${city.name}`,
-    `East ${city.name}`,
-    `West ${city.name}`,
-  ];
-
-  // SEO FIX #13: Raipur-style routes from route data
-  const cityRoutes = relatedRoutes.slice(0, 8);
-
   // SEO FIX #7: Single consistent stats number
   const happyGroups = 500;
 
-  // SEO FIX #12: City-specific FAQs with real numbers
   const defaultFaqs = [
     {
       q: `What is the Urbania rent per km in ${city.name}?`,
-      a: `Urbania rent in ${city.name} starts from ₹30 per km for a 9 seater, ₹31 per km for a 12 seater, and ₹32 per km for a 16 seater. Minimum 250 km per day applies. Driver allowance is ₹600-700 per day. Contact us on WhatsApp for the latest fare for your specific route and dates.`,
+      a: `Urbania rent in ${city.name} starts from ₹30 per km for a 9-seater and ₹32 per km for a 17-seater. Minimum 250 km per day applies. Driver allowance is ₹600-700 per day. Contact us on WhatsApp for the latest fare for your specific route and travel dates.`,
     },
     {
       q: `What is the cost of hiring a Force Urbania Tempo Traveller in ${city.name}?`,
-      a: `The cost of hiring a Force Urbania Tempo Traveller in ${city.name} depends on the number of seats, travel distance, number of days, route, tolls, parking and other trip requirements. For a 1-day local trip, expect approximately ₹8,000-₹12,000. For outstation trips, rates start from ₹30/km. Contact Hire Urbania Tempo Traveller for the latest fare.`,
+      a: `The cost of hiring a Force Urbania Tempo Traveller in ${city.name} depends on seating capacity, travel distance, number of days, route, tolls, parking and other trip requirements. For a 1-day local trip, expect approximately ₹8,000-₹12,000. Outstation rates start from ₹30/km for a 9-seater and ₹32/km for a 17-seater. Contact us for the latest fare.`,
     },
     {
       q: `Which Force Urbania seating options are available in ${city.name}?`,
-      a: `We provide comfortable Force Urbania Tempo Travellers in ${seaterList} seater configurations in ${city.name}. All vehicles come with push-back seats, AC, and spacious luggage area. Availability is subject to your travel dates and route.`,
+      a: `We offer Force Urbania Tempo Travellers in 9-seater and 17-seater configurations in ${city.name}. These vehicles are suitable for family trips, weddings, corporate travel, group tours and outstation journeys. Availability depends on your travel dates and route.`,
     },
-
     {
       q: `How to do Urbania booking near me in ${city.name}?`,
-      a: `To book an Urbania near you in ${city.name}, simply WhatsApp us your pickup location, destination, travel dates, and group size. We offer doorstep pickup from ${cityPickupPoints.slice(0, 3).join(", ")} and other locations across ${city.name}. Our team will share availability and fare within 2 minutes.`,
+      a: `To book an Urbania near you in ${city.name}, WhatsApp us your pickup location, destination, travel dates and group size. We offer pickup from ${cityPickupPoints.slice(0, 3).join(", ")} and other locations across ${city.name}, subject to availability. Our team will share the fare and booking details.`,
     },
     {
       q: `Can I hire a Force Urbania for local sightseeing in ${city.name}?`,
-      a: `Yes. You can hire a Force Urbania Tempo Traveller for local sightseeing in ${city.name} as well as nearby destinations. The itinerary can be customized according to your group size, sightseeing plans and travel requirements.`,
+      a: `Yes, you can hire a Force Urbania Tempo Traveller for local sightseeing in ${city.name} and nearby destinations. Choose a 9-seater for smaller groups or a 17-seater for larger groups, subject to availability.`,
     },
     {
       q: `Can I book a Force Urbania from ${city.name} for an outstation trip?`,
-      a: `Yes. Hire Urbania Tempo Traveller provides Force Urbania vehicles from ${city.name} for one-way trips, round trips, multi-day tours, family vacations, pilgrimage journeys, weddings, corporate travel and other group trips.`,
+      a: `Yes, you can book a Force Urbania from ${city.name} for one-way trips, round trips, multi-day tours, family vacations, pilgrimage journeys, weddings and corporate travel. Both 9-seater and 17-seater options are available subject to your route and travel dates.`,
     },
     {
       q: `Is a driver included with a Force Urbania booking in ${city.name}?`,
-      a: `Yes. Force Urbania Tempo Traveller bookings in ${city.name} are provided with an experienced chauffeur familiar with city, highway and outstation routes. Driver allowance is ₹600-700 per day, included in most quotes.`,
+      a: `Yes, Force Urbania bookings in ${city.name} include a driver. Driver allowance of ₹600-700 per day may apply depending on the package and booking terms. Confirm the final fare and inclusions before booking.`,
     },
     {
       q: `Force Urbania vs Tempo Traveller - which is better for group travel in ${city.name}?`,
-      a: `Force Urbania offers a more premium experience with better interior comfort, superior seating, more luggage space, and a smoother ride compared to a standard Tempo Traveller. For long-distance or premium group travel in ${city.name}, Urbania is the better choice. For budget travel, a standard Tempo Traveller works well.`,
+      a: `Force Urbania is a premium group travel option with comfortable seating and a spacious interior. A 9-seater is suitable for smaller groups, while a 17-seater is ideal for larger groups. The best choice depends on your group size, budget and travel requirements in ${city.name}.`,
     },
     {
       q: `How can I book a Force Urbania Tempo Traveller in ${city.name}?`,
-      a: `You can contact Hire Urbania Tempo Traveller through WhatsApp or phone. Share your pickup location, destination, travel dates, group size and preferred Force Urbania vehicle, and our team will help you with availability, booking and fare details.`,
+      a: `Contact Hire Urbania Tempo Traveller through WhatsApp or phone. Share your pickup location, destination, travel dates, group size and preferred vehicle, either a 9-seater or 17-seater. Our team will help you with availability, fare details and booking.`,
     },
     {
       q: `Do you offer Urbania on rent with driver for weddings in ${city.name}?`,
-      a: `Yes, we offer Force Urbania on rent with driver for weddings in ${city.name}. Our vehicles are ideal for baraat, guest pickup, and family travel. Contact us for wedding packages and bulk booking discounts.`,
+      a: `Yes, you can enquire about Force Urbania rentals with a driver for weddings in ${city.name}. The 9-seater and 17-seater options can suit different guest transportation requirements. Contact us for availability and wedding package details.`,
     },
     {
       q: `What is the minimum km per day for Urbania rental in ${city.name}?`,
-      a: `The minimum km per day for Urbania rental in ${city.name} is 250 km per day. For local city use within ${city.name}, a minimum 8 hours / 80 km package may be available. Contact us for exact terms.`,
+      a: `The minimum distance for outstation Urbania rentals in ${city.name} is generally 250 km per day, subject to the selected package. Local rental packages may have different time and distance limits. Confirm the applicable terms when booking.`,
     },
   ];
 
   const displayFaqs = faqs.length > 0 ? faqs : defaultFaqs;
+
+  const hasPickupDropData =
+    Array.isArray(city?.pickupPoints) &&
+    city.pickupPoints.length > 0 &&
+    Array.isArray(city?.serviceAreas) &&
+    city.serviceAreas.length > 0;
 
   return (
     <>
@@ -1090,7 +1150,11 @@ export default function CityTemplate({
         >
           <div
             className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
           >
             <div
               style={{
@@ -1237,6 +1301,7 @@ export default function CityTemplate({
                     >
                       {model.name}
                     </h3>
+
                     <p
                       className="fleet-tagline"
                       style={{
@@ -1354,6 +1419,20 @@ export default function CityTemplate({
                 </div>
               ))}
             </div>
+
+            {fleet.some((f) => f.seater === 17) && (
+              <h2
+                style={{
+                  textAlign: "center",
+                  fontSize: "2rem",
+                  fontWeight: 700,
+                  color: "#0b1a2e",
+                  marginTop: "3rem",
+                }}
+              >
+                17 Seater Urbania on Rent in {city.name}
+              </h2>
+            )}
           </div>
         </section>
 
@@ -1410,6 +1489,247 @@ export default function CityTemplate({
             </div>
           </div>
         </section>
+
+        {/* ===== PICKUP & DROP LOCATIONS ===== */}
+        {hasPickupDropData && (
+          <section
+            className="pickup-drop-section"
+            style={{
+              padding: "4rem 0",
+              background: "#f9fafc",
+            }}
+          >
+            <div
+              className="container"
+              style={{
+                maxWidth: "1280px",
+                margin: "0 auto",
+                padding: "0 1.5rem",
+              }}
+            >
+              {/* Header */}
+              <div
+                style={{
+                  textAlign: "center",
+                  maxWidth: "780px",
+                  margin: "0 auto 3rem",
+                }}
+              >
+                <div
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    gap: "0.5rem",
+                    background: "#eef3ff",
+                    color: "#0052CC",
+                    padding: "0.25rem 1.2rem",
+                    borderRadius: "40px",
+                    fontSize: "0.8rem",
+                    fontWeight: 600,
+                  }}
+                >
+                  <MapPin size={14} />
+                  Pickup & Drop
+                </div>
+
+                <h2
+                  style={{
+                    fontSize: "2.3rem",
+                    fontWeight: 700,
+                    margin: "0.5rem 0 0.75rem",
+                    color: "#0b1a2e",
+                  }}
+                >
+                  Urbania Tempo Traveller Pickup & Drop{" "}
+                  <span style={{ color: "#0052CC" }}>
+                    Locations in {city.name}
+                  </span>
+                </h2>
+
+                <p
+                  style={{
+                    fontSize: "1.05rem",
+                    color: "#4a5a6e",
+                    lineHeight: "1.6",
+                  }}
+                >
+                  Book an Urbania Tempo Traveller in {city.name} with convenient
+                  pickup and drop options across popular localities and service
+                  areas for family trips, weddings, corporate travel, and
+                  outstation journeys.
+                </p>
+              </div>
+
+              {/* Two Column Grid */}
+              <div
+                style={{
+                  display: "grid",
+                  gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
+                  gap: "2rem",
+                }}
+              >
+                {/* Pickup Locations */}
+                <div
+                  style={{
+                    background: "#ffffff",
+                    borderRadius: "20px",
+                    padding: "1.8rem",
+                    border: "1px solid #ecf0f7",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
+                  }}
+                >
+                  <h3
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      fontSize: "1.15rem",
+                      fontWeight: 700,
+                      color: "#0b1a2e",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <MapPin size={20} color="#0052CC" />
+                    <span>Pickup Points in {city.name}</span>
+                  </h3>
+
+                  <ul
+                    style={{
+                      listStyle: "none",
+                      padding: 0,
+                      margin: 0,
+                    }}
+                  >
+                    {city.pickupPoints.map((point, idx) => (
+                      <li
+                        key={point}
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "0.6rem",
+                          padding: "0.55rem 0",
+                          borderBottom:
+                            idx < city.pickupPoints.length - 1
+                              ? "1px solid #f0f4fe"
+                              : "none",
+                          fontSize: "0.9rem",
+                          color: "#1a2634",
+                          lineHeight: 1.5,
+                        }}
+                      >
+                        <CheckCircle2
+                          size={16}
+                          color="#22c55e"
+                          style={{
+                            flexShrink: 0,
+                            marginTop: "2px",
+                          }}
+                        />
+                        <span>{point}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Service Areas / Drop Locations */}
+                <div
+                  style={{
+                    background: "#ffffff",
+                    borderRadius: "20px",
+                    padding: "1.8rem",
+                    border: "1px solid #ecf0f7",
+                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
+                  }}
+                >
+                  <h3
+                    style={{
+                      display: "flex",
+                      alignItems: "center",
+                      gap: "0.5rem",
+                      fontSize: "1.15rem",
+                      fontWeight: 700,
+                      color: "#0b1a2e",
+                      marginBottom: "1rem",
+                    }}
+                  >
+                    <MapPin size={20} color="#0052CC" />
+                    <span>Service Areas in {city.name}</span>
+                  </h3>
+
+                  <ul
+                    style={{
+                      listStyle: "none",
+                      padding: 0,
+                      margin: 0,
+                    }}
+                  >
+                    {city.serviceAreas.map((area, idx) => (
+                      <li
+                        key={area}
+                        style={{
+                          display: "flex",
+                          alignItems: "flex-start",
+                          gap: "0.6rem",
+                          padding: "0.55rem 0",
+                          borderBottom:
+                            idx < city.serviceAreas.length - 1
+                              ? "1px solid #f0f4fe"
+                              : "none",
+                          fontSize: "0.9rem",
+                          color: "#1a2634",
+                          lineHeight: 1.5,
+                        }}
+                      >
+                        <CheckCircle2
+                          size={16}
+                          color="#22c55e"
+                          style={{
+                            flexShrink: 0,
+                            marginTop: "2px",
+                          }}
+                        />
+                        <span>{area}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+
+              {/* Booking Note */}
+              <div
+                style={{
+                  marginTop: "2rem",
+                  padding: "1rem 1.5rem",
+                  background: "#f0f4fe",
+                  borderRadius: "12px",
+                  border: "1px solid #dce7ff",
+                  display: "flex",
+                  alignItems: "flex-start",
+                  gap: "0.6rem",
+                  fontSize: "0.9rem",
+                  color: "#0b1a2e",
+                  lineHeight: 1.6,
+                }}
+              >
+                <Info
+                  size={18}
+                  color="#0052CC"
+                  style={{
+                    flexShrink: 0,
+                    marginTop: "2px",
+                  }}
+                />
+                <span>
+                  Pickup and drop availability depends on your booking, vehicle
+                  availability, road access, and local parking restrictions.
+                  Additional charges may apply for outstation travel, tolls,
+                  parking, and driver allowances according to the booking terms.
+                  Confirm your exact pickup and destination before booking.
+                </span>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* ===== ABOUT URBANIA IN CITY SECTION ===== */}
         <section className="about-urbania-section">
@@ -1951,7 +2271,11 @@ export default function CityTemplate({
         >
           <div
             className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
           >
             <div
               style={{
@@ -1999,9 +2323,7 @@ export default function CityTemplate({
               >
                 {fleet.length > 0
                   ? fleet
-                      .map(
-                        (m) => `${m.seater} seater ₹${m.ratePerKm}/km`,
-                      )
+                      .map((m) => `${m.seater} seater ₹${m.ratePerKm}/km`)
                       .join(", ")
                   : "9 seater ₹30/km, 12 seater ₹31/km, 16 seater ₹32/km"}
                 . Check estimated Urbania Tempo Traveller on rent rates for
@@ -2170,191 +2492,6 @@ export default function CityTemplate({
               </table>
             </div>
 
-            {/* ===== POPULAR ROUTE ESTIMATES ===== */}
-            {relatedRoutes.length > 0 && (
-              <div style={{ marginTop: "3rem" }}>
-                <div style={{ textAlign: "center", marginBottom: "1.5rem" }}>
-                  <h3
-                    style={{
-                      fontSize: "1.5rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    Popular Urbania Routes from {city.name}
-                  </h3>
-                  <p style={{ fontSize: "0.9rem", color: "#7a8a9e" }}>
-                    Explore popular destinations and get an estimated fare for
-                    your group journey.
-                  </p>
-                </div>
-
-                <div
-                  style={{
-                    overflowX: "auto",
-                    borderRadius: "16px",
-                    border: "1px solid #ecf0f7",
-                  }}
-                >
-                  <table
-                    style={{
-                      width: "100%",
-                      borderCollapse: "collapse",
-                      minWidth: "800px",
-                    }}
-                  >
-                    <thead>
-                      <tr
-                        style={{
-                          background: "#f0f4fe",
-                          color: "#0b1a2e",
-                          textAlign: "left",
-                        }}
-                      >
-                        <th style={{ padding: "1rem 1.2rem", fontWeight: 600 }}>
-                          Route
-                        </th>
-                        <th style={{ padding: "1rem 1.2rem", fontWeight: 600 }}>
-                          Distance
-                        </th>
-                        <th style={{ padding: "1rem 1.2rem", fontWeight: 600 }}>
-                          Travel Time
-                        </th>
-                        <th style={{ padding: "1rem 1.2rem", fontWeight: 600 }}>
-                          Starting Fare
-                        </th>
-                        <th
-                          style={{
-                            padding: "1rem 1.2rem",
-                            fontWeight: 600,
-                            textAlign: "center",
-                          }}
-                        >
-                          Action
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {relatedRoutes.slice(0, 8).map((route, index) => {
-                        const distance = Number(route.distanceKm) || 0;
-                        const cheapestVehicle =
-                          fleet.length > 0
-                            ? fleet.reduce((cheapest, current) =>
-                                current.ratePerKm < cheapest.ratePerKm
-                                  ? current
-                                  : cheapest,
-                              )
-                            : null;
-                        const estimatedFare = cheapestVehicle
-                          ? Math.round(
-                              distance * 2 * cheapestVehicle.ratePerKm +
-                                cheapestVehicle.driverAllowance * 2,
-                            )
-                          : 0;
-
-                        return (
-                          <tr
-                            key={route.routeSlug || index}
-                            style={{
-                              borderBottom:
-                                index < Math.min(relatedRoutes.length, 8) - 1
-                                  ? "1px solid #ecf0f7"
-                                  : "none",
-                              transition: "all 0.2s ease",
-                            }}
-                            className="route-table-row"
-                          >
-                            <td style={{ padding: "1rem 1.2rem" }}>
-                              <Link
-                                href={`/routes/${route.routeSlug}`}
-                                style={{
-                                  color: "#0052CC",
-                                  fontWeight: 600,
-                                  textDecoration: "none",
-                                }}
-                              >
-                                {route.origin} to {route.destination}
-                              </Link>
-                            </td>
-                            <td
-                              style={{
-                                padding: "1rem 1.2rem",
-                                color: "#4a5a6e",
-                                fontWeight: 500,
-                              }}
-                            >
-                              {route.distanceKm} KM
-                            </td>
-                            <td
-                              style={{
-                                padding: "1rem 1.2rem",
-                                color: "#4a5a6e",
-                              }}
-                            >
-                              {route.durationHrs}
-                            </td>
-                            <td
-                              style={{
-                                padding: "1rem 1.2rem",
-                                fontWeight: 700,
-                                color: "#0b1a2e",
-                              }}
-                            >
-                              {formatCurrency(estimatedFare)}
-                              <span
-                                style={{
-                                  display: "block",
-                                  fontSize: "0.7rem",
-                                  fontWeight: 400,
-                                  color: "#7a8a9e",
-                                  marginTop: "0.15rem",
-                                }}
-                              >
-                                approx. round trip
-                              </span>
-                            </td>
-                            <td
-                              style={{
-                                padding: "1rem 1.2rem",
-                                textAlign: "center",
-                              }}
-                            >
-                              <a
-                                href={`https://wa.me/${whatsappNumber}?text=${encodeURIComponent(
-                                  `I want to book an Urbania Tempo Traveller from ${route.origin} to ${route.destination}. Please share the latest fare and availability.`,
-                                )}`}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="table-book-btn"
-                                style={{
-                                  display: "inline-flex",
-                                  alignItems: "center",
-                                  gap: "0.4rem",
-                                  padding: "0.4rem 1.2rem",
-                                  borderRadius: "40px",
-                                  background: "#0052CC",
-                                  color: "#fff",
-                                  fontWeight: 600,
-                                  fontSize: "0.8rem",
-                                  textDecoration: "none",
-                                  transition: "all 0.2s ease",
-                                  border: "none",
-                                  cursor: "pointer",
-                                }}
-                              >
-                                <MessageSquare size={14} /> Get Quote
-                              </a>
-                            </td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )}
-
             <p
               style={{
                 fontSize: "0.8rem",
@@ -2418,7 +2555,11 @@ export default function CityTemplate({
         >
           <div
             className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
           >
             <div
               style={{
@@ -2566,7 +2707,9 @@ export default function CityTemplate({
                 <Calendar size={14} />
                 <span>How Booking Works</span>
               </div>
-              <h2>Book Your Urbania on Rent in {city.name} in 4 Simple Steps</h2>
+              <h2>
+                Book Your Urbania on Rent in {city.name} in 4 Simple Steps
+              </h2>
               <p>
                 Quick and hassle-free booking process for your Urbania Tempo
                 Traveller on rent in {city.name}.
@@ -2633,9 +2776,25 @@ export default function CityTemplate({
         </section>
 
         {/* ===== LOCAL SERVICE AREA SECTION ===== */}
-        <section className="section-padding" style={{ padding: "4rem 0", background: "#f0f4ff" }}>
-          <div className="container" style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}>
-            <div style={{ textAlign: "center", maxWidth: "800px", margin: "0 auto" }}>
+        <section
+          className="section-padding"
+          style={{ padding: "4rem 0", background: "#f0f4ff" }}
+        >
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "800px",
+                margin: "0 auto",
+              }}
+            >
               <div
                 style={{
                   display: "inline-flex",
@@ -2652,13 +2811,36 @@ export default function CityTemplate({
               >
                 <MapPin size={16} /> Near Me
               </div>
-              <h2 style={{ fontSize: "2rem", fontWeight: 700, color: "#0b1a2e", marginBottom: "1rem" }}>
+              <h2
+                style={{
+                  fontSize: "2rem",
+                  fontWeight: 700,
+                  color: "#0b1a2e",
+                  marginBottom: "1rem",
+                }}
+              >
                 Urbania Rentals Across {city.name}
               </h2>
-              <p style={{ fontSize: "1.05rem", color: "#4a5a6e", lineHeight: "1.6" }}>
-                <strong>Service Areas:</strong> We proudly serve all major neighborhoods including {(city.serviceAreas || [`${city.name} Center`, `${city.name} Suburbs`]).join(", ")}. 
-                <br /><br />
-                <strong>Pickup Points:</strong> Fast doorstep pickup available from {cityPickupPoints.join(", ")}.
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                <strong>Service Areas:</strong> We proudly serve all major
+                neighborhoods including{" "}
+                {(
+                  city.serviceAreas || [
+                    `${city.name} Center`,
+                    `${city.name} Suburbs`,
+                  ]
+                ).join(", ")}
+                .
+                <br />
+                <br />
+                <strong>Pickup Points:</strong> Fast doorstep pickup available
+                from {cityPickupPoints.join(", ")}.
               </p>
             </div>
           </div>
@@ -2671,7 +2853,11 @@ export default function CityTemplate({
         >
           <div
             className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
           >
             <div
               style={{
@@ -2861,8 +3047,21 @@ export default function CityTemplate({
           className="section-padding gallery-section"
           style={{ padding: "4rem 0", background: "#f9fafc" }}
         >
-          <div className="container" style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}>
-            <div style={{ textAlign: "center", maxWidth: "780px", margin: "0 auto 3rem" }}>
+          <div
+            className="container"
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
+          >
+            <div
+              style={{
+                textAlign: "center",
+                maxWidth: "780px",
+                margin: "0 auto 3rem",
+              }}
+            >
               <div
                 style={{
                   display: "inline-flex",
@@ -2878,11 +3077,25 @@ export default function CityTemplate({
               >
                 <Star size={14} /> Gallery
               </div>
-              <h2 style={{ fontSize: "2.3rem", fontWeight: 700, margin: "0.5rem 0 0.75rem", color: "#0b1a2e" }}>
+              <h2
+                style={{
+                  fontSize: "2.3rem",
+                  fontWeight: 700,
+                  margin: "0.5rem 0 0.75rem",
+                  color: "#0b1a2e",
+                }}
+              >
                 Force Urbania Gallery in {city.name}
               </h2>
-              <p style={{ fontSize: "1.05rem", color: "#4a5a6e", lineHeight: "1.6" }}>
-                Explore the premium interiors and exteriors of our Force Urbania fleet available for rent in {city.name}.
+              <p
+                style={{
+                  fontSize: "1.05rem",
+                  color: "#4a5a6e",
+                  lineHeight: "1.6",
+                }}
+              >
+                Explore the premium interiors and exteriors of our Force Urbania
+                fleet available for rent in {city.name}.
               </p>
             </div>
             <div
@@ -2893,15 +3106,56 @@ export default function CityTemplate({
               }}
             >
               {[
-                { src: "/images/images/Force-Urbania-9-Seater.png", alt: `Force Urbania 9 seater exterior in ${city.name}` },
-                { src: "/images/images/Force-Urbania-12-Seater.png", alt: `Force Urbania 12 seater side view in ${city.name}` },
-                { src: "/images/images/Force-Urbania-16-Seater.png", alt: `Force Urbeniya 16 seater on rent in ${city.name}` },
-                { src: "/images/images/interior.png", alt: `Premium Force Urbania interior with pushback seats in ${city.name}` },
-                { src: "/images/images/hero.png", alt: `Force Urbania tempo traveller fleet ready for dispatch in ${city.name}` },
-                { src: "/images/images/fleet.png", alt: `Force Urbania vehicles available for group travel in ${city.name}` },
+                {
+                  src: "/images/images/Force-Urbania-9-Seater.png",
+                  alt: `Force Urbania 9 seater exterior parked at ${city.name} pickup point`,
+                },
+                {
+                  src: "/images/images/Force-Urbania-12-Seater.png",
+                  alt: `Force Urbania 12 seater side view available on rent in ${city.name}`,
+                },
+                {
+                  src: "/images/images/Force-Urbania-16-Seater.png",
+                  alt: `Force Urbania 16 seater group travel vehicle in ${city.name}`,
+                },
+                {
+                  src: "/images/images/interior.png",
+                  alt: `Pushback recliner seats inside Force Urbania rented in ${city.name}`,
+                },
+                {
+                  src: "/images/images/hero.png",
+                  alt: `Force Urbania fleet ready for outstation trips from ${city.name}`,
+                },
+                {
+                  src: "/images/images/fleet.png",
+                  alt: `Multiple Force Urbania vehicles for wedding and corporate travel in ${city.name}`,
+                },
               ].map((img, index) => (
-                <div key={index} style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 8px 24px rgba(0,20,50,0.06)", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", padding: "1rem" }}>
-                  <Image src={img.src} alt={img.alt} width={600} height={400} style={{ width: "100%", height: "auto", objectFit: "contain" }} />
+                <div
+                  key={index}
+                  style={{
+                    borderRadius: "16px",
+                    overflow: "hidden",
+                    boxShadow: "0 8px 24px rgba(0,20,50,0.06)",
+                    background: "#fff",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    padding: "1rem",
+                  }}
+                >
+                  <Image
+                    src={img.src}
+                    alt={img.alt}
+                    width={600}
+                    height={400}
+                    sizes="(max-width: 600px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    style={{
+                      width: "100%",
+                      height: "auto",
+                      objectFit: "contain",
+                    }}
+                  />
                 </div>
               ))}
             </div>
@@ -2915,7 +3169,11 @@ export default function CityTemplate({
         >
           <div
             className="container"
-            style={{ maxWidth: "1280px", margin: "0 auto", padding: "0 1.5rem" }}
+            style={{
+              maxWidth: "1280px",
+              margin: "0 auto",
+              padding: "0 1.5rem",
+            }}
           >
             <div
               style={{
@@ -3158,8 +3416,8 @@ export default function CityTemplate({
                 margin: "0 auto 2rem",
               }}
             >
-              Book your Urbania on rent today and experience luxury group
-              travel in {city.name}.
+              Book your Urbania on rent today and experience luxury group travel
+              in {city.name}.
             </p>
             <a
               href={`https://wa.me/${whatsappNumber}?text=${whatsappText}`}
