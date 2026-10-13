@@ -701,11 +701,17 @@ export default function CityTemplate({
 
   const displayFaqs = faqs.length > 0 ? faqs : defaultFaqs;
 
-  const hasPickupDropData =
-    Array.isArray(city?.pickupPoints) &&
-    city.pickupPoints.length > 0 &&
-    Array.isArray(city?.serviceAreas) &&
-    city.serviceAreas.length > 0;
+  // const hasPickupDropData =
+  //   Array.isArray(city?.pickupPoints) &&
+  //   city.pickupPoints.length > 0 &&
+  //   Array.isArray(city?.serviceAreas) &&
+  //   city.serviceAreas.length > 0;
+
+  const hasPickupPoints =
+    Array.isArray(city.pickupPoints) && city.pickupPoints.length > 0;
+
+  const hasServiceAreas =
+    Array.isArray(city.serviceAreas) && city.serviceAreas.length > 0;
 
   return (
     <>
@@ -1491,7 +1497,7 @@ export default function CityTemplate({
         </section>
 
         {/* ===== PICKUP & DROP LOCATIONS ===== */}
-        {hasPickupDropData && (
+        {(hasPickupPoints || hasServiceAreas) && (
           <section
             className="pickup-drop-section"
             style={{
@@ -1569,130 +1575,134 @@ export default function CityTemplate({
                 }}
               >
                 {/* Pickup Locations */}
-                <div
-                  style={{
-                    background: "#ffffff",
-                    borderRadius: "20px",
-                    padding: "1.8rem",
-                    border: "1px solid #ecf0f7",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
-                  }}
-                >
-                  <h3
+                {hasPickupPoints && (
+                  <div
                     style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      fontSize: "1.15rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginBottom: "1rem",
+                      background: "#ffffff",
+                      borderRadius: "20px",
+                      padding: "1.8rem",
+                      border: "1px solid #ecf0f7",
+                      boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
                     }}
                   >
-                    <MapPin size={20} color="#0052CC" />
-                    <span>Pickup Points in {city.name}</span>
-                  </h3>
+                    <h3
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        fontSize: "1.15rem",
+                        fontWeight: 700,
+                        color: "#0b1a2e",
+                        marginBottom: "1rem",
+                      }}
+                    >
+                      <MapPin size={20} color="#0052CC" />
+                      <span>Pickup Points in {city.name}</span>
+                    </h3>
 
-                  <ul
-                    style={{
-                      listStyle: "none",
-                      padding: 0,
-                      margin: 0,
-                    }}
-                  >
-                    {city.pickupPoints.map((point, idx) => (
-                      <li
-                        key={point}
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          gap: "0.6rem",
-                          padding: "0.55rem 0",
-                          borderBottom:
-                            idx < city.pickupPoints.length - 1
-                              ? "1px solid #f0f4fe"
-                              : "none",
-                          fontSize: "0.9rem",
-                          color: "#1a2634",
-                          lineHeight: 1.5,
-                        }}
-                      >
-                        <CheckCircle2
-                          size={16}
-                          color="#22c55e"
+                    <ul
+                      style={{
+                        listStyle: "none",
+                        padding: 0,
+                        margin: 0,
+                      }}
+                    >
+                      {city.pickupPoints.map((point, idx) => (
+                        <li
+                          key={point}
                           style={{
-                            flexShrink: 0,
-                            marginTop: "2px",
+                            display: "flex",
+                            alignItems: "flex-start",
+                            gap: "0.6rem",
+                            padding: "0.55rem 0",
+                            borderBottom:
+                              idx < city.pickupPoints.length - 1
+                                ? "1px solid #f0f4fe"
+                                : "none",
+                            fontSize: "0.9rem",
+                            color: "#1a2634",
+                            lineHeight: 1.5,
                           }}
-                        />
-                        <span>{point}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                        >
+                          <CheckCircle2
+                            size={16}
+                            color="#22c55e"
+                            style={{
+                              flexShrink: 0,
+                              marginTop: "2px",
+                            }}
+                          />
+                          <span>{point}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
 
                 {/* Service Areas / Drop Locations */}
-                <div
-                  style={{
-                    background: "#ffffff",
-                    borderRadius: "20px",
-                    padding: "1.8rem",
-                    border: "1px solid #ecf0f7",
-                    boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
-                  }}
-                >
-                  <h3
+                {hasServiceAreas && (
+                  <div
                     style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.5rem",
-                      fontSize: "1.15rem",
-                      fontWeight: 700,
-                      color: "#0b1a2e",
-                      marginBottom: "1rem",
+                      background: "#ffffff",
+                      borderRadius: "20px",
+                      padding: "1.8rem",
+                      border: "1px solid #ecf0f7",
+                      boxShadow: "0 4px 12px rgba(0,0,0,0.02)",
                     }}
                   >
-                    <MapPin size={20} color="#0052CC" />
-                    <span>Service Areas in {city.name}</span>
-                  </h3>
+                    <h3
+                      style={{
+                        display: "flex",
+                        alignItems: "center",
+                        gap: "0.5rem",
+                        fontSize: "1.15rem",
+                        fontWeight: 700,
+                        color: "#0b1a2e",
+                        marginBottom: "1rem",
+                      }}
+                    >
+                      <MapPin size={20} color="#0052CC" />
+                      <span>Service Areas in {city.name}</span>
+                    </h3>
 
-                  <ul
-                    style={{
-                      listStyle: "none",
-                      padding: 0,
-                      margin: 0,
-                    }}
-                  >
-                    {city.serviceAreas.map((area, idx) => (
-                      <li
-                        key={area}
-                        style={{
-                          display: "flex",
-                          alignItems: "flex-start",
-                          gap: "0.6rem",
-                          padding: "0.55rem 0",
-                          borderBottom:
-                            idx < city.serviceAreas.length - 1
-                              ? "1px solid #f0f4fe"
-                              : "none",
-                          fontSize: "0.9rem",
-                          color: "#1a2634",
-                          lineHeight: 1.5,
-                        }}
-                      >
-                        <CheckCircle2
-                          size={16}
-                          color="#22c55e"
+                    <ul
+                      style={{
+                        listStyle: "none",
+                        padding: 0,
+                        margin: 0,
+                      }}
+                    >
+                      {city.serviceAreas.map((area, idx) => (
+                        <li
+                          key={area}
                           style={{
-                            flexShrink: 0,
-                            marginTop: "2px",
+                            display: "flex",
+                            alignItems: "flex-start",
+                            gap: "0.6rem",
+                            padding: "0.55rem 0",
+                            borderBottom:
+                              idx < city.serviceAreas.length - 1
+                                ? "1px solid #f0f4fe"
+                                : "none",
+                            fontSize: "0.9rem",
+                            color: "#1a2634",
+                            lineHeight: 1.5,
                           }}
-                        />
-                        <span>{area}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+                        >
+                          <CheckCircle2
+                            size={16}
+                            color="#22c55e"
+                            style={{
+                              flexShrink: 0,
+                              marginTop: "2px",
+                            }}
+                          />
+                          <span>{area}</span>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
 
               {/* Booking Note */}
@@ -2771,77 +2781,6 @@ export default function CityTemplate({
                   <span>Book Now</span>
                 </a>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* ===== LOCAL SERVICE AREA SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#f0f4ff" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "800px",
-                margin: "0 auto",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#dde8ff",
-                  color: "#0052CC",
-                  padding: "0.3rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.85rem",
-                  fontWeight: 600,
-                  marginBottom: "1rem",
-                }}
-              >
-                <MapPin size={16} /> Near Me
-              </div>
-              <h2
-                style={{
-                  fontSize: "2rem",
-                  fontWeight: 700,
-                  color: "#0b1a2e",
-                  marginBottom: "1rem",
-                }}
-              >
-                Urbania Rentals Across {city.name}
-              </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
-                <strong>Service Areas:</strong> We proudly serve all major
-                neighborhoods including{" "}
-                {(
-                  city.serviceAreas || [
-                    `${city.name} Center`,
-                    `${city.name} Suburbs`,
-                  ]
-                ).join(", ")}
-                .
-                <br />
-                <br />
-                <strong>Pickup Points:</strong> Fast doorstep pickup available
-                from {cityPickupPoints.join(", ")}.
-              </p>
             </div>
           </div>
         </section>
