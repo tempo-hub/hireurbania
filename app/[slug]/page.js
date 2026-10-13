@@ -1,4 +1,4 @@
-import { SITEMAP_ROUTES, CITY_HUBS, FLEET_MODELS } from "@/lib/routesData";
+import { SITEMAP_ROUTES, CITY_HUBS, FLEET_MODELS, CITY_HUBS_WITH_LOCATIONS } from "@/lib/routesData";
 import CityTemplate from "@/components/CityTemplate";
 import { notFound, permanentRedirect } from "next/navigation";
 
@@ -109,7 +109,7 @@ export default async function CityRootPage({ params }) {
     permanentRedirect(`/routes/${route.routeSlug}`);
   }
 
-  const city = CITY_HUBS.find((item) => item.slug === slug);
+  const city = CITY_HUBS_WITH_LOCATIONS.find((item) => item.slug === slug);
 
   if (!city) {
     notFound();
