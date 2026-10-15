@@ -98,7 +98,7 @@ body {
   line-height: 1.9;
 }
 
-.blog-content p,
+/* .blog-content p,
 .blog-content ul,
 .blog-content ol,
 .blog-content blockquote,
@@ -106,7 +106,8 @@ body {
 .blog-content h3,
 .blog-content h4 {
   margin-bottom: 1rem;
-}
+  font-weight: normal;
+} */
 
 .blog-content ul,
 .blog-content ol {
@@ -144,24 +145,28 @@ body {
   margin: 1rem 0;
 }
 
-.blog-content h2,
+/* .blog-content h2,
 .blog-content h3,
 .blog-content h4 {
   color: var(--text-dark);
   margin-top: 1.5rem;
-}
+} */
 
 /* ── TYPOGRAPHY ── */
-h1,
+/* h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
   font-family: var(--font-main);
-  font-weight: 700;
   line-height: 1.25;
   color: var(--text-dark);
+}  */
+
+.blog-content strong,
+.blog-content b {
+  font-weight: normal;
 }
 
 .text-gradient-gold,
