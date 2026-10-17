@@ -42,7 +42,7 @@ export async function generateMetadata({ params }) {
 
   if (!blog) {
     return {
-      title: "Blog Not Found | Chiku Cabs",
+      title: "Blog Not Found",
     };
   }
 
@@ -52,7 +52,7 @@ export async function generateMetadata({ params }) {
     blog.description;
 
   return {
-    title: `${blog.title} | Chiku Cabs`,
+    title: `${blog.title}`,
     description,
     openGraph: {
       title: blog.title,
