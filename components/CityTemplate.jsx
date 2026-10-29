@@ -24,6 +24,7 @@ import {
   Truck,
 } from "lucide-react";
 import { useState } from "react";
+import CustomerReviews from "./CustomerReviews";
 
 // ========== FAQ COMPONENT ==========
 function FAQItem({ question, answer, isOpen, onToggle }) {
@@ -823,7 +824,7 @@ export default function CityTemplate({
                   <Award size={14} /> {city.tag || "Premium Service"}
                 </div>
 
-                {/* ✅ SEO FIX #3: H1 uses "on Rent" + "Hire" naturally */}
+                {/* SEO FIX #3: H1 uses "on Rent" + "Hire" naturally */}
                 <h1
                   style={{
                     fontSize: "3rem",
@@ -839,7 +840,7 @@ export default function CityTemplate({
                   <span style={{ color: "#FFB800" }}>{city.name}</span>
                 </h1>
 
-                {/* ✅ SEO FIX #3: Body copy uses "rent" and "hire" naturally */}
+                {/* SEO FIX #3: Body copy uses "rent" and "hire" naturally */}
                 <p
                   style={{
                     color: "rgba(255,255,255,0.92)",
@@ -876,7 +877,7 @@ export default function CityTemplate({
                     <Star size={16} fill="#FFB800" color="#FFB800" /> 4.9/5
                     Rating
                   </span>
-                  {/* ✅ SEO FIX #7: Single consistent stat */}
+                  {/* SEO FIX #7: Single consistent stat */}
                   <span
                     style={{
                       display: "flex",
@@ -1061,7 +1062,7 @@ export default function CityTemplate({
                       <Users size={14} /> Seater Variant
                     </label>
 
-                    {/* ✅ SEO FIX #4: Dropdown options match actual fleet */}
+                    {/* SEO FIX #4: Dropdown options match actual fleet */}
                     <select
                       name="seaterVariant"
                       defaultValue={
@@ -1184,7 +1185,7 @@ export default function CityTemplate({
               >
                 <Award size={14} /> Our Fleet
               </div>
-              {/* ✅ SEO FIX #3: H2 uses "on Rent" */}
+              {/* SEO FIX #3: H2 uses "on Rent" */}
               <h2
                 style={{
                   fontSize: "2.3rem",
@@ -1243,7 +1244,7 @@ export default function CityTemplate({
                   >
                     <Image
                       src={model.image}
-                      // ✅ SEO FIX #9: Descriptive alt text with city
+                      // SEO FIX #9: Descriptive alt text with city
                       alt={`Force Urbania ${model.seater} seater on rent in ${city.name}`}
                       width={400}
                       height={220}
@@ -1451,7 +1452,7 @@ export default function CityTemplate({
                 <span>Why Hire Urbania</span>
               </div>
 
-              {/* ✅ SEO FIX #3: H2 uses "Rent" */}
+              {/* SEO FIX #3: H2 uses "Rent" */}
               <h2>Urbania Tempo Traveller on Rent in {city.name}</h2>
 
               <p>
@@ -1466,13 +1467,13 @@ export default function CityTemplate({
                 {
                   icon: <Users size={30} />,
                   title: "All Group Sizes",
-                  // ✅ SEO FIX #4: Seater list from actual fleet
+                  // SEO FIX #4: Seater list from actual fleet
                   desc: `${seaterList} seater options for every group.`,
                 },
                 {
                   icon: <MapPin size={30} />,
                   title: "Doorstep Pickup",
-                  // ✅ SEO FIX #12: City-specific pickup points
+                  // SEO FIX #12: City-specific pickup points
                   desc: `Pickup from ${cityPickupPoints.slice(0, 3).join(", ")} and more.`,
                 },
                 {
@@ -2786,200 +2787,7 @@ export default function CityTemplate({
         </section>
 
         {/* ===== CUSTOMER REVIEWS SECTION ===== */}
-        <section
-          className="section-padding"
-          style={{ padding: "4rem 0", background: "#ffffff" }}
-        >
-          <div
-            className="container"
-            style={{
-              maxWidth: "1280px",
-              margin: "0 auto",
-              padding: "0 1.5rem",
-            }}
-          >
-            <div
-              style={{
-                textAlign: "center",
-                maxWidth: "780px",
-                margin: "0 auto 3rem",
-              }}
-            >
-              <div
-                style={{
-                  display: "inline-flex",
-                  alignItems: "center",
-                  gap: "0.5rem",
-                  background: "#eef3ff",
-                  color: "#0052CC",
-                  padding: "0.25rem 1.2rem",
-                  borderRadius: "40px",
-                  fontSize: "0.8rem",
-                  fontWeight: 600,
-                }}
-              >
-                <Star size={14} /> Customer Reviews
-              </div>
-              <h2
-                style={{
-                  fontSize: "2.3rem",
-                  fontWeight: 700,
-                  margin: "0.5rem 0 0.75rem",
-                  color: "#0b1a2e",
-                }}
-              >
-                What Our Customers Say
-              </h2>
-              <p
-                style={{
-                  fontSize: "1.05rem",
-                  color: "#4a5a6e",
-                  lineHeight: "1.6",
-                }}
-              >
-                Real reviews from happy travelers who booked Urbania Tempo
-                Traveller on rent in {city.name}.
-              </p>
-            </div>
-
-            <div
-              style={{
-                display: "grid",
-                gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
-                gap: "2rem",
-              }}
-            >
-              {[
-                {
-                  name: "Rahul Sharma",
-                  location: city.name,
-                  rating: 5,
-                  text: `Excellent service! The Urbania was spotless and the driver was very professional. Highly recommend for group travel in ${city.name}.`,
-                  date: "2 weeks ago",
-                  avatar: "R",
-                },
-                {
-                  name: "Priya Patel",
-                  location: city.name,
-                  rating: 5,
-                  text: `Booked for a family trip from Delhi to ${city.name}. The vehicle was comfortable and the pricing was transparent. Will book again!`,
-                  date: "1 month ago",
-                  avatar: "P",
-                },
-                {
-                  name: "Amit Kumar",
-                  location: city.name,
-                  rating: 4,
-                  text: `Great experience with Urbania. The 12-seater was perfect for our corporate team outing in ${city.name}. Punctual and well-maintained.`,
-                  date: "3 weeks ago",
-                  avatar: "A",
-                },
-                {
-                  name: "Sneha Reddy",
-                  location: city.name,
-                  rating: 5,
-                  text: `We had an amazing trip to ${city.name} with Urbania. The vehicle was luxurious and the driver was very knowledgeable about local spots.`,
-                  date: "2 months ago",
-                  avatar: "S",
-                },
-              ].map((review, index) => (
-                <div
-                  key={index}
-                  style={{
-                    background: "#f9fafc",
-                    padding: "1.5rem",
-                    borderRadius: "20px",
-                    border: "1px solid #ecf0f7",
-                    transition: "all 0.3s ease",
-                  }}
-                  className="review-card"
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.transform = "translateY(-4px)";
-                    e.currentTarget.style.borderColor = "#0052CC";
-                    e.currentTarget.style.boxShadow =
-                      "0 12px 28px rgba(0, 82, 204, 0.08)";
-                    e.currentTarget.style.background = "#ffffff";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.transform = "translateY(0)";
-                    e.currentTarget.style.borderColor = "#ecf0f7";
-                    e.currentTarget.style.boxShadow = "none";
-                    e.currentTarget.style.background = "#f9fafc";
-                  }}
-                >
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.2rem",
-                      marginBottom: "0.5rem",
-                    }}
-                  >
-                    {[...Array(5)].map((_, i) => (
-                      <Star
-                        key={i}
-                        size={16}
-                        fill={i < review.rating ? "#FFB800" : "none"}
-                        color={i < review.rating ? "#FFB800" : "#d1d5db"}
-                      />
-                    ))}
-                  </div>
-                  <p
-                    style={{
-                      color: "#1a2634",
-                      fontSize: "0.95rem",
-                      lineHeight: "1.6",
-                      marginBottom: "1rem",
-                      fontStyle: "italic",
-                    }}
-                  >
-                    "{review.text}"
-                  </p>
-                  <div
-                    style={{
-                      display: "flex",
-                      alignItems: "center",
-                      gap: "0.8rem",
-                      borderTop: "1px solid #ecf0f7",
-                      paddingTop: "1rem",
-                    }}
-                  >
-                    <div
-                      style={{
-                        width: "40px",
-                        height: "40px",
-                        borderRadius: "50%",
-                        background: "#0052CC",
-                        color: "#fff",
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "center",
-                        fontWeight: 700,
-                        fontSize: "1rem",
-                      }}
-                    >
-                      {review.avatar}
-                    </div>
-                    <div>
-                      <div
-                        style={{
-                          fontWeight: 600,
-                          color: "#0b1a2e",
-                          fontSize: "0.95rem",
-                        }}
-                      >
-                        {review.name}
-                      </div>
-                      <div style={{ fontSize: "0.75rem", color: "#7a8a9e" }}>
-                        {review.date} · {review.location}
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+        <CustomerReviews/>
 
         {/* ===== GALLERY SECTION ===== */}
         <section
