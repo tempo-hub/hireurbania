@@ -7,7 +7,8 @@ import FareCalculator from '@/components/FareCalculator';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import RouteExplorer from '@/components/RouteExplorer';
 import TourPackages from '@/components/TourPackages';
-import { ReviewsSection, FaqSection } from '@/components/ReviewsSection';
+import CustomerReviews from '@/components/CustomerReviews';
+import { FaqSection } from '@/components/ReviewsSection';
 import BookingModal from '@/components/BookingModal';
 
 export default function HomePage() {
@@ -27,7 +28,7 @@ export default function HomePage() {
       <WhyChooseUs />
       <RouteExplorer onOpenModal={handleOpenModal} />
       <TourPackages onOpenModal={handleOpenModal} />
-      <ReviewsSection />
+      <CustomerReviews />
       <FaqSection />
       <BookingModal 
         isOpen={modalOpen} 
