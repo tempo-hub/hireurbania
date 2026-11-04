@@ -25,6 +25,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import CustomerReviews from "./CustomerReviews";
+import { getReviewsForCity } from "@/lib/reviewsData";
 
 // ========== FAQ COMPONENT ==========
 function FAQItem({ question, answer, isOpen, onToggle }) {
@@ -93,19 +94,6 @@ function FAQItem({ question, answer, isOpen, onToggle }) {
 
 // ========== SEO COMPONENT ==========
 function CitySeo({ city, faqs = [], fleet = [] }) {
-  // const fleetSeaters =
-  //   fleet.length > 0
-  //     ? [...new Set(fleet.map((f) => f.seater))].sort((a, b) => a - b)
-  //     : [9, 17];
-  // const seaterRange =
-  //   fleetSeaters.length > 1
-  //     ? `${fleetSeaters[0]}-${fleetSeaters[fleetSeaters.length - 1]}`
-  //     : `${fleetSeaters[0]}`;
-  // const seaterList =
-  //   fleetSeaters.length > 1
-  //     ? `${fleetSeaters.slice(0, -1).join(", ")} & ${fleetSeaters[fleetSeaters.length - 1]}`
-  //     : `${fleetSeaters[0]}`;
-
   const fleetSeaters = [9, 17];
 
   const seaterRange = `${fleetSeaters[0]}-${fleetSeaters[1]}`;
@@ -2786,8 +2774,11 @@ export default function CityTemplate({
           </div>
         </section>
 
-        {/* ===== CUSTOMER REVIEWS SECTION ===== */}
-        <CustomerReviews/>
+        <CustomerReviews
+          reviews={getReviewsForCity(city.name, 6)}
+          heading={`Traveller Reviews in ${city.name}`}
+          subheading={`What our customers say about travelling from ${city.name}`}
+        />
 
         {/* ===== GALLERY SECTION ===== */}
         <section
