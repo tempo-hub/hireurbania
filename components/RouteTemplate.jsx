@@ -42,8 +42,8 @@ import {
   Hotel,
 } from "lucide-react";
 import CityGuide from "./CityGuide";
-import Footer from "./Footer";
 import CustomerReviews from "./CustomerReviews";
+import { getReviewsForRoute } from "@/lib/reviewsData";
 import {
   getRoadType,
   getHighwayName,
@@ -127,7 +127,7 @@ function RouteSeo({ route }) {
     route.metaDescription ||
     `Book Force Urbania tempo traveller from ${route.origin} to ${route.destination}. ${route.distanceKm}km, ${route.durationHrs} journey with luxury seating, AC, and experienced chauffeurs.`;
 
-  // ✅ Auto-updated timestamp
+  // Auto-updated timestamp
   const lastUpdated = new Date().toLocaleDateString("en-IN", {
     year: "numeric",
     month: "long",
@@ -6138,8 +6138,11 @@ export default function RouteTemplate({
           </div>
         </section>
 
-        {/* ===== CUSTOMER REVIEWS SECTION ===== */}
-        <CustomerReviews />
+        <CustomerReviews
+          reviews={getReviewsForRoute(route.origin, route.destination, 6)}
+          heading={`Traveller Reviews — ${route.origin} to ${route.destination}`}
+          subheading={`Customer experiences on the ${route.origin} to ${route.destination} route`}
+        />
 
         {/* ===== RELATED ROUTES ===== */}
         <section
