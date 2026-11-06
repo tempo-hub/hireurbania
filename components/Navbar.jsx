@@ -103,7 +103,7 @@ export default function Navbar({ onOpenModal }) {
               </li>
 
               <li>
-                <Link href="/#calculator" className="nav-link">
+                <Link href="/urbania-fare-calculator" className="nav-link">
                   Fare Calculator
                 </Link>
               </li>

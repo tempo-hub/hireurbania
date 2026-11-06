@@ -324,7 +324,6 @@ export default function HeroSection({ onOpenModal }) {
 
             </form>
           </div>
-
         </div>
       </div>
     </section>

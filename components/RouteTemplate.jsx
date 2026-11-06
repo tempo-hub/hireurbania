@@ -126,9 +126,11 @@ function RouteSeo({ route }) {
   const description =
     route.metaDescription ||
     `Book Force Urbania tempo traveller from ${route.origin} to ${route.destination}. ${route.distanceKm}km, ${route.durationHrs} journey with luxury seating, AC, and experienced chauffeurs.`;
+  const seoUpdatedAt =
+    route?.updatedAt || route?.metaUpdatedAt || "2024-01-01T00:00:00.000Z";
 
-  // Auto-updated timestamp
-  const lastUpdated = new Date().toLocaleDateString("en-IN", {
+  // Stable timestamp for SSR and hydration consistency.
+  const lastUpdated = new Date(seoUpdatedAt).toLocaleDateString("en-IN", {
     year: "numeric",
     month: "long",
     day: "numeric",
@@ -142,7 +144,7 @@ function RouteSeo({ route }) {
       <meta property="og:description" content={description} />
       <meta property="og:type" content="website" />
       <meta property="og:locale" content="en_IN" />
-      <meta name="last-modified" content={new Date().toISOString()} />
+      <meta name="last-modified" content={seoUpdatedAt} />
       <link
         rel="canonical"
         href={`https://hireurbaniatempotraveller.com/routes/${route.routeSlug}`}
@@ -171,13 +173,13 @@ function RouteSeo({ route }) {
                 unitText: "km",
               },
             },
-            dateModified: new Date().toISOString(),
+            dateModified: seoUpdatedAt,
           }),
         }}
       />
 
-      {/* ✅ Visible timestamp for users (optional) */}
-      <meta name="article:modified_time" content={new Date().toISOString()} />
+      {/* Visible timestamp for users (optional) */}
+      <meta name="article:modified_time" content={seoUpdatedAt} />
       <span style={{ display: "none" }} data-last-updated={lastUpdated} />
     </>
   );

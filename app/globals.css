@@ -5047,7 +5047,7 @@ section[style*="rgba(14"] {
   line-height: 1.5;
 }
 
-.pickup-guide-list li :global(svg) {
+.pickup-guide-list li svg {
   flex-shrink: 0;
   color: #087c55;
   margin-top: 2px;
