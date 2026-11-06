@@ -1,5 +1,6 @@
 import { SITEMAP_ROUTES, CITY_HUBS, FLEET_MODELS, CITY_HUBS_WITH_LOCATIONS } from "@/lib/routesData";
 import CityTemplate from "@/components/CityTemplate";
+import UrbaniaFareCalculatorPage from "@/components/UrbaniaFareCalculatorPage";
 import { notFound, permanentRedirect } from "next/navigation";
 
 const SITE_URL = "https://hireurbaniatempotraveller.com";
@@ -7,13 +8,34 @@ const SITE_URL = "https://hireurbaniatempotraveller.com";
 export const revalidate = 86400;
 
 export function generateStaticParams() {
-  return CITY_HUBS.map((city) => ({
-    slug: city.slug,
-  }));
+  return [
+    ...CITY_HUBS.map((city) => ({
+      slug: city.slug,
+    })),
+    { slug: "urbania-fare-calculator" },
+  ];
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
+
+  if (slug === "urbania-fare-calculator") {
+    return {
+      metadataBase: new URL(SITE_URL),
+      title: "Urbania Fare Calculator | Hire Urbania",
+      description:
+        "Estimate the fare for your Force Urbania trip with transparent per-km pricing and driver allowance details.",
+      alternates: { canonical: `${SITE_URL}/urbania-fare-calculator` },
+      openGraph: {
+        title: "Urbania Fare Calculator | Hire Urbania",
+        description:
+          "Estimate the fare for your Force Urbania trip with transparent per-km pricing and driver allowance details.",
+        url: `${SITE_URL}/urbania-fare-calculator`,
+        siteName: "Hire Urbania",
+        type: "website",
+      },
+    };
+  }
 
   // Keep legacy route URLs redirected to their permanent route URLs.
   const route = SITEMAP_ROUTES.find((item) => item.routeSlug === slug);
@@ -101,6 +123,10 @@ export async function generateMetadata({ params }) {
 
 export default async function CityRootPage({ params }) {
   const { slug } = await params;
+
+  if (slug === "urbania-fare-calculator") {
+    return <UrbaniaFareCalculatorPage />;
+  }
 
   // Redirect legacy route slugs to their current canonical route.
   const route = SITEMAP_ROUTES.find((item) => item.routeSlug === slug);

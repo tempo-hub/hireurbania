@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { Phone, MessageSquare, MapPin, Mail } from "lucide-react";
+import { Phone, MessageSquare, Mail } from "lucide-react";
 import {
   FaFacebookF,
   FaInstagram,
