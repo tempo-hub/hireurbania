@@ -124,7 +124,7 @@ export async function generateMetadata({ params }) {
 export default async function CityRootPage({ params }) {
   const { slug } = await params;
 
-  if (slug === "urbania-fare-calculator") {
+  if (slug === "calculator") {
     return <UrbaniaFareCalculatorPage />;
   }
 
