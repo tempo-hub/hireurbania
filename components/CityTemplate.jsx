@@ -149,7 +149,7 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
     provider: {
       "@type": "TravelAgency",
       name: `Urbania Tempo Traveller ${city.name}`,
-      telephone: "+919151827941",
+      telephone: "+919417184683",
       areaServed: { "@type": "City", name: city.name },
     },
     areaServed: { "@type": "City", name: city.name },
@@ -180,7 +180,7 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
     name: `Urbania Tempo Traveller ${city.name}`,
     description: description,
     url: `https://hireurbaniatempotraveller.com/${city.slug}`,
-    telephone: "+919151827941",
+    telephone: "+919417184683",
     priceRange: "₹30-₹33 per km",
     image: "https://hireurbaniatempotraveller.com/images/images/hero.png",
     address: postalAddress,
@@ -530,7 +530,7 @@ function WhyBookFromUs({ cityName }) {
             </p>
           </div>
           <a
-            href={`https://wa.me/919151827941?text=${encodeURIComponent(`I want to hire a Force Urbania in ${cityName}`)}`}
+            href={`https://wa.me/919417184683?text=${encodeURIComponent(`I want to hire a Force Urbania in ${cityName}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -591,7 +591,7 @@ export default function CityTemplate({
   faqs = [],
   allCities = [],
 }) {
-  const whatsappNumber = "919151827941";
+  const whatsappNumber = "919417184683";
   const relatedRoutes = Array.isArray(routes) ? routes : [];
 
   const nearbyRoutes = [...relatedRoutes]

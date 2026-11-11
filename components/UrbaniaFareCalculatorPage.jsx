@@ -397,7 +397,7 @@ export default function UrbaniaFareCalculatorPage() {
             </a>
 
             <a
-              href="https://wa.me/919151827941?text=Hello%2C%20I%20want%20to%20enquire%20about%20Force%20Urbania%20rental."
+              href="https://wa.me/919417184683?text=Hello%2C%20I%20want%20to%20enquire%20about%20Force%20Urbania%20rental."
               target="_blank"
               rel="noopener noreferrer"
               className="border border-white text-white px-8 py-3.5 rounded-xl font-bold hover:bg-white/10 transition"

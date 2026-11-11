@@ -25,15 +25,30 @@ export default function HeroSection({ onOpenModal }) {
   const [date, setDate] = useState('');
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    onOpenModal({
-      tripType: activeTab,
-      origin: pickup,
-      destination: dest,
-      vehicle,
-      date,
-    });
+  const phoneNumber = "919417184683"; // Replace with your WhatsApp number
+
+  const message = `Hello, I want to enquire about a booking.
+
+Trip Type: ${activeTab}
+Pickup Location: ${pickup}
+Destination: ${dest}
+Vehicle: ${vehicle}
+Travel Date: ${date}
+
+Please share the booking details and fare.`;
+
+  const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+  // Reset all form fields
+  setPickup("");
+  setDest("");
+  setVehicle("");
+  setDate("");
+  setActiveTab("outstation"); // Set your default tab
+
+  window.open(whatsappURL, "_blank");
   };
 
   return (
