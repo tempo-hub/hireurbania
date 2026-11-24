@@ -193,7 +193,8 @@ export default function RouteTemplate({
   fleet,
   cityGuide,
 }) {
-  const whatsappNumber = "919417184683";
+  const whatsappNumber = "916280820037";
+  const callingNumber = "918448445504";
 
   const whatsappText = encodeURIComponent(
     `Booking Query for Force Urbania ${route.origin} to ${route.destination}`,
@@ -518,7 +519,7 @@ export default function RouteTemplate({
                     <MessageSquare size={20} /> Book on WhatsApp
                   </a>
                   <a
-                    href={`tel:+${whatsappNumber}`}
+                    href={`tel:+${callingNumber}`}
                     className="btn btn-outline"
                     style={{
                       display: "inline-flex",
@@ -798,12 +799,10 @@ export default function RouteTemplate({
                     <Image
                       src={model.image}
                       alt={model.name}
-                      width={400}
-                      height={220}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 400px"
                       className="fleet-image"
                       style={{
-                        width: "100%",
-                        height: "100%",
                         objectFit: "cover",
                         transition: "transform 0.5s ease",
                       }}
@@ -4601,7 +4600,7 @@ export default function RouteTemplate({
                   <MessageSquare size={20} /> Get Custom Quote
                 </a>
                 <a
-                  href={`tel:+${whatsappNumber}`}
+                  href={`tel:+${callingNumber}`}
                   style={{
                     display: "inline-flex",
                     alignItems: "center",
@@ -7545,7 +7544,7 @@ export default function RouteTemplate({
 
               {/* Phone Button */}
               <a
-                href={`tel:+${whatsappNumber}`}
+                href={`tel:+${callingNumber}`}
                 style={{
                   display: "inline-flex",
                   alignItems: "center",

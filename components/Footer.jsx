@@ -12,7 +12,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { CITY_HUBS } from "@/lib/routesData";
 
 export default function Footer({ onOpenModal }) {
-  const whatsappNumber = "919417184683";
+  const whatsappNumber = "916280820037";
+  const callingNumber = "918448445504";
 
   return (
     <footer className="site-footer">
@@ -77,7 +78,7 @@ export default function Footer({ onOpenModal }) {
               </a>
 
               <a
-                href="tel:+919417184683"
+                href={`tel:+${callingNumber}`}
                 className="call-helpline-btn"
                 style={{
                   display: "inline-flex",
@@ -382,7 +383,7 @@ export default function Footer({ onOpenModal }) {
                 style={{ display: "flex", gap: "0.6rem", alignItems: "center" }}
               >
                 <a
-                  href="tel:+919417184683"
+                  href={`tel:+${callingNumber}`}
                   style={{
                     display: "flex",
                     gap: "0.6rem",
@@ -392,7 +393,7 @@ export default function Footer({ onOpenModal }) {
                   }}
                 >
                   <Phone size={16} style={{ color: "var(--blue-400)" }} />
-                  <span>+91 9417184683</span>
+                  <span>+91 8448445504</span>
                 </a>
               </div>
 

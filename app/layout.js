@@ -92,7 +92,7 @@ export default function RootLayout({ children }) {
     image: "https://hireurbaniatempotraveller.com/images/hero.png",
     description:
       "Premier Force Urbania luxury van rental service across India. 9 to 20 seater variants available for outstation, pilgrimage, and corporate tours.",
-    telephone: "+919417184683",
+    telephone: "+918448445504",
     priceRange: "₹26 - ₹38 per km",
     address: {
       "@type": "PostalAddress",
@@ -124,7 +124,12 @@ export default function RootLayout({ children }) {
   };
 
   return (
-    <html lang="en" className="scroll-smooth" suppressHydrationWarning>
+    <html
+      lang="en"
+      className="scroll-smooth"
+      data-scroll-behavior="smooth"
+      suppressHydrationWarning
+    >
       <head>
         <script
           type="application/ld+json"
