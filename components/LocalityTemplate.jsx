@@ -92,7 +92,8 @@ export default function LocalityTemplate({
   cityHubSlug = null,
 }) {
   const { cityName, description } = locality;
-  const whatsappNumber = "919417184683";
+  const whatsappNumber = "916280820037";
+  const callingNumber = "918448445504";
   const [openFAQIndex, setOpenFAQIndex] = useState(null);
 
   const placeLabel = `${locality.locality}, ${locality.cityName}`;
@@ -315,7 +316,7 @@ export default function LocalityTemplate({
                   <MessageSquare size={20} /> Get Instant Fare
                 </a>
                 <a
-                  href={`tel:+${whatsappNumber}`}
+                  href={`tel:+${callingNumber}`}
                   style={{
                     display: "inline-flex",
                     alignItems: "center",
@@ -600,12 +601,10 @@ export default function LocalityTemplate({
                     <Image
                       src={model.image}
                       alt={model.name}
-                      width={400}
-                      height={220}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 400px"
                       className="fleet-image"
                       style={{
-                        width: "100%",
-                        height: "100%",
                         objectFit: "cover",
                       }}
                     />

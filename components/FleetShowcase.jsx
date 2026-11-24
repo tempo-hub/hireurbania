@@ -67,7 +67,8 @@ export default function FleetShowcase({ onOpenModal }) {
                     <span key={i} className="mini-tag"><Check size={12} /> {f}</span>
                   ))}
                 </div>
-
+              </div>
+              <div className="fleet-body fleet-card-footer">
                 <div className="fleet-footer">
                   <div className="fleet-rate">
                     <span className="rate-amount">₹{model.ratePerKm}</span>

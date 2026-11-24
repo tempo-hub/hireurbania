@@ -8,7 +8,8 @@ import Image from "next/image";
 export default function Navbar({ onOpenModal }) {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const whatsappNumber = "919417184683";
+  const whatsappNumber = "916280820037";
+  const callingNumber = "918448445504";
 
   const whatsappText =
     "Hi, I want to get an instant quote for a Force Urbania Tempo Traveller.";
@@ -83,6 +84,7 @@ export default function Navbar({ onOpenModal }) {
               width={211}
               height={45}
               className="logo-img"
+              style={{ width: "211px", height: "auto" }}
               priority
             />
           </Link>
@@ -138,12 +140,12 @@ export default function Navbar({ onOpenModal }) {
           <div className="nav-cta-group">
             {/* Phone */}
             <a
-              href="tel:+919417184683"
+              href={`tel:+${callingNumber}`}
               className="phone-quicklink"
               title="Call 24/7 Helpline"
             >
               <Phone size={17} />
-              <span>+91 94171 84683</span>
+              <span>+91 8448445504</span>
             </a>
 
             {/* Instant Quote */}

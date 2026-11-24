@@ -118,7 +118,7 @@ export default async function LocalityPage({ params }) {
     },
     areaServed: `${data.locality}, ${data.cityName}`,
     serviceType: "Tempo Traveller Rental",
-    telephone: "+919417184683",
+    telephone: "+918448445504",
     url: `https://hireurbaniatempotraveller.com/${data.city}/${data.slug}`,
   };
 

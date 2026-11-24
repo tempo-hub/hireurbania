@@ -149,7 +149,7 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
     provider: {
       "@type": "TravelAgency",
       name: `Urbania Tempo Traveller ${city.name}`,
-      telephone: "+919417184683",
+      telephone: "+918448445504",
       areaServed: { "@type": "City", name: city.name },
     },
     areaServed: { "@type": "City", name: city.name },
@@ -180,7 +180,7 @@ function CitySeo({ city, faqs = [], fleet = [] }) {
     name: `Urbania Tempo Traveller ${city.name}`,
     description: description,
     url: `https://hireurbaniatempotraveller.com/${city.slug}`,
-    telephone: "+919417184683",
+    telephone: "+918448445504",
     priceRange: "₹30-₹33 per km",
     image: "https://hireurbaniatempotraveller.com/images/images/hero.png",
     address: postalAddress,
@@ -530,7 +530,7 @@ function WhyBookFromUs({ cityName }) {
             </p>
           </div>
           <a
-            href={`https://wa.me/919417184683?text=${encodeURIComponent(`I want to hire a Force Urbania in ${cityName}`)}`}
+            href={`https://wa.me/916280820037?text=${encodeURIComponent(`I want to hire a Force Urbania in ${cityName}`)}`}
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -591,7 +591,8 @@ export default function CityTemplate({
   faqs = [],
   allCities = [],
 }) {
-  const whatsappNumber = "919417184683";
+  const whatsappNumber = "916280820037";
+  const callingNumber = "918448445504";
   const relatedRoutes = Array.isArray(routes) ? routes : [];
 
   const nearbyRoutes = [...relatedRoutes]
@@ -920,7 +921,7 @@ export default function CityTemplate({
                     <MessageSquare size={20} /> Get Instant Quote
                   </a>
                   <a
-                    href={`tel:+${whatsappNumber}`}
+                    href={`tel:+${callingNumber}`}
                     className="btn btn-outline"
                     style={{
                       display: "inline-flex",
@@ -1234,12 +1235,10 @@ export default function CityTemplate({
                       src={model.image}
                       // SEO FIX #9: Descriptive alt text with city
                       alt={`Force Urbania ${model.seater} seater on rent in ${city.name}`}
-                      width={400}
-                      height={220}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 400px"
                       className="fleet-img"
                       style={{
-                        width: "100%",
-                        height: "100%",
                         objectFit: "cover",
                         transition: "transform 0.5s ease",
                       }}

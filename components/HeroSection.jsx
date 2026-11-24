@@ -17,7 +17,7 @@ import {
 } from 'lucide-react';
 import { CITY_HUBS } from '@/lib/routesData';
 
-export default function HeroSection({ onOpenModal }) {
+export default function HeroSection() {
   const [activeTab, setActiveTab] = useState('outstation');
   const [pickup, setPickup] = useState('');
   const [dest, setDest] = useState('');
@@ -27,7 +27,7 @@ export default function HeroSection({ onOpenModal }) {
   const handleSubmit = (e) => {
   e.preventDefault();
 
-  const phoneNumber = "919417184683"; // Replace with your WhatsApp number
+  const phoneNumber = "916280820037"; // Replace with your WhatsApp number
 
   const message = `Hello, I want to enquire about a booking.
 

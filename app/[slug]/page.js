@@ -12,25 +12,25 @@ export function generateStaticParams() {
     ...CITY_HUBS.map((city) => ({
       slug: city.slug,
     })),
-    { slug: "urbania-fare-calculator" },
+    { slug: "calculator" },
   ];
 }
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
 
-  if (slug === "urbania-fare-calculator") {
+  if (slug === "calculator") {
     return {
       metadataBase: new URL(SITE_URL),
       title: "Urbania Fare Calculator | Hire Urbania",
       description:
         "Estimate the fare for your Force Urbania trip with transparent per-km pricing and driver allowance details.",
-      alternates: { canonical: `${SITE_URL}/urbania-fare-calculator` },
+      alternates: { canonical: `${SITE_URL}/calculator` },
       openGraph: {
         title: "Urbania Fare Calculator | Hire Urbania",
         description:
           "Estimate the fare for your Force Urbania trip with transparent per-km pricing and driver allowance details.",
-        url: `${SITE_URL}/urbania-fare-calculator`,
+        url: `${SITE_URL}/calculator`,
         siteName: "Hire Urbania",
         type: "website",
       },
@@ -184,4 +184,3 @@ export default async function CityRootPage({ params }) {
     </>
   );
 }
-
