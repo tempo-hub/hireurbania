@@ -2844,27 +2844,27 @@ export default function CityTemplate({
             >
               {[
                 {
-                  src: "/images/images/Force-Urbania-9-Seater.png",
+                  src: "/images/Force-Urbania-9-Seater.png",
                   alt: `Force Urbania 9 seater exterior parked at ${city.name} pickup point`,
                 },
                 {
-                  src: "/images/images/Force-Urbania-12-Seater.png",
+                  src: "/images/Force-Urbania-12-Seater.png",
                   alt: `Force Urbania 12 seater side view available on rent in ${city.name}`,
                 },
                 {
-                  src: "/images/images/Force-Urbania-16-Seater.png",
+                  src: "/images/Force-Urbania-16-Seater.png",
                   alt: `Force Urbania 16 seater group travel vehicle in ${city.name}`,
                 },
                 {
-                  src: "/images/images/interior.png",
+                  src: "/images/interior.png",
                   alt: `Pushback recliner seats inside Force Urbania rented in ${city.name}`,
                 },
                 {
-                  src: "/images/images/hero.png",
+                  src: "/images/hero.png",
                   alt: `Force Urbania fleet ready for outstation trips from ${city.name}`,
                 },
                 {
-                  src: "/images/images/fleet.png",
+                  src: "/images/fleet.png",
                   alt: `Multiple Force Urbania vehicles for wedding and corporate travel in ${city.name}`,
                 },
               ].map((img, index) => (
