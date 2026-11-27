@@ -1,6 +1,11 @@
 import { SITEMAP_ROUTES, CITY_HUBS } from '@/lib/routesData';
 import { BLOGS, getCategorySlug } from '@/lib/blogs';
 import { localityData } from '@/lib/localityData';
+import { connectDB, hasMongoConfig } from '@/lib/mongodb';
+import Blog from '@/models/Blog';
+
+export const dynamic = 'force-dynamic';
+export const revalidate = 0;
 
 export default async function sitemap() {
   const baseUrl = 'https://hireurbaniatempotraveller.com';
@@ -41,14 +46,20 @@ export default async function sitemap() {
     priority: slug === 'contact-us' ? 0.8 : 0.5,
   }));
 
-  const blogEntries = BLOGS.map((blog) => ({
+  let blogs = BLOGS;
+  if (hasMongoConfig()) {
+    await connectDB();
+    blogs = await Blog.find().select('slug category createdAt').lean();
+  }
+
+  const blogEntries = blogs.map((blog) => ({
     url: `${baseUrl}/blogs/${blog.slug}`,
     lastModified: blog.createdAt ? new Date(blog.createdAt) : new Date(),
     changeFrequency: 'monthly',
     priority: 0.6,
   }));
 
-  const blogCategoryEntries = [...new Set(BLOGS.map((b) => getCategorySlug(b.category)))].map(
+  const blogCategoryEntries = [...new Set(blogs.map((b) => getCategorySlug(b.category)))].map(
     (categorySlug) => ({
       url: `${baseUrl}/blogs/category/${categorySlug}`,
       lastModified: new Date(),
